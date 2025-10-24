@@ -130,6 +130,14 @@ GitHub Actions工作流配置文件位于 `.github/workflows/rss-fetcher.yml`，
 }
 ```
 
+## 如何使用
+
+你可以直接使用 `rss-merged.json` 文件，它包含了所有RSS源的合并数据。
+
+例如，你可以使用以下URL获取json数据：
+
+https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-sources.json
+
 ## 许可证
 
 MIT License
