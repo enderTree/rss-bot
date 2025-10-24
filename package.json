@@ -1,0 +1,21 @@
+{
+  "name": "rss-bot",
+  "version": "1.0.0",
+  "description": "A GitHub Action bot that fetches RSS feeds and generates JSON files",
+  "main": "fetch-rss.js",
+  "scripts": {
+    "start": "node fetch-rss.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "github-actions",
+    "bot",
+    "json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

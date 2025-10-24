@@ -1,0 +1,12 @@
+[
+  {
+    "name": "阮一峰的网络日志",
+    "url": "http://www.ruanyifeng.com/blog/atom.xml",
+    "description": "阮一峰的科技博客"
+  },
+  {
+    "name": "王叨叨",
+    "url": "https://wangdaodao.com/feed/atom/",
+    "description": "无叨叨，不博客！不懂用户体验的前端不是好爸爸"
+  }
+]
