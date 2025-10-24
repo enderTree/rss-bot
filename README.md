@@ -136,7 +136,9 @@ GitHub Actions工作流配置文件位于 `.github/workflows/rss-fetcher.yml`，
 
 例如，你可以使用以下URL获取json数据：
 
-https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-sources.json
+https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-merged.json
+
+https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-data.json
 
 ## 许可证
 
