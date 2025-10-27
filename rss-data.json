@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-10-26T01:57:16.239Z",
+  "lastUpdated": "2025-10-27T02:01:30.749Z",
   "totalSources": 2,
   "sources": [
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2025-10-26T01:57:15.986Z",
+      "lastUpdated": "2025-10-27T02:01:30.502Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 370 期）：正确的代码高亮",
@@ -42,13 +42,13 @@
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2025-10-26T01:57:16.239Z",
+      "lastUpdated": "2025-10-27T02:01:30.749Z",
       "items": [
         {
           "title": "使用GitHub Action定时抓取RSS",
           "link": "https://wangdaodao.com/20251024/rss-bot.html",
           "pubDate": "2025-10-24T03:12:00.000Z",
-          "content": "\n<p>大家好，今天是1024程序员节，先祝各位程序员朋友们节日快乐！</p><p>最近浏览了不少博客，发现很多站长都在为友链添加 RSS 聚合功能，方便展示友链的最新动态。另外还看到有位博主，直接用自己的服务器搭建了一个 RSS 订阅服务，免费开放给大家使用：<a href=\"https://www.jeffer.xyz/cid/3169.html\">https://www.jeffer.xyz/cid/3169.html</a>。这种乐于分享的精神非常值得点赞👍，尤其照顾了很多刚入门的朋友。</p><p>这类服务对大多数博主来说确实很友好，不过考虑到服务器资源成本和长期稳定性，如果能自己动手搭一个免费的 RSS 抓取服务，不仅更可控，也能更灵活地满足个性化需求。</p><p>说到免费服务，程序员朋友们对 GitHub 一定不陌生。我现在不少服务都是托管在 GitHub 上，借助 GitHub Actions 实现自动化任务。比如之前为公司搭建的微信机器人，就是通过 GitHub Actions 定时抓取新闻并推送到群里的。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251024/rss-bot.html\" title=\"使用GitHub Action定时抓取RSS\">[...]</a></p>\n",
+          "content": "\n<p>大家好，今天是1024程序员节，先祝各位程序员朋友们节日快乐！</p><p>最近浏览了不少博客，发现很多站长都在为友链添加 RSS 聚合功能，方便展示友链的最新动态。另外还看到有位博主，直接用自己的服务器搭建了一个 RSS 订阅服务，免费开放给大家使用：<a href=\"https://www.jeffer.xyz/cid/3169.html\">https://www.jeffer.xyz/cid/3169.html</a>。这种乐于分享的精神非常值得点赞👍，尤其照顾了很多刚入门的朋友。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251024/rss-bot.html\" title=\"使用GitHub Action定时抓取RSS\">[...]</a></p>\n",
           "author": "王叨叨",
           "categories": [],
           "source": "王叨叨",
@@ -58,7 +58,7 @@
           "title": "给Typecho增加文章置顶功能",
           "link": "https://wangdaodao.com/20251022/typecho-sticky-post.html",
           "pubDate": "2025-10-22T13:18:00.000Z",
-          "content": "\n<p>在逛博客的时候，发现资深网民孙先生写了一篇：<a href=\"https://www.imsun.org/archives/1745.html\">Typecho文章置顶(非插件)</a>，看了下实现思路发现是在 <code>functions.php</code> 添加主题设置项，然后写完文章之后，在设置项中把文章的id放进去来实现的置顶。</p><p>其实这个就是仁者见仁智者见智了，我觉得还是在管理文章的时候，设置比较合适，毕竟不想找文章的id，然后再去主题设置那里去搞，步骤比较繁琐。</p><p>Typecho其实是在发布文章时可以添加自定义字段，通过自定义字段去给文章做一些特殊配置是比较合适的，而且这个字段是跟文章保存的，后面导出或者迁移，这些字段也是很方便的备份出来。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251022/typecho-sticky-post.html\" title=\"给Typecho增加文章置顶功能\">[...]</a></p>\n",
+          "content": "\n<p>在逛博客的时候，发现资深网民孙先生写了一篇：<a href=\"https://www.imsun.org/archives/1745.html\">Typecho文章置顶(非插件)</a>，看了下实现思路发现是在 <code>functions.php</code> 添加主题设置项，然后写完文章之后，在设置项中把文章的id放进去来实现的置顶。</p><p>诚然，对于此问题，不同的人或许持有不同的看法，这便是一个典型的“仁者见仁，智者见智”的议题。然而，从个人角度出发，我更倾向于认为，在管理文章的功能模块中直接设置相关选项会更为便捷和人性化。毕竟，若要用户先费力地去寻找文章的唯一标识符（即ID），然后再跳转至主题设置页面进行相应的配置，这样分步操作的方式无疑显得有些繁琐，不仅增加了用户的使用负担，也可能在一定程度上降低了整体的操作效率。因此，将设置功能嵌入到文章管理流程中，可以显著简化操作步骤，提升用户体验。</p><p>Typecho其实是在发布文章时可以添加自定义字段，通过自定义字段去给文章做一些特殊配置是比较合适的，而且这个字段是跟文章保存的，后面导出或者迁移，这些字段也是很方便的备份出来。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251022/typecho-sticky-post.html\" title=\"给Typecho增加文章置顶功能\">[...]</a></p>\n",
           "author": "王叨叨",
           "categories": [],
           "source": "王叨叨",
