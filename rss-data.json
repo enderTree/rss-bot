@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-10-27T02:01:30.749Z",
+  "lastUpdated": "2025-10-28T01:51:05.524Z",
   "totalSources": 2,
   "sources": [
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2025-10-27T02:01:30.502Z",
+      "lastUpdated": "2025-10-28T01:51:05.171Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 370 期）：正确的代码高亮",
@@ -42,8 +42,18 @@
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2025-10-27T02:01:30.749Z",
+      "lastUpdated": "2025-10-28T01:51:05.524Z",
       "items": [
+        {
+          "title": "周末随笔",
+          "link": "https://wangdaodao.com/20251027/weekend-musings.html",
+          "pubDate": "2025-10-27T04:43:00.000Z",
+          "content": "\n<p>这个周末没有加班，正好家里的小程序员要参加比赛，于是今天上午的身份就是司机。</p><p>清晨六点半，我整理好装备准备前往比赛地点，途中便向儿子询问了关于其日常代码编写习惯的问题，包括调试方法、日志打印的实践以及变量命名的规范。然而，作为初涉编程领域的新手，他对这些要素的重要性缺乏认识，代码编写显得较为随意。唉，看来他在基本编程素养方面仍需进一步学习和提升。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251027/weekend-musings.html\" title=\"周末随笔\">[...]</a></p>\n",
+          "author": "王叨叨",
+          "categories": [],
+          "source": "王叨叨",
+          "sourceUrl": "https://wangdaodao.com/feed/atom/"
+        },
         {
           "title": "使用GitHub Action定时抓取RSS",
           "link": "https://wangdaodao.com/20251024/rss-bot.html",
@@ -129,16 +139,6 @@
           "link": "https://wangdaodao.com/20240523/summer-is-coming.html",
           "pubDate": "2024-05-23T12:31:00.000Z",
           "content": "\n<p>时间过的太快，距离上次更新已经过去了半年。草稿箱里面的文章也有几篇写了没有发，最早的竟然能够追到2019年，谁知道之后就有了疫情呢……</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2024/05/3536591517.png\" alt=\"文章草稿列表\" title=\"文章草稿列表\"></p><p class=\"more\"><a href=\"https://wangdaodao.com/20240523/summer-is-coming.html\" title=\"夏天到了\">[...]</a></p>\n",
-          "author": "王叨叨",
-          "categories": [],
-          "source": "王叨叨",
-          "sourceUrl": "https://wangdaodao.com/feed/atom/"
-        },
-        {
-          "title": "罗技M330雷蛇RZ01-0254鼠标微动更换",
-          "link": "https://wangdaodao.com/20231111/mouse-maintenance.html",
-          "pubDate": "2023-11-11T03:02:00.000Z",
-          "content": "\n<p>最近同事的鼠标接二连三的出现了问题，一个是罗技M330鼠标，用了一年点击不好使了，另一个是雷蛇的RZ01-0254两年的微动单击变双击了。本着能修就坚决不买的原则，低成本的解决问题。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20231111/mouse-maintenance.html\" title=\"罗技M330雷蛇RZ01-0254鼠标微动更换\">[...]</a></p>\n",
           "author": "王叨叨",
           "categories": [],
           "source": "王叨叨",
