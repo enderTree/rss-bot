@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2025-10-29T01:57:59.321Z",
+  "lastUpdated": "2025-10-30T01:57:17.521Z",
   "totalItems": 13,
   "items": [
+    {
+      "title": "折腾一个Typecho 360全景插件",
+      "link": "https://wangdaodao.com/20251030/1445.html",
+      "pubDate": "2025-10-30T00:46:00.000Z",
+      "content": "\n<p>前几天逛博客，发现夜枫的博客还支持全景图了，于是看了看源码，发现是用<a href=\"https://pannellum.org/\">Pannellum</a>这个插件实现的，研究了下代码，发现实现起来很简单于是动手写了一个全景图插件，目前插件只支持一张图片。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251030/1445.html\" title=\"折腾一个Typecho 360全景插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "3I/ATLAS到底是什么",
+      "link": "https://wangdaodao.com/20251029/3I-ATLAS.html",
+      "pubDate": "2025-10-29T09:32:00.000Z",
+      "content": "\n<p>2025年，我们的太阳系迎来了一位极其罕见的访客——<strong>星际彗星3I/ATLAS</strong>。这是人类迄今为止发现的<strong>第三个确认的星际天体</strong>，一个来自其他恒星系统的“旅行者”。它的到来不仅为天文学家提供了研究系外物质的宝贵机会，也因其一些不寻常的特性，引发了关于其本质的激烈争论，甚至让人联想到是否可能是外星科技的产物。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251029/3I-ATLAS.html\" title=\"3I/ATLAS到底是什么\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
     {
       "title": "周末随笔",
       "link": "https://wangdaodao.com/20251027/weekend-musings.html",
@@ -107,26 +127,6 @@
       "link": "https://wangdaodao.com/20241201/racknerd-vps.html",
       "pubDate": "2024-12-01T09:34:00.000Z",
       "content": "\n<p>之前一直使用的是搬瓦工的一台服务器，内存小的可怜，动不动就爆了，但是又不想换国内的，所以一直在勉强的顶着。最近发现RackNerd VPS正好有黑五优惠，网上也查了下褒贬不一，RackNerd 主要是性价比卖点，便宜量大管饱，所以干脆入手一台，反正也不贵。搬瓦工那台服务器速度还不错，如果有人需要可以转让。</p><p>RackNerd成立于2019年，美国商家，主要提供虚拟主机、VPS主机和服务器等。数据中心在圣何塞、洛杉矶、达拉斯和芝加哥等美国和欧洲等地。目前主要销售洛杉矶mc机房和洛杉矶鲨鱼机房两个数据中心VPS，两者都属于亚洲优化的中低端线路，优势是价格低廉、流量比较多，采用主流的SolusVM控制面板，非常适合海外建站等业务。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20241201/racknerd-vps.html\" title=\"又入手了一台VPS\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "webpack5打包时生成LICENSE文件",
-      "link": "https://wangdaodao.com/20240730/terser-webpack-plugin.html",
-      "pubDate": "2024-07-30T05:24:00.000Z",
-      "content": "\n<p>最近在给组件底层脚手架升级，同时也把webpack4升级到了webpack5，但是发现升级后打包会生成LICENSE文件：</p><p><img src=\"https://wangdaodao.com/usr/uploads/2024/07/1560873938.png\" alt=\"生成的LICENSE文件\" title=\"生成的LICENSE文件\"></p><p>查阅官网资料，找到了解决办法：</p><p><a href=\"https://webpack.docschina.org/plugins/terser-webpack-plugin/#extractcomments\">https://webpack.docschina.org/plugins/terser-webpack-plugin/#extractcomments</a></p><p>在<code>webpack.config.js</code>中修改配置：</p><pre><code class=\"lang-js\">const TerserPlugin = require(&quot;terser-webpack-plugin&quot;)\nmodule.exports = {\n    optimization: {\n        minimize: true,\n        minimizer: [new TerserPlugin({\n           extractComments: false, //不将注释提取到单独的文件中\n        })],\n    },\n}</code></pre><p>修改之前，再次打包即可。</p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "夏天到了",
-      "link": "https://wangdaodao.com/20240523/summer-is-coming.html",
-      "pubDate": "2024-05-23T12:31:00.000Z",
-      "content": "\n<p>时间过的太快，距离上次更新已经过去了半年。草稿箱里面的文章也有几篇写了没有发，最早的竟然能够追到2019年，谁知道之后就有了疫情呢……</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2024/05/3536591517.png\" alt=\"文章草稿列表\" title=\"文章草稿列表\"></p><p class=\"more\"><a href=\"https://wangdaodao.com/20240523/summer-is-coming.html\" title=\"夏天到了\">[...]</a></p>\n",
       "author": "王叨叨",
       "categories": [],
       "source": "王叨叨",
