@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2025-11-01T01:57:38.038Z",
+  "lastUpdated": "2025-11-02T02:00:17.264Z",
   "totalItems": 13,
   "items": [
+    {
+      "title": "开源Bilibili播放器插件",
+      "link": "https://wangdaodao.com/20251101/typecho-bilibili-player.html",
+      "pubDate": "2025-11-01T06:43:00.000Z",
+      "content": "\n<p>小试牛刀，开源Bilibili播放器插件，后面还有几个插件正在调整，分别是：</p><ul><li>Panorama：在文章中嵌入全景图</li><li>AMapPlugin：高德地图插件</li><li>AMapRoutePlugin：高德地图路径规划插件</li><li>AdminStyle：Typecho后台样式修改插件</li></ul><p class=\"more\"><a href=\"https://wangdaodao.com/20251101/typecho-bilibili-player.html\" title=\"开源Bilibili播放器插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
     {
       "title": "科技爱好者周刊（第 371 期）：一个乐观主义者的专访",
       "link": "http://www.ruanyifeng.com/blog/2025/10/weekly-issue-371.html",
@@ -117,16 +127,6 @@
       "link": "https://wangdaodao.com/20250928/blog-feat-ai-summary.html",
       "pubDate": "2025-09-28T12:53:00.000Z",
       "content": "\n<p>随着AI的发展，越来越多的事物都在接入AI，看了几个博客都有接入AI了，咱也尝试一下。</p><p>这里我推荐<a href=\"https://github.com/Rockytkg/AIContentSummary\">AIContentSummary</a>这个插件，在发布文章的时候，自动生成摘要。我现在用的是<a href=\"https://www.bigmodel.cn/invite?icode=TOGVKhfOyCCvFJE5FzOuUJmwcr074zMJTpgMb8zZZvg\">智谱AI</a>，他最近注册有送一些，而且GLM-4.5-Flash模型是免费。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20250928/blog-feat-ai-summary.html\" title=\"给博客增加点小功能\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "又入手了一台VPS",
-      "link": "https://wangdaodao.com/20241201/racknerd-vps.html",
-      "pubDate": "2024-12-01T09:34:00.000Z",
-      "content": "\n<p>之前一直使用的是搬瓦工的一台服务器，内存小的可怜，动不动就爆了，但是又不想换国内的，所以一直在勉强的顶着。最近发现RackNerd VPS正好有黑五优惠，网上也查了下褒贬不一，RackNerd 主要是性价比卖点，便宜量大管饱，所以干脆入手一台，反正也不贵。搬瓦工那台服务器速度还不错，如果有人需要可以转让。</p><p>RackNerd成立于2019年，美国商家，主要提供虚拟主机、VPS主机和服务器等。数据中心在圣何塞、洛杉矶、达拉斯和芝加哥等美国和欧洲等地。目前主要销售洛杉矶mc机房和洛杉矶鲨鱼机房两个数据中心VPS，两者都属于亚洲优化的中低端线路，优势是价格低廉、流量比较多，采用主流的SolusVM控制面板，非常适合海外建站等业务。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20241201/racknerd-vps.html\" title=\"又入手了一台VPS\">[...]</a></p>\n",
       "author": "王叨叨",
       "categories": [],
       "source": "王叨叨",
