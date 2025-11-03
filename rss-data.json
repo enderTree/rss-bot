@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-11-02T02:00:17.262Z",
+  "lastUpdated": "2025-11-03T01:59:27.937Z",
   "totalSources": 2,
   "sources": [
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2025-11-02T02:00:16.855Z",
+      "lastUpdated": "2025-11-03T01:59:27.634Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 371 期）：一个乐观主义者的专访",
@@ -42,7 +42,7 @@
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2025-11-02T02:00:17.262Z",
+      "lastUpdated": "2025-11-03T01:59:27.937Z",
       "items": [
         {
           "title": "开源Bilibili播放器插件",
