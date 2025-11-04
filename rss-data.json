@@ -1,12 +1,22 @@
 {
-  "lastUpdated": "2025-11-03T01:59:27.937Z",
+  "lastUpdated": "2025-11-04T01:54:47.888Z",
   "totalSources": 2,
   "sources": [
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2025-11-03T01:59:27.634Z",
+      "lastUpdated": "2025-11-04T01:54:47.272Z",
       "items": [
+        {
+          "title": "大模型比拼：MiniMax M2 vs GLM 4.6 vs Claude Sonnet 4.5",
+          "link": "http://www.ruanyifeng.com/blog/2025/11/minimax-m2.html",
+          "pubDate": "2025-11-04T00:21:31.000Z",
+          "content": "\n        <p>一、</p>\n\n<p>上个月，我写了<a href=\"https://www.ruanyifeng.com/blog/2025/10/glm-4.6.html\">一篇文章</a>，比较了两个大模型。</p>\n\n        <p>就有人留言，两个模型太少了，能不能加入其他模型？</p>\n\n<p>正好上周（10月27日），MiniMax 公司<a href=\"https://www.minimaxi.com/news/minimax-m2\">发布了</a> M2 模型，代表了国产大模型的最新水平。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110301.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我就想，可以测测它的实战效果，跟智谱公司的 GLM 4.6 和 Anthropic 公司的 Claude Sonnet 4.5 对比一下。</p>\n\n<p>毕竟它们都属于目前最先进的编程大模型，跟我们开发者切身相关。</p>\n\n<p>二、</p>\n\n<p>先要说明，其实我不太熟悉 <a href=\"https://www.minimaxi.com/\">MiniMax 公司</a>，它比较低调。</p>\n\n<p>我只知道，这家公司专门研发大模型，产品有文本模型、视频模型、音频模型等等，但都不是非常热门。我就没有特别关注。</p>\n\n<p>上周，我在滑推特的时候，看到一些老外在议论（<a href=\"https://x.com/reach_vb/status/1982705125157126590\">1</a>、<a href=\"https://x.com/ivanfioravanti/status/1982103760819064967\">2</a>、<a href=\"https://x.com/simonw/status/1982825075553493136\">3</a>），这才知道 MiniMax 发布了新的旗舰模型 M2。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110302.webp\" alt=\"\" title=\"\" /></p>\n\n<p>上面<a href=\"https://x.com/reach_vb/status/1982705125157126590\">说话的这个人</a>是 HuggingFace 大模型社区的负责人，提到了 M2 模型在 Artificial Analysis 性能评比之中排名世界第五，开源模型第一。</p>\n\n<p>当天的 HuggingFace 热度榜上，它也是第一名。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110304.webp\" alt=\"\" title=\"\" /></p>\n\n<p>OpenRouter 的大模型全球调用量排名，它这周排在第三。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110312.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我就来了兴趣，准备好好试用一下。</p>\n\n<p>三、</p>\n\n<p>根据 MiniMax 公司的说明，<strong>M2 模型的编程能力特别强</strong>，是目前最优秀的编程模型之一。</p>\n\n<p>大家知道，国际上最流行的编程模型现在是 Claude Sonnet 4.5，国内的 GLM 4.6 模型也很强，我就把它们三个放在一起对比。</p>\n\n<p>简单起见，我就直接在官方的网页版（<a href=\"https://agent.minimaxi.com/\">国内版</a>，<a href=\"https://agent.minimax.io/\">国外版</a>）上运行测试，大家可以跟着一起动手试试看。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110305.webp\" alt=\"\" title=\"\" /></p>\n\n<p>网页版实际是官方的智能体产品 <a href=\"https://www.minimaxi.com/news/minimax-agent\">MiniMax Agent</a>，底层用的就是 M2 模型。</p>\n\n<p>网页使用是免费的，API 调用现在也是<strong>免费期</strong>，为期两周。后面定价是百万 tokens 输入/输出 2.1元/8.4元人民币，官方宣传只有 Claude 价格的8%。</p>\n\n<p>它的其他链接，我也列一下，<a href=\"https://github.com/MiniMax-AI/MiniMax-M2\">文档仓库</a>在 GitHub，<a href=\"https://platform.minimax.io/docs/guides/text-generation\">API 调用指南</a>（兼容 OpenAI 和 Anthopic 格式）看官方文档，<a href=\"https://huggingface.co/MiniMaxAI/MiniMax-M2\">模型下载</a>在 HuggingFace，下载以后可以本地部署使用（如果条件允许）。</p>\n\n<p>四、</p>\n\n<p>我的测试题来自著名程序员西蒙·威利森（Simon Willison），他的网站有 Cluase Sonnet 4.5 的<a href=\"https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/\">测试结果</a>。</p>\n\n<p>此前，我用这些题目测过智谱公司的 GLM 4.6 模型，大家可以<a href=\"https://www.ruanyifeng.com/blog/2025/10/glm-4.6.html\">参考</a>。</p>\n\n<p>本文主要是 MiniMax M2 的测试表现。</p>\n\n<p>五、</p>\n\n<p>第一题，测试模型理解和运行代码的能力。</p>\n\n<blockquote>\n  <p>拉取代码仓库 https://github.com/simonw/llm ，然后通过下面的命令运行测试用例。</p>\n\n<p>pip install -e '.[test]' <br />\npytest</p>\n</blockquote>\n\n<p>上面的提示词要求模型抓取一个 Python 仓库，运行里面的测试用例，并返回结果。</p>\n\n<p>从网页的显示来看，Minimax Agent 显然内置了沙盒，会在隔离环境的命令行下运行代码（下图）。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110306.webp\" alt=\"\" title=\"\" /></p>\n\n<p>整个运行过程大约三分钟，然后它给出了结果：运行通过了466个测试用例。这个结果完全正确。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110307.webp\" alt=\"\" title=\"\" /></p>\n\n<p>令我惊喜的是，除了运行结果，它还给出了覆盖率分析（下图），指出测试用例覆盖了代码的哪些功能。我还没在其他模型见过主动提供覆盖率的。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110308.webp\" alt=\"\" title=\"\" /></p>\n\n<p>完整的对话看<a href=\"https://agent.minimaxi.com/share/329839918691041?chat_type=1\">这里</a>。</p>\n\n<p>六、</p>\n\n<p>第二题，测试大家最关心的代码生成能力，看看它能不能按照要求生成应用程序。</p>\n\n<p>我还是使用上面的仓库，要求 M2 为其增加一个功能，不仅需要修改代码，还需要修改数据库结构，并增加配套的测试用例。</p>\n\n<blockquote>\n  <p>1、代码仓库 https://github.com/simonw/llm 是一个 AI 对话应用，它将用户的提示和 AI 的响应存储在 SQLite 数据库中。</p>\n\n<p>2、它目前使用线性集合，保存单个对话和响应。你尝试在响应表中添加一个 parentresponseid 列，并通过该列将对话的响应建模为树状结构。</p>\n\n<p>3、编写新的 pytest 测试用例，验证你的设计。</p>\n\n<p>4、编写一个 tree_notes.md 文件，首先将你的设计写入该文件，然后在运行过程中将该文件用作笔记。</p>\n</blockquote>\n\n<p>这个任务比较复杂，运行时间稍微长一点。</p>\n\n<p>这里有一个插曲。在运行过程中，它突然提示读取 GitHub 仓库没有成功，这时出现了我意外不到的一幕。</p>\n\n<p>它竟自动切换到第三方的 deepwiki.com 去获取仓库。后面，分析数据库结构时，它又切换到 datasette.io 去分析 SQLite 数据库。这种第三方云服务的自动切换，我也是第一次见，可惜没来得及截图。</p>\n\n<p>任务完成后，它给出了一段总结（下图），详细描述了它做了哪些事情，包括修改数据库、新增测试用例等等。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110309.webp\" alt=\"\" title=\"\" /></p>\n\n<p>它甚至增加了一个示例文件（下图），演示新增的功能怎么用，还有一个示例图，演示修改后的对话结构，提示词里面可没要求它这么做。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110310.webp\" alt=\"\" title=\"\" /></p>\n\n<p>完整的对话看<a href=\"https://agent.minimax.io/share/329995155439860?chat_type=1\">这里</a>。</p>\n\n<p>另外，官网的<a href=\"https://agent.minimaxi.com/\">画廊</a>有很多它生成的应用，我觉得也值得看一下。</p>\n\n<p>七、</p>\n\n<p>第三题就是西蒙·威利森发明的\"鹈鹕骑自行车\"场景，测试它的理解和推理能力。</p>\n\n<blockquote>\n  <p>生成鹈鹕骑自行车的 SVG 图片。（Generate an SVG of a pelican riding a bicycle）</p>\n</blockquote>\n\n<p>这是现实中不存在的情景，全靠模型自己推理出来。理解能力越强，生成的图像就越逼真。</p>\n\n<p>下面就是它生成的结果，完整的对话看<a href=\"https://agent.minimaxi.com/share/329832235541493?chat_type=1\">这里</a>。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202511/bg2025110311.webp\" alt=\"\" title=\"\" /></p>\n\n<p>作为比较，我把另外两个模型的结果也贴出来。</p>\n\n<p>GLM 4.6</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202510/bg2025100108.webp\" alt=\"\" title=\"\" /></p>\n\n<p>Claude Sonnet 4.5</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202510/bg2025100107.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我觉得，MiniMax M2 的结果（第一张图片）有两个值得注意的地方。首先，它添加了道路；其次，它的自行车结构相对更完整，只是缺了握把。另外，要是那只鹈鹕的姿势更像\"骑车\"就好了。</p>\n\n<p>八、</p>\n\n<p>测试就到这里，至于 <a href=\"https://www.ruanyifeng.com/blog/2025/10/glm-4.6.html\">GLM 4.6</a> 和 <a href=\"https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/\">Claude Sonnet 4.5</a> 的结果对比，大家可以看它们各自的链接，自行比较。</p>\n\n<p>我必须诚实地说，<strong>MiniMax M2 的表现超出了我的预期</strong>。</p>\n\n<p>最吸引我的地方，还不是运行结果本身，而是它处理问题的方式，对用户很友好，会添加一些帮助理解的辅助结果，让你觉得很易用（accessible）也很易懂，这也从侧面增强了生成结果的可靠性。</p>\n\n<p>我倾向于相信，各种评测结果确实是 M2 的真实实力。再考虑到它的 API 价格（现在还是免费期），我会在接下来的工作中使用它，也推荐大家试试看。</p>\n\n<p>（完）</p>\n\n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;border:1px solid #d3d3d3;margin:1em;background-color:#AAD2F0;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"><h3>文档信息</h3>\n<ul>\n<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh\">创意共享3.0许可证</a>）</li>\n<li>发表日期： <abbr class=\"published\" title=\"2025-11-04T08:21:31+08:00\">2025年11月 4日</abbr></li>\n\n</ul></div>        \n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;margin:1em;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"></div>\n    ",
+          "author": "阮一峰",
+          "categories": [],
+          "source": "阮一峰的网络日志",
+          "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
+        },
         {
           "title": "科技爱好者周刊（第 371 期）：一个乐观主义者的专访",
           "link": "http://www.ruanyifeng.com/blog/2025/10/weekly-issue-371.html",
@@ -26,24 +36,24 @@
           "categories": [],
           "source": "阮一峰的网络日志",
           "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
-        },
-        {
-          "title": "错误处理：异常好于状态码",
-          "link": "http://www.ruanyifeng.com/blog/2025/10/exception.html",
-          "pubDate": "2025-10-21T16:28:41.000Z",
-          "content": "\n        <p>错误处理有不同的方式。</p>\n\n        <p><img src=\"https://cdn.beekka.com/blogimg/asset/202510/bg2025102007.webp\" alt=\"\" title=\"\" /></p>\n\n<p>JavaScript 和 Python 是抛出异常， Rust 语言是变相抛出异常。</p>\n\n<p>C 语言和 Go 语言则是返回一个错误值，你必须判断该值是否为 -1 或空值。</p>\n\n<p>我一直想知道，哪一种方式更好？</p>\n\n<p>前不久，我读到一篇多年前的<a href=\"https://nedbatchelder.com/text/exceptions-vs-status.html\">文章</a>，明确提出<strong>抛出异常好于返回状态码</strong>。他的理由很有说服力，文章好像还没有中译，我就翻译出来了。</p>\n\n<h2>异常与返回状态码</h2>\n\n<p>作者：内德·巴切尔德（Ned Batchelder）</p>\n\n<p>原文网址：<a href=\"https://nedbatchelder.com/text/exceptions-vs-status.html\">nedbatchelder.com</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202510/bg2025102206.webp\" alt=\"\" title=\"\" /></p>\n\n<p>在软件中，错误处理有两种方式：抛出异常（throwing exceptions）和返回状态码（returning status codes）。</p>\n\n<p>几乎所有人都认为异常是更好的处理方式，但有些人仍然更喜欢返回状态码。本文解释为什么异常是更好的选择。</p>\n\n<h2>一、代码干净</h2>\n\n<p>异常可以让你在大部分代码中省去错误处理步骤。它会自动通过不捕捉异常的层，向上传递。你因此可以编写完全没有错误处理逻辑的代码，这有助于保持代码的简洁易读。</p>\n\n<p>让我们比较一下，编写同一个简单函数的两种方法。</p>\n\n<p>先是返回状态码。</p>\n\n<blockquote><pre class=\"language-clike\"><code class=\"language-clike\">\nSTATUS DoSomething(int a, int b)\n{\n    STATUS st;\n    st = DoThing1(a);\n    if (st != SGOOD) return st;\n    st = DoThing2(b);\n    if (st != SGOOD) return st;\n    return SGOOD;\n}\n</code></pre></blockquote>\n\n<p>上面示例中，必须判断<code>DoThing1(a)</code>和<code>DoThing2(b)</code>的返回值是否正常，才能进行下一步。</p>\n\n<p>如果是抛出异常，就不需要中间的错误判断了。</p>\n\n<blockquote><pre class=\"language-clike\"><code class=\"language-clike\">\nvoid DoSomething(int a, int b)\n{\n    DoThing1(a);\n    DoThing2(b);\n}\n</code></pre></blockquote>\n\n<p>这只是最简单的情况，如果遇到复杂的场景，状态码带来的噪音会更严重，异常则可以保持代码的整洁。</p>\n\n<h2>二、有意义的返回值</h2>\n\n<p>状态码会占用宝贵的返回值，你不得不增加代码，判断返回值是否正确。</p>\n\n<p>有些函数本来只需要返回一个正常值，现在不得不增加返回错误的情况。随着时间的推移，代码量不断增长，函数变得越来越大，返回值也越来越复杂。</p>\n\n<p>比如，很多函数的返回值是有重载的：\"如果失败，则返回 NULL\"，或者失败返回 -1。结果就是每次调用这个方法，都需要检查返回值是否是 NULL 或 -1。如果函数后来增加新的错误返回值，则必须更新所有调用点。</p>\n\n<p>如果是抛出异常，那么函数就总是成功的情况下才返回，所有的错误处理也可以简化放在一个地方。</p>\n\n<h2>三、更丰富的错误信息</h2>\n\n<p>状态码通常是一个整数，能够传递的信息相当有限。假设错误是找不到文件，那么是哪一个文件呢？状态码无法传递那么多信息。</p>\n\n<p>返回状态码的时候，最好记录一条错误消息，放在专门的错误日志里面，调用者可以从中获取详细信息。</p>\n\n<p>异常完全不同，它是类的实例，因此可以携带大量信息。由于异常可以被子类化，不同的异常可以携带不同的数据，从而形成非常丰富的错误消息体系。</p>\n\n<h2>四、可以处理隐式代码</h2>\n\n<p>某些函数无法返回状态码。例如，构造函数就没有显式的返回值，因此无法返回状态码。还有一些函数（比如析构函数）甚至无法直接调用，更不用说返回值了。</p>\n\n<p>这些没有返回值的函数，如果不使用异常处理，你不得不想出其他方法来给出错误信息，或者假装这些函数不会失败。简单的函数或许可以做到无故障，但代码量会不断增长，失败的可能性也随之增加。如果没有办法表达失败，系统只会变得更加容易出错，也更加难以捉摸。</p>\n\n<h2>五、错误的可见性</h2>\n\n<p>考虑一下，如果程序员疏忽了，没有写错误处理代码，会发生什么情况？</p>\n\n<p>如果返回的状态码没有经过检查，错误就不会被发现，代码将继续执行，就像操作成功一样。代码稍后可能会失败，但这可能是许多步操作之后的事情，你如何将问题追溯到最初错误发生的地方？</p>\n\n<p>相反的，如果异常未被立刻捕获，它就会在调用栈中向上传递，要么到达更高的 catch 块，要么到达顶层，交给操作系统处理，操作系统通常会把错误呈现给用户。这对程序是不好的，但错误至少是可见的。你会看到异常，能够判断出它抛出的位置，以及它应该被捕获的位置，从而修复代码。</p>\n\n<p>这里不讨论错误未能报出的情况，这种情况无论是返回状态码还是抛出异常，都没用。</p>\n\n<p>所以，对于报出的错误没有被处理，可以归结为两种情况：一种是返回的状态码会隐藏问题，另一种是抛出异常会导致错误可见。你会选择哪一种？</p>\n\n<h2>六、反驳</h2>\n\n<p>著名程序员 Joel Spolsky 认为，返回状态码更好，因为他认为异常是一种糟糕得多的 goto 语句。</p>\n\n<blockquote><p>\"异常在源代码中是不可见的。阅读代码块时，无法知道哪些异常可能被抛出，以及从哪里抛出。这意味着即使仔细检查代码，也无法发现潜在的错误。\"</p></blockquote>\n\n<blockquote><p>\"异常为一个函数创建了太多可能的出口。要编写正确的代码，你必须考虑每一条可能的代码路径。每次调用一个可能抛出异常的函数，但没有立即捕获异常时，函数可能突然终止，或者出现其他你没有想到的代码路径。\"</p></blockquote>\n\n<p>这些话听起来似乎很有道理，但如果改为返回状态码，你就必须显式地检查函数每一个可能的返回点。所以，<strong>你是用显式的复杂性换取了隐式的复杂性</strong>。这也有缺点，显式的复杂性会让你只见树木不见森林，代码会因此变得杂乱无章。</p>\n\n<p>当面临这种显式复杂性时，程序员会写得不胜其烦，最后要么用自定义的方法隐藏错误处理，要么索性省略错误处理。</p>\n\n<p>前者隐藏错误处理，只会将显式处理重新变为隐式处理，并且不如原始的 Try 方法方便和功能齐全。后者省略错误处理更糟糕，程序员假设某种错误不会发生，从而埋下风险。</p>\n\n<h2>七、总结</h2>\n\n<p>返回状态码很难用，有些地方根本无法使用。它会劫持返回值。程序员很容易不去写错误处理代码，从而在系统中造成无声的故障。</p>\n\n<p>异常优于状态码。只要你的编程语言提供了异常处理工具，请使用它们。</p>\n\n<p>（完）</p>\n\n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;border:1px solid #d3d3d3;margin:1em;background-color:#AAD2F0;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"><h3>文档信息</h3>\n<ul>\n<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh\">创意共享3.0许可证</a>）</li>\n<li>发表日期： <abbr class=\"published\" title=\"2025-10-22T00:28:41+08:00\">2025年10月22日</abbr></li>\n\n</ul></div>        \n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;margin:1em;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"></div>\n    ",
-          "author": "阮一峰",
-          "categories": [],
-          "source": "阮一峰的网络日志",
-          "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
         }
       ]
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2025-11-03T01:59:27.937Z",
+      "lastUpdated": "2025-11-04T01:54:47.888Z",
       "items": [
+        {
+          "title": "服务器续费了",
+          "link": "https://wangdaodao.com/20251104/racknerd-renew.html",
+          "pubDate": "2025-11-04T01:13:11.000Z",
+          "content": "\n<p>自从搬瓦工那台机器到期不再续费，目前手里就只有一台VPS了，这个当时是去年黑五搞活动买的，可以看我之前<a href=\"https://wangdaodao.com/20241201/racknerd-vps.html\">《又入手了一台VPS》</a>。</p><p>目前感觉性能完全够用，就放一个Typecho的博客绰绰有余。</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2025/11/69094f6d58e07.webp\" alt=\"racknerd账单\" title=\"racknerd账单\"></p><p class=\"more\"><a href=\"https://wangdaodao.com/20251104/racknerd-renew.html\" title=\"服务器续费了\">[...]</a></p>\n",
+          "author": "王叨叨",
+          "categories": [],
+          "source": "王叨叨",
+          "sourceUrl": "https://wangdaodao.com/feed/atom/"
+        },
         {
           "title": "开源Bilibili播放器插件",
           "link": "https://wangdaodao.com/20251101/typecho-bilibili-player.html",
@@ -129,16 +139,6 @@
           "link": "https://wangdaodao.com/20251008/holiday-jixian.html",
           "pubDate": "2025-10-08T13:23:00.000Z",
           "content": "\n<p>匆匆忙忙，假期结束了，这个假期去蓟县玩了两天。蓟县（今天津市蓟州区）的历史非常悠久，文化底蕴极其深厚，被誉为“天津的摇篮”。它的历史可以追溯到远古时代，是整个京津冀地区重要的文明发祥地之一。</p><p>蓟县拥有众多珍贵的历史古迹，承载着深厚的文化积淀：</p><p>独乐寺：中国现存最古老的木结构楼阁，堪称辽代建筑与雕塑艺术的巅峰之作。<br>黄崖关长城：明代长城中的精华段落，凝聚着古代军事防御的卓越智慧。<br>盘山：素有“京东第一山”之誉，历史上是佛教文化与皇家气韵交融的灵秀胜地，乾隆皇帝曾三十二次巡游至此，并留下“早知有盘山，何必下江南”的赞叹。</p><p>此外，在抗日战争与解放战争时期，蓟县也是重要的革命根据地。盘山抗日根据地在此写下可歌可泣的英雄篇章，而今盘山烈士陵园静立于此，默默铭记那段峥嵘岁月与不朽精神。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251008/holiday-jixian.html\" title=\"蓟县三日游记\">[...]</a></p>\n",
-          "author": "王叨叨",
-          "categories": [],
-          "source": "王叨叨",
-          "sourceUrl": "https://wangdaodao.com/feed/atom/"
-        },
-        {
-          "title": "给博客增加点小功能",
-          "link": "https://wangdaodao.com/20250928/blog-feat-ai-summary.html",
-          "pubDate": "2025-09-28T12:53:00.000Z",
-          "content": "\n<p>随着AI的发展，越来越多的事物都在接入AI，看了几个博客都有接入AI了，咱也尝试一下。</p><p>这里我推荐<a href=\"https://github.com/Rockytkg/AIContentSummary\">AIContentSummary</a>这个插件，在发布文章的时候，自动生成摘要。我现在用的是<a href=\"https://www.bigmodel.cn/invite?icode=TOGVKhfOyCCvFJE5FzOuUJmwcr074zMJTpgMb8zZZvg\">智谱AI</a>，他最近注册有送一些，而且GLM-4.5-Flash模型是免费。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20250928/blog-feat-ai-summary.html\" title=\"给博客增加点小功能\">[...]</a></p>\n",
           "author": "王叨叨",
           "categories": [],
           "source": "王叨叨",
