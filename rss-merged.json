@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2025-11-04T01:54:47.889Z",
-  "totalItems": 13,
+  "lastUpdated": "2025-11-05T01:56:05.451Z",
+  "totalItems": 3,
   "items": [
-    {
-      "title": "服务器续费了",
-      "link": "https://wangdaodao.com/20251104/racknerd-renew.html",
-      "pubDate": "2025-11-04T01:13:11.000Z",
-      "content": "\n<p>自从搬瓦工那台机器到期不再续费，目前手里就只有一台VPS了，这个当时是去年黑五搞活动买的，可以看我之前<a href=\"https://wangdaodao.com/20241201/racknerd-vps.html\">《又入手了一台VPS》</a>。</p><p>目前感觉性能完全够用，就放一个Typecho的博客绰绰有余。</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2025/11/69094f6d58e07.webp\" alt=\"racknerd账单\" title=\"racknerd账单\"></p><p class=\"more\"><a href=\"https://wangdaodao.com/20251104/racknerd-renew.html\" title=\"服务器续费了\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
     {
       "title": "大模型比拼：MiniMax M2 vs GLM 4.6 vs Claude Sonnet 4.5",
       "link": "http://www.ruanyifeng.com/blog/2025/11/minimax-m2.html",
@@ -21,16 +11,6 @@
       "categories": [],
       "source": "阮一峰的网络日志",
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
-    },
-    {
-      "title": "开源Bilibili播放器插件",
-      "link": "https://wangdaodao.com/20251101/typecho-bilibili-player.html",
-      "pubDate": "2025-11-01T06:43:00.000Z",
-      "content": "\n<p>小试牛刀，开源Bilibili播放器插件，后面还有几个插件正在调整，分别是：</p><ul><li>Panorama：在文章中嵌入全景图</li><li>AMapPlugin：高德地图插件</li><li>AMapRoutePlugin：高德地图路径规划插件</li><li>AdminStyle：Typecho后台样式修改插件</li></ul><p class=\"more\"><a href=\"https://wangdaodao.com/20251101/typecho-bilibili-player.html\" title=\"开源Bilibili播放器插件\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
     },
     {
       "title": "科技爱好者周刊（第 371 期）：一个乐观主义者的专访",
@@ -43,46 +23,6 @@
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
     },
     {
-      "title": "折腾一个Typecho 360全景插件",
-      "link": "https://wangdaodao.com/20251030/typecho-pannellum.html",
-      "pubDate": "2025-10-30T00:46:00.000Z",
-      "content": "\n<p>前几天逛博客，发现<a href=\"https://yefengs.com/2970.html\">夜枫的博客</a>还支持全景图了，于是看了看源码，发现是用<a href=\"https://pannellum.org/\">Pannellum</a>这个插件实现的，研究了下代码，发现实现起来很简单于是动手写了一个全景图插件。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251030/typecho-pannellum.html\" title=\"折腾一个Typecho 360全景插件\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "3I/ATLAS到底是什么",
-      "link": "https://wangdaodao.com/20251029/3I-ATLAS.html",
-      "pubDate": "2025-10-29T09:32:00.000Z",
-      "content": "\n<p>2025年，我们的太阳系迎来了一位极其罕见的访客——<strong>星际彗星3I/ATLAS</strong>。这是人类迄今为止发现的<strong>第三个确认的星际天体</strong>，一个来自其他恒星系统的“旅行者”。它的到来不仅为天文学家提供了研究系外物质的宝贵机会，也因其一些不寻常的特性，引发了关于其本质的激烈争论，甚至让人联想到是否可能是外星科技的产物。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251029/3I-ATLAS.html\" title=\"3I/ATLAS到底是什么\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "周末随笔",
-      "link": "https://wangdaodao.com/20251027/weekend-musings.html",
-      "pubDate": "2025-10-27T04:43:00.000Z",
-      "content": "\n<p>这个周末没有加班，正好家里的小程序员要参加比赛，于是今天上午的身份就是司机。</p><p>清晨六点半，我整理好装备准备前往比赛地点，途中便向儿子询问了关于其日常代码编写习惯的问题，包括调试方法、日志打印的实践以及变量命名的规范。然而，作为初涉编程领域的新手，他对这些要素的重要性缺乏认识，代码编写显得较为随意。唉，看来他在基本编程素养方面仍需进一步学习和提升。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251027/weekend-musings.html\" title=\"周末随笔\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "使用GitHub Action定时抓取RSS",
-      "link": "https://wangdaodao.com/20251024/rss-bot.html",
-      "pubDate": "2025-10-24T03:12:00.000Z",
-      "content": "\n<p>大家好，今天是1024程序员节，先祝各位程序员朋友们节日快乐！</p><p>最近浏览了不少博客，发现很多站长都在为友链添加 RSS 聚合功能，方便展示友链的最新动态。另外还看到有位博主，直接用自己的服务器搭建了一个 RSS 订阅服务，免费开放给大家使用：<a href=\"https://www.jeffer.xyz/cid/3169.html\">https://www.jeffer.xyz/cid/3169.html</a>。这种乐于分享的精神非常值得点赞👍，尤其照顾了很多刚入门的朋友。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251024/rss-bot.html\" title=\"使用GitHub Action定时抓取RSS\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
       "title": "科技爱好者周刊（第 370 期）：正确的代码高亮",
       "link": "http://www.ruanyifeng.com/blog/2025/10/weekly-issue-370.html",
       "pubDate": "2025-10-24T00:18:03.000Z",
@@ -91,46 +31,6 @@
       "categories": [],
       "source": "阮一峰的网络日志",
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
-    },
-    {
-      "title": "给Typecho增加文章置顶功能",
-      "link": "https://wangdaodao.com/20251022/typecho-sticky-post.html",
-      "pubDate": "2025-10-22T13:18:00.000Z",
-      "content": "\n<p>在逛博客的时候，发现资深网民孙先生写了一篇：<a href=\"https://www.imsun.org/archives/1745.html\">Typecho文章置顶(非插件)</a>，看了下实现思路发现是在 <code>functions.php</code> 添加主题设置项，然后写完文章之后，在设置项中把文章的id放进去来实现的置顶。</p><p>诚然，对于此问题，不同的人或许持有不同的看法，这便是一个典型的“仁者见仁，智者见智”的议题。然而，从个人角度出发，我更倾向于认为，在管理文章的功能模块中直接设置相关选项会更为便捷和人性化。毕竟，若要用户先费力地去寻找文章的唯一标识符（即ID），然后再跳转至主题设置页面进行相应的配置，这样分步操作的方式无疑显得有些繁琐，不仅增加了用户的使用负担，也可能在一定程度上降低了整体的操作效率。因此，将设置功能嵌入到文章管理流程中，可以显著简化操作步骤，提升用户体验。</p><p>Typecho其实是在发布文章时可以添加自定义字段，通过自定义字段去给文章做一些特殊配置是比较合适的，而且这个字段是跟文章保存的，后面导出或者迁移，这些字段也是很方便的备份出来。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251022/typecho-sticky-post.html\" title=\"给Typecho增加文章置顶功能\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "Typecho非插件实现文章相册功能",
-      "link": "https://wangdaodao.com/20251019/typecho-album.html",
-      "pubDate": "2025-10-19T04:11:00.000Z",
-      "content": "\n<p>最近在整理博客主题，我这个主题还是Typecho 0.9 系统默认的主题，比较老。</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2025/10/2840678.png\" alt=\"默认的主题\" title=\"默认的主题\"></p><p>但是这个主题的好处就是比较简洁，代码很精简，在上面很方便改造，在追求内容方面很适合我这种不想太花哨的。</p><p>这次改造的就是给文章中增加图片排版，并且支持灯箱效果。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251019/typecho-album.html\" title=\"Typecho非插件实现文章相册功能\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "折腾了几个插件",
-      "link": "https://wangdaodao.com/20251009/typecho-plugin.html",
-      "pubDate": "2025-10-09T14:06:00.000Z",
-      "content": "\n<p>趁着放假休息，给博客写了几个插件，方便自己使用：</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2025/10/2051273091.png\" alt=\"插件列表\" title=\"插件列表\"></p><p>启用插件后，会在编辑器中出现快捷按钮，方便调用：</p><p><img loading=\"lazy\" src=\"https://wangdaodao.com/usr/uploads/2025/10/1076298015.png\" alt=\"编辑框\" title=\"编辑框\"></p><p class=\"more\"><a href=\"https://wangdaodao.com/20251009/typecho-plugin.html\" title=\"折腾了几个插件\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "蓟县三日游记",
-      "link": "https://wangdaodao.com/20251008/holiday-jixian.html",
-      "pubDate": "2025-10-08T13:23:00.000Z",
-      "content": "\n<p>匆匆忙忙，假期结束了，这个假期去蓟县玩了两天。蓟县（今天津市蓟州区）的历史非常悠久，文化底蕴极其深厚，被誉为“天津的摇篮”。它的历史可以追溯到远古时代，是整个京津冀地区重要的文明发祥地之一。</p><p>蓟县拥有众多珍贵的历史古迹，承载着深厚的文化积淀：</p><p>独乐寺：中国现存最古老的木结构楼阁，堪称辽代建筑与雕塑艺术的巅峰之作。<br>黄崖关长城：明代长城中的精华段落，凝聚着古代军事防御的卓越智慧。<br>盘山：素有“京东第一山”之誉，历史上是佛教文化与皇家气韵交融的灵秀胜地，乾隆皇帝曾三十二次巡游至此，并留下“早知有盘山，何必下江南”的赞叹。</p><p>此外，在抗日战争与解放战争时期，蓟县也是重要的革命根据地。盘山抗日根据地在此写下可歌可泣的英雄篇章，而今盘山烈士陵园静立于此，默默铭记那段峥嵘岁月与不朽精神。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251008/holiday-jixian.html\" title=\"蓟县三日游记\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
     }
   ]
 }
