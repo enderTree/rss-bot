@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-12-24T02:02:14.103Z",
+  "lastUpdated": "2025-12-25T02:04:19.869Z",
   "totalSources": 2,
   "sources": [
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2025-12-24T02:02:13.504Z",
+      "lastUpdated": "2025-12-25T02:04:19.208Z",
       "items": [
         {
           "title": "我如何用 AI 处理历史遗留代码：MiniMax M2.1 升级体验",
@@ -43,7 +43,7 @@
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
       "error": "Feed not recognized as RSS 1 or 2.",
-      "lastUpdated": "2025-12-24T02:02:14.102Z",
+      "lastUpdated": "2025-12-25T02:04:19.868Z",
       "items": []
     }
   ]
