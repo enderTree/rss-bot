@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-09T02:44:00.880Z",
-  "totalItems": 3,
+  "lastUpdated": "2026-02-10T02:52:26.393Z",
+  "totalItems": 13,
   "items": [
     {
       "title": "科技爱好者周刊（第 384 期）：为什么软件股下跌",
@@ -31,6 +31,106 @@
       "categories": [],
       "source": "阮一峰的网络日志",
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
+    },
+    {
+      "title": "一些杂事",
+      "link": "https://wangdaodao.com/20260112/trivial-matters.html",
+      "pubDate": "2026-01-12T15:07:00.000Z",
+      "content": "\n<p>一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20260112/trivial-matters.html\" title=\"一些杂事\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "关于孟鲁司特钠的不良反应",
+      "link": "https://wangdaodao.com/20260105/montelukast.html",
+      "pubDate": "2026-01-05T14:54:00.000Z",
+      "content": "\n<p>最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。</p><p>早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医护人员应意识到孟鲁司特钠可能带来严重神经/精神事件风险，包括抑郁、自残、自杀倾向。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20260105/montelukast.html\" title=\"关于孟鲁司特钠的不良反应\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "开源网易云及QQ音乐播放插件",
+      "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
+      "pubDate": "2025-12-26T05:25:00.000Z",
+      "content": "\n<p>之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链接，直接用官方的不是更稳定嘛……</p><p>再说一下为啥不用短代码这种形式，我感觉直接放一个链接是更方便的，后面就算是禁用了插件，也不会影响跳转到正常的官方链接上。目前除了高德地图这种的我现在用的是短代码，其他的例如豆瓣卡片都是使用的链接形式。</p><p>这次为啥没拆分成两个组件呢，因为这两个都是链接方式的，而且也有共同的设置，所以就整合到一起了，后面再增加播放器也走统一逻辑。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251226/typecho-netease-qq-player.html\" title=\"开源网易云及QQ音乐播放插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "开源Typecho抖音播放器插件",
+      "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
+      "pubDate": "2025-12-20T08:24:00.000Z",
+      "content": "\n<p>前段时间，开源了一个<a href=\"https://wangdaodao.com/20251101/typecho-bilibili-player.html\">Bilibili播放器插件</a>，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。</p><p>原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe 播放器就可以了。</p><p>抖音自己会根据容器的宽度来判断移动端或者电脑端，跟了下代码，发现730px是他的临界值，所以样式也会基于这个宽带做适配。</p><p>使用的时候更简单了，根本不用短代码，直接把视频链接扔进去就可以了，这样一来即便是禁用了插件，也可以正常的跳转到视频地址。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251220/dou-yin-player.html\" title=\"开源Typecho抖音播放器插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "2025年终总结",
+      "link": "https://wangdaodao.com/20251214/2025-summary.html",
+      "pubDate": "2025-12-14T05:52:00.000Z",
+      "content": "\n<p>2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251214/2025-summary.html\" title=\"2025年终总结\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "Typecho博客开启EdgeOne",
+      "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
+      "pubDate": "2025-12-10T12:03:00.000Z",
+      "content": "\n<p>其实腾讯云的边缘安全加速平台 <strong>EdgeOne</strong> 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 AI 变配置。如果有大佬知道如何配置，还望在留言中指点一二，感激不尽，因为域名也没有备案，所以只能选择全球加速了，我主机买的是 <a href=\"https://my.racknerd.com/aff.php?aff=13161\">RackNerd</a>，机房在洛杉矶，再怎么弄应该也会快一点点吧……</p><p>之前也看过一些博主，开启后又选择关闭了，我这现在开的也忐忑啊，先用上试试吧，不行了再说。目前启用后，发现内存有少量的下降，启用前内存平均在31%，启用后内存平均在26%。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251210/typecho-edge-one.html\" title=\"Typecho博客开启EdgeOne\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "发布一个Typecho AI文本润色插件",
+      "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+      "pubDate": "2025-12-06T11:44:00.000Z",
+      "content": "\n<p>现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？</p><p>为此，我开发了一个Typecho插件，该插件运用AI技术，能够对用户选定的文本进行智能化的润色与优化。不过使用前需要调用一些AI服务，所以先准备好了再说😃</p><p>插件目前开启售卖，价格定为 <strong>10</strong> 元，收入款全部捐给<a href=\"https://www.hhax.org/\">韩红基金会</a>，并在<a href=\"https://wangdaodao.com/about.html\">关于页面</a>公布捐款情况，购买请移步到文末，购买后请把订单截图通过邮件发送到我邮件 <strong><a href=\"mailto:hi@wangdaodao.com\">hi@wangdaodao.com</a></strong>，我会在当天处理邮件，把<strong>插件</strong>及<strong>捐款情况</strong>回复在邮件中。购买前如果有疑问，也可以发邮件与我沟通，避免引起误会。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html\" title=\"发布一个Typecho AI文本润色插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "开源高德地图及规划路径短代码插件",
+      "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+      "pubDate": "2025-12-03T05:22:00.000Z",
+      "content": "\n<p>继上次<a href=\"https://wangdaodao.com/20251122/typecho-track.html\">足迹插件</a>，这次开源两个插件，分别是 <strong>高德地图插件</strong> 和 <strong>高德地图路径规划插件</strong>，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251203/typecho-plugin-amap.html\" title=\"开源高德地图及规划路径短代码插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "开始记账了",
+      "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+      "pubDate": "2025-11-28T13:38:00.000Z",
+      "content": "\n<p>不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251128/bookkeeping.html\" title=\"开始记账了\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "发布Typecho足迹插件",
+      "link": "https://wangdaodao.com/20251122/typecho-track.html",
+      "pubDate": "2025-11-22T08:38:00.000Z",
+      "content": "\n<p>MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。</p><p>插件目前开启售卖，价格定为 <strong>10</strong> 元，收入款全部捐给<a href=\"https://www.hhax.org/\"><strong>韩红基金会</strong></a>，并在文章底部公布捐款情况，购买请移步到文末，购买后请把订单截图通过邮件发送到我邮件 <strong><a href=\"mailto:hi@wangdaodao.com\">hi@wangdaodao.com</a></strong>，我会在当天处理邮件，把<strong>插件</strong>及<strong>捐款情况</strong>回复在邮件中。购买前如果有疑问，也可以发邮件与我沟通，避免引起误会。</p><p>捐款后会生成捐款证书，所以邮件中最好能附带姓名，我可以按照姓名来捐款，目前捐款列表已经迁移到<a href=\"https://wangdaodao.com/about.html\">关于页面</a>。</p><p>我相信，购买插件的都是有爱心的朋友，所以还希望大家使用后帮忙宣传一下。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251122/typecho-track.html\" title=\"发布Typecho足迹插件\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
     }
   ]
 }
