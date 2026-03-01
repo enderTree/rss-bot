@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-02-28T02:24:18.073Z",
+  "lastUpdated": "2026-03-01T02:49:29.433Z",
   "totalItems": 13,
   "items": [
+    {
+      "title": "无题",
+      "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
+      "pubDate": "2026-02-28T13:03:00.000Z",
+      "content": "\n<p>最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20260228/my-younger-brother.html\" title=\"无题\">[...]</a></p>\n",
+      "author": "王叨叨",
+      "categories": [],
+      "source": "王叨叨",
+      "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
     {
       "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
       "link": "http://www.ruanyifeng.com/blog/2026/02/weekly-issue-386.html",
@@ -117,16 +127,6 @@
       "link": "https://wangdaodao.com/20251128/bookkeeping.html",
       "pubDate": "2025-11-28T13:38:00.000Z",
       "content": "\n<p>不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251128/bookkeeping.html\" title=\"开始记账了\">[...]</a></p>\n",
-      "author": "王叨叨",
-      "categories": [],
-      "source": "王叨叨",
-      "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "发布Typecho足迹插件",
-      "link": "https://wangdaodao.com/20251122/typecho-track.html",
-      "pubDate": "2025-11-22T08:38:00.000Z",
-      "content": "\n<p>MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。</p><p>插件目前开启售卖，价格定为 <strong>10</strong> 元，收入款全部捐给<a href=\"https://www.hhax.org/\"><strong>韩红基金会</strong></a>，并在文章底部公布捐款情况，购买请移步到文末，购买后请把订单截图通过邮件发送到我邮件 <strong><a href=\"mailto:hi@wangdaodao.com\">hi@wangdaodao.com</a></strong>，我会在当天处理邮件，把<strong>插件</strong>及<strong>捐款情况</strong>回复在邮件中。购买前如果有疑问，也可以发邮件与我沟通，避免引起误会。</p><p>捐款后会生成捐款证书，所以邮件中最好能附带姓名，我可以按照姓名来捐款，目前捐款列表已经迁移到<a href=\"https://wangdaodao.com/about.html\">关于页面</a>。</p><p>我相信，购买插件的都是有爱心的朋友，所以还希望大家使用后帮忙宣传一下。</p><p class=\"more\"><a href=\"https://wangdaodao.com/20251122/typecho-track.html\" title=\"发布Typecho足迹插件\">[...]</a></p>\n",
       "author": "王叨叨",
       "categories": [],
       "source": "王叨叨",
