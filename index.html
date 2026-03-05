@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSS Reader</title>
+  <style>
+    :root {
+      --bg-color: #f0f2f5;
+      --card-bg: #ffffff;
+      --text-color: #1a1a1a;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --border-color: #e5e5e5;
+      --primary-color: #1890ff;
+      --primary-hover: #40a9ff;
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      background-color: var(--card-bg);
+      padding: 16px 24px;
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header h1 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-color);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .header-meta {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Buttons */
+    .btn {
+      padding: 6px 14px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background-color: var(--card-bg);
+      color: var(--text-color);
+      transition: all 0.2s;
+    }
+
+    .btn:hover {
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
+
+    .btn-primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      border-color: var(--primary-hover);
+      color: white;
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* Main Content */
+    .main {
+      padding: 24px;
+      overflow-x: auto;
+    }
+
+    /* Board Layout */
+    .board {
+      display: flex;
+      gap: 20px;
+      min-height: calc(100vh - 140px);
+    }
+
+    /* Column */
+    .column {
+      flex: 0 0 320px;
+      background-color: var(--card-bg);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      max-height: calc(100vh - 120px);
+    }
+
+    .column-header {
+      padding: 16px;
+      border-bottom: 1px solid var(--border-color);
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--text-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .column-count {
+      font-size: 12px;
+      font-weight: normal;
+      color: var(--text-muted);
+      background-color: var(--bg-color);
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .column-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+    }
+
+    /* Article Item */
+    .article-item {
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .article-item:hover {
+      background-color: #fafafa;
+      border-color: var(--border-color);
+    }
+
+    .article-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .article-title {
+      font-size: 14px;
+      color: var(--text-color);
+      line-height: 1.5;
+      margin-bottom: 6px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-decoration: none;
+    }
+
+    .article-title:hover {
+      color: var(--primary-color);
+    }
+
+    .article-date {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Loading & Empty */
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      color: var(--text-muted);
+    }
+
+    .loading::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border-color);
+      border-top-color: var(--primary-color);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-left: 8px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .empty {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      padding: 24px;
+      width: 90%;
+      max-width: 480px;
+    }
+
+    .modal h3 {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    .modal p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .modal label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: var(--text-secondary);
+    }
+
+    .modal input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 14px;
+      margin-bottom: 16px;
+      outline: none;
+    }
+
+    .modal input[type="text"]:focus {
+      border-color: var(--primary-color);
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background-color: #333;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14px;
+      z-index: 1001;
+      opacity: 0;
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Scrollbar */
+    .column-content::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .column-content::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .column-content::-webkit-scrollbar-thumb {
+      background-color: #ddd;
+      border-radius: 3px;
+    }
+
+    .column-content::-webkit-scrollbar-thumb:hover {
+      background-color: #ccc;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .main {
+        padding: 16px;
+      }
+      
+      .column {
+        flex: 0 0 280px;
+      }
+      
+      .header {
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      
+      .header-meta {
+        order: 3;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>RSS Reader</h1>
+    <div class="header-actions">
+      <span class="header-meta" id="lastUpdated"></span>
+      <button class="btn btn-primary" id="refreshBtn" title="刷新 RSS 数据">
+        🔄 刷新
+      </button>
+      <button class="btn" id="settingsBtn" title="设置">
+        ⚙️ 设置
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="board" id="board">
+      <div class="loading">加载中</div>
+    </div>
+  </main>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal">
+      <h3>⚙️ 设置</h3>
+      <p>配置 GitHub Token 后，可直接在页面触发 RSS 抓取。<br>
+      <a href="https://github.com/settings/tokens/new?scopes=repo,workflow" target="_blank" style="color: var(--primary-color);">创建 Token</a>（需要 repo 和 workflow 权限）</p>
+      
+      <label>GitHub Token：</label>
+      <input type="text" id="tokenInput" placeholder="ghp_xxxxxxxxxxxx">
+      
+      <label>仓库地址 (owner/repo)：</label>
+      <input type="text" id="repoInput" placeholder="enderTree/rss-bot">
+      
+      <div class="modal-actions">
+        <button class="btn" id="closeModal">取消</button>
+        <button class="btn btn-primary" id="saveSettings">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const RSS_DATA_URL = 'rss-data.json';
+
+    // DOM Elements
+    const board = document.getElementById('board');
+    const lastUpdated = document.getElementById('lastUpdated');
+    const refreshBtn = document.getElementById('refreshBtn');
+    const settingsBtn = document.getElementById('settingsBtn');
+    const settingsModal = document.getElementById('settingsModal');
+    const closeModal = document.getElementById('closeModal');
+    const saveSettings = document.getElementById('saveSettings');
+    const tokenInput = document.getElementById('tokenInput');
+    const repoInput = document.getElementById('repoInput');
+    const toast = document.getElementById('toast');
+
+    // Init
+    document.addEventListener('DOMContentLoaded', () => {
+      loadSettings();
+      fetchData();
+      bindEvents();
+    });
+
+    // Fetch RSS Data
+    async function fetchData() {
+      try {
+        board.innerHTML = '<div class="loading">加载中</div>';
+        const response = await fetch(RSS_DATA_URL + '?t=' + Date.now());
+        const data = await response.json();
+        
+        lastUpdated.textContent = '更新于 ' + formatDate(data.lastUpdated);
+        renderBoard(data.sources || []);
+      } catch (error) {
+        board.innerHTML = '<div class="empty">❌ 加载失败，请稍后重试</div>';
+        console.error('Fetch error:', error);
+      }
+    }
+
+    // Render Board
+    function renderBoard(sources) {
+      if (sources.length === 0) {
+        board.innerHTML = '<div class="empty">暂无数据</div>';
+        return;
+      }
+
+      board.innerHTML = sources.map(source => `
+        <div class="column">
+          <div class="column-header">
+            <span>${escapeHtml(source.source)}</span>
+            <span class="column-count">${source.items ? source.items.length : 0}</span>
+          </div>
+          <div class="column-content">
+            ${renderArticles(source.items || [])}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Articles
+    function renderArticles(items) {
+      if (items.length === 0) {
+        return '<div class="empty">暂无文章</div>';
+      }
+
+      return items.map(item => `
+        <div class="article-item" onclick="window.open('${escapeHtml(item.link)}', '_blank')">
+          <div class="article-title">${escapeHtml(item.title)}</div>
+          <div class="article-date">${formatDate(item.pubDate)}</div>
+        </div>
+      `).join('');
+    }
+
+    // Bind events
+    function bindEvents() {
+      refreshBtn.addEventListener('click', handleRefresh);
+      settingsBtn.addEventListener('click', () => settingsModal.classList.add('active'));
+      closeModal.addEventListener('click', () => settingsModal.classList.remove('active'));
+      settingsModal.addEventListener('click', (e) => {
+        if (e.target === settingsModal) settingsModal.classList.remove('active');
+      });
+      saveSettings.addEventListener('click', handleSaveSettings);
+    }
+
+    // Handle refresh
+    async function handleRefresh() {
+      const token = localStorage.getItem('github_token');
+      const repo = localStorage.getItem('github_repo');
+      
+      if (!token || !repo) {
+        const repoUrl = repo || 'enderTree/rss-bot';
+        const actionsUrl = `https://github.com/${repoUrl}/actions/workflows/rss-fetcher.yml`;
+        window.open(actionsUrl, '_blank');
+        showToast('请在 GitHub Actions 页面点击 "Run workflow"');
+        return;
+      }
+      
+      refreshBtn.disabled = true;
+      refreshBtn.innerHTML = '⏳ 触发中...';
+      
+      try {
+        const response = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/rss-fetcher.yml/dispatches`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ ref: 'main' })
+        });
+        
+        if (response.status === 204) {
+          showToast('✅ 已触发抓取，请稍后刷新页面');
+        } else if (response.status === 401) {
+          showToast('❌ Token 无效，请重新配置');
+        } else if (response.status === 404) {
+          showToast('❌ 仓库或 Workflow 不存在');
+        } else {
+          showToast('❌ 触发失败，请稍后重试');
+        }
+      } catch (error) {
+        console.error('Trigger error:', error);
+        showToast('❌ 网络错误，请稍后重试');
+      }
+      
+      refreshBtn.disabled = false;
+      refreshBtn.innerHTML = '🔄 刷新';
+    }
+
+    // Settings
+    function loadSettings() {
+      tokenInput.value = localStorage.getItem('github_token') || '';
+      repoInput.value = localStorage.getItem('github_repo') || 'enderTree/rss-bot';
+    }
+
+    function handleSaveSettings() {
+      localStorage.setItem('github_token', tokenInput.value.trim());
+      localStorage.setItem('github_repo', repoInput.value.trim());
+      settingsModal.classList.remove('active');
+      showToast('✅ 设置已保存');
+    }
+
+    // Toast
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    // Utils
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      const date = new Date(dateStr);
+      const now = new Date();
+      const diffMs = now - date;
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      
+      if (diffDays === 0) {
+        return date.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+      } else if (diffDays < 7) {
+        return `${diffDays}天前`;
+      } else {
+        return date.toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
+      }
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+  </script>
+</body>
+</html>
