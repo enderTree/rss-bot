@@ -132,6 +132,25 @@ GitHub Actions工作流配置文件位于 `.github/workflows/rss-fetcher.yml`，
 
 ## 如何使用
 
+### 方式一：在线阅读器
+
+启用 GitHub Pages 后，可以直接访问在线阅读器：
+
+1. 进入仓库的 **Settings** → **Pages**
+2. Source 选择 **Deploy from a branch**
+3. Branch 选择 **main**，目录选择 **/ (root)**
+4. 保存后等待部署完成
+5. 访问 `https://你的用户名.github.io/rss-bot/`
+
+**功能特性**：
+- 📱 响应式设计，支持移动端
+- 🔍 文章搜索和来源筛选
+- 🌙 深色/浅色主题切换
+- 🔄 手动触发 RSS 抓取
+- 📖 点击卡片展开阅读全文
+
+### 方式二：直接获取 JSON 数据
+
 你可以直接使用 `rss-merged.json` 文件，它包含了所有RSS源的合并数据。
 
 例如，你可以使用以下URL获取json数据：
@@ -139,6 +158,21 @@ GitHub Actions工作流配置文件位于 `.github/workflows/rss-fetcher.yml`，
 https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-merged.json
 
 https://raw.githubusercontent.com/wangdaodao/rss-bot/main/rss-data.json
+
+## 手动触发抓取
+
+### 方法一：GitHub Actions 页面
+
+1. 进入仓库的 **Actions** 标签页
+2. 选择 **RSS Fetcher** workflow
+3. 点击 **Run workflow** 按钮
+
+### 方法二：在线阅读器（需配置 Token）
+
+1. 打开在线阅读器
+2. 点击右上角 **⚙️** 设置按钮
+3. 输入 GitHub Personal Access Token（需要 `repo` 和 `workflow` 权限）
+4. 保存后点击 **🔄 刷新数据** 按钮即可触发
 
 ## 许可证
 

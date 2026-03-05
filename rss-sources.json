@@ -1,8 +1,53 @@
 [
   {
+    "name": "知乎热榜",
+    "url": "https://www.zhihu.com/rss",
+    "description": "知乎热门内容"
+  },
+  {
+    "name": "美团技术团队",
+    "url": "https://tech.meituan.com/feed/",
+    "description": "美团技术团队博客"
+  },
+  {
     "name": "阮一峰的网络日志",
     "url": "http://www.ruanyifeng.com/blog/atom.xml",
     "description": "阮一峰的科技博客"
+  },
+  {
+    "name": "小众软件",
+    "url": "https://feeds.appinn.com/appinns/",
+    "description": "分享免费、小巧、实用的软件"
+  },
+  {
+    "name": "V2EX - 技术",
+    "url": "https://v2ex.com/feed/tab/tech.xml",
+    "description": "V2EX 技术板块"
+  },
+  {
+    "name": "科学网博客",
+    "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
+    "description": "科学网博客精选"
+  },
+  {
+    "name": "豆瓣书评",
+    "url": "https://www.douban.com/feed/review/book",
+    "description": "豆瓣最新书评"
+  },
+  {
+    "name": "豆瓣影评",
+    "url": "https://www.douban.com/feed/review/movie",
+    "description": "豆瓣最新影评"
+  },
+  {
+    "name": "极客公园",
+    "url": "https://www.geekpark.net/rss",
+    "description": "极客公园科技资讯"
+  },
+  {
+    "name": "全球主机交流",
+    "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
+    "description": "HostLoc 主机论坛"
   },
   {
     "name": "王叨叨",
