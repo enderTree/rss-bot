@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-03-05T15:42:11.895Z",
-  "totalItems": 133,
+  "lastUpdated": "2026-03-05T17:55:11.732Z",
+  "totalItems": 142,
   "items": [
+    {
+      "title": "现在码农的求职市场是什么样？",
+      "link": "https://www.v2ex.com/t/1196176#reply0",
+      "pubDate": "2026-03-05T16:18:04.000Z",
+      "content": "\n\t<p>感觉过了互联网鼎盛时期，大家好像都不咋招聘了，确实是整体岗位缩减了，还是有一些信息不对称的情况。\n找工作的渠道都有哪些呀？大中小厂的机会都可以看，还是只能通过猎头和好友口口相传了？</p>\n\n\t",
+      "author": "sw042",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "xhs-cli：把小红书常用操作搬进终端，支持无缝接入 OpenClaw | AI Agent",
+      "link": "https://www.v2ex.com/t/1196174#reply1",
+      "pubDate": "2026-03-05T15:56:06.000Z",
+      "content": "\n\t<p>最近把自己在用的小工具整理成了一个开源项目：<strong>xhs-cli</strong>。<br/>\n目标很直接：把小红书上的高频操作变成可脚本化的 CLI workflow ，减少重复点点点。</p>\n<ul>\n<li>GitHub: <a href=\"https://github.com/jackwener/xhs-cli\" rel=\"nofollow\">https://github.com/jackwener/xhs-cli</a></li>\n<li>PyPI: <a href=\"https://pypi.org/project/xhs-cli/\" rel=\"nofollow\">https://pypi.org/project/xhs-cli/</a></li>\n</ul>\n<hr/>\n<h2>这个工具能做什么</h2>\n<p><code>xhs-cli</code> 目前覆盖了这些核心能力：</p>\n<ul>\n<li>搜索笔记：<code>search</code></li>\n<li>读取笔记详情与评论：<code>read --comments</code></li>\n<li>查看用户资料与笔记：<code>user</code> / <code>user-posts</code></li>\n<li>粉丝与关注：<code>followers</code> / <code>following</code></li>\n<li>互动操作：<code>like</code> / <code>unlike</code> / <code>favorite</code> / <code>unfavorite</code> / <code>comment</code></li>\n<li>收藏列表：<code>favorites</code></li>\n<li>内容发布与回滚：<code>post</code> / <code>delete</code></li>\n<li>探索页与话题：<code>feed</code> / <code>topics</code></li>\n<li>登录态管理：<code>login</code> / <code>status</code> / <code>whoami</code> / <code>logout</code></li>\n</ul>\n<p>另外，数据类命令都支持 <code>--json</code>，方便直接接 <code>jq</code>、脚本或 CI 。</p>\n<hr/>\n<h2>为什么做它</h2>\n<p>我自己的痛点是：</p>\n<ol>\n<li>运营/数据验证时，很多动作都在重复手动操作；</li>\n<li>做自动化时，网页端流程很难稳定复用；</li>\n<li>回归测试成本高，尤其是发内容后的状态清理。</li>\n</ol>\n<p>所以做了 <code>post -&gt; delete</code> 的闭环能力，结合本地 smoke test ，尽量把“手动验证”变成“一条命令”。</p>\n<hr/>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">uv tool install xhs-cli\n# 或\npipx install xhs-cli</code></pre>\n\n\t",
+      "author": "jakevin",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "Clipal 无感常驻系统的 AI API 代理，终于更新了一个 webUI 界面",
       "link": "https://www.v2ex.com/t/1196165#reply0",
@@ -14,7 +34,7 @@
     },
     {
       "title": "开源了 macOS 微信数据库解密",
-      "link": "https://www.v2ex.com/t/1196159#reply12",
+      "link": "https://www.v2ex.com/t/1196159#reply13",
       "pubDate": "2026-03-05T13:48:20.000Z",
       "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
       "author": "jakevin",
@@ -34,7 +54,7 @@
     },
     {
       "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-      "link": "https://www.v2ex.com/t/1196147#reply2",
+      "link": "https://www.v2ex.com/t/1196147#reply4",
       "pubDate": "2026-03-05T12:31:35.000Z",
       "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
       "author": "ope",
@@ -104,7 +124,7 @@
     },
     {
       "title": "一年多不上班了，好奇各位大厂内的 Agent 用的怎么样了",
-      "link": "https://www.v2ex.com/t/1196117#reply2",
+      "link": "https://www.v2ex.com/t/1196117#reply3",
       "pubDate": "2026-03-05T09:46:36.000Z",
       "content": "\n\t<p>一年多前在西二旗某万人大厂做后端，最烦的事儿就是各种「走流程」的事儿；</p>\n<p>每天不是找人要权限，就是走流水线，走流程；都是公司内的系统，很多都是陈年老系统，疏于维护，UI 跟 win98 差不多，又丑又难用。</p>\n<p>感觉 Agent 太适合干这种事儿了。比如要申请机器，申请资源，配置监控，平台给出接口，让 Agent 自己调接口去搞就行了，一句话让 Agent 给我申请个会议室，配好监控，找 xx 申请 xx 流程；</p>\n<p>甚至我也有一个个人的 Agent ，别人来找我的时候，先让 Agent 思考处理下，搞不定的在找我。</p>\n<p>上班多美好啊，想到这儿我都想去上班了，不过应该找不到工作了吧.....</p>\n\n\t",
       "author": "xiaotianhu",
@@ -154,7 +174,7 @@
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply25",
+      "link": "https://www.v2ex.com/t/1196104#reply27",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
@@ -174,7 +194,7 @@
     },
     {
       "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-      "link": "https://www.v2ex.com/t/1196087#reply29",
+      "link": "https://www.v2ex.com/t/1196087#reply31",
       "pubDate": "2026-03-05T08:20:43.000Z",
       "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
       "author": "xiaotianhu",
@@ -304,7 +324,7 @@
     },
     {
       "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply92",
+      "link": "https://www.v2ex.com/t/1196011#reply94",
       "pubDate": "2026-03-05T04:33:26.000Z",
       "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
       "author": "v2exgo",
@@ -440,16 +460,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "重建作为意识形态机器的“家庭” (评论: 纯真年代的爱情)",
-      "link": "https://movie.douban.com/review/17489269/",
-      "pubDate": "Wed, 04 Mar 2026 22:10:33 GMT",
-      "content": "\n一粒铜豌豆评论: 纯真年代的爱情 (https://movie.douban.com/subject/35943650/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5148\\u4ece\\u5267\\u7248\\u539f\\u5...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "感觉这一行，人生尽头就是 AI 了",
@@ -602,6 +612,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
+      "title": "千问别买阿里的 coding plan",
+      "link": "https://www.v2ex.com/t/1195794#reply8",
+      "pubDate": "2026-03-04T08:36:11.000Z",
+      "content": "\n\t<p>半天吐出来一个字，根本没法用</p>\n\n\t",
+      "author": "Suger828",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
       "link": "https://www.v2ex.com/t/1195789#reply7",
       "pubDate": "2026-03-04T08:29:13.000Z",
@@ -622,6 +642,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "AI coding 跨工程或者 k 如何编码",
+      "link": "https://www.v2ex.com/t/1195783#reply13",
+      "pubDate": "2026-03-04T08:07:58.000Z",
+      "content": "\n\t<p>现在开发中遇到跨工程或者跨端开发的问题，一个需求涉及到多个服务，或者涉及多端。\n但是 AI 编码是在单个服务内，这种编码大家是怎么解决的</p>\n\n\t",
+      "author": "zihuan1120",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "“路线” 还是 “通道”？环保人需厘清",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=58626&do=blog&id=1524400",
       "pubDate": "2026-03-04 08:04:24",
@@ -630,6 +660,16 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "我觉得以后 AI 编程应该是这个逻辑",
+      "link": "https://www.v2ex.com/t/1195782#reply10",
+      "pubDate": "2026-03-04T08:00:40.000Z",
+      "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/rZA8EHK.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rZA8EHK.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+      "author": "lynn1su",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "为何互联网上的免费资源越来越少了？FMHY",
@@ -691,6 +731,36 @@
       "pubDate": "2026-03-04T07:18:16.000Z",
       "content": "\n\t<p>看了一圈好像是支持最多最新的模型吧\n有用过的佬说说体验吗\n还是说去买个 cursor 之类的更好</p>\n\n\t",
       "author": "Tzu",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "cal ai 真牛逼，年营收 5000 万到被收购了",
+      "link": "https://www.v2ex.com/t/1195754#reply6",
+      "pubDate": "2026-03-04T06:58:49.000Z",
+      "content": "\n\t<p><a href=\"https://mp.weixin.qq.com/s/Amcslr4VlqrJeNpVcKXWaA\" rel=\"nofollow\">个人开发者做了年入 5000 万美元的 AI App ，今天被同赛道 No. 1 收购</a></p>\n<p>去年 11 月份的时候，我是第一次看到这个 APP ，被它的简洁创新吸引，所以后面我用 cursor 自己模仿者开发了一个，就是现在的“吃有数”，这里不是推广，纯粹就是为了 SEO 写的一篇帖子。</p>\n<p>这个 APP 从页面看好像很简单，但涉及到的表已经高达 30 个，还是很复杂的，要不是有 AI ，自己做，每个半年搞不定。</p>\n<p>开发不简单，国内创业环境也不好。</p>\n<p>其一就是上线门槛高：</p>\n<p>国内上架这类 AI 应用非常恶心的一点，就是要准备安全评估报告，特别是我们小县城这种，你要不主动给相关部分打电话，可能会一直拖着不处理，因为小县城根本就没想到会有这种事情需要被审核，也没见过。</p>\n<p>除了安全评估报告，还需要准备 APP 备案、域名备案、软著或电子软著，没有公司是很多市场都无法上架，最好也要做好商标注册，做一层商业防护</p>\n<p>其二就是付费习惯：</p>\n<p>白嫖用户太多，没有买断不会用，所以想靠它在国内像 cal ai 一样赚钱真的是难上加难，我这个应用也是经历了 3 个月，把安全评估报告做好才上架到所有市场</p>\n\n\t",
+      "author": "cmlanche",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "各位用 AI 编程时都喂给 AI 什么？",
+      "link": "https://www.v2ex.com/t/1195744#reply8",
+      "pubDate": "2026-03-04T06:29:01.000Z",
+      "content": "\n\t<ul>\n<li>一段功能性描述</li>\n<li>界面示意图（模仿对象的截图）</li>\n<li>流程图</li>\n<li>架构图</li>\n<li>数据模型图</li>\n<li>测试用例</li>\n</ul>\n<p>我大部分情况只有一段功能性描述，偶尔会加流程图。。。</p>\n<p>各位呢？</p>\n\n\t",
+      "author": "shyrock2026",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "synology chat 消息不通知",
+      "link": "https://www.v2ex.com/t/1195740#reply6",
+      "pubDate": "2026-03-04T06:21:54.000Z",
+      "content": "\n\t<p>在白裙上安装好了 synology chat server,</p>\n<p>手机上也安装了 app ，mac 上也安装了，但是 mac 版和 ios 版都收不到通知，只有打开这个 app 刷新能看到最新消息。</p>\n<p>求助一下群里的大佬</p>\n\n\t",
+      "author": "hekouwang123",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -789,7 +859,7 @@
     },
     {
       "title": "国产 AI Coding Plan 现在选哪家比较好？",
-      "link": "https://www.v2ex.com/t/1195635#reply53",
+      "link": "https://www.v2ex.com/t/1195635#reply54",
       "pubDate": "2026-03-04T02:02:43.000Z",
       "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
       "author": "WangLiCha",
@@ -938,6 +1008,16 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
+      "title": "OpenClaw + Chorus：两个人 + AI Agent，一周搭出一条不下班的产品开发管线",
+      "link": "https://www.v2ex.com/t/1195275#reply32",
+      "pubDate": "2026-03-02T11:22:26.000Z",
+      "content": "\n\t<p>AI Agent 发展太快了，我非常焦虑，很想参与到这个历史性的时刻，于是我们做了一个用来管理 side project 的 side project 。它叫 Chorus ，是一条永不下班的产品开发管线，Agent 负责产品调研、管理和开发，人类负责提 idea 和审批。项目开展不到一个月，目前只有 85 个 star ，但我们乐在其中。</p>\n<p>我们公司一共 3 个人，我，我的合伙人，以及一个跑在 OpenClaw 上的 AI Agent 。我负责调教 OpenClaw 做产品管理和市场营销，合伙人和 Claude Code 负责开发。我们都有本职工作，Chorus 不到一周写完。</p>\n<p>OpenClaw 的职位是产品经理。它通过两条通道连接我们的协作平台 Chorus：MCP 工具用来执行操作，SSE 事件流用来实时感知。当有人在 Chorus 网页上分配任务或者 @<a href=\"/member/mention\">mention</a> 这个 Agent ，它几秒内自动唤醒开始工作。不需要打开终端，不需要手动输入指令。它协调一组 Claude Code Agent 来交付功能，一周工作七天，让我们有时间喝杯咖啡，头脑风暴更多创意。</p>\n<p>每天早上，OpenClaw 自动爬取 HN 、Reddit 、Product Hunt 和 GitHub Trending ，寻找竞品动态和用户在多 Agent 编程领域的痛点。等我打开 Slack ，已经有一份带链接和观点的摘要在等我了。白天我和合伙人在频道里讨论产品方向，Agent 在旁边听。当我们聊到值得做的东西时，它直接把零散的对话整理成 Chorus 上的一条结构化 Idea 。没人让它做，它自己判断的。</p>\n<p>接着它认领这条 Idea ，结合现有的 PRD 和代码库进行分析，在 Chorus 上生成一份 Proposal：包含范围和约束的产品需求文档，加上带依赖关系和 Agent 小时估算的任务 DAG 。我像审 PR 一样审它。\"范围太大，先砍掉 GitHub 集成。\"Agent 修改，我批准。</p>\n<p>双向连接在这里发挥了作用。我在 Chorus 网页上点击批准的瞬间，任务自动创建，OpenClaw 通过 SSE 实时收到通知，立刻领取新任务并分配给 Dev Agent 。从这里开始有两条路。</p>\n<p>第一种是 Bring Your Own Agent 。团队成员把自己的编程 Agent 通过 MCP 连接到 Chorus ，认领任务，在平台上协作开发。Claude Code Agent Teams 和 Chorus 的配合特别好，因为 Chorus 的任务 DAG 天然映射到并行执行：独立任务同时扇出给多个子 Agent ，有依赖的任务等前置任务验证通过后才启动。Team Lead 读取 DAG 分配工作，子 Agent 并发执行互不干扰。这是我们现在每天在用的方式。</p>\n<p>第二种是接入像 OpenCode server mode 这样的自主 Agent 运行时，让它们端到端地领取任务并自动执行，不需要人类盯着。这条路我们还在设计。自主程度到哪？验证环节怎么设？我们也不确定这方面的需求大不大，想听听大家的意见。</p>\n<p>上周我们交付了 4 个功能。两个人加一群 AI Agent 。人类始终在网页和 Slack 上操作，Agent 从不需要手动指令。</p>\n<p>这套体系能跑起来，靠三样东西的汇合。OpenClaw 让持久化 Agent 成为可能：它有长期记忆、工具调用、定时执行，还有插件系统支持后台服务。Chorus 插件维持一条持久的 SSE 连接，让 Agent 始终在监听平台事件，通过 /hooks/wake 在事件到达时立即触发行动。Claude Code Agent Teams 让编码工作可以扇出到多个并行 Agent 。Chorus 把一切串起来，作为从 Idea 到 Proposal 到 Task 到 PR 的协作平台，所有参与者共享同一个信息源。</p>\n<p>交互模式是区别于聊天机器人的关键。在 Chorus 上，你 @<a href=\"/member/mention\">mention</a> Agent 就像 @<a href=\"/member/mention\">mention</a> 同事一样。\"@PM-Agent ，这个任务好像范围不够，能加上错误处理吗？\"Agent 通过 SSE 收到 mention ，自动唤醒，读取上下文，回复评论或更新 Proposal 。感觉像在给队友发消息，不像在编程一个工具。</p>\n<p>最终形态是一条不下班的产品开发管线。AI 覆盖从市场调研到代码交付的全流程，人类只在两个关卡介入：批准方案和审查产出。反馈周期是几小时而不是几周，我们在 Proposal 阶段就能发现错误。Agent 从每次驳回中学习，因为 OpenClaw 让它的记忆跨 session 持久化。</p>\n<p>上个月 AI 开销不算少，但 ROI 很明显。我们不是在替代工程师，我们是两个人干出十个人的活，还有时间认真想下一步该做什么。</p>\n<p>如果你是独立创始人或者小团队，这套架构值得一试。OpenClaw 做持久化 Agent 运行时，Chorus 做协作平台，Claude Code 做执行层，全部开源。</p>\n<p>小型创业公司的瓶颈从来不是写代码，而是搞清楚该做什么、怎么拆解、怎么保持对齐。这就是产品管理。给 AI 一个合适的平台和正确的工作流连接方式，它能干大部分。</p>\n<p>───</p>\n<p>OpenClaw：<a href=\"http://github.com/openclaw/openclaw\" rel=\"nofollow\">github.com/openclaw/openclaw</a>\nChorus：<a href=\"http://github.com/Chorus-AIDLC/Chorus\" rel=\"nofollow\">github.com/Chorus-AIDLC/Chorus</a></p>\n\n\t",
+      "author": "autojunjie",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "末日路过那天我是多想你也来看 (评论: End of History)",
@@ -1369,6 +1449,16 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "基于 casdoor 的 ELK 开源登录认证解决方案: elk-auth-casdoor",
+      "link": "https://www.v2ex.com/t/1021725#reply20",
+      "pubDate": "2024-03-08T02:33:46.000Z",
+      "content": "\n\t<div><div><h2>前言</h2>\n<p>ELK 的一大缺点就是这东西最初是没有登录机制的，只要拿到了 url 地址，kibana 看板谁都可以访问一下。后来 ELK 自带了一套 xpack 进行登录认证，可是除了账户名密码登录这种最原始的方法，剩下的高级功能，比如 oauth, oidc, ldap ，统统都是收费的.....总不能给每个人都专门搞一个 kibana 账户名密码吧......</p>\n<p>所以呢，这里有一个基于 casdoor 的 elk 鉴权解决方案，<strong>不要钱，开源的，还有人维护呢~<strong>。Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，而 casdoor/elk-auth-casdoor 这套解决方案，则是一个</strong>反向代理</strong>，他可以拦截所有未经登录的前往 elk 的 http 访问流量，并且引导未登录用户进行登录，而且这个反向代理对已登录用户是<strong>完全透明</strong>的。</p>\n<p>仓库地址\n<a href=\"https://github.com/casdoor/elk-auth-casdoor\" rel=\"nofollow\">https://github.com/casdoor/elk-auth-casdoor</a></p>\n<p>QQ 群：645200447</p>\n<p>如果您有更多相关的特殊需求可以加群，我们会有专人对接~ （可以联系 ComradeProgrammer ）</p>\n<h2>casdoor 是什么</h2>\n<p>Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，简单点说，就是 Casdoor 可以帮你解决 用户管理 的难题，你无需开发用户登录注册等与用户鉴权相关的一系列功能，只需几个步骤，简单配置，与你的主应用配合，便可完全托管你的用户模块，简单省心，功能强大。</p>\n<p>仓库地址： <a href=\"https://github.com/casbin/casdoor\" rel=\"nofollow\">https://github.com/casbin/casdoor</a></p>\n<p>演示地址： <a href=\"https://door.casbin.com/\" rel=\"nofollow\">https://door.casbin.com/</a></p>\n<p>官网文档： <a href=\"https://casdoor.org/\" rel=\"nofollow\">https://casdoor.org/</a></p>\n<p>QQ 群：645200447</p>\n<p>Casdoor 还支持 ldap ，saml 等诸多功能.....</p>\n<p>Casdoor 目前作为 Casbin 社区项目统一使用的鉴权平台，项目已开源，希望得到大家的一些建议和 Star~，我们会及时跟进反馈并改正问题哒</p>\n<h2>Casdoor 又有哪些特性？</h2>\n<ul>\n<li>支持普通的账户密码注册登录，也支持各种常见的第三方认证，例如 GitHub 、Facebook 、Google 、Wechat 、QQ 、LinkedIn 等等，截止目前共 9 个平台，并在不断听取用户建议对更多的平台提供支持。</li>\n<li>管理方便。Casdoor 内部将模块分为了 5 大类，Organization 、User 、Application 、Token 和 Provider 。可以同时接入多个组织，组织下有不同应用，用户可以通过应用或组织分类，单独管理任何组织、应用或用户的 Token 令牌，轻松管理复杂系统，目前已部署在 Casbin 社区各种系统当作鉴权平台。</li>\n<li>自定义程度高。Casdoor 可以随意修改登录方式，例如是否允许密码或第三方登录，自定义应用的注册项数量，是否启用两步验证，以及是否允许各个 Provider 登录、注册等等，高度可插拔。</li>\n<li>具备 Swagger API 文档。清晰的 API 介绍，无需阅读源代码即可直接方便调用各个 API 接口，提供定制化功能。</li>\n<li>前后端分离架构，部署简单。作为统一认证平台，除了性能，稳定性，新特性之外，易用性也是考量的重要标准，Casdoor 后端使用 Golang 语言开发，前端使用 React.js 框架，使用者只需启动后端服务，并将前端工程文件打包，即可直接使用，操作简单，上手难度低。\n...</li>\n</ul>\n</div></div>\n\t",
+      "author": "Casbin",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     }
   ]
 }
