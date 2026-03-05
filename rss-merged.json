@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-05T13:56:24.459Z",
+  "lastUpdated": "2026-03-05T14:41:32.379Z",
   "totalItems": 143,
   "items": [
     {
       "title": "开源了 macOS 微信数据库解密",
-      "link": "https://www.v2ex.com/t/1196159#reply0",
+      "link": "https://www.v2ex.com/t/1196159#reply8",
       "pubDate": "2026-03-05T13:48:20.000Z",
       "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
       "author": "jakevin",
@@ -53,6 +53,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "临界现象二百年：第一章 玻璃管里的幽灵：德拉图的声学实验",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524482",
+      "pubDate": "2026-03-05 11:13:30",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "《纯真年代的爱情》，不如改名《向下兼容的爱情》 (评论: 纯真年代的爱情)",
       "link": "https://movie.douban.com/review/17490052/",
       "pubDate": "Thu, 05 Mar 2026 10:27:08 GMT",
@@ -64,7 +74,7 @@
     },
     {
       "title": "使用 antigravity manager 小心封号",
-      "link": "https://www.v2ex.com/t/1196123#reply8",
+      "link": "https://www.v2ex.com/t/1196123#reply9",
       "pubDate": "2026-03-05T10:12:59.000Z",
       "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
       "author": "jayeli",
@@ -134,7 +144,7 @@
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply21",
+      "link": "https://www.v2ex.com/t/1196104#reply22",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
@@ -171,16 +181,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "吹沫有江豚（古今诗词咏江豚续七百五十六）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524427",
-      "pubDate": "2026-03-05 07:50:37",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "计划性发现和偶然性发现都有可能获得诺奖",
@@ -244,7 +244,7 @@
     },
     {
       "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
-      "link": "https://www.v2ex.com/t/1196034#reply7",
+      "link": "https://www.v2ex.com/t/1196034#reply8",
       "pubDate": "2026-03-05T05:50:18.000Z",
       "content": "\n\t最近想把自己写的一个小工具部署上线，前端 React + 后端 Node.js 的组合。<br /><br />之前一直用的是买的便宜 VPS 手动部署，但是维护起来确实有点累，每次更新都要 ssh 上去操作。<br /><br />看了一圈发现现在选择好多：<br /><br />- Vercel / Netlify 这种前端部署很方便，但后端部分就得分开处理<br />- Railway / Render 看起来全栈都能搞定，但免费额度好像有限<br />- 自建 Docker + VPS 灵活但费时间<br />- Cloudflare Workers 据说很快，不知道适不适合这种场景<br /><br />想问下各位日常自己的 side project 都是怎么部署的？有没有那种既省心又不太贵的方案推荐？<br /><br />预算的话一个月不想超过 50 块钱，流量不大，主要是自己和朋友用。\n\t",
       "author": "anyChris",
@@ -274,7 +274,7 @@
     },
     {
       "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply91",
+      "link": "https://www.v2ex.com/t/1196011#reply92",
       "pubDate": "2026-03-05T04:33:26.000Z",
       "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
       "author": "v2exgo",
@@ -362,6 +362,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "基因抽中废彩票，自学逆袭成圣贤",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
+      "pubDate": "2026-03-05 01:45:05",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "借了《后我》的壳，注了《爱乐》之魂 (评论: 后来的我们)",
       "link": "https://movie.douban.com/review/17489347/",
       "pubDate": "Thu, 05 Mar 2026 01:32:31 GMT",
@@ -383,7 +393,7 @@
     },
     {
       "title": "Token 从哪里买或者获取",
-      "link": "https://www.v2ex.com/t/1195904#reply43",
+      "link": "https://www.v2ex.com/t/1195904#reply47",
       "pubDate": "2026-03-05T00:39:37.000Z",
       "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
       "author": "anlitechnet",
@@ -562,16 +572,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "从二到无穷大：超导的宏观量子效应及其应用",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=22926&do=blog&id=1524291",
-      "pubDate": "2026-03-04 10:25:15",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "搞了几年底层架构和 SSO，现在想做点接地气的小工具，大家平时有什么痛点需要解决？",
       "link": "https://www.v2ex.com/t/1195822#reply19",
       "pubDate": "2026-03-04T09:56:15.000Z",
@@ -623,7 +623,7 @@
     },
     {
       "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
-      "link": "https://www.v2ex.com/t/1195789#reply6",
+      "link": "https://www.v2ex.com/t/1195789#reply7",
       "pubDate": "2026-03-04T08:29:13.000Z",
       "content": "\n\t<ul>\n<li>本人主要使用 php 和 go 。因为开发环境是在 wsl2 下，发现很多 AI 工具对 wsl2 并不是很友好，经常会遇到目录的问题。使用 idea 的 ai 插件里面选 codex 和 claudecode 都会因为目录问题无法使用。</li>\n<li>所以想问下在 wsl2 下使用哪种最好？ opencode ，claudecode ？可能会有网络的问题</li>\n</ul>\n\n\t",
       "author": "xing4576",
@@ -687,7 +687,7 @@
     },
     {
       "title": "刚才公司全员被电信诈骗了一次了",
-      "link": "https://www.v2ex.com/t/1195766#reply44",
+      "link": "https://www.v2ex.com/t/1195766#reply45",
       "pubDate": "2026-03-04T07:30:57.000Z",
       "content": "\n\t<p>午休时间刚结束，在我睡的迷迷糊糊的情况下。内部 OA 系统弹出一个通知。（其实是群发邮件）<br/>\n让我们领国家发的 2750 元补贴。<br/>\n地址是 rcu.zte88.top<br/>\n只做了手机端界面，服务器在韩国。<br/>\n然后这个诈骗就很低端。就是利用公司通知的盲目性让人放松警惕钓鱼。</p>\n<p>又要姓名身份证，又要银行卡余额和密码，互动界面又跟拼多多有一拼。（我睡迷糊了，被金钱冲昏了头脑）<br/>\n在最后一步需要输入手机验证码的时候，我醒了。<br/>\n然后就是手机银行挂失、加锁、设上限。密码改不了，只能下次去柜台弄了。<br/>\n已经有好几个人跟着帽子去做笔录了，不知道有多少损失。  </p>\n<p>听说 V2 只要发服务器地址，服务器就会爆炸。不知道是不是真的。</p>\n\n\t",
       "author": "hahiru",

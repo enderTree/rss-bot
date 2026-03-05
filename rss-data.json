@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-05T13:56:24.455Z",
+  "lastUpdated": "2026-03-05T14:41:32.375Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-05T13:56:11.405Z",
+      "lastUpdated": "2026-03-05T14:41:15.724Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-05T13:56:12.124Z",
+      "lastUpdated": "2026-03-05T14:41:16.626Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-05T13:56:12.194Z",
+      "lastUpdated": "2026-03-05T14:41:16.810Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-05T13:56:13.677Z",
+      "lastUpdated": "2026-03-05T14:41:18.963Z",
       "items": [
         {
           "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
@@ -301,24 +301,54 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-05T13:56:13.725Z",
+      "lastUpdated": "2026-03-05T14:41:19.192Z",
       "items": [
         {
-          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-          "link": "https://www.v2ex.com/t/1196104#reply21",
-          "pubDate": "2026-03-05T08:59:38.000Z",
-          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
-          "author": "hotea",
+          "title": "开源了 macOS 微信数据库解密",
+          "link": "https://www.v2ex.com/t/1196159#reply8",
+          "pubDate": "2026-03-05T13:48:20.000Z",
+          "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
+          "author": "jakevin",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "开源了 macOS 微信数据库解密",
-          "link": "https://www.v2ex.com/t/1196159#reply0",
-          "pubDate": "2026-03-05T13:48:20.000Z",
-          "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
-          "author": "jakevin",
+          "title": "使用 antigravity manager 小心封号",
+          "link": "https://www.v2ex.com/t/1196123#reply9",
+          "pubDate": "2026-03-05T10:12:59.000Z",
+          "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
+          "author": "jayeli",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+          "link": "https://www.v2ex.com/t/1196011#reply92",
+          "pubDate": "2026-03-05T04:33:26.000Z",
+          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+          "author": "v2exgo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Token 从哪里买或者获取",
+          "link": "https://www.v2ex.com/t/1195904#reply47",
+          "pubDate": "2026-03-05T00:39:37.000Z",
+          "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
+          "author": "anlitechnet",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
+          "link": "https://www.v2ex.com/t/1196104#reply22",
+          "pubDate": "2026-03-05T08:59:38.000Z",
+          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
+          "author": "hotea",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -354,16 +384,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply91",
-          "pubDate": "2026-03-05T04:33:26.000Z",
-          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-          "author": "v2exgo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
           "link": "https://www.v2ex.com/t/1196147#reply1",
           "pubDate": "2026-03-05T12:31:35.000Z",
@@ -374,31 +394,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Token 从哪里买或者获取",
-          "link": "https://www.v2ex.com/t/1195904#reply43",
-          "pubDate": "2026-03-05T00:39:37.000Z",
-          "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
-          "author": "anlitechnet",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "很好奇现在 ai 发展到什么程度了？各行各业出现了哪些高效的 ai 使用方法和工具？有大佬能分享一下吗。",
           "link": "https://www.v2ex.com/t/1196095#reply11",
           "pubDate": "2026-03-05T08:40:37.000Z",
           "content": "\n\t<p>我现在对 ai 的使用停留在编程，NotebookLM 做笔记这些方面，算不上重度用户，对使用 ai 的想象力不足，不知道还有哪些环节可以使用 ai 节省工作量</p>\n\n\t",
           "author": "yangob233",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "使用 antigravity manager 小心封号",
-          "link": "https://www.v2ex.com/t/1196123#reply8",
-          "pubDate": "2026-03-05T10:12:59.000Z",
-          "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
-          "author": "jayeli",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -434,6 +434,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
+          "link": "https://www.v2ex.com/t/1196034#reply8",
+          "pubDate": "2026-03-05T05:50:18.000Z",
+          "content": "\n\t最近想把自己写的一个小工具部署上线，前端 React + 后端 Node.js 的组合。<br /><br />之前一直用的是买的便宜 VPS 手动部署，但是维护起来确实有点累，每次更新都要 ssh 上去操作。<br /><br />看了一圈发现现在选择好多：<br /><br />- Vercel / Netlify 这种前端部署很方便，但后端部分就得分开处理<br />- Railway / Render 看起来全栈都能搞定，但免费额度好像有限<br />- 自建 Docker + VPS 灵活但费时间<br />- Cloudflare Workers 据说很快，不知道适不适合这种场景<br /><br />想问下各位日常自己的 side project 都是怎么部署的？有没有那种既省心又不太贵的方案推荐？<br /><br />预算的话一个月不想超过 50 块钱，流量不大，主要是自己和朋友用。\n\t",
+          "author": "anyChris",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Claude code 你们是怎么使用的",
           "link": "https://www.v2ex.com/t/1196080#reply11",
           "pubDate": "2026-03-05T08:10:50.000Z",
@@ -449,16 +459,6 @@
           "pubDate": "2026-03-04T02:02:43.000Z",
           "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
           "author": "WangLiCha",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
-          "link": "https://www.v2ex.com/t/1196034#reply7",
-          "pubDate": "2026-03-05T05:50:18.000Z",
-          "content": "\n\t最近想把自己写的一个小工具部署上线，前端 React + 后端 Node.js 的组合。<br /><br />之前一直用的是买的便宜 VPS 手动部署，但是维护起来确实有点累，每次更新都要 ssh 上去操作。<br /><br />看了一圈发现现在选择好多：<br /><br />- Vercel / Netlify 这种前端部署很方便，但后端部分就得分开处理<br />- Railway / Render 看起来全栈都能搞定，但免费额度好像有限<br />- 自建 Docker + VPS 灵活但费时间<br />- Cloudflare Workers 据说很快，不知道适不适合这种场景<br /><br />想问下各位日常自己的 side project 都是怎么部署的？有没有那种既省心又不太贵的方案推荐？<br /><br />预算的话一个月不想超过 50 块钱，流量不大，主要是自己和朋友用。\n\t",
-          "author": "anyChris",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -564,6 +564,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "刚才公司全员被电信诈骗了一次了",
+          "link": "https://www.v2ex.com/t/1195766#reply45",
+          "pubDate": "2026-03-04T07:30:57.000Z",
+          "content": "\n\t<p>午休时间刚结束，在我睡的迷迷糊糊的情况下。内部 OA 系统弹出一个通知。（其实是群发邮件）<br/>\n让我们领国家发的 2750 元补贴。<br/>\n地址是 rcu.zte88.top<br/>\n只做了手机端界面，服务器在韩国。<br/>\n然后这个诈骗就很低端。就是利用公司通知的盲目性让人放松警惕钓鱼。</p>\n<p>又要姓名身份证，又要银行卡余额和密码，互动界面又跟拼多多有一拼。（我睡迷糊了，被金钱冲昏了头脑）<br/>\n在最后一步需要输入手机验证码的时候，我醒了。<br/>\n然后就是手机银行挂失、加锁、设上限。密码改不了，只能下次去柜台弄了。<br/>\n已经有好几个人跟着帽子去做笔录了，不知道有多少损失。  </p>\n<p>听说 V2 只要发服务器地址，服务器就会爆炸。不知道是不是真的。</p>\n\n\t",
+          "author": "hahiru",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Codex 更新后需要用全局连接加增强模式才能用。",
           "link": "https://www.v2ex.com/t/1196040#reply3",
           "pubDate": "2026-03-05T06:06:03.000Z",
@@ -589,16 +599,6 @@
           "pubDate": "2026-03-04T07:29:57.000Z",
           "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/gV3QTHz.jpeg\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/gV3QTHz.jpeg\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 一天 4 亿左右，大家呢？<br /> 目前火山方舟，阿里百炼，百度千帆算是凑齐了<br /> 在搞点其他家的免费 api\n\t",
           "author": "lynn1su",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "刚才公司全员被电信诈骗了一次了",
-          "link": "https://www.v2ex.com/t/1195766#reply44",
-          "pubDate": "2026-03-04T07:30:57.000Z",
-          "content": "\n\t<p>午休时间刚结束，在我睡的迷迷糊糊的情况下。内部 OA 系统弹出一个通知。（其实是群发邮件）<br/>\n让我们领国家发的 2750 元补贴。<br/>\n地址是 rcu.zte88.top<br/>\n只做了手机端界面，服务器在韩国。<br/>\n然后这个诈骗就很低端。就是利用公司通知的盲目性让人放松警惕钓鱼。</p>\n<p>又要姓名身份证，又要银行卡余额和密码，互动界面又跟拼多多有一拼。（我睡迷糊了，被金钱冲昏了头脑）<br/>\n在最后一步需要输入手机验证码的时候，我醒了。<br/>\n然后就是手机银行挂失、加锁、设上限。密码改不了，只能下次去柜台弄了。<br/>\n已经有好几个人跟着帽子去做笔录了，不知道有多少损失。  </p>\n<p>听说 V2 只要发服务器地址，服务器就会爆炸。不知道是不是真的。</p>\n\n\t",
-          "author": "hahiru",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -674,6 +674,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
+          "link": "https://www.v2ex.com/t/1195789#reply7",
+          "pubDate": "2026-03-04T08:29:13.000Z",
+          "content": "\n\t<ul>\n<li>本人主要使用 php 和 go 。因为开发环境是在 wsl2 下，发现很多 AI 工具对 wsl2 并不是很友好，经常会遇到目录的问题。使用 idea 的 ai 插件里面选 codex 和 claudecode 都会因为目录问题无法使用。</li>\n<li>所以想问下在 wsl2 下使用哪种最好？ opencode ，claudecode ？可能会有网络的问题</li>\n</ul>\n\n\t",
+          "author": "xing4576",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "国内如何使用 Gemini API",
           "link": "https://www.v2ex.com/t/1196071#reply3",
           "pubDate": "2026-03-05T07:34:36.000Z",
@@ -689,16 +699,6 @@
           "pubDate": "2026-03-04T08:07:58.000Z",
           "content": "\n\t<p>现在开发中遇到跨工程或者跨端开发的问题，一个需求涉及到多个服务，或者涉及多端。\n但是 AI 编码是在单个服务内，这种编码大家是怎么解决的</p>\n\n\t",
           "author": "zihuan1120",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
-          "link": "https://www.v2ex.com/t/1195789#reply6",
-          "pubDate": "2026-03-04T08:29:13.000Z",
-          "content": "\n\t<ul>\n<li>本人主要使用 php 和 go 。因为开发环境是在 wsl2 下，发现很多 AI 工具对 wsl2 并不是很友好，经常会遇到目录的问题。使用 idea 的 ai 插件里面选 codex 和 claudecode 都会因为目录问题无法使用。</li>\n<li>所以想问下在 wsl2 下使用哪种最好？ opencode ，claudecode ？可能会有网络的问题</li>\n</ul>\n\n\t",
-          "author": "xing4576",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -808,22 +808,12 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-05T13:56:15.273Z",
+      "lastUpdated": "2026-03-05T14:41:22.154Z",
       "items": [
         {
           "title": "迎春花&#160;",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524412",
           "pubDate": "2026-03-04 10:41:43",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "Kimi观点：如果要实现长生，彻底理解中医就是必需的",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524309",
-          "pubDate": "2026-03-04 11:22:16",
           "content": "",
           "author": "",
           "categories": [],
@@ -841,29 +831,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "Kimi观点：如果要实现长生，彻底理解中医就是必需的",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524309",
+          "pubDate": "2026-03-04 11:22:16",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "临界现象二百年：前言",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524375",
           "pubDate": "2026-03-04 04:38:06",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "从二到无穷大：超导的宏观量子效应及其应用",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=22926&do=blog&id=1524291",
-          "pubDate": "2026-03-04 10:25:15",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "中医与活性算法 （10）方剂不是药方，而是课程",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524302",
-          "pubDate": "2026-03-04 10:58:04",
           "content": "",
           "author": "",
           "categories": [],
@@ -881,16 +861,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "我对写作要领的理解",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1524419",
-          "pubDate": "2026-03-05 02:47:59",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "顿然草木精神别，自是寒暄气候催",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524443",
           "pubDate": "2026-03-05 09:15:27",
@@ -901,9 +871,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "2025年 全球 SCIE 刊 发文Top10 概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524451",
-          "pubDate": "2026-03-05 09:30:46",
+          "title": "腊梅花开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524487",
+          "pubDate": "2026-03-05 11:42:06",
           "content": "",
           "author": "",
           "categories": [],
@@ -911,9 +881,49 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "腊梅花开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524487",
-          "pubDate": "2026-03-05 11:42:06",
+          "title": "中医与活性算法 （10）方剂不是药方，而是课程",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524302",
+          "pubDate": "2026-03-04 10:58:04",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "我对写作要领的理解",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1524419",
+          "pubDate": "2026-03-05 02:47:59",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "物理学统一之路的曙光",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524413",
+          "pubDate": "2026-03-04 11:12:06",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "计划性发现和偶然性发现都有可能获得诺奖",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
+          "pubDate": "2026-03-05 07:44:24",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2025年 全球 SCIE 刊 发文Top10 概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524451",
+          "pubDate": "2026-03-05 09:30:46",
           "content": "",
           "author": "",
           "categories": [],
@@ -941,9 +951,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "物理学统一之路的曙光",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524413",
-          "pubDate": "2026-03-04 11:12:06",
+          "title": "临界现象二百年：第一章 玻璃管里的幽灵：德拉图的声学实验",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524482",
+          "pubDate": "2026-03-05 11:13:30",
           "content": "",
           "author": "",
           "categories": [],
@@ -951,9 +961,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "计划性发现和偶然性发现都有可能获得诺奖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
-          "pubDate": "2026-03-05 07:44:24",
+          "title": "基因抽中废彩票，自学逆袭成圣贤",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
+          "pubDate": "2026-03-05 01:45:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -999,23 +1009,13 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "吹沫有江豚（古今诗词咏江豚续七百五十六）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524427",
-          "pubDate": "2026-03-05 07:50:37",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-05T13:56:20.057Z",
+      "lastUpdated": "2026-03-05T14:41:25.520Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1222,7 +1222,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-05T13:56:23.259Z",
+      "lastUpdated": "2026-03-05T14:41:28.924Z",
       "items": [
         {
           "title": "我觉得说大生意人开金手指是不公平的 (评论: 大生意人)",
@@ -1430,20 +1430,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-05T13:56:24.155Z",
+      "lastUpdated": "2026-03-05T14:41:30.411Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-05T13:56:24.205Z",
+      "lastUpdated": "2026-03-05T14:41:30.675Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-05T13:56:24.455Z",
+      "lastUpdated": "2026-03-05T14:41:32.375Z",
       "items": [
         {
           "title": "无题",
