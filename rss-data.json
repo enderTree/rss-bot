@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-05T21:26:09.785Z",
+  "lastUpdated": "2026-03-05T22:23:22.101Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-05T21:25:58.255Z",
+      "lastUpdated": "2026-03-05T22:22:12.161Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-05T21:25:58.997Z",
+      "lastUpdated": "2026-03-05T22:22:13.341Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-05T21:25:59.057Z",
+      "lastUpdated": "2026-03-05T22:22:13.504Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-05T21:26:00.823Z",
+      "lastUpdated": "2026-03-05T22:22:15.001Z",
       "items": [
         {
           "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
@@ -301,7 +301,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-05T21:26:01.039Z",
+      "lastUpdated": "2026-03-05T22:22:15.185Z",
       "items": [
         {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
@@ -315,7 +315,7 @@
         },
         {
           "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-          "link": "https://www.v2ex.com/t/1196147#reply4",
+          "link": "https://www.v2ex.com/t/1196147#reply5",
           "pubDate": "2026-03-05T12:31:35.000Z",
           "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
           "author": "ope",
@@ -702,13 +702,113 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "新版 Copliot 令我陌生",
+          "link": "https://www.v2ex.com/t/1195539#reply23",
+          "pubDate": "2026-03-03T10:32:01.000Z",
+          "content": "\n\t<p>自动编排智能体那些，有人在用吗</p>\n\n\t",
+          "author": "chenliangngng",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
+          "link": "https://www.v2ex.com/t/1195789#reply7",
+          "pubDate": "2026-03-04T08:29:13.000Z",
+          "content": "\n\t<ul>\n<li>本人主要使用 php 和 go 。因为开发环境是在 wsl2 下，发现很多 AI 工具对 wsl2 并不是很友好，经常会遇到目录的问题。使用 idea 的 ai 插件里面选 codex 和 claudecode 都会因为目录问题无法使用。</li>\n<li>所以想问下在 wsl2 下使用哪种最好？ opencode ，claudecode ？可能会有网络的问题</li>\n</ul>\n\n\t",
+          "author": "xing4576",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "国内如何使用 Gemini API",
+          "link": "https://www.v2ex.com/t/1196071#reply3",
+          "pubDate": "2026-03-05T07:34:36.000Z",
+          "content": "\n\t<p>想使用 Google AI Studio 的 Gemini API, 现在一直是 Free Tire, 网上说国内申请的双币信用卡也不行，发卡地是国内所以不能用。虚拟信用卡页不行。有没有大佬指路一下如何解决。</p>\n<p>PS: 已经搞到了 Gemini AI Pro 订阅，网页可以使用 Gemini 3.1 Pro 模型了，但是 API 还不行。</p>\n\n\t",
+          "author": "boniu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI coding 跨工程或者 k 如何编码",
+          "link": "https://www.v2ex.com/t/1195783#reply13",
+          "pubDate": "2026-03-04T08:07:58.000Z",
+          "content": "\n\t<p>现在开发中遇到跨工程或者跨端开发的问题，一个需求涉及到多个服务，或者涉及多端。\n但是 AI 编码是在单个服务内，这种编码大家是怎么解决的</p>\n\n\t",
+          "author": "zihuan1120",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "各位用 AI 编程时都喂给 AI 什么？",
+          "link": "https://www.v2ex.com/t/1195744#reply8",
+          "pubDate": "2026-03-04T06:29:01.000Z",
+          "content": "\n\t<ul>\n<li>一段功能性描述</li>\n<li>界面示意图（模仿对象的截图）</li>\n<li>流程图</li>\n<li>架构图</li>\n<li>数据模型图</li>\n<li>测试用例</li>\n</ul>\n<p>我大部分情况只有一段功能性描述，偶尔会加流程图。。。</p>\n<p>各位呢？</p>\n\n\t",
+          "author": "shyrock2026",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "synology chat 消息不通知",
+          "link": "https://www.v2ex.com/t/1195740#reply6",
+          "pubDate": "2026-03-04T06:21:54.000Z",
+          "content": "\n\t<p>在白裙上安装好了 synology chat server,</p>\n<p>手机上也安装了 app ，mac 上也安装了，但是 mac 版和 ios 版都收不到通知，只有打开这个 app 刷新能看到最新消息。</p>\n<p>求助一下群里的大佬</p>\n\n\t",
+          "author": "hekouwang123",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "OpenClaw + Chorus：两个人 + AI Agent，一周搭出一条不下班的产品开发管线",
+          "link": "https://www.v2ex.com/t/1195275#reply32",
+          "pubDate": "2026-03-02T11:22:26.000Z",
+          "content": "\n\t<p>AI Agent 发展太快了，我非常焦虑，很想参与到这个历史性的时刻，于是我们做了一个用来管理 side project 的 side project 。它叫 Chorus ，是一条永不下班的产品开发管线，Agent 负责产品调研、管理和开发，人类负责提 idea 和审批。项目开展不到一个月，目前只有 85 个 star ，但我们乐在其中。</p>\n<p>我们公司一共 3 个人，我，我的合伙人，以及一个跑在 OpenClaw 上的 AI Agent 。我负责调教 OpenClaw 做产品管理和市场营销，合伙人和 Claude Code 负责开发。我们都有本职工作，Chorus 不到一周写完。</p>\n<p>OpenClaw 的职位是产品经理。它通过两条通道连接我们的协作平台 Chorus：MCP 工具用来执行操作，SSE 事件流用来实时感知。当有人在 Chorus 网页上分配任务或者 @<a href=\"/member/mention\">mention</a> 这个 Agent ，它几秒内自动唤醒开始工作。不需要打开终端，不需要手动输入指令。它协调一组 Claude Code Agent 来交付功能，一周工作七天，让我们有时间喝杯咖啡，头脑风暴更多创意。</p>\n<p>每天早上，OpenClaw 自动爬取 HN 、Reddit 、Product Hunt 和 GitHub Trending ，寻找竞品动态和用户在多 Agent 编程领域的痛点。等我打开 Slack ，已经有一份带链接和观点的摘要在等我了。白天我和合伙人在频道里讨论产品方向，Agent 在旁边听。当我们聊到值得做的东西时，它直接把零散的对话整理成 Chorus 上的一条结构化 Idea 。没人让它做，它自己判断的。</p>\n<p>接着它认领这条 Idea ，结合现有的 PRD 和代码库进行分析，在 Chorus 上生成一份 Proposal：包含范围和约束的产品需求文档，加上带依赖关系和 Agent 小时估算的任务 DAG 。我像审 PR 一样审它。\"范围太大，先砍掉 GitHub 集成。\"Agent 修改，我批准。</p>\n<p>双向连接在这里发挥了作用。我在 Chorus 网页上点击批准的瞬间，任务自动创建，OpenClaw 通过 SSE 实时收到通知，立刻领取新任务并分配给 Dev Agent 。从这里开始有两条路。</p>\n<p>第一种是 Bring Your Own Agent 。团队成员把自己的编程 Agent 通过 MCP 连接到 Chorus ，认领任务，在平台上协作开发。Claude Code Agent Teams 和 Chorus 的配合特别好，因为 Chorus 的任务 DAG 天然映射到并行执行：独立任务同时扇出给多个子 Agent ，有依赖的任务等前置任务验证通过后才启动。Team Lead 读取 DAG 分配工作，子 Agent 并发执行互不干扰。这是我们现在每天在用的方式。</p>\n<p>第二种是接入像 OpenCode server mode 这样的自主 Agent 运行时，让它们端到端地领取任务并自动执行，不需要人类盯着。这条路我们还在设计。自主程度到哪？验证环节怎么设？我们也不确定这方面的需求大不大，想听听大家的意见。</p>\n<p>上周我们交付了 4 个功能。两个人加一群 AI Agent 。人类始终在网页和 Slack 上操作，Agent 从不需要手动指令。</p>\n<p>这套体系能跑起来，靠三样东西的汇合。OpenClaw 让持久化 Agent 成为可能：它有长期记忆、工具调用、定时执行，还有插件系统支持后台服务。Chorus 插件维持一条持久的 SSE 连接，让 Agent 始终在监听平台事件，通过 /hooks/wake 在事件到达时立即触发行动。Claude Code Agent Teams 让编码工作可以扇出到多个并行 Agent 。Chorus 把一切串起来，作为从 Idea 到 Proposal 到 Task 到 PR 的协作平台，所有参与者共享同一个信息源。</p>\n<p>交互模式是区别于聊天机器人的关键。在 Chorus 上，你 @<a href=\"/member/mention\">mention</a> Agent 就像 @<a href=\"/member/mention\">mention</a> 同事一样。\"@PM-Agent ，这个任务好像范围不够，能加上错误处理吗？\"Agent 通过 SSE 收到 mention ，自动唤醒，读取上下文，回复评论或更新 Proposal 。感觉像在给队友发消息，不像在编程一个工具。</p>\n<p>最终形态是一条不下班的产品开发管线。AI 覆盖从市场调研到代码交付的全流程，人类只在两个关卡介入：批准方案和审查产出。反馈周期是几小时而不是几周，我们在 Proposal 阶段就能发现错误。Agent 从每次驳回中学习，因为 OpenClaw 让它的记忆跨 session 持久化。</p>\n<p>上个月 AI 开销不算少，但 ROI 很明显。我们不是在替代工程师，我们是两个人干出十个人的活，还有时间认真想下一步该做什么。</p>\n<p>如果你是独立创始人或者小团队，这套架构值得一试。OpenClaw 做持久化 Agent 运行时，Chorus 做协作平台，Claude Code 做执行层，全部开源。</p>\n<p>小型创业公司的瓶颈从来不是写代码，而是搞清楚该做什么、怎么拆解、怎么保持对齐。这就是产品管理。给 AI 一个合适的平台和正确的工作流连接方式，它能干大部分。</p>\n<p>───</p>\n<p>OpenClaw：<a href=\"http://github.com/openclaw/openclaw\" rel=\"nofollow\">github.com/openclaw/openclaw</a>\nChorus：<a href=\"http://github.com/Chorus-AIDLC/Chorus\" rel=\"nofollow\">github.com/Chorus-AIDLC/Chorus</a></p>\n\n\t",
+          "author": "autojunjie",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "千问别买阿里的 coding plan",
+          "link": "https://www.v2ex.com/t/1195794#reply8",
+          "pubDate": "2026-03-04T08:36:11.000Z",
+          "content": "\n\t<p>半天吐出来一个字，根本没法用</p>\n\n\t",
+          "author": "Suger828",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "cal ai 真牛逼，年营收 5000 万到被收购了",
+          "link": "https://www.v2ex.com/t/1195754#reply6",
+          "pubDate": "2026-03-04T06:58:49.000Z",
+          "content": "\n\t<p><a href=\"https://mp.weixin.qq.com/s/Amcslr4VlqrJeNpVcKXWaA\" rel=\"nofollow\">个人开发者做了年入 5000 万美元的 AI App ，今天被同赛道 No. 1 收购</a></p>\n<p>去年 11 月份的时候，我是第一次看到这个 APP ，被它的简洁创新吸引，所以后面我用 cursor 自己模仿者开发了一个，就是现在的“吃有数”，这里不是推广，纯粹就是为了 SEO 写的一篇帖子。</p>\n<p>这个 APP 从页面看好像很简单，但涉及到的表已经高达 30 个，还是很复杂的，要不是有 AI ，自己做，每个半年搞不定。</p>\n<p>开发不简单，国内创业环境也不好。</p>\n<p>其一就是上线门槛高：</p>\n<p>国内上架这类 AI 应用非常恶心的一点，就是要准备安全评估报告，特别是我们小县城这种，你要不主动给相关部分打电话，可能会一直拖着不处理，因为小县城根本就没想到会有这种事情需要被审核，也没见过。</p>\n<p>除了安全评估报告，还需要准备 APP 备案、域名备案、软著或电子软著，没有公司是很多市场都无法上架，最好也要做好商标注册，做一层商业防护</p>\n<p>其二就是付费习惯：</p>\n<p>白嫖用户太多，没有买断不会用，所以想靠它在国内像 cal ai 一样赚钱真的是难上加难，我这个应用也是经历了 3 个月，把安全评估报告做好才上架到所有市场</p>\n\n\t",
+          "author": "cmlanche",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "我觉得以后 AI 编程应该是这个逻辑",
+          "link": "https://www.v2ex.com/t/1195782#reply10",
+          "pubDate": "2026-03-04T08:00:40.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/rZA8EHK.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rZA8EHK.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+          "author": "lynn1su",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-05T21:26:03.086Z",
+      "lastUpdated": "2026-03-05T22:22:17.272Z",
       "items": [
         {
           "title": "迎春花&#160;",
@@ -761,16 +861,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "物理学统一之路的曙光",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524413",
-          "pubDate": "2026-03-04 11:12:06",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "计划性发现和偶然性发现都有可能获得诺奖",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
           "pubDate": "2026-03-05 07:44:24",
@@ -781,9 +871,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "2025年 全球 SCIE 刊 发文Top10 概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524451",
-          "pubDate": "2026-03-05 09:30:46",
+          "title": "物理学统一之路的曙光",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524413",
+          "pubDate": "2026-03-04 11:12:06",
           "content": "",
           "author": "",
           "categories": [],
@@ -794,6 +884,16 @@
           "title": "基因抽中废彩票，自学逆袭成圣贤",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
           "pubDate": "2026-03-05 01:45:05",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2025年 全球 SCIE 刊 发文Top10 概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524451",
+          "pubDate": "2026-03-05 09:30:46",
           "content": "",
           "author": "",
           "categories": [],
@@ -814,16 +914,6 @@
           "title": "临界现象二百年：第一章 玻璃管里的幽灵：德拉图的声学实验",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524482",
           "pubDate": "2026-03-05 11:13:30",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "三月春归",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1524388",
-          "pubDate": "2026-03-04 05:18:45",
           "content": "",
           "author": "",
           "categories": [],
@@ -871,6 +961,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "为什么现在的英语课都不学国际音标了呢？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1184431&do=blog&id=1524440",
+          "pubDate": "2026-03-05 09:06:53",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "缪其浩老师情报著作自选集的“代前言”",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524431",
           "pubDate": "2026-03-05 08:14:39",
@@ -891,9 +991,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "为什么现在的英语课都不学国际音标了呢？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1184431&do=blog&id=1524440",
-          "pubDate": "2026-03-05 09:06:53",
+          "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
+          "pubDate": "2026-03-05 11:03:20",
           "content": "",
           "author": "",
           "categories": [],
@@ -901,9 +1001,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
-          "pubDate": "2026-03-05 11:03:20",
+          "title": "中医与活性算法 （12）导引不是运动，而是具身",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524481",
+          "pubDate": "2026-03-05 11:07:52",
           "content": "",
           "author": "",
           "categories": [],
@@ -915,7 +1015,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-05T21:26:05.763Z",
+      "lastUpdated": "2026-03-05T22:22:19.467Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1122,7 +1222,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-05T21:26:07.727Z",
+      "lastUpdated": "2026-03-05T22:22:21.293Z",
       "items": [
         {
           "title": "我觉得说大生意人开金手指是不公平的 (评论: 大生意人)",
@@ -1329,21 +1429,21 @@
     {
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
-      "error": "socket hang up",
-      "lastUpdated": "2026-03-05T21:26:09.004Z",
+      "error": "Request timed out after 60000ms",
+      "lastUpdated": "2026-03-05T22:23:21.303Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-05T21:26:09.212Z",
+      "lastUpdated": "2026-03-05T22:23:21.586Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-05T21:26:09.784Z",
+      "lastUpdated": "2026-03-05T22:23:22.101Z",
       "items": [
         {
           "title": "无题",
