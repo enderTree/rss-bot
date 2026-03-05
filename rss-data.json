@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-05T20:29:53.655Z",
+  "lastUpdated": "2026-03-05T21:26:09.785Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-05T20:29:44.983Z",
+      "lastUpdated": "2026-03-05T21:25:58.255Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-05T20:29:45.560Z",
+      "lastUpdated": "2026-03-05T21:25:58.997Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-05T20:29:45.627Z",
+      "lastUpdated": "2026-03-05T21:25:59.057Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-05T20:29:46.975Z",
+      "lastUpdated": "2026-03-05T21:26:00.823Z",
       "items": [
         {
           "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
@@ -301,7 +301,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-05T20:29:47.027Z",
+      "lastUpdated": "2026-03-05T21:26:01.039Z",
       "items": [
         {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
@@ -702,113 +702,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "新版 Copliot 令我陌生",
-          "link": "https://www.v2ex.com/t/1195539#reply23",
-          "pubDate": "2026-03-03T10:32:01.000Z",
-          "content": "\n\t<p>自动编排智能体那些，有人在用吗</p>\n\n\t",
-          "author": "chenliangngng",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "使用 windows 和 wsl2 下什么 ai 编程工具最好",
-          "link": "https://www.v2ex.com/t/1195789#reply7",
-          "pubDate": "2026-03-04T08:29:13.000Z",
-          "content": "\n\t<ul>\n<li>本人主要使用 php 和 go 。因为开发环境是在 wsl2 下，发现很多 AI 工具对 wsl2 并不是很友好，经常会遇到目录的问题。使用 idea 的 ai 插件里面选 codex 和 claudecode 都会因为目录问题无法使用。</li>\n<li>所以想问下在 wsl2 下使用哪种最好？ opencode ，claudecode ？可能会有网络的问题</li>\n</ul>\n\n\t",
-          "author": "xing4576",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "国内如何使用 Gemini API",
-          "link": "https://www.v2ex.com/t/1196071#reply3",
-          "pubDate": "2026-03-05T07:34:36.000Z",
-          "content": "\n\t<p>想使用 Google AI Studio 的 Gemini API, 现在一直是 Free Tire, 网上说国内申请的双币信用卡也不行，发卡地是国内所以不能用。虚拟信用卡页不行。有没有大佬指路一下如何解决。</p>\n<p>PS: 已经搞到了 Gemini AI Pro 订阅，网页可以使用 Gemini 3.1 Pro 模型了，但是 API 还不行。</p>\n\n\t",
-          "author": "boniu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "AI coding 跨工程或者 k 如何编码",
-          "link": "https://www.v2ex.com/t/1195783#reply13",
-          "pubDate": "2026-03-04T08:07:58.000Z",
-          "content": "\n\t<p>现在开发中遇到跨工程或者跨端开发的问题，一个需求涉及到多个服务，或者涉及多端。\n但是 AI 编码是在单个服务内，这种编码大家是怎么解决的</p>\n\n\t",
-          "author": "zihuan1120",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "各位用 AI 编程时都喂给 AI 什么？",
-          "link": "https://www.v2ex.com/t/1195744#reply8",
-          "pubDate": "2026-03-04T06:29:01.000Z",
-          "content": "\n\t<ul>\n<li>一段功能性描述</li>\n<li>界面示意图（模仿对象的截图）</li>\n<li>流程图</li>\n<li>架构图</li>\n<li>数据模型图</li>\n<li>测试用例</li>\n</ul>\n<p>我大部分情况只有一段功能性描述，偶尔会加流程图。。。</p>\n<p>各位呢？</p>\n\n\t",
-          "author": "shyrock2026",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "synology chat 消息不通知",
-          "link": "https://www.v2ex.com/t/1195740#reply6",
-          "pubDate": "2026-03-04T06:21:54.000Z",
-          "content": "\n\t<p>在白裙上安装好了 synology chat server,</p>\n<p>手机上也安装了 app ，mac 上也安装了，但是 mac 版和 ios 版都收不到通知，只有打开这个 app 刷新能看到最新消息。</p>\n<p>求助一下群里的大佬</p>\n\n\t",
-          "author": "hekouwang123",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "OpenClaw + Chorus：两个人 + AI Agent，一周搭出一条不下班的产品开发管线",
-          "link": "https://www.v2ex.com/t/1195275#reply32",
-          "pubDate": "2026-03-02T11:22:26.000Z",
-          "content": "\n\t<p>AI Agent 发展太快了，我非常焦虑，很想参与到这个历史性的时刻，于是我们做了一个用来管理 side project 的 side project 。它叫 Chorus ，是一条永不下班的产品开发管线，Agent 负责产品调研、管理和开发，人类负责提 idea 和审批。项目开展不到一个月，目前只有 85 个 star ，但我们乐在其中。</p>\n<p>我们公司一共 3 个人，我，我的合伙人，以及一个跑在 OpenClaw 上的 AI Agent 。我负责调教 OpenClaw 做产品管理和市场营销，合伙人和 Claude Code 负责开发。我们都有本职工作，Chorus 不到一周写完。</p>\n<p>OpenClaw 的职位是产品经理。它通过两条通道连接我们的协作平台 Chorus：MCP 工具用来执行操作，SSE 事件流用来实时感知。当有人在 Chorus 网页上分配任务或者 @<a href=\"/member/mention\">mention</a> 这个 Agent ，它几秒内自动唤醒开始工作。不需要打开终端，不需要手动输入指令。它协调一组 Claude Code Agent 来交付功能，一周工作七天，让我们有时间喝杯咖啡，头脑风暴更多创意。</p>\n<p>每天早上，OpenClaw 自动爬取 HN 、Reddit 、Product Hunt 和 GitHub Trending ，寻找竞品动态和用户在多 Agent 编程领域的痛点。等我打开 Slack ，已经有一份带链接和观点的摘要在等我了。白天我和合伙人在频道里讨论产品方向，Agent 在旁边听。当我们聊到值得做的东西时，它直接把零散的对话整理成 Chorus 上的一条结构化 Idea 。没人让它做，它自己判断的。</p>\n<p>接着它认领这条 Idea ，结合现有的 PRD 和代码库进行分析，在 Chorus 上生成一份 Proposal：包含范围和约束的产品需求文档，加上带依赖关系和 Agent 小时估算的任务 DAG 。我像审 PR 一样审它。\"范围太大，先砍掉 GitHub 集成。\"Agent 修改，我批准。</p>\n<p>双向连接在这里发挥了作用。我在 Chorus 网页上点击批准的瞬间，任务自动创建，OpenClaw 通过 SSE 实时收到通知，立刻领取新任务并分配给 Dev Agent 。从这里开始有两条路。</p>\n<p>第一种是 Bring Your Own Agent 。团队成员把自己的编程 Agent 通过 MCP 连接到 Chorus ，认领任务，在平台上协作开发。Claude Code Agent Teams 和 Chorus 的配合特别好，因为 Chorus 的任务 DAG 天然映射到并行执行：独立任务同时扇出给多个子 Agent ，有依赖的任务等前置任务验证通过后才启动。Team Lead 读取 DAG 分配工作，子 Agent 并发执行互不干扰。这是我们现在每天在用的方式。</p>\n<p>第二种是接入像 OpenCode server mode 这样的自主 Agent 运行时，让它们端到端地领取任务并自动执行，不需要人类盯着。这条路我们还在设计。自主程度到哪？验证环节怎么设？我们也不确定这方面的需求大不大，想听听大家的意见。</p>\n<p>上周我们交付了 4 个功能。两个人加一群 AI Agent 。人类始终在网页和 Slack 上操作，Agent 从不需要手动指令。</p>\n<p>这套体系能跑起来，靠三样东西的汇合。OpenClaw 让持久化 Agent 成为可能：它有长期记忆、工具调用、定时执行，还有插件系统支持后台服务。Chorus 插件维持一条持久的 SSE 连接，让 Agent 始终在监听平台事件，通过 /hooks/wake 在事件到达时立即触发行动。Claude Code Agent Teams 让编码工作可以扇出到多个并行 Agent 。Chorus 把一切串起来，作为从 Idea 到 Proposal 到 Task 到 PR 的协作平台，所有参与者共享同一个信息源。</p>\n<p>交互模式是区别于聊天机器人的关键。在 Chorus 上，你 @<a href=\"/member/mention\">mention</a> Agent 就像 @<a href=\"/member/mention\">mention</a> 同事一样。\"@PM-Agent ，这个任务好像范围不够，能加上错误处理吗？\"Agent 通过 SSE 收到 mention ，自动唤醒，读取上下文，回复评论或更新 Proposal 。感觉像在给队友发消息，不像在编程一个工具。</p>\n<p>最终形态是一条不下班的产品开发管线。AI 覆盖从市场调研到代码交付的全流程，人类只在两个关卡介入：批准方案和审查产出。反馈周期是几小时而不是几周，我们在 Proposal 阶段就能发现错误。Agent 从每次驳回中学习，因为 OpenClaw 让它的记忆跨 session 持久化。</p>\n<p>上个月 AI 开销不算少，但 ROI 很明显。我们不是在替代工程师，我们是两个人干出十个人的活，还有时间认真想下一步该做什么。</p>\n<p>如果你是独立创始人或者小团队，这套架构值得一试。OpenClaw 做持久化 Agent 运行时，Chorus 做协作平台，Claude Code 做执行层，全部开源。</p>\n<p>小型创业公司的瓶颈从来不是写代码，而是搞清楚该做什么、怎么拆解、怎么保持对齐。这就是产品管理。给 AI 一个合适的平台和正确的工作流连接方式，它能干大部分。</p>\n<p>───</p>\n<p>OpenClaw：<a href=\"http://github.com/openclaw/openclaw\" rel=\"nofollow\">github.com/openclaw/openclaw</a>\nChorus：<a href=\"http://github.com/Chorus-AIDLC/Chorus\" rel=\"nofollow\">github.com/Chorus-AIDLC/Chorus</a></p>\n\n\t",
-          "author": "autojunjie",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "千问别买阿里的 coding plan",
-          "link": "https://www.v2ex.com/t/1195794#reply8",
-          "pubDate": "2026-03-04T08:36:11.000Z",
-          "content": "\n\t<p>半天吐出来一个字，根本没法用</p>\n\n\t",
-          "author": "Suger828",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "cal ai 真牛逼，年营收 5000 万到被收购了",
-          "link": "https://www.v2ex.com/t/1195754#reply6",
-          "pubDate": "2026-03-04T06:58:49.000Z",
-          "content": "\n\t<p><a href=\"https://mp.weixin.qq.com/s/Amcslr4VlqrJeNpVcKXWaA\" rel=\"nofollow\">个人开发者做了年入 5000 万美元的 AI App ，今天被同赛道 No. 1 收购</a></p>\n<p>去年 11 月份的时候，我是第一次看到这个 APP ，被它的简洁创新吸引，所以后面我用 cursor 自己模仿者开发了一个，就是现在的“吃有数”，这里不是推广，纯粹就是为了 SEO 写的一篇帖子。</p>\n<p>这个 APP 从页面看好像很简单，但涉及到的表已经高达 30 个，还是很复杂的，要不是有 AI ，自己做，每个半年搞不定。</p>\n<p>开发不简单，国内创业环境也不好。</p>\n<p>其一就是上线门槛高：</p>\n<p>国内上架这类 AI 应用非常恶心的一点，就是要准备安全评估报告，特别是我们小县城这种，你要不主动给相关部分打电话，可能会一直拖着不处理，因为小县城根本就没想到会有这种事情需要被审核，也没见过。</p>\n<p>除了安全评估报告，还需要准备 APP 备案、域名备案、软著或电子软著，没有公司是很多市场都无法上架，最好也要做好商标注册，做一层商业防护</p>\n<p>其二就是付费习惯：</p>\n<p>白嫖用户太多，没有买断不会用，所以想靠它在国内像 cal ai 一样赚钱真的是难上加难，我这个应用也是经历了 3 个月，把安全评估报告做好才上架到所有市场</p>\n\n\t",
-          "author": "cmlanche",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "我觉得以后 AI 编程应该是这个逻辑",
-          "link": "https://www.v2ex.com/t/1195782#reply10",
-          "pubDate": "2026-03-04T08:00:40.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/rZA8EHK.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rZA8EHK.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-          "author": "lynn1su",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-05T20:29:48.538Z",
+      "lastUpdated": "2026-03-05T21:26:03.086Z",
       "items": [
         {
           "title": "迎春花&#160;",
@@ -834,16 +734,6 @@
           "title": "顿然草木精神别，自是寒暄气候催",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524443",
           "pubDate": "2026-03-05 09:15:27",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "临界现象二百年：前言",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524375",
-          "pubDate": "2026-03-04 04:38:06",
           "content": "",
           "author": "",
           "categories": [],
@@ -1009,13 +899,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
+          "pubDate": "2026-03-05 11:03:20",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-05T20:29:50.366Z",
+      "lastUpdated": "2026-03-05T21:26:05.763Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1222,7 +1122,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-05T20:29:51.964Z",
+      "lastUpdated": "2026-03-05T21:26:07.727Z",
       "items": [
         {
           "title": "我觉得说大生意人开金手指是不公平的 (评论: 大生意人)",
@@ -1430,20 +1330,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-05T20:29:52.695Z",
+      "lastUpdated": "2026-03-05T21:26:09.004Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-05T20:29:52.973Z",
+      "lastUpdated": "2026-03-05T21:26:09.212Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-05T20:29:53.655Z",
+      "lastUpdated": "2026-03-05T21:26:09.784Z",
       "items": [
         {
           "title": "无题",
