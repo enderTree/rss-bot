@@ -75,7 +75,18 @@
 
     a:hover {
       color: #409eff;
-      text-decoration: underline;
+      text-decoration: none;
+    }
+
+    /* 覆盖 Element Plus el-link 的下划线样式 */
+    .el-link:hover,
+    .el-link:hover .el-link__inner,
+    .el-link.el-link--default:hover {
+      text-decoration: none !important;
+    }
+
+    .el-link__inner:hover {
+      text-decoration: none !important;
     }
 
     .feed-col {
@@ -224,7 +235,7 @@
         <el-row :gutter="20">
           <el-col 
             :xs="24" :sm="12" :md="8" :lg="6" 
-            v-for="(feed, index) in feeds" 
+            v-for="(feed, index) in validFeeds" 
             :key="index" 
             class="feed-col"
           >
@@ -241,7 +252,7 @@
                       <div class="list-item" v-for="(item, i) in feed.items" :key="i">
                         <div class="list-item-title">
                           <span>{{ i + 1 }}.</span>
-                          <el-link :href="item.link" target="_blank" :title="item.title">
+                          <el-link :href="item.link" target="_blank" :title="item.title" :underline="false">
                             {{ item.title }}
                           </el-link>
                         </div>
@@ -303,7 +314,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="https://unpkg.com/element-plus"></script>
   <script>
-    const { createApp, ref, onMounted, onUnmounted } = Vue;
+    const { createApp, ref, computed, onMounted, onUnmounted } = Vue;
 
     const app = createApp({
       setup() {
@@ -318,6 +329,11 @@
         const autoRefreshInterval = ref(parseInt(localStorage.getItem('auto_refresh') || '60'));
         const githubToken = ref(localStorage.getItem('github_token') || '');
         const githubRepo = ref(localStorage.getItem('github_repo') || 'enderTree/rss-bot');
+
+        // 过滤掉没有数据的订阅源
+        const validFeeds = computed(() => {
+          return feeds.value.filter(feed => feed.items && feed.items.length > 0);
+        });
 
         let countdownTimer = null;
         let refreshTimer = null;
@@ -445,6 +461,7 @@
 
         return {
           feeds,
+          validFeeds,
           loading,
           refreshing,
           showSettings,
