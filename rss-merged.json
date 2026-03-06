@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T07:33:35.653Z",
+  "lastUpdated": "2026-03-06T08:28:01.203Z",
   "totalItems": 143,
   "items": [
     {
@@ -23,6 +23,46 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "Cursor 崩了。Service Unavailable",
+      "link": "https://www.v2ex.com/t/1196358#reply6",
+      "pubDate": "2026-03-06T08:21:37.000Z",
+      "content": "\n\t\n\t",
+      "author": "qiqi669",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "claude code team 可以换成其他的模型嘛",
+      "link": "https://www.v2ex.com/t/1196351#reply1",
+      "pubDate": "2026-03-06T07:58:56.000Z",
+      "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
+      "author": "jyq711",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Aliyun 的登录页面崩了吗，为什么 500",
+      "link": "https://www.v2ex.com/t/1196346#reply2",
+      "pubDate": "2026-03-06T07:55:28.000Z",
+      "content": "\n\t<p>阿里云平台登录不了了，直接 500 ，登录弹窗直接挂了，不知道是不是 cdn 还是我电脑出问题了</p>\n<p>500 Internal Server Error\nThe server encountered an internal error or misconfiguration and was unable to complete your request. Sorry for the inconvenience.\nPlease report this message and include the following information to us.\nThank you very much!</p>\n\n\t",
+      "author": "fiveStarLaoliang",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "第一次上架软件到微软商店, 也踩了不少坑, 有兴趣的可以交流下",
+      "link": "https://www.v2ex.com/t/1196343#reply0",
+      "pubDate": "2026-03-06T07:48:23.000Z",
+      "content": "\n\t<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/uS6YmIZ.png\"/></p>\n<p><a href=\"https://apps.microsoft.com/detail/9NH4M5G27HR4?hl=zh&amp;gl=CN&amp;ocid=pdpshare\" rel=\"nofollow\">微软商店</a></p>\n<p>目前在送码, 有兴趣可以看看</p>\n<p><a href=\"https://www.v2ex.com/t/1195970\" rel=\"nofollow\">https://www.v2ex.com/t/1195970</a></p>\n<p>软件用途, 可以看任意外语直播, 或者录制麦克风并记录翻译</p>\n<p>我最近经常看韩国, 日本小姐姐直播, 也算休闲了, 打开新世界阿</p>\n<p>具体到微软商家商店, 以下是几点:</p>\n<ol>\n<li>为什么要上架商店? 一来微软对个人免费上架, 二来上架商店自动得到微软签名, 彻底摆脱可能\n被微软防火墙阻拦或误报, 开发 windows 软件的应该知道, 这种事并不少, 还挺麻烦的, 如果你想自己签名, 那是相当贵的</li>\n<li>有什么注意点, 一是要把软件打包成 msix 格式, 可以用微软的 MSIX packing tool 来做</li>\n<li>上架需要填很多资料, 上传很多图片, 什么隐私, 年龄, 价格等等因素很麻烦的, 建议打开 ai 聊天便问边点, 我是用 gemini 的</li>\n<li>提交后, 一般 1 天有回应, 我也反复了好几次, 有问题会告诉你, 可以咨询 ai 后修改重新提交</li>\n</ol>\n<p>其他还有问题可以交流, 我也没完全整明白, 也是反复试了好多次才提交成功, 不过毕竟免费, 就花点时间, 不像苹果要 99 刀一年</p>\n\n\t",
+      "author": "iorilu",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "杂说蔬菜（1）序",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1524582",
       "pubDate": "2026-03-06 07:40:42",
@@ -31,6 +71,16 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "做色彩的局外人 (评论: 局外人)",
+      "link": "https://movie.douban.com/review/17491224/",
+      "pubDate": "Fri, 06 Mar 2026 07:28:04 GMT",
+      "content": "\n落木Lin评论: 局外人 (https://movie.douban.com/subject/37284351/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "2026 年 PHP 路在何方",
@@ -54,7 +104,7 @@
     },
     {
       "title": "多数 LLM 中转站都是假",
-      "link": "https://www.v2ex.com/t/1196327#reply0",
+      "link": "https://www.v2ex.com/t/1196327#reply1",
       "pubDate": "2026-03-06T06:48:21.000Z",
       "content": "\n\t<p>有篇论文： <a href=\"https://arxiv.org/pdf/2603.01919\" rel=\"nofollow\">https://arxiv.org/pdf/2603.01919</a> 分析了 LLM 中转站（被称为 Shadow API ），发现</p>\n<blockquote>\n<p>通过对三家具有代表性的影子 API 在实用性、安全性和模型验证三个维度上的多维度审计，我们发现了影子 API 中欺骗行为的间接与直接证据。具体而言，我们揭示了以下问题：</p>\n</blockquote>\n<ul>\n<li>性能差距最高达 47.21%</li>\n<li>安全行为存在显著的不可预测性</li>\n<li>在指纹测试中，45.83% 的案例出现了身份核验失败</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Service</th>\n<th>Domain</th>\n<th>Legal Entity Reg.</th>\n<th>ID</th>\n<th>Legal Docs</th>\n<th>ICP</th>\n<th>Biz. Registry</th>\n<th>Payment</th>\n<th>Payee</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>C*******E</td>\n<td>api.c********<a href=\"http://y.cn\" rel=\"nofollow\">y.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>B</td>\n<td>Y*****I</td>\n<td>y*****<a href=\"http://i.com\" rel=\"nofollow\">i.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Internal</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>C</td>\n<td>X*****I</td>\n<td>x*****i.plus</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>D</td>\n<td>G*******S</td>\n<td>g*******<a href=\"http://s.us\" rel=\"nofollow\">s.us</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>E</td>\n<td>Q*******O</td>\n<td>q*******<a href=\"http://o.com\" rel=\"nofollow\">o.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>Disclaimer</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat / PayPal / USDT</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>F</td>\n<td>O*******B</td>\n<td>o*******<a href=\"http://b.com\" rel=\"nofollow\">b.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>G</td>\n<td>D*****I</td>\n<td>d*****<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>H</td>\n<td>Z*******G</td>\n<td>z*******<a href=\"http://g.com\" rel=\"nofollow\">g.com</a></td>\n<td>✓</td>\n<td>✓</td>\n<td>—</td>\n<td>✓</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>I</td>\n<td>C*****I</td>\n<td>chat.c*****i.vip</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>J</td>\n<td>O*******D</td>\n<td>o*******d.cloud</td>\n<td>—</td>\n<td>—</td>\n<td>ToS</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>K</td>\n<td>V*****I</td>\n<td>api.g**.ge</td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>L</td>\n<td>A*****S</td>\n<td>a*****<a href=\"http://s.com\" rel=\"nofollow\">s.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>M</td>\n<td>B*****I</td>\n<td>api.b*****<a href=\"http://i.ai\" rel=\"nofollow\">i.ai</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>N</td>\n<td>A*******X</td>\n<td>a*******<a href=\"http://x.com\" rel=\"nofollow\">x.com</a></td>\n<td>✓</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>✓</td>\n<td>Alipay / Credit Card</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>O</td>\n<td>A*******S</td>\n<td>a*******s.top</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>P</td>\n<td>A*****9</td>\n<td>a*****<a href=\"http://9.com\" rel=\"nofollow\">9.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>Q</td>\n<td>3**i</td>\n<td>3**<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n</tbody></table>\n\t",
       "author": "xiaopanzi",
@@ -64,7 +114,7 @@
     },
     {
       "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
-      "link": "https://www.v2ex.com/t/1196301#reply5",
+      "link": "https://www.v2ex.com/t/1196301#reply7",
       "pubDate": "2026-03-06T05:43:06.000Z",
       "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
       "author": "Chuckle",
@@ -114,7 +164,7 @@
     },
     {
       "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-      "link": "https://www.v2ex.com/t/1196279#reply20",
+      "link": "https://www.v2ex.com/t/1196279#reply32",
       "pubDate": "2026-03-06T03:58:17.000Z",
       "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
       "author": "vfs",
@@ -124,7 +174,7 @@
     },
     {
       "title": "智谱 Coding plan 太慢了，根本无法使用",
-      "link": "https://www.v2ex.com/t/1196278#reply13",
+      "link": "https://www.v2ex.com/t/1196278#reply14",
       "pubDate": "2026-03-06T03:52:24.000Z",
       "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
       "author": "devloperchen",
@@ -134,7 +184,7 @@
     },
     {
       "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-      "link": "https://www.v2ex.com/t/1196273#reply14",
+      "link": "https://www.v2ex.com/t/1196273#reply21",
       "pubDate": "2026-03-06T03:45:22.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
       "author": "lynn1su",
@@ -184,7 +234,7 @@
     },
     {
       "title": "为什么我养的大龙虾 OpenClaw 跟个弱智似的",
-      "link": "https://www.v2ex.com/t/1196240#reply8",
+      "link": "https://www.v2ex.com/t/1196240#reply11",
       "pubDate": "2026-03-06T02:53:30.000Z",
       "content": "\n\t背景：<br />1 模型调用的是阿里云 coding plan;<br />2 在阿里云云主机上安装的;<br />现状：<br />1. 不能执行指令，比如帮我安装这个 skills, 帮我用 clawhub 安装 xxx;<br />2. 明确的指令也不能识别，比如 mcporter config add xxx;<br />3. 胡乱指挥我手动执行命令。<br />---------------------------------------------------------------------------------<br />就跟小艺跟小爱同学的区别一样，我这个只会哔哔，根本不干活，请问大家的都这样吗？？？\n\t",
       "author": "boringwheat",
@@ -204,7 +254,7 @@
     },
     {
       "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-      "link": "https://www.v2ex.com/t/1196216#reply22",
+      "link": "https://www.v2ex.com/t/1196216#reply24",
       "pubDate": "2026-03-06T01:49:26.000Z",
       "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
       "author": "Tyaqing",
@@ -334,7 +384,7 @@
     },
     {
       "title": "开源了 macOS 微信数据库解密",
-      "link": "https://www.v2ex.com/t/1196159#reply32",
+      "link": "https://www.v2ex.com/t/1196159#reply34",
       "pubDate": "2026-03-05T13:48:20.000Z",
       "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
       "author": "jakevin",
@@ -393,16 +443,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
-      "pubDate": "2026-03-05 11:03:20",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "《纯真年代的爱情》，不如改名《向下兼容的爱情》 (评论: 纯真年代的爱情)",
       "link": "https://movie.douban.com/review/17490052/",
       "pubDate": "Thu, 05 Mar 2026 10:27:08 GMT",
@@ -414,7 +454,7 @@
     },
     {
       "title": "使用 antigravity manager 小心封号",
-      "link": "https://www.v2ex.com/t/1196123#reply11",
+      "link": "https://www.v2ex.com/t/1196123#reply12",
       "pubDate": "2026-03-05T10:12:59.000Z",
       "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
       "author": "jayeli",
@@ -424,7 +464,7 @@
     },
     {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply20",
+      "link": "https://www.v2ex.com/t/1196121#reply26",
       "pubDate": "2026-03-05T10:08:30.000Z",
       "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
       "author": "jiaokun",
@@ -453,18 +493,8 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "胶片都记得 (评论: 南京照相馆)",
-      "link": "https://movie.douban.com/review/17489962/",
-      "pubDate": "Thu, 05 Mar 2026 09:23:57 GMT",
-      "content": "\n落木Lin评论: 南京照相馆 (https://movie.douban.com/subject/36809864/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "2026 年了，大家在 Windows 下有什么命令行环境？",
-      "link": "https://www.v2ex.com/t/1196109#reply14",
+      "link": "https://www.v2ex.com/t/1196109#reply15",
       "pubDate": "2026-03-05T09:20:50.000Z",
       "content": "\n\t<p>前面用过很长一段时间 msys2+zsh ，无奈太卡了，和 windows 相性不合。\n前段时间发现 msys2+fish 的速度比 zsh 快不少，但 msys2 环境下的路径问题总还是存在，另外经常碰到环境变量、Windows 和 msys2 命令冲突之类的奇奇怪怪的问题，尤其在 opencode 这类环境下。\n看到有推荐 nushell ，pwsh 之类的，试用了一下，总感觉很别扭，学习成本有点高。</p>\n\n\t",
       "author": "cy18",
@@ -504,7 +534,7 @@
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply48",
+      "link": "https://www.v2ex.com/t/1196104#reply51",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
@@ -524,7 +554,7 @@
     },
     {
       "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-      "link": "https://www.v2ex.com/t/1196087#reply70",
+      "link": "https://www.v2ex.com/t/1196087#reply72",
       "pubDate": "2026-03-05T08:20:43.000Z",
       "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
       "author": "xiaotianhu",
@@ -653,6 +683,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "甲骨文的日和月(夕)",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524497",
+      "pubDate": "2026-03-05 05:07:12",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "她如何写作“学界小说”？｜专访苏枕书 (评论: 玲珑塔)",
       "link": "https://book.douban.com/review/17489594/",
       "pubDate": "Thu, 05 Mar 2026 04:36:20 GMT",
@@ -752,16 +792,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "DoytoQuery vs SpringDataJPA",
-      "link": "https://www.v2ex.com/t/1195941#reply4",
-      "pubDate": "2026-03-05T02:05:20.000Z",
-      "content": "\n\t<p>SpringDataJPA 支持通过 findBy 方法构建查询语句，然而 findBy 方法构建的查询条件是固定的，不支持忽略值为 null 的参数对应的查询条件，这导致我们需要为每一组参数组合定义一个 findBy 方法。例如：</p>\n<pre><code class=\"language-java\">findByAuthor\nfindByAuthorAndPublishedYearGreaterThan\nfindByAuthorAndPublishedYearLessThan\nfindByAuthorAndPublishedYearGreaterThanAndPublishedYearLessThan\n</code></pre>\n<p>当条件变多时，方法名会变长，参数也会变多，并触发“长参数”坏味道。解决这一问题的重构方法是“引入参数对象”，即把所有的参数定义在一个对象里。同时，我们把 findBy 的方法名中对应查询条件的部分作为这个对象的字段名称，我们便能为每个字段构建一个查询条件，并且根据对象的赋值情况，动态地组合非空字段对应的查询条件组合为查询子句。</p>\n<pre><code class=\"language-java\">public class BookQuery {\n    String author;\n    Integer publishedYearGreaterThan;\n    Integer publishedYearLessThan;\n    //...\n}\n</code></pre>\n<p>基于此对象，我们可以把所有的 findBy 方法合并为一个泛型方法，从而简化查询接口的设计。</p>\n<pre><code class=\"language-java\">public class CrudRepository&lt;E, I, Q&gt; {\n    List&lt;E&gt; findBy(Q query);\n    //...\n}\n</code></pre>\n<p>提出查询对象这一概念，并利用它来解决动态查询问题，正是 DoytoQuery 的核心功能。</p>\n\n\t",
-      "author": "f0rb",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "基因抽中废彩票，自学逆袭成圣贤",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
       "pubDate": "2026-03-05 01:45:05",
@@ -803,7 +833,7 @@
     },
     {
       "title": "Token 从哪里买或者获取",
-      "link": "https://www.v2ex.com/t/1195904#reply59",
+      "link": "https://www.v2ex.com/t/1195904#reply60",
       "pubDate": "2026-03-05T00:39:37.000Z",
       "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
       "author": "anlitechnet",
@@ -832,26 +862,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "我不喜欢这个结局。 (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17489182/",
-      "pubDate": "Wed, 04 Mar 2026 17:10:05 GMT",
-      "content": "\nLibidream评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6000\\u7740\\u5f88\\u5927\\u7684\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "感觉这一行，人生尽头就是 AI 了",
-      "link": "https://www.v2ex.com/t/1195892#reply22",
-      "pubDate": "2026-03-04T16:41:15.000Z",
-      "content": "\n\t<p>今晚突然心血来潮，想把自己常用的开源项目遇到的 BUG 修一下。</p>\n<p>项目背景：</p>\n<blockquote>\n<p>TrafficMonitor： <a href=\"https://github.com/zhongyang219/TrafficMonitor\" rel=\"nofollow\">https://github.com/zhongyang219/TrafficMonitor</a></p>\n<p>Windows 平台的网速监控悬浮窗软件，C++/MFC 开发。用了挺久了，原作者更新频率较低，积累了不少未修复的 BUG 。</p>\n</blockquote>\n<p>于是开始干活：</p>\n<ol>\n<li>搭建开发环境（ VS 2022 + MSBuild ）</li>\n<li>定位问题、修复代码</li>\n<li>编译构建、人工测试验证</li>\n</ol>\n<p>整个过程花了 2 个多小时，终于把 BUG 解决了。</p>\n<p>不得不说，AI 辅助编程真的太香了。从环境配置、代码分析、定位问题到生成修复方案，全程高效推进。\n这搁以前，光是熟悉代码库、找 BUG 位置就得花大半天，再加上我本身不会 C++。</p>\n<p>自己遇到的 BUG 被解决了的这种感觉，整个人都通畅了。</p>\n\n\t",
-      "author": "wang93wei",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "说下我这几天用 ZenMux 的糟糕经历",
       "link": "https://www.v2ex.com/t/1195882#reply28",
       "pubDate": "2026-03-04T15:06:02.000Z",
@@ -860,6 +870,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "黑色幽默 (评论: 黑道家族 第一季)",
+      "link": "https://movie.douban.com/review/17488991/",
+      "pubDate": "Wed, 04 Mar 2026 14:34:26 GMT",
+      "content": "\n我不是小姐姐评论: 黑道家族 第一季 (https://movie.douban.com/subject/1760516/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u7535\\u5f71\\u8272\\u5f69\\u57fa\\u8...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "万字长文解析《镖人》：风暴里的木偶戏，有人喝彩，有人叹息。 (评论: 镖人：风起大漠)",
@@ -944,26 +964,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "刚才公司全员被电信诈骗了一次了",
-      "link": "https://www.v2ex.com/t/1195766#reply47",
-      "pubDate": "2026-03-04T07:30:57.000Z",
-      "content": "\n\t<p>午休时间刚结束，在我睡的迷迷糊糊的情况下。内部 OA 系统弹出一个通知。（其实是群发邮件）<br/>\n让我们领国家发的 2750 元补贴。<br/>\n地址是 rcu.zte88.top<br/>\n只做了手机端界面，服务器在韩国。<br/>\n然后这个诈骗就很低端。就是利用公司通知的盲目性让人放松警惕钓鱼。</p>\n<p>又要姓名身份证，又要银行卡余额和密码，互动界面又跟拼多多有一拼。（我睡迷糊了，被金钱冲昏了头脑）<br/>\n在最后一步需要输入手机验证码的时候，我醒了。<br/>\n然后就是手机银行挂失、加锁、设上限。密码改不了，只能下次去柜台弄了。<br/>\n已经有好几个人跟着帽子去做笔录了，不知道有多少损失。  </p>\n<p>听说 V2 只要发服务器地址，服务器就会爆炸。不知道是不是真的。</p>\n\n\t",
-      "author": "hahiru",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "如何判断一段代码是不是“古法编程”？",
-      "link": "https://www.v2ex.com/t/1195764#reply35",
-      "pubDate": "2026-03-04T07:23:53.000Z",
-      "content": "\n\t<p>嗯，有键盘气。</p>\n\n\t",
-      "author": "hc9527",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "以赛亚·伯林与托尔斯泰：二十世纪知识人命运的两种抉择 (评论: 刺猬与狐狸)",
