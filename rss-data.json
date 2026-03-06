@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-06T08:28:01.198Z",
+  "lastUpdated": "2026-03-06T09:29:58.252Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-06T08:27:46.792Z",
+      "lastUpdated": "2026-03-06T09:29:46.102Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-06T08:27:47.579Z",
+      "lastUpdated": "2026-03-06T09:29:47.100Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-06T08:27:47.726Z",
+      "lastUpdated": "2026-03-06T09:29:47.228Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-06T08:27:49.634Z",
+      "lastUpdated": "2026-03-06T09:29:49.283Z",
       "items": [
         {
           "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
@@ -301,11 +301,81 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-06T08:27:49.859Z",
+      "lastUpdated": "2026-03-06T09:29:49.406Z",
       "items": [
         {
+          "title": "claude code CLI 登录 401",
+          "link": "https://www.v2ex.com/t/1196378#reply1",
+          "pubDate": "2026-03-06T09:16:01.000Z",
+          "content": "\n\t<p>刚开通 claude pro 命令行登录</p>\n<p>提示：401 {\"error\":{\"message\":\"401 授权信息无效，请检查\",\"type\":\"authentication_error\"},\"type\":\"error\"}</p>\n<p>claude 终端卸载重装也试了</p>\n<p>兄弟们有遇到过吗</p>\n\n\t",
+          "author": "audiozen3001",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "cursor 崩了吗？",
+          "link": "https://www.v2ex.com/t/1196375#reply1",
+          "pubDate": "2026-03-06T09:09:55.000Z",
+          "content": "\n\t\n\t",
+          "author": "programMrxu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
+          "link": "https://www.v2ex.com/t/1196104#reply56",
+          "pubDate": "2026-03-05T08:59:38.000Z",
+          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
+          "author": "hotea",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
+          "link": "https://www.v2ex.com/t/1196209#reply31",
+          "pubDate": "2026-03-06T01:30:15.000Z",
+          "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
+          "author": "anyChris",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "claude code team 可以换成其他的模型嘛",
+          "link": "https://www.v2ex.com/t/1196351#reply5",
+          "pubDate": "2026-03-06T07:58:56.000Z",
+          "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
+          "author": "jyq711",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
+          "link": "https://www.v2ex.com/t/1196273#reply30",
+          "pubDate": "2026-03-06T03:45:22.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
+          "author": "lynn1su",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
+          "link": "https://www.v2ex.com/t/1196216#reply27",
+          "pubDate": "2026-03-06T01:49:26.000Z",
+          "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
+          "author": "Tyaqing",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "开源了 macOS 微信数据库解密",
-          "link": "https://www.v2ex.com/t/1196159#reply34",
+          "link": "https://www.v2ex.com/t/1196159#reply39",
           "pubDate": "2026-03-05T13:48:20.000Z",
           "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
           "author": "jakevin",
@@ -314,11 +384,121 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Cursor 崩了。Service Unavailable",
-          "link": "https://www.v2ex.com/t/1196358#reply6",
-          "pubDate": "2026-03-06T08:21:37.000Z",
+          "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
+          "link": "https://www.v2ex.com/t/1196364#reply3",
+          "pubDate": "2026-03-06T08:30:06.000Z",
+          "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
+          "author": "SSang",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Agent 在传统企业的尝试与阻碍",
+          "link": "https://www.v2ex.com/t/1196366#reply1",
+          "pubDate": "2026-03-06T08:34:51.000Z",
+          "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
+          "author": "magicfield",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
+          "link": "https://www.v2ex.com/t/1196147#reply26",
+          "pubDate": "2026-03-05T12:31:35.000Z",
+          "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
+          "author": "ope",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "2026 年 PHP 路在何方",
+          "link": "https://www.v2ex.com/t/1196334#reply8",
+          "pubDate": "2026-03-06T07:07:55.000Z",
           "content": "\n\t\n\t",
-          "author": "qiqi669",
+          "author": "lanhiy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
+          "link": "https://www.v2ex.com/t/1196279#reply37",
+          "pubDate": "2026-03-06T03:58:17.000Z",
+          "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
+          "author": "vfs",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
+          "link": "https://www.v2ex.com/t/1196301#reply9",
+          "pubDate": "2026-03-06T05:43:06.000Z",
+          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
+          "author": "Chuckle",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "傻 KIMI 真的是害死人",
+          "link": "https://www.v2ex.com/t/1196362#reply3",
+          "pubDate": "2026-03-06T08:28:27.000Z",
+          "content": "\n\t如图：让推荐套件的解决办法，给我优先推荐个黑裙的。。。。<br />太 tm 。。。扯淡了<br /><br />直接把证书搞掉<br /><br /><a target=\"_blank\" href=\"https://imgur.com/a/BTqeIIO\" rel=\"nofollow noopener\">https://imgur.com/a/BTqeIIO</a>\n\t",
+          "author": "ihuihui",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "为什么我养的大龙虾 OpenClaw 跟个弱智似的",
+          "link": "https://www.v2ex.com/t/1196240#reply19",
+          "pubDate": "2026-03-06T02:53:30.000Z",
+          "content": "\n\t背景：<br />1 模型调用的是阿里云 coding plan;<br />2 在阿里云云主机上安装的;<br />现状：<br />1. 不能执行指令，比如帮我安装这个 skills, 帮我用 clawhub 安装 xxx;<br />2. 明确的指令也不能识别，比如 mcporter config add xxx;<br />3. 胡乱指挥我手动执行命令。<br />---------------------------------------------------------------------------------<br />就跟小艺跟小爱同学的区别一样，我这个只会哔哔，根本不干活，请问大家的都这样吗？？？\n\t",
+          "author": "boringwheat",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "2026 搞钱激励活动汇总，最高 75 万元",
+          "link": "https://www.v2ex.com/t/1196356#reply3",
+          "pubDate": "2026-03-06T08:18:40.000Z",
+          "content": "\n\t<p>2025 已过，  去年的激励活动：鸿蒙应用开发者激励计划 2025 、剧本激励计划等，群里不少执行力强的群友，单靠跟着做鸿蒙开发，大部分都闷声斩获了<strong>十几 W</strong>的激励金（不信的可以直接在站内搜关键词：“鸿蒙 激励”，看看大家晒的真实收益）。。</p>\n<p>这就印证了普通人搞钱最稳的铁律——<strong>跟着大平台后面喝汤！平台拿钱砸哪个赛道，咱们就往哪冲。</strong></p>\n<p>错过去年没关系，2026 年“撒钱”激励继续！\n各大平台的新一轮红利已经放出，给站友汇总了一波最新的搞钱激励活动，最高单项奖金 75 万元！赶紧码住，今年别再只做看客了！</p>\n<p><strong>1.天工计划·鸿蒙智能体开发者激励</strong>\n华为为了建设智能体生态，拿出 10 亿激励发起「天工计划」，面向符合资质的鸿蒙开发者，开发上架达标智能体可获最高 75 万 / 个、累计最高 200 万现金激励，先到先得。</p>\n<img alt=\"下载.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdnhz.letwind.com/incentivehub/uploads/20260306/f21aa2d254bb88ac.png\"/>\n<p><strong>2.Kiro 百万奖池计划</strong>\n符合条件的三方赛事中用 Kiro 开发获奖，最高可获与官方奖金等额的追加奖励，单人上限 20 万元，总奖池 100 万元，先到先得。</p>\n<p><strong>3.抖音·精品漫剧激励政策</strong>\n覆盖 AI 仿真人、2D/3D 漫剧，按评级最高每分钟保底 3 万、单部最高 360 万，原创 IP 可享改编权全额补贴，保底外还有超保底分成，优质合作方还能获得一年框架保底合作。</p>\n<p><strong>4.番茄小说·文启剧燃</strong>\n设 6 大赛道，共 26 个万元大奖，叠加超千万版权额外激励，单部开发奖励最高 20 万，还有版权保底、多类创意奖，奖励可与年度福利叠加，全力赋能小说创作者。</p>\n<p>还有其他的激励活动，持续更新，打破信息差，我做了一个激励活动小程序，聚合了全网的激励政策，<strong>实时跟进，持续更新！</strong>  搜小程序名：​<strong>激励活动</strong>​！</p>\n<p>欢迎一起交流~</p>\n<img alt=\"微信搜 激励活动\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdnhz.letwind.com/incentivehub/image/qrcode.jpg\"/>\n\t",
+          "author": "zw1234",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "重新维护了一下 mcp-feedback-enhanced",
+          "link": "https://www.v2ex.com/t/1196371#reply4",
+          "pubDate": "2026-03-06T08:50:57.000Z",
+          "content": "\n\t重新维护了一下 [mcp-feedback-enhanced]( <a target=\"_blank\" href=\"https://github.com/Minidoracat/mcp-feedback-enhanced\" rel=\"nofollow noopener\">https://github.com/Minidoracat/mcp-feedback-enhanced</a>)<br /><br />简化，升级，默认，样式稍微改了下，感兴趣的可以用用<br />自用，也没什么大的演进意愿。(去除语言支持是因为阻塞了集成测试)<br /><br /><a target=\"_blank\" href=\"https://github.com/RealAlexandreAI/mcp-interactive\" rel=\"nofollow noopener\">https://github.com/RealAlexandreAI/mcp-interactive</a><br /><br /> <a target=\"_blank\" href=\"https://i.imgur.com/8iwBkuT.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/8iwBkuT.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+          "author": "Foralrec",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
+          "link": "https://www.v2ex.com/t/1196087#reply73",
+          "pubDate": "2026-03-05T08:20:43.000Z",
+          "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
+          "author": "xiaotianhu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "trellis v0.3.6 changelog",
+          "link": "https://www.v2ex.com/t/1196363#reply0",
+          "pubDate": "2026-03-06T08:28:36.000Z",
+          "content": "\n\t<h1>基础信息</h1>\n<p>原 repo\n<a href=\"https://github.com/mindfold-ai/Trellis\" rel=\"nofollow\">https://github.com/mindfold-ai/Trellis</a>\n文档站\n<a href=\"https://docs.trytrellis.app/zh\" rel=\"nofollow\">https://docs.trytrellis.app/zh</a></p>\n<h2>v0.3.6 - 任务生命周期 hooks 、自定义模板仓库、父子 subtask 、修复 PreToolUse hook</h2>\n<p><strong>新增功能：</strong></p>\n<ul>\n<li><code>trellis init --registry</code> 支持从自定义 GitHub/GitLab/Bitbucket 仓库拉取 Spec 模板，自动探测 marketplace 模式（ index.json ）和直接下载模式</li>\n<li>任务生命周期 hooks：<code>.trellis/config.yaml</code> 新增 <code>hooks</code> 配置块，支持 <code>after_create</code>、<code>after_start</code>、<code>after_finish</code>、<code>after_archive</code> 四个事件，通过 <code>TASK_JSON_PATH</code> 环境变量传递任务信息，附带 Linear sync hook 示例\n参考： <a href=\"https://docs.trytrellis.app/zh/guide/ch06-task-management#6-6-%E4%BB%BB%E5%8A%A1%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-hooks\" rel=\"nofollow\">https://docs.trytrellis.app/zh/guide/ch06-task-management#6-6-%E4%BB%BB%E5%8A%A1%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-hooks</a></li>\n<li>父子 subtask 支持：<code><a href=\"http://task.py\" rel=\"nofollow\">task.py</a> add-subtask</code> / <code>remove-subtask</code> 命令，task.json 新增 <code>children</code>、<code>parent</code>、<code>meta</code> 字段，<code><a href=\"http://task.py\" rel=\"nofollow\">task.py</a> create --parent</code> 直接创建子任务</li>\n<li><code>/record-session</code> prompt 改进：归档判断基于实际工作状态而非 task.json status 字段</li>\n<li><code>/brainstorm</code> prompt 新增 subtask decomposition 步骤</li>\n</ul>\n<p><strong>Bug 修复：</strong></p>\n<ul>\n<li><strong>PreToolUse context injection 失效</strong>：Claude Code v2.1.63 将内部工具从 <code>Task</code> 改名为 <code>Agent</code>（<a href=\"https://github.com/anthropics/claude-code/issues/29677\" rel=\"nofollow\">anthropics/claude-code#29677</a>），导致 hook 脚本 <code>tool_name != \"Task\"</code> 检查直接退出，implement/check/debug/research agent 的 code-spec context 注入全部失效。修复：兼容 <code>Task</code> 和 <code>Agent</code> 两种名称，settings.json 新增 <code>\"Agent\"</code> matcher</li>\n</ul>\n\n\t",
+          "author": "fmfsaisai",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -334,56 +514,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-          "link": "https://www.v2ex.com/t/1196087#reply72",
-          "pubDate": "2026-03-05T08:20:43.000Z",
-          "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
-          "author": "xiaotianhu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-          "link": "https://www.v2ex.com/t/1196279#reply32",
-          "pubDate": "2026-03-06T03:58:17.000Z",
-          "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
-          "author": "vfs",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-          "link": "https://www.v2ex.com/t/1196104#reply51",
-          "pubDate": "2026-03-05T08:59:38.000Z",
-          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
-          "author": "hotea",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-          "link": "https://www.v2ex.com/t/1196273#reply21",
-          "pubDate": "2026-03-06T03:45:22.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
-          "author": "lynn1su",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "claude code team 可以换成其他的模型嘛",
-          "link": "https://www.v2ex.com/t/1196351#reply1",
-          "pubDate": "2026-03-06T07:58:56.000Z",
-          "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
-          "author": "jyq711",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Aliyun 的登录页面崩了吗，为什么 500",
           "link": "https://www.v2ex.com/t/1196346#reply2",
           "pubDate": "2026-03-06T07:55:28.000Z",
@@ -394,51 +524,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
-          "link": "https://www.v2ex.com/t/1196301#reply7",
-          "pubDate": "2026-03-06T05:43:06.000Z",
-          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
-          "author": "Chuckle",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-          "link": "https://www.v2ex.com/t/1196216#reply24",
-          "pubDate": "2026-03-06T01:49:26.000Z",
-          "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
-          "author": "Tyaqing",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "为什么我养的大龙虾 OpenClaw 跟个弱智似的",
-          "link": "https://www.v2ex.com/t/1196240#reply11",
-          "pubDate": "2026-03-06T02:53:30.000Z",
-          "content": "\n\t背景：<br />1 模型调用的是阿里云 coding plan;<br />2 在阿里云云主机上安装的;<br />现状：<br />1. 不能执行指令，比如帮我安装这个 skills, 帮我用 clawhub 安装 xxx;<br />2. 明确的指令也不能识别，比如 mcporter config add xxx;<br />3. 胡乱指挥我手动执行命令。<br />---------------------------------------------------------------------------------<br />就跟小艺跟小爱同学的区别一样，我这个只会哔哔，根本不干活，请问大家的都这样吗？？？\n\t",
-          "author": "boringwheat",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "智谱 Coding plan 太慢了，根本无法使用",
           "link": "https://www.v2ex.com/t/1196278#reply14",
           "pubDate": "2026-03-06T03:52:24.000Z",
           "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
           "author": "devloperchen",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "2026 年 PHP 路在何方",
-          "link": "https://www.v2ex.com/t/1196334#reply4",
-          "pubDate": "2026-03-06T07:07:55.000Z",
-          "content": "\n\t\n\t",
-          "author": "lanhiy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -464,16 +554,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
-          "link": "https://www.v2ex.com/t/1196209#reply30",
-          "pubDate": "2026-03-06T01:30:15.000Z",
-          "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
-          "author": "anyChris",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "使用 AI 中转站会不会泄漏自己的敏感信息?中转站如果给返回一些恶意信息怎么办?有用 AI 中转站的佬来分享下吗?",
           "link": "https://www.v2ex.com/t/1196220#reply19",
           "pubDate": "2026-03-06T02:04:50.000Z",
@@ -494,11 +574,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-          "link": "https://www.v2ex.com/t/1196147#reply25",
-          "pubDate": "2026-03-05T12:31:35.000Z",
-          "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
-          "author": "ope",
+          "title": "AFFiNE 看起来只有一个人在维护了，现在部署私有笔记软件要用什么好 ？",
+          "link": "https://www.v2ex.com/t/1196285#reply1",
+          "pubDate": "2026-03-06T04:19:51.000Z",
+          "content": "\n\t<p><a href=\"https://github.com/toeverything/AFFiNE/commits/canary/\" rel=\"nofollow\">https://github.com/toeverything/AFFiNE/commits/canary/</a></p>\n\n\t",
+          "author": "SonicKang",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -514,6 +594,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "大家对 Cursor 邀请链接泄漏事件怎么看",
+          "link": "https://www.v2ex.com/t/1196374#reply0",
+          "pubDate": "2026-03-06T08:58:46.000Z",
+          "content": "\n\t<p>貌似已经到 6 万人了</p>\n\n\t",
+          "author": "anlitechnet",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "小米 pad7 和联想小新 progt 怎么选",
           "link": "https://www.v2ex.com/t/1196194#reply17",
           "pubDate": "2026-03-06T00:48:00.000Z",
@@ -524,18 +614,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AFFiNE 看起来只有一个人在维护了，现在部署私有笔记软件要用什么好 ？",
-          "link": "https://www.v2ex.com/t/1196285#reply0",
-          "pubDate": "2026-03-06T04:19:51.000Z",
-          "content": "\n\t<p><a href=\"https://github.com/toeverything/AFFiNE/commits/canary/\" rel=\"nofollow\">https://github.com/toeverything/AFFiNE/commits/canary/</a></p>\n\n\t",
-          "author": "SonicKang",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "第一次上架软件到微软商店, 也踩了不少坑, 有兴趣的可以交流下",
-          "link": "https://www.v2ex.com/t/1196343#reply0",
+          "link": "https://www.v2ex.com/t/1196343#reply2",
           "pubDate": "2026-03-06T07:48:23.000Z",
           "content": "\n\t<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/uS6YmIZ.png\"/></p>\n<p><a href=\"https://apps.microsoft.com/detail/9NH4M5G27HR4?hl=zh&amp;gl=CN&amp;ocid=pdpshare\" rel=\"nofollow\">微软商店</a></p>\n<p>目前在送码, 有兴趣可以看看</p>\n<p><a href=\"https://www.v2ex.com/t/1195970\" rel=\"nofollow\">https://www.v2ex.com/t/1195970</a></p>\n<p>软件用途, 可以看任意外语直播, 或者录制麦克风并记录翻译</p>\n<p>我最近经常看韩国, 日本小姐姐直播, 也算休闲了, 打开新世界阿</p>\n<p>具体到微软商家商店, 以下是几点:</p>\n<ol>\n<li>为什么要上架商店? 一来微软对个人免费上架, 二来上架商店自动得到微软签名, 彻底摆脱可能\n被微软防火墙阻拦或误报, 开发 windows 软件的应该知道, 这种事并不少, 还挺麻烦的, 如果你想自己签名, 那是相当贵的</li>\n<li>有什么注意点, 一是要把软件打包成 msix 格式, 可以用微软的 MSIX packing tool 来做</li>\n<li>上架需要填很多资料, 上传很多图片, 什么隐私, 年龄, 价格等等因素很麻烦的, 建议打开 ai 聊天便问边点, 我是用 gemini 的</li>\n<li>提交后, 一般 1 天有回应, 我也反复了好几次, 有问题会告诉你, 可以咨询 ai 后修改重新提交</li>\n</ol>\n<p>其他还有问题可以交流, 我也没完全整明白, 也是反复试了好多次才提交成功, 不过毕竟免费, 就花点时间, 不像苹果要 99 刀一年</p>\n\n\t",
           "author": "iorilu",
@@ -545,10 +625,20 @@
         },
         {
           "title": "10 分钟 Windows 系统安装迷你版的 OpenClaw ，小小龙虾 Nanobot",
-          "link": "https://www.v2ex.com/t/1196203#reply7",
+          "link": "https://www.v2ex.com/t/1196203#reply8",
           "pubDate": "2026-03-06T01:05:18.000Z",
           "content": "\n\t<h3>为什么推荐</h3>\n<p>安装简单方便快捷易上手的小龙虾，更适合零基础人群使用。</p>\n<p><img alt=\"nanobanana-20260305t163455.avif\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://user3611.cn.imgto.link/public/20260306/nanobanana-20260305t163455.avif\"/></p>\n<h3>Nanobot 是什么</h3>\n<p>Nanobot 是由香港大学数据智能实验室开发的开源 AI 助手框架，仅约 4000 行代码，是 OpenClaw 代码量的 1%，适合普通用户和开发者快速部署上手，我称它为小小龙虾。</p>\n<h3>Nanobot 与 OpenClaw 对比</h3>\n<p>部署难度：Nanobot 很简单，OpenClaw 比较复杂（以致于出现了上面安装服务）</p>\n<p>适用人群：Nanobot 适合普通用户和开发者，OpenClaw 更适合高级开发者</p>\n<p>内存占用：Nanobot 低于 100MB ，OpenClaw 约 1GB</p>\n<h3>快速部署教程</h3>\n<h4>第一步：安装</h4>\n<p>在 Windows 命令行执行：</p>\n<pre><code class=\"language-text\">pip install nanobot-ai\n</code></pre>\n<p><img alt=\"640.avif\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://user3611.cn.imgto.link/public/20260306/640.avif\"/>\n注意，如果你电脑上之前没有安装过 python ，必须先安装一下 python ，去 <a href=\"https://www.python.org/downloads/windows/%E4%B8%8B%E8%BD%BD\" rel=\"nofollow\">https://www.python.org/downloads/windows/下载</a> 3.12 版本，一直点击下一步安装即可。</p>\n<h4>第二步：创建初始化文件</h4>\n<p>在 Windows 命令行执行：</p>\n<pre><code class=\"language-text\">nanobot onboard\n</code></pre>\n<p><img alt=\"640-2.avif\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://user3611.cn.imgto.link/public/20260306/640-2.avif\"/>\n执行完后会在 C:\\Users\\Administrator\\目录下出现.nanobot 文件夹，在此文件夹下边有一个 workspace 文件夹及 config.json 文件。</p>\n<h4>第三步：配置大模型 API</h4>\n<p>1 、获取大模型 API Key</p>\n<p>去 <a href=\"https://wellapi.ai\" rel=\"nofollow\">https://wellapi.ai</a> 注册，注册完成后会获取一些免费额度，在此网站后台的 API 令牌菜单中复制出密钥及需要使用的大模型名称，比如 claude-sonnet-4-6 。</p>\n<p>2 、修改 config.json 配置 API</p>\n<p>打开上一步生成的 config.json ，找到这段：</p>\n<pre><code>\"providers\": {\n    \"custom\": {\n      \"apiKey\": \"\",\n      \"apiBase\": null,\n      \"extraHeaders\": null\n    }\n</code></pre>\n<p>改为：</p>\n<pre><code>\"providers\": {\n    \"custom\": {\n      \"apiKey\": \"sk-###填写你从 wellapi 获取的密钥\",\n      \"apiBase\": \"https://wellapi.ai/v1\",\n      \"extraHeaders\": null\n    }\n</code></pre>\n<p>继续把：</p>\n<pre><code>\"agents\": {\n    \"defaults\": {\n      \"workspace\": \"~/.nanobot/workspace\",\n      \"model\": \"anthropic/claude-opus-4-5\",\n      \"provider\": \"auto\",\n      \"maxTokens\": 8192,\n      \"temperature\": 0.1,\n      \"maxToolIterations\": 40,\n      \"memoryWindow\": 100,\n      \"reasoningEffort\": null\n    }\n  }\n</code></pre>\n<p>修改 model 和 provider ，其他不变，改为：</p>\n<pre><code>\"agents\": {\n    \"defaults\": {\n      \"workspace\": \"~/.nanobot/workspace\",\n      \"model\": \"claude-sonnet-4-6\",\n      \"provider\": \"custom\",\n      \"maxTokens\": 8192,\n      \"temperature\": 0.1,\n      \"maxToolIterations\": 40,\n      \"memoryWindow\": 100,\n      \"reasoningEffort\": null\n    }\n  }\n</code></pre>\n<h4>第四步：测试使用</h4>\n<p>在命令行输入：</p>\n<pre><code>nanobot agent -m \"你能干什么\"\n</code></pre>\n<p>nanobot 就会返回如图所示的信息:</p>\n<p><img alt=\"640-3.avif\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://user3611.cn.imgto.link/public/20260306/640-3.avif\"/></p>\n<p>到此安装完成，记下来就可以配置 telegram 、钉钉、QQ 、飞书等及使用 Skills 。</p>\n<h3>Github 地址</h3>\n<p>在 github 上可以查看 nanobot 的更多使用配置教程。</p>\n<p><a href=\"https://github.com/HKUDS/nanobot\" rel=\"nofollow\">https://github.com/HKUDS/nanobot</a></p>\n\n\t",
           "author": "sakurajiayou",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+          "link": "https://www.v2ex.com/t/1196011#reply109",
+          "pubDate": "2026-03-05T04:33:26.000Z",
+          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+          "author": "v2exgo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -564,18 +654,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply108",
-          "pubDate": "2026-03-05T04:33:26.000Z",
-          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-          "author": "v2exgo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Token 从哪里买或者获取",
-          "link": "https://www.v2ex.com/t/1195904#reply60",
+          "link": "https://www.v2ex.com/t/1195904#reply61",
           "pubDate": "2026-03-05T00:39:37.000Z",
           "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
           "author": "anlitechnet",
@@ -595,10 +675,20 @@
         },
         {
           "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-          "link": "https://www.v2ex.com/t/1196121#reply26",
+          "link": "https://www.v2ex.com/t/1196121#reply31",
           "pubDate": "2026-03-05T10:08:30.000Z",
           "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
           "author": "jiaokun",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "使用 antigravity manager 小心封号",
+          "link": "https://www.v2ex.com/t/1196123#reply13",
+          "pubDate": "2026-03-05T10:12:59.000Z",
+          "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
+          "author": "jayeli",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -609,16 +699,6 @@
           "pubDate": "2026-03-05T09:20:50.000Z",
           "content": "\n\t<p>前面用过很长一段时间 msys2+zsh ，无奈太卡了，和 windows 相性不合。\n前段时间发现 msys2+fish 的速度比 zsh 快不少，但 msys2 环境下的路径问题总还是存在，另外经常碰到环境变量、Windows 和 msys2 命令冲突之类的奇奇怪怪的问题，尤其在 opencode 这类环境下。\n看到有推荐 nushell ，pwsh 之类的，试用了一下，总感觉很别扭，学习成本有点高。</p>\n\n\t",
           "author": "cy18",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "使用 antigravity manager 小心封号",
-          "link": "https://www.v2ex.com/t/1196123#reply12",
-          "pubDate": "2026-03-05T10:12:59.000Z",
-          "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
-          "author": "jayeli",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -664,21 +744,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "求推荐 windows 上好用的抓包软件",
-          "link": "https://www.v2ex.com/t/1195647#reply73",
-          "pubDate": "2026-03-04T02:23:48.000Z",
-          "content": "\n\t<p>开源的最好，如果能免费就更好了</p>\n\n\t",
-          "author": "404www",
+          "title": "国产 AI Coding Plan 现在选哪家比较好？",
+          "link": "https://www.v2ex.com/t/1195635#reply58",
+          "pubDate": "2026-03-04T02:02:43.000Z",
+          "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
+          "author": "WangLiCha",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "国产 AI Coding Plan 现在选哪家比较好？",
-          "link": "https://www.v2ex.com/t/1195635#reply57",
-          "pubDate": "2026-03-04T02:02:43.000Z",
-          "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
-          "author": "WangLiCha",
+          "title": "求推荐 windows 上好用的抓包软件",
+          "link": "https://www.v2ex.com/t/1195647#reply73",
+          "pubDate": "2026-03-04T02:23:48.000Z",
+          "content": "\n\t<p>开源的最好，如果能免费就更好了</p>\n\n\t",
+          "author": "404www",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -694,21 +774,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "嵌入式软件都用哪个 Ai 编程工具的？",
-          "link": "https://www.v2ex.com/t/1195964#reply11",
-          "pubDate": "2026-03-05T02:27:13.000Z",
-          "content": "\n\t我想用 Trae CN\n\t",
-          "author": "velf8",
+          "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
+          "link": "https://www.v2ex.com/t/1196034#reply10",
+          "pubDate": "2026-03-05T05:50:18.000Z",
+          "content": "\n\t最近想把自己写的一个小工具部署上线，前端 React + 后端 Node.js 的组合。<br /><br />之前一直用的是买的便宜 VPS 手动部署，但是维护起来确实有点累，每次更新都要 ssh 上去操作。<br /><br />看了一圈发现现在选择好多：<br /><br />- Vercel / Netlify 这种前端部署很方便，但后端部分就得分开处理<br />- Railway / Render 看起来全栈都能搞定，但免费额度好像有限<br />- 自建 Docker + VPS 灵活但费时间<br />- Cloudflare Workers 据说很快，不知道适不适合这种场景<br /><br />想问下各位日常自己的 side project 都是怎么部署的？有没有那种既省心又不太贵的方案推荐？<br /><br />预算的话一个月不想超过 50 块钱，流量不大，主要是自己和朋友用。\n\t",
+          "author": "anyChris",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
-          "link": "https://www.v2ex.com/t/1196034#reply9",
-          "pubDate": "2026-03-05T05:50:18.000Z",
-          "content": "\n\t最近想把自己写的一个小工具部署上线，前端 React + 后端 Node.js 的组合。<br /><br />之前一直用的是买的便宜 VPS 手动部署，但是维护起来确实有点累，每次更新都要 ssh 上去操作。<br /><br />看了一圈发现现在选择好多：<br /><br />- Vercel / Netlify 这种前端部署很方便，但后端部分就得分开处理<br />- Railway / Render 看起来全栈都能搞定，但免费额度好像有限<br />- 自建 Docker + VPS 灵活但费时间<br />- Cloudflare Workers 据说很快，不知道适不适合这种场景<br /><br />想问下各位日常自己的 side project 都是怎么部署的？有没有那种既省心又不太贵的方案推荐？<br /><br />预算的话一个月不想超过 50 块钱，流量不大，主要是自己和朋友用。\n\t",
-          "author": "anyChris",
+          "title": "嵌入式软件都用哪个 Ai 编程工具的？",
+          "link": "https://www.v2ex.com/t/1195964#reply11",
+          "pubDate": "2026-03-05T02:27:13.000Z",
+          "content": "\n\t我想用 Trae CN\n\t",
+          "author": "velf8",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -722,93 +802,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "请教各位 Claude Code 怎么测试业务流程复杂的前端代码？",
-          "link": "https://www.v2ex.com/t/1195916#reply10",
-          "pubDate": "2026-03-05T01:18:00.000Z",
-          "content": "\n\t<p>例如维护一个拖拽生成表单和数据看板的组件，涉及到表单嵌套、嵌套后拖拽等问题；让 CC 新增了一部分业务内容，写完之后怎么才能让它测试拖拽操作是否生效呢？</p>\n\n\t",
-          "author": "Danswerme",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "在写代码，做项目上，站里支持 AI 的，和反对 AI 的，都有对齐 AI 在代码领域的正确使用方法吗？",
-          "link": "https://www.v2ex.com/t/1195690#reply39",
-          "pubDate": "2026-03-04T03:38:47.000Z",
-          "content": "\n\t<p>首先定义一下支持 AI coding 和 反对 AI coding 的：</p>\n<ul>\n<li>支持者：绝大部分工作使用 AI 工具完成（百分之 90 以上），自己只是驾驶员。</li>\n<li>反对者：完全拒绝 AI ，或者 AI 只是作为辅助开发；</li>\n</ul>\n<p>有这个疑问是我最近在面试，我的岗位是 agent 开发，在其他<a href=\"https://v2ex.com/t/1182394\" rel=\"nofollow\">帖子</a>里有介绍，面试的结果，还算不错，年前虽然一直没结果，但是年后成功获得了两个我都比较满意的 offer ，目前已经在考虑入职的问题。</p>\n<p>可能和我的工作内容天然以大模型为基础有关系，在面试的过程中，我遇到的公司，都会要求 vibe coding 的能力，这没有任何问题，可是我在和面试官讨论的时候，我发现好几个公司，模型用了国内的 glm 、minimax 、kimi ，IDE 用字节的 trea 啊或者其他不知名的，并且公司也没有明确的标准，就是把 AI coding 工具用起来了，他们就觉得自己 vibe 了。</p>\n<p>但是据我高强度，使用 AI 来看，真正能合理在真实工作场景中使用 AI coding ，至少得是以下工具的组合：\nIDE：cursor 、caulde code 、codex （这个我自己没体验过，但是听使用的人说很好用）；<br/>\nmodel：claude opus4.5+、GPT5.0+、gemini 系列我自己觉得差点意思，但是可以作为候补，前两个模型弄不好，问一下会有奇效；</p>\n<p>在使用上，有注意使用细节吗？</p>\n<ul>\n<li>先 plan 模式生成计划，通过多轮沟通将计划变成合理是最基础的</li>\n<li>还需要增加 <a href=\"http://claude.md\" rel=\"nofollow\">claude.md</a> 或者 <a href=\"http://product.md\" rel=\"nofollow\">product.md</a> 之类的 AI 沟通文件，记录每次更新的变化， 以及 AI coding 的注意事项等等细节问题。</li>\n<li>在 Prompt 上姿势正确吗？模糊的需求，自己也说不清楚，是否与 AI 多次沟通；清楚的需求，是否交代清楚了细节；</li>\n<li>在 debug 上有正确发挥工具的 debug 能力吗？主流工具都是支持，输入多个问题原因，工具会自动打 log 找原因，解决后会自动取消 log 。</li>\n<li>一个模型解决不了的细节问题，有更换模型吗？实际使用中 claude 、gpt 、gemini 混合用 是很有必要的，它们可以互相互补，一个解决不了的问题，可能另一个就解决了。</li>\n</ul>\n<p>还需要叠个甲的是，本帖没有贬低国内外其他模型工具的意思。实际上，从我的使用来看，其他模型工具与我上面列的几个差距并不大。</p>\n<p>但是，如果你想在实际工作中使用，微小的差距，可能就是能用与不能用的区别，函数写错一个字母都运行不了，一个函数报错，整个功能就运行不了，一个功能运行不了，可能整个项目就崩溃。</p>\n<p>也许其他工具，能做对百分之 90 的场景，但是剩下百分之 10 可能要消耗掉百分之 90 的工作时间，甚至更多，而恰恰这无法解决的百分之 10 ，让很多反对者觉得“你们怎么敢说 AI 能做百分之 80 的工作的？”</p>\n<p>除此之外，X 刷到某个言论，我也比较认同，比较强硬的反对者（完全拒绝 AI ）可能是经验非常丰富的老开发，已经工作 20 年 30 年这种，他们不是因为顽固、固执，而是对于开发 对于写代码，基于多年的经验，有自己的理解，而 AI 是没有他们这种理解力的。</p>\n<p>本帖不引战奥，支持者和反对者 都聊聊你们是怎么用 AI coding 的，工作都是什么应用场景</p>\n\n\t",
-          "author": "WithoutSugarMiao",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "最近访问 Gemini 老是出现异常流量提示，有什么解决办法么？",
-          "link": "https://www.v2ex.com/t/1195836#reply30",
-          "pubDate": "2026-03-04T11:20:56.000Z",
-          "content": "\n\t<p>其他服务用的好好的，但是就是访问 Gemini 的时候提示：</p>\n<p>我们的系统检测到您的计算机网络中存在异常流量。请稍后重新发送请求。为什么会这样？</p>\n<p>IP 地址：2a09:bac6:d6f9:197d::28a:8c ≠ 2a09:bac5:a720:197d::28a:8c\n时间：2026-03-04T11:17:20Z\n网址： <a href=\"https://gemini.google.com/?utm_source=app_launcher&amp;utm_medium=owned&amp;utm_campaign=base_all&amp;authuser=0\" rel=\"nofollow\">https://gemini.google.com/?utm_source=app_launcher&amp;utm_medium=owned&amp;utm_campaign=base_all&amp;authuser=0</a></p>\n<p>前两天就出现过一次，然后提了机场工单，让我换家宽出口，好了两天，今天下午又出现了\n而且前两天出现后第二天账号就被封了，我申诉回来了，今天下午又这样了</p>\n<p>有啥解决办法没有？或者还是机场的问题?有没有不出这个问题的机场啊?</p>\n\n\t",
-          "author": "zhaoziling",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Java 后端开发面对 ai 无力",
-          "link": "https://www.v2ex.com/t/1195607#reply45",
-          "pubDate": "2026-03-03T23:26:26.000Z",
-          "content": "\n\tjava 服务器开发，项目又大又臭。<br /><br />不知该用什么 ai ，使用 ai 用于什么场景？<br /><br />现在只会简单的使用通义灵码写一些 ut 。<br /><br />各位大佬有什么建议。<br /><br />不同的模型不同的软件区别大么。\n\t",
-          "author": "chenyu923132714",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "苹果开发者账号申请了，还需要审核？需要审核多久呀",
-          "link": "https://www.v2ex.com/t/1196059#reply6",
-          "pubDate": "2026-03-05T06:56:35.000Z",
-          "content": "\n\t<p>准备申请一个苹果开发者账号去开发一些 iOS 项目</p>\n<p><strong>结果账号开通还需要申请，也不显示申请进度，这咋弄？</strong></p>\n<p>苹果开发者账号还有其他需要注意的东西吗？</p>\n<p><strong>我疯狂上架 app 的话，苹果商店会有限制不？</strong></p>\n\n\t",
-          "author": "duhbbx1119",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "micrometer 有啥最佳实践吗",
-          "link": "https://www.v2ex.com/t/1196065#reply0",
-          "pubDate": "2026-03-05T07:12:52.000Z",
-          "content": "\n\t<p>直接用 @<a href=\"/member/Timed\">Timed</a> 注解很爽。\n但是如果想要个性化配置呢，比如入参中的某个字段来分别统计分位数。还需要自己写一套吗？有最佳实践吗？如果 github 上有推荐的？</p>\n<p>codex 写的关于分位数的那块代码如下：\n@Bean\npublic MeterFilter supplierSearchDistributionFilter() {\nreturn new MeterFilter() {\n@Override\npublic DistributionStatisticConfig configure(<a href=\"http://Meter.Id\" rel=\"nofollow\">Meter.Id</a> id, DistributionStatisticConfig config) {\nDistributionRule rule = DISTRIBUTION_RULES.get(id.getName());\nif (rule == null) {\nreturn config;\n}</p>\n<pre><code>            DistributionStatisticConfig custom = rule.toConfig();\n            //buildDistributionRules 默认值，application*.properties 的更优先\n            return config.merge(custom);\n        }\n    };\n}\n\nprivate static Map&lt;String, DistributionRule&gt; buildDistributionRules() {\n    Map&lt;String, DistributionRule&gt; rules = new HashMap&lt;&gt;();\n    DistributionRule defaultLatencyRule = new DistributionRule(\n            true,\n            new double[]{0.5, 0.9, 0.95, 0.99},\n            new double[]{\n                    Duration.ofMillis(50).toNanos(),\n                    Duration.ofMillis(100).toNanos(),\n                    Duration.ofMillis(200).toNanos(),\n                    Duration.ofMillis(300).toNanos(),\n                    Duration.ofMillis(500).toNanos(),\n                    Duration.ofSeconds(1).toNanos(),\n                    Duration.ofSeconds(2).toNanos(),\n                    Duration.ofSeconds(3).toNanos(),\n                    Duration.ofSeconds(5).toNanos(),\n                    Duration.ofSeconds(10).toNanos()\n            },\n            Duration.ofMillis(10).toNanos(),\n            Duration.ofSeconds(10).toNanos()\n    );\n    //rules.put(SUPPLIER_SEARCH_METRIC, defaultLatencyRule);\n    rules.put(XXX_METRIC, defaultLatencyRule);\n    return Collections.unmodifiableMap(rules);\n}\n</code></pre>\n\n\t",
-          "author": "kujo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "说下我这几天用 ZenMux 的糟糕经历",
-          "link": "https://www.v2ex.com/t/1195882#reply28",
-          "pubDate": "2026-03-04T15:06:02.000Z",
-          "content": "\n\t<p>本来不想发这种帖子，但这次用 ZenMux 的经历，确实把我恶心到了。（文笔不好，自己写完用 gpt 整理了一下）</p>\n<p>最早是在 X 上看到很多 ZenMux 的推广，再加上他们当时在推免费试用 Claude Code ，我就去试了下。我只开了一个 chat ，写了一个 prompt ，用的是 opus 。结果一次长回复还没传完，5 小时额度就直接没了。</p>\n<p>当时我就觉得可能免费额度低，但想着现在支持订阅制的第三方 AI 平台本来就不多，还是硬着头皮订了个 Pro 试试看。</p>\n<p>结果刚付完钱，我就发现自己的 Pro plan 周额度直接没了 10%。</p>\n<p>对，刚订阅，先扣 10%。这体验真的很魔幻。我第一反应是系统出 bug 了，于是去找客服，然后发现根本没有正常意义上的客服，只能发邮件到 support 。问题是邮件发出去以后，两天没人回。</p>\n<p>后来我又去官方 Discord 问，先在反馈区发，还是没人理。又过了一天，我直接去私聊群里那个会回答问题的官方人员，对方才说“帮你确认一下”。然后就是经典流程：你问一句，对面相隔几个小时，甚至第二天才回一句，根本没法正常沟通。注意，这还是在私聊的情况下。</p>\n<p>再后来，我在 opencode 里又遇到一个 bug ，已经影响正常使用了，只能继续追着问。Discord 那边还是拖着，我又去加了他们官方微信群。进群以后发现也差不多：官方群看起来挺热闹，但官方基本不处理售后，回复慢，而且会选择性回复问题。大多数时候只是大家自己讨论，你真有问题，只能不停 at 、私聊、碰运气。</p>\n<p>最后总算确认：是 ZenMux 平台自己的 bug 。</p>\n<p>到这里我已经没什么耐心了。产品有 bug ，售后没人管，沟通效率低得离谱，我就提出退款。结果对方说可以退，但要先扣掉“实际 cost”。问题是那时候我账上的 cost 已经快 20 刀了，基本等于订阅费本身，等于也没什么可退的。</p>\n<p>更离谱的是，后来我回头查免费试用时那次 opus 请求，发现它实际 cost 才 0.8 刀，但却占了我 10% 的周额度。</p>\n<p>这事我怎么想都不合理。更关键的是，在我当时遇到问题、去追问的时候，他们对额度计算的说法基本就是黑箱。用户能看到 cost ，也能看到百分比占用，但到底一次请求的 cost 是怎么映射成周额度占用的，官方不肯给出明确、可验证的计算方式。</p>\n<p>后面我才慢慢看明白，大概率是这样：</p>\n<p>免费计划本来只有 5 flow / 5 小时，我那时把免费额度跑满了，于是它在 free plan 里显示占用了 10% 周额度；但我一旦订阅了 20 刀的 Pro plan ，这个 10% 占用居然直接继承到了 Pro plan 里。问题就在于，Pro plan 的周额度更高，free plan 的那 10% 一带过来，就等于那区区 5 flow 被按放大后的占比直接算进了付费套餐。</p>\n<p>说白了就是：免费试用的占用，被原样带进了付费订阅。</p>\n<p>这不是 bug 是什么？</p>\n<p>但官方负责人的态度非常统一：系统不会错，后台记录就是对的，不能给你具体计算方法；中间有动态调整，但怎么调整不能告诉你。你觉得不合理也没意义，因为“系统一定是对的”。</p>\n<p>这种回应最恶心的地方不只是黑箱，而是那种理直气壮的黑箱：<br/>\n我不解释，我也不给数据，你质疑也没用，反正系统不会错。</p>\n<p>而且在沟通过程里，对方还会故意曲解你的意思，不正面回答你提出的数据和逻辑，只重复几句“系统没问题”“不想争论”。后来群里因为这些问题争起来了，我再次提出 0.8 刀却占 10% 周额度的事，对方还是那套说辞。最后我 at 了他们团队里大部分人，希望至少有人能站出来把账说清楚，结果又冒出来一个“负责人”，说什么大家理念不同，不再解释，让我不要再浪费公共资源。</p>\n<p>我说我是消费者，连知情权都没有吗？</p>\n<p>然后，我就被第一个负责人直接踢出群了。</p>\n<p>整个过程下来，我对 ZenMux 的结论很简单。</p>\n<p>第一，它的额度体系非常黑箱。你能看到 cost ，但额度占用怎么算，官方不愿透明解释；而且我遇到问题那会儿，公开文档里也没有把这套换算规则讲明白，后面才慢慢补。<br/>\n第二，它的售后几乎等于没有。邮件不回，Discord 慢回，微信群选择性回复，出了问题你只能自己追着跑。<br/>\n第三，它的产品完成度很低。除了订阅，很多基础操作都做不了，连用户信息都没法好好改，支付方式也不能解绑；有用户想换支付方式，官方给出的建议居然是“先取消订阅，再重新订阅”。<br/>\n第四，它的使用体验远没有宣传里那么美好。订阅第一周，额度就被暗地里大幅下调。按我自己当时记录对比，原本 20 刀 plan 给到的实际价值更高，后面很快就缩水了，而且没有明确说明。<br/>\n第五，它那个 5 小时额度也很离谱。后面 5 小时窗口能用的东西非常少，opus 稍微跑个任务，一次就可能直接打满，甚至回复都传不完。这已经不是“性价比一般”，是根本没法正常用（以我 20 刀 plan 的计划）。<br/>\n第六，平台本身还有参数映射这类问题。我在 opencode 里把 codex 的 thinking level 设成 high ，结果平台报错却说我设成了 minimal ，后来确认并修好了，说明问题确实在 ZenMux 这边。那这就引出一个更可怕的问题：这次是报错了我才发现，如果它没报错，只是悄悄给我映射错了呢？别的模型、别的参数，谁知道还有没有类似问题没人发现？</p>\n<p>说到底，我不是不能接受平台早期有 bug ，也不是不能接受额度会调整。<br/>\n我不能接受的是：产品不成熟，售后没人管，规则不透明，出了问题还一副“系统永远正确，用户没资格追问”的态度。</p>\n<p>如果你只是想随便试试，可能还能忍。<br/>\n但如果你真打算长期订阅、当生产力工具用，那我建议你谨慎一点。</p>\n<p>至少我这次踩下来，感受到的不是“开发者友好”，而是：<br/>\n先把钱收了，至于你后面遇到什么问题、额度怎么算、售后有没有人管，那都看缘分。</p>\n\n\t",
-          "author": "bestwnh",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Android Studio Panda 2 有人碰见过 chat 输入框的这个 bug 吗",
-          "link": "https://www.v2ex.com/t/1195917#reply8",
-          "pubDate": "2026-03-05T01:20:23.000Z",
-          "content": "\n\t<p>新安装的 Android Studio</p>\n<p>点击输入框后，输入法会疯狂在中英文模式之间抽搐。。。就好像有人按住了 shift 键一样。</p>\n\n\t",
-          "author": "pocketz",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-06T08:27:51.916Z",
+      "lastUpdated": "2026-03-06T09:29:51.524Z",
       "items": [
         {
           "title": "腊梅花开",
@@ -831,9 +831,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "基因抽中废彩票，自学逆袭成圣贤",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
-          "pubDate": "2026-03-05 01:45:05",
+          "title": "计划性发现和偶然性发现都有可能获得诺奖",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
+          "pubDate": "2026-03-05 07:44:24",
           "content": "",
           "author": "",
           "categories": [],
@@ -841,9 +841,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "计划性发现和偶然性发现都有可能获得诺奖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
-          "pubDate": "2026-03-05 07:44:24",
+          "title": "基因抽中废彩票，自学逆袭成圣贤",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
+          "pubDate": "2026-03-05 01:45:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -861,9 +861,29 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "西安年夜",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524552",
+          "pubDate": "2026-03-05 07:56:39",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "暗怜双绁郁金香",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524588",
           "pubDate": "2026-03-06 08:46:02",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "吹沫有江豚（古今诗词咏江豚续七百五十六）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524427",
+          "pubDate": "2026-03-05 07:50:37",
           "content": "",
           "author": "",
           "categories": [],
@@ -881,29 +901,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "西安年夜",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524552",
-          "pubDate": "2026-03-05 07:56:39",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "如何用 YouMind 绘制出你家乡地标景观微缩地图？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=377709&do=blog&id=1524553",
           "pubDate": "2026-03-05 08:00:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "吹沫有江豚（古今诗词咏江豚续七百五十六）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524427",
-          "pubDate": "2026-03-05 07:50:37",
           "content": "",
           "author": "",
           "categories": [],
@@ -951,16 +951,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "我们所认识的葛维亚先生（葛维亚转发）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1524572",
-          "pubDate": "2026-03-06 03:43:49",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "杂说蔬菜（1）序",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1524582",
           "pubDate": "2026-03-06 07:40:42",
@@ -991,9 +981,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "人，AI，前瞻性",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524421",
-          "pubDate": "2026-03-05 04:28:40",
+          "title": "瑞香花开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524630",
+          "pubDate": "2026-03-06 11:44:42",
           "content": "",
           "author": "",
           "categories": [],
@@ -1009,13 +999,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
+          "pubDate": "2026-03-05 11:03:20",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-06T08:27:56.012Z",
+      "lastUpdated": "2026-03-06T09:29:54.188Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1222,7 +1222,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-06T08:27:58.707Z",
+      "lastUpdated": "2026-03-06T09:29:56.293Z",
       "items": [
         {
           "title": "曲径通幽，别有洞天（可以想歪 (评论: 小姐)",
@@ -1239,6 +1239,16 @@
           "link": "https://movie.douban.com/review/17488629/",
           "pubDate": "Wed, 04 Mar 2026 09:38:08 GMT",
           "content": "\nmomo评论: 大生意人 (https://movie.douban.com/subject/35496393/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://weibo.com/7895355182/52446...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "影评文章《我不是我想成为的那种人》- Metrograph转载自存 (评论: 我不是我想成为的那种人)",
+          "link": "https://movie.douban.com/review/17491203/",
+          "pubDate": "Fri, 06 Mar 2026 07:08:12 GMT",
+          "content": "\n啧你管我评论: 我不是我想成为的那种人 (https://movie.douban.com/subject/35417818/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fjsv8&#34;,&#34;text&#34;:&#34;作者：Keva York&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;ebgud&#34;,&#34;tex...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1413,16 +1423,6 @@
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "磕不到一点，但是配角线依然精彩 (评论: 布里奇顿 第四季)",
-          "link": "https://movie.douban.com/review/17488727/",
-          "pubDate": "Wed, 04 Mar 2026 11:21:02 GMT",
-          "content": "\n早間阿爾忒评论: 布里奇顿 第四季 (https://movie.douban.com/subject/35431068/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u7cfb\\u5217\\u6700\\u7701\\u94b1\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
         }
       ]
     },
@@ -1430,20 +1430,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-06T08:27:59.635Z",
+      "lastUpdated": "2026-03-06T09:29:57.467Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-06T08:27:59.817Z",
+      "lastUpdated": "2026-03-06T09:29:57.795Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-06T08:28:01.198Z",
+      "lastUpdated": "2026-03-06T09:29:58.251Z",
       "items": [
         {
           "title": "无题",
