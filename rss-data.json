@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-06T15:28:50.377Z",
+  "lastUpdated": "2026-03-06T16:30:01.412Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-06T15:28:35.650Z",
+      "lastUpdated": "2026-03-06T16:29:47.283Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-06T15:28:36.653Z",
+      "lastUpdated": "2026-03-06T16:29:48.306Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-06T15:28:36.735Z",
+      "lastUpdated": "2026-03-06T16:29:48.357Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-06T15:28:38.710Z",
+      "lastUpdated": "2026-03-06T16:29:49.911Z",
       "items": [
         {
           "title": "免费无限量的 GLM-5、Qwen3.5-398B 模型，AtomGit 限时免费",
@@ -301,8 +301,58 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-06T15:28:38.857Z",
+      "lastUpdated": "2026-03-06T16:29:50.119Z",
       "items": [
+        {
+          "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
+          "link": "https://www.v2ex.com/t/1196216#reply36",
+          "pubDate": "2026-03-06T01:49:26.000Z",
+          "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
+          "author": "Tyaqing",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "简单体验了一下 openClaw，说说自己的看法",
+          "link": "https://www.v2ex.com/t/1196394#reply5",
+          "pubDate": "2026-03-06T10:37:20.000Z",
+          "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
+          "author": "doctorzry",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
+          "link": "https://www.v2ex.com/t/1196104#reply67",
+          "pubDate": "2026-03-05T08:59:38.000Z",
+          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
+          "author": "hotea",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
+          "link": "https://www.v2ex.com/t/1196435#reply0",
+          "pubDate": "2026-03-06T15:47:54.000Z",
+          "content": "\n\t<p>本地有 claudecode/gemini/codex/cursor 。用 cc-connect 花个 10 分钟就可以把他们拉个飞书群，让他们互相聊天，太酷了。不同的 agent ，不同的能力模型，不同的人设上下文，明天试试搭建一个的“三省六部”哈哈。</p>\n<p>项目地址： <a href=\"https://github.com/chenhg5/cc-connect\" rel=\"nofollow\">https://github.com/chenhg5/cc-connect</a></p>\n<p>一些截图：</p>\n<p><img alt=\"1ab013a95014ce1d5a797b468bb86d3d.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee24e9c.webp\"/>\n<img alt=\"5ce0b4f1b763b94623ea2d18cc79c0df.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee06d8f.webp\"/>\n<img alt=\"77487389f0d62407e984b5940cd898f5.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee397e1.webp\"/>\n<img alt=\"8fcecaac33734c491eda7d06e4b8ee88.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee6af7e.webp\"/></p>\n<p>项目的一些交流群：</p>\n<p>discord: <a href=\"https://discord.gg/kHpwgaM4kq\" rel=\"nofollow\">https://discord.gg/kHpwgaM4kq</a></p>\n<p>telegram: <a href=\"https://t.me/+odGNDhCjbjdmMmZl\" rel=\"nofollow\">https://t.me/+odGNDhCjbjdmMmZl</a></p>\n<p>wechat: </p>\n<p><img alt=\"wechat_group\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://quick.go-admin.cn/ai/article/cc-connect_wechat_group_2.jpeg\"/></p>\n\n\t",
+          "author": "plane",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
+          "link": "https://www.v2ex.com/t/1196279#reply58",
+          "pubDate": "2026-03-06T03:58:17.000Z",
+          "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
+          "author": "vfs",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "Agent 在传统企业的尝试与阻碍",
           "link": "https://www.v2ex.com/t/1196366#reply10",
@@ -329,46 +379,6 @@
           "pubDate": "2026-03-06T07:07:55.000Z",
           "content": "\n\t\n\t",
           "author": "lanhiy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-          "link": "https://www.v2ex.com/t/1196104#reply64",
-          "pubDate": "2026-03-05T08:59:38.000Z",
-          "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
-          "author": "hotea",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-          "link": "https://www.v2ex.com/t/1196216#reply34",
-          "pubDate": "2026-03-06T01:49:26.000Z",
-          "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
-          "author": "Tyaqing",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "简单体验了一下 openClaw，说说自己的看法",
-          "link": "https://www.v2ex.com/t/1196394#reply4",
-          "pubDate": "2026-03-06T10:37:20.000Z",
-          "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
-          "author": "doctorzry",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-          "link": "https://www.v2ex.com/t/1196279#reply56",
-          "pubDate": "2026-03-06T03:58:17.000Z",
-          "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
-          "author": "vfs",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -444,21 +454,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-          "link": "https://www.v2ex.com/t/1196147#reply28",
-          "pubDate": "2026-03-05T12:31:35.000Z",
-          "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
-          "author": "ope",
+          "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
+          "link": "https://www.v2ex.com/t/1196209#reply32",
+          "pubDate": "2026-03-06T01:30:15.000Z",
+          "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
+          "author": "anyChris",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
-          "link": "https://www.v2ex.com/t/1196209#reply31",
-          "pubDate": "2026-03-06T01:30:15.000Z",
-          "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
-          "author": "anyChris",
+          "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
+          "link": "https://www.v2ex.com/t/1196147#reply28",
+          "pubDate": "2026-03-05T12:31:35.000Z",
+          "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
+          "author": "ope",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -515,7 +525,7 @@
         },
         {
           "title": "2026 搞钱激励活动汇总，最高 75 万元",
-          "link": "https://www.v2ex.com/t/1196356#reply4",
+          "link": "https://www.v2ex.com/t/1196356#reply5",
           "pubDate": "2026-03-06T08:18:40.000Z",
           "content": "\n\t<p>2025 已过，  去年的激励活动：鸿蒙应用开发者激励计划 2025 、剧本激励计划等，群里不少执行力强的群友，单靠跟着做鸿蒙开发，大部分都闷声斩获了<strong>十几 W</strong>的激励金（不信的可以直接在站内搜关键词：“鸿蒙 激励”，看看大家晒的真实收益）。。</p>\n<p>这就印证了普通人搞钱最稳的铁律——<strong>跟着大平台后面喝汤！平台拿钱砸哪个赛道，咱们就往哪冲。</strong></p>\n<p>错过去年没关系，2026 年“撒钱”激励继续！\n各大平台的新一轮红利已经放出，给站友汇总了一波最新的搞钱激励活动，最高单项奖金 75 万元！赶紧码住，今年别再只做看客了！</p>\n<p><strong>1.天工计划·鸿蒙智能体开发者激励</strong>\n华为为了建设智能体生态，拿出 10 亿激励发起「天工计划」，面向符合资质的鸿蒙开发者，开发上架达标智能体可获最高 75 万 / 个、累计最高 200 万现金激励，先到先得。</p>\n<img alt=\"下载.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdnhz.letwind.com/incentivehub/uploads/20260306/f21aa2d254bb88ac.png\"/>\n<p><strong>2.Kiro 百万奖池计划</strong>\n符合条件的三方赛事中用 Kiro 开发获奖，最高可获与官方奖金等额的追加奖励，单人上限 20 万元，总奖池 100 万元，先到先得。</p>\n<p><strong>3.抖音·精品漫剧激励政策</strong>\n覆盖 AI 仿真人、2D/3D 漫剧，按评级最高每分钟保底 3 万、单部最高 360 万，原创 IP 可享改编权全额补贴，保底外还有超保底分成，优质合作方还能获得一年框架保底合作。</p>\n<p><strong>4.番茄小说·文启剧燃</strong>\n设 6 大赛道，共 26 个万元大奖，叠加超千万版权额外激励，单部开发奖励最高 20 万，还有版权保底、多类创意奖，奖励可与年度福利叠加，全力赋能小说创作者。</p>\n<p>还有其他的激励活动，持续更新，打破信息差，我做了一个激励活动小程序，聚合了全网的激励政策，<strong>实时跟进，持续更新！</strong>  搜小程序名：​<strong>激励活动</strong>​！</p>\n<p>欢迎一起交流~</p>\n<img alt=\"微信搜 激励活动\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdnhz.letwind.com/incentivehub/image/qrcode.jpg\"/>\n\t",
           "author": "zw1234",
@@ -792,34 +802,14 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "求推荐 windows 上好用的抓包软件",
-          "link": "https://www.v2ex.com/t/1195647#reply74",
-          "pubDate": "2026-03-04T02:23:48.000Z",
-          "content": "\n\t<p>开源的最好，如果能免费就更好了</p>\n\n\t",
-          "author": "404www",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-06T15:28:41.133Z",
+      "lastUpdated": "2026-03-06T16:29:52.872Z",
       "items": [
-        {
-          "title": "腊梅花开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524487",
-          "pubDate": "2026-03-05 11:42:06",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "未来五年，大学会变成什么样——直播问答",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1524585",
@@ -844,6 +834,16 @@
           "title": "西安年夜",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524552",
           "pubDate": "2026-03-05 07:56:39",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "得诺奖最多的研究机构是什么样子的？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524581",
+          "pubDate": "2026-03-06 07:23:19",
           "content": "",
           "author": "",
           "categories": [],
@@ -881,16 +881,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "得诺奖最多的研究机构是什么样子的？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524581",
-          "pubDate": "2026-03-06 07:23:19",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "泛文夜光杯",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1524612",
           "pubDate": "2026-03-06 11:04:29",
@@ -921,6 +911,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "马年咏马",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1524615",
+          "pubDate": "2026-03-06 11:09:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "高校图书馆从业人员的今天与明天",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524559",
           "pubDate": "2026-03-05 08:50:56",
@@ -941,9 +941,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "马年咏马",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1524615",
-          "pubDate": "2026-03-06 11:09:26",
+          "title": "太阳活动原理及其验证",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3474929&do=blog&id=1524621",
+          "pubDate": "2026-03-06 11:18:15",
           "content": "",
           "author": "",
           "categories": [],
@@ -981,9 +981,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "太阳活动原理及其验证",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3474929&do=blog&id=1524621",
-          "pubDate": "2026-03-06 11:18:15",
+          "title": "SCIE 论文 2025年 发文概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524664",
+          "pubDate": "2026-03-06 03:01:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -991,9 +991,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SCIE 论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524664",
-          "pubDate": "2026-03-06 03:01:48",
+          "title": "木芙蓉：会变魔术的“三变花”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524686",
+          "pubDate": "2026-03-06 04:01:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -1015,7 +1015,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-06T15:28:46.090Z",
+      "lastUpdated": "2026-03-06T16:29:57.350Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1222,7 +1222,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-06T15:28:48.655Z",
+      "lastUpdated": "2026-03-06T16:29:59.435Z",
       "items": [
         {
           "title": "曲径通幽，别有洞天（可以想歪 (评论: 小姐)",
@@ -1420,20 +1420,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-06T15:28:49.668Z",
+      "lastUpdated": "2026-03-06T16:30:00.479Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-06T15:28:49.828Z",
+      "lastUpdated": "2026-03-06T16:30:00.747Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-06T15:28:50.376Z",
+      "lastUpdated": "2026-03-06T16:30:01.412Z",
       "items": [
         {
           "title": "无题",
