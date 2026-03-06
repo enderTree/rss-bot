@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-06T17:28:14.550Z",
+  "lastUpdated": "2026-03-06T18:32:59.354Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-06T17:28:01.313Z",
+      "lastUpdated": "2026-03-06T18:32:47.119Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-06T17:28:02.223Z",
+      "lastUpdated": "2026-03-06T18:32:47.982Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-06T17:28:02.379Z",
+      "lastUpdated": "2026-03-06T18:32:48.078Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-06T17:28:04.273Z",
+      "lastUpdated": "2026-03-06T18:32:49.844Z",
       "items": [
         {
           "title": "免费无限量的 GLM-5、Qwen3.5-398B 模型，AtomGit 限时免费",
@@ -301,8 +301,18 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-06T17:28:04.573Z",
+      "lastUpdated": "2026-03-06T18:32:49.980Z",
       "items": [
+        {
+          "title": "2026 年 PHP 路在何方",
+          "link": "https://www.v2ex.com/t/1196334#reply20",
+          "pubDate": "2026-03-06T07:07:55.000Z",
+          "content": "\n\t\n\t",
+          "author": "lanhiy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
           "link": "https://www.v2ex.com/t/1196216#reply37",
@@ -369,16 +379,6 @@
           "pubDate": "2026-03-06T15:21:40.000Z",
           "content": "\n\t经过近两年的 AI Coding 产品的使用，已经形成了 AIGC 时代下的 Vibe Coding 工具包，和大家分享和交流下：<br />1. 日常使用的 AI 编辑器 ，主要是 Cursor ，TRAE,Kiro ，Qoder,Antigravity ，Kiro ，Void ，CodeBuddy<br />2. AI Coding 工具：Opencode ，codex ，iflow ，GeminiCli,qodercli<br />3.流程图工具：<a target=\"_blank\" href=\"http://mermaid.live\" rel=\"nofollow noopener\">mermaid.live</a><br />4.终端：Warp ，wezterm<br />5.浏览器：Dia<br />6.订阅套餐：chatgpt plus 订阅 （拼车），github copilot （薅羊毛）,google AI Pro 订阅（学生卡），claude 代理，推荐  <a target=\"_blank\" href=\"https://ai.jiexi6.cn/register?promo_code=A6D065EC823FC82A\" rel=\"nofollow noopener\">https://ai.jiexi6.cn/register?promo_code=A6D065EC823FC82A</a>\n\t",
           "author": "salk",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "2026 年 PHP 路在何方",
-          "link": "https://www.v2ex.com/t/1196334#reply19",
-          "pubDate": "2026-03-06T07:07:55.000Z",
-          "content": "\n\t\n\t",
-          "author": "lanhiy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -708,22 +708,12 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-06T17:28:06.935Z",
+      "lastUpdated": "2026-03-06T18:32:52.068Z",
       "items": [
         {
           "title": "未来五年，大学会变成什么样——直播问答",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1524585",
           "pubDate": "2026-03-06 08:31:34",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "基因抽中废彩票，自学逆袭成圣贤",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
-          "pubDate": "2026-03-05 01:45:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -841,6 +831,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "陈坚--上世纪献身新疆教育事业的学子",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524610",
+          "pubDate": "2026-03-06 10:59:43",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "太阳活动原理及其验证",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3474929&do=blog&id=1524621",
           "pubDate": "2026-03-06 11:18:15",
@@ -864,16 +864,6 @@
           "title": "沉痛哀悼中国科学院院士王崇愚先生",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1524566",
           "pubDate": "2026-03-05 10:07:56",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "陈坚--上世纪献身新疆教育事业的学子",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524610",
-          "pubDate": "2026-03-06 10:59:43",
           "content": "",
           "author": "",
           "categories": [],
@@ -909,13 +899,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "先雌后雄——刘建康院士揭示黄鳝“性逆转”之谜",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524563",
+          "pubDate": "2026-03-05 10:03:15",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-06T17:28:10.405Z",
+      "lastUpdated": "2026-03-06T18:32:55.400Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1122,7 +1122,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-06T17:28:12.547Z",
+      "lastUpdated": "2026-03-06T18:32:57.305Z",
       "items": [
         {
           "title": "曲径通幽，别有洞天（可以想歪 (评论: 小姐)",
@@ -1320,20 +1320,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-06T17:28:13.673Z",
+      "lastUpdated": "2026-03-06T18:32:58.438Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-06T17:28:13.889Z",
+      "lastUpdated": "2026-03-06T18:32:58.522Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-06T17:28:14.550Z",
+      "lastUpdated": "2026-03-06T18:32:59.354Z",
       "items": [
         {
           "title": "无题",
