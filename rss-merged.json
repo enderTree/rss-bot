@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T06:36:39.485Z",
+  "lastUpdated": "2026-03-06T07:33:35.653Z",
   "totalItems": 143,
   "items": [
     {
@@ -33,6 +33,36 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "2026 年 PHP 路在何方",
+      "link": "https://www.v2ex.com/t/1196334#reply4",
+      "pubDate": "2026-03-06T07:07:55.000Z",
+      "content": "\n\t\n\t",
+      "author": "lanhiy",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "agentserver —— 把 AI Coding Agent 搬到云上，浏览器打开就能用",
+      "link": "https://www.v2ex.com/t/1196332#reply0",
+      "pubDate": "2026-03-06T07:04:13.000Z",
+      "content": "\n\t<p>做了个开源项目 agentserver ，分享一下。                                                                                                                                                                          </p>\n<p>简单说就是给 opencode 做的服务端 —— 类似 code-server 之于 VS Code 。</p>\n<p>目前能做的事：</p>\n<ol>\n<li>云上开 opencode 沙箱，浏览器打开就能写代码，不用折腾本地环境。API Key 服务端代理，不会泄漏，团队用量可控。</li>\n<li>本地 opencode 接入云端，一行命令把本地跑的 agent 通过 WebSocket 隧道连到平台上，不需要公网 IP ，在任何地方都能通过浏览器远程访问你的本地开发环境。</li>\n</ol>\n<p>正在做的事：</p>\n<ol>\n<li>云上 agent 和本地 agent 互相调用，让多个 agent 跨环境协作完成任务。这块在积极开发中。</li>\n</ol>\n<p>Go + React ，MIT 协议，K8s + Helm 就能部署。</p>\n<p>项目主页： <a href=\"https://agentserver.dev\" rel=\"nofollow\">https://agentserver.dev</a></p>\n<p>GitHub： <a href=\"https://github.com/agentserver/agentserver\" rel=\"nofollow\">https://github.com/agentserver/agentserver</a></p>\n<p>在线体验： <a href=\"https://platform.agentserver.dev\" rel=\"nofollow\">https://platform.agentserver.dev</a></p>\n<p>欢迎试用，欢迎 star 。</p>\n\n\t",
+      "author": "v2mryao",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "多数 LLM 中转站都是假",
+      "link": "https://www.v2ex.com/t/1196327#reply0",
+      "pubDate": "2026-03-06T06:48:21.000Z",
+      "content": "\n\t<p>有篇论文： <a href=\"https://arxiv.org/pdf/2603.01919\" rel=\"nofollow\">https://arxiv.org/pdf/2603.01919</a> 分析了 LLM 中转站（被称为 Shadow API ），发现</p>\n<blockquote>\n<p>通过对三家具有代表性的影子 API 在实用性、安全性和模型验证三个维度上的多维度审计，我们发现了影子 API 中欺骗行为的间接与直接证据。具体而言，我们揭示了以下问题：</p>\n</blockquote>\n<ul>\n<li>性能差距最高达 47.21%</li>\n<li>安全行为存在显著的不可预测性</li>\n<li>在指纹测试中，45.83% 的案例出现了身份核验失败</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Service</th>\n<th>Domain</th>\n<th>Legal Entity Reg.</th>\n<th>ID</th>\n<th>Legal Docs</th>\n<th>ICP</th>\n<th>Biz. Registry</th>\n<th>Payment</th>\n<th>Payee</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>C*******E</td>\n<td>api.c********<a href=\"http://y.cn\" rel=\"nofollow\">y.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>B</td>\n<td>Y*****I</td>\n<td>y*****<a href=\"http://i.com\" rel=\"nofollow\">i.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Internal</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>C</td>\n<td>X*****I</td>\n<td>x*****i.plus</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>D</td>\n<td>G*******S</td>\n<td>g*******<a href=\"http://s.us\" rel=\"nofollow\">s.us</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>E</td>\n<td>Q*******O</td>\n<td>q*******<a href=\"http://o.com\" rel=\"nofollow\">o.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>Disclaimer</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat / PayPal / USDT</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>F</td>\n<td>O*******B</td>\n<td>o*******<a href=\"http://b.com\" rel=\"nofollow\">b.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>G</td>\n<td>D*****I</td>\n<td>d*****<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>H</td>\n<td>Z*******G</td>\n<td>z*******<a href=\"http://g.com\" rel=\"nofollow\">g.com</a></td>\n<td>✓</td>\n<td>✓</td>\n<td>—</td>\n<td>✓</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>I</td>\n<td>C*****I</td>\n<td>chat.c*****i.vip</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>J</td>\n<td>O*******D</td>\n<td>o*******d.cloud</td>\n<td>—</td>\n<td>—</td>\n<td>ToS</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>K</td>\n<td>V*****I</td>\n<td>api.g**.ge</td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>L</td>\n<td>A*****S</td>\n<td>a*****<a href=\"http://s.com\" rel=\"nofollow\">s.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>M</td>\n<td>B*****I</td>\n<td>api.b*****<a href=\"http://i.ai\" rel=\"nofollow\">i.ai</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>N</td>\n<td>A*******X</td>\n<td>a*******<a href=\"http://x.com\" rel=\"nofollow\">x.com</a></td>\n<td>✓</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>✓</td>\n<td>Alipay / Credit Card</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>O</td>\n<td>A*******S</td>\n<td>a*******s.top</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>P</td>\n<td>A*****9</td>\n<td>a*****<a href=\"http://9.com\" rel=\"nofollow\">9.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>Q</td>\n<td>3**i</td>\n<td>3**<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n</tbody></table>\n\t",
+      "author": "xiaopanzi",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
       "link": "https://www.v2ex.com/t/1196301#reply5",
       "pubDate": "2026-03-06T05:43:06.000Z",
@@ -41,6 +71,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "太好看了 (评论: 功夫熊猫)",
+      "link": "https://movie.douban.com/review/17491075/",
+      "pubDate": "Fri, 06 Mar 2026 05:36:13 GMT",
+      "content": "\nmomo评论: 功夫熊猫 (https://movie.douban.com/subject/1783457/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u8fd9\\u4e2a\\u52a8\\u753b\\u7247\\u5...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "求助：这个是 Gemini 给出的 2 个月学习计划，烦请大家提供批评与建议",
@@ -64,7 +104,7 @@
     },
     {
       "title": "求国际卡推荐，接码",
-      "link": "https://www.v2ex.com/t/1196282#reply6",
+      "link": "https://www.v2ex.com/t/1196282#reply9",
       "pubDate": "2026-03-06T04:05:15.000Z",
       "content": "\n\t<p>卡槽有点满了，不用一直插卡就能网页接码的是不是只有 club\n但是 google 一系列是不是香港卡不行\ngg 卡看起来比较好用但是得插卡，有什么办法可以让 sim 卡通过其他途径接码吗</p>\n\n\t",
       "author": "beginners",
@@ -74,7 +114,7 @@
     },
     {
       "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-      "link": "https://www.v2ex.com/t/1196279#reply17",
+      "link": "https://www.v2ex.com/t/1196279#reply20",
       "pubDate": "2026-03-06T03:58:17.000Z",
       "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
       "author": "vfs",
@@ -84,7 +124,7 @@
     },
     {
       "title": "智谱 Coding plan 太慢了，根本无法使用",
-      "link": "https://www.v2ex.com/t/1196278#reply11",
+      "link": "https://www.v2ex.com/t/1196278#reply13",
       "pubDate": "2026-03-06T03:52:24.000Z",
       "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
       "author": "devloperchen",
@@ -94,7 +134,7 @@
     },
     {
       "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-      "link": "https://www.v2ex.com/t/1196273#reply9",
+      "link": "https://www.v2ex.com/t/1196273#reply14",
       "pubDate": "2026-03-06T03:45:22.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
       "author": "lynn1su",
@@ -123,16 +163,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "曝光一家黑中转站-白云智算",
-      "link": "https://www.v2ex.com/t/1196261#reply37",
-      "pubDate": "2026-03-06T03:23:00.000Z",
-      "content": "\n\t<p>搜到了一个叫 <strong>白山云</strong> 的平台 ( <a href=\"https://ai.baishan.com/\" rel=\"nofollow\">https://ai.baishan.com/</a> )。一看注册送 150 元的体验 Token ，本来心里还美滋滋的，准备搞个 Key 塞进我的 OpenCode 里跑跑看。</p>\n<p>结果一测试，直接给我整不会了：</p>\n<ul>\n<li><strong>第一个问题</strong>：我就简单测个活，问了句“你是什么模型？” —— 看了下账单，<strong>花费 2.5 元</strong>。</li>\n<li><strong>第二个问题</strong>：接着我又随便问了一个极其简单的日常问题 —— 好家伙，<strong>直接扣了 20 多块钱</strong>！</li>\n</ul>\n<p>我就纳闷了，我这上下文干干净净，连个 HTML 的 boilerplate （模板代码）都没发，这俩破问题加起来顶多几十个 Token 吧？就算 GLM-5 定价再高，也不至于这么个烧法。</p>\n<p>我严重怀疑他们后台的计费单位是<strong>津巴布韦币</strong>，或者是按输入字符的 ASCII 码总和来扣费的 🐶。这么个“送”法，150 块钱都不够跟他聊十分钟的天。</p>\n<p>发出来给大家避个坑，看到这家的计费先掂量掂量。如果大家要测，千万记得盯紧账单。</p>\n\n\t",
-      "author": "thevenin1416",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "com.tencent.mm:push 这种子进程有什么办法禁掉吗？我只依赖 fcm 推送",
       "link": "https://www.v2ex.com/t/1196252#reply0",
       "pubDate": "2026-03-06T03:11:37.000Z",
@@ -154,7 +184,7 @@
     },
     {
       "title": "为什么我养的大龙虾 OpenClaw 跟个弱智似的",
-      "link": "https://www.v2ex.com/t/1196240#reply6",
+      "link": "https://www.v2ex.com/t/1196240#reply8",
       "pubDate": "2026-03-06T02:53:30.000Z",
       "content": "\n\t背景：<br />1 模型调用的是阿里云 coding plan;<br />2 在阿里云云主机上安装的;<br />现状：<br />1. 不能执行指令，比如帮我安装这个 skills, 帮我用 clawhub 安装 xxx;<br />2. 明确的指令也不能识别，比如 mcporter config add xxx;<br />3. 胡乱指挥我手动执行命令。<br />---------------------------------------------------------------------------------<br />就跟小艺跟小爱同学的区别一样，我这个只会哔哔，根本不干活，请问大家的都这样吗？？？\n\t",
       "author": "boringwheat",
@@ -174,7 +204,7 @@
     },
     {
       "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-      "link": "https://www.v2ex.com/t/1196216#reply20",
+      "link": "https://www.v2ex.com/t/1196216#reply22",
       "pubDate": "2026-03-06T01:49:26.000Z",
       "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
       "author": "Tyaqing",
@@ -184,7 +214,7 @@
     },
     {
       "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
-      "link": "https://www.v2ex.com/t/1196209#reply28",
+      "link": "https://www.v2ex.com/t/1196209#reply30",
       "pubDate": "2026-03-06T01:30:15.000Z",
       "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
       "author": "anyChris",
@@ -274,7 +304,7 @@
     },
     {
       "title": "xhs-cli：把小红书常用操作搬进终端，支持无缝接入 OpenClaw | AI Agent",
-      "link": "https://www.v2ex.com/t/1196174#reply1",
+      "link": "https://www.v2ex.com/t/1196174#reply2",
       "pubDate": "2026-03-05T15:56:06.000Z",
       "content": "\n\t<p>最近把自己在用的小工具整理成了一个开源项目：<strong>xhs-cli</strong>。<br/>\n目标很直接：把小红书上的高频操作变成可脚本化的 CLI workflow ，减少重复点点点。</p>\n<ul>\n<li>GitHub: <a href=\"https://github.com/jackwener/xhs-cli\" rel=\"nofollow\">https://github.com/jackwener/xhs-cli</a></li>\n<li>PyPI: <a href=\"https://pypi.org/project/xhs-cli/\" rel=\"nofollow\">https://pypi.org/project/xhs-cli/</a></li>\n</ul>\n<hr/>\n<h2>这个工具能做什么</h2>\n<p><code>xhs-cli</code> 目前覆盖了这些核心能力：</p>\n<ul>\n<li>搜索笔记：<code>search</code></li>\n<li>读取笔记详情与评论：<code>read --comments</code></li>\n<li>查看用户资料与笔记：<code>user</code> / <code>user-posts</code></li>\n<li>粉丝与关注：<code>followers</code> / <code>following</code></li>\n<li>互动操作：<code>like</code> / <code>unlike</code> / <code>favorite</code> / <code>unfavorite</code> / <code>comment</code></li>\n<li>收藏列表：<code>favorites</code></li>\n<li>内容发布与回滚：<code>post</code> / <code>delete</code></li>\n<li>探索页与话题：<code>feed</code> / <code>topics</code></li>\n<li>登录态管理：<code>login</code> / <code>status</code> / <code>whoami</code> / <code>logout</code></li>\n</ul>\n<p>另外，数据类命令都支持 <code>--json</code>，方便直接接 <code>jq</code>、脚本或 CI 。</p>\n<hr/>\n<h2>为什么做它</h2>\n<p>我自己的痛点是：</p>\n<ol>\n<li>运营/数据验证时，很多动作都在重复手动操作；</li>\n<li>做自动化时，网页端流程很难稳定复用；</li>\n<li>回归测试成本高，尤其是发内容后的状态清理。</li>\n</ol>\n<p>所以做了 <code>post -&gt; delete</code> 的闭环能力，结合本地 smoke test ，尽量把“手动验证”变成“一条命令”。</p>\n<hr/>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">uv tool install xhs-cli\n# 或\npipx install xhs-cli</code></pre>\n\n\t",
       "author": "jakevin",
@@ -363,6 +393,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "中医与活性算法 （11）针灸不是刺激，而是调谐",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524480",
+      "pubDate": "2026-03-05 11:03:20",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "《纯真年代的爱情》，不如改名《向下兼容的爱情》 (评论: 纯真年代的爱情)",
       "link": "https://movie.douban.com/review/17490052/",
       "pubDate": "Thu, 05 Mar 2026 10:27:08 GMT",
@@ -384,7 +424,7 @@
     },
     {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply19",
+      "link": "https://www.v2ex.com/t/1196121#reply20",
       "pubDate": "2026-03-05T10:08:30.000Z",
       "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
       "author": "jiaokun",
@@ -464,7 +504,7 @@
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply46",
+      "link": "https://www.v2ex.com/t/1196104#reply48",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
@@ -484,7 +524,7 @@
     },
     {
       "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-      "link": "https://www.v2ex.com/t/1196087#reply67",
+      "link": "https://www.v2ex.com/t/1196087#reply70",
       "pubDate": "2026-03-05T08:20:43.000Z",
       "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
       "author": "xiaotianhu",
@@ -583,16 +623,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "《非穷尽列举》比《初步举证》更出色 (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17489772/",
-      "pubDate": "Thu, 05 Mar 2026 07:10:43 GMT",
-      "content": "\n陆冠均评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2oqlp&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "苹果开发者账号申请了，还需要审核？需要审核多久呀",
       "link": "https://www.v2ex.com/t/1196059#reply6",
       "pubDate": "2026-03-05T06:56:35.000Z",
@@ -611,16 +641,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "⚡ MMClaw: 超轻量 AI Agent 内核， 1700 行纯 Python",
-      "link": "https://www.v2ex.com/t/1196035#reply0",
-      "pubDate": "2026-03-05T05:52:30.000Z",
-      "content": "\n\t<h2>项目地址</h2>\n<p><a href=\"https://github.com/CrawlScript/MMClaw\" rel=\"nofollow\">https://github.com/CrawlScript/MMClaw</a></p>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">pip install mmclaw\nmmclaw run\n</code></pre>\n<h2>开发理念</h2>\n<p>AI Agent 的趋势正朝着大规模复杂化发展。MMClaw 则趋向于清晰。大多数开发者不需要一个几十万行代码的黑盒。他们需要一个可靠、可审计的内核来处理 Agent 循环和工具调用，同时保持足够轻量，以便在几分钟内完成修改。</p>\n<h2>核心能力</h2>\n<ul>\n<li><strong>多渠道交互</strong>：随时随地，通过你最常用的 App 掌控你的 AI Agent —— Telegram 、飞书、QQ Bot 、WhatsApp 、终端，全部通过纯 Python 集成处理。</li>\n<li><strong>主流 LLM 全覆盖</strong>：OpenAI / Gemini / DeepSeek / Kimi / Codex / Ollama / OpenRouter……</li>\n<li><strong>联网搜索</strong>：内置实时联网搜索功能，获取最新资讯。</li>\n<li><strong>自定义技能</strong>：为 Agent 扩展专属技能，教会它新的指令、工作流和领域知识，让它完全按你的需求运作。</li>\n<li><strong>高度可定制的内核</strong>：设计为一个核心引擎，而非一个僵化的应用。可以轻松插入您自己的逻辑、状态管理和自定义工具。</li>\n</ul>\n<p><img alt=\"MMClaw\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/CrawlScript/MMClaw/main/MMCLAW_LOGO.jpg\"/></p>\n\n\t",
-      "author": "briefcopy",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "大家现在部署个人项目都用什么方案？感觉选择太多了有点纠结",
@@ -694,16 +714,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "我对写作要领的理解",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1524419",
-      "pubDate": "2026-03-05 02:47:59",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "嵌入式软件都用哪个 Ai 编程工具的？",
@@ -842,16 +852,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "NEO Emacs: 用 Rust 重写 GNU/Emacs。目标： GPU 渲染，多线程 Elisp, 10x 性能，前后端分离",
-      "link": "https://www.v2ex.com/t/1195885#reply13",
-      "pubDate": "2026-03-04T15:15:44.000Z",
-      "content": "\n\t<h1>NEO Emacs</h1>\n<p>大家好，最近我正在推进一个极具野心的项目：<strong>Neomacs</strong>： <a href=\"https://github.com/eval-exec/neomacs/\" rel=\"nofollow\">https://github.com/eval-exec/neomacs/</a> </p>\n<p>Neomacs 的目标是重新思考和现代化 Emacs 的核心架构，在保持 <strong>100% Elisp 兼容性</strong>的前提下，让 Emacs 拥有现代编辑器的性能和体验。该项目探索用 <strong>Rust + GPU 渲染 + 新 VM 架构</strong>来重构 Emacs 的关键部分。</p>\n<h3>项目目标</h3>\n<p>Neomacs 的主要目标包括：</p>\n<ul>\n<li><strong>前后端架构分离</strong></li>\n<li>重新设计并实现 Emacs 编辑器相关的 <strong>C Core</strong></li>\n<li>使用 <strong>Rust</strong> 重新设计并实现 <strong>Elisp VM （ NeoVM ）</strong></li>\n<li>使用 <strong>GPU （ Winit + WGPU ）实现前端渲染</strong></li>\n<li>提供 <strong>真正的 Elisp 多线程支持</strong></li>\n<li>目标实现 <strong>10x 的 Elisp 性能提升</strong></li>\n<li>跨平台支持：Linux macOS Windows Mobile （ Android / iOS ） WebAssembly</li>\n<li>提供 <strong>极速、流畅的编辑体验</strong>，以及更加丰富的视觉效果</li>\n<li><strong>100% Elisp 兼容性</strong>：目标是让 <strong>MELPA 上所有包都能正常运行</strong></li>\n</ul>\n<h3>当前进展</h3>\n<p>目前已经完成：</p>\n<ul>\n<li>使用 <strong>Rust 完全重写 Emacs 的 display engine</strong></li>\n<li>在 <strong>Linux 和 macOS</strong> 上已经可以编译运行\n<strong>Rust 前端 + Emacs C 后端</strong> 的 Neomacs</li>\n<li><strong>Elisp VM （ NeoVM ）</strong> 正在重新设计与实现中</li>\n</ul>\n<p>未来将继续推进 VM 、架构解耦以及性能优化。</p>\n<hr/>\n<p>Github 仓库 README 里有一些介绍可以看看。 </p>\n<p><a href=\"https://github.com/eval-exec/neomacs/\" rel=\"nofollow\">https://github.com/eval-exec/neomacs/</a></p>\n<p>（如果你对 Neomacs 感兴趣， 帮忙点个 Star🌟 ， 支持一下 Neomacs ）</p>\n<p>Make Emacs Great Again!</p>\n\n\t",
-      "author": "evilexec",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "说下我这几天用 ZenMux 的糟糕经历",
       "link": "https://www.v2ex.com/t/1195882#reply28",
       "pubDate": "2026-03-04T15:06:02.000Z",
@@ -977,7 +977,7 @@
     },
     {
       "title": "在写代码，做项目上，站里支持 AI 的，和反对 AI 的，都有对齐 AI 在代码领域的正确使用方法吗？",
-      "link": "https://www.v2ex.com/t/1195690#reply38",
+      "link": "https://www.v2ex.com/t/1195690#reply39",
       "pubDate": "2026-03-04T03:38:47.000Z",
       "content": "\n\t<p>首先定义一下支持 AI coding 和 反对 AI coding 的：</p>\n<ul>\n<li>支持者：绝大部分工作使用 AI 工具完成（百分之 90 以上），自己只是驾驶员。</li>\n<li>反对者：完全拒绝 AI ，或者 AI 只是作为辅助开发；</li>\n</ul>\n<p>有这个疑问是我最近在面试，我的岗位是 agent 开发，在其他<a href=\"https://v2ex.com/t/1182394\" rel=\"nofollow\">帖子</a>里有介绍，面试的结果，还算不错，年前虽然一直没结果，但是年后成功获得了两个我都比较满意的 offer ，目前已经在考虑入职的问题。</p>\n<p>可能和我的工作内容天然以大模型为基础有关系，在面试的过程中，我遇到的公司，都会要求 vibe coding 的能力，这没有任何问题，可是我在和面试官讨论的时候，我发现好几个公司，模型用了国内的 glm 、minimax 、kimi ，IDE 用字节的 trea 啊或者其他不知名的，并且公司也没有明确的标准，就是把 AI coding 工具用起来了，他们就觉得自己 vibe 了。</p>\n<p>但是据我高强度，使用 AI 来看，真正能合理在真实工作场景中使用 AI coding ，至少得是以下工具的组合：\nIDE：cursor 、caulde code 、codex （这个我自己没体验过，但是听使用的人说很好用）；<br/>\nmodel：claude opus4.5+、GPT5.0+、gemini 系列我自己觉得差点意思，但是可以作为候补，前两个模型弄不好，问一下会有奇效；</p>\n<p>在使用上，有注意使用细节吗？</p>\n<ul>\n<li>先 plan 模式生成计划，通过多轮沟通将计划变成合理是最基础的</li>\n<li>还需要增加 <a href=\"http://claude.md\" rel=\"nofollow\">claude.md</a> 或者 <a href=\"http://product.md\" rel=\"nofollow\">product.md</a> 之类的 AI 沟通文件，记录每次更新的变化， 以及 AI coding 的注意事项等等细节问题。</li>\n<li>在 Prompt 上姿势正确吗？模糊的需求，自己也说不清楚，是否与 AI 多次沟通；清楚的需求，是否交代清楚了细节；</li>\n<li>在 debug 上有正确发挥工具的 debug 能力吗？主流工具都是支持，输入多个问题原因，工具会自动打 log 找原因，解决后会自动取消 log 。</li>\n<li>一个模型解决不了的细节问题，有更换模型吗？实际使用中 claude 、gpt 、gemini 混合用 是很有必要的，它们可以互相互补，一个解决不了的问题，可能另一个就解决了。</li>\n</ul>\n<p>还需要叠个甲的是，本帖没有贬低国内外其他模型工具的意思。实际上，从我的使用来看，其他模型工具与我上面列的几个差距并不大。</p>\n<p>但是，如果你想在实际工作中使用，微小的差距，可能就是能用与不能用的区别，函数写错一个字母都运行不了，一个函数报错，整个功能就运行不了，一个功能运行不了，可能整个项目就崩溃。</p>\n<p>也许其他工具，能做对百分之 90 的场景，但是剩下百分之 10 可能要消耗掉百分之 90 的工作时间，甚至更多，而恰恰这无法解决的百分之 10 ，让很多反对者觉得“你们怎么敢说 AI 能做百分之 80 的工作的？”</p>\n<p>除此之外，X 刷到某个言论，我也比较认同，比较强硬的反对者（完全拒绝 AI ）可能是经验非常丰富的老开发，已经工作 20 年 30 年这种，他们不是因为顽固、固执，而是对于开发 对于写代码，基于多年的经验，有自己的理解，而 AI 是没有他们这种理解力的。</p>\n<p>本帖不引战奥，支持者和反对者 都聊聊你们是怎么用 AI coding 的，工作都是什么应用场景</p>\n\n\t",
       "author": "WithoutSugarMiao",
@@ -1009,7 +1009,7 @@
     },
     {
       "title": "国产 AI Coding Plan 现在选哪家比较好？",
-      "link": "https://www.v2ex.com/t/1195635#reply55",
+      "link": "https://www.v2ex.com/t/1195635#reply57",
       "pubDate": "2026-03-04T02:02:43.000Z",
       "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
       "author": "WangLiCha",
