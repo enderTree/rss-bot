@@ -1,33 +1,13 @@
 {
-  "lastUpdated": "2026-03-06T11:22:00.796Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-06T12:34:50.878Z",
+  "totalItems": 113,
   "items": [
-    {
-      "title": "瑞香花开",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524630",
-      "pubDate": "2026-03-06 11:44:42",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
     {
       "title": "简单体验了一下 openClaw，说说自己的看法",
       "link": "https://www.v2ex.com/t/1196394#reply0",
       "pubDate": "2026-03-06T10:37:20.000Z",
       "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
       "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "中转站都是去哪里拿便宜货源的",
-      "link": "https://www.v2ex.com/t/1196383#reply0",
-      "pubDate": "2026-03-06T09:40:01.000Z",
-      "content": "\n\t<p>话说如果想做中转站生意，去哪里可以搞到好的货源啊</p>\n\n\t",
-      "author": "bozhouAI",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -43,8 +23,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "这是我见过最快熟络起来的陌生人 (评论: 亲爱的客栈2026)",
+      "link": "https://movie.douban.com/review/17491362/",
+      "pubDate": "Fri, 06 Mar 2026 09:16:25 GMT",
+      "content": "\nmomo评论: 亲爱的客栈2026 (https://movie.douban.com/subject/37814621/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4e0d\\u8bba\\u662f\\u4ec0\\u4e48\\u8...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "claude code CLI 登录 401",
-      "link": "https://www.v2ex.com/t/1196378#reply2",
+      "link": "https://www.v2ex.com/t/1196378#reply4",
       "pubDate": "2026-03-06T09:16:01.000Z",
       "content": "\n\t<p>刚开通 claude pro 命令行登录</p>\n<p>提示：401 {\"error\":{\"message\":\"401 授权信息无效，请检查\",\"type\":\"authentication_error\"},\"type\":\"error\"}</p>\n<p>claude 终端卸载重装也试了</p>\n<p>兄弟们有遇到过吗</p>\n\n\t",
       "author": "audiozen3001",
@@ -77,34 +67,14 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "暗怜双绁郁金香",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524588",
-      "pubDate": "2026-03-06 08:46:02",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "Agent 在传统企业的尝试与阻碍",
-      "link": "https://www.v2ex.com/t/1196366#reply4",
+      "link": "https://www.v2ex.com/t/1196366#reply5",
       "pubDate": "2026-03-06T08:34:51.000Z",
       "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
       "author": "magicfield",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "未来五年，大学会变成什么样——直播问答",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1524585",
-      "pubDate": "2026-03-06 08:31:34",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
@@ -177,16 +147,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "杂说蔬菜（1）序",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1524582",
-      "pubDate": "2026-03-06 07:40:42",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "做色彩的局外人 (评论: 局外人)",
       "link": "https://movie.douban.com/review/17491224/",
       "pubDate": "Fri, 06 Mar 2026 07:28:04 GMT",
@@ -195,16 +155,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "得诺奖最多的研究机构是什么样子的？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524581",
-      "pubDate": "2026-03-06 07:23:19",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "影评文章《我不是我想成为的那种人》- Metrograph转载自存 (评论: 我不是我想成为的那种人)",
@@ -218,7 +168,7 @@
     },
     {
       "title": "2026 年 PHP 路在何方",
-      "link": "https://www.v2ex.com/t/1196334#reply13",
+      "link": "https://www.v2ex.com/t/1196334#reply17",
       "pubDate": "2026-03-06T07:07:55.000Z",
       "content": "\n\t\n\t",
       "author": "lanhiy",
@@ -235,6 +185,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "因果报应——时间线梳理 (评论: 因果报应)",
+      "link": "https://movie.douban.com/review/17491182/",
+      "pubDate": "Fri, 06 Mar 2026 06:54:50 GMT",
+      "content": "\n坎迪评论: 因果报应 (https://movie.douban.com/subject/36934908/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;1.\\u5341\\u51e0\\u5e74\\u524d\\uff0c\\...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "多数 LLM 中转站都是假",
@@ -308,7 +268,7 @@
     },
     {
       "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-      "link": "https://www.v2ex.com/t/1196279#reply42",
+      "link": "https://www.v2ex.com/t/1196279#reply44",
       "pubDate": "2026-03-06T03:58:17.000Z",
       "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
       "author": "vfs",
@@ -318,7 +278,7 @@
     },
     {
       "title": "智谱 Coding plan 太慢了，根本无法使用",
-      "link": "https://www.v2ex.com/t/1196278#reply14",
+      "link": "https://www.v2ex.com/t/1196278#reply16",
       "pubDate": "2026-03-06T03:52:24.000Z",
       "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
       "author": "devloperchen",
@@ -328,7 +288,7 @@
     },
     {
       "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-      "link": "https://www.v2ex.com/t/1196273#reply30",
+      "link": "https://www.v2ex.com/t/1196273#reply32",
       "pubDate": "2026-03-06T03:45:22.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
       "author": "lynn1su",
@@ -368,7 +328,7 @@
     },
     {
       "title": "为什么我养的大龙虾 OpenClaw 跟个弱智似的",
-      "link": "https://www.v2ex.com/t/1196240#reply19",
+      "link": "https://www.v2ex.com/t/1196240#reply20",
       "pubDate": "2026-03-06T02:53:30.000Z",
       "content": "\n\t背景：<br />1 模型调用的是阿里云 coding plan;<br />2 在阿里云云主机上安装的;<br />现状：<br />1. 不能执行指令，比如帮我安装这个 skills, 帮我用 clawhub 安装 xxx;<br />2. 明确的指令也不能识别，比如 mcporter config add xxx;<br />3. 胡乱指挥我手动执行命令。<br />---------------------------------------------------------------------------------<br />就跟小艺跟小爱同学的区别一样，我这个只会哔哔，根本不干活，请问大家的都这样吗？？？\n\t",
       "author": "boringwheat",
@@ -378,7 +338,7 @@
     },
     {
       "title": "使用 AI 中转站会不会泄漏自己的敏感信息?中转站如果给返回一些恶意信息怎么办?有用 AI 中转站的佬来分享下吗?",
-      "link": "https://www.v2ex.com/t/1196220#reply27",
+      "link": "https://www.v2ex.com/t/1196220#reply28",
       "pubDate": "2026-03-06T02:04:50.000Z",
       "content": "\n\t比如说我用了中转站的 AI API, 然后中转方在我原来的提示词基础上给我夹带了一些私货<br /><br />比如扫描某些敏感文件(加密钱包的默认存储路径)然后上传啥的, 如果是能被发现还好说, 但是如果是龙虾这种纯自动的机器人是不是就会中招? <br /><br />还是说现在已经有了很完善的防御机制, 我的信息有些落后了?<br /><br />感谢回复!\n\t",
       "author": "JoeJoeJoe",
@@ -408,7 +368,7 @@
     },
     {
       "title": "OpenAI Symphony / Anthropic Claude Code 背后的共识： Agent Harness Engineering 比选模型重要（附 50+ 项目清单）",
-      "link": "https://www.v2ex.com/t/1196207#reply5",
+      "link": "https://www.v2ex.com/t/1196207#reply6",
       "pubDate": "2026-03-06T01:24:23.000Z",
       "content": "\n\t<p>清单地址： <a href=\"https://github.com/AutoJunjie/awesome-agent-harness\" rel=\"nofollow\">https://github.com/AutoJunjie/awesome-agent-harness</a></p>\n<p>最近在深度使用 Claude Code / Codex 做项目，发现一个趋势：大家讨论的重心从\"用什么模型\"转向了\"怎么让 agent 稳定干活\"。OpenAI 团队用这套方法写了 100 万行生产代码，零人工编写，他们管这叫 harness engineering 。Anthropic 的 Claude Code 团队从工具设计的角度得出了几乎一样的结论：harness 比 model 重要。</p>\n<p>简单说，agent harness 就是包在 LLM agent 外面的那层基础设施——session 管理、上下文投喂、工具设计、架构约束、失败恢复、人类审批。模型本身不包含在内。</p>\n<p>这个领域最近项目井喷，我花了不少时间整理成了一个 awesome list ，目前收录 50+ 个项目，分了这几类：</p>\n<p>Full Lifecycle Platforms — 从需求到交付的全链路，比如 Chorus 、GitHub Agentic Workflows </p>\n<p>Agent Orchestrators — 多 agent 并行执行，worktree 隔离，比如 Vibe Kanban 、Emdash 、Warp </p>\n<p>Task Runners — issue tracker 到 coding agent 的桥梁，比如 OpenAI Symphony 、Axon </p>\n<p>Agent Harness Frameworks — 造 harness 的框架，比如 Deep Agents 、Gambit</p>\n<p>Agent Runtimes — agent 的持久运行时，比如 OpenClaw 、Zylos</p>\n<p>Coding Agents — 底层 agent 本身，Claude Code 、Codex 、Gemini CLI 等</p>\n<p>Requirements &amp; Spec Tools — 需求/spec 工具，OpenSpec 、Spec Kit 等</p>\n<p>几个有意思的观察：现在做 orchestrator 的项目最多，基本都在解决同一个问题：怎么让多个 agent 不互相踩。git worktree 隔离已经成了标配。task runner 这个品类是 OpenAI 的 Symphony 带起来的，思路很简洁：轮询 Linear issue ，spawn agent ，产出 PR 。full lifecycle 这层做的人最少，因为要同时解决需求管理、任务编排、人类审批，复杂度高一个量级。如果你也在用 AI agent 做开发，欢迎 star + PR 补充项目。</p>\n\n\t",
       "author": "autojunjie",
@@ -487,16 +447,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "xhs-cli：把小红书常用操作搬进终端，支持无缝接入 OpenClaw | AI Agent",
-      "link": "https://www.v2ex.com/t/1196174#reply2",
-      "pubDate": "2026-03-05T15:56:06.000Z",
-      "content": "\n\t<p>最近把自己在用的小工具整理成了一个开源项目：<strong>xhs-cli</strong>。<br/>\n目标很直接：把小红书上的高频操作变成可脚本化的 CLI workflow ，减少重复点点点。</p>\n<ul>\n<li>GitHub: <a href=\"https://github.com/jackwener/xhs-cli\" rel=\"nofollow\">https://github.com/jackwener/xhs-cli</a></li>\n<li>PyPI: <a href=\"https://pypi.org/project/xhs-cli/\" rel=\"nofollow\">https://pypi.org/project/xhs-cli/</a></li>\n</ul>\n<hr/>\n<h2>这个工具能做什么</h2>\n<p><code>xhs-cli</code> 目前覆盖了这些核心能力：</p>\n<ul>\n<li>搜索笔记：<code>search</code></li>\n<li>读取笔记详情与评论：<code>read --comments</code></li>\n<li>查看用户资料与笔记：<code>user</code> / <code>user-posts</code></li>\n<li>粉丝与关注：<code>followers</code> / <code>following</code></li>\n<li>互动操作：<code>like</code> / <code>unlike</code> / <code>favorite</code> / <code>unfavorite</code> / <code>comment</code></li>\n<li>收藏列表：<code>favorites</code></li>\n<li>内容发布与回滚：<code>post</code> / <code>delete</code></li>\n<li>探索页与话题：<code>feed</code> / <code>topics</code></li>\n<li>登录态管理：<code>login</code> / <code>status</code> / <code>whoami</code> / <code>logout</code></li>\n</ul>\n<p>另外，数据类命令都支持 <code>--json</code>，方便直接接 <code>jq</code>、脚本或 CI 。</p>\n<hr/>\n<h2>为什么做它</h2>\n<p>我自己的痛点是：</p>\n<ol>\n<li>运营/数据验证时，很多动作都在重复手动操作；</li>\n<li>做自动化时，网页端流程很难稳定复用；</li>\n<li>回归测试成本高，尤其是发内容后的状态清理。</li>\n</ol>\n<p>所以做了 <code>post -&gt; delete</code> 的闭环能力，结合本地 smoke test ，尽量把“手动验证”变成“一条命令”。</p>\n<hr/>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">uv tool install xhs-cli\n# 或\npipx install xhs-cli</code></pre>\n\n\t",
-      "author": "jakevin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "勃朗特姐妹的兄弟 (评论: 勃朗特姐妹)",
       "link": "https://movie.douban.com/review/17490441/",
       "pubDate": "Thu, 05 Mar 2026 15:02:30 GMT",
@@ -505,16 +455,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "Clipal 无感常驻系统的 AI API 代理，终于更新了一个 webUI 界面",
-      "link": "https://www.v2ex.com/t/1196165#reply1",
-      "pubDate": "2026-03-05T14:46:42.000Z",
-      "content": "\n\t<p>之前开发了一个极简的 CLI 供应商的本地返代软件 Clipal ，现在稳定运行好几个月了，忽然心血来潮我更新了一个 webUI 用来管理 API providers ，所以来发个更新贴。</p>\n<p>非常有意思的是，我平时几乎忘记了还有 CLI 接入 API 这个事儿，因为好多客户端他自动检测本地 codex 和 Claude code 配置，比如 AionUi 这个软件，安装就能直接使用了，根本不用再去配置 API 。</p>\n<p>接入本地 AI 客户端也只需要直接 base_url: https://localhost:3333/codex ，key 随便写，切换 API 供应商这些客户端无感同步，简直太爽了。</p>\n<p><a href=\"https://www.v2ex.com/t/1181240\" rel=\"nofollow\">自由管理 codex cli 、Claude code 等 API 中转商的 CLI 返代软件 Clipal ，支持多供应商优先级、自动故障转移等</a></p>\n<p><a href=\"https://imgur.com/H7nleEn\" rel=\"nofollow\">https://imgur.com/H7nleEn</a></p>\n<p>当然，虽然加了一个 webUI ，他还是跟随系统无感启动服务，默默为你服务，平时不操心。webUI 这是提供一个管理接口，方便不想直接改配置文件的同学打开浏览器操作，更直观一些。配置好后随时关闭，没任何影响，就跟路由器设置类似。</p>\n<p>省心，无感，极小，这是 Clipal 的特色。</p>\n<p><a href=\"https://github.com/lansespirit/Clipal\" rel=\"nofollow\">https://github.com/lansespirit/Clipal</a></p>\n<p>欢迎来点个 Star ，喜欢极简的同学一定要尝试</p>\n\n\t",
-      "author": "apple",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "开源了 macOS 微信数据库解密",
@@ -557,26 +497,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "腊梅花开",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524487",
-      "pubDate": "2026-03-05 11:42:06",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "临界现象二百年：第一章 玻璃管里的幽灵：德拉图的声学实验",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524482",
-      "pubDate": "2026-03-05 11:13:30",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "《纯真年代的爱情》，不如改名《向下兼容的爱情》 (评论: 纯真年代的爱情)",
       "link": "https://movie.douban.com/review/17490052/",
       "pubDate": "Thu, 05 Mar 2026 10:27:08 GMT",
@@ -607,16 +527,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "沉痛哀悼中国科学院院士王崇愚先生",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1524566",
-      "pubDate": "2026-03-05 10:07:56",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "关于帕拉第奥的相关内容整理 (评论: 人文主义时代的建筑原理)",
       "link": "https://book.douban.com/review/17489981/",
       "pubDate": "Thu, 05 Mar 2026 09:34:55 GMT",
@@ -627,71 +537,11 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "2025年 全球 SCIE 刊 发文Top10 概况",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524451",
-      "pubDate": "2026-03-05 09:30:46",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "2026 年了，大家在 Windows 下有什么命令行环境？",
-      "link": "https://www.v2ex.com/t/1196109#reply16",
-      "pubDate": "2026-03-05T09:20:50.000Z",
-      "content": "\n\t<p>前面用过很长一段时间 msys2+zsh ，无奈太卡了，和 windows 相性不合。\n前段时间发现 msys2+fish 的速度比 zsh 快不少，但 msys2 环境下的路径问题总还是存在，另外经常碰到环境变量、Windows 和 msys2 命令冲突之类的奇奇怪怪的问题，尤其在 opencode 这类环境下。\n看到有推荐 nushell ，pwsh 之类的，试用了一下，总感觉很别扭，学习成本有点高。</p>\n\n\t",
-      "author": "cy18",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "顿然草木精神别，自是寒暄气候催",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524443",
-      "pubDate": "2026-03-05 09:15:27",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "为什么现在的英语课都不学国际音标了呢？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1184431&do=blog&id=1524440",
-      "pubDate": "2026-03-05 09:06:53",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "农田实验生态和作物光合生理生态研究忆述（3）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1524439",
-      "pubDate": "2026-03-05 09:05:13",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply59",
+      "link": "https://www.v2ex.com/t/1196104#reply60",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "很好奇现在 ai 发展到什么程度了？各行各业出现了哪些高效的 ai 使用方法和工具？有大佬能分享一下吗。",
-      "link": "https://www.v2ex.com/t/1196095#reply16",
-      "pubDate": "2026-03-05T08:40:37.000Z",
-      "content": "\n\t<p>我现在对 ai 的使用停留在编程，NotebookLM 做笔记这些方面，算不上重度用户，对使用 ai 的想象力不足，不知道还有哪些环节可以使用 ai 节省工作量</p>\n\n\t",
-      "author": "yangob233",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -707,66 +557,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "“数苍蝇的”——李汝祺院士的发生遗传学贡献",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524432",
-      "pubDate": "2026-03-05 08:17:08",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "缪其浩老师情报著作自选集的“代前言”",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524431",
-      "pubDate": "2026-03-05 08:14:39",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "如何用 YouMind 绘制出你家乡地标景观微缩地图？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=377709&do=blog&id=1524553",
-      "pubDate": "2026-03-05 08:00:00",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "西安年夜",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524552",
-      "pubDate": "2026-03-05 07:56:39",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "吹沫有江豚（古今诗词咏江豚续七百五十六）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524427",
-      "pubDate": "2026-03-05 07:50:37",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "计划性发现和偶然性发现都有可能获得诺奖",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524426",
-      "pubDate": "2026-03-05 07:44:24",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "一些散乱的记忆以及由此引出的想法 (评论: 近代中国史学述论)",
       "link": "https://book.douban.com/review/17489704/",
       "pubDate": "Thu, 05 Mar 2026 06:13:47 GMT",
@@ -775,16 +565,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "甲骨文的日和月(夕)",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524497",
-      "pubDate": "2026-03-05 05:07:12",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "她如何写作“学界小说”？｜专访苏枕书 (评论: 玲珑塔)",
@@ -856,16 +636,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "基因抽中废彩票，自学逆袭成圣贤",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524495",
-      "pubDate": "2026-03-05 01:45:05",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "借了《后我》的壳，注了《爱乐》之魂 (评论: 后来的我们)",
       "link": "https://movie.douban.com/review/17489347/",
       "pubDate": "Thu, 05 Mar 2026 01:32:31 GMT",
@@ -906,30 +676,10 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "黑色幽默 (评论: 黑道家族 第一季)",
-      "link": "https://movie.douban.com/review/17488991/",
-      "pubDate": "Wed, 04 Mar 2026 14:34:26 GMT",
-      "content": "\n我不是小姐姐评论: 黑道家族 第一季 (https://movie.douban.com/subject/1760516/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u7535\\u5f71\\u8272\\u5f69\\u57fa\\u8...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "万字长文解析《镖人》：风暴里的木偶戏，有人喝彩，有人叹息。 (评论: 镖人：风起大漠)",
       "link": "https://movie.douban.com/review/17488918/",
       "pubDate": "Wed, 04 Mar 2026 13:50:52 GMT",
       "content": "\n离原评论: 镖人：风起大漠 (https://movie.douban.com/subject/36474027/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fc90i&#34;,&#34;text&#34;:&#34; 作为春节档口碑最出圈的电影，《镖人：风起大漠》票房一路逆跌攀升， 目前猫眼数据显示总票房已超11.8亿， 反超《惊蛰无声》，成为2026春节档...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "我在博物馆看海鸥 (评论: 翠湖)",
-      "link": "https://movie.douban.com/review/17488828/",
-      "pubDate": "Wed, 04 Mar 2026 12:47:21 GMT",
-      "content": "\nHellenes评论: 翠湖 (https://movie.douban.com/subject/36909312/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u535a\\u7269\\u9986\\u7684\\u5168\\u5...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -990,16 +740,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "在写代码，做项目上，站里支持 AI 的，和反对 AI 的，都有对齐 AI 在代码领域的正确使用方法吗？",
-      "link": "https://www.v2ex.com/t/1195690#reply40",
-      "pubDate": "2026-03-04T03:38:47.000Z",
-      "content": "\n\t<p>首先定义一下支持 AI coding 和 反对 AI coding 的：</p>\n<ul>\n<li>支持者：绝大部分工作使用 AI 工具完成（百分之 90 以上），自己只是驾驶员。</li>\n<li>反对者：完全拒绝 AI ，或者 AI 只是作为辅助开发；</li>\n</ul>\n<p>有这个疑问是我最近在面试，我的岗位是 agent 开发，在其他<a href=\"https://v2ex.com/t/1182394\" rel=\"nofollow\">帖子</a>里有介绍，面试的结果，还算不错，年前虽然一直没结果，但是年后成功获得了两个我都比较满意的 offer ，目前已经在考虑入职的问题。</p>\n<p>可能和我的工作内容天然以大模型为基础有关系，在面试的过程中，我遇到的公司，都会要求 vibe coding 的能力，这没有任何问题，可是我在和面试官讨论的时候，我发现好几个公司，模型用了国内的 glm 、minimax 、kimi ，IDE 用字节的 trea 啊或者其他不知名的，并且公司也没有明确的标准，就是把 AI coding 工具用起来了，他们就觉得自己 vibe 了。</p>\n<p>但是据我高强度，使用 AI 来看，真正能合理在真实工作场景中使用 AI coding ，至少得是以下工具的组合：\nIDE：cursor 、caulde code 、codex （这个我自己没体验过，但是听使用的人说很好用）；<br/>\nmodel：claude opus4.5+、GPT5.0+、gemini 系列我自己觉得差点意思，但是可以作为候补，前两个模型弄不好，问一下会有奇效；</p>\n<p>在使用上，有注意使用细节吗？</p>\n<ul>\n<li>先 plan 模式生成计划，通过多轮沟通将计划变成合理是最基础的</li>\n<li>还需要增加 <a href=\"http://claude.md\" rel=\"nofollow\">claude.md</a> 或者 <a href=\"http://product.md\" rel=\"nofollow\">product.md</a> 之类的 AI 沟通文件，记录每次更新的变化， 以及 AI coding 的注意事项等等细节问题。</li>\n<li>在 Prompt 上姿势正确吗？模糊的需求，自己也说不清楚，是否与 AI 多次沟通；清楚的需求，是否交代清楚了细节；</li>\n<li>在 debug 上有正确发挥工具的 debug 能力吗？主流工具都是支持，输入多个问题原因，工具会自动打 log 找原因，解决后会自动取消 log 。</li>\n<li>一个模型解决不了的细节问题，有更换模型吗？实际使用中 claude 、gpt 、gemini 混合用 是很有必要的，它们可以互相互补，一个解决不了的问题，可能另一个就解决了。</li>\n</ul>\n<p>还需要叠个甲的是，本帖没有贬低国内外其他模型工具的意思。实际上，从我的使用来看，其他模型工具与我上面列的几个差距并不大。</p>\n<p>但是，如果你想在实际工作中使用，微小的差距，可能就是能用与不能用的区别，函数写错一个字母都运行不了，一个函数报错，整个功能就运行不了，一个功能运行不了，可能整个项目就崩溃。</p>\n<p>也许其他工具，能做对百分之 90 的场景，但是剩下百分之 10 可能要消耗掉百分之 90 的工作时间，甚至更多，而恰恰这无法解决的百分之 10 ，让很多反对者觉得“你们怎么敢说 AI 能做百分之 80 的工作的？”</p>\n<p>除此之外，X 刷到某个言论，我也比较认同，比较强硬的反对者（完全拒绝 AI ）可能是经验非常丰富的老开发，已经工作 20 年 30 年这种，他们不是因为顽固、固执，而是对于开发 对于写代码，基于多年的经验，有自己的理解，而 AI 是没有他们这种理解力的。</p>\n<p>本帖不引战奥，支持者和反对者 都聊聊你们是怎么用 AI coding 的，工作都是什么应用场景</p>\n\n\t",
-      "author": "WithoutSugarMiao",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "10 款最新发现的小工具[260304]",
       "link": "https://www.appinn.com/10-faxian-list-260304/",
       "pubDate": "Wed, 04 Mar 2026 03:05:00 +0000",
@@ -1010,26 +750,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "求推荐 windows 上好用的抓包软件",
-      "link": "https://www.v2ex.com/t/1195647#reply73",
-      "pubDate": "2026-03-04T02:23:48.000Z",
-      "content": "\n\t<p>开源的最好，如果能免费就更好了</p>\n\n\t",
-      "author": "404www",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "国产 AI Coding Plan 现在选哪家比较好？",
-      "link": "https://www.v2ex.com/t/1195635#reply60",
-      "pubDate": "2026-03-04T02:02:43.000Z",
-      "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
-      "author": "WangLiCha",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "简评｜丧尸片还能怎么玩出新花样？ (评论: 惊变28年2：白骨圣殿)",
@@ -1220,16 +940,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "作为控制欲强的开发，我是不接受 vibe coding 的",
-      "link": "https://www.v2ex.com/t/1194561#reply123",
-      "pubDate": "2026-02-27T07:35:10.000Z",
-      "content": "\n\t<p>我希望传入参数什么的都得细化，按我的来。一把 show hand ，拉老虎机，这种就是糊弄鬼的吧，我还不如用 lovable 交付呢，用啥 ai coding</p>\n\n\t",
-      "author": "hrzlvn",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
@@ -1460,16 +1170,6 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "基于 casdoor 的 ELK 开源登录认证解决方案: elk-auth-casdoor",
-      "link": "https://www.v2ex.com/t/1021725#reply20",
-      "pubDate": "2024-03-08T02:33:46.000Z",
-      "content": "\n\t<div><div><h2>前言</h2>\n<p>ELK 的一大缺点就是这东西最初是没有登录机制的，只要拿到了 url 地址，kibana 看板谁都可以访问一下。后来 ELK 自带了一套 xpack 进行登录认证，可是除了账户名密码登录这种最原始的方法，剩下的高级功能，比如 oauth, oidc, ldap ，统统都是收费的.....总不能给每个人都专门搞一个 kibana 账户名密码吧......</p>\n<p>所以呢，这里有一个基于 casdoor 的 elk 鉴权解决方案，<strong>不要钱，开源的，还有人维护呢~<strong>。Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，而 casdoor/elk-auth-casdoor 这套解决方案，则是一个</strong>反向代理</strong>，他可以拦截所有未经登录的前往 elk 的 http 访问流量，并且引导未登录用户进行登录，而且这个反向代理对已登录用户是<strong>完全透明</strong>的。</p>\n<p>仓库地址\n<a href=\"https://github.com/casdoor/elk-auth-casdoor\" rel=\"nofollow\">https://github.com/casdoor/elk-auth-casdoor</a></p>\n<p>QQ 群：645200447</p>\n<p>如果您有更多相关的特殊需求可以加群，我们会有专人对接~ （可以联系 ComradeProgrammer ）</p>\n<h2>casdoor 是什么</h2>\n<p>Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，简单点说，就是 Casdoor 可以帮你解决 用户管理 的难题，你无需开发用户登录注册等与用户鉴权相关的一系列功能，只需几个步骤，简单配置，与你的主应用配合，便可完全托管你的用户模块，简单省心，功能强大。</p>\n<p>仓库地址： <a href=\"https://github.com/casbin/casdoor\" rel=\"nofollow\">https://github.com/casbin/casdoor</a></p>\n<p>演示地址： <a href=\"https://door.casbin.com/\" rel=\"nofollow\">https://door.casbin.com/</a></p>\n<p>官网文档： <a href=\"https://casdoor.org/\" rel=\"nofollow\">https://casdoor.org/</a></p>\n<p>QQ 群：645200447</p>\n<p>Casdoor 还支持 ldap ，saml 等诸多功能.....</p>\n<p>Casdoor 目前作为 Casbin 社区项目统一使用的鉴权平台，项目已开源，希望得到大家的一些建议和 Star~，我们会及时跟进反馈并改正问题哒</p>\n<h2>Casdoor 又有哪些特性？</h2>\n<ul>\n<li>支持普通的账户密码注册登录，也支持各种常见的第三方认证，例如 GitHub 、Facebook 、Google 、Wechat 、QQ 、LinkedIn 等等，截止目前共 9 个平台，并在不断听取用户建议对更多的平台提供支持。</li>\n<li>管理方便。Casdoor 内部将模块分为了 5 大类，Organization 、User 、Application 、Token 和 Provider 。可以同时接入多个组织，组织下有不同应用，用户可以通过应用或组织分类，单独管理任何组织、应用或用户的 Token 令牌，轻松管理复杂系统，目前已部署在 Casbin 社区各种系统当作鉴权平台。</li>\n<li>自定义程度高。Casdoor 可以随意修改登录方式，例如是否允许密码或第三方登录，自定义应用的注册项数量，是否启用两步验证，以及是否允许各个 Provider 登录、注册等等，高度可插拔。</li>\n<li>具备 Swagger API 文档。清晰的 API 介绍，无需阅读源代码即可直接方便调用各个 API 接口，提供定制化功能。</li>\n<li>前后端分离架构，部署简单。作为统一认证平台，除了性能，稳定性，新特性之外，易用性也是考量的重要标准，Casdoor 后端使用 Golang 语言开发，前端使用 React.js 框架，使用者只需启动后端服务，并将前端工程文件打包，即可直接使用，操作简单，上手难度低。\n...</li>\n</ul>\n</div></div>\n\t",
-      "author": "Casbin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     }
   ]
 }
