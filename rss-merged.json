@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-06T16:30:01.417Z",
-  "totalItems": 142,
+  "lastUpdated": "2026-03-06T17:28:14.555Z",
+  "totalItems": 132,
   "items": [
     {
       "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
@@ -96,16 +96,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "中转站都是去哪里拿便宜货源的",
-      "link": "https://www.v2ex.com/t/1196383#reply1",
-      "pubDate": "2026-03-06T09:40:01.000Z",
-      "content": "\n\t<p>话说如果想做中转站生意，去哪里可以搞到好的货源啊</p>\n\n\t",
-      "author": "bozhouAI",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "转发给 OpenClaw，我就去睡觉了",
       "link": "https://www.v2ex.com/t/1196381#reply7",
       "pubDate": "2026-03-06T09:35:25.000Z",
@@ -191,7 +181,7 @@
     },
     {
       "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
-      "link": "https://www.v2ex.com/t/1196364#reply4",
+      "link": "https://www.v2ex.com/t/1196364#reply5",
       "pubDate": "2026-03-06T08:30:06.000Z",
       "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
       "author": "SSang",
@@ -421,7 +411,7 @@
     },
     {
       "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-      "link": "https://www.v2ex.com/t/1196279#reply58",
+      "link": "https://www.v2ex.com/t/1196279#reply60",
       "pubDate": "2026-03-06T03:58:17.000Z",
       "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
       "author": "vfs",
@@ -511,7 +501,7 @@
     },
     {
       "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-      "link": "https://www.v2ex.com/t/1196216#reply36",
+      "link": "https://www.v2ex.com/t/1196216#reply37",
       "pubDate": "2026-03-06T01:49:26.000Z",
       "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
       "author": "Tyaqing",
@@ -620,26 +610,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "xhs-cli：把小红书常用操作搬进终端，支持无缝接入 OpenClaw | AI Agent",
-      "link": "https://www.v2ex.com/t/1196174#reply2",
-      "pubDate": "2026-03-05T15:56:06.000Z",
-      "content": "\n\t<p>最近把自己在用的小工具整理成了一个开源项目：<strong>xhs-cli</strong>。<br/>\n目标很直接：把小红书上的高频操作变成可脚本化的 CLI workflow ，减少重复点点点。</p>\n<ul>\n<li>GitHub: <a href=\"https://github.com/jackwener/xhs-cli\" rel=\"nofollow\">https://github.com/jackwener/xhs-cli</a></li>\n<li>PyPI: <a href=\"https://pypi.org/project/xhs-cli/\" rel=\"nofollow\">https://pypi.org/project/xhs-cli/</a></li>\n</ul>\n<hr/>\n<h2>这个工具能做什么</h2>\n<p><code>xhs-cli</code> 目前覆盖了这些核心能力：</p>\n<ul>\n<li>搜索笔记：<code>search</code></li>\n<li>读取笔记详情与评论：<code>read --comments</code></li>\n<li>查看用户资料与笔记：<code>user</code> / <code>user-posts</code></li>\n<li>粉丝与关注：<code>followers</code> / <code>following</code></li>\n<li>互动操作：<code>like</code> / <code>unlike</code> / <code>favorite</code> / <code>unfavorite</code> / <code>comment</code></li>\n<li>收藏列表：<code>favorites</code></li>\n<li>内容发布与回滚：<code>post</code> / <code>delete</code></li>\n<li>探索页与话题：<code>feed</code> / <code>topics</code></li>\n<li>登录态管理：<code>login</code> / <code>status</code> / <code>whoami</code> / <code>logout</code></li>\n</ul>\n<p>另外，数据类命令都支持 <code>--json</code>，方便直接接 <code>jq</code>、脚本或 CI 。</p>\n<hr/>\n<h2>为什么做它</h2>\n<p>我自己的痛点是：</p>\n<ol>\n<li>运营/数据验证时，很多动作都在重复手动操作；</li>\n<li>做自动化时，网页端流程很难稳定复用；</li>\n<li>回归测试成本高，尤其是发内容后的状态清理。</li>\n</ol>\n<p>所以做了 <code>post -&gt; delete</code> 的闭环能力，结合本地 smoke test ，尽量把“手动验证”变成“一条命令”。</p>\n<hr/>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">uv tool install xhs-cli\n# 或\npipx install xhs-cli</code></pre>\n\n\t",
-      "author": "jakevin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Clipal 无感常驻系统的 AI API 代理，终于更新了一个 webUI 界面",
-      "link": "https://www.v2ex.com/t/1196165#reply1",
-      "pubDate": "2026-03-05T14:46:42.000Z",
-      "content": "\n\t<p>之前开发了一个极简的 CLI 供应商的本地返代软件 Clipal ，现在稳定运行好几个月了，忽然心血来潮我更新了一个 webUI 用来管理 API providers ，所以来发个更新贴。</p>\n<p>非常有意思的是，我平时几乎忘记了还有 CLI 接入 API 这个事儿，因为好多客户端他自动检测本地 codex 和 Claude code 配置，比如 AionUi 这个软件，安装就能直接使用了，根本不用再去配置 API 。</p>\n<p>接入本地 AI 客户端也只需要直接 base_url: https://localhost:3333/codex ，key 随便写，切换 API 供应商这些客户端无感同步，简直太爽了。</p>\n<p><a href=\"https://www.v2ex.com/t/1181240\" rel=\"nofollow\">自由管理 codex cli 、Claude code 等 API 中转商的 CLI 返代软件 Clipal ，支持多供应商优先级、自动故障转移等</a></p>\n<p><a href=\"https://imgur.com/H7nleEn\" rel=\"nofollow\">https://imgur.com/H7nleEn</a></p>\n<p>当然，虽然加了一个 webUI ，他还是跟随系统无感启动服务，默默为你服务，平时不操心。webUI 这是提供一个管理接口，方便不想直接改配置文件的同学打开浏览器操作，更直观一些。配置好后随时关闭，没任何影响，就跟路由器设置类似。</p>\n<p>省心，无感，极小，这是 Clipal 的特色。</p>\n<p><a href=\"https://github.com/lansespirit/Clipal\" rel=\"nofollow\">https://github.com/lansespirit/Clipal</a></p>\n<p>欢迎来点个 Star ，喜欢极简的同学一定要尝试</p>\n\n\t",
-      "author": "apple",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "开源了 macOS 微信数据库解密",
       "link": "https://www.v2ex.com/t/1196159#reply39",
       "pubDate": "2026-03-05T13:48:20.000Z",
@@ -690,16 +660,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "使用 antigravity manager 小心封号",
-      "link": "https://www.v2ex.com/t/1196123#reply14",
-      "pubDate": "2026-03-05T10:12:59.000Z",
-      "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
-      "author": "jayeli",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
       "link": "https://www.v2ex.com/t/1196121#reply37",
       "pubDate": "2026-03-05T10:08:30.000Z",
@@ -738,16 +698,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "2026 年了，大家在 Windows 下有什么命令行环境？",
-      "link": "https://www.v2ex.com/t/1196109#reply17",
-      "pubDate": "2026-03-05T09:20:50.000Z",
-      "content": "\n\t<p>前面用过很长一段时间 msys2+zsh ，无奈太卡了，和 windows 相性不合。\n前段时间发现 msys2+fish 的速度比 zsh 快不少，但 msys2 环境下的路径问题总还是存在，另外经常碰到环境变量、Windows 和 msys2 命令冲突之类的奇奇怪怪的问题，尤其在 opencode 这类环境下。\n看到有推荐 nushell ，pwsh 之类的，试用了一下，总感觉很别扭，学习成本有点高。</p>\n\n\t",
-      "author": "cy18",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
@@ -909,16 +859,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "Token 从哪里买或者获取",
-      "link": "https://www.v2ex.com/t/1195904#reply61",
-      "pubDate": "2026-03-05T00:39:37.000Z",
-      "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
-      "author": "anlitechnet",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "重建作为意识形态机器的“家庭” (评论: 纯真年代的爱情)",
       "link": "https://movie.douban.com/review/17489269/",
       "pubDate": "Wed, 04 Mar 2026 22:10:33 GMT",
@@ -1003,16 +943,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "在写代码，做项目上，站里支持 AI 的，和反对 AI 的，都有对齐 AI 在代码领域的正确使用方法吗？",
-      "link": "https://www.v2ex.com/t/1195690#reply40",
-      "pubDate": "2026-03-04T03:38:47.000Z",
-      "content": "\n\t<p>首先定义一下支持 AI coding 和 反对 AI coding 的：</p>\n<ul>\n<li>支持者：绝大部分工作使用 AI 工具完成（百分之 90 以上），自己只是驾驶员。</li>\n<li>反对者：完全拒绝 AI ，或者 AI 只是作为辅助开发；</li>\n</ul>\n<p>有这个疑问是我最近在面试，我的岗位是 agent 开发，在其他<a href=\"https://v2ex.com/t/1182394\" rel=\"nofollow\">帖子</a>里有介绍，面试的结果，还算不错，年前虽然一直没结果，但是年后成功获得了两个我都比较满意的 offer ，目前已经在考虑入职的问题。</p>\n<p>可能和我的工作内容天然以大模型为基础有关系，在面试的过程中，我遇到的公司，都会要求 vibe coding 的能力，这没有任何问题，可是我在和面试官讨论的时候，我发现好几个公司，模型用了国内的 glm 、minimax 、kimi ，IDE 用字节的 trea 啊或者其他不知名的，并且公司也没有明确的标准，就是把 AI coding 工具用起来了，他们就觉得自己 vibe 了。</p>\n<p>但是据我高强度，使用 AI 来看，真正能合理在真实工作场景中使用 AI coding ，至少得是以下工具的组合：\nIDE：cursor 、caulde code 、codex （这个我自己没体验过，但是听使用的人说很好用）；<br/>\nmodel：claude opus4.5+、GPT5.0+、gemini 系列我自己觉得差点意思，但是可以作为候补，前两个模型弄不好，问一下会有奇效；</p>\n<p>在使用上，有注意使用细节吗？</p>\n<ul>\n<li>先 plan 模式生成计划，通过多轮沟通将计划变成合理是最基础的</li>\n<li>还需要增加 <a href=\"http://claude.md\" rel=\"nofollow\">claude.md</a> 或者 <a href=\"http://product.md\" rel=\"nofollow\">product.md</a> 之类的 AI 沟通文件，记录每次更新的变化， 以及 AI coding 的注意事项等等细节问题。</li>\n<li>在 Prompt 上姿势正确吗？模糊的需求，自己也说不清楚，是否与 AI 多次沟通；清楚的需求，是否交代清楚了细节；</li>\n<li>在 debug 上有正确发挥工具的 debug 能力吗？主流工具都是支持，输入多个问题原因，工具会自动打 log 找原因，解决后会自动取消 log 。</li>\n<li>一个模型解决不了的细节问题，有更换模型吗？实际使用中 claude 、gpt 、gemini 混合用 是很有必要的，它们可以互相互补，一个解决不了的问题，可能另一个就解决了。</li>\n</ul>\n<p>还需要叠个甲的是，本帖没有贬低国内外其他模型工具的意思。实际上，从我的使用来看，其他模型工具与我上面列的几个差距并不大。</p>\n<p>但是，如果你想在实际工作中使用，微小的差距，可能就是能用与不能用的区别，函数写错一个字母都运行不了，一个函数报错，整个功能就运行不了，一个功能运行不了，可能整个项目就崩溃。</p>\n<p>也许其他工具，能做对百分之 90 的场景，但是剩下百分之 10 可能要消耗掉百分之 90 的工作时间，甚至更多，而恰恰这无法解决的百分之 10 ，让很多反对者觉得“你们怎么敢说 AI 能做百分之 80 的工作的？”</p>\n<p>除此之外，X 刷到某个言论，我也比较认同，比较强硬的反对者（完全拒绝 AI ）可能是经验非常丰富的老开发，已经工作 20 年 30 年这种，他们不是因为顽固、固执，而是对于开发 对于写代码，基于多年的经验，有自己的理解，而 AI 是没有他们这种理解力的。</p>\n<p>本帖不引战奥，支持者和反对者 都聊聊你们是怎么用 AI coding 的，工作都是什么应用场景</p>\n\n\t",
-      "author": "WithoutSugarMiao",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "10 款最新发现的小工具[260304]",
       "link": "https://www.appinn.com/10-faxian-list-260304/",
       "pubDate": "Wed, 04 Mar 2026 03:05:00 +0000",
@@ -1023,16 +953,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "国产 AI Coding Plan 现在选哪家比较好？",
-      "link": "https://www.v2ex.com/t/1195635#reply61",
-      "pubDate": "2026-03-04T02:02:43.000Z",
-      "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
-      "author": "WangLiCha",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "简评｜丧尸片还能怎么玩出新花样？ (评论: 惊变28年2：白骨圣殿)",
@@ -1209,16 +1129,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "作为控制欲强的开发，我是不接受 vibe coding 的",
-      "link": "https://www.v2ex.com/t/1194561#reply123",
-      "pubDate": "2026-02-27T07:35:10.000Z",
-      "content": "\n\t<p>我希望传入参数什么的都得细化，按我的来。一把 show hand ，拉老虎机，这种就是糊弄鬼的吧，我还不如用 lovable 交付呢，用啥 ai coding</p>\n\n\t",
-      "author": "hrzlvn",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
@@ -1449,16 +1359,6 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "基于 casdoor 的 ELK 开源登录认证解决方案: elk-auth-casdoor",
-      "link": "https://www.v2ex.com/t/1021725#reply20",
-      "pubDate": "2024-03-08T02:33:46.000Z",
-      "content": "\n\t<div><div><h2>前言</h2>\n<p>ELK 的一大缺点就是这东西最初是没有登录机制的，只要拿到了 url 地址，kibana 看板谁都可以访问一下。后来 ELK 自带了一套 xpack 进行登录认证，可是除了账户名密码登录这种最原始的方法，剩下的高级功能，比如 oauth, oidc, ldap ，统统都是收费的.....总不能给每个人都专门搞一个 kibana 账户名密码吧......</p>\n<p>所以呢，这里有一个基于 casdoor 的 elk 鉴权解决方案，<strong>不要钱，开源的，还有人维护呢~<strong>。Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，而 casdoor/elk-auth-casdoor 这套解决方案，则是一个</strong>反向代理</strong>，他可以拦截所有未经登录的前往 elk 的 http 访问流量，并且引导未登录用户进行登录，而且这个反向代理对已登录用户是<strong>完全透明</strong>的。</p>\n<p>仓库地址\n<a href=\"https://github.com/casdoor/elk-auth-casdoor\" rel=\"nofollow\">https://github.com/casdoor/elk-auth-casdoor</a></p>\n<p>QQ 群：645200447</p>\n<p>如果您有更多相关的特殊需求可以加群，我们会有专人对接~ （可以联系 ComradeProgrammer ）</p>\n<h2>casdoor 是什么</h2>\n<p>Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，简单点说，就是 Casdoor 可以帮你解决 用户管理 的难题，你无需开发用户登录注册等与用户鉴权相关的一系列功能，只需几个步骤，简单配置，与你的主应用配合，便可完全托管你的用户模块，简单省心，功能强大。</p>\n<p>仓库地址： <a href=\"https://github.com/casbin/casdoor\" rel=\"nofollow\">https://github.com/casbin/casdoor</a></p>\n<p>演示地址： <a href=\"https://door.casbin.com/\" rel=\"nofollow\">https://door.casbin.com/</a></p>\n<p>官网文档： <a href=\"https://casdoor.org/\" rel=\"nofollow\">https://casdoor.org/</a></p>\n<p>QQ 群：645200447</p>\n<p>Casdoor 还支持 ldap ，saml 等诸多功能.....</p>\n<p>Casdoor 目前作为 Casbin 社区项目统一使用的鉴权平台，项目已开源，希望得到大家的一些建议和 Star~，我们会及时跟进反馈并改正问题哒</p>\n<h2>Casdoor 又有哪些特性？</h2>\n<ul>\n<li>支持普通的账户密码注册登录，也支持各种常见的第三方认证，例如 GitHub 、Facebook 、Google 、Wechat 、QQ 、LinkedIn 等等，截止目前共 9 个平台，并在不断听取用户建议对更多的平台提供支持。</li>\n<li>管理方便。Casdoor 内部将模块分为了 5 大类，Organization 、User 、Application 、Token 和 Provider 。可以同时接入多个组织，组织下有不同应用，用户可以通过应用或组织分类，单独管理任何组织、应用或用户的 Token 令牌，轻松管理复杂系统，目前已部署在 Casbin 社区各种系统当作鉴权平台。</li>\n<li>自定义程度高。Casdoor 可以随意修改登录方式，例如是否允许密码或第三方登录，自定义应用的注册项数量，是否启用两步验证，以及是否允许各个 Provider 登录、注册等等，高度可插拔。</li>\n<li>具备 Swagger API 文档。清晰的 API 介绍，无需阅读源代码即可直接方便调用各个 API 接口，提供定制化功能。</li>\n<li>前后端分离架构，部署简单。作为统一认证平台，除了性能，稳定性，新特性之外，易用性也是考量的重要标准，Casdoor 后端使用 Golang 语言开发，前端使用 React.js 框架，使用者只需启动后端服务，并将前端工程文件打包，即可直接使用，操作简单，上手难度低。\n...</li>\n</ul>\n</div></div>\n\t",
-      "author": "Casbin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     }
   ]
 }
