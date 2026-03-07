@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-07T09:20:59.238Z",
+  "lastUpdated": "2026-03-07T10:15:18.799Z",
   "totalItems": 143,
   "items": [
     {
+      "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
+      "link": "https://www.v2ex.com/t/1196527#reply0",
+      "pubDate": "2026-03-07T09:46:51.000Z",
+      "content": "\n\t主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等\n\t",
+      "author": "rowling",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "有没有可以解决微信内链接屏蔽问题的高手，高额悬赏",
-      "link": "https://www.v2ex.com/t/1196520#reply0",
+      "link": "https://www.v2ex.com/t/1196520#reply1",
       "pubDate": "2026-03-07T09:09:31.000Z",
       "content": "\n\t<p>最近可能是直播外链受到打击，导致微信内部正常链接也提示：“如需浏览，请长按复制后使用浏览器访问”\n我们业务合规，不会出现报红的情况。但是微信最近老是容易提示，无法打开。</p>\n<p>有没有大神会的。\n网上有防红域名，买过几家不起作用。\n也做过 js 跳转、落地页等等，还是效果不大。</p>\n<p>也没有大神可以解决的。可长期合作。</p>\n\n\t",
       "author": "baoshu",
@@ -27,16 +37,6 @@
       "link": "https://movie.douban.com/review/17492759/",
       "pubDate": "Sat, 07 Mar 2026 07:50:35 GMT",
       "content": "\n柯南牌抱枕评论: 寻秦记 (https://movie.douban.com/subject/2983389/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "《洛杉矶劫案》影评 (评论: 洛杉矶劫案)",
-      "link": "https://movie.douban.com/review/17492741/",
-      "pubDate": "Sat, 07 Mar 2026 07:40:47 GMT",
-      "content": "\n韩祎评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u81ea\\u4ece\\u5728\\u732b\\u773cAPP...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -80,7 +80,7 @@
     },
     {
       "title": "请教自建 DNS 的协议选择 DoH vs DoT vs DoQ vs Raw UDP/TCP",
-      "link": "https://www.v2ex.com/t/1196484#reply5",
+      "link": "https://www.v2ex.com/t/1196484#reply6",
       "pubDate": "2026-03-07T04:20:00.000Z",
       "content": "\n\t走 Real-IP 后被 DNS 搞魔怔了。<br /><br />目前自建了远端 DNS server ，所有的 DNS 请求都会走代理协议。主要走 UDP 代理协议，不稳的时候考虑切 TCP 。<br /><br />最开始为了最低延迟，选择了用原生 UDP 的 DNS ，也就是 UDP over UDP 的 dns 请求。但是 AI 说如果我哪天切 tcp 的代理协议代理走 udp dns 会存在拥堵算法的问题。Surge 官网也说默认屏蔽 UDP 可以省去很多问题。<br /><br />后来考虑走 Raw TCP 的 DNS ，也就是 raw TCP over UDP 。但是 AI 又说普通 Infra 对纯 TCP 的 DNS 支持不是那么全面。<br /><br />现在考虑 DoT 或者 DoH ，但是这两个都走 TLS ，相当于多了一次加密。而且都是走 TCP ，也就是走 quic 的代理要 TLS + TCP over UDP 。不知道这样如何。<br /><br />还有个新的 DoQ ，可以 QUIC over QUIC 。<br /><br />UDP vs TCP vs DoT vs DoH vs DoQ 大家都是怎么选择的？\n\t",
       "author": "cj323",
@@ -110,7 +110,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply15",
+      "link": "https://www.v2ex.com/t/1196478#reply19",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -159,6 +159,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "感谢郑业成，让我再次心动 (评论: 在你眉梢种红豆)",
+      "link": "https://movie.douban.com/review/17492363/",
+      "pubDate": "Sat, 07 Mar 2026 02:42:08 GMT",
+      "content": "\n薯宝评论: 在你眉梢种红豆 (https://movie.douban.com/subject/37434368/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "平台强按头的爆剧，真的能爆吗 (评论: 逐玉)",
       "link": "https://movie.douban.com/review/17492278/",
       "pubDate": "Sat, 07 Mar 2026 00:50:57 GMT",
@@ -190,7 +200,7 @@
     },
     {
       "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
-      "link": "https://www.v2ex.com/t/1196435#reply2",
+      "link": "https://www.v2ex.com/t/1196435#reply3",
       "pubDate": "2026-03-06T15:47:54.000Z",
       "content": "\n\t<p>本地有 claudecode/gemini/codex/cursor 。用 cc-connect 花个 10 分钟就可以把他们拉个飞书群，让他们互相聊天，太酷了。不同的 agent ，不同的能力模型，不同的人设上下文，明天试试搭建一个的“三省六部”哈哈。</p>\n<p>项目地址： <a href=\"https://github.com/chenhg5/cc-connect\" rel=\"nofollow\">https://github.com/chenhg5/cc-connect</a></p>\n<p>一些截图：</p>\n<p><img alt=\"1ab013a95014ce1d5a797b468bb86d3d.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee24e9c.webp\"/>\n<img alt=\"5ce0b4f1b763b94623ea2d18cc79c0df.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee06d8f.webp\"/>\n<img alt=\"77487389f0d62407e984b5940cd898f5.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee397e1.webp\"/>\n<img alt=\"8fcecaac33734c491eda7d06e4b8ee88.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee6af7e.webp\"/></p>\n<p>项目的一些交流群：</p>\n<p>discord: <a href=\"https://discord.gg/kHpwgaM4kq\" rel=\"nofollow\">https://discord.gg/kHpwgaM4kq</a></p>\n<p>telegram: <a href=\"https://t.me/+odGNDhCjbjdmMmZl\" rel=\"nofollow\">https://t.me/+odGNDhCjbjdmMmZl</a></p>\n<p>wechat: </p>\n<p><img alt=\"wechat_group\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://quick.go-admin.cn/ai/article/cc-connect_wechat_group_2.jpeg\"/></p>\n\n\t",
       "author": "plane",
@@ -323,7 +333,7 @@
     },
     {
       "title": "简单体验了一下 openClaw，说说自己的看法",
-      "link": "https://www.v2ex.com/t/1196394#reply18",
+      "link": "https://www.v2ex.com/t/1196394#reply19",
       "pubDate": "2026-03-06T10:37:20.000Z",
       "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
       "author": "doctorzry",
@@ -447,7 +457,7 @@
     },
     {
       "title": "claude code team 可以换成其他的模型嘛",
-      "link": "https://www.v2ex.com/t/1196351#reply9",
+      "link": "https://www.v2ex.com/t/1196351#reply10",
       "pubDate": "2026-03-06T07:58:56.000Z",
       "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
       "author": "jyq711",
@@ -527,7 +537,7 @@
     },
     {
       "title": "2026 年 PHP 路在何方",
-      "link": "https://www.v2ex.com/t/1196334#reply40",
+      "link": "https://www.v2ex.com/t/1196334#reply41",
       "pubDate": "2026-03-06T07:07:55.000Z",
       "content": "\n\t\n\t",
       "author": "lanhiy",
@@ -657,7 +667,7 @@
     },
     {
       "title": "海外服务器购买，有哪些推荐，以及哪些坑需要注意？",
-      "link": "https://www.v2ex.com/t/1196279#reply67",
+      "link": "https://www.v2ex.com/t/1196279#reply68",
       "pubDate": "2026-03-06T03:58:17.000Z",
       "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
       "author": "vfs",
@@ -876,18 +886,8 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "使用 antigravity manager 小心封号",
-      "link": "https://www.v2ex.com/t/1196123#reply14",
-      "pubDate": "2026-03-05T10:12:59.000Z",
-      "content": "\n\t<p>如题，买了 google ai pro ，昨天下载使用 antigravity manager ，今天被封了。</p>\n<p>issue: <a href=\"https://github.com/lbjlaq/Antigravity-Manager/issues/2264\" rel=\"nofollow\">https://github.com/lbjlaq/Antigravity-Manager/issues/2264</a></p>\n\n\t",
-      "author": "jayeli",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply40",
+      "link": "https://www.v2ex.com/t/1196121#reply41",
       "pubDate": "2026-03-05T10:08:30.000Z",
       "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
       "author": "jiaokun",
@@ -904,16 +904,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "2026 年了，大家在 Windows 下有什么命令行环境？",
-      "link": "https://www.v2ex.com/t/1196109#reply17",
-      "pubDate": "2026-03-05T09:20:50.000Z",
-      "content": "\n\t<p>前面用过很长一段时间 msys2+zsh ，无奈太卡了，和 windows 相性不合。\n前段时间发现 msys2+fish 的速度比 zsh 快不少，但 msys2 环境下的路径问题总还是存在，另外经常碰到环境变量、Windows 和 msys2 命令冲突之类的奇奇怪怪的问题，尤其在 opencode 这类环境下。\n看到有推荐 nushell ，pwsh 之类的，试用了一下，总感觉很别扭，学习成本有点高。</p>\n\n\t",
-      "author": "cy18",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
@@ -1281,6 +1271,16 @@
       "categories": [],
       "source": "阮一峰的网络日志",
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
+    },
+    {
+      "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
+      "link": "https://www.v2ex.com/t/1192541#reply69",
+      "pubDate": "2026-02-12T11:37:22.000Z",
+      "content": "\n\t<a target=\"_blank\" href=\"https://peon-ping.vercel.app/\" rel=\"nofollow noopener\">https://peon-ping.vercel.app/</a>\n\t",
+      "author": "Livid",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
