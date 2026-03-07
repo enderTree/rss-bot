@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T17:14:34.422Z",
+  "lastUpdated": "2026-03-07T18:21:29.135Z",
   "totalItems": 143,
   "items": [
     {
@@ -83,9 +83,9 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "庆祝三八妇女节",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
-      "pubDate": "2026-03-07 10:13:35",
+      "title": "SSCI 论文 2025年 发文概况",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
+      "pubDate": "2026-03-07 10:12:07",
       "content": "",
       "author": "",
       "categories": [],
@@ -93,9 +93,9 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "SSCI 论文 2025年 发文概况",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
-      "pubDate": "2026-03-07 10:12:07",
+      "title": "中国人文社科学者在研究什么？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
+      "pubDate": "2026-03-07 09:50:52",
       "content": "",
       "author": "",
       "categories": [],
@@ -240,7 +240,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply51",
+      "link": "https://www.v2ex.com/t/1196478#reply53",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -607,7 +607,7 @@
     },
     {
       "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
-      "link": "https://www.v2ex.com/t/1196301#reply12",
+      "link": "https://www.v2ex.com/t/1196301#reply13",
       "pubDate": "2026-03-06T05:43:06.000Z",
       "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
       "author": "Chuckle",
@@ -927,7 +927,7 @@
     },
     {
       "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-      "link": "https://www.v2ex.com/t/1196087#reply75",
+      "link": "https://www.v2ex.com/t/1196087#reply76",
       "pubDate": "2026-03-05T08:20:43.000Z",
       "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
       "author": "xiaotianhu",

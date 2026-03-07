@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-07T17:14:34.418Z",
+  "lastUpdated": "2026-03-07T18:21:29.131Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-07T17:14:22.294Z",
+      "lastUpdated": "2026-03-07T18:21:19.201Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-07T17:14:23.060Z",
+      "lastUpdated": "2026-03-07T18:21:19.917Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-07T17:14:23.123Z",
+      "lastUpdated": "2026-03-07T18:21:19.979Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-07T17:14:24.556Z",
+      "lastUpdated": "2026-03-07T18:21:21.287Z",
       "items": [
         {
           "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
@@ -303,11 +303,11 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-07T17:14:24.610Z",
+      "lastUpdated": "2026-03-07T18:21:21.360Z",
       "items": [
         {
           "title": "claude code 使用哪家国内 api 靠谱",
-          "link": "https://www.v2ex.com/t/1196478#reply51",
+          "link": "https://www.v2ex.com/t/1196478#reply53",
           "pubDate": "2026-03-07T03:52:02.000Z",
           "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
           "author": "terry2048",
@@ -426,6 +426,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
+          "link": "https://www.v2ex.com/t/1196087#reply76",
+          "pubDate": "2026-03-05T08:20:43.000Z",
+          "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
+          "author": "xiaotianhu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
           "link": "https://www.v2ex.com/t/1196104#reply74",
           "pubDate": "2026-03-05T08:59:38.000Z",
@@ -486,6 +496,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
+          "link": "https://www.v2ex.com/t/1196301#reply13",
+          "pubDate": "2026-03-06T05:43:06.000Z",
+          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
+          "author": "Chuckle",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
           "link": "https://www.v2ex.com/t/1196121#reply45",
           "pubDate": "2026-03-05T10:08:30.000Z",
@@ -511,16 +531,6 @@
           "pubDate": "2026-03-05T13:48:20.000Z",
           "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
           "author": "jakevin",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
-          "link": "https://www.v2ex.com/t/1196301#reply12",
-          "pubDate": "2026-03-06T05:43:06.000Z",
-          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
-          "author": "Chuckle",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -581,16 +591,6 @@
           "pubDate": "2026-03-06T02:04:50.000Z",
           "content": "\n\t比如说我用了中转站的 AI API, 然后中转方在我原来的提示词基础上给我夹带了一些私货<br /><br />比如扫描某些敏感文件(加密钱包的默认存储路径)然后上传啥的, 如果是能被发现还好说, 但是如果是龙虾这种纯自动的机器人是不是就会中招? <br /><br />还是说现在已经有了很完善的防御机制, 我的信息有些落后了?<br /><br />感谢回复!\n\t",
           "author": "JoeJoeJoe",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-          "link": "https://www.v2ex.com/t/1196087#reply75",
-          "pubDate": "2026-03-05T08:20:43.000Z",
-          "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
-          "author": "xiaotianhu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -810,7 +810,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-07T17:14:26.747Z",
+      "lastUpdated": "2026-03-07T18:21:23.026Z",
       "items": [
         {
           "title": "中国人文社科学者在研究什么？",
@@ -873,6 +873,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "一夜东风起，万山春色归",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524792",
+          "pubDate": "2026-03-07 09:30:54",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "粒子运动速度的改变是量子化的",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=648126&do=blog&id=1524690",
           "pubDate": "2026-03-06 04:08:25",
@@ -886,16 +896,6 @@
           "title": "散文诗：母亲最大的心愿",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524737",
           "pubDate": "2026-03-06 05:56:02",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "一夜东风起，万山春色归",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524792",
-          "pubDate": "2026-03-07 09:30:54",
           "content": "",
           "author": "",
           "categories": [],
@@ -933,6 +933,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "脸的布局对世界观的提示！",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524810",
+          "pubDate": "2026-03-07 11:46:10",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "临界现象二百年：第三章 范德瓦尔斯方程：一个木匠之子的逆袭",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524815",
           "pubDate": "2026-03-07 12:24:45",
@@ -963,16 +973,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "脸的布局对世界观的提示！",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524810",
-          "pubDate": "2026-03-07 11:46:10",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "中医与活性算法 （15）情志不是情绪，而是推断",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524812",
           "pubDate": "2026-03-07 12:08:00",
@@ -993,9 +993,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SSCI 论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
-          "pubDate": "2026-03-07 10:12:07",
+          "title": "中国人文社科学者在研究什么？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
+          "pubDate": "2026-03-07 09:50:52",
           "content": "",
           "author": "",
           "categories": [],
@@ -1003,9 +1003,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "庆祝三八妇女节",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
-          "pubDate": "2026-03-07 10:13:35",
+          "title": "SSCI 论文 2025年 发文概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
+          "pubDate": "2026-03-07 10:12:07",
           "content": "",
           "author": "",
           "categories": [],
@@ -1017,7 +1017,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-07T17:14:29.983Z",
+      "lastUpdated": "2026-03-07T18:21:25.323Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1224,7 +1224,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-07T17:14:32.702Z",
+      "lastUpdated": "2026-03-07T18:21:27.343Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1432,20 +1432,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-07T17:14:33.572Z",
+      "lastUpdated": "2026-03-07T18:21:28.219Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-07T17:14:33.626Z",
+      "lastUpdated": "2026-03-07T18:21:28.277Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-07T17:14:34.418Z",
+      "lastUpdated": "2026-03-07T18:21:29.131Z",
       "items": [
         {
           "title": "无题",
