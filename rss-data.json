@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-06T23:19:53.889Z",
+  "lastUpdated": "2026-03-07T01:11:24.504Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-06T23:19:43.782Z",
+      "lastUpdated": "2026-03-07T01:11:11.466Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-06T23:19:44.609Z",
+      "lastUpdated": "2026-03-07T01:11:12.361Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-06T23:19:44.741Z",
+      "lastUpdated": "2026-03-07T01:11:12.446Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-06T23:19:46.225Z",
+      "lastUpdated": "2026-03-07T01:11:14.539Z",
       "items": [
         {
           "title": "免费无限量的 GLM-5、Qwen3.5-398B 模型，AtomGit 限时免费",
@@ -301,11 +301,11 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-06T23:19:46.418Z",
+      "lastUpdated": "2026-03-07T01:11:14.697Z",
       "items": [
         {
           "title": "2026 年 PHP 路在何方",
-          "link": "https://www.v2ex.com/t/1196334#reply20",
+          "link": "https://www.v2ex.com/t/1196334#reply23",
           "pubDate": "2026-03-06T07:07:55.000Z",
           "content": "\n\t\n\t",
           "author": "lanhiy",
@@ -315,10 +315,20 @@
         },
         {
           "title": "Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA",
-          "link": "https://www.v2ex.com/t/1196216#reply38",
+          "link": "https://www.v2ex.com/t/1196216#reply39",
           "pubDate": "2026-03-06T01:49:26.000Z",
           "content": "\n\t<p>昨天收到一份邮件,说是\n<a href=\"https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/?utm_source=marketo&amp;utm_medium=email&amp;utm_content=blog&amp;utm_campaign=ai&amp;lidx=0&amp;wpid=685326&amp;mkt_tok=NDI2LVFWRC0xMTQAAAGgXJQgwE8Yw85WZT0QpcYDudAtQFz6N0c1FcuW--UXgkCK1tgc8UwcANYBzagSrrRDwadt-BtS6FpUFU0Ce8di2M-krBoOxCPTaLNmsHxy_vyYOGtm\" rel=\"nofollow\">Cursor Joined the ACP Registry and Is Now Live in Your JetBrains IDE</a></p>\n<p>看到了他们可以通 ACP 协议打通多个编辑器的 Agent 在 IDEA 里面使用,市面上的 Cli 和 VS Code 变体都可以在 IDEA 里面使用,比如</p>\n<ul>\n<li>Cursor</li>\n<li>CodeBuddy</li>\n<li>Gemini Cli</li>\n<li>Kimi Cli</li>\n<li>OpenCode</li>\n</ul>\n<p>基本都能支持上</p>\n<p>虽然说现在使用 Claude Code 后很少使用 IDE,Cursor 也是.\n但是偶尔还是会对代码进行一些精修,或者有些顺手修改.</p>\n\n\t",
           "author": "Tyaqing",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "简单体验了一下 openClaw，说说自己的看法",
+          "link": "https://www.v2ex.com/t/1196394#reply7",
+          "pubDate": "2026-03-06T10:37:20.000Z",
+          "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
+          "author": "doctorzry",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -329,16 +339,6 @@
           "pubDate": "2026-03-06T03:58:17.000Z",
           "content": "\n\t<p>如题， 我有一个 nextjs 编写的个人小工具的网站。 目前部署在 阿里云服务器上，但是发现绝大部分访问都来自海外。 因此想将网站部署到海外，让用户访问的容易一些，让更多的人看到我的工具(SEO).</p>\n<p>跟 AI 讨论了之后，有如下选项:</p>\n<ol>\n<li>Hetzner</li>\n<li>DigitalOcean</li>\n<li>Vercel 已经排除了(单纯不喜欢他们)</li>\n</ol>\n<p>想问问大家，还有什么补充，或者需要避坑的。</p>\n<p>顺便，个人是后端开发，不太懂前端以及运维的部分，还想问问，如果想提升网站 SEO ，有哪些学习资料.</p>\n\n\t",
           "author": "vfs",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "简单体验了一下 openClaw，说说自己的看法",
-          "link": "https://www.v2ex.com/t/1196394#reply5",
-          "pubDate": "2026-03-06T10:37:20.000Z",
-          "content": "\n\t最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br /><br />1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥<br /><br /><br /><br />2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。<br /><br /><br /><br />3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。<br /><br /><br /><br />4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。\n\t",
-          "author": "doctorzry",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -405,7 +405,7 @@
         },
         {
           "title": "智谱 Coding plan 太慢了，根本无法使用",
-          "link": "https://www.v2ex.com/t/1196278#reply18",
+          "link": "https://www.v2ex.com/t/1196278#reply19",
           "pubDate": "2026-03-06T03:52:24.000Z",
           "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
           "author": "devloperchen",
@@ -434,11 +434,31 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
+          "link": "https://www.v2ex.com/t/1196364#reply6",
+          "pubDate": "2026-03-06T08:30:06.000Z",
+          "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
+          "author": "SSang",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "claude code team 可以换成其他的模型嘛",
           "link": "https://www.v2ex.com/t/1196351#reply8",
           "pubDate": "2026-03-06T07:58:56.000Z",
           "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
           "author": "jyq711",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
+          "link": "https://www.v2ex.com/t/1196301#reply11",
+          "pubDate": "2026-03-06T05:43:06.000Z",
+          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
+          "author": "Chuckle",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -474,16 +494,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
-          "link": "https://www.v2ex.com/t/1196364#reply5",
-          "pubDate": "2026-03-06T08:30:06.000Z",
-          "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
-          "author": "SSang",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
           "link": "https://www.v2ex.com/t/1196273#reply32",
           "pubDate": "2026-03-06T03:45:22.000Z",
@@ -495,20 +505,10 @@
         },
         {
           "title": "开源了 macOS 微信数据库解密",
-          "link": "https://www.v2ex.com/t/1196159#reply39",
+          "link": "https://www.v2ex.com/t/1196159#reply40",
           "pubDate": "2026-03-05T13:48:20.000Z",
           "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
           "author": "jakevin",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "ai code， cli 相比 cursor、vsc 插件这种 gui 界面要更好用？",
-          "link": "https://www.v2ex.com/t/1196301#reply9",
-          "pubDate": "2026-03-06T05:43:06.000Z",
-          "content": "\n\t能力上其实一样吧，都是那些模型和外围<br /><br />gui 可以显示的信息、交互更丰富吧，那 cli 在工作流、交互等其他方面上有什么优点？<br /><br />cusror 也有 cli 工具来着，可以平替 claude code ？\n\t",
-          "author": "Chuckle",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -574,6 +574,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "系统架构设计师，求分享经验、视频",
+          "link": "https://www.v2ex.com/t/1196265#reply3",
+          "pubDate": "2026-03-06T03:29:35.000Z",
+          "content": "\n\t<p>上次考软设 <a href=\"https://www.v2ex.com/t/1144106#reply18\" rel=\"nofollow\">https://www.v2ex.com/t/1144106#reply18</a> ，听 @katfao 大佬的推荐，2 个月把视频过了一遍然后做了近 10 年的真题，低分飘过。\n现在想再考个高级的系统架构设计师，特再来求一下分享视频和经验。</p>\n<p>个人背景：</p>\n<p>非科班，10+ 年客户端经验，经验排名 iOS &gt; flutter &gt; android 。</p>\n<p>先行谢过各位大佬🫡</p>\n\n\t",
+          "author": "rrubick",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Aliyun 的登录页面崩了吗，为什么 500",
           "link": "https://www.v2ex.com/t/1196346#reply2",
           "pubDate": "2026-03-06T07:55:28.000Z",
@@ -584,21 +594,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "agentserver —— 把 AI Coding Agent 搬到云上，浏览器打开就能用",
-          "link": "https://www.v2ex.com/t/1196332#reply0",
-          "pubDate": "2026-03-06T07:04:13.000Z",
-          "content": "\n\t<p>做了个开源项目 agentserver ，分享一下。                                                                                                                                                                          </p>\n<p>简单说就是给 opencode 做的服务端 —— 类似 code-server 之于 VS Code 。</p>\n<p>目前能做的事：</p>\n<ol>\n<li>云上开 opencode 沙箱，浏览器打开就能写代码，不用折腾本地环境。API Key 服务端代理，不会泄漏，团队用量可控。</li>\n<li>本地 opencode 接入云端，一行命令把本地跑的 agent 通过 WebSocket 隧道连到平台上，不需要公网 IP ，在任何地方都能通过浏览器远程访问你的本地开发环境。</li>\n</ol>\n<p>正在做的事：</p>\n<ol>\n<li>云上 agent 和本地 agent 互相调用，让多个 agent 跨环境协作完成任务。这块在积极开发中。</li>\n</ol>\n<p>Go + React ，MIT 协议，K8s + Helm 就能部署。</p>\n<p>项目主页： <a href=\"https://agentserver.dev\" rel=\"nofollow\">https://agentserver.dev</a></p>\n<p>GitHub： <a href=\"https://github.com/agentserver/agentserver\" rel=\"nofollow\">https://github.com/agentserver/agentserver</a></p>\n<p>在线体验： <a href=\"https://platform.agentserver.dev\" rel=\"nofollow\">https://platform.agentserver.dev</a></p>\n<p>欢迎试用，欢迎 star 。</p>\n\n\t",
-          "author": "v2mryao",
+          "title": "ClaudeCode➕阿里百炼 CodingPlan 体验不佳",
+          "link": "https://www.v2ex.com/t/1196306#reply3",
+          "pubDate": "2026-03-06T05:54:47.000Z",
+          "content": "\n\t最近使用 claudecode 配上阿里云的百炼 coding plan ，使用 kimi k2.5 模型，同样的需求丢给 claudecode 和 Trae ，都使用 kimi k2.5 ，发现 Trae 甚至完成的又快又好。<br />看到大家都在说 claudecode 很厉害，是不是 claude 原生的模型厉害，使用国内模型 api 体验感就会下降？\n\t",
+          "author": "admin926",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "系统架构设计师，求分享经验、视频",
-          "link": "https://www.v2ex.com/t/1196265#reply2",
-          "pubDate": "2026-03-06T03:29:35.000Z",
-          "content": "\n\t<p>上次考软设 <a href=\"https://www.v2ex.com/t/1144106#reply18\" rel=\"nofollow\">https://www.v2ex.com/t/1144106#reply18</a> ，听 @katfao 大佬的推荐，2 个月把视频过了一遍然后做了近 10 年的真题，低分飘过。\n现在想再考个高级的系统架构设计师，特再来求一下分享视频和经验。</p>\n<p>个人背景：</p>\n<p>非科班，10+ 年客户端经验，经验排名 iOS &gt; flutter &gt; android 。</p>\n<p>先行谢过各位大佬🫡</p>\n\n\t",
-          "author": "rrubick",
+          "title": "agentserver —— 把 AI Coding Agent 搬到云上，浏览器打开就能用",
+          "link": "https://www.v2ex.com/t/1196332#reply0",
+          "pubDate": "2026-03-06T07:04:13.000Z",
+          "content": "\n\t<p>做了个开源项目 agentserver ，分享一下。                                                                                                                                                                          </p>\n<p>简单说就是给 opencode 做的服务端 —— 类似 code-server 之于 VS Code 。</p>\n<p>目前能做的事：</p>\n<ol>\n<li>云上开 opencode 沙箱，浏览器打开就能写代码，不用折腾本地环境。API Key 服务端代理，不会泄漏，团队用量可控。</li>\n<li>本地 opencode 接入云端，一行命令把本地跑的 agent 通过 WebSocket 隧道连到平台上，不需要公网 IP ，在任何地方都能通过浏览器远程访问你的本地开发环境。</li>\n</ol>\n<p>正在做的事：</p>\n<ol>\n<li>云上 agent 和本地 agent 互相调用，让多个 agent 跨环境协作完成任务。这块在积极开发中。</li>\n</ol>\n<p>Go + React ，MIT 协议，K8s + Helm 就能部署。</p>\n<p>项目主页： <a href=\"https://agentserver.dev\" rel=\"nofollow\">https://agentserver.dev</a></p>\n<p>GitHub： <a href=\"https://github.com/agentserver/agentserver\" rel=\"nofollow\">https://github.com/agentserver/agentserver</a></p>\n<p>在线体验： <a href=\"https://platform.agentserver.dev\" rel=\"nofollow\">https://platform.agentserver.dev</a></p>\n<p>欢迎试用，欢迎 star 。</p>\n\n\t",
+          "author": "v2mryao",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -639,16 +649,6 @@
           "pubDate": "2026-03-06T04:50:59.000Z",
           "content": "\n\t<p>我是基于自己只会 Python 基础语法让 Gemini 给出的学习计划，目的是能够在 2 个月后找到一份实习，什么实习工作都行。以下是学习计划(非常不好意思，删了一些不必展出的内容还是很长) </p>\n<p>第一阶段：<strong>Python 核心与“底层透明化” (Day 1 - 15)</strong></p>\n<p>目标： 不仅会写 Python ，还要懂它在内存里是怎么跑的。</p>\n<p>Day 1-5：<strong>语法与内存模型</strong>\n任务： 使用 Cursor 编写基础逻辑，但要求 AI 解释：Python 的垃圾回收机制 (GC) 和 引用计数。\n手写挑战： 不使用内置函数，手写一个简单的 Hash Table （哈希表） 逻辑，理解 Python 字典 dict 的 $O(1)$ 查找原理。</p>\n<p>Day 6-10：<strong>函数式编程与生成器</strong>\n任务： 学习处理大数据的 yield 生成器。\n手写挑战： 写一个流式读取 5GB 日志文件的脚本，确保内存占用低于 100MB 。</p>\n<p>Day 11-15：<strong>算法逻辑增强</strong>\n任务： 让 AI 讲解快速排序和二分查找。\n手写挑战： 在 LeetCode 刷 20 道经典题（链表反转、二叉树遍历），要求先手写伪代码，再让 AI 转化为 Python 。</p>\n<p>第二阶段：<strong>工程化地基——Linux 、Git 与 SQL (Day 16 - 30)</strong>\n目标： 像真正的工程师一样管理代码和数据。</p>\n<p>Day 16-20：<strong>Windows 中的 Linux (WSL2) 与环境</strong>\n任务： 在 Windows 上安装 WSL2 (Ubuntu)，学习 vim, grep, awk 等命令。</p>\n<p>Day 21-25：<strong>数据库底层与 SQL 优化</strong>\n任务： 安装 MySQL ，让 AI 生成 10 万条随机数据。\n手写挑战： 编写复杂的 JOIN 查询和 Subquery 。</p>\n<p>Day 26-30：<strong>Git 实战与架构思维</strong>\n任务： 模拟多人协作，手动解决一次 Git Merge Conflict 。</p>\n<p>第三阶段：<strong>全栈开发与 API 架构 (Day 31 - 45)</strong>\n目标： 构建高并发后端接口</p>\n<p>Day 31-38：<strong>FastAPI 深度进阶</strong>\n任务： 构建一个 RESTful API 服务。\n手写挑战： 手动实现一个 JWT (JSON Web Token) 鉴权流程，不直接调用现成库。</p>\n<p>Day 39-45：<strong>系统架构拆解</strong>\n任务： 学习 MVC 模式 或 领域驱动设计 (DDD) 简化版。\n手写挑战： 设计一个“电商秒杀系统”的数据库表结构，让 AI 审计并发死锁风险。</p>\n<p><strong>第四阶段：AI 应用实战与面试冲刺 (Day 46 - 60)</strong>\nDay 46-54：<strong>终极项目——AI 知识库助手 (RAG)</strong>\n核心功能： 用户上传文档 -&gt; 向量化 (Embedding) -&gt; 存入向量数据库 -&gt; AI 检索问答。</p>\n\n\t",
           "author": "kplam918",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "ClaudeCode➕阿里百炼 CodingPlan 体验不佳",
-          "link": "https://www.v2ex.com/t/1196306#reply2",
-          "pubDate": "2026-03-06T05:54:47.000Z",
-          "content": "\n\t最近使用 claudecode 配上阿里云的百炼 coding plan ，使用 kimi k2.5 模型，同样的需求丢给 claudecode 和 Trae ，都使用 kimi k2.5 ，发现 Trae 甚至完成的又快又好。<br />看到大家都在说 claudecode 很厉害，是不是 claude 原生的模型厉害，使用国内模型 api 体验感就会下降？\n\t",
-          "author": "admin926",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -708,7 +708,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-06T23:19:48.249Z",
+      "lastUpdated": "2026-03-07T01:11:17.159Z",
       "items": [
         {
           "title": "未来五年，大学会变成什么样——直播问答",
@@ -731,49 +731,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "得诺奖最多的研究机构是什么样子的？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524581",
-          "pubDate": "2026-03-06 07:23:19",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "暗怜双绁郁金香",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524588",
           "pubDate": "2026-03-06 08:46:02",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "西安年夜",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524552",
-          "pubDate": "2026-03-05 07:56:39",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "杂说蔬菜（1）序",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1524582",
-          "pubDate": "2026-03-06 07:40:42",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "太阳活动原理及其验证",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3474929&do=blog&id=1524621",
-          "pubDate": "2026-03-06 11:18:15",
           "content": "",
           "author": "",
           "categories": [],
@@ -791,9 +751,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "如何用 YouMind 绘制出你家乡地标景观微缩地图？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=377709&do=blog&id=1524553",
-          "pubDate": "2026-03-05 08:00:00",
+          "title": "[资源，科普，数学] 素数表（质数表，小于 200000） list of primes, prime numbers",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524570",
+          "pubDate": "2026-03-06 01:24:09",
           "content": "",
           "author": "",
           "categories": [],
@@ -801,9 +761,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "[资源，科普，数学] 素数表（质数表，小于 200000） list of primes, prime numbers",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524570",
-          "pubDate": "2026-03-06 01:24:09",
+          "title": "得诺奖最多的研究机构是什么样子的？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524581",
+          "pubDate": "2026-03-06 07:23:19",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "杂说蔬菜（1）序",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1524582",
+          "pubDate": "2026-03-06 07:40:42",
           "content": "",
           "author": "",
           "categories": [],
@@ -821,9 +791,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "高校图书馆从业人员的今天与明天",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524559",
-          "pubDate": "2026-03-05 08:50:56",
+          "title": "木芙蓉：会变魔术的“三变花”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524686",
+          "pubDate": "2026-03-06 04:01:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -851,6 +821,26 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "“江豚”两对",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524578",
+          "pubDate": "2026-03-06 07:09:44",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "SCIE 论文 2025年 发文概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524664",
+          "pubDate": "2026-03-06 03:01:48",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "[笔记，科普，数学] 素数（2）：素数定理 prime number theorem 之一",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524561",
           "pubDate": "2026-03-05 09:30:03",
@@ -871,29 +861,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SCIE 论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524664",
-          "pubDate": "2026-03-06 03:01:48",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "木芙蓉：会变魔术的“三变花”",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524686",
-          "pubDate": "2026-03-06 04:01:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "先雌后雄——刘建康院士揭示黄鳝“性逆转”之谜",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524563",
           "pubDate": "2026-03-05 10:03:15",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "癌症血液检测随处可见，它们真的有效吗？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41174&do=blog&id=1524425",
+          "pubDate": "2026-03-06 08:32:27",
           "content": "",
           "author": "",
           "categories": [],
@@ -909,13 +889,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "散文诗：母亲最大的心愿",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524737",
+          "pubDate": "2026-03-06 05:56:02",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "SPRU主任希望我就双边研讨会写一篇博文——日记摘抄1153",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524757",
+          "pubDate": "2026-03-06 09:22:54",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-06T23:19:50.501Z",
+      "lastUpdated": "2026-03-07T01:11:20.550Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1122,13 +1122,23 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-06T23:19:52.244Z",
+      "lastUpdated": "2026-03-07T01:11:22.686Z",
       "items": [
         {
           "title": "曲径通幽，别有洞天（可以想歪 (评论: 小姐)",
           "link": "https://movie.douban.com/review/17490265/",
           "pubDate": "Thu, 05 Mar 2026 13:28:03 GMT",
           "content": "\n连城结锦评论: 小姐 (https://movie.douban.com/subject/25977027/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u5411\\u6765\\u5bf9\\u5404\\u7...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "不配被称为女性电影的性转版《末路狂花》 (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17491829/",
+          "pubDate": "Fri, 06 Mar 2026 14:24:49 GMT",
+          "content": "\n良夜评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6ca1\\u770b\\u5230\\u5973\\u6027\\u4...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1145,10 +1155,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "影评文章《我不是我想成为的那种人》- Metrograph转载自存 (评论: 我不是我想成为的那种人)",
-          "link": "https://movie.douban.com/review/17491203/",
-          "pubDate": "Fri, 06 Mar 2026 07:08:12 GMT",
-          "content": "\n啧你管我评论: 我不是我想成为的那种人 (https://movie.douban.com/subject/35417818/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fjsv8&#34;,&#34;text&#34;:&#34;作者：Keva York&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;ebgud&#34;,&#34;tex...\n",
+          "title": "逐玉丨追剧碎碎念 (评论: 逐玉)",
+          "link": "https://movie.douban.com/review/17491635/",
+          "pubDate": "Fri, 06 Mar 2026 12:30:51 GMT",
+          "content": "\nisRachel评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;2026.3.6\\n1\\ufe0f\\u20e3\\u6211\\u77...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1165,10 +1175,40 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "影评文章《我不是我想成为的那种人》- Metrograph转载自存 (评论: 我不是我想成为的那种人)",
+          "link": "https://movie.douban.com/review/17491203/",
+          "pubDate": "Fri, 06 Mar 2026 07:08:12 GMT",
+          "content": "\n啧你管我评论: 我不是我想成为的那种人 (https://movie.douban.com/subject/35417818/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fjsv8&#34;,&#34;text&#34;:&#34;作者：Keva York&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;ebgud&#34;,&#34;tex...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "做色彩的局外人 (评论: 局外人)",
           "link": "https://movie.douban.com/review/17491224/",
           "pubDate": "Fri, 06 Mar 2026 07:28:04 GMT",
           "content": "\n落木Lin评论: 局外人 (https://movie.douban.com/subject/37284351/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "I would prefer not to (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17491637/",
+          "pubDate": "Fri, 06 Mar 2026 12:32:13 GMT",
+          "content": "\n我是辽宁人评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\uff1a\\u766b\\u75eb/\\u5149\\u654f\\u...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《除恶》王萍：我从来就没有过怨言 (评论: 除恶)",
+          "link": "https://movie.douban.com/review/17491830/",
+          "pubDate": "Fri, 06 Mar 2026 14:24:56 GMT",
+          "content": "\n火神纪评论: 除恶 (https://movie.douban.com/subject/36566053/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;dd0dg&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;atomic&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[{&#34;offset&#34;:0,&#34;leng...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1195,6 +1235,26 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "这是最好的时代，这是最坏的时代 (评论: 韩国制造)",
+          "link": "https://movie.douban.com/review/17492141/",
+          "pubDate": "Fri, 06 Mar 2026 17:32:35 GMT",
+          "content": "\n蓝紫青灰评论: 韩国制造 (https://movie.douban.com/subject/36774007/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7kihs&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityR...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "因果报应——时间线梳理 (评论: 因果报应)",
+          "link": "https://movie.douban.com/review/17491182/",
+          "pubDate": "Fri, 06 Mar 2026 06:54:50 GMT",
+          "content": "\n坎迪评论: 因果报应 (https://movie.douban.com/subject/36934908/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;1.\\u5341\\u51e0\\u5e74\\u524d\\uff0c\\...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "这是我见过最快熟络起来的陌生人 (评论: 亲爱的客栈2026)",
           "link": "https://movie.douban.com/review/17491362/",
           "pubDate": "Fri, 06 Mar 2026 09:16:25 GMT",
@@ -1215,6 +1275,36 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "长剧完蛋了 (评论: 逐玉)",
+          "link": "https://movie.douban.com/review/17492150/",
+          "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
+          "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《黑暗新娘！》：主题表达过多导致的混乱观感 (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17491752/",
+          "pubDate": "Fri, 06 Mar 2026 13:48:15 GMT",
+          "content": "\n龙骨评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/3...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《惊蛰无声》｜张艺谋拍国安，一半惊艳一半摆烂？ (评论: 惊蛰无声)",
+          "link": "https://movie.douban.com/review/17491790/",
+          "pubDate": "Fri, 06 Mar 2026 14:05:55 GMT",
+          "content": "\n阿穈评论: 惊蛰无声 (https://movie.douban.com/subject/37242440/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;1ku6b&#34;,&#34;text&#34;:&#34;看谍战片看到快免疫的我，刷完张艺谋的《惊蛰无声》，纠结了十分钟，最终给了四星。真不是它多完美，纯粹是春节档实在没什么能打的——一边是扎堆的爆米花烂片，一边是这部“有点野心但没完全落地”的国安片，矮子里拔将军，它也算及格...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "太好看了 (评论: 功夫熊猫)",
           "link": "https://movie.douban.com/review/17491075/",
           "pubDate": "Fri, 06 Mar 2026 05:36:13 GMT",
@@ -1225,90 +1315,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "编剧真挺讨巧的 (评论: 小鬼当家)",
-          "link": "https://movie.douban.com/review/17490742/",
-          "pubDate": "Fri, 06 Mar 2026 00:25:17 GMT",
-          "content": "\n禾木评论: 小鬼当家 (https://movie.douban.com/subject/1293088/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5927\\u8fc7\\u8282\\u628a\\u5b69\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "万字长文解析《镖人》：风暴里的木偶戏，有人喝彩，有人叹息。 (评论: 镖人：风起大漠)",
-          "link": "https://movie.douban.com/review/17488918/",
-          "pubDate": "Wed, 04 Mar 2026 13:50:52 GMT",
-          "content": "\n离原评论: 镖人：风起大漠 (https://movie.douban.com/subject/36474027/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fc90i&#34;,&#34;text&#34;:&#34; 作为春节档口碑最出圈的电影，《镖人：风起大漠》票房一路逆跌攀升， 目前猫眼数据显示总票房已超11.8亿， 反超《惊蛰无声》，成为2026春节档...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "因果报应——时间线梳理 (评论: 因果报应)",
-          "link": "https://movie.douban.com/review/17491182/",
-          "pubDate": "Fri, 06 Mar 2026 06:54:50 GMT",
-          "content": "\n坎迪评论: 因果报应 (https://movie.douban.com/subject/36934908/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;1.\\u5341\\u51e0\\u5e74\\u524d\\uff0c\\...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "警察故事4：简单任务|当家驹遇上骠叔 (评论: 警察故事4：简单任务)",
-          "link": "https://movie.douban.com/review/17490734/",
-          "pubDate": "Fri, 06 Mar 2026 00:06:24 GMT",
-          "content": "\neflysky评论: 警察故事4：简单任务 (https://movie.douban.com/subject/1296947/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;78dpf&#34;,&#34;text&#34;:&#34; \\n&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRan...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "借了《后我》的壳，注了《爱乐》之魂 (评论: 后来的我们)",
-          "link": "https://movie.douban.com/review/17489347/",
-          "pubDate": "Thu, 05 Mar 2026 01:32:31 GMT",
-          "content": "\n落木Lin评论: 后来的我们 (https://movie.douban.com/subject/35930441/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "东北警察故事3|动作片只能看谢苗了 (评论: 东北警察故事3)",
-          "link": "https://movie.douban.com/review/17490735/",
-          "pubDate": "Fri, 06 Mar 2026 00:07:29 GMT",
-          "content": "\neflysky评论: 东北警察故事3 (https://movie.douban.com/subject/36977669/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fupa5&#34;,&#34;text&#34;:&#34; \\n&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyle...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "【翻译】导演纳达夫·拉皮德（Nadav Lapid）关于《是的》（Oui）在以色列上映的随笔 (评论: 是的)",
-          "link": "https://movie.douban.com/review/17482600/",
-          "pubDate": "Sat, 28 Feb 2026 11:18:46 GMT",
-          "content": "\n树上躺着默而索评论: 是的 (https://movie.douban.com/subject/36206660/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;42lr6&#34;,&#34;text&#34;:&#34;原文来自《电影手册》第829期，由Google AI Studio的Gemini 3.1 Pro模型翻译，已调整系统指令。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;en...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "简评｜丧尸片还能怎么玩出新花样？ (评论: 惊变28年2：白骨圣殿)",
-          "link": "https://movie.douban.com/review/17487733/",
-          "pubDate": "Tue, 03 Mar 2026 15:58:21 GMT",
-          "content": "\n发条辰评论: 惊变28年2：白骨圣殿 (https://movie.douban.com/subject/36850893/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;78rh5&#34;,&#34;text&#34;:&#34;在全球丧尸电影日趋式微的当下，时隔多年再执导筒的丹尼·鲍伊尔以《惊变28年》重启英国本土丧尸电影“惊变28”系列并立项了三部曲。...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《除恶》李晓雅：我这辈子就活了个虚荣 (评论: 除恶)",
-          "link": "https://movie.douban.com/review/17490206/",
-          "pubDate": "Thu, 05 Mar 2026 12:49:06 GMT",
-          "content": "\n火神纪评论: 除恶 (https://movie.douban.com/subject/36566053/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7ev&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;atomic&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[{&#34;offset&#34;:...\n",
+          "title": "李云龙和楚云飞 (评论: 天龙特攻队 第二季)",
+          "link": "https://movie.douban.com/review/17492123/",
+          "pubDate": "Fri, 06 Mar 2026 17:20:12 GMT",
+          "content": "\n罗妮zyzyyuan评论: 天龙特攻队 第二季 (https://movie.douban.com/subject/30329139/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;d99es&#34;,&#34;text&#34;:&#34;老美剧《天龙特攻队》里，第二季负责追捕A-team的是Decker上校，虽然说手段强硬，不依不饶，但是A-team也知道他为人正直，可以把坏人留给他，他会帮忙收尾关押的。\\n有一集默多克被子弹击中，子弹本身不致命，但是...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1320,20 +1330,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-06T23:19:53.275Z",
+      "lastUpdated": "2026-03-07T01:11:23.936Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-06T23:19:53.438Z",
+      "lastUpdated": "2026-03-07T01:11:24.145Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-06T23:19:53.889Z",
+      "lastUpdated": "2026-03-07T01:11:24.504Z",
       "items": [
         {
           "title": "无题",
