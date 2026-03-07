@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-03-07T08:20:18.891Z",
+  "lastUpdated": "2026-03-07T09:20:59.238Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "有没有可以解决微信内链接屏蔽问题的高手，高额悬赏",
+      "link": "https://www.v2ex.com/t/1196520#reply0",
+      "pubDate": "2026-03-07T09:09:31.000Z",
+      "content": "\n\t<p>最近可能是直播外链受到打击，导致微信内部正常链接也提示：“如需浏览，请长按复制后使用浏览器访问”\n我们业务合规，不会出现报红的情况。但是微信最近老是容易提示，无法打开。</p>\n<p>有没有大神会的。\n网上有防红域名，买过几家不起作用。\n也做过 js 跳转、落地页等等，还是效果不大。</p>\n<p>也没有大神可以解决的。可长期合作。</p>\n\n\t",
+      "author": "baoshu",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "科研过程中要识别重要的问题和可能的问题",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524778",
+      "pubDate": "2026-03-07 07:53:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
     {
       "title": "我的儿子是西楚霸王 (评论: 寻秦记)",
       "link": "https://movie.douban.com/review/17492759/",
@@ -13,10 +33,20 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "QQ 机器人终于转正：腾讯官方开放 OpenClaw 接入，1 分钟扫码即用（详细教程）",
+      "title": "《洛杉矶劫案》影评 (评论: 洛杉矶劫案)",
+      "link": "https://movie.douban.com/review/17492741/",
+      "pubDate": "Sat, 07 Mar 2026 07:40:47 GMT",
+      "content": "\n韩祎评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u81ea\\u4ece\\u5728\\u732b\\u773cAPP...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
       "link": "https://www.appinn.com/openclaw-channel-qqbot/",
       "pubDate": "Sat, 07 Mar 2026 06:06:01 +0000",
-      "content": "腾讯发力，QQ 官方专门为 OpenClaw 开放了 QQ 机器人能力：现有 QQ 号扫码就能用，接入只需要1分钟。而且：免费 一个 QQ 号最多支持创建 5 个 QQ 机器人与 OpenClaw 聊天。 必备条件 其实非常简单： 注册地址 打开该页面后，手机 QQ 扫码登录即可： 注意：扫码后进入 ",
+      "content": "腾讯发力，QQ 官方专门为 OpenClaw 开放了 QQ 机器人能力：现有 QQ 号扫码就能用，接入只需要1分钟。而且：免费 一个 QQ 号最多支持创建 5 个 QQ 机器人与 OpenClaw 聊天。 视频教程 必备条件 其实非常简单： 注册地址 打开该页面后，手机 QQ 扫码登录即可： 注意： ",
       "author": "",
       "categories": [
         "AI",
@@ -80,7 +110,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply14",
+      "link": "https://www.v2ex.com/t/1196478#reply15",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -302,16 +332,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "中转站都是去哪里拿便宜货源的",
-      "link": "https://www.v2ex.com/t/1196383#reply1",
-      "pubDate": "2026-03-06T09:40:01.000Z",
-      "content": "\n\t<p>话说如果想做中转站生意，去哪里可以搞到好的货源啊</p>\n\n\t",
-      "author": "bozhouAI",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "claude code CLI 登录 401",
       "link": "https://www.v2ex.com/t/1196378#reply5",
       "pubDate": "2026-03-06T09:16:01.000Z",
@@ -366,16 +386,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "癌症血液检测随处可见，它们真的有效吗？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41174&do=blog&id=1524425",
-      "pubDate": "2026-03-06 08:32:27",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "未来五年，大学会变成什么样——直播问答",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1524585",
       "pubDate": "2026-03-06 08:31:34",
@@ -387,7 +397,7 @@
     },
     {
       "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
-      "link": "https://www.v2ex.com/t/1196364#reply8",
+      "link": "https://www.v2ex.com/t/1196364#reply9",
       "pubDate": "2026-03-06T08:30:06.000Z",
       "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
       "author": "SSang",
@@ -696,9 +706,9 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "中医与活性算法 （13）养生不是保养，而是自维持",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524668",
-      "pubDate": "2026-03-06 03:21:12",
+      "title": "中医与活性算法 （14）治未病不是预防，而是临界管理",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524670",
+      "pubDate": "2026-03-06 03:25:38",
       "content": "",
       "author": "",
       "categories": [],
@@ -834,16 +844,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "xhs-cli：把小红书常用操作搬进终端，支持无缝接入 OpenClaw | AI Agent",
-      "link": "https://www.v2ex.com/t/1196174#reply3",
-      "pubDate": "2026-03-05T15:56:06.000Z",
-      "content": "\n\t<p>最近把自己在用的小工具整理成了一个开源项目：<strong>xhs-cli</strong>。<br/>\n目标很直接：把小红书上的高频操作变成可脚本化的 CLI workflow ，减少重复点点点。</p>\n<ul>\n<li>GitHub: <a href=\"https://github.com/jackwener/xhs-cli\" rel=\"nofollow\">https://github.com/jackwener/xhs-cli</a></li>\n<li>PyPI: <a href=\"https://pypi.org/project/xhs-cli/\" rel=\"nofollow\">https://pypi.org/project/xhs-cli/</a></li>\n</ul>\n<hr/>\n<h2>这个工具能做什么</h2>\n<p><code>xhs-cli</code> 目前覆盖了这些核心能力：</p>\n<ul>\n<li>搜索笔记：<code>search</code></li>\n<li>读取笔记详情与评论：<code>read --comments</code></li>\n<li>查看用户资料与笔记：<code>user</code> / <code>user-posts</code></li>\n<li>粉丝与关注：<code>followers</code> / <code>following</code></li>\n<li>互动操作：<code>like</code> / <code>unlike</code> / <code>favorite</code> / <code>unfavorite</code> / <code>comment</code></li>\n<li>收藏列表：<code>favorites</code></li>\n<li>内容发布与回滚：<code>post</code> / <code>delete</code></li>\n<li>探索页与话题：<code>feed</code> / <code>topics</code></li>\n<li>登录态管理：<code>login</code> / <code>status</code> / <code>whoami</code> / <code>logout</code></li>\n</ul>\n<p>另外，数据类命令都支持 <code>--json</code>，方便直接接 <code>jq</code>、脚本或 CI 。</p>\n<hr/>\n<h2>为什么做它</h2>\n<p>我自己的痛点是：</p>\n<ol>\n<li>运营/数据验证时，很多动作都在重复手动操作；</li>\n<li>做自动化时，网页端流程很难稳定复用；</li>\n<li>回归测试成本高，尤其是发内容后的状态清理。</li>\n</ol>\n<p>所以做了 <code>post -&gt; delete</code> 的闭环能力，结合本地 smoke test ，尽量把“手动验证”变成“一条命令”。</p>\n<hr/>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">uv tool install xhs-cli\n# 或\npipx install xhs-cli</code></pre>\n\n\t",
-      "author": "jakevin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "开源了 macOS 微信数据库解密",
@@ -1016,7 +1016,7 @@
     },
     {
       "title": "DoytoQuery vs SpringDataJPA",
-      "link": "https://www.v2ex.com/t/1195941#reply8",
+      "link": "https://www.v2ex.com/t/1195941#reply9",
       "pubDate": "2026-03-05T02:05:20.000Z",
       "content": "\n\t<p>SpringDataJPA 支持通过 findBy 方法构建查询语句，然而 findBy 方法构建的查询条件是固定的，不支持忽略值为 null 的参数对应的查询条件，这导致我们需要为每一组参数组合定义一个 findBy 方法。例如：</p>\n<pre><code class=\"language-java\">findByAuthor\nfindByAuthorAndPublishedYearGreaterThan\nfindByAuthorAndPublishedYearLessThan\nfindByAuthorAndPublishedYearGreaterThanAndPublishedYearLessThan\n</code></pre>\n<p>当条件变多时，方法名会变长，参数也会变多，并触发“长参数”坏味道。解决这一问题的重构方法是“引入参数对象”，即把所有的参数定义在一个对象里。同时，我们把 findBy 的方法名中对应查询条件的部分作为这个对象的字段名称，我们便能为每个字段构建一个查询条件，并且根据对象的赋值情况，动态地组合非空字段对应的查询条件组合为查询子句。</p>\n<pre><code class=\"language-java\">public class BookQuery {\n    String author;\n    Integer publishedYearGreaterThan;\n    Integer publishedYearLessThan;\n    //...\n}\n</code></pre>\n<p>基于此对象，我们可以把所有的 findBy 方法合并为一个泛型方法，从而简化查询接口的设计。</p>\n<pre><code class=\"language-java\">public class CrudRepository&lt;E, I, Q&gt; {\n    List&lt;E&gt; findBy(Q query);\n    //...\n}\n</code></pre>\n<p>提出查询对象这一概念，并利用它来解决动态查询问题，正是 DoytoQuery 的核心功能。</p>\n\n\t",
       "author": "f0rb",
@@ -1033,16 +1033,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "重建作为意识形态机器的“家庭” (评论: 纯真年代的爱情)",
-      "link": "https://movie.douban.com/review/17489269/",
-      "pubDate": "Wed, 04 Mar 2026 22:10:33 GMT",
-      "content": "\n一粒铜豌豆评论: 纯真年代的爱情 (https://movie.douban.com/subject/35943650/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5148\\u4ece\\u5267\\u7248\\u539f\\u5...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "笔记 (评论: Ace)",
@@ -1119,6 +1109,16 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "国产 AI Coding Plan 现在选哪家比较好？",
+      "link": "https://www.v2ex.com/t/1195635#reply62",
+      "pubDate": "2026-03-04T02:02:43.000Z",
+      "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
+      "author": "WangLiCha",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "我的译后记 (评论: 观鸟大年)",
