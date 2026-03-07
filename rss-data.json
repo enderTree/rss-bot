@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-07T21:13:37.694Z",
+  "lastUpdated": "2026-03-07T22:14:38.575Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-07T21:13:24.595Z",
+      "lastUpdated": "2026-03-07T22:14:22.125Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-07T21:13:25.928Z",
+      "lastUpdated": "2026-03-07T22:14:27.436Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-07T21:13:26.083Z",
+      "lastUpdated": "2026-03-07T22:14:27.521Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-07T21:13:28.223Z",
+      "lastUpdated": "2026-03-07T22:14:29.354Z",
       "items": [
         {
           "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
@@ -303,7 +303,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-07T21:13:28.483Z",
+      "lastUpdated": "2026-03-07T22:14:29.560Z",
       "items": [
         {
           "title": "claude code 使用哪家国内 api 靠谱",
@@ -710,7 +710,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-07T21:13:31.021Z",
+      "lastUpdated": "2026-03-07T22:14:31.985Z",
       "items": [
         {
           "title": "东京樱花已绽放",
@@ -743,16 +743,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科研过程中要识别重要的问题和可能的问题",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524778",
-          "pubDate": "2026-03-07 07:53:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "一夜东风起，万山春色归",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524792",
           "pubDate": "2026-03-07 09:30:54",
@@ -763,19 +753,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "散文诗：母亲最大的心愿",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524737",
-          "pubDate": "2026-03-06 05:56:02",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "文化190：华盖峰",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=75458&do=blog&id=1524817",
-          "pubDate": "2026-03-07 12:36:47",
+          "title": "科研过程中要识别重要的问题和可能的问题",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524778",
+          "pubDate": "2026-03-07 07:53:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -803,9 +783,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "岩石的记忆——侯先光研究员发现澄江生物化石群的故事",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524751",
-          "pubDate": "2026-03-06 08:01:57",
+          "title": "文化190：华盖峰",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=75458&do=blog&id=1524817",
+          "pubDate": "2026-03-07 12:36:47",
           "content": "",
           "author": "",
           "categories": [],
@@ -833,6 +813,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "岩石的记忆——侯先光研究员发现澄江生物化石群的故事",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524751",
+          "pubDate": "2026-03-06 08:01:57",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "中国人文社科学者在研究什么？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
           "pubDate": "2026-03-07 09:50:52",
@@ -853,9 +843,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "庆祝三八妇女节",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
-          "pubDate": "2026-03-07 10:13:35",
+          "title": "SPRU主任希望我就双边研讨会写一篇博文——日记摘抄1153",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524757",
+          "pubDate": "2026-03-06 09:22:54",
           "content": "",
           "author": "",
           "categories": [],
@@ -863,9 +853,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SPRU主任希望我就双边研讨会写一篇博文——日记摘抄1153",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524757",
-          "pubDate": "2026-03-06 09:22:54",
+          "title": "庆祝三八妇女节",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
+          "pubDate": "2026-03-07 10:13:35",
           "content": "",
           "author": "",
           "categories": [],
@@ -911,13 +901,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "殷商日食论证之总结",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524843",
+          "pubDate": "2026-03-07 09:01:10",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-07T21:13:33.372Z",
+      "lastUpdated": "2026-03-07T22:14:34.356Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,7 +1124,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-07T21:13:35.508Z",
+      "lastUpdated": "2026-03-07T22:14:36.281Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-07T21:13:36.839Z",
+      "lastUpdated": "2026-03-07T22:14:37.362Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-07T21:13:37.054Z",
+      "lastUpdated": "2026-03-07T22:14:37.562Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-07T21:13:37.694Z",
+      "lastUpdated": "2026-03-07T22:14:38.575Z",
       "items": [
         {
           "title": "无题",

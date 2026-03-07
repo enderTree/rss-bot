@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T21:13:37.697Z",
+  "lastUpdated": "2026-03-07T22:14:38.579Z",
   "totalItems": 133,
   "items": [
     {
@@ -146,6 +146,16 @@
       "title": "宿黔江",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524788",
       "pubDate": "2026-03-07 09:09:44",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "殷商日食论证之总结",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524843",
+      "pubDate": "2026-03-07 09:01:10",
       "content": "",
       "author": "",
       "categories": [],
@@ -614,16 +624,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "散文诗：母亲最大的心愿",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524737",
-      "pubDate": "2026-03-06 05:56:02",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "ClaudeCode➕阿里百炼 CodingPlan 体验不佳",
