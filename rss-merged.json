@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-07T07:22:27.283Z",
+  "lastUpdated": "2026-03-07T08:20:18.891Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "我的儿子是西楚霸王 (评论: 寻秦记)",
+      "link": "https://movie.douban.com/review/17492759/",
+      "pubDate": "Sat, 07 Mar 2026 07:50:35 GMT",
+      "content": "\n柯南牌抱枕评论: 寻秦记 (https://movie.douban.com/subject/2983389/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
     {
       "title": "QQ 机器人终于转正：腾讯官方开放 OpenClaw 接入，1 分钟扫码即用（详细教程）",
       "link": "https://www.appinn.com/openclaw-channel-qqbot/",
@@ -70,7 +80,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply9",
+      "link": "https://www.v2ex.com/t/1196478#reply14",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -119,6 +129,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "平台强按头的爆剧，真的能爆吗 (评论: 逐玉)",
+      "link": "https://movie.douban.com/review/17492278/",
+      "pubDate": "Sat, 07 Mar 2026 00:50:57 GMT",
+      "content": "\n北大荒野玫瑰评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;9migb&#34;,&#34;text&#34;:&#34; 这部作品堪称“灾难级”的观剧体验。男主全程面瘫式的表演令人如坐针毡，喜怒哀乐全凭眉头那微不可察的抽搐。剧情幼稚得仿佛初中生暑期习作，逻辑漏洞百出。导演刻意追求的“构图感”极度生硬，每个镜头都像在拍精修写真，与叙事严重割裂。男女主更是工业糖精的集大成者，...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "拥抱黑盒：一个研究者 All in AI 的实录与反思",
       "link": "https://www.v2ex.com/t/1196441#reply2",
       "pubDate": "2026-03-06T18:34:55.000Z",
@@ -139,34 +159,14 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "这是最好的时代，这是最坏的时代 (评论: 韩国制造)",
-      "link": "https://movie.douban.com/review/17492141/",
-      "pubDate": "Fri, 06 Mar 2026 17:32:35 GMT",
-      "content": "\n蓝紫青灰评论: 韩国制造 (https://movie.douban.com/subject/36774007/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7kihs&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityR...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
-      "link": "https://www.v2ex.com/t/1196435#reply1",
+      "link": "https://www.v2ex.com/t/1196435#reply2",
       "pubDate": "2026-03-06T15:47:54.000Z",
       "content": "\n\t<p>本地有 claudecode/gemini/codex/cursor 。用 cc-connect 花个 10 分钟就可以把他们拉个飞书群，让他们互相聊天，太酷了。不同的 agent ，不同的能力模型，不同的人设上下文，明天试试搭建一个的“三省六部”哈哈。</p>\n<p>项目地址： <a href=\"https://github.com/chenhg5/cc-connect\" rel=\"nofollow\">https://github.com/chenhg5/cc-connect</a></p>\n<p>一些截图：</p>\n<p><img alt=\"1ab013a95014ce1d5a797b468bb86d3d.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee24e9c.webp\"/>\n<img alt=\"5ce0b4f1b763b94623ea2d18cc79c0df.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee06d8f.webp\"/>\n<img alt=\"77487389f0d62407e984b5940cd898f5.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee397e1.webp\"/>\n<img alt=\"8fcecaac33734c491eda7d06e4b8ee88.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee6af7e.webp\"/></p>\n<p>项目的一些交流群：</p>\n<p>discord: <a href=\"https://discord.gg/kHpwgaM4kq\" rel=\"nofollow\">https://discord.gg/kHpwgaM4kq</a></p>\n<p>telegram: <a href=\"https://t.me/+odGNDhCjbjdmMmZl\" rel=\"nofollow\">https://t.me/+odGNDhCjbjdmMmZl</a></p>\n<p>wechat: </p>\n<p><img alt=\"wechat_group\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://quick.go-admin.cn/ai/article/cc-connect_wechat_group_2.jpeg\"/></p>\n\n\t",
       "author": "plane",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "《逐玉》「古偶大女主」？拉完了…… (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17491952/",
-      "pubDate": "Fri, 06 Mar 2026 15:22:52 GMT",
-      "content": "\n变幻恰为永恒评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 较差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u7530\\u66e6\\u8587\\u4e00\\u9897\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "分享下最近 Vibe Coding 的日常使用 SOP",
@@ -517,7 +517,7 @@
     },
     {
       "title": "2026 年 PHP 路在何方",
-      "link": "https://www.v2ex.com/t/1196334#reply39",
+      "link": "https://www.v2ex.com/t/1196334#reply40",
       "pubDate": "2026-03-06T07:07:55.000Z",
       "content": "\n\t\n\t",
       "author": "lanhiy",
@@ -887,7 +887,7 @@
     },
     {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply39",
+      "link": "https://www.v2ex.com/t/1196121#reply40",
       "pubDate": "2026-03-05T10:08:30.000Z",
       "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
       "author": "jiaokun",
