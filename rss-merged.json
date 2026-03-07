@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-07T14:16:45.139Z",
+  "lastUpdated": "2026-03-07T15:15:12.399Z",
   "totalItems": 143,
   "items": [
     {
       "title": "一个给 AI Agent 用的事实总线",
-      "link": "https://www.v2ex.com/t/1196546#reply2",
+      "link": "https://www.v2ex.com/t/1196546#reply4",
       "pubDate": "2026-03-07T13:45:10.000Z",
       "content": "\n\t<p>最近构思了一个小项目，叫 <strong>Claw Fact Bus</strong>。</p>\n<p>核心想法其实很简单：</p>\n<blockquote>\n<p><strong>让 AI Agent 围绕「事实（ Fact ）」协作，而不是围绕「命令（ Command ）」协作。</strong></p>\n</blockquote>\n<hr/>\n<h2>多 Agent 系统常见的问题</h2>\n<p>在很多多 Agent 系统里，协作方式通常是这样的：</p>\n<p>A 调 B → B 调 C → C 调 D</p>\n<p>或者：</p>\n<ul>\n<li>用户发一堆消息</li>\n<li>多个 agent 一起感知</li>\n<li>再互相触发</li>\n</ul>\n<p>这种方式在 agent 数量少的时候还能工作，但一旦系统变复杂，很快就会遇到问题：</p>\n<ul>\n<li>需要维护越来越多的 workflow / DAG</li>\n<li>编排逻辑越来越复杂</li>\n<li>新增一个 agent 就要改旧逻辑</li>\n<li>场景稍微变化，整条调用链就会变得脆弱</li>\n</ul>\n<p>换句话说：<br/>\n<strong>系统越来越依赖“命令链”，而不是“状态”。</strong></p>\n<hr/>\n<h1>Fact：系统里流动的是「事实」</h1>\n<p>在 <strong>Claw Fact Bus</strong> 的设计里，Agent <strong>不直接调用彼此</strong>。</p>\n<p>它们只做一件事：</p>\n<p><strong>发布 Fact 。</strong></p>\n<p>例如：</p>\n<p>incident.latency.high</p>\n<p>db.query.slow</p>\n<p>code.review.needed</p>\n<p>change.proposed</p>\n<p>这些 <strong>Fact</strong> 描述的是：</p>\n<blockquote>\n<p>系统里发生的一件事情</p>\n</blockquote>\n<p>而不是：</p>\n<blockquote>\n<p>请某个 Agent 去做某件事情</p>\n</blockquote>\n<p>每个 Agent 只需要关注 <strong>自己感兴趣的 Fact 类型</strong>。</p>\n<hr/>\n<h1>Bus：所有事实在一条总线上流动</h1>\n<p>所有 Fact 都会发布到 <strong>Fact Bus</strong> 上。</p>\n<p>Agent A → 发布 fact\nAgent B/C/D → 根据过滤器感知 fact\nAgent → 响应并产生新的 fact</p>\n<p>于是系统的协作方式变成：</p>\n<p>fact → agent 响应 → 新 fact → 下一个 agent</p>\n<p>在这个模型里：</p>\n<ul>\n<li>Agent 不需要知道其他 Agent 的存在</li>\n<li>不需要维护调用关系</li>\n<li>不需要中心化 orchestrator</li>\n</ul>\n<p><strong>工作流不是提前写死的，而是从 Fact 的因果链自然形成。</strong></p>\n<hr/>\n<h1>为什么要这样做</h1>\n<p>AI Agent 和传统服务有一个很大的区别：</p>\n<ul>\n<li>输出可能不稳定</li>\n<li>同一事实可能被不同 Agent 质疑</li>\n<li>新事实可能替代旧事实</li>\n<li>观察（ observation ）和推断（ assertion ）需要区分</li>\n</ul>\n<p>所以在 <strong>Fact Bus</strong> 中，每个 Fact 都带有一些认知层的信息，例如：</p>\n<ul>\n<li>\n<p><code>semantic_kind</code></p>\n<ul>\n<li>observation</li>\n<li>request</li>\n<li>resolution</li>\n</ul>\n</li>\n<li>\n<p><code>confidence</code></p>\n<ul>\n<li>发布者的可信度</li>\n</ul>\n</li>\n<li>\n<p><code>corroborate / contradict</code></p>\n<ul>\n<li>其他 agent 可以佐证或反驳</li>\n</ul>\n</li>\n<li>\n<p><code>supersede</code></p>\n<ul>\n<li>新事实可以替代旧事实</li>\n</ul>\n</li>\n</ul>\n<p>因此它更像是：</p>\n<blockquote>\n<p><strong>AI Agent 协作的事实层（ Fact Layer ）</strong></p>\n</blockquote>\n<p>而不是简单的消息队列。</p>\n<hr/>\n<h1>一句话总结</h1>\n<p><strong>Claw Fact Bus = 一个围绕「 Fact 」而不是「 Command 」设计的 AI Agent 协作总线。</strong></p>\n<p>不是 Workflow Engine<br/>\n不是 Task Queue  </p>\n<p>而是：</p>\n<blockquote>\n<p><strong>Fact-Driven Coordination for AI Agents</strong></p>\n</blockquote>\n<hr/>\n<p>项目地址：</p>\n<p><a href=\"https://github.com/YangKGcsdms/claw_fact_bus\" rel=\"nofollow\">https://github.com/YangKGcsdms/claw_fact_bus</a></p>\n\n\t",
       "author": "tftNExtLife",
@@ -16,6 +16,46 @@
       "title": "文化190：华盖峰",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=75458&do=blog&id=1524817",
       "pubDate": "2026-03-07 12:36:47",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "临界现象二百年：第三章 范德瓦尔斯方程：一个木匠之子的逆袭",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524815",
+      "pubDate": "2026-03-07 12:24:45",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "中医与活性算法 （16）天人合一不是崇拜，而是嵌入",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524813",
+      "pubDate": "2026-03-07 12:13:13",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "中医与活性算法 （15）情志不是情绪，而是推断",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524812",
+      "pubDate": "2026-03-07 12:08:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "脸的布局对世界观的提示！",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524810",
+      "pubDate": "2026-03-07 11:46:10",
       "content": "",
       "author": "",
       "categories": [],
@@ -86,7 +126,7 @@
       "title": "不做新娘，就做杀人狂。女性力量=泼妇？ (评论: 暗黑新娘！)",
       "link": "https://movie.douban.com/review/17492812/",
       "pubDate": "Sat, 07 Mar 2026 08:37:09 GMT",
-      "content": "\n离原评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;5hhcj&#34;,&#34;text&#34;:&#34;走出影院的时候，我整个人麻了。就好像玛吉·吉伦哈尔带着两位主演拿大喇叭在我耳边喊了两个小时：耶乎黏苞米楼（还是百老汇风味的）。我就很好奇，导演家里是不是有人在东北，要不然怎么动不动就浑身抽搐（请仙上身）？&#34;,...\n",
+      "content": "\n离原评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;5hhcj&#34;,&#34;text&#34;:&#34;走出影院的时候，我整个人麻了。我就很好奇，导演家里是不是有人在东北，要不然怎么动不动就浑身抽搐（请仙上身）？&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -180,7 +220,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply37",
+      "link": "https://www.v2ex.com/t/1196478#reply39",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -372,26 +412,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "泛文夜光杯",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1524612",
-      "pubDate": "2026-03-06 11:04:29",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "陈坚--上世纪献身新疆教育事业的学子",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1524610",
-      "pubDate": "2026-03-06 10:59:43",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "简单体验了一下 openClaw，说说自己的看法",
       "link": "https://www.v2ex.com/t/1196394#reply21",
       "pubDate": "2026-03-06T10:37:20.000Z",
@@ -467,7 +487,7 @@
     },
     {
       "title": "傻 KIMI 真的是害死人",
-      "link": "https://www.v2ex.com/t/1196362#reply6",
+      "link": "https://www.v2ex.com/t/1196362#reply7",
       "pubDate": "2026-03-06T08:28:27.000Z",
       "content": "\n\t如图：让推荐套件的解决办法，给我优先推荐个黑裙的。。。。<br />太 tm 。。。扯淡了<br /><br />直接把证书搞掉<br /><br /><a target=\"_blank\" href=\"https://imgur.com/a/BTqeIIO\" rel=\"nofollow noopener\">https://imgur.com/a/BTqeIIO</a>\n\t",
       "author": "ihuihui",
@@ -484,16 +504,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "岩石的记忆——侯先光研究员发现澄江生物化石群的故事",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524751",
-      "pubDate": "2026-03-06 08:01:57",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "claude code team 可以换成其他的模型嘛",
@@ -687,7 +697,7 @@
     },
     {
       "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-      "link": "https://www.v2ex.com/t/1196273#reply32",
+      "link": "https://www.v2ex.com/t/1196273#reply33",
       "pubDate": "2026-03-06T03:45:22.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
       "author": "lynn1su",
@@ -719,16 +729,6 @@
       "title": "中医与活性算法 （14）治未病不是预防，而是临界管理",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524670",
       "pubDate": "2026-03-06 03:25:38",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "中医与活性算法 （13）养生不是保养，而是自维持",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524668",
-      "pubDate": "2026-03-06 03:21:12",
       "content": "",
       "author": "",
       "categories": [],
@@ -787,7 +787,7 @@
     },
     {
       "title": "使用 AI 中转站会不会泄漏自己的敏感信息?中转站如果给返回一些恶意信息怎么办?有用 AI 中转站的佬来分享下吗?",
-      "link": "https://www.v2ex.com/t/1196220#reply31",
+      "link": "https://www.v2ex.com/t/1196220#reply32",
       "pubDate": "2026-03-06T02:04:50.000Z",
       "content": "\n\t比如说我用了中转站的 AI API, 然后中转方在我原来的提示词基础上给我夹带了一些私货<br /><br />比如扫描某些敏感文件(加密钱包的默认存储路径)然后上传啥的, 如果是能被发现还好说, 但是如果是龙虾这种纯自动的机器人是不是就会中招? <br /><br />还是说现在已经有了很完善的防御机制, 我的信息有些落后了?<br /><br />感谢回复!\n\t",
       "author": "JoeJoeJoe",
@@ -807,7 +807,7 @@
     },
     {
       "title": "OpenAI Symphony / Anthropic Claude Code 背后的共识： Agent Harness Engineering 比选模型重要（附 50+ 项目清单）",
-      "link": "https://www.v2ex.com/t/1196207#reply7",
+      "link": "https://www.v2ex.com/t/1196207#reply8",
       "pubDate": "2026-03-06T01:24:23.000Z",
       "content": "\n\t<p>清单地址： <a href=\"https://github.com/AutoJunjie/awesome-agent-harness\" rel=\"nofollow\">https://github.com/AutoJunjie/awesome-agent-harness</a></p>\n<p>最近在深度使用 Claude Code / Codex 做项目，发现一个趋势：大家讨论的重心从\"用什么模型\"转向了\"怎么让 agent 稳定干活\"。OpenAI 团队用这套方法写了 100 万行生产代码，零人工编写，他们管这叫 harness engineering 。Anthropic 的 Claude Code 团队从工具设计的角度得出了几乎一样的结论：harness 比 model 重要。</p>\n<p>简单说，agent harness 就是包在 LLM agent 外面的那层基础设施——session 管理、上下文投喂、工具设计、架构约束、失败恢复、人类审批。模型本身不包含在内。</p>\n<p>这个领域最近项目井喷，我花了不少时间整理成了一个 awesome list ，目前收录 50+ 个项目，分了这几类：</p>\n<p>Full Lifecycle Platforms — 从需求到交付的全链路，比如 Chorus 、GitHub Agentic Workflows </p>\n<p>Agent Orchestrators — 多 agent 并行执行，worktree 隔离，比如 Vibe Kanban 、Emdash 、Warp </p>\n<p>Task Runners — issue tracker 到 coding agent 的桥梁，比如 OpenAI Symphony 、Axon </p>\n<p>Agent Harness Frameworks — 造 harness 的框架，比如 Deep Agents 、Gambit</p>\n<p>Agent Runtimes — agent 的持久运行时，比如 OpenClaw 、Zylos</p>\n<p>Coding Agents — 底层 agent 本身，Claude Code 、Codex 、Gemini CLI 等</p>\n<p>Requirements &amp; Spec Tools — 需求/spec 工具，OpenSpec 、Spec Kit 等</p>\n<p>几个有意思的观察：现在做 orchestrator 的项目最多，基本都在解决同一个问题：怎么让多个 agent 不互相踩。git worktree 隔离已经成了标配。task runner 这个品类是 OpenAI 的 Symphony 带起来的，思路很简洁：轮询 Linear issue ，spawn agent ，产出 PR 。full lifecycle 这层做的人最少，因为要同时解决需求管理、任务编排、人类审批，复杂度高一个量级。如果你也在用 AI agent 做开发，欢迎 star + PR 补充项目。</p>\n\n\t",
       "author": "autojunjie",
