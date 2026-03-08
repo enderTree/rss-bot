@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T19:17:52.959Z",
+  "lastUpdated": "2026-03-08T20:16:19.643Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-08T19:17:41.781Z",
+      "lastUpdated": "2026-03-08T20:16:09.046Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-08T19:17:42.792Z",
+      "lastUpdated": "2026-03-08T20:16:09.754Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-08T19:17:42.880Z",
+      "lastUpdated": "2026-03-08T20:16:09.832Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-08T19:17:44.385Z",
+      "lastUpdated": "2026-03-08T20:16:11.285Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,24 +303,14 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-08T19:17:44.507Z",
+      "lastUpdated": "2026-03-08T20:16:11.402Z",
       "items": [
         {
           "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply0",
+          "link": "https://www.v2ex.com/t/1196703#reply2",
           "pubDate": "2026-03-08T19:14:34.000Z",
           "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
           "author": "Donahue",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "实名预警：三天内两会期间对北京大会堂的斩首式打击",
-          "link": "https://www.v2ex.com/t/1196697#reply54",
-          "pubDate": "2026-03-08T16:41:13.000Z",
-          "content": "\n\t<p>-- 知乎阅读为 1 ，b 站无法发出。</p>\n<p>这不是狂想：就在接下来的三天内——3 月 12 日全国两会闭幕式或更早，北京大会堂可能遭到类似伊朗的斩首式先发打击。</p>\n<p>经过这几天信息的串联，这是我能想到最黑暗但也是所有线索指向的未来。</p>\n<p>韩日的军事调动，是在对伊战争这一大烟幕弹下作的最大程度资源调配，为与中国的持久战作准备！</p>\n<p>委内瑞拉的突袭，貌似是为了切断古巴生命线，所谓「伊朗战争之后，解决古巴」貌似是为了大规模登陆古巴，但别忘了在谈判中麻痹对手但先手攻击已在伊朗演练。之前的那艘古巴打沉的快艇，也是烟幕。</p>\n<p>什么机会能将中国的党政军高层一波带走？两会闭幕式或者某次全体会议。</p>\n<p>所谓「 2027 年武统台湾」、特朗普三四月访华，都是烟幕。</p>\n<p>警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！</p>\n<p>又一次不宣而战的珍珠港式袭击，不同的是这次是美军将直指中国最高层。</p>\n<p>春节期间渤海的空中对峙，就是一次演练。会将非隐身战机作为诱饵和弃子，为 F35 （以色列斩首哈梅内伊使用的）进行掩护，在北京投下巨量炸弹。</p>\n\n\t",
-          "author": "xuanwu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -710,7 +700,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-08T19:17:46.980Z",
+      "lastUpdated": "2026-03-08T20:16:13.175Z",
       "items": [
         {
           "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
@@ -917,7 +907,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-08T19:17:49.420Z",
+      "lastUpdated": "2026-03-08T20:16:15.748Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1050,6 +1040,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
+          "link": "https://book.douban.com/review/17494559/",
+          "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
+          "content": "\n项平评论: Overfitting and Heuristics in Philosophy (https://book.douban.com/subject/36884467/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;4roe7&#34;,&#34;text&#34;:&#34;作者：ChatGPT、Gemini、Grok&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;i...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "读懂四大名著，就读懂了人生：万事万物，终是虚无！ (评论: 四大名著（全四册）)",
           "link": "https://book.douban.com/review/17490907/",
           "pubDate": "Fri, 06 Mar 2026 03:03:30 GMT",
@@ -1080,6 +1080,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "那些“本该如此”，都是被发明的 (评论: 发明国际秩序)",
+          "link": "https://book.douban.com/review/17489500/",
+          "pubDate": "Thu, 05 Mar 2026 03:26:07 GMT",
+          "content": "\n树评论: 发明国际秩序 (https://book.douban.com/subject/37465018/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bpkpi&#34;,&#34;text&#34;:&#34;以为会读得很痛苦，没想到还挺喜欢的，收获很多！强烈建议搭配gpt一起读，边读边补课、边梳理思路、形成理解框架，全靠...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
           "link": "https://book.douban.com/review/17490921/",
           "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
@@ -1098,33 +1108,13 @@
           "categories": [],
           "source": "豆瓣书评",
           "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "1920年代反对禁酒令的人，和2020年代反对川普的人，可能都面对同一个困境 (评论: 仅仅是昨天)",
-          "link": "https://book.douban.com/review/17478024/",
-          "pubDate": "Thu, 26 Feb 2026 04:21:38 GMT",
-          "content": "\n囧之女神daisy评论: 仅仅是昨天 (https://book.douban.com/subject/6040905/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4e00\\u63d01920\\u5e74\\u4ee3\\uff0...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "笔记 (评论: Ace)",
-          "link": "https://book.douban.com/review/17489207/",
-          "pubDate": "Wed, 04 Mar 2026 17:44:49 GMT",
-          "content": "\n枯燥楝子评论: Ace (https://book.douban.com/subject/35250630/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u611f\\u8c22\\u53cb\\u90bb\\u7ffb\\u8...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
         }
       ]
     },
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-08T19:17:51.369Z",
+      "lastUpdated": "2026-03-08T20:16:17.915Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1332,20 +1322,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-08T19:17:52.377Z",
+      "lastUpdated": "2026-03-08T20:16:18.910Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-08T19:17:52.546Z",
+      "lastUpdated": "2026-03-08T20:16:18.973Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-08T19:17:52.959Z",
+      "lastUpdated": "2026-03-08T20:16:19.643Z",
       "items": [
         {
           "title": "无题",

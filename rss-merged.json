@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-08T19:17:52.963Z",
-  "totalItems": 133,
+  "lastUpdated": "2026-03-08T20:16:19.647Z",
+  "totalItems": 132,
   "items": [
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply0",
+      "link": "https://www.v2ex.com/t/1196703#reply2",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -18,16 +18,6 @@
       "pubDate": "2026-03-08T17:56:13.000Z",
       "content": "\n\t<p>之前 Kiro 续杯的时候，每天都沉迷 Vibe Coding 疯狂续杯</p>\n<p>后来发现 Kiro 使用了一段时间之后就开始莫名其妙的变卡，当时试过卸载重装等等各种方式好像也不管用，最后才定位到时 Kiro 本地的对话数据太多了之后（比如我是 M1 Pro 有一千多次对话数据之后基本就卡的不行了），而 Kiro 本身也不支持清理会话数据</p>\n<p>然后就写了一个小工具每隔一段时间就执行清理一下本地的各种会话缓存，每次清理完之后就能够健步如飞一段时间，分享给有需要的大佬，有用的话求个 Star </p>\n<p>Github 开源仓库链接：<a href=\"https://github.com/vibe-coding-labs/kiro-cleaner\" rel=\"nofollow\">https://github.com/vibe-coding-labs/kiro-cleaner</a></p>\n<p>执行效果图：</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-scan-command-final.gif\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-clean-command-3x.gif\"/></p>\n\n\t",
       "author": "CC11001100",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "实名预警：三天内两会期间对北京大会堂的斩首式打击",
-      "link": "https://www.v2ex.com/t/1196697#reply54",
-      "pubDate": "2026-03-08T16:41:13.000Z",
-      "content": "\n\t<p>-- 知乎阅读为 1 ，b 站无法发出。</p>\n<p>这不是狂想：就在接下来的三天内——3 月 12 日全国两会闭幕式或更早，北京大会堂可能遭到类似伊朗的斩首式先发打击。</p>\n<p>经过这几天信息的串联，这是我能想到最黑暗但也是所有线索指向的未来。</p>\n<p>韩日的军事调动，是在对伊战争这一大烟幕弹下作的最大程度资源调配，为与中国的持久战作准备！</p>\n<p>委内瑞拉的突袭，貌似是为了切断古巴生命线，所谓「伊朗战争之后，解决古巴」貌似是为了大规模登陆古巴，但别忘了在谈判中麻痹对手但先手攻击已在伊朗演练。之前的那艘古巴打沉的快艇，也是烟幕。</p>\n<p>什么机会能将中国的党政军高层一波带走？两会闭幕式或者某次全体会议。</p>\n<p>所谓「 2027 年武统台湾」、特朗普三四月访华，都是烟幕。</p>\n<p>警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！</p>\n<p>又一次不宣而战的珍珠港式袭击，不同的是这次是美军将直指中国最高层。</p>\n<p>春节期间渤海的空中对峙，就是一次演练。会将非隐身战机作为诱饵和弃子，为 F35 （以色列斩首哈梅内伊使用的）进行掩护，在北京投下巨量炸弹。</p>\n\n\t",
-      "author": "xuanwu",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -226,6 +216,16 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
+      "link": "https://book.douban.com/review/17494559/",
+      "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
+      "content": "\n项平评论: Overfitting and Heuristics in Philosophy (https://book.douban.com/subject/36884467/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;4roe7&#34;,&#34;text&#34;:&#34;作者：ChatGPT、Gemini、Grok&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;i...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "殢人娇态最轻盈",
@@ -934,6 +934,16 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "那些“本该如此”，都是被发明的 (评论: 发明国际秩序)",
+      "link": "https://book.douban.com/review/17489500/",
+      "pubDate": "Thu, 05 Mar 2026 03:26:07 GMT",
+      "content": "\n树评论: 发明国际秩序 (https://book.douban.com/subject/37465018/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bpkpi&#34;,&#34;text&#34;:&#34;以为会读得很痛苦，没想到还挺喜欢的，收获很多！强烈建议搭配gpt一起读，边读边补课、边梳理思路、形成理解框架，全靠...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
       "link": "https://book.douban.com/review/17489486/",
       "pubDate": "Thu, 05 Mar 2026 03:16:28 GMT",
@@ -968,16 +978,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "笔记 (评论: Ace)",
-      "link": "https://book.douban.com/review/17489207/",
-      "pubDate": "Wed, 04 Mar 2026 17:44:49 GMT",
-      "content": "\n枯燥楝子评论: Ace (https://book.douban.com/subject/35250630/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u611f\\u8c22\\u53cb\\u90bb\\u7ffb\\u8...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "简单总结8条变富的经验 (评论: 金钱心理学)",
@@ -1151,16 +1151,6 @@
       "categories": [],
       "source": "阮一峰的网络日志",
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
-    },
-    {
-      "title": "1920年代反对禁酒令的人，和2020年代反对川普的人，可能都面对同一个困境 (评论: 仅仅是昨天)",
-      "link": "https://book.douban.com/review/17478024/",
-      "pubDate": "Thu, 26 Feb 2026 04:21:38 GMT",
-      "content": "\n囧之女神daisy评论: 仅仅是昨天 (https://book.douban.com/subject/6040905/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4e00\\u63d01920\\u5e74\\u4ee3\\uff0...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "字节全家桶 Seed 2.0 + TRAE 玩转 Skill",
