@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T22:15:05.591Z",
+  "lastUpdated": "2026-03-08T23:15:47.493Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-08T22:14:48.039Z",
+      "lastUpdated": "2026-03-08T23:15:35.312Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-08T22:14:53.434Z",
+      "lastUpdated": "2026-03-08T23:15:36.510Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-08T22:14:53.582Z",
+      "lastUpdated": "2026-03-08T23:15:36.630Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-08T22:14:55.532Z",
+      "lastUpdated": "2026-03-08T23:15:38.423Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,8 +303,18 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-08T22:14:55.799Z",
+      "lastUpdated": "2026-03-08T23:15:38.624Z",
       "items": [
+        {
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply5",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
           "link": "https://www.v2ex.com/t/1196673#reply11",
@@ -326,18 +336,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply4",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
+          "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
+          "link": "https://www.v2ex.com/t/1196592#reply40",
+          "pubDate": "2026-03-08T03:01:06.000Z",
+          "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
+          "author": "yuan321",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "手机支持 DP1.2 重要吗？可以外接显示器",
-          "link": "https://www.v2ex.com/t/1196689#reply5",
+          "link": "https://www.v2ex.com/t/1196689#reply6",
           "pubDate": "2026-03-08T14:58:21.000Z",
           "content": "\n\t<p>看到有些手机，可以外接显示器，显示类似桌面，类似台式机一样。加上手机上也有各种远程桌面应用，比如微软的，但是不知道实用不？用手机做一些远程，是不是有点奇葩？</p>\n\n\t",
           "author": "PhoenixDancing",
@@ -351,16 +361,6 @@
           "pubDate": "2026-03-08T17:56:13.000Z",
           "content": "\n\t<p>之前 Kiro 续杯的时候，每天都沉迷 Vibe Coding 疯狂续杯</p>\n<p>后来发现 Kiro 使用了一段时间之后就开始莫名其妙的变卡，当时试过卸载重装等等各种方式好像也不管用，最后才定位到时 Kiro 本地的对话数据太多了之后（比如我是 M1 Pro 有一千多次对话数据之后基本就卡的不行了），而 Kiro 本身也不支持清理会话数据</p>\n<p>然后就写了一个小工具每隔一段时间就执行清理一下本地的各种会话缓存，每次清理完之后就能够健步如飞一段时间，分享给有需要的大佬，有用的话求个 Star </p>\n<p>Github 开源仓库链接：<a href=\"https://github.com/vibe-coding-labs/kiro-cleaner\" rel=\"nofollow\">https://github.com/vibe-coding-labs/kiro-cleaner</a></p>\n<p>执行效果图：</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-scan-command-final.gif\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-clean-command-3x.gif\"/></p>\n\n\t",
           "author": "CC11001100",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-          "link": "https://www.v2ex.com/t/1196592#reply38",
-          "pubDate": "2026-03-08T03:01:06.000Z",
-          "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
-          "author": "yuan321",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -457,7 +457,7 @@
         },
         {
           "title": "使用 Milvus 搭配 Ollama 搭建 RAG 知识库",
-          "link": "https://www.v2ex.com/t/1196665#reply0",
+          "link": "https://www.v2ex.com/t/1196665#reply1",
           "pubDate": "2026-03-08T12:27:59.000Z",
           "content": "\n\t<h3>1 、RAG 介绍</h3>\n<p>RAG （ Retrieval-Augmented Generation ，检索增强生成）是一种结合信息检索与文本生成的先进 AI 架构，其核心在于让大语言模型在回答问题前，先从外部知识库中“查找资料”，再基于查到的信息生成准确、有依据的回答。这种方法有效缓解了大模型常见的知识过时、幻觉等问题。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/8153de570e9f4349bca34735428fea61.png\"/></p>\n<h4>1.1 、RAG 基本原理</h4>\n<p>RAG 的工作流程可分为三个关键阶段：数据准备 → 检索 → 生成，形成一个“先查后答”的闭环机制。</p>\n<ul>\n<li><strong>数据准备</strong>（索引阶段）：将企业文档、网页、PDF 等非结构化数据加载并切分为小块（ chunking ），例如每段 300–800 字符。 使用嵌入模型（如 text-embedding-3-small ）将文本块转化为向量，并存储于向量数据库中，便于后续语义检索。</li>\n<li><strong>检索阶段</strong>（ Retrieval ）： 当用户提问时，系统将问题也转化为向量。 在向量数据库中通过相似度匹配（如余弦相似度）检索出最相关的若干个文本片段。 可结合关键词检索（ BM25 ）与语义检索（ DPR ）进行多路召回，提升召回率与精准度。</li>\n<li><strong>生成阶段</strong>（ Generation ）： 将检索到的相关片段与原始问题拼接成提示词（ Prompt ），输入大语言模型。 模型基于这些“参考资料”生成最终回答，确保内容有据可依，减少虚构风险。</li>\n</ul>\n<p>RAG 的准确率瓶颈本质上是“检索上下文质量”的瓶颈。如果检索不到正确信息，再强的生成模型也无法给出正确答案。</p>\n<h4>1.2 、RAG 应用场景</h4>\n<p>RAG 因其灵活性和高准确性，已在多个领域实现落地应用，尤其适合需要专业性、实时性、可解释性的场景。</p>\n<ul>\n<li><strong>企业知识库问答</strong>：员工可通过自然语言查询内部制度、产品手册、项目文档。 无需人工整理，系统自动检索并生成摘要，提升信息获取效率。</li>\n<li><strong>智能客服与售后服务</strong>：客户咨询产品功能、退换货政策时，RAG 可实时检索最新服务条款，避免因信息滞后导致误答。 支持个性化回复，如结合用户历史订单生成定制化建议。</li>\n<li><strong>医疗与法律辅助决策</strong>：医生可输入患者症状，系统检索最新诊疗指南或临床研究，辅助诊断。律师查询合同条款时，RAG 能从历史案例或法规库中提取相关判例，提升合规性。</li>\n<li><strong>学术研究与文献综述</strong>：研究者提出研究问题后，RAG 可快速检索大量论文摘要，并生成初步综述框架。节省查阅资料时间，提高科研效率。</li>\n<li><strong>动态内容生成与新闻撰写</strong>：结合实时数据（如股市行情、体育赛事结果），RAG 可生成带最新信息的报告或新闻稿。适用于财经、体育、舆情监控等对时效性要求高的领域。</li>\n</ul>\n<h4>1.3 、RAG 核心技术</h4>\n<p>RAG 的核心技术组成主要包括以下几个关键部分：</p>\n<ul>\n<li><strong>信息检索模块</strong>（ Retrieval Module ）：负责从大规模文档库中检索与用户查询最相关的文档片段。通常使用向量数据库（如 Faiss 、Pinecone 、Milvus ）存储文档的向量表示，通过计算查询向量与文档向量的相似度来实现快速检索。检索算法可以是基于关键词的（如 BM25 ）或基于语义的（如 DPR 、Sentence-BERT ）。</li>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n<li><strong>检索-生成融合机制</strong>（ Retrieval-Generation Fusion ）：将检索到的文档片段与原始查询组合成提示（ Prompt ），输入到生成模型中。这个过程可以是简单的拼接，也可以是更复杂的融合策略，如注意力机制。</li>\n<li><strong>向量数据库</strong>（ Vector Database ）：用于高效存储和检索高维向量数据。支持快速的近似最近邻（ ANN ）搜索，是实现大规模文档检索的关键。常见的向量数据库包括：Faiss 、Pinecone 、Milvus 、Weaviate 等。</li>\n<li><strong>数据预处理与后处理</strong>：数据预处理包括文档清洗、分块、去除无关内容等，以提高检索效率和质量。后处理可能包括答案过滤、格式化输出、引用标注等，以提升最终回答的可读性和可信度。这些组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。</li>\n</ul>\n<p>上述组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。\n本文选型 “Milvus （向量数据库）、Qwen （生成模型）、Qwen-embedding （嵌入模型）及 SpringAI” 讲述及实践。</p>\n<h3>2 、向量数据库</h3>\n<p>向量数据库是专门用于存储、管理和高效检索高维向量数据的新型数据库系统，它能将文本、图像、音频等非结构化数据，通过 AI 模型转化为蕴含语义特征的向量序列，再基于向量间的相似度实现“语义级检索”，解决传统数据库在非结构化数据处理上的局限性，为 RAG 智能问答、多模态搜索、智能推荐等 AI 应用提供底层支撑。</p>\n<h4>2.1 、核心工作步骤</h4>\n<ul>\n<li>\n<strong>数据向量化</strong>：生成“特征指纹”。这是向量数据库的前置核心环节，需借助 Embedding 模型将原始非结构化数据转化为高维向量，同时要平衡向量维度：维度越高特征表达越精细、检索精度越高，但存储和计算成本会指数级增长；维度越低效率越高，但可能丢失关键特征导致精度下降，工业级常规选择文本 768-1536 维、图像 512-2048 维。<ul>\n<li>文本数据：可选用 OpenAI 的 text-embedding-ada-002 （通用场景最优，1536 维）、国产开源的 BGE （性价比之选，768 维）、微调后的 BERT （细分领域首选）等模型。</li>\n<li>图像数据：CLIP （支持文本搜图的多模态适配模型）、ResNet （纯图像特征提取模型）是常用工具。</li>\n<li>音频数据：Wav2Vec2 （语音转向量）、VGGish （音频场景特征提取）可满足需求。</li>\n</ul>\n</li>\n<li><strong>存储与索引构建</strong>：加速相似性计算。向量数据库会将生成的高维向量存储起来，并构建特殊索引结构来提升检索效率，常见索引算法有 IVF （倒排文件）、HNSW （分层可导航小世界图）等，它们能大幅降低相似性计算的耗时。</li>\n<li>\n<strong>相似性检索</strong>：找“最近邻”。当用户发起查询时，系统先将查询内容转为向量，再在数据库中寻找与其“距离最近”的 Top-K 个向量，常用的距离度量方式有三种：<ul>\n<li>余弦相似度：最常用，只关注向量方向、忽略长度，适合语义级对比，如文本检索，计算结果取值范围[-1,1]，越接近 1 相似度越高。</li>\n<li>欧氏距离：计算两个向量的直线距离，同时考虑方向与长度，适合关注绝对特征差异的场景，如图像检索，值越小相似度越高，需提前对向量进行归一化处理。</li>\n<li>点积相似度：计算速度最快，但受向量长度影响大，对向量进行 L2 归一化后，结果等价于余弦相似度，适合高并发低延迟场景，如实时推荐。</li>\n</ul>\n</li>\n</ul>\n<h3>3 、Milvus 介绍</h3>\n<p>Milvus 是一款专为高维向量数据设计的云原生向量数据库，广泛应用于人工智能、机器学习和相似性搜索场景。它采用存储与计算分离的架构，具备高可用性、高性能和弹性扩展能力。</p>\n<p><img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/be0828ff3e2d4355aa1c76230f4f1cdb.png\"/></p>\n<h4>3.1 、核心架构层次</h4>\n<p>Milvus 的系统架构分为四个主要层次：</p>\n<ul>\n<li><strong>接入层</strong>（ Access Layer ）：作为系统的入口，由一组无状态的 Proxy 组件构成，负责请求路由和负载均衡。</li>\n<li><strong>协调服务</strong>（ Coordinator Service ）：管理元数据、任务调度和状态同步，包括 Root Coordinator 、Data Coordinator 和 Index Coordinator 等。</li>\n<li><strong>执行节点</strong>（ Worker Node ）：处理实际的数据插入、查询和索引构建等操作，包含 Query Node 、Index Node 和 Data Node 。</li>\n<li><strong>存储层</strong>（ Storage Layer ）：负责持久化存储，使用对象存储（如 S3 、MinIO ）来保存向量数据和索引文件，同时通过 etcd 和 Pulsar/Kafka 管理元数据和日志。</li>\n</ul>\n<h4>3.2 、数据模型与存储机制:</h4>\n<table>\n<thead>\n<tr>\n<th>维度</th>\n<th>Milvus</th>\n<th>关系型数据库</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>数据组织结构</td>\n<td>Database → Collection → Partition → Segment → Entity</td>\n<td>Database → Table → Row</td>\n<td>Milvus 以 Segment 为最小存储单元，支持分片；关系库以页或块为单位</td>\n</tr>\n<tr>\n<td>存储介质</td>\n<td>对象存储（ S3/MinIO ）+ 元数据存储（ etcd ）+ 消息队列（ Pulsar/Kafka ）</td>\n<td>磁盘文件 + 日志（ Redo Log ）</td>\n<td>Milvus 使用对象存储持久化数据，元数据由 etcd 管理；关系库依赖本地存储</td>\n</tr>\n<tr>\n<td>索引机制</td>\n<td>支持多种 ANN 索引（ HNSW 、IVF 、FLAT 等）</td>\n<td>B-tree 、Hash 、Bitmap 等</td>\n<td>Milvus 为高维向量优化索引，支持近似搜索；关系库为低维结构化字段设计</td>\n</tr>\n</tbody></table><h4>3.3 、术语映射关系:</h4>\n<table>\n<thead>\n<tr>\n<th>Milvus 术语</th>\n<th>关系型数据库术语</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Database</td>\n<td>Database</td>\n<td>数据库是组织和管理数据的逻辑单元。为了提高数据安全性并实现多租户，你可以创建多个数据库，为不同的应用程序或租户从逻辑上隔离数据。Milvus 在集合之上引入了数据库层，为管理和组织数据提供了更有效的方式，同时支持多租户</td>\n</tr>\n<tr>\n<td>Collection</td>\n<td>Table</td>\n<td>数据集合，定义字段结构。用于存储和管理实体的主要逻辑对象。</td>\n</tr>\n<tr>\n<td>Partition</td>\n<td>Partition</td>\n<td>集合内的物理分区</td>\n</tr>\n<tr>\n<td>Segment</td>\n<td>Page / Block</td>\n<td>定义数据类型和数据属性的元信息。每个 Collections 都有自己的 Collections Schema ，该 Schema 定义了 Collections 的所有字段、自动 ID （主键）分配启用和 Collection 说明</td>\n</tr>\n<tr>\n<td>Field</td>\n<td>Column</td>\n<td>字段类型支持标量与向量</td>\n</tr>\n<tr>\n<td>Entity</td>\n<td>Row</td>\n<td>单条数据记录</td>\n</tr>\n<tr>\n<td>Index</td>\n<td>Index</td>\n<td>向量索引，类型多样</td>\n</tr>\n</tbody></table><h3>4 、Milvus 本地部署</h3>\n<h4>4.1 、Docker Compose 部署</h4>\n<p>Milvus 提供了 Docker Compose 配置文件：</p>\n<pre><code class=\"language-shell\">wget https://github.com/milvus-io/milvus/releases/download/v2.6.11/milvus-standalone-docker-compose.yml -O docker-compose.yml\n\nsudo docker compose up -d\n\nCreating milvus-etcd  ... done\nCreating milvus-minio ... done\nCreating milvus-standalone ... done\n</code></pre>\n<p>启动完成后可以访问 Milvus WebUI 网址（ <a href=\"http://127.0.0.1:9091/webui/\" rel=\"nofollow\">http://127.0.0.1:9091/webui/</a> ）了解有关 Milvus 实例的更多信息。</p>\n<h4>4.2 、Attu （可视化工具）安装</h4>\n<p>Attu 是 Milvus 官方推出的图形化管理工具，提供直观的可视化界面，方便用户查看和管理向量数据库。通过 Attu ，用户可以轻松完成数据库架构设计、数据操作、向量搜索等复杂任务，大大降低 Milvus 的使用门槛。</p>\n<pre><code class=\"language-shell\">docker run -d --name milvus-attu \\\n  -p 8000:3000 \\\n  -e MILVUS_URL=localhost:19530 \\\n  zilliz/attu:v2.6\n</code></pre>\n<p>Attu 启动完成后可以访问（ http://localhost:8000 ），以图形化方式查看和管理 Milvus 实例。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/9d5e8ea98751424d9c57e5984e128b57.png\"/></p>\n<h3>5 、模型本地安装</h3>\n<p>RAG 系统依赖 Embedding 与 Generation 两类模型：</p>\n<ul>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n</ul>\n<p>本文分别选择 “qwen3-embedding” 与 “qwen3.5” 作为嵌入模型与生成模型，Ollama 本地安装如下；</p>\n<pre><code>admin@Mac-miniM4 milvus % ollama list\nNAME                                ID              SIZE      MODIFIED    \nqwen3.5:2b                          324d162be6ca    2.7 GB    3 hours ago    \nqwen3-embedding:0.6b                ac6da0dfba84    639 MB    4 hours ago    \n</code></pre>\n<h3>6 、RAG 系统设计</h3>\n<p>RAG 知识库的核心价值在于「结构化检索（关系型）+ 语义检索（向量）」的融合，实体模型设计需同时兼顾关系型数据的结构化关联能力和向量数据的语义匹配能力，既要保证实体间的逻辑关联清晰，又要实现基于语义的精准检索。以下聚焦「关系型 + 向量数据融合」的实体模型设计，包含核心实体定义、数据存储分工、关联逻辑、落地实现四大核心模块。</p>\n<h4>6.1 、核心设计原则（融合版）</h4>\n<ul>\n<li><strong>分工明确</strong>：关系型数据库（ MySQL ）存储「实体元数据、关联关系、检索过滤条件」，向量数据库（ Milvus ）存储「文本语义向量」，避免单库承载所有压力；</li>\n<li><strong>双向关联</strong>：关系型数据与向量数据通过唯一 ID （ chunk_id ）绑定，支持「从关系型维度筛选→向量语义检索」「从向量检索结果→回溯关系型元数据」；</li>\n<li><strong>轻量化融合</strong>：向量数据仅存储核心检索单元（ Chunk ）的向量，不冗余存储文档 / 实体的全量向量，关系型数据补充向量无法表达的结构化信息（如实体类型、文档来源）。</li>\n</ul>\n<h4>6.2 、核心实体模型（关系型 + 向量融合）</h4>\n<p><strong>实体分工总览</strong>：</p>\n<table>\n<thead>\n<tr>\n<th>数据类型</th>\n<th>存储载体</th>\n<th>存储内容</th>\n<th>核心作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>关系型数据</td>\n<td>MySQL/PostgreSQL</td>\n<td>文档 / Chunk / 业务实体的元数据、实体间关联关系、检索过滤字段（状态 / 租户 / 类型）</td>\n<td>结构化筛选、实体关联、结果回溯</td>\n</tr>\n<tr>\n<td>向量数据</td>\n<td>Milvus/PGVector/FAISS</td>\n<td>Chunk 的 Embedding 向量、向量索引（ IVF_FLAT/HNSW ）</td>\n<td>语义相似度检索</td>\n</tr>\n</tbody></table><p><strong>关系型实体表设计（核心元数据 + 关联）</strong>：</p>\n<ul>\n<li>\n<p><strong>Knowledge</strong>（知识库实体，关系型）：存储知识库定义元数据，维护知识库 Embedding 模型、向量数据库设置信息。</p>\n</li>\n<li>\n<p><strong>Document</strong>（文档实体，关系型）：存储文档级结构化元数据，是所有子实体的根节点，不存储完整内容和向量。</p>\n</li>\n<li>\n<p><strong>Chunk</strong>（文本块实体，关系型）：\n存储 Chunk 的元数据，仅保留向量 ID （与向量库绑定），不存储原始向量，是关系型与向量数据的核心桥梁。</p>\n</li>\n<li>\n<p><strong>向量数据模型设计（语义检索核心）</strong>：\nMilvus 中创建「 knowledge_vector_collection 」集合，与关系型 Chunk 表的 vector_id 一一对应：</p>\n</li>\n</ul>\n<h3>7 、RAG 关键代码</h3>\n<h4>7.1 、Maven 依赖引入</h4>\n<p>使用 SpringAI 进行模型与向量数据库集成，需要添加如下依赖：</p>\n<pre><code>&lt;!-- milvus --&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;io.milvus&lt;/groupId&gt;\n    &lt;artifactId&gt;milvus-sdk-java&lt;/artifactId&gt;\n&lt;/dependency&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.ai&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-ai-starter-model-ollama&lt;/artifactId&gt;\n&lt;/dependency&gt;\n</code></pre>\n<h4>7.2 、知识数据向量化入库</h4>\n<p>核心流程为：「文档分块 → 向量化 → Milvus 入库」</p>\n<pre><code>// 1 、初始化 Embedding 模型\nEmbeddingModel embeddingModel = OllamaEmbeddingModel\n                .builder()\n                .defaultOptions(OllamaEmbeddingOptions\n                        .builder()\n                        .model(EMBEDDING_MODEL_NAME)\n                        .dimensions(VECTOR_DIMENSION)\n                        .build())\n                .ollamaApi(ollamaApi)\n                .build();\n\n// 2 、知识文档正文分块\nList&lt;String&gt; chunks = splitDocument(doc.getContent());\n\n// 3 、Chunk 文档向量化处理\nList&lt;float[]&gt; vectors = embeddingModel.embed(texts);\n\n// 4 、知识数据向量化入库\nList&lt;JsonObject&gt; vectorData = process(vectors);\nUpsertResp upsertResp = client.upsert(UpsertReq.builder()\n                .collectionName(collectionName)\n                .data(vectorData)\n                .build());\n</code></pre>\n<h4>7.3 、知识相似度检索</h4>\n<p>核心流程为：「问题向量化 → Milvus 检索」</p>\n<pre><code>// 1 、问题向量化\nfloat[] keywordVector = embed(List.of(keyword)).get(0);\n\n// 2 、向量 检索\nSearchReq searchReq = SearchReq.builder()\n                    .collectionName(buildCollectionName(kbId))                          \t\t\n                    .data(Collections.singletonList(new FloatVec(keywordVector)))  \n                    .annsField(\"contentVector\")                                         \t\t\t\n                    .outputFields(Arrays.asList(\"id\", \"chunkId\", \"contentVector\"))     \n                    .limit(TOP_K_COUNT)\n                    .searchParams(Map.of(\"radius\", SIMILARITY_THRESHOLD))   // 相似度阈值\n                    .build();\nSearchResp searchResp = client.search(searchReq);\n</code></pre>\n<h4>7.4 、知识库系统交互</h4>\n<p>知识库系统交互见下文，支持针对文档进行新建、管理、向量化/Embedding 、相似度检索等操作。为 RAG 、\n部分截图如下：</p>\n<ul>\n<li>知识库管理：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/c6f62ec646114df88d0a33cb79a526d0.png\"/></li>\n<li>知识相似度检索：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/fb8fb2ff484e422e9c2d0e3afbcb955f.png\"/></li>\n</ul>\n\n\t",
           "author": "xuxueli",
@@ -516,21 +516,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "大家说的封号，具体封的是什么？",
-          "link": "https://www.v2ex.com/t/1196623#reply4",
-          "pubDate": "2026-03-08T06:24:13.000Z",
-          "content": "\n\t<p>邮箱？手机号？信用卡号？还是全封？\n同一个手机号/信用卡给不同账号付款 有没有风险？</p>\n\n\t",
-          "author": "craftsmanship",
+          "title": "Carry Code v0.7.3 发布：基于 Rust 的 AI 编程助手",
+          "link": "https://www.v2ex.com/t/1196652#reply3",
+          "pubDate": "2026-03-08T10:35:09.000Z",
+          "content": "\n\t<p>大家好！ Carry Code v0.7.3 正式发布了！这是一个使用 Rust 彻底重写的, 终端原生的 AI 代码代理，能通过自然对话帮助你编写、重构、调试和理解代码。</p>\n<blockquote>\n<p>Q: Carry Code 为什么选择做 Cli 作为交互形式?</p>\n</blockquote>\n<blockquote>\n<p>A: 我们认为编程的最终形式是黑灯工厂, 端到端实现需求定义到产品交付, 甚至无需人工介入;</p>\n</blockquote>\n<ul>\n<li>官网： <a href=\"https://carrycode.ai\" rel=\"nofollow\">https://carrycode.ai</a></li>\n<li>文档： <a href=\"https://carrycode.ai/docs\" rel=\"nofollow\">https://carrycode.ai/docs</a></li>\n<li>源码： <a href=\"https://github.com/deepcarryai/carrycode\" rel=\"nofollow\">https://github.com/deepcarryai/carrycode</a></li>\n</ul>\n<h2>📦 v0.7.3 更新</h2>\n<ol>\n<li><strong>环境变量自动加载 Model API Key</strong>：支持从环境变量读取 Claude 、Gemini 、OpenAI 、OpenRouter 的密钥, <code>carry</code>命令可以直接兼容你的其他 cli 客户端;</li>\n<li><strong>Skills 智能推理</strong>：大模型能自动选择合适的技能, 功能上对齐 claude code 和 openclaw;</li>\n<li><strong>MCP 输出标准化</strong>：与 Bash 工具输出格式对齐，更直观;</li>\n<li><strong>原生 GPT-5.4/5.4 Pro 支持</strong>, <strong>原生 OpenRouter 支持</strong>;</li>\n</ol>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.23.02.png\"/></p>\n<h2>✨ 核心亮点</h2>\n<p>🤖 双模式 Agent</p>\n<ul>\n<li><strong>Build 模式</strong>：自主生成和编辑代码</li>\n<li><strong>Plan 模式</strong>：只读分析和规划方案，安全可控</li>\n</ul>\n<p>🧩 MCP 协议支持</p>\n<ul>\n<li>通过 Model Context Protocol 扩展智能体能力，用 <code>/mcp</code> 轻松管理</li>\n</ul>\n<p>🎯 SKILL 技能系统</p>\n<ul>\n<li>v0.7.3 新增 16 个内置技能，大模型会自动选择合适的技能来完成任务</li>\n<li>与 Claude Code Skills 兼容，可用 <code>/skill</code> 管理</li>\n</ul>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.28.33.png\"/></p>\n<p>📋 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a></p>\n<ul>\n<li>在项目根目录放置 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a> ，CarryCode 就会遵循项目专属规范</li>\n</ul>\n<p>🎨 精美终端 UI</p>\n<ul>\n<li>渐变 Banner 、Markdown 渲染、语法高亮、代码 Diff 预览</li>\n<li>亮色/暗色主题一键切换</li>\n</ul>\n<p>🔌 17+ 模型服务商</p>\n<ul>\n<li>OpenAI 、Claude 、Gemini 、DeepSeek 、Kimi 、GLM 、MiniMax 、通义千问、Ollama 、vLLM 、OpenRouter……总有一款适合你</li>\n</ul>\n<p>🚀 240+ SOTA 模型</p>\n<ul>\n<li>GPT-5.4/5.4 Pro 、Claude Opus/Sonnet 4.6 、Gemini 3 Pro/Flash 、Kimi 2.5 、DeepSeek V3.2 、Qwen3 等业界最新模型的原生支持(准确上下文适配和多模态识别).</li>\n</ul>\n<p>🗜️ 智能上下文压缩</p>\n<ul>\n<li>自动压缩长对话，适应 Token 限制同时保留关键信息</li>\n</ul>\n<h2>📥 安装</h2>\n<pre><code> 1 │ # MacOS / Linux\n 2 │ curl -fsSL https://carrycode.ai/install.sh | sudo sh\n 3 │ \n 4 │ # Windows\n 5 │ irm https://carrycode.ai/install.ps1 | iex\n\n 1 │ # 运行\n 2 │ carry\n</code></pre>\n<p>或使用单次模式：</p>\n<pre><code> 1 │ carry --once \"解释这个函数\"\n</code></pre>\n<p>快来试试吧！🎉</p>\n\n\t",
+          "author": "zhangliang605",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Carry Code v0.7.3 发布：基于 Rust 的 AI 编程助手",
-          "link": "https://www.v2ex.com/t/1196652#reply2",
-          "pubDate": "2026-03-08T10:35:09.000Z",
-          "content": "\n\t<p>大家好！ Carry Code v0.7.3 正式发布了！这是一个使用 Rust 彻底重写的, 终端原生的 AI 代码代理，能通过自然对话帮助你编写、重构、调试和理解代码。</p>\n<blockquote>\n<p>Q: Carry Code 为什么选择做 Cli 作为交互形式?</p>\n</blockquote>\n<blockquote>\n<p>A: 我们认为编程的最终形式是黑灯工厂, 端到端实现需求定义到产品交付, 甚至无需人工介入;</p>\n</blockquote>\n<ul>\n<li>官网： <a href=\"https://carrycode.ai\" rel=\"nofollow\">https://carrycode.ai</a></li>\n<li>文档： <a href=\"https://carrycode.ai/docs\" rel=\"nofollow\">https://carrycode.ai/docs</a></li>\n<li>源码： <a href=\"https://github.com/deepcarryai/carrycode\" rel=\"nofollow\">https://github.com/deepcarryai/carrycode</a></li>\n</ul>\n<h2>📦 v0.7.3 更新</h2>\n<ol>\n<li><strong>环境变量自动加载 Model API Key</strong>：支持从环境变量读取 Claude 、Gemini 、OpenAI 、OpenRouter 的密钥, <code>carry</code>命令可以直接兼容你的其他 cli 客户端;</li>\n<li><strong>Skills 智能推理</strong>：大模型能自动选择合适的技能, 功能上对齐 claude code 和 openclaw;</li>\n<li><strong>MCP 输出标准化</strong>：与 Bash 工具输出格式对齐，更直观;</li>\n<li><strong>原生 GPT-5.4/5.4 Pro 支持</strong>, <strong>原生 OpenRouter 支持</strong>;</li>\n</ol>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.23.02.png\"/></p>\n<h2>✨ 核心亮点</h2>\n<p>🤖 双模式 Agent</p>\n<ul>\n<li><strong>Build 模式</strong>：自主生成和编辑代码</li>\n<li><strong>Plan 模式</strong>：只读分析和规划方案，安全可控</li>\n</ul>\n<p>🧩 MCP 协议支持</p>\n<ul>\n<li>通过 Model Context Protocol 扩展智能体能力，用 <code>/mcp</code> 轻松管理</li>\n</ul>\n<p>🎯 SKILL 技能系统</p>\n<ul>\n<li>v0.7.3 新增 16 个内置技能，大模型会自动选择合适的技能来完成任务</li>\n<li>与 Claude Code Skills 兼容，可用 <code>/skill</code> 管理</li>\n</ul>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.28.33.png\"/></p>\n<p>📋 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a></p>\n<ul>\n<li>在项目根目录放置 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a> ，CarryCode 就会遵循项目专属规范</li>\n</ul>\n<p>🎨 精美终端 UI</p>\n<ul>\n<li>渐变 Banner 、Markdown 渲染、语法高亮、代码 Diff 预览</li>\n<li>亮色/暗色主题一键切换</li>\n</ul>\n<p>🔌 17+ 模型服务商</p>\n<ul>\n<li>OpenAI 、Claude 、Gemini 、DeepSeek 、Kimi 、GLM 、MiniMax 、通义千问、Ollama 、vLLM 、OpenRouter……总有一款适合你</li>\n</ul>\n<p>🚀 240+ SOTA 模型</p>\n<ul>\n<li>GPT-5.4/5.4 Pro 、Claude Opus/Sonnet 4.6 、Gemini 3 Pro/Flash 、Kimi 2.5 、DeepSeek V3.2 、Qwen3 等业界最新模型的原生支持(准确上下文适配和多模态识别).</li>\n</ul>\n<p>🗜️ 智能上下文压缩</p>\n<ul>\n<li>自动压缩长对话，适应 Token 限制同时保留关键信息</li>\n</ul>\n<h2>📥 安装</h2>\n<pre><code> 1 │ # MacOS / Linux\n 2 │ curl -fsSL https://carrycode.ai/install.sh | sudo sh\n 3 │ \n 4 │ # Windows\n 5 │ irm https://carrycode.ai/install.ps1 | iex\n\n 1 │ # 运行\n 2 │ carry\n</code></pre>\n<p>或使用单次模式：</p>\n<pre><code> 1 │ carry --once \"解释这个函数\"\n</code></pre>\n<p>快来试试吧！🎉</p>\n\n\t",
-          "author": "zhangliang605",
+          "title": "大家说的封号，具体封的是什么？",
+          "link": "https://www.v2ex.com/t/1196623#reply4",
+          "pubDate": "2026-03-08T06:24:13.000Z",
+          "content": "\n\t<p>邮箱？手机号？信用卡号？还是全封？\n同一个手机号/信用卡给不同账号付款 有没有风险？</p>\n\n\t",
+          "author": "craftsmanship",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -710,12 +710,22 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-08T22:14:58.061Z",
+      "lastUpdated": "2026-03-08T23:15:40.933Z",
       "items": [
         {
-          "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524859",
-          "pubDate": "2026-03-07 09:01:11",
+          "title": "尽快发表才是“王道”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
+          "pubDate": "2026-03-08 07:32:15",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "庆三八",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
+          "pubDate": "2026-03-08 08:32:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -733,19 +743,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "尽快发表才是“王道”",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
-          "pubDate": "2026-03-08 07:32:15",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "庆三八",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
-          "pubDate": "2026-03-08 08:32:05",
+          "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524859",
+          "pubDate": "2026-03-07 09:01:11",
           "content": "",
           "author": "",
           "categories": [],
@@ -793,6 +793,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "科学史中的教训：第二章 空气的恐惧：托里拆利与真空的恐怖",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524935",
+          "pubDate": "2026-03-08 05:46:08",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "《时空的织物》——致物理探索者",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524870",
           "pubDate": "2026-03-08 02:20:00",
@@ -806,6 +816,16 @@
           "title": "中医与活性算法 （17）中药不是天然药，而是生态信号",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524883",
           "pubDate": "2026-03-08 08:55:00",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第一章 天空的背叛：第谷·布拉赫的鼻子与金星的相位",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524934",
+          "pubDate": "2026-03-08 05:34:57",
           "content": "",
           "author": "",
           "categories": [],
@@ -833,26 +853,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第二章 空气的恐惧：托里拆利与真空的恐怖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524935",
-          "pubDate": "2026-03-08 05:46:08",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "临界现象二百年：第四章 铁与磁的迷宫：居里点与相变家族",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524886",
-          "pubDate": "2026-03-08 09:05:46",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "榆叶梅粉红炸裂，郁李仁通便给力",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524921",
           "pubDate": "2026-03-08 03:56:01",
@@ -873,9 +873,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第一章 天空的背叛：第谷·布拉赫的鼻子与金星的相位",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524934",
-          "pubDate": "2026-03-08 05:34:57",
+          "title": "临界现象二百年：第四章 铁与磁的迷宫：居里点与相变家族",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524886",
+          "pubDate": "2026-03-08 09:05:46",
           "content": "",
           "author": "",
           "categories": [],
@@ -883,9 +883,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "人工智能发展和治理中几个热点问题",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524841",
-          "pubDate": "2026-03-07 07:07:32",
+          "title": "[笔记，科普，数学] 素数（4）：素数定理，黎曼两个估计的误差",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524948",
+          "pubDate": "2026-03-08 09:01:13",
           "content": "",
           "author": "",
           "categories": [],
@@ -917,7 +917,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-08T22:15:00.373Z",
+      "lastUpdated": "2026-03-08T23:15:43.422Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,7 +1124,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-08T22:15:03.408Z",
+      "lastUpdated": "2026-03-08T23:15:45.323Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-08T22:15:04.506Z",
+      "lastUpdated": "2026-03-08T23:15:46.544Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-08T22:15:04.768Z",
+      "lastUpdated": "2026-03-08T23:15:46.817Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-08T22:15:05.591Z",
+      "lastUpdated": "2026-03-08T23:15:47.493Z",
       "items": [
         {
           "title": "无题",
