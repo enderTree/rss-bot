@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-07T23:14:51.059Z",
+  "lastUpdated": "2026-03-08T01:17:01.865Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-07T23:14:39.742Z",
+      "lastUpdated": "2026-03-08T01:16:49.391Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-07T23:14:40.875Z",
+      "lastUpdated": "2026-03-08T01:16:50.236Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-07T23:14:40.957Z",
+      "lastUpdated": "2026-03-08T01:16:50.372Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-07T23:14:42.714Z",
+      "lastUpdated": "2026-03-08T01:16:52.198Z",
       "items": [
         {
           "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
@@ -303,8 +303,28 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-07T23:14:42.932Z",
+      "lastUpdated": "2026-03-08T01:16:52.430Z",
       "items": [
+        {
+          "title": "Claude Code / Codex CLI 国内怎么用？一行命令搞定，无需翻墙",
+          "link": "https://www.v2ex.com/t/1196575#reply0",
+          "pubDate": "2026-03-08T00:51:40.000Z",
+          "content": "\n\t<p>最近 Claude Code 、Codex CLI 、Aider 这些 AI 编程工具越来越火，但国内用户面临几个问题：</p>\n<p>官方 API 需要翻墙\n信用卡注册麻烦\n不知道怎么配置工具\n今天分享一个完整方案：HolySheep API + holysheep-cli 一键配置。</p>\n<p>什么是 HolySheep ？\nHolySheep 是面向国内开发者的 Claude/GPT/Gemini 官方 API 中转服务：</p>\n<p>🇨🇳 国内直连，不需要代理\n💰 ¥1 = $1 美元额度，汇率直换无溢价，支付宝/微信充值\n🔑 支持全系列：Claude Sonnet/Opus 、GPT-5 、Gemini 2.5 Pro\n📦 按量付费，没有月费，余额永不过期\n一键配置所有工具</p>\n<h1>第一步：安装 Node.js 18+（已装跳过）</h1>\n<h1>macOS</h1>\n<p>brew install node</p>\n<h1>Windows</h1>\n<p>winget install OpenJS.NodeJS.LTS</p>\n<h1>Linux</h1>\n<p>curl -fsSL <a href=\"https://deb.nodesource.com/setup_lts.x\" rel=\"nofollow\">https://deb.nodesource.com/setup_lts.x</a> | sudo -E bash - &amp;&amp; sudo apt-get install -y nodejs</p>\n<h1>第二步：一键登录 + 配置</h1>\n<p>npx @<a href=\"/member/simonyea\">simonyea</a>/holysheep-cli login   # 保存 API Key\nnpx @<a href=\"/member/simonyea\">simonyea</a>/holysheep-cli setup   # 一键配置所有工具\n自动检测并配置：Claude Code 、Codex CLI 、Aider 、Continue 、OpenCode 等。</p>\n<p>手动配置各工具\nClaude Code\nnpm install -g @<a href=\"/member/anthropic-ai\">anthropic-ai</a>/claude-code</p>\n<p>export ANTHROPIC_BASE_URL=<a href=\"https://api.holysheep.ai\" rel=\"nofollow\">https://api.holysheep.ai</a>\nexport ANTHROPIC_AUTH_TOKEN=你的 cr_xxx 密钥\nclaude\nCodex CLI （ v0.111+ Rust 版）\n~/.codex/config.toml：</p>\n<p>model = \"gpt-5.4\"\nmodel_provider = \"holysheep\"</p>\n<p>[model_providers.holysheep]\nname = \"HolySheep\"\nbase_url = \"<a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a>\"\nenv_key = \"OPENAI_API_KEY\"\n同时设置：</p>\n<p>export OPENAI_API_KEY=你的 cr_xxx 密钥\nAider\npip install aider-install &amp;&amp; aider-install</p>\n<p>export OPENAI_API_KEY=你的 cr_xxx 密钥\naider --openai-api-base <a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a> --model openai/claude-sonnet-4-5\nContinue （ VS Code 插件）\n~/.continue/config.yaml：</p>\n<p>models:</p>\n<ul>\n<li>name: HolySheep Claude Sonnet\nprovider: openai\nmodel: claude-sonnet-4-5\napiKey: 你的 cr_xxx 密钥\napiBase: <a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a>\nAPI 接入信息\n用途\t地址\nAnthropic SDK / Claude Code\t<a href=\"https://api.holysheep.ai\" rel=\"nofollow\">https://api.holysheep.ai</a> （不带 /v1 ）\nOpenAI 兼容 / Codex / Aider\t<a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a> （带 /v1 ）\n注册地址：<a href=\"http://holysheep.ai\" rel=\"nofollow\">holysheep.ai</a> ，新用户注册即送试用额度。</li>\n</ul>\n<p>开源工具：<a href=\"http://github.com/holysheep123/holysheep-cli\" rel=\"nofollow\">github.com/holysheep123/holysheep-cli</a></p>\n\n\t",
+          "author": "yutong1983",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "为了方便我每次配置 claudecodeapi 中转我开发了一个两条指令搞定的工具",
+          "link": "https://www.v2ex.com/t/1196573#reply0",
+          "pubDate": "2026-03-08T00:03:26.000Z",
+          "content": "\n\t<p><a href=\"https://github.com/holysheep123/holysheep-cli\" rel=\"nofollow\">https://github.com/holysheep123/holysheep-cli</a>\n全程一条指令就可以搞定目前市面上支持的所有 cli\nnpx @simonyea/holysheep-cli setup</p>\n\n\t",
+          "author": "yutong1983",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "claude code 使用哪家国内 api 靠谱",
           "link": "https://www.v2ex.com/t/1196478#reply56",
@@ -371,6 +391,16 @@
           "pubDate": "2026-03-07T04:20:00.000Z",
           "content": "\n\t走 Real-IP 后被 DNS 搞魔怔了。<br /><br />目前自建了远端 DNS server ，所有的 DNS 请求都会走代理协议。主要走 UDP 代理协议，不稳的时候考虑切 TCP 。<br /><br />最开始为了最低延迟，选择了用原生 UDP 的 DNS ，也就是 UDP over UDP 的 dns 请求。但是 AI 说如果我哪天切 tcp 的代理协议代理走 udp dns 会存在拥堵算法的问题。Surge 官网也说默认屏蔽 UDP 可以省去很多问题。<br /><br />后来考虑走 Raw TCP 的 DNS ，也就是 raw TCP over UDP 。但是 AI 又说普通 Infra 对纯 TCP 的 DNS 支持不是那么全面。<br /><br />现在考虑 DoT 或者 DoH ，但是这两个都走 TLS ，相当于多了一次加密。而且都是走 TCP ，也就是走 quic 的代理要 TLS + TCP over UDP 。不知道这样如何。<br /><br />还有个新的 DoQ ，可以 QUIC over QUIC 。<br /><br />UDP vs TCP vs DoT vs DoH vs DoQ 大家都是怎么选择的？\n\t",
           "author": "cj323",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "国产 AI Coding Plan 现在选哪家比较好？",
+          "link": "https://www.v2ex.com/t/1195635#reply65",
+          "pubDate": "2026-03-04T02:02:43.000Z",
+          "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
+          "author": "WangLiCha",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -487,7 +517,7 @@
         },
         {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply115",
+          "link": "https://www.v2ex.com/t/1196011#reply116",
           "pubDate": "2026-03-05T04:33:26.000Z",
           "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
           "author": "v2exgo",
@@ -626,16 +656,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "国产 AI Coding Plan 现在选哪家比较好？",
-          "link": "https://www.v2ex.com/t/1195635#reply63",
-          "pubDate": "2026-03-04T02:02:43.000Z",
-          "content": "\n\t<p>因为工作有合规需求，所以只能从国产 AI 中考虑了。</p>\n<p>年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……</p>\n<p>现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？</p>\n<p>所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。</p>\n<p>另外阿里云有一个代码方案打包套餐，那个怎么样？</p>\n\n\t",
-          "author": "WangLiCha",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
           "link": "https://www.v2ex.com/t/1196147#reply28",
           "pubDate": "2026-03-05T12:31:35.000Z",
@@ -684,33 +704,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "系统架构设计师，求分享经验、视频",
-          "link": "https://www.v2ex.com/t/1196265#reply4",
-          "pubDate": "2026-03-06T03:29:35.000Z",
-          "content": "\n\t<p>上次考软设 <a href=\"https://www.v2ex.com/t/1144106#reply18\" rel=\"nofollow\">https://www.v2ex.com/t/1144106#reply18</a> ，听 @katfao 大佬的推荐，2 个月把视频过了一遍然后做了近 10 年的真题，低分飘过。\n现在想再考个高级的系统架构设计师，特再来求一下分享视频和经验。</p>\n<p>个人背景：</p>\n<p>非科班，10+ 年客户端经验，经验排名 iOS &gt; flutter &gt; android 。</p>\n<p>先行谢过各位大佬🫡</p>\n\n\t",
-          "author": "rrubick",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Aliyun 的登录页面崩了吗，为什么 500",
-          "link": "https://www.v2ex.com/t/1196346#reply2",
-          "pubDate": "2026-03-06T07:55:28.000Z",
-          "content": "\n\t<p>阿里云平台登录不了了，直接 500 ，登录弹窗直接挂了，不知道是不是 cdn 还是我电脑出问题了</p>\n<p>500 Internal Server Error\nThe server encountered an internal error or misconfiguration and was unable to complete your request. Sorry for the inconvenience.\nPlease report this message and include the following information to us.\nThank you very much!</p>\n\n\t",
-          "author": "fiveStarLaoliang",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-07T23:14:45.232Z",
+      "lastUpdated": "2026-03-08T01:16:54.948Z",
       "items": [
         {
           "title": "东京樱花已绽放",
@@ -813,16 +813,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "岩石的记忆——侯先光研究员发现澄江生物化石群的故事",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1524751",
-          "pubDate": "2026-03-06 08:01:57",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "中国人文社科学者在研究什么？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
           "pubDate": "2026-03-07 09:50:52",
@@ -836,6 +826,16 @@
           "title": "SSCI 论文 2025年 发文概况",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
           "pubDate": "2026-03-07 10:12:07",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524859",
+          "pubDate": "2026-03-07 09:01:11",
           "content": "",
           "author": "",
           "categories": [],
@@ -873,9 +873,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524859",
-          "pubDate": "2026-03-07 09:01:11",
+          "title": "[转载]《七中的回忆》——写给孩子们的话（老伴文章）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=496942&do=blog&id=1524786",
+          "pubDate": "2026-03-07 08:53:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -883,19 +883,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "海滩上的孩子",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524769",
-          "pubDate": "2026-03-06 11:04:26",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "惟有痴豚来戏人（古今诗词咏江豚续七百五十七）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524772",
-          "pubDate": "2026-03-07 06:14:32",
+          "title": "散文初作（12）：《客家颂》",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1251036&do=blog&id=1524801",
+          "pubDate": "2026-03-07 10:30:51",
           "content": "",
           "author": "",
           "categories": [],
@@ -911,13 +901,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "海滩上的孩子",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524769",
+          "pubDate": "2026-03-06 11:04:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-07T23:14:47.560Z",
+      "lastUpdated": "2026-03-08T01:16:57.532Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,13 +1124,23 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-07T23:14:49.517Z",
+      "lastUpdated": "2026-03-08T01:16:59.546Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
           "link": "https://movie.douban.com/review/17492150/",
           "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
           "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "平台强按头的爆剧，真的能爆吗 (评论: 逐玉)",
+          "link": "https://movie.douban.com/review/17492278/",
+          "pubDate": "Sat, 07 Mar 2026 00:50:57 GMT",
+          "content": "\n北大荒野玫瑰评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;9migb&#34;,&#34;text&#34;:&#34; 这部作品堪称“灾难级”的观剧体验。男主全程面瘫式的表演令人如坐针毡，喜怒哀乐全凭眉头那微不可察的抽搐。剧情幼稚得仿佛初中生暑期习作，逻辑漏洞百出。导演刻意追求的“构图感”极度生硬，每个镜头都像在拍精修写真，与叙事严重割裂。男女主更是工业糖精的集大成者，...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1147,10 +1157,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "平台强按头的爆剧，真的能爆吗 (评论: 逐玉)",
-          "link": "https://movie.douban.com/review/17492278/",
-          "pubDate": "Sat, 07 Mar 2026 00:50:57 GMT",
-          "content": "\n北大荒野玫瑰评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;9migb&#34;,&#34;text&#34;:&#34; 这部作品堪称“灾难级”的观剧体验。男主全程面瘫式的表演令人如坐针毡，喜怒哀乐全凭眉头那微不可察的抽搐。剧情幼稚得仿佛初中生暑期习作，逻辑漏洞百出。导演刻意追求的“构图感”极度生硬，每个镜头都像在拍精修写真，与叙事严重割裂。男女主更是工业糖精的集大成者，...\n",
+          "title": "来一点脑袋空空的田园环保震撼 (评论: 河狸变身计划)",
+          "link": "https://movie.douban.com/review/17493280/",
+          "pubDate": "Sat, 07 Mar 2026 13:38:02 GMT",
+          "content": "\n42号乌托邦评论: 河狸变身计划 (https://movie.douban.com/subject/36999793/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;b51of&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;da...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1177,6 +1187,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "车，钻石，劫案，阶层。 (评论: 洛杉矶劫案)",
+          "link": "https://movie.douban.com/review/17493432/",
+          "pubDate": "Sat, 07 Mar 2026 14:46:12 GMT",
+          "content": "\nJH评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "不配被称为女性电影的性转版《末路狂花》 (评论: 暗黑新娘！)",
           "link": "https://movie.douban.com/review/17491829/",
           "pubDate": "Fri, 06 Mar 2026 14:24:49 GMT",
@@ -1191,6 +1211,26 @@
           "link": "https://movie.douban.com/review/17492404/",
           "pubDate": "Sat, 07 Mar 2026 03:09:53 GMT",
           "content": "\nPuff评论: 镖人：风起大漠 (https://movie.douban.com/subject/36474027/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;24&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.dou...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "I would prefer not to (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17491637/",
+          "pubDate": "Fri, 06 Mar 2026 12:32:13 GMT",
+          "content": "\n我是辽宁人评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\uff1a\\u766b\\u75eb/\\u5149\\u654f\\u...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "我想吃砂糖酱油味的纳豆糯米团? (评论: 小森林 冬春篇)",
+          "link": "https://movie.douban.com/review/17492887/",
+          "pubDate": "Sat, 07 Mar 2026 09:28:00 GMT",
+          "content": "\n明石同学评论: 小森林 冬春篇 (https://movie.douban.com/subject/25814707/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5728\\u5916\\u5a46\\u5bb6\\u70e4\\u7...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1217,20 +1257,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "I would prefer not to (评论: 暗黑新娘！)",
-          "link": "https://movie.douban.com/review/17491637/",
-          "pubDate": "Fri, 06 Mar 2026 12:32:13 GMT",
-          "content": "\n我是辽宁人评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\uff1a\\u766b\\u75eb/\\u5149\\u654f\\u...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "我的儿子是西楚霸王 (评论: 寻秦记)",
-          "link": "https://movie.douban.com/review/17492759/",
-          "pubDate": "Sat, 07 Mar 2026 07:50:35 GMT",
-          "content": "\n柯南牌抱枕评论: 寻秦记 (https://movie.douban.com/subject/2983389/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
+          "title": "(不全找我)小教授全盘点！谁才是你心中的No1反派？ (评论: 青年夏洛克)",
+          "link": "https://movie.douban.com/review/17493490/",
+          "pubDate": "Sat, 07 Mar 2026 15:10:20 GMT",
+          "content": "\n爱丽丝-Alice评论: 青年夏洛克 (https://movie.douban.com/subject/36881771/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;30&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1247,40 +1277,30 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "如何接受自己的「平凡」 (评论: 女孩不平凡)",
-          "link": "https://movie.douban.com/review/17490599/",
-          "pubDate": "Thu, 05 Mar 2026 17:09:46 GMT",
-          "content": "\n午牛评论: 女孩不平凡 (https://movie.douban.com/subject/36576305/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;b03vh&#34;,&#34;text&#34;:&#34;《女孩不平凡》：如何接受自己「平凡」&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:...\n",
+          "title": "重生之当上导演翻拍爱了三十年的作家的作品原来是这么爽的事情吗 (评论: 钟表馆事件)",
+          "link": "https://movie.douban.com/review/17490619/",
+          "pubDate": "Thu, 05 Mar 2026 17:30:33 GMT",
+          "content": "\n津島 松聲评论: 钟表馆事件 (https://movie.douban.com/subject/37168638/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;0&#34;: {&#34;data&#34;: {&#34;site_name&#34;: &#34;\\u817e\\u8baf\\u6587\\u6863&#34;, &#34;...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "我的心为之裂开一道缝隙 (评论: 哈姆奈特)",
-          "link": "https://movie.douban.com/review/17492441/",
-          "pubDate": "Sat, 07 Mar 2026 03:55:10 GMT",
-          "content": "\n我爱阳光评论: 哈姆奈特 (https://movie.douban.com/subject/35618471/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5728\\u53bb\\u6d77\\u5357\\u7684\\u6...\n",
+          "title": "回来复盘一下太失望了，创作的根本立场有问题 (评论: 非穷尽列举)",
+          "link": "https://movie.douban.com/review/17493509/",
+          "pubDate": "Sat, 07 Mar 2026 15:19:05 GMT",
+          "content": "\nmomo评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5b83\\u5728\\u63cf\\u7ed8\\u4e00\\u4...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "影评文章《我不是我想成为的那种人》- Metrograph转载自存 (评论: 我不是我想成为的那种人)",
-          "link": "https://movie.douban.com/review/17491203/",
-          "pubDate": "Fri, 06 Mar 2026 07:08:12 GMT",
-          "content": "\n啧你管我评论: 我不是我想成为的那种人 (https://movie.douban.com/subject/35417818/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fjsv8&#34;,&#34;text&#34;:&#34;作者：Keva York&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;ebgud&#34;,&#34;tex...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "感谢郑业成，让我再次心动 (评论: 在你眉梢种红豆)",
-          "link": "https://movie.douban.com/review/17492363/",
-          "pubDate": "Sat, 07 Mar 2026 02:42:08 GMT",
-          "content": "\n薯宝评论: 在你眉梢种红豆 (https://movie.douban.com/subject/37434368/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "title": "我的儿子是西楚霸王 (评论: 寻秦记)",
+          "link": "https://movie.douban.com/review/17492759/",
+          "pubDate": "Sat, 07 Mar 2026 07:50:35 GMT",
+          "content": "\n柯南牌抱枕评论: 寻秦记 (https://movie.douban.com/subject/2983389/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1297,30 +1317,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "《除恶》王萍：我从来就没有过怨言 (评论: 除恶)",
-          "link": "https://movie.douban.com/review/17491830/",
-          "pubDate": "Fri, 06 Mar 2026 14:24:56 GMT",
-          "content": "\n火神纪评论: 除恶 (https://movie.douban.com/subject/36566053/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;dd0dg&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;atomic&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[{&#34;offset&#34;:0,&#34;leng...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《幸福的选择》日本场刊 (评论: 无可奈何)",
-          "link": "https://movie.douban.com/review/17492609/",
-          "pubDate": "Sat, 07 Mar 2026 05:47:02 GMT",
-          "content": "\nmomo评论: 无可奈何 (https://movie.douban.com/subject/4092781/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;84jn1&#34;,&#34;text&#34;:&#34;《无可奈何》在日本上映时的译名是『しあわせな選択』（幸福的选择）。&#34;,&#34;type&#34;:...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "Annie写给女儿的信 (评论: 极乐凶间 第二季)",
-          "link": "https://movie.douban.com/review/17490900/",
-          "pubDate": "Fri, 06 Mar 2026 02:58:51 GMT",
-          "content": "\n万年静音选手评论: 极乐凶间 第二季 (https://movie.douban.com/subject/37245783/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;Hello, darling.  \\nIf you\\u2019re...\n",
+          "title": "山顶喊话很浪漫 (评论: 花儿与少年·同心季)",
+          "link": "https://movie.douban.com/review/17493722/",
+          "pubDate": "Sat, 07 Mar 2026 17:14:08 GMT",
+          "content": "\n他说风也睡觉啦评论: 花儿与少年·同心季 (https://movie.douban.com/subject/37116462/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u8fc7\\u5e74\\u671f\\u95f4\\u770b\\u5...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-07T23:14:50.586Z",
+      "lastUpdated": "2026-03-08T01:17:00.855Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-07T23:14:50.797Z",
+      "lastUpdated": "2026-03-08T01:17:01.115Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-07T23:14:51.059Z",
+      "lastUpdated": "2026-03-08T01:17:01.865Z",
       "items": [
         {
           "title": "无题",
