@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-03-08T01:17:01.870Z",
+  "lastUpdated": "2026-03-08T04:03:20.509Z",
   "totalItems": 133,
   "items": [
     {
+      "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
+      "link": "https://www.v2ex.com/t/1196595#reply1",
+      "pubDate": "2026-03-08T03:20:25.000Z",
+      "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
+      "author": "JamesMackerel",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
+      "link": "https://www.v2ex.com/t/1196592#reply7",
+      "pubDate": "2026-03-08T03:01:06.000Z",
+      "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
+      "author": "yuan321",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "Claude Code / Codex CLI 国内怎么用？一行命令搞定，无需翻墙",
-      "link": "https://www.v2ex.com/t/1196575#reply0",
+      "link": "https://www.v2ex.com/t/1196575#reply1",
       "pubDate": "2026-03-08T00:51:40.000Z",
       "content": "\n\t<p>最近 Claude Code 、Codex CLI 、Aider 这些 AI 编程工具越来越火，但国内用户面临几个问题：</p>\n<p>官方 API 需要翻墙\n信用卡注册麻烦\n不知道怎么配置工具\n今天分享一个完整方案：HolySheep API + holysheep-cli 一键配置。</p>\n<p>什么是 HolySheep ？\nHolySheep 是面向国内开发者的 Claude/GPT/Gemini 官方 API 中转服务：</p>\n<p>🇨🇳 国内直连，不需要代理\n💰 ¥1 = $1 美元额度，汇率直换无溢价，支付宝/微信充值\n🔑 支持全系列：Claude Sonnet/Opus 、GPT-5 、Gemini 2.5 Pro\n📦 按量付费，没有月费，余额永不过期\n一键配置所有工具</p>\n<h1>第一步：安装 Node.js 18+（已装跳过）</h1>\n<h1>macOS</h1>\n<p>brew install node</p>\n<h1>Windows</h1>\n<p>winget install OpenJS.NodeJS.LTS</p>\n<h1>Linux</h1>\n<p>curl -fsSL <a href=\"https://deb.nodesource.com/setup_lts.x\" rel=\"nofollow\">https://deb.nodesource.com/setup_lts.x</a> | sudo -E bash - &amp;&amp; sudo apt-get install -y nodejs</p>\n<h1>第二步：一键登录 + 配置</h1>\n<p>npx @<a href=\"/member/simonyea\">simonyea</a>/holysheep-cli login   # 保存 API Key\nnpx @<a href=\"/member/simonyea\">simonyea</a>/holysheep-cli setup   # 一键配置所有工具\n自动检测并配置：Claude Code 、Codex CLI 、Aider 、Continue 、OpenCode 等。</p>\n<p>手动配置各工具\nClaude Code\nnpm install -g @<a href=\"/member/anthropic-ai\">anthropic-ai</a>/claude-code</p>\n<p>export ANTHROPIC_BASE_URL=<a href=\"https://api.holysheep.ai\" rel=\"nofollow\">https://api.holysheep.ai</a>\nexport ANTHROPIC_AUTH_TOKEN=你的 cr_xxx 密钥\nclaude\nCodex CLI （ v0.111+ Rust 版）\n~/.codex/config.toml：</p>\n<p>model = \"gpt-5.4\"\nmodel_provider = \"holysheep\"</p>\n<p>[model_providers.holysheep]\nname = \"HolySheep\"\nbase_url = \"<a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a>\"\nenv_key = \"OPENAI_API_KEY\"\n同时设置：</p>\n<p>export OPENAI_API_KEY=你的 cr_xxx 密钥\nAider\npip install aider-install &amp;&amp; aider-install</p>\n<p>export OPENAI_API_KEY=你的 cr_xxx 密钥\naider --openai-api-base <a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a> --model openai/claude-sonnet-4-5\nContinue （ VS Code 插件）\n~/.continue/config.yaml：</p>\n<p>models:</p>\n<ul>\n<li>name: HolySheep Claude Sonnet\nprovider: openai\nmodel: claude-sonnet-4-5\napiKey: 你的 cr_xxx 密钥\napiBase: <a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a>\nAPI 接入信息\n用途\t地址\nAnthropic SDK / Claude Code\t<a href=\"https://api.holysheep.ai\" rel=\"nofollow\">https://api.holysheep.ai</a> （不带 /v1 ）\nOpenAI 兼容 / Codex / Aider\t<a href=\"https://api.holysheep.ai/v1\" rel=\"nofollow\">https://api.holysheep.ai/v1</a> （带 /v1 ）\n注册地址：<a href=\"http://holysheep.ai\" rel=\"nofollow\">holysheep.ai</a> ，新用户注册即送试用额度。</li>\n</ul>\n<p>开源工具：<a href=\"http://github.com/holysheep123/holysheep-cli\" rel=\"nofollow\">github.com/holysheep123/holysheep-cli</a></p>\n\n\t",
       "author": "yutong1983",
@@ -14,7 +34,7 @@
     },
     {
       "title": "为了方便我每次配置 claudecodeapi 中转我开发了一个两条指令搞定的工具",
-      "link": "https://www.v2ex.com/t/1196573#reply0",
+      "link": "https://www.v2ex.com/t/1196573#reply1",
       "pubDate": "2026-03-08T00:03:26.000Z",
       "content": "\n\t<p><a href=\"https://github.com/holysheep123/holysheep-cli\" rel=\"nofollow\">https://github.com/holysheep123/holysheep-cli</a>\n全程一条指令就可以搞定目前市面上支持的所有 cli\nnpx @simonyea/holysheep-cli setup</p>\n\n\t",
       "author": "yutong1983",
@@ -253,6 +273,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "农田实验生态和作物光合生理生态研究忆述（4）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1524785",
+      "pubDate": "2026-03-07 08:48:02",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "如何识别学会？",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524783",
       "pubDate": "2026-03-07 08:44:48",
@@ -303,6 +333,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "惟有痴豚来戏人（古今诗词咏江豚续七百五十七）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1524772",
+      "pubDate": "2026-03-07 06:14:32",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
       "link": "https://www.appinn.com/openclaw-channel-qqbot/",
       "pubDate": "Sat, 07 Mar 2026 06:06:01 +0000",
@@ -330,7 +370,7 @@
     },
     {
       "title": "请教自建 DNS 的协议选择 DoH vs DoT vs DoQ vs Raw UDP/TCP",
-      "link": "https://www.v2ex.com/t/1196484#reply7",
+      "link": "https://www.v2ex.com/t/1196484#reply9",
       "pubDate": "2026-03-07T04:20:00.000Z",
       "content": "\n\t走 Real-IP 后被 DNS 搞魔怔了。<br /><br />目前自建了远端 DNS server ，所有的 DNS 请求都会走代理协议。主要走 UDP 代理协议，不稳的时候考虑切 TCP 。<br /><br />最开始为了最低延迟，选择了用原生 UDP 的 DNS ，也就是 UDP over UDP 的 dns 请求。但是 AI 说如果我哪天切 tcp 的代理协议代理走 udp dns 会存在拥堵算法的问题。Surge 官网也说默认屏蔽 UDP 可以省去很多问题。<br /><br />后来考虑走 Raw TCP 的 DNS ，也就是 raw TCP over UDP 。但是 AI 又说普通 Infra 对纯 TCP 的 DNS 支持不是那么全面。<br /><br />现在考虑 DoT 或者 DoH ，但是这两个都走 TLS ，相当于多了一次加密。而且都是走 TCP ，也就是走 quic 的代理要 TLS + TCP over UDP 。不知道这样如何。<br /><br />还有个新的 DoQ ，可以 QUIC over QUIC 。<br /><br />UDP vs TCP vs DoT vs DoH vs DoQ 大家都是怎么选择的？\n\t",
       "author": "cj323",
@@ -350,7 +390,7 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply56",
+      "link": "https://www.v2ex.com/t/1196478#reply60",
       "pubDate": "2026-03-07T03:52:02.000Z",
       "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
       "author": "terry2048",
@@ -482,34 +522,14 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "I would prefer not to (评论: 暗黑新娘！)",
-      "link": "https://movie.douban.com/review/17491637/",
-      "pubDate": "Fri, 06 Mar 2026 12:32:13 GMT",
-      "content": "\n我是辽宁人评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\uff1a\\u766b\\u75eb/\\u5149\\u654f\\u...\n",
+      "title": "《黑暗新娘！》：主题表达过多导致的混乱观感 (评论: 暗黑新娘！)",
+      "link": "https://movie.douban.com/review/17491752/",
+      "pubDate": "Fri, 06 Mar 2026 13:48:15 GMT",
+      "content": "\n龙骨评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/3...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "海滩上的孩子",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1524769",
-      "pubDate": "2026-03-06 11:04:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "SPRU主任希望我就双边研讨会写一篇博文——日记摘抄1153",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524757",
-      "pubDate": "2026-03-06 09:22:54",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "claude code CLI 登录 401",
@@ -536,18 +556,8 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "重新维护了一下 mcp-feedback-enhanced",
-      "link": "https://www.v2ex.com/t/1196371#reply4",
-      "pubDate": "2026-03-06T08:50:57.000Z",
-      "content": "\n\t重新维护了一下 [mcp-feedback-enhanced]( <a target=\"_blank\" href=\"https://github.com/Minidoracat/mcp-feedback-enhanced\" rel=\"nofollow noopener\">https://github.com/Minidoracat/mcp-feedback-enhanced</a>)<br /><br />简化，升级，默认，样式稍微改了下，感兴趣的可以用用<br />自用，也没什么大的演进意愿。(去除语言支持是因为阻塞了集成测试)<br /><br /><a target=\"_blank\" href=\"https://github.com/RealAlexandreAI/mcp-interactive\" rel=\"nofollow noopener\">https://github.com/RealAlexandreAI/mcp-interactive</a><br /><br /> <a target=\"_blank\" href=\"https://i.imgur.com/8iwBkuT.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/8iwBkuT.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-      "author": "Foralrec",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Agent 在传统企业的尝试与阻碍",
-      "link": "https://www.v2ex.com/t/1196366#reply15",
+      "link": "https://www.v2ex.com/t/1196366#reply17",
       "pubDate": "2026-03-06T08:34:51.000Z",
       "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
       "author": "magicfield",
@@ -561,16 +571,6 @@
       "pubDate": "2026-03-06T08:30:06.000Z",
       "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
       "author": "SSang",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "trellis v0.3.6 changelog",
-      "link": "https://www.v2ex.com/t/1196363#reply0",
-      "pubDate": "2026-03-06T08:28:36.000Z",
-      "content": "\n\t<h1>基础信息</h1>\n<p>原 repo\n<a href=\"https://github.com/mindfold-ai/Trellis\" rel=\"nofollow\">https://github.com/mindfold-ai/Trellis</a>\n文档站\n<a href=\"https://docs.trytrellis.app/zh\" rel=\"nofollow\">https://docs.trytrellis.app/zh</a></p>\n<h2>v0.3.6 - 任务生命周期 hooks 、自定义模板仓库、父子 subtask 、修复 PreToolUse hook</h2>\n<p><strong>新增功能：</strong></p>\n<ul>\n<li><code>trellis init --registry</code> 支持从自定义 GitHub/GitLab/Bitbucket 仓库拉取 Spec 模板，自动探测 marketplace 模式（ index.json ）和直接下载模式</li>\n<li>任务生命周期 hooks：<code>.trellis/config.yaml</code> 新增 <code>hooks</code> 配置块，支持 <code>after_create</code>、<code>after_start</code>、<code>after_finish</code>、<code>after_archive</code> 四个事件，通过 <code>TASK_JSON_PATH</code> 环境变量传递任务信息，附带 Linear sync hook 示例\n参考： <a href=\"https://docs.trytrellis.app/zh/guide/ch06-task-management#6-6-%E4%BB%BB%E5%8A%A1%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-hooks\" rel=\"nofollow\">https://docs.trytrellis.app/zh/guide/ch06-task-management#6-6-%E4%BB%BB%E5%8A%A1%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F-hooks</a></li>\n<li>父子 subtask 支持：<code><a href=\"http://task.py\" rel=\"nofollow\">task.py</a> add-subtask</code> / <code>remove-subtask</code> 命令，task.json 新增 <code>children</code>、<code>parent</code>、<code>meta</code> 字段，<code><a href=\"http://task.py\" rel=\"nofollow\">task.py</a> create --parent</code> 直接创建子任务</li>\n<li><code>/record-session</code> prompt 改进：归档判断基于实际工作状态而非 task.json status 字段</li>\n<li><code>/brainstorm</code> prompt 新增 subtask decomposition 步骤</li>\n</ul>\n<p><strong>Bug 修复：</strong></p>\n<ul>\n<li><strong>PreToolUse context injection 失效</strong>：Claude Code v2.1.63 将内部工具从 <code>Task</code> 改名为 <code>Agent</code>（<a href=\"https://github.com/anthropics/claude-code/issues/29677\" rel=\"nofollow\">anthropics/claude-code#29677</a>），导致 hook 脚本 <code>tool_name != \"Task\"</code> 检查直接退出，implement/check/debug/research agent 的 code-spec context 注入全部失效。修复：兼容 <code>Task</code> 和 <code>Agent</code> 两种名称，settings.json 新增 <code>\"Agent\"</code> matcher</li>\n</ul>\n\n\t",
-      "author": "fmfsaisai",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -727,7 +727,7 @@
     },
     {
       "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
-      "link": "https://www.v2ex.com/t/1196209#reply33",
+      "link": "https://www.v2ex.com/t/1196209#reply35",
       "pubDate": "2026-03-06T01:30:15.000Z",
       "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
       "author": "anyChris",
@@ -797,7 +797,7 @@
     },
     {
       "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-      "link": "https://www.v2ex.com/t/1196147#reply28",
+      "link": "https://www.v2ex.com/t/1196147#reply29",
       "pubDate": "2026-03-05T12:31:35.000Z",
       "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
       "author": "ope",
@@ -827,7 +827,7 @@
     },
     {
       "title": "当前开发跨平台桌面应用应该用什么语言和框架？考虑到生态和性能，以及 vibe coding 加持",
-      "link": "https://www.v2ex.com/t/1196104#reply74",
+      "link": "https://www.v2ex.com/t/1196104#reply75",
       "pubDate": "2026-03-05T08:59:38.000Z",
       "content": "\n\t<p>AI 给的两个：\nRust + Tauri 2<br/>\nTypeScript + Electron / Tauri</p>\n\n\t",
       "author": "hotea",
@@ -867,7 +867,7 @@
     },
     {
       "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply116",
+      "link": "https://www.v2ex.com/t/1196011#reply117",
       "pubDate": "2026-03-05T04:33:26.000Z",
       "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
       "author": "v2exgo",
@@ -916,7 +916,7 @@
     },
     {
       "title": "DoytoQuery vs SpringDataJPA",
-      "link": "https://www.v2ex.com/t/1195941#reply13",
+      "link": "https://www.v2ex.com/t/1195941#reply15",
       "pubDate": "2026-03-05T02:05:20.000Z",
       "content": "\n\t<p>SpringDataJPA 支持通过 findBy 方法构建查询语句，然而 findBy 方法构建的查询条件是固定的，不支持忽略值为 null 的参数对应的查询条件，这导致我们需要为每一组参数组合定义一个 findBy 方法。例如：</p>\n<pre><code class=\"language-java\">findByAuthor\nfindByAuthorAndPublishedYearGreaterThan\nfindByAuthorAndPublishedYearLessThan\nfindByAuthorAndPublishedYearGreaterThanAndPublishedYearLessThan\n</code></pre>\n<p>当条件变多时，方法名会变长，参数也会变多，并触发“长参数”坏味道。解决这一问题的重构方法是“引入参数对象”，即把所有的参数定义在一个对象里。同时，我们把 findBy 的方法名中对应查询条件的部分作为这个对象的字段名称，我们便能为每个字段构建一个查询条件，并且根据对象的赋值情况，动态地组合非空字段对应的查询条件组合为查询子句。</p>\n<pre><code class=\"language-java\">public class BookQuery {\n    String author;\n    Integer publishedYearGreaterThan;\n    Integer publishedYearLessThan;\n    //...\n}\n</code></pre>\n<p>基于此对象，我们可以把所有的 findBy 方法合并为一个泛型方法，从而简化查询接口的设计。</p>\n<pre><code class=\"language-java\">public class CrudRepository&lt;E, I, Q&gt; {\n    List&lt;E&gt; findBy(Q query);\n    //...\n}\n</code></pre>\n<p>提出查询对象这一概念，并利用它来解决动态查询问题，正是 DoytoQuery 的核心功能。</p>\n\n\t",
       "author": "f0rb",
