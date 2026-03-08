@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-08T05:37:30.264Z",
+  "lastUpdated": "2026-03-08T06:32:23.544Z",
   "totalItems": 133,
   "items": [
     {
+      "title": "大家说的封号，具体封的是什么？",
+      "link": "https://www.v2ex.com/t/1196623#reply0",
+      "pubDate": "2026-03-08T06:24:13.000Z",
+      "content": "\n\t<p>邮箱？手机号？信用卡号？还是全封？\n同一个手机号/信用卡给不同账号付款 有没有风险？</p>\n\n\t",
+      "author": "craftsmanship",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "Codex 的额度又又又重置了。",
-      "link": "https://www.v2ex.com/t/1196614#reply0",
+      "link": "https://www.v2ex.com/t/1196614#reply1",
       "pubDate": "2026-03-08T05:34:07.000Z",
       "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
       "author": "lifei6671",
@@ -14,7 +24,7 @@
     },
     {
       "title": "Chatbox AI / Cherry Studio / Monica 这类整合平台的定位是什么？",
-      "link": "https://www.v2ex.com/t/1196609#reply1",
+      "link": "https://www.v2ex.com/t/1196609#reply2",
       "pubDate": "2026-03-08T05:08:47.000Z",
       "content": "\n\t<p>Chatbox AI / Cherry Studio / Monica 这类第三方工具需要通过 LLM 的 API 去调用模型的。本身开 llm plus 或者 pro 也没办法在第三方平台使用？如果是 api 的费用应该比 plus ，pro 要高吧？</p>\n<p>或者 在第三方平台开其会员。但是这样就和中转站一样了吧？我之前试过几个平台，感觉明显的降智，根本无法判断是其声明的模型。通用的提示词和问题，gpt5.2 ，gemini pro 的结果和官方 ui 差别巨大。</p>\n<p>所以不是太理解这类平台的用户群体是什么样的？或者应该什么场景使用？</p>\n\n\t",
       "author": "Saunak",
@@ -24,7 +34,7 @@
     },
     {
       "title": "新手 nas 玩家，如何优雅的刮削各大网盘",
-      "link": "https://www.v2ex.com/t/1196608#reply3",
+      "link": "https://www.v2ex.com/t/1196608#reply6",
       "pubDate": "2026-03-08T05:04:26.000Z",
       "content": "\n\t<p>接上贴，<a href=\"https://www.v2ex.com/t/1193556\" rel=\"nofollow\">https://www.v2ex.com/t/1193556</a> ，已安装飞牛。\n如何优雅的看各种电影视频，或者需要什么网盘，会员吗</p>\n\n\t",
       "author": "miusmile",
@@ -54,7 +64,7 @@
     },
     {
       "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
-      "link": "https://www.v2ex.com/t/1196595#reply8",
+      "link": "https://www.v2ex.com/t/1196595#reply10",
       "pubDate": "2026-03-08T03:20:25.000Z",
       "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
       "author": "JamesMackerel",
@@ -64,7 +74,7 @@
     },
     {
       "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-      "link": "https://www.v2ex.com/t/1196592#reply9",
+      "link": "https://www.v2ex.com/t/1196592#reply10",
       "pubDate": "2026-03-08T03:01:06.000Z",
       "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
       "author": "yuan321",
@@ -101,6 +111,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "超出预期，内部撕裂、规则破坏，由法治转向个人裁量审判。 (评论: 洛杉矶劫案)",
+      "link": "https://movie.douban.com/review/17493780/",
+      "pubDate": "Sat, 07 Mar 2026 19:10:09 GMT",
+      "content": "\n风里浪评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6ca1\\u770b\\u4e4b\\u524d\\uff0c\\u6...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "(不全找我)小教授全盘点！谁才是你心中的No1反派？ (评论: 青年夏洛克)",
@@ -196,16 +216,6 @@
       "title": "东京樱花已绽放",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524805",
       "pubDate": "2026-03-07 11:25:13",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "散文初作（12）：《客家颂》",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1251036&do=blog&id=1524801",
-      "pubDate": "2026-03-07 10:30:51",
       "content": "",
       "author": "",
       "categories": [],
@@ -341,6 +351,16 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "無不為為用",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1524847",
+      "pubDate": "2026-03-07 08:23:26",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "科研过程中要识别重要的问题和可能的问题",
@@ -509,16 +529,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "你们能不能不跳粪坑？ (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17491932/",
-      "pubDate": "Fri, 06 Mar 2026 15:13:50 GMT",
-      "content": "\n·L·评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u9762\\u5bf9\\u5f3a\\u5978\\u6307\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "曾导真的一点不浪费这两张伟大的脸 (评论: 逐玉)",
       "link": "https://movie.douban.com/review/17491886/",
       "pubDate": "Fri, 06 Mar 2026 14:51:31 GMT",
@@ -611,16 +621,6 @@
       "pubDate": "2026-03-06T08:28:27.000Z",
       "content": "\n\t如图：让推荐套件的解决办法，给我优先推荐个黑裙的。。。。<br />太 tm 。。。扯淡了<br /><br />直接把证书搞掉<br /><br /><a target=\"_blank\" href=\"https://imgur.com/a/BTqeIIO\" rel=\"nofollow noopener\">https://imgur.com/a/BTqeIIO</a>\n\t",
       "author": "ihuihui",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "claude code team 可以换成其他的模型嘛",
-      "link": "https://www.v2ex.com/t/1196351#reply11",
-      "pubDate": "2026-03-06T07:58:56.000Z",
-      "content": "\n\t<p>比如换成阿里 coding plan 里的 qwen ，或者其他的三方提供的 aipkey 的模型，有测试过的嘛，求指导</p>\n\n\t",
-      "author": "jyq711",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -737,7 +737,7 @@
     },
     {
       "title": "Claude Code 用中转 API 有没有坑？想听听大家的实际体验",
-      "link": "https://www.v2ex.com/t/1196209#reply35",
+      "link": "https://www.v2ex.com/t/1196209#reply36",
       "pubDate": "2026-03-06T01:30:15.000Z",
       "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
       "author": "anyChris",
@@ -837,7 +837,7 @@
     },
     {
       "title": "OpenClaw 跟我远程操作 Claude/Codex 的区别在哪儿？",
-      "link": "https://www.v2ex.com/t/1196087#reply77",
+      "link": "https://www.v2ex.com/t/1196087#reply78",
       "pubDate": "2026-03-05T08:20:43.000Z",
       "content": "\n\t<p>好多人搞龙虾的结果都是「跑通」.\n然而跑通不等于能用，更不等于好用啊！<br/>\n这玩意还是太不稳定了吧...可能今天行了明天就不行了啊...  </p>\n<p>我坐电脑前用 CC 感觉能干的事儿就干了，不需要龙虾啊；<br/>\n需要远程让 openClaw 干的事儿还是很少的，这玩意能取代 manus/anygen 吗，现阶段看起来能力也不行；真想用好需要自己付出大量时间去调，比如. </p>\n<p>我想让他定时抓微博内容。需要搞定登录问题，需要写脚本(skill)，本质上跟我拿 CC 写一个脚本调通 playwright 抓微博的时间差不多，好像还不太可能实现一句话任务然后不管（这个任务的结果还是比较容易验证的）. </p>\n<p>所以各位有什么好的使用 Case 吗？</p>\n\n\t",
       "author": "xiaotianhu",
@@ -916,7 +916,7 @@
     },
     {
       "title": "DoytoQuery vs SpringDataJPA",
-      "link": "https://www.v2ex.com/t/1195941#reply15",
+      "link": "https://www.v2ex.com/t/1195941#reply16",
       "pubDate": "2026-03-05T02:05:20.000Z",
       "content": "\n\t<p>SpringDataJPA 支持通过 findBy 方法构建查询语句，然而 findBy 方法构建的查询条件是固定的，不支持忽略值为 null 的参数对应的查询条件，这导致我们需要为每一组参数组合定义一个 findBy 方法。例如：</p>\n<pre><code class=\"language-java\">findByAuthor\nfindByAuthorAndPublishedYearGreaterThan\nfindByAuthorAndPublishedYearLessThan\nfindByAuthorAndPublishedYearGreaterThanAndPublishedYearLessThan\n</code></pre>\n<p>当条件变多时，方法名会变长，参数也会变多，并触发“长参数”坏味道。解决这一问题的重构方法是“引入参数对象”，即把所有的参数定义在一个对象里。同时，我们把 findBy 的方法名中对应查询条件的部分作为这个对象的字段名称，我们便能为每个字段构建一个查询条件，并且根据对象的赋值情况，动态地组合非空字段对应的查询条件组合为查询子句。</p>\n<pre><code class=\"language-java\">public class BookQuery {\n    String author;\n    Integer publishedYearGreaterThan;\n    Integer publishedYearLessThan;\n    //...\n}\n</code></pre>\n<p>基于此对象，我们可以把所有的 findBy 方法合并为一个泛型方法，从而简化查询接口的设计。</p>\n<pre><code class=\"language-java\">public class CrudRepository&lt;E, I, Q&gt; {\n    List&lt;E&gt; findBy(Q query);\n    //...\n}\n</code></pre>\n<p>提出查询对象这一概念，并利用它来解决动态查询问题，正是 DoytoQuery 的核心功能。</p>\n\n\t",
       "author": "f0rb",
@@ -1174,7 +1174,7 @@
     },
     {
       "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
-      "link": "https://www.v2ex.com/t/1192541#reply75",
+      "link": "https://www.v2ex.com/t/1192541#reply76",
       "pubDate": "2026-02-12T11:37:22.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://peon-ping.vercel.app/\" rel=\"nofollow noopener\">https://peon-ping.vercel.app/</a>\n\t",
       "author": "Livid",
