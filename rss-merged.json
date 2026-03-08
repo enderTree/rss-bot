@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-03-08T08:21:13.570Z",
+  "lastUpdated": "2026-03-08T09:21:04.115Z",
   "totalItems": 133,
   "items": [
     {
+      "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
+      "link": "https://www.v2ex.com/t/1196644#reply2",
+      "pubDate": "2026-03-08T08:46:15.000Z",
+      "content": "\n\t<p>在线游玩地址： <a href=\"https://ds.hookapp.top/\" rel=\"nofollow\">https://ds.hookapp.top/</a> 适配手机和 ipad 以及 PC ，调完设置点“折叠操作”显示最大化的棋盘。GitHub：GitHub - igofreely/flipchess · GitHub 有完整的 git 提交版本记录，有 Windows 、Linux 、Mac 的部署文档。\nFlipChess （揭棋）</p>\n<p>基于 React + TypeScript + Vite + PWA + Express + MySQL 的揭棋项目，支持本地客户端与服务器联机模式。</p>\n<p>主要功能</p>\n<p>客户端揭棋对局（ AI 、音效、复盘、FEN 导入导出）</p>\n<p>服务器账号体系（注册/登录/JWT ）</p>\n<p>服务器对局管理（ PVP / VS AI / AI VS AI ）</p>\n<p>平台统计与排行榜</p>\n\n\t",
+      "author": "igofreely",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "还有多少人以为 claude code， codex 是大模型的？",
+      "link": "https://www.v2ex.com/t/1196642#reply0",
+      "pubDate": "2026-03-08T08:41:43.000Z",
+      "content": "\n\t<p>我不知道为什么很多人都发这种文章：claude code ，codex 免翻墙国内怎么用？</p>\n<p>明明直接用的啊。</p>\n<p>科普：</p>\n<ol>\n<li>claude code 是 Anthropic 公司出的一个命令行的工具，codex 是 openAI 公司出的一个命令行式的工具。</li>\n<li>Anthropic 公司的大模型是：Claude Opus ，Claude Sonnet ，Claude Haiku 。 不是 claude code ，不是 claude code ，不是 claude code 。claude code 是工具，claude code 是工具，claude code 是工具。</li>\n<li>国内很多大模型，都支持接入 claude code ，codex 这种 cli 工具。 具体怎么接入，coding plan 中比有文档，看文档即可。</li>\n</ol>\n<p>推荐的国内 coding plan 方案：minimax ，kimi ，GLM ，阿里云，腾讯云，火山引擎等等平台上都有 coding plan 方案。</p>\n<p>求求大家了，别把 cluade code 这类 cli 工具和大模型本身绑定了。</p>\n\n\t",
+      "author": "junwind",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "求助：求一个可以通过 Movie Pilot 认证的 PT 邀请",
-      "link": "https://www.v2ex.com/t/1196637#reply0",
+      "link": "https://www.v2ex.com/t/1196637#reply1",
       "pubDate": "2026-03-08T08:16:24.000Z",
       "content": "\n\t<p>我是馒头用户，发现馒头不在支持列表中……</p>\n\n\t",
       "author": "XuanYuan",
@@ -24,7 +44,7 @@
     },
     {
       "title": "claude code 中的 token 消耗怎么这么大？",
-      "link": "https://www.v2ex.com/t/1196631#reply1",
+      "link": "https://www.v2ex.com/t/1196631#reply3",
       "pubDate": "2026-03-08T07:00:24.000Z",
       "content": "\n\t<p>我买了火山云的 coding plan lite ，cluade code 接入 auto 模型，我随便问几个问题，token 消耗蹭蹭往上涨，大家都是这样的吗，有没有降低消耗的方案。</p>\n\n\t",
       "author": "junwind",
@@ -44,7 +64,7 @@
     },
     {
       "title": "开源了一个 Twitter/X CLI。",
-      "link": "https://www.v2ex.com/t/1196629#reply7",
+      "link": "https://www.v2ex.com/t/1196629#reply8",
       "pubDate": "2026-03-08T06:47:15.000Z",
       "content": "\n\t<p>开源了一个 terminal-first 的 Twitter/X CLI 。\n不需要 API key ，直接用浏览器 Cookie 读取 for-you / following timeline 、bookmarks 、user posts 。\n支持 JSON output 。\n可配置的打分算法进行筛选想看的帖子。</p>\n<p>目前是直接用 API 来做的，比较稳定，后面还会用 playwright/agent-browser 支持更多的功能。</p>\n<p><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></p>\n\n\t",
       "author": "jakevin",
@@ -64,7 +84,7 @@
     },
     {
       "title": "大家说的封号，具体封的是什么？",
-      "link": "https://www.v2ex.com/t/1196623#reply2",
+      "link": "https://www.v2ex.com/t/1196623#reply3",
       "pubDate": "2026-03-08T06:24:13.000Z",
       "content": "\n\t<p>邮箱？手机号？信用卡号？还是全封？\n同一个手机号/信用卡给不同账号付款 有没有风险？</p>\n\n\t",
       "author": "craftsmanship",
@@ -84,7 +104,7 @@
     },
     {
       "title": "Codex 的额度又又又重置了。",
-      "link": "https://www.v2ex.com/t/1196614#reply6",
+      "link": "https://www.v2ex.com/t/1196614#reply10",
       "pubDate": "2026-03-08T05:34:07.000Z",
       "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
       "author": "lifei6671",
@@ -94,7 +114,7 @@
     },
     {
       "title": "Chatbox AI / Cherry Studio / Monica 这类整合平台的定位是什么？",
-      "link": "https://www.v2ex.com/t/1196609#reply5",
+      "link": "https://www.v2ex.com/t/1196609#reply7",
       "pubDate": "2026-03-08T05:08:47.000Z",
       "content": "\n\t<p>Chatbox AI / Cherry Studio / Monica 这类第三方工具需要通过 LLM 的 API 去调用模型的。本身开 llm plus 或者 pro 也没办法在第三方平台使用？如果是 api 的费用应该比 plus ，pro 要高吧？</p>\n<p>或者 在第三方平台开其会员。但是这样就和中转站一样了吧？我之前试过几个平台，感觉明显的降智，根本无法判断是其声明的模型。通用的提示词和问题，gpt5.2 ，gemini pro 的结果和官方 ui 差别巨大。</p>\n<p>所以不是太理解这类平台的用户群体是什么样的？或者应该什么场景使用？</p>\n\n\t",
       "author": "Saunak",
@@ -111,16 +131,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "4.5 (评论: 夜班)",
-      "link": "https://movie.douban.com/review/17494071/",
-      "pubDate": "Sun, 08 Mar 2026 04:25:35 GMT",
-      "content": "\n西科尼评论: 夜班 (https://movie.douban.com/subject/36752929/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u501f\\u7528\\u73b0\\u5728\\u4e00\\u5...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "坠入爱情的恐惧 (评论: 约翰与玛丽)",
@@ -144,7 +154,7 @@
     },
     {
       "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
-      "link": "https://www.v2ex.com/t/1196595#reply14",
+      "link": "https://www.v2ex.com/t/1196595#reply17",
       "pubDate": "2026-03-08T03:20:25.000Z",
       "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
       "author": "JamesMackerel",
@@ -154,7 +164,7 @@
     },
     {
       "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-      "link": "https://www.v2ex.com/t/1196592#reply14",
+      "link": "https://www.v2ex.com/t/1196592#reply20",
       "pubDate": "2026-03-08T03:01:06.000Z",
       "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
       "author": "yuan321",
@@ -183,10 +193,10 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "(不全找我)小教授全盘点！谁才是你心中的No1反派？ (评论: 青年夏洛克)",
-      "link": "https://movie.douban.com/review/17493490/",
-      "pubDate": "Sat, 07 Mar 2026 15:10:20 GMT",
-      "content": "\n爱丽丝-Alice评论: 青年夏洛克 (https://movie.douban.com/subject/36881771/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;30&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/...\n",
+      "title": "超出预期，内部撕裂、规则破坏，由法治转向个人裁量审判。 (评论: 洛杉矶劫案)",
+      "link": "https://movie.douban.com/review/17493780/",
+      "pubDate": "Sat, 07 Mar 2026 19:10:09 GMT",
+      "content": "\n风里浪评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6ca1\\u770b\\u4e4b\\u524d\\uff0c\\u6...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -283,6 +293,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "[转载]News from Science-335",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1524864",
+      "pubDate": "2026-03-07 10:29:49",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "庆祝三八妇女节",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
       "pubDate": "2026-03-07 10:13:35",
@@ -313,8 +333,18 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "只适合有屎里找饭粒爱好的人看 (评论: 暗黑新娘！)",
+      "link": "https://movie.douban.com/review/17492919/",
+      "pubDate": "Sat, 07 Mar 2026 09:48:16 GMT",
+      "content": "\nlove stan评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 较差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6240\\u6709\\u4e00\\u4e8c\\u661f\\u8...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
-      "link": "https://www.v2ex.com/t/1196527#reply6",
+      "link": "https://www.v2ex.com/t/1196527#reply7",
       "pubDate": "2026-03-07T09:46:51.000Z",
       "content": "\n\t主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等\n\t",
       "author": "rowling",
@@ -373,19 +403,9 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "农田实验生态和作物光合生理生态研究忆述（4）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1524785",
-      "pubDate": "2026-03-07 08:48:02",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "如何识别学会？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524783",
-      "pubDate": "2026-03-07 08:44:48",
+      "title": "殷商日食论证之总结",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524843",
+      "pubDate": "2026-03-07 09:01:10",
       "content": "",
       "author": "",
       "categories": [],
@@ -612,16 +632,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "《黑暗新娘！》：主题表达过多导致的混乱观感 (评论: 暗黑新娘！)",
-      "link": "https://movie.douban.com/review/17491752/",
-      "pubDate": "Fri, 06 Mar 2026 13:48:15 GMT",
-      "content": "\n龙骨评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/3...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "claude code CLI 登录 401",
       "link": "https://www.v2ex.com/t/1196378#reply7",
       "pubDate": "2026-03-06T09:16:01.000Z",
@@ -656,31 +666,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "傻 KIMI 真的是害死人",
-      "link": "https://www.v2ex.com/t/1196362#reply7",
-      "pubDate": "2026-03-06T08:28:27.000Z",
-      "content": "\n\t如图：让推荐套件的解决办法，给我优先推荐个黑裙的。。。。<br />太 tm 。。。扯淡了<br /><br />直接把证书搞掉<br /><br /><a target=\"_blank\" href=\"https://imgur.com/a/BTqeIIO\" rel=\"nofollow noopener\">https://imgur.com/a/BTqeIIO</a>\n\t",
-      "author": "ihuihui",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "2026 年 PHP 路在何方",
       "link": "https://www.v2ex.com/t/1196334#reply43",
       "pubDate": "2026-03-06T07:07:55.000Z",
       "content": "\n\t\n\t",
       "author": "lanhiy",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "多数 LLM 中转站都是假",
-      "link": "https://www.v2ex.com/t/1196327#reply4",
-      "pubDate": "2026-03-06T06:48:21.000Z",
-      "content": "\n\t<p>有篇论文： <a href=\"https://arxiv.org/pdf/2603.01919\" rel=\"nofollow\">https://arxiv.org/pdf/2603.01919</a> 分析了 LLM 中转站（被称为 Shadow API ），发现</p>\n<blockquote>\n<p>通过对三家具有代表性的影子 API 在实用性、安全性和模型验证三个维度上的多维度审计，我们发现了影子 API 中欺骗行为的间接与直接证据。具体而言，我们揭示了以下问题：</p>\n</blockquote>\n<ul>\n<li>性能差距最高达 47.21%</li>\n<li>安全行为存在显著的不可预测性</li>\n<li>在指纹测试中，45.83% 的案例出现了身份核验失败</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Service</th>\n<th>Domain</th>\n<th>Legal Entity Reg.</th>\n<th>ID</th>\n<th>Legal Docs</th>\n<th>ICP</th>\n<th>Biz. Registry</th>\n<th>Payment</th>\n<th>Payee</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>C*******E</td>\n<td>api.c********<a href=\"http://y.cn\" rel=\"nofollow\">y.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>B</td>\n<td>Y*****I</td>\n<td>y*****<a href=\"http://i.com\" rel=\"nofollow\">i.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Internal</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>C</td>\n<td>X*****I</td>\n<td>x*****i.plus</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>D</td>\n<td>G*******S</td>\n<td>g*******<a href=\"http://s.us\" rel=\"nofollow\">s.us</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>E</td>\n<td>Q*******O</td>\n<td>q*******<a href=\"http://o.com\" rel=\"nofollow\">o.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>Disclaimer</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat / PayPal / USDT</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>F</td>\n<td>O*******B</td>\n<td>o*******<a href=\"http://b.com\" rel=\"nofollow\">b.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>G</td>\n<td>D*****I</td>\n<td>d*****<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>H</td>\n<td>Z*******G</td>\n<td>z*******<a href=\"http://g.com\" rel=\"nofollow\">g.com</a></td>\n<td>✓</td>\n<td>✓</td>\n<td>—</td>\n<td>✓</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>I</td>\n<td>C*****I</td>\n<td>chat.c*****i.vip</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>J</td>\n<td>O*******D</td>\n<td>o*******d.cloud</td>\n<td>—</td>\n<td>—</td>\n<td>ToS</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>K</td>\n<td>V*****I</td>\n<td>api.g**.ge</td>\n<td>—</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>—</td>\n<td>USDT / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>L</td>\n<td>A*****S</td>\n<td>a*****<a href=\"http://s.com\" rel=\"nofollow\">s.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>M</td>\n<td>B*****I</td>\n<td>api.b*****<a href=\"http://i.ai\" rel=\"nofollow\">i.ai</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>N</td>\n<td>A*******X</td>\n<td>a*******<a href=\"http://x.com\" rel=\"nofollow\">x.com</a></td>\n<td>✓</td>\n<td>—</td>\n<td>ToS, Privacy</td>\n<td>—</td>\n<td>✓</td>\n<td>Alipay / Credit Card</td>\n<td>Company</td>\n</tr>\n<tr>\n<td>O</td>\n<td>A*******S</td>\n<td>a*******s.top</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>P</td>\n<td>A*****9</td>\n<td>a*****<a href=\"http://9.com\" rel=\"nofollow\">9.com</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n<tr>\n<td>Q</td>\n<td>3**i</td>\n<td>3**<a href=\"http://i.cn\" rel=\"nofollow\">i.cn</a></td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>Alipay / WeChat</td>\n<td>Individual</td>\n</tr>\n</tbody></table>\n\t",
-      "author": "xiaopanzi",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -716,11 +706,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "腾讯云今天也发布 coding plan，大家觉得怎么样？实测发现可能有量化，但是多模态没阉割",
-      "link": "https://www.v2ex.com/t/1196273#reply36",
-      "pubDate": "2026-03-06T03:45:22.000Z",
-      "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/ywN8drf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ywN8drf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/9RFoGXG.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/9RFoGXG.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/AOMBas9.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/AOMBas9.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/ufdJcXm.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ufdJcXm.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/NxO3sIA.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NxO3sIA.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> <a target=\"_blank\" href=\"https://i.imgur.com/W0RoIpf.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/W0RoIpf.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 目前买了 pro ，体验了下，发现混元模型有点一般，kimi2.5 和 glm5 没有像百度千帆一样阉割图片理解，还有思考速度过快了，比 kimi 官方还快，我怀疑有量化\n\t",
-      "author": "lynn1su",
+      "title": "智谱 Coding plan 太慢了，根本无法使用",
+      "link": "https://www.v2ex.com/t/1196278#reply21",
+      "pubDate": "2026-03-06T03:52:24.000Z",
+      "content": "\n\t<p>我是最早在 GLM-4.6 就开始使用智谱的 Coding plan ，当时用的人不多，买的 lite 版，一天用的还算频繁都用不完，速度也很快。自从 GLM-5 出来完全用不了，一个上午都解决不了一个问题，而且套餐也缩水了，一个问题就给我干到每周的额度 15% 了。随便说一句这还是我升级到 pro 之后。总之，太失望了。在线人工客服前面排队 40 多个人，说明很多人都有类似的情况</p>\n\n\t",
+      "author": "devloperchen",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -774,6 +764,16 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
+      "title": "重生之当上导演翻拍爱了三十年的作家的作品原来是这么爽的事情吗 (评论: 钟表馆事件)",
+      "link": "https://movie.douban.com/review/17490619/",
+      "pubDate": "Thu, 05 Mar 2026 17:30:33 GMT",
+      "content": "\n津島 松聲评论: 钟表馆事件 (https://movie.douban.com/subject/37168638/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;0&#34;: {&#34;data&#34;: {&#34;site_name&#34;: &#34;\\u817e\\u8baf\\u6587\\u6863&#34;, &#34;...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "开源了 macOS 微信数据库解密",
