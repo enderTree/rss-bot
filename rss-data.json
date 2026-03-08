@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T16:18:02.780Z",
+  "lastUpdated": "2026-03-08T17:16:14.339Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-08T16:17:48.597Z",
+      "lastUpdated": "2026-03-08T17:15:58.542Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-08T16:17:49.535Z",
+      "lastUpdated": "2026-03-08T17:15:59.532Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-08T16:17:49.675Z",
+      "lastUpdated": "2026-03-08T17:15:59.679Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-08T16:17:51.532Z",
+      "lastUpdated": "2026-03-08T17:16:01.530Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,21 +303,21 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-08T16:17:51.753Z",
+      "lastUpdated": "2026-03-08T17:16:01.710Z",
       "items": [
         {
-          "title": "北京联通有公网 IP，搭建网站可行吗",
-          "link": "https://www.v2ex.com/t/1196678#reply6",
-          "pubDate": "2026-03-08T14:16:14.000Z",
-          "content": "\n\t虽然有没 44 和 80 端口，技术应该有办法解决吧<br /><br /><br />那么政策上有没有需要注意的点？<br /><br />安全性上需要注意什么？\n\t",
-          "author": "andforce",
+          "title": "实名预警：三天内两会期间对北京大会堂的斩首式打击",
+          "link": "https://www.v2ex.com/t/1196697#reply9",
+          "pubDate": "2026-03-08T16:41:13.000Z",
+          "content": "\n\t<p>-- 知乎阅读为 1 ，b 站无法发出。</p>\n<p>这不是狂想：就在接下来的三天内——3 月 12 日全国两会闭幕式或更早，北京大会堂可能遭到类似伊朗的斩首式先发打击。</p>\n<p>经过这几天信息的串联，这是我能想到最黑暗但也是所有线索指向的未来。</p>\n<p>韩日的军事调动，是在对伊战争这一大烟幕弹下作的最大程度资源调配，为与中国的持久战作准备！</p>\n<p>委内瑞拉的突袭，貌似是为了切断古巴生命线，所谓「伊朗战争之后，解决古巴」貌似是为了大规模登陆古巴，但别忘了在谈判中麻痹对手但先手攻击已在伊朗演练。之前的那艘古巴打沉的快艇，也是烟幕。</p>\n<p>什么机会能将中国的党政军高层一波带走？两会闭幕式或者某次全体会议。</p>\n<p>所谓「 2027 年武统台湾」、特朗普三四月访华，都是烟幕。</p>\n<p>警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！警惕！</p>\n<p>又一次不宣而战的珍珠港式袭击，不同的是这次是美军将直指中国最高层。</p>\n<p>春节期间渤海的空中对峙，就是一次演练。会将非隐身战机作为诱饵和弃子，为 F35 （以色列斩首哈梅内伊使用的）进行掩护，在北京投下巨量炸弹。</p>\n\n\t",
+          "author": "xuanwu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply8",
+          "link": "https://www.v2ex.com/t/1196673#reply9",
           "pubDate": "2026-03-08T14:02:37.000Z",
           "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
           "author": "doctorzry",
@@ -326,8 +326,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "北京联通有公网 IP，搭建网站可行吗",
+          "link": "https://www.v2ex.com/t/1196678#reply8",
+          "pubDate": "2026-03-08T14:16:14.000Z",
+          "content": "\n\t虽然有没 44 和 80 端口，技术应该有办法解决吧<br /><br /><br />那么政策上有没有需要注意的点？<br /><br />安全性上需要注意什么？\n\t",
+          "author": "andforce",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
-          "link": "https://www.v2ex.com/t/1196595#reply29",
+          "link": "https://www.v2ex.com/t/1196595#reply31",
           "pubDate": "2026-03-08T03:20:25.000Z",
           "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
           "author": "JamesMackerel",
@@ -337,7 +347,7 @@
         },
         {
           "title": "原创 - 开发了一个关于依恋障碍的自评站",
-          "link": "https://www.v2ex.com/t/1196679#reply8",
+          "link": "https://www.v2ex.com/t/1196679#reply9",
           "pubDate": "2026-03-08T14:22:44.000Z",
           "content": "\n\t<p>依恋障碍通常由<strong>原生家庭</strong>息息相关，与主要照顾者之间未能建立稳定的“安全 堡垒”有关。\n但其对我们生活处理人际关系产生了很强的内隐影响。</p>\n<blockquote>\n<p><strong>焦虑型(Anxious)</strong>:极度渴望亲密，但伴随着强烈的被遗弃恐惧。他们往往过度敏感，会反复确认对方的爱意，容易因对方的一点冷淡(如回消息慢)而陷入焦虑。</p>\n</blockquote>\n<blockquote>\n<p><strong>回避型(Avoidant)</strong>:将”独立”视为防御机制。当关系变得亲密时，他们会感到窒息并下意识撤退。他们习惯隐藏情感，通过保持心理距离来保护自己免受伤害。</p>\n</blockquote>\n<blockquote>\n<p><strong>恐惧型/紊乱型(Disorganized)</strong>:表现为矛盾的拉扯一一既渴望靠近又害怕被伤害。这类人常在关系中感到混乱，情绪波动剧烈。</p>\n</blockquote>\n<p>访问地址 <a href=\"https://jiyu.reboots.top/\" rel=\"nofollow\">https://jiyu.reboots.top/</a></p>\n<hr/>\n<p>话说，怎么粘贴图片，第一次发帖，多多支持，谢谢大家！</p>\n\n\t",
           "author": "amybond",
@@ -347,7 +357,7 @@
         },
         {
           "title": "Codex 的额度又又又重置了。",
-          "link": "https://www.v2ex.com/t/1196614#reply17",
+          "link": "https://www.v2ex.com/t/1196614#reply18",
           "pubDate": "2026-03-08T05:34:07.000Z",
           "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
           "author": "lifei6671",
@@ -507,7 +517,7 @@
         },
         {
           "title": "Carry Code v0.7.3 发布：基于 Rust 的 AI 编程助手",
-          "link": "https://www.v2ex.com/t/1196652#reply1",
+          "link": "https://www.v2ex.com/t/1196652#reply2",
           "pubDate": "2026-03-08T10:35:09.000Z",
           "content": "\n\t<p>大家好！ Carry Code v0.7.3 正式发布了！这是一个使用 Rust 彻底重写的, 终端原生的 AI 代码代理，能通过自然对话帮助你编写、重构、调试和理解代码。</p>\n<blockquote>\n<p>Q: Carry Code 为什么选择做 Cli 作为交互形式?</p>\n</blockquote>\n<blockquote>\n<p>A: 我们认为编程的最终形式是黑灯工厂, 端到端实现需求定义到产品交付, 甚至无需人工介入;</p>\n</blockquote>\n<ul>\n<li>官网： <a href=\"https://carrycode.ai\" rel=\"nofollow\">https://carrycode.ai</a></li>\n<li>文档： <a href=\"https://carrycode.ai/docs\" rel=\"nofollow\">https://carrycode.ai/docs</a></li>\n<li>源码： <a href=\"https://github.com/deepcarryai/carrycode\" rel=\"nofollow\">https://github.com/deepcarryai/carrycode</a></li>\n</ul>\n<h2>📦 v0.7.3 更新</h2>\n<ol>\n<li><strong>环境变量自动加载 Model API Key</strong>：支持从环境变量读取 Claude 、Gemini 、OpenAI 、OpenRouter 的密钥, <code>carry</code>命令可以直接兼容你的其他 cli 客户端;</li>\n<li><strong>Skills 智能推理</strong>：大模型能自动选择合适的技能, 功能上对齐 claude code 和 openclaw;</li>\n<li><strong>MCP 输出标准化</strong>：与 Bash 工具输出格式对齐，更直观;</li>\n<li><strong>原生 GPT-5.4/5.4 Pro 支持</strong>, <strong>原生 OpenRouter 支持</strong>;</li>\n</ol>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.23.02.png\"/></p>\n<h2>✨ 核心亮点</h2>\n<p>🤖 双模式 Agent</p>\n<ul>\n<li><strong>Build 模式</strong>：自主生成和编辑代码</li>\n<li><strong>Plan 模式</strong>：只读分析和规划方案，安全可控</li>\n</ul>\n<p>🧩 MCP 协议支持</p>\n<ul>\n<li>通过 Model Context Protocol 扩展智能体能力，用 <code>/mcp</code> 轻松管理</li>\n</ul>\n<p>🎯 SKILL 技能系统</p>\n<ul>\n<li>v0.7.3 新增 16 个内置技能，大模型会自动选择合适的技能来完成任务</li>\n<li>与 Claude Code Skills 兼容，可用 <code>/skill</code> 管理</li>\n</ul>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.28.33.png\"/></p>\n<p>📋 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a></p>\n<ul>\n<li>在项目根目录放置 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a> ，CarryCode 就会遵循项目专属规范</li>\n</ul>\n<p>🎨 精美终端 UI</p>\n<ul>\n<li>渐变 Banner 、Markdown 渲染、语法高亮、代码 Diff 预览</li>\n<li>亮色/暗色主题一键切换</li>\n</ul>\n<p>🔌 17+ 模型服务商</p>\n<ul>\n<li>OpenAI 、Claude 、Gemini 、DeepSeek 、Kimi 、GLM 、MiniMax 、通义千问、Ollama 、vLLM 、OpenRouter……总有一款适合你</li>\n</ul>\n<p>🚀 240+ SOTA 模型</p>\n<ul>\n<li>GPT-5.4/5.4 Pro 、Claude Opus/Sonnet 4.6 、Gemini 3 Pro/Flash 、Kimi 2.5 、DeepSeek V3.2 、Qwen3 等业界最新模型的原生支持(准确上下文适配和多模态识别).</li>\n</ul>\n<p>🗜️ 智能上下文压缩</p>\n<ul>\n<li>自动压缩长对话，适应 Token 限制同时保留关键信息</li>\n</ul>\n<h2>📥 安装</h2>\n<pre><code> 1 │ # MacOS / Linux\n 2 │ curl -fsSL https://carrycode.ai/install.sh | sudo sh\n 3 │ \n 4 │ # Windows\n 5 │ irm https://carrycode.ai/install.ps1 | iex\n\n 1 │ # 运行\n 2 │ carry\n</code></pre>\n<p>或使用单次模式：</p>\n<pre><code> 1 │ carry --once \"解释这个函数\"\n</code></pre>\n<p>快来试试吧！🎉</p>\n\n\t",
           "author": "zhangliang605",
@@ -617,7 +627,7 @@
         },
         {
           "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
-          "link": "https://www.v2ex.com/t/1196527#reply10",
+          "link": "https://www.v2ex.com/t/1196527#reply13",
           "pubDate": "2026-03-07T09:46:51.000Z",
           "content": "\n\t主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等\n\t",
           "author": "rowling",
@@ -766,6 +776,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "求国际卡推荐，接码",
+          "link": "https://www.v2ex.com/t/1196282#reply10",
+          "pubDate": "2026-03-06T04:05:15.000Z",
+          "content": "\n\t<p>卡槽有点满了，不用一直插卡就能网页接码的是不是只有 club\n但是 google 一系列是不是香港卡不行\ngg 卡看起来比较好用但是得插卡，有什么办法可以让 sim 卡通过其他途径接码吗</p>\n\n\t",
+          "author": "beginners",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "claude code CLI 登录 401",
           "link": "https://www.v2ex.com/t/1196378#reply7",
           "pubDate": "2026-03-06T09:16:01.000Z",
@@ -784,54 +804,14 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "小米 pad7 和联想小新 progt 怎么选",
-          "link": "https://www.v2ex.com/t/1196194#reply19",
-          "pubDate": "2026-03-06T00:48:00.000Z",
-          "content": "\n\t屏幕，续航哪个更好，有用过的哥哥吗\n\t",
-          "author": "twoz",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Token 从哪里买或者获取",
-          "link": "https://www.v2ex.com/t/1195904#reply65",
-          "pubDate": "2026-03-05T00:39:37.000Z",
-          "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
-          "author": "anlitechnet",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-08T16:17:53.927Z",
+      "lastUpdated": "2026-03-08T17:16:04.146Z",
       "items": [
-        {
-          "title": "文化190：华盖峰",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=75458&do=blog&id=1524817",
-          "pubDate": "2026-03-07 12:36:47",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "临界现象二百年：第三章 范德瓦尔斯方程：一个木匠之子的逆袭",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524815",
-          "pubDate": "2026-03-07 12:24:45",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524859",
@@ -846,6 +826,16 @@
           "title": "尽快发表才是“王道”",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
           "pubDate": "2026-03-08 07:32:15",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "殢人娇态最轻盈",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524892",
+          "pubDate": "2026-03-08 10:07:58",
           "content": "",
           "author": "",
           "categories": [],
@@ -896,16 +886,6 @@
           "title": "庆三八",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
           "pubDate": "2026-03-08 08:32:05",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "殢人娇态最轻盈",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524892",
-          "pubDate": "2026-03-08 10:07:58",
           "content": "",
           "author": "",
           "categories": [],
@@ -983,16 +963,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "《模态信息论》在科学网博客的主要资源简介",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1524823",
-          "pubDate": "2026-03-07 01:15:31",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "人工智能发展和治理中几个热点问题",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524841",
           "pubDate": "2026-03-07 07:07:32",
@@ -1011,13 +981,43 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "AI时代的十个转型趋势",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524906",
+          "pubDate": "2026-03-08 11:57:59",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2026年十大医学突破",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524908",
+          "pubDate": "2026-03-08 12:13:07",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "榆叶梅粉红炸裂，郁李仁通便给力",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524921",
+          "pubDate": "2026-03-08 03:56:01",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-08T16:17:57.527Z",
+      "lastUpdated": "2026-03-08T17:16:09.920Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1224,7 +1224,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-08T16:18:00.575Z",
+      "lastUpdated": "2026-03-08T17:16:12.320Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1432,20 +1432,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-08T16:18:01.742Z",
+      "lastUpdated": "2026-03-08T17:16:13.464Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-08T16:18:02.009Z",
+      "lastUpdated": "2026-03-08T17:16:13.742Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-08T16:18:02.780Z",
+      "lastUpdated": "2026-03-08T17:16:14.339Z",
       "items": [
         {
           "title": "无题",
