@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-08T20:16:19.647Z",
-  "totalItems": 132,
+  "lastUpdated": "2026-03-08T21:15:29.218Z",
+  "totalItems": 133,
   "items": [
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply2",
+      "link": "https://www.v2ex.com/t/1196703#reply3",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -74,7 +74,7 @@
     },
     {
       "title": "北京联通有公网 IP，搭建网站可行吗",
-      "link": "https://www.v2ex.com/t/1196678#reply10",
+      "link": "https://www.v2ex.com/t/1196678#reply13",
       "pubDate": "2026-03-08T14:16:14.000Z",
       "content": "\n\t虽然有没 44 和 80 端口，技术应该有办法解决吧<br /><br /><br />那么政策上有没有需要注意的点？<br /><br />安全性上需要注意什么？\n\t",
       "author": "andforce",
@@ -449,7 +449,7 @@
     },
     {
       "title": "新手 nas 玩家，如何优雅的刮削各大网盘",
-      "link": "https://www.v2ex.com/t/1196608#reply11",
+      "link": "https://www.v2ex.com/t/1196608#reply12",
       "pubDate": "2026-03-08T05:04:26.000Z",
       "content": "\n\t<p>接上贴，<a href=\"https://www.v2ex.com/t/1193556\" rel=\"nofollow\">https://www.v2ex.com/t/1193556</a> ，已安装飞牛。\n如何优雅的看各种电影视频，或者需要什么网盘，会员吗</p>\n\n\t",
       "author": "miusmile",
@@ -652,6 +652,16 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "请教自建 DNS 的协议选择 DoH vs DoT vs DoQ vs Raw UDP/TCP",
+      "link": "https://www.v2ex.com/t/1196484#reply9",
+      "pubDate": "2026-03-07T04:20:00.000Z",
+      "content": "\n\t走 Real-IP 后被 DNS 搞魔怔了。<br /><br />目前自建了远端 DNS server ，所有的 DNS 请求都会走代理协议。主要走 UDP 代理协议，不稳的时候考虑切 TCP 。<br /><br />最开始为了最低延迟，选择了用原生 UDP 的 DNS ，也就是 UDP over UDP 的 dns 请求。但是 AI 说如果我哪天切 tcp 的代理协议代理走 udp dns 会存在拥堵算法的问题。Surge 官网也说默认屏蔽 UDP 可以省去很多问题。<br /><br />后来考虑走 Raw TCP 的 DNS ，也就是 raw TCP over UDP 。但是 AI 又说普通 Infra 对纯 TCP 的 DNS 支持不是那么全面。<br /><br />现在考虑 DoT 或者 DoH ，但是这两个都走 TLS ，相当于多了一次加密。而且都是走 TCP ，也就是走 quic 的代理要 TLS + TCP over UDP 。不知道这样如何。<br /><br />还有个新的 DoQ ，可以 QUIC over QUIC 。<br /><br />UDP vs TCP vs DoT vs DoH vs DoQ 大家都是怎么选择的？\n\t",
+      "author": "cj323",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
