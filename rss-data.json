@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T21:15:29.215Z",
+  "lastUpdated": "2026-03-08T22:15:05.591Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-08T21:15:18.350Z",
+      "lastUpdated": "2026-03-08T22:14:48.039Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-08T21:15:19.346Z",
+      "lastUpdated": "2026-03-08T22:14:53.434Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-08T21:15:19.488Z",
+      "lastUpdated": "2026-03-08T22:14:53.582Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-08T21:15:21.034Z",
+      "lastUpdated": "2026-03-08T22:14:55.532Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,8 +303,18 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-08T21:15:21.254Z",
+      "lastUpdated": "2026-03-08T22:14:55.799Z",
       "items": [
+        {
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply11",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "北京联通有公网 IP，搭建网站可行吗",
           "link": "https://www.v2ex.com/t/1196678#reply13",
@@ -317,20 +327,10 @@
         },
         {
           "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply3",
+          "link": "https://www.v2ex.com/t/1196703#reply4",
           "pubDate": "2026-03-08T19:14:34.000Z",
           "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
           "author": "Donahue",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply10",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -396,6 +396,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "openclaw 还能入手吗？好像越来越多的大模型官方都开始推广类似 openclaw 的功能了，是选择 openclaw 还是官方的？",
+          "link": "https://www.v2ex.com/t/1196685#reply4",
+          "pubDate": "2026-03-08T14:48:12.000Z",
+          "content": "\n\t\n\t",
+          "author": "2361779769",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
           "link": "https://www.v2ex.com/t/1196644#reply7",
           "pubDate": "2026-03-08T08:46:15.000Z",
@@ -421,16 +431,6 @@
           "pubDate": "2026-03-08T13:49:28.000Z",
           "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
           "author": "wayneyang3",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "openclaw 还能入手吗？好像越来越多的大模型官方都开始推广类似 openclaw 的功能了，是选择 openclaw 还是官方的？",
-          "link": "https://www.v2ex.com/t/1196685#reply3",
-          "pubDate": "2026-03-08T14:48:12.000Z",
-          "content": "\n\t\n\t",
-          "author": "2361779769",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -710,7 +710,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-08T21:15:23.377Z",
+      "lastUpdated": "2026-03-08T22:14:58.061Z",
       "items": [
         {
           "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
@@ -917,7 +917,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-08T21:15:25.754Z",
+      "lastUpdated": "2026-03-08T22:15:00.373Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,7 +1124,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-08T21:15:27.734Z",
+      "lastUpdated": "2026-03-08T22:15:03.408Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-08T21:15:28.668Z",
+      "lastUpdated": "2026-03-08T22:15:04.506Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-08T21:15:28.849Z",
+      "lastUpdated": "2026-03-08T22:15:04.768Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-08T21:15:29.214Z",
+      "lastUpdated": "2026-03-08T22:15:05.591Z",
       "items": [
         {
           "title": "无题",

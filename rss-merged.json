@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-08T21:15:29.218Z",
+  "lastUpdated": "2026-03-08T22:15:05.595Z",
   "totalItems": 133,
   "items": [
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply3",
+      "link": "https://www.v2ex.com/t/1196703#reply4",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -44,7 +44,7 @@
     },
     {
       "title": "openclaw 还能入手吗？好像越来越多的大模型官方都开始推广类似 openclaw 的功能了，是选择 openclaw 还是官方的？",
-      "link": "https://www.v2ex.com/t/1196685#reply3",
+      "link": "https://www.v2ex.com/t/1196685#reply4",
       "pubDate": "2026-03-08T14:48:12.000Z",
       "content": "\n\t\n\t",
       "author": "2361779769",
@@ -84,7 +84,7 @@
     },
     {
       "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-      "link": "https://www.v2ex.com/t/1196673#reply10",
+      "link": "https://www.v2ex.com/t/1196673#reply11",
       "pubDate": "2026-03-08T14:02:37.000Z",
       "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
       "author": "doctorzry",
