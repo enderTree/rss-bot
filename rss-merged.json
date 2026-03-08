@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-03-08T11:14:29.188Z",
+  "lastUpdated": "2026-03-08T12:29:44.175Z",
   "totalItems": 133,
   "items": [
     {
+      "title": "使用 Milvus 搭配 Ollama 搭建 RAG 知识库",
+      "link": "https://www.v2ex.com/t/1196665#reply0",
+      "pubDate": "2026-03-08T12:27:59.000Z",
+      "content": "\n\t<h3>1 、RAG 介绍</h3>\n<p>RAG （ Retrieval-Augmented Generation ，检索增强生成）是一种结合信息检索与文本生成的先进 AI 架构，其核心在于让大语言模型在回答问题前，先从外部知识库中“查找资料”，再基于查到的信息生成准确、有依据的回答。这种方法有效缓解了大模型常见的知识过时、幻觉等问题。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/8153de570e9f4349bca34735428fea61.png\"/></p>\n<h4>1.1 、RAG 基本原理</h4>\n<p>RAG 的工作流程可分为三个关键阶段：数据准备 → 检索 → 生成，形成一个“先查后答”的闭环机制。</p>\n<ul>\n<li><strong>数据准备</strong>（索引阶段）：将企业文档、网页、PDF 等非结构化数据加载并切分为小块（ chunking ），例如每段 300–800 字符。 使用嵌入模型（如 text-embedding-3-small ）将文本块转化为向量，并存储于向量数据库中，便于后续语义检索。</li>\n<li><strong>检索阶段</strong>（ Retrieval ）： 当用户提问时，系统将问题也转化为向量。 在向量数据库中通过相似度匹配（如余弦相似度）检索出最相关的若干个文本片段。 可结合关键词检索（ BM25 ）与语义检索（ DPR ）进行多路召回，提升召回率与精准度。</li>\n<li><strong>生成阶段</strong>（ Generation ）： 将检索到的相关片段与原始问题拼接成提示词（ Prompt ），输入大语言模型。 模型基于这些“参考资料”生成最终回答，确保内容有据可依，减少虚构风险。</li>\n</ul>\n<p>RAG 的准确率瓶颈本质上是“检索上下文质量”的瓶颈。如果检索不到正确信息，再强的生成模型也无法给出正确答案。</p>\n<h4>1.2 、RAG 应用场景</h4>\n<p>RAG 因其灵活性和高准确性，已在多个领域实现落地应用，尤其适合需要专业性、实时性、可解释性的场景。</p>\n<ul>\n<li><strong>企业知识库问答</strong>：员工可通过自然语言查询内部制度、产品手册、项目文档。 无需人工整理，系统自动检索并生成摘要，提升信息获取效率。</li>\n<li><strong>智能客服与售后服务</strong>：客户咨询产品功能、退换货政策时，RAG 可实时检索最新服务条款，避免因信息滞后导致误答。 支持个性化回复，如结合用户历史订单生成定制化建议。</li>\n<li><strong>医疗与法律辅助决策</strong>：医生可输入患者症状，系统检索最新诊疗指南或临床研究，辅助诊断。律师查询合同条款时，RAG 能从历史案例或法规库中提取相关判例，提升合规性。</li>\n<li><strong>学术研究与文献综述</strong>：研究者提出研究问题后，RAG 可快速检索大量论文摘要，并生成初步综述框架。节省查阅资料时间，提高科研效率。</li>\n<li><strong>动态内容生成与新闻撰写</strong>：结合实时数据（如股市行情、体育赛事结果），RAG 可生成带最新信息的报告或新闻稿。适用于财经、体育、舆情监控等对时效性要求高的领域。</li>\n</ul>\n<h4>1.3 、RAG 核心技术</h4>\n<p>RAG 的核心技术组成主要包括以下几个关键部分：</p>\n<ul>\n<li><strong>信息检索模块</strong>（ Retrieval Module ）：负责从大规模文档库中检索与用户查询最相关的文档片段。通常使用向量数据库（如 Faiss 、Pinecone 、Milvus ）存储文档的向量表示，通过计算查询向量与文档向量的相似度来实现快速检索。检索算法可以是基于关键词的（如 BM25 ）或基于语义的（如 DPR 、Sentence-BERT ）。</li>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n<li><strong>检索-生成融合机制</strong>（ Retrieval-Generation Fusion ）：将检索到的文档片段与原始查询组合成提示（ Prompt ），输入到生成模型中。这个过程可以是简单的拼接，也可以是更复杂的融合策略，如注意力机制。</li>\n<li><strong>向量数据库</strong>（ Vector Database ）：用于高效存储和检索高维向量数据。支持快速的近似最近邻（ ANN ）搜索，是实现大规模文档检索的关键。常见的向量数据库包括：Faiss 、Pinecone 、Milvus 、Weaviate 等。</li>\n<li><strong>数据预处理与后处理</strong>：数据预处理包括文档清洗、分块、去除无关内容等，以提高检索效率和质量。后处理可能包括答案过滤、格式化输出、引用标注等，以提升最终回答的可读性和可信度。这些组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。</li>\n</ul>\n<p>上述组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。\n本文选型 “Milvus （向量数据库）、Qwen （生成模型）、Qwen-embedding （嵌入模型）及 SpringAI” 讲述及实践。</p>\n<h3>2 、向量数据库</h3>\n<p>向量数据库是专门用于存储、管理和高效检索高维向量数据的新型数据库系统，它能将文本、图像、音频等非结构化数据，通过 AI 模型转化为蕴含语义特征的向量序列，再基于向量间的相似度实现“语义级检索”，解决传统数据库在非结构化数据处理上的局限性，为 RAG 智能问答、多模态搜索、智能推荐等 AI 应用提供底层支撑。</p>\n<h4>2.1 、核心工作步骤</h4>\n<ul>\n<li>\n<strong>数据向量化</strong>：生成“特征指纹”。这是向量数据库的前置核心环节，需借助 Embedding 模型将原始非结构化数据转化为高维向量，同时要平衡向量维度：维度越高特征表达越精细、检索精度越高，但存储和计算成本会指数级增长；维度越低效率越高，但可能丢失关键特征导致精度下降，工业级常规选择文本 768-1536 维、图像 512-2048 维。<ul>\n<li>文本数据：可选用 OpenAI 的 text-embedding-ada-002 （通用场景最优，1536 维）、国产开源的 BGE （性价比之选，768 维）、微调后的 BERT （细分领域首选）等模型。</li>\n<li>图像数据：CLIP （支持文本搜图的多模态适配模型）、ResNet （纯图像特征提取模型）是常用工具。</li>\n<li>音频数据：Wav2Vec2 （语音转向量）、VGGish （音频场景特征提取）可满足需求。</li>\n</ul>\n</li>\n<li><strong>存储与索引构建</strong>：加速相似性计算。向量数据库会将生成的高维向量存储起来，并构建特殊索引结构来提升检索效率，常见索引算法有 IVF （倒排文件）、HNSW （分层可导航小世界图）等，它们能大幅降低相似性计算的耗时。</li>\n<li>\n<strong>相似性检索</strong>：找“最近邻”。当用户发起查询时，系统先将查询内容转为向量，再在数据库中寻找与其“距离最近”的 Top-K 个向量，常用的距离度量方式有三种：<ul>\n<li>余弦相似度：最常用，只关注向量方向、忽略长度，适合语义级对比，如文本检索，计算结果取值范围[-1,1]，越接近 1 相似度越高。</li>\n<li>欧氏距离：计算两个向量的直线距离，同时考虑方向与长度，适合关注绝对特征差异的场景，如图像检索，值越小相似度越高，需提前对向量进行归一化处理。</li>\n<li>点积相似度：计算速度最快，但受向量长度影响大，对向量进行 L2 归一化后，结果等价于余弦相似度，适合高并发低延迟场景，如实时推荐。</li>\n</ul>\n</li>\n</ul>\n<h3>3 、Milvus 介绍</h3>\n<p>Milvus 是一款专为高维向量数据设计的云原生向量数据库，广泛应用于人工智能、机器学习和相似性搜索场景。它采用存储与计算分离的架构，具备高可用性、高性能和弹性扩展能力。</p>\n<p><img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/be0828ff3e2d4355aa1c76230f4f1cdb.png\"/></p>\n<h4>3.1 、核心架构层次</h4>\n<p>Milvus 的系统架构分为四个主要层次：</p>\n<ul>\n<li><strong>接入层</strong>（ Access Layer ）：作为系统的入口，由一组无状态的 Proxy 组件构成，负责请求路由和负载均衡。</li>\n<li><strong>协调服务</strong>（ Coordinator Service ）：管理元数据、任务调度和状态同步，包括 Root Coordinator 、Data Coordinator 和 Index Coordinator 等。</li>\n<li><strong>执行节点</strong>（ Worker Node ）：处理实际的数据插入、查询和索引构建等操作，包含 Query Node 、Index Node 和 Data Node 。</li>\n<li><strong>存储层</strong>（ Storage Layer ）：负责持久化存储，使用对象存储（如 S3 、MinIO ）来保存向量数据和索引文件，同时通过 etcd 和 Pulsar/Kafka 管理元数据和日志。</li>\n</ul>\n<h4>3.2 、数据模型与存储机制:</h4>\n<table>\n<thead>\n<tr>\n<th>维度</th>\n<th>Milvus</th>\n<th>关系型数据库</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>数据组织结构</td>\n<td>Database → Collection → Partition → Segment → Entity</td>\n<td>Database → Table → Row</td>\n<td>Milvus 以 Segment 为最小存储单元，支持分片；关系库以页或块为单位</td>\n</tr>\n<tr>\n<td>存储介质</td>\n<td>对象存储（ S3/MinIO ）+ 元数据存储（ etcd ）+ 消息队列（ Pulsar/Kafka ）</td>\n<td>磁盘文件 + 日志（ Redo Log ）</td>\n<td>Milvus 使用对象存储持久化数据，元数据由 etcd 管理；关系库依赖本地存储</td>\n</tr>\n<tr>\n<td>索引机制</td>\n<td>支持多种 ANN 索引（ HNSW 、IVF 、FLAT 等）</td>\n<td>B-tree 、Hash 、Bitmap 等</td>\n<td>Milvus 为高维向量优化索引，支持近似搜索；关系库为低维结构化字段设计</td>\n</tr>\n</tbody></table><h4>3.3 、术语映射关系:</h4>\n<table>\n<thead>\n<tr>\n<th>Milvus 术语</th>\n<th>关系型数据库术语</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Database</td>\n<td>Database</td>\n<td>数据库是组织和管理数据的逻辑单元。为了提高数据安全性并实现多租户，你可以创建多个数据库，为不同的应用程序或租户从逻辑上隔离数据。Milvus 在集合之上引入了数据库层，为管理和组织数据提供了更有效的方式，同时支持多租户</td>\n</tr>\n<tr>\n<td>Collection</td>\n<td>Table</td>\n<td>数据集合，定义字段结构。用于存储和管理实体的主要逻辑对象。</td>\n</tr>\n<tr>\n<td>Partition</td>\n<td>Partition</td>\n<td>集合内的物理分区</td>\n</tr>\n<tr>\n<td>Segment</td>\n<td>Page / Block</td>\n<td>定义数据类型和数据属性的元信息。每个 Collections 都有自己的 Collections Schema ，该 Schema 定义了 Collections 的所有字段、自动 ID （主键）分配启用和 Collection 说明</td>\n</tr>\n<tr>\n<td>Field</td>\n<td>Column</td>\n<td>字段类型支持标量与向量</td>\n</tr>\n<tr>\n<td>Entity</td>\n<td>Row</td>\n<td>单条数据记录</td>\n</tr>\n<tr>\n<td>Index</td>\n<td>Index</td>\n<td>向量索引，类型多样</td>\n</tr>\n</tbody></table><h3>4 、Milvus 本地部署</h3>\n<h4>4.1 、Docker Compose 部署</h4>\n<p>Milvus 提供了 Docker Compose 配置文件：</p>\n<pre><code class=\"language-shell\">wget https://github.com/milvus-io/milvus/releases/download/v2.6.11/milvus-standalone-docker-compose.yml -O docker-compose.yml\n\nsudo docker compose up -d\n\nCreating milvus-etcd  ... done\nCreating milvus-minio ... done\nCreating milvus-standalone ... done\n</code></pre>\n<p>启动完成后可以访问 Milvus WebUI 网址（ <a href=\"http://127.0.0.1:9091/webui/\" rel=\"nofollow\">http://127.0.0.1:9091/webui/</a> ）了解有关 Milvus 实例的更多信息。</p>\n<h4>4.2 、Attu （可视化工具）安装</h4>\n<p>Attu 是 Milvus 官方推出的图形化管理工具，提供直观的可视化界面，方便用户查看和管理向量数据库。通过 Attu ，用户可以轻松完成数据库架构设计、数据操作、向量搜索等复杂任务，大大降低 Milvus 的使用门槛。</p>\n<pre><code class=\"language-shell\">docker run -d --name milvus-attu \\\n  -p 8000:3000 \\\n  -e MILVUS_URL=localhost:19530 \\\n  zilliz/attu:v2.6\n</code></pre>\n<p>Attu 启动完成后可以访问（ http://localhost:8000 ），以图形化方式查看和管理 Milvus 实例。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/9d5e8ea98751424d9c57e5984e128b57.png\"/></p>\n<h3>5 、模型本地安装</h3>\n<p>RAG 系统依赖 Embedding 与 Generation 两类模型：</p>\n<ul>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n</ul>\n<p>本文分别选择 “qwen3-embedding” 与 “qwen3.5” 作为嵌入模型与生成模型，Ollama 本地安装如下；</p>\n<pre><code>admin@Mac-miniM4 milvus % ollama list\nNAME                                ID              SIZE      MODIFIED    \nqwen3.5:2b                          324d162be6ca    2.7 GB    3 hours ago    \nqwen3-embedding:0.6b                ac6da0dfba84    639 MB    4 hours ago    \n</code></pre>\n<h3>6 、RAG 系统设计</h3>\n<p>RAG 知识库的核心价值在于「结构化检索（关系型）+ 语义检索（向量）」的融合，实体模型设计需同时兼顾关系型数据的结构化关联能力和向量数据的语义匹配能力，既要保证实体间的逻辑关联清晰，又要实现基于语义的精准检索。以下聚焦「关系型 + 向量数据融合」的实体模型设计，包含核心实体定义、数据存储分工、关联逻辑、落地实现四大核心模块。</p>\n<h4>6.1 、核心设计原则（融合版）</h4>\n<ul>\n<li><strong>分工明确</strong>：关系型数据库（ MySQL ）存储「实体元数据、关联关系、检索过滤条件」，向量数据库（ Milvus ）存储「文本语义向量」，避免单库承载所有压力；</li>\n<li><strong>双向关联</strong>：关系型数据与向量数据通过唯一 ID （ chunk_id ）绑定，支持「从关系型维度筛选→向量语义检索」「从向量检索结果→回溯关系型元数据」；</li>\n<li><strong>轻量化融合</strong>：向量数据仅存储核心检索单元（ Chunk ）的向量，不冗余存储文档 / 实体的全量向量，关系型数据补充向量无法表达的结构化信息（如实体类型、文档来源）。</li>\n</ul>\n<h4>6.2 、核心实体模型（关系型 + 向量融合）</h4>\n<p><strong>实体分工总览</strong>：</p>\n<table>\n<thead>\n<tr>\n<th>数据类型</th>\n<th>存储载体</th>\n<th>存储内容</th>\n<th>核心作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>关系型数据</td>\n<td>MySQL/PostgreSQL</td>\n<td>文档 / Chunk / 业务实体的元数据、实体间关联关系、检索过滤字段（状态 / 租户 / 类型）</td>\n<td>结构化筛选、实体关联、结果回溯</td>\n</tr>\n<tr>\n<td>向量数据</td>\n<td>Milvus/PGVector/FAISS</td>\n<td>Chunk 的 Embedding 向量、向量索引（ IVF_FLAT/HNSW ）</td>\n<td>语义相似度检索</td>\n</tr>\n</tbody></table><p><strong>关系型实体表设计（核心元数据 + 关联）</strong>：</p>\n<ul>\n<li>\n<p><strong>Knowledge</strong>（知识库实体，关系型）：存储知识库定义元数据，维护知识库 Embedding 模型、向量数据库设置信息。</p>\n</li>\n<li>\n<p><strong>Document</strong>（文档实体，关系型）：存储文档级结构化元数据，是所有子实体的根节点，不存储完整内容和向量。</p>\n</li>\n<li>\n<p><strong>Chunk</strong>（文本块实体，关系型）：\n存储 Chunk 的元数据，仅保留向量 ID （与向量库绑定），不存储原始向量，是关系型与向量数据的核心桥梁。</p>\n</li>\n<li>\n<p><strong>向量数据模型设计（语义检索核心）</strong>：\nMilvus 中创建「 knowledge_vector_collection 」集合，与关系型 Chunk 表的 vector_id 一一对应：</p>\n</li>\n</ul>\n<h3>7 、RAG 关键代码</h3>\n<h4>7.1 、Maven 依赖引入</h4>\n<p>使用 SpringAI 进行模型与向量数据库集成，需要添加如下依赖：</p>\n<pre><code>&lt;!-- milvus --&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;io.milvus&lt;/groupId&gt;\n    &lt;artifactId&gt;milvus-sdk-java&lt;/artifactId&gt;\n&lt;/dependency&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.ai&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-ai-starter-model-ollama&lt;/artifactId&gt;\n&lt;/dependency&gt;\n</code></pre>\n<h4>7.2 、知识数据向量化入库</h4>\n<p>核心流程为：「文档分块 → 向量化 → Milvus 入库」</p>\n<pre><code>// 1 、初始化 Embedding 模型\nEmbeddingModel embeddingModel = OllamaEmbeddingModel\n                .builder()\n                .defaultOptions(OllamaEmbeddingOptions\n                        .builder()\n                        .model(EMBEDDING_MODEL_NAME)\n                        .dimensions(VECTOR_DIMENSION)\n                        .build())\n                .ollamaApi(ollamaApi)\n                .build();\n\n// 2 、知识文档正文分块\nList&lt;String&gt; chunks = splitDocument(doc.getContent());\n\n// 3 、Chunk 文档向量化处理\nList&lt;float[]&gt; vectors = embeddingModel.embed(texts);\n\n// 4 、知识数据向量化入库\nList&lt;JsonObject&gt; vectorData = process(vectors);\nUpsertResp upsertResp = client.upsert(UpsertReq.builder()\n                .collectionName(collectionName)\n                .data(vectorData)\n                .build());\n</code></pre>\n<h4>7.3 、知识相似度检索</h4>\n<p>核心流程为：「问题向量化 → Milvus 检索」</p>\n<pre><code>// 1 、问题向量化\nfloat[] keywordVector = embed(List.of(keyword)).get(0);\n\n// 2 、向量 检索\nSearchReq searchReq = SearchReq.builder()\n                    .collectionName(buildCollectionName(kbId))                          \t\t\n                    .data(Collections.singletonList(new FloatVec(keywordVector)))  \n                    .annsField(\"contentVector\")                                         \t\t\t\n                    .outputFields(Arrays.asList(\"id\", \"chunkId\", \"contentVector\"))     \n                    .limit(TOP_K_COUNT)\n                    .searchParams(Map.of(\"radius\", SIMILARITY_THRESHOLD))   // 相似度阈值\n                    .build();\nSearchResp searchResp = client.search(searchReq);\n</code></pre>\n<h4>7.4 、知识库系统交互</h4>\n<p>知识库系统交互见下文，支持针对文档进行新建、管理、向量化/Embedding 、相似度检索等操作。为 RAG 、\n部分截图如下：</p>\n<ul>\n<li>知识库管理：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/c6f62ec646114df88d0a33cb79a526d0.png\"/></li>\n<li>知识相似度检索：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/fb8fb2ff484e422e9c2d0e3afbcb955f.png\"/></li>\n</ul>\n\n\t",
+      "author": "xuxueli",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "The master’s tools will never dismantle the master’s house (评论: 洗脑影像：性、镜头和权力)",
+      "link": "https://movie.douban.com/review/17494716/",
+      "pubDate": "Sun, 08 Mar 2026 11:29:25 GMT",
+      "content": "\nnewparadigm评论: 洗脑影像：性、镜头和权力 (https://movie.douban.com/subject/35247931/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;-But Nina, don\\u2019t you think a...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "猴家新手机有漏洞可以免授权解锁抓紧了",
-      "link": "https://www.v2ex.com/t/1196659#reply1",
+      "link": "https://www.v2ex.com/t/1196659#reply4",
       "pubDate": "2026-03-08T11:04:35.000Z",
       "content": "\n\t<p>猴家新手机 SELINUX 漏洞可以免授权解锁，想解锁的抓紧了，千万不要升级最新系统</p>\n\n\t",
       "author": "geekvcn",
@@ -39,7 +59,7 @@
     },
     {
       "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
-      "link": "https://www.v2ex.com/t/1196644#reply2",
+      "link": "https://www.v2ex.com/t/1196644#reply3",
       "pubDate": "2026-03-08T08:46:15.000Z",
       "content": "\n\t<p>在线游玩地址： <a href=\"https://ds.hookapp.top/\" rel=\"nofollow\">https://ds.hookapp.top/</a> 适配手机和 ipad 以及 PC ，调完设置点“折叠操作”显示最大化的棋盘。GitHub：GitHub - igofreely/flipchess · GitHub 有完整的 git 提交版本记录，有 Windows 、Linux 、Mac 的部署文档。\nFlipChess （揭棋）</p>\n<p>基于 React + TypeScript + Vite + PWA + Express + MySQL 的揭棋项目，支持本地客户端与服务器联机模式。</p>\n<p>主要功能</p>\n<p>客户端揭棋对局（ AI 、音效、复盘、FEN 导入导出）</p>\n<p>服务器账号体系（注册/登录/JWT ）</p>\n<p>服务器对局管理（ PVP / VS AI / AI VS AI ）</p>\n<p>平台统计与排行榜</p>\n\n\t",
       "author": "igofreely",
@@ -49,7 +69,7 @@
     },
     {
       "title": "还有多少人以为 claude code， codex 是大模型的？",
-      "link": "https://www.v2ex.com/t/1196642#reply0",
+      "link": "https://www.v2ex.com/t/1196642#reply1",
       "pubDate": "2026-03-08T08:41:43.000Z",
       "content": "\n\t<p>我不知道为什么很多人都发这种文章：claude code ，codex 免翻墙国内怎么用？</p>\n<p>明明直接用的啊。</p>\n<p>科普：</p>\n<ol>\n<li>claude code 是 Anthropic 公司出的一个命令行的工具，codex 是 openAI 公司出的一个命令行式的工具。</li>\n<li>Anthropic 公司的大模型是：Claude Opus ，Claude Sonnet ，Claude Haiku 。 不是 claude code ，不是 claude code ，不是 claude code 。claude code 是工具，claude code 是工具，claude code 是工具。</li>\n<li>国内很多大模型，都支持接入 claude code ，codex 这种 cli 工具。 具体怎么接入，coding plan 中比有文档，看文档即可。</li>\n</ol>\n<p>推荐的国内 coding plan 方案：minimax ，kimi ，GLM ，阿里云，腾讯云，火山引擎等等平台上都有 coding plan 方案。</p>\n<p>求求大家了，别把 cluade code 这类 cli 工具和大模型本身绑定了。</p>\n\n\t",
       "author": "junwind",
@@ -69,7 +89,7 @@
     },
     {
       "title": "求助：求一个可以通过 Movie Pilot 认证的 PT 邀请",
-      "link": "https://www.v2ex.com/t/1196637#reply2",
+      "link": "https://www.v2ex.com/t/1196637#reply3",
       "pubDate": "2026-03-08T08:16:24.000Z",
       "content": "\n\t<p>我是馒头用户，发现馒头不在支持列表中……</p>\n\n\t",
       "author": "XuanYuan",
@@ -79,7 +99,7 @@
     },
     {
       "title": "Claude Code 中转站选购, 避坑指北",
-      "link": "https://www.v2ex.com/t/1196633#reply0",
+      "link": "https://www.v2ex.com/t/1196633#reply3",
       "pubDate": "2026-03-08T07:45:02.000Z",
       "content": "\n\t<h2>一. 前提说明</h2>\n<p>客观上介绍了个人站 HelpAIO, 为了体验放在文章末尾</p>\n<h2>二. 使用中转前应该知道的</h2>\n<p>了解下面的信息, 基本能帮助入门, 避坑</p>\n<h3>1. 不用中转,自己开账号可以吗</h3>\n<p><strong>省流: 能的, Claude Code Max20 自己开完一个月, 比任何中转都便宜</strong></p>\n<ul>\n<li><strong>Claude Code</strong>: 多维度风控, 人称 A➗, 严重到肉身在国外开, 正常用都封号. 老号风控较轻, 新号风控很严格, 建议不要直接开 Max20, 分发的话更容易被封; <strong>这个确实不是在传播焦虑(经常能在 v2,推特等地方看到“如何防封”)</strong>;</li>\n</ul>\n<hr/>\n<h3>2. 中转能不能看到我的数据, 有没有可能卖数据, 恶意投毒</h3>\n<p><strong>省流: 理论上能, 实际站长更想赚钱.</strong></p>\n<p>使用中转站就相当于 HTTPS 中间人攻击, 理论上能实现的数据收集, 也能投毒.</p>\n<p>我个人大概想法是<strong>去饭店不能去后厨看, 否则可能吃不下饭, 尽量找靠谱的馆子吃饭.</strong></p>\n<p>对于大型中转来说, 稳定本身就是一种商誉价值.</p>\n<hr/>\n<h3>3. 中转倍率是什么</h3>\n<p>中转站一般面向国内用户, 倍率是模型的美元价格转成人民币计价后的比例.\n一般默认 1 元=1 美刀, 也就是 1:1, 下面是一个示例.</p>\n<ul>\n<li>1 倍：1 元 换 1 美元</li>\n<li>1.5 倍：1.5 元 换 1 美元</li>\n<li>7 倍：7 元 换 1 美元</li>\n</ul>\n<hr/>\n<h3>4. 中转渠道说明</h3>\n<p><strong>省流: 一定要问清楚中转提供的是什么渠道, 官方和逆向价格差 5~6 倍.</strong></p>\n<p>在一切开始前, 要先介绍渠道, 渠道大概分为两种.</p>\n<ul>\n<li>\n官方渠道: <ul>\n<li><strong>来源</strong>: 如<strong>Claude Max20x 订阅</strong>, <strong>Claude 官方 API</strong>, <strong>Aws</strong>, <strong>Azure</strong>这种官方或一线服务商</li>\n<li><strong>优点</strong>: 公认效果最好, 模型能力最强, 但 Claude 官方订阅仅限 Claude Code 中使用(甚至不支持自家 sdk 用)</li>\n<li><strong>缺点</strong>: 普遍较贵, 一小时 20~30 块正常, <strong>建议选购价, 0.85~1.5 元每刀</strong></li>\n</ul>\n</li>\n<li>\n逆向渠道: <ul>\n<li><strong>来源</strong>: 如 Kiro, Cursor, Windsurf, Awsq, Warp 等一些编辑器或终端本身集成了, 逆向出来给客户用 </li>\n<li><strong>优点</strong>: <strong>可以在 Claude Code 外面使用, 价格一般是官渠的 0.2~0.3 倍</strong>, 少数如反重力模型能力很强的可以到 0.6 倍率;</li>\n<li>\n<strong>缺点</strong>: 大部分逆向模型能力有缺陷, 比不上官方<ul>\n<li><strong>智商低</strong>: 逆向渠道可能带固定的提示词, 能力不如官方</li>\n<li><strong>没缓存</strong>: 有些渠道没缓存, 缓存是站长加的(比如写死 80%~88%)</li>\n<li><strong>工具调用失败</strong>: MCP, Skill, Tool 调用失败, 或调用也无法正常完成任务</li>\n<li><strong>上下文短</strong>: 比如 Claude Code 官方是 200K 上下文, 逆向渠道可能是 128K</li>\n<li><strong>断流</strong>: 经常用着用着就断了</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr/>\n<h3>5. 中转会不会掺假</h3>\n<p><strong>省流: 会的</strong>, HelpAIO 发现过, 包括前几天都有论文实锤了.</p>\n<h4>问就是上游掺假</h4>\n<p>中转为了提高 SLA 可用率, 除了自己的号池外, 还会找一些其他渠道, 也就是上游, 这个客观存在\n包括中转站之间都可能互为上游.</p>\n<p>现在普遍情况就是, 如果被用户发现就说是其他渠道, 上游的锅.\n大概就是: 上游可能谈的时候给的是 max, 等用了就会给你惨点儿逆向, 类似直播带货的 AB 货.</p>\n<p>当然也有站长自己发现, 然后主动公告给用户退款.</p>\n<h4>(1) 怎么惨?</h4>\n<ul>\n<li>正常官方, 官方挂了逆向</li>\n<li>官方+逆向: 混着卖, 比例不定, 看站长良心, 有可能 9:1, 有可能 1:9</li>\n<li>官方+其他模型</li>\n<li>其他模型(GLM, DeepSeek, Gemini)</li>\n</ul>\n<h4>(2) 几种情况</h4>\n<ul>\n<li>最好: 站长主动发现自己的上游渠道有问题, 主动公告并退款</li>\n<li>一般: 问是不是纯官方, 会说惨的, 或者沉默</li>\n<li>略差: 被用户发现, 答复上游惨的</li>\n<li>差的: 后台偷偷换, 用户发现就 T 了</li>\n</ul>\n<hr/>\n<h3>6. 中转好不好的核心</h3>\n<ul>\n<li><strong>渠道</strong>: 上面已经说了</li>\n<li>\n<strong>价格组成</strong>: <ul>\n<li><strong>输入</strong>: 读取文件的花费</li>\n<li><strong>输出</strong>: 写入文件的花费</li>\n<li><strong>缓存创建</strong>: 读过的文件, 可以创建缓存, 后续读取缓存更便宜. 缓存创建价格如 Claude Code, 5 分钟缓存价格是输入的 1.25 倍, 1 小时缓存价格是输入的 2 倍</li>\n<li><strong>缓存读取</strong>: 从缓存里面读取, 价格是输入的 0.1 倍</li>\n</ul>\n</li>\n<li>\n**缓存率: <strong>“价格”</strong> 只是一个显眼指标，缓存率同样重要, 缓存率差 10%, 价格便宜的渠道可能更贵<ul>\n<li><strong>参考缓存率: 一线中转 Claude Code 缓存率 80%以上, Codex 缓存率 85%以上</strong></li>\n<li>\n统计缓存率: <ul>\n<li>网页的<a href=\"https://github.com/ding113/claude-code-hub\" rel=\"nofollow\">Claude Code Hub</a>: 网页版, 适合团队用户, 可部署在服务器或 Docker</li>\n<li>HelpAIO 开源的<a href=\"https://github.com/dyndynjyxa/aio-coding-hub\" rel=\"nofollow\">aio-coding-hub</a>: Tauri2 开发的本地客户端, 支持 Mac, Win, Linux</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>可用率</strong>: 价格再低, 不可用等于 0</li>\n</ul>\n<p>上面的信息, <a href=\"https://www.helpaio.com/transit\" rel=\"nofollow\">HelpAIO</a>都有</p>\n<ul>\n<li><a href=\"https://www.helpaio.com/transit/compare\" rel=\"nofollow\"><strong>价格收集, 比价</strong></a>: 目前主要收集 Claude Code 官方渠道(Max)</li>\n<li><a href=\"https://www.helpaio.com/transit/availability\" rel=\"nofollow\"><strong>可用率检测</strong></a>: 7*24 小时不间断检测 Claude Code, Codex 可用率</li>\n<li><strong>渠道说明</strong>: 官方, 逆向, 官逆混用</li>\n<li><strong>优缺点, 近期体验</strong>: 自己作为用户的一些体验分享</li>\n</ul>\n<hr/>\n<h3>7. 其他风险</h3>\n<ul>\n<li>中转作为下游, 受到上游政策影响, 可能随时调整价格.</li>\n<li>中转可能随时不可用, 如某 8 站之前经常出现.</li>\n<li>中转可能随时跑路, 某 P 站至今退款难, 甚至起诉用户(太抽象了); 某 8 站持续不可用, 停摆两个月, 不过近期开始恢复并退款.</li>\n</ul>\n<hr/>\n<h3>8. HelpAIO 是怎么排名的</h3>\n<ul>\n<li>\n<strong>基础分</strong><ul>\n<li>服务设施分 65%: 后台有 50+个指标, 所有中转都在同一指标下进行打分得出(个人深度使用的经验看服务设施非常重要!).</li>\n<li>模型价格分 35%: 模型价格便宜, 分越高.</li>\n</ul>\n</li>\n<li><strong>动态排名</strong>: <strong>最终排名=基础分✖️3 日模型可用率, 防止宕机很久了排名还很高.</strong></li>\n<li><strong>新站收录</strong>: 收录小于 3 天, 权重额外✖️0.8, 收录大于 3 天小于 7 天权重额外✖️0.9(测试无法 24 小时不间断, 降权是为了收集可用率).</li>\n<li><strong>渠道争议</strong>: 发现模型与描述渠道不符(比如承诺 Max 渠道, 惨逆向), 前 10 天权重额外✖️0.3, 后 20 天线性恢复.\n<img alt=\"Xnip2026-03-08_14-22-18.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/XQ8Cqwy2.png\"/></li>\n</ul>\n<hr/>\n<h2>三. 写在最后</h2>\n<p>HelpAIO 是我第一个<strong>创业</strong>项目, 借着 AI 的东风, 也说一些迭代到现在的一些想法.\n一家之言, 欢迎讨论.</p>\n<h3>code is cheap, show me the idea</h3>\n<p>不知道大家知不知道, <code>微舆</code>这个开源项目作者发布 3 个月被盛大陈天桥投资 3000 万, 这个项目就是 idea 价值的一个体现</p>\n<p>对于陈天桥来说他真的是看好这个项目吗, 个人感觉是一种更多是\"紧迫感\", 自己不革命, 就要被别人革命的紧迫感</p>\n<p>是否是真的其实不是关键, 但能看到的是<strong>AI 是<code>工业革命</code>级别的机会, 不断涌现项目, 可以说 AI 缩小了差距, 有 idea 和行动力, 比单纯的开发能力更重要</strong>.</p>\n<h3>不要有完美的\"执念\"</h3>\n<p>很多开发者对自己有很高的要求, 要搞得满足自己的要求才发布, 结果搞着搞着自己怎么都不满意, 最终放弃了. </p>\n<p><strong>但 AI 来了, 试错的成本已经无限降低</strong>, 现在一个天能完成以前一个周工作, <strong>今天不发布, 明天可能就被别人发布了</strong></p>\n<p>快速验证接受市场检验越来越重要</p>\n<h3>重视用户的反馈</h3>\n<p>作为 PM, 要乐于接受用户的反馈, 合理的规划需求. </p>\n<p>我特别感谢一个网友,这个网友对当时那个版本的 HelpAIO 评价大概意思是: <strong>\"有用但有点儿花里胡哨, 没有重点\"</strong></p>\n<p>是这个评价让我快速优化了几个大版本, 实用性增强了不少</p>\n<h3><strong>快速迭代</strong></h3>\n<p>AI 磨平了差距, 也带来了弊端, 产品一旦在市场上被发现, 可能就会被快速 copy.</p>\n<p>你的项目可能好, 但是可能不如别人会营销. 一定要重视营销, 快速迭代. 如最近出现的<a href=\"https://github.com/cft0808/edict/issues/55\" rel=\"nofollow\">openclaw 三省六部开源项目疑似抄袭</a> 原作者 300star, 而该仓库 5000star</p>\n<p>总之要快速持续迭代.</p>\n<p>最后欢迎大家使用 HelpAIO 了解中转, 希望能帮助大家选到合适的中转站.\n中转评测: <a href=\"https://www.helpaio.com/transit\" rel=\"nofollow\">https://www.helpaio.com/transit</a></p>\n<p>中转比价: <a href=\"https://www.helpaio.com/transit/compare\" rel=\"nofollow\">https://www.helpaio.com/transit/compare</a></p>\n<p><img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/8QGwNqdL.png\"/></p>\n<p>中转可用率: <a href=\"https://www.helpaio.com/transit/availability\" rel=\"nofollow\">https://www.helpaio.com/transit/availability</a></p>\n<p><img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/wxxyVR6O.png\"/></p>\n\n\t",
       "author": "dismantle",
@@ -88,8 +108,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "尽快发表才是“王道”",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
+      "pubDate": "2026-03-08 07:32:15",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "claude code 中的 token 消耗怎么这么大？",
-      "link": "https://www.v2ex.com/t/1196631#reply4",
+      "link": "https://www.v2ex.com/t/1196631#reply5",
       "pubDate": "2026-03-08T07:00:24.000Z",
       "content": "\n\t<p>我买了火山云的 coding plan lite ，cluade code 接入 auto 模型，我随便问几个问题，token 消耗蹭蹭往上涨，大家都是这样的吗，有没有降低消耗的方案。</p>\n\n\t",
       "author": "junwind",
@@ -119,7 +149,7 @@
     },
     {
       "title": "哪个仓库能看见 gradle 的 android 插件最新版?",
-      "link": "https://www.v2ex.com/t/1196627#reply0",
+      "link": "https://www.v2ex.com/t/1196627#reply1",
       "pubDate": "2026-03-08T06:40:42.000Z",
       "content": "\n\t<p>昨天用 2023 年装的 androidstudio 新建一个项目,默认 gradle 是 8.0 的,搞了很久都没成功,成功指的是在项目目录执行命令 gradle assemble </p>\n<p>本机安装的 gradle 版本必须与项目里 build.gradle 里 plugins 块 com.android.application 的 version 差不多\n最后还是重新下了最新 androidstudio panda 才成功, 它自动提示 com.android.application 插件能升级到 9.1.0</p>\n<p>9.1.0 配合本机的 gradle9.4.0-rc-2 才成功</p>\n<p>阿里云 android 源无法用浏览器访问 </p>\n<p>这种类似情况以后可以哪里看最新版或者所有版本?</p>\n\n\t",
       "author": "zhouyin",
@@ -169,7 +199,7 @@
     },
     {
       "title": "新手 nas 玩家，如何优雅的刮削各大网盘",
-      "link": "https://www.v2ex.com/t/1196608#reply9",
+      "link": "https://www.v2ex.com/t/1196608#reply11",
       "pubDate": "2026-03-08T05:04:26.000Z",
       "content": "\n\t<p>接上贴，<a href=\"https://www.v2ex.com/t/1193556\" rel=\"nofollow\">https://www.v2ex.com/t/1193556</a> ，已安装飞牛。\n如何优雅的看各种电影视频，或者需要什么网盘，会员吗</p>\n\n\t",
       "author": "miusmile",
@@ -208,8 +238,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "TIFF Cinematheque Mar 7, 2026 (评论: 急救)",
+      "link": "https://movie.douban.com/review/17493976/",
+      "pubDate": "Sun, 08 Mar 2026 03:10:30 GMT",
+      "content": "\nHoran517评论: 急救 (https://movie.douban.com/subject/1468822/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;4/5 \\ud83c\\udfa6&#34;, &#34;entityRanges&#34;...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-      "link": "https://www.v2ex.com/t/1196592#reply26",
+      "link": "https://www.v2ex.com/t/1196592#reply27",
       "pubDate": "2026-03-08T03:01:06.000Z",
       "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
       "author": "yuan321",
@@ -328,6 +368,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "散文初作（12）：《客家颂》",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1251036&do=blog&id=1524801",
+      "pubDate": "2026-03-07 10:30:51",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "[转载]News from Science-335",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1524864",
       "pubDate": "2026-03-07 10:29:49",
@@ -398,16 +448,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "我想吃砂糖酱油味的纳豆糯米团? (评论: 小森林 冬春篇)",
-      "link": "https://movie.douban.com/review/17492887/",
-      "pubDate": "Sat, 07 Mar 2026 09:28:00 GMT",
-      "content": "\n明石同学评论: 小森林 冬春篇 (https://movie.douban.com/subject/25814707/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5728\\u5916\\u5a46\\u5bb6\\u70e4\\u7...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "宿黔江",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524788",
       "pubDate": "2026-03-07 09:09:44",
@@ -438,9 +478,9 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "如何识别学会？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524783",
-      "pubDate": "2026-03-07 08:44:48",
+      "title": "[转载]《七中的回忆》——写给孩子们的话（老伴文章）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=496942&do=blog&id=1524786",
+      "pubDate": "2026-03-07 08:53:18",
       "content": "",
       "author": "",
       "categories": [],
@@ -461,26 +501,6 @@
       "title": "無不為為用",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1524847",
       "pubDate": "2026-03-07 08:23:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "科研过程中要识别重要的问题和可能的问题",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524778",
-      "pubDate": "2026-03-07 07:53:00",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "[转载]《荀子.修身》",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3370941&do=blog&id=1524777",
-      "pubDate": "2026-03-07 07:41:40",
       "content": "",
       "author": "",
       "categories": [],
@@ -791,26 +811,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "重生之当上导演翻拍爱了三十年的作家的作品原来是这么爽的事情吗 (评论: 钟表馆事件)",
-      "link": "https://movie.douban.com/review/17490619/",
-      "pubDate": "Thu, 05 Mar 2026 17:30:33 GMT",
-      "content": "\n津島 松聲评论: 钟表馆事件 (https://movie.douban.com/subject/37168638/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;0&#34;: {&#34;data&#34;: {&#34;site_name&#34;: &#34;\\u817e\\u8baf\\u6587\\u6863&#34;, &#34;...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "开源了 macOS 微信数据库解密",
-      "link": "https://www.v2ex.com/t/1196159#reply44",
-      "pubDate": "2026-03-05T13:48:20.000Z",
-      "content": "\n\t开源了 macOS 微信数据库解密！直接掌握你自己的聊天信息！！<br /><br />一行命令扫描微信进程内存，提取所有数据库密钥，解密本地聊天记录。<br /><br />内存扫描一次性提取 25+ 个 DB 的密钥 , 导出聊天记录，支持模糊匹配联系人名 <br /><br />重要的是内置 MCP Server ，让 AI 直接查询你的微信数据<br /><br /><a target=\"_blank\" href=\"https://github.com/Thearas/wechat-db-decrypt-macos\" rel=\"nofollow noopener\">https://github.com/Thearas/wechat-db-decrypt-macos</a><br /><br />欢迎 star\n\t",
-      "author": "jakevin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "曲径通幽，别有洞天（可以想歪 (评论: 小姐)",
       "link": "https://movie.douban.com/review/17490265/",
       "pubDate": "Thu, 05 Mar 2026 13:28:03 GMT",
@@ -892,7 +892,7 @@
     },
     {
       "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply119",
+      "link": "https://www.v2ex.com/t/1196011#reply122",
       "pubDate": "2026-03-05T04:33:26.000Z",
       "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
       "author": "v2exgo",
