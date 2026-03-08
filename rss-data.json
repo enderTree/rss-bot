@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-08T13:34:49.368Z",
+  "lastUpdated": "2026-03-08T14:17:58.083Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-08T13:34:37.112Z",
+      "lastUpdated": "2026-03-08T14:17:46.145Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-08T13:34:37.951Z",
+      "lastUpdated": "2026-03-08T14:17:46.921Z",
       "items": [
         {
           "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-08T13:34:38.093Z",
+      "lastUpdated": "2026-03-08T14:17:47.114Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-08T13:34:39.550Z",
+      "lastUpdated": "2026-03-08T14:17:48.521Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,14 +303,54 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-08T13:34:39.741Z",
+      "lastUpdated": "2026-03-08T14:17:48.713Z",
       "items": [
         {
+          "title": "Codex 的额度又又又重置了。",
+          "link": "https://www.v2ex.com/t/1196614#reply15",
+          "pubDate": "2026-03-08T05:34:07.000Z",
+          "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
+          "author": "lifei6671",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-          "link": "https://www.v2ex.com/t/1196592#reply29",
+          "link": "https://www.v2ex.com/t/1196592#reply33",
           "pubDate": "2026-03-08T03:01:06.000Z",
           "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
           "author": "yuan321",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "境内阿里云服务器访问 claude、codex 会有危险吗？",
+          "link": "https://www.v2ex.com/t/1196672#reply2",
+          "pubDate": "2026-03-08T13:49:28.000Z",
+          "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
+          "author": "wayneyang3",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply0",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
+          "link": "https://www.v2ex.com/t/1196644#reply5",
+          "pubDate": "2026-03-08T08:46:15.000Z",
+          "content": "\n\t<p>在线游玩地址： <a href=\"https://ds.hookapp.top/\" rel=\"nofollow\">https://ds.hookapp.top/</a> 适配手机和 ipad 以及 PC ，调完设置点“折叠操作”显示最大化的棋盘。GitHub：GitHub - igofreely/flipchess · GitHub 有完整的 git 提交版本记录，有 Windows 、Linux 、Mac 的部署文档。\nFlipChess （揭棋）</p>\n<p>基于 React + TypeScript + Vite + PWA + Express + MySQL 的揭棋项目，支持本地客户端与服务器联机模式。</p>\n<p>主要功能</p>\n<p>客户端揭棋对局（ AI 、音效、复盘、FEN 导入导出）</p>\n<p>服务器账号体系（注册/登录/JWT ）</p>\n<p>服务器对局管理（ PVP / VS AI / AI VS AI ）</p>\n<p>平台统计与排行榜</p>\n\n\t",
+          "author": "igofreely",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -321,16 +361,6 @@
           "pubDate": "2026-03-08T13:27:31.000Z",
           "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
           "author": "seers",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Codex 的额度又又又重置了。",
-          "link": "https://www.v2ex.com/t/1196614#reply14",
-          "pubDate": "2026-03-08T05:34:07.000Z",
-          "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
-          "author": "lifei6671",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -356,16 +386,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
-          "link": "https://www.v2ex.com/t/1196644#reply3",
-          "pubDate": "2026-03-08T08:46:15.000Z",
-          "content": "\n\t<p>在线游玩地址： <a href=\"https://ds.hookapp.top/\" rel=\"nofollow\">https://ds.hookapp.top/</a> 适配手机和 ipad 以及 PC ，调完设置点“折叠操作”显示最大化的棋盘。GitHub：GitHub - igofreely/flipchess · GitHub 有完整的 git 提交版本记录，有 Windows 、Linux 、Mac 的部署文档。\nFlipChess （揭棋）</p>\n<p>基于 React + TypeScript + Vite + PWA + Express + MySQL 的揭棋项目，支持本地客户端与服务器联机模式。</p>\n<p>主要功能</p>\n<p>客户端揭棋对局（ AI 、音效、复盘、FEN 导入导出）</p>\n<p>服务器账号体系（注册/登录/JWT ）</p>\n<p>服务器对局管理（ PVP / VS AI / AI VS AI ）</p>\n<p>平台统计与排行榜</p>\n\n\t",
-          "author": "igofreely",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "新手 nas 玩家，如何优雅的刮削各大网盘",
           "link": "https://www.v2ex.com/t/1196608#reply11",
           "pubDate": "2026-03-08T05:04:26.000Z",
@@ -386,21 +406,31 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "开源了一个 Twitter/X CLI。",
-          "link": "https://www.v2ex.com/t/1196629#reply9",
-          "pubDate": "2026-03-08T06:47:15.000Z",
-          "content": "\n\t<p>开源了一个 terminal-first 的 Twitter/X CLI 。\n不需要 API key ，直接用浏览器 Cookie 读取 for-you / following timeline 、bookmarks 、user posts 。\n支持 JSON output 。\n可配置的打分算法进行筛选想看的帖子。</p>\n<p>目前是直接用 API 来做的，比较稳定，后面还会用 playwright/agent-browser 支持更多的功能。</p>\n<p><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></p>\n\n\t",
-          "author": "jakevin",
+          "title": "北京联通有公网 IP，搭建网站可行吗",
+          "link": "https://www.v2ex.com/t/1196678#reply0",
+          "pubDate": "2026-03-08T14:16:14.000Z",
+          "content": "\n\t虽然有没 44 和 80 端口，技术应该有办法解决吧<br /><br /><br />那么政策上有没有需要注意的点？<br /><br />安全性上需要注意什么？\n\t",
+          "author": "andforce",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "Chatbox AI / Cherry Studio / Monica 这类整合平台的定位是什么？",
-          "link": "https://www.v2ex.com/t/1196609#reply7",
+          "link": "https://www.v2ex.com/t/1196609#reply8",
           "pubDate": "2026-03-08T05:08:47.000Z",
           "content": "\n\t<p>Chatbox AI / Cherry Studio / Monica 这类第三方工具需要通过 LLM 的 API 去调用模型的。本身开 llm plus 或者 pro 也没办法在第三方平台使用？如果是 api 的费用应该比 plus ，pro 要高吧？</p>\n<p>或者 在第三方平台开其会员。但是这样就和中转站一样了吧？我之前试过几个平台，感觉明显的降智，根本无法判断是其声明的模型。通用的提示词和问题，gpt5.2 ，gemini pro 的结果和官方 ui 差别巨大。</p>\n<p>所以不是太理解这类平台的用户群体是什么样的？或者应该什么场景使用？</p>\n\n\t",
           "author": "Saunak",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "开源了一个 Twitter/X CLI。",
+          "link": "https://www.v2ex.com/t/1196629#reply9",
+          "pubDate": "2026-03-08T06:47:15.000Z",
+          "content": "\n\t<p>开源了一个 terminal-first 的 Twitter/X CLI 。\n不需要 API key ，直接用浏览器 Cookie 读取 for-you / following timeline 、bookmarks 、user posts 。\n支持 JSON output 。\n可配置的打分算法进行筛选想看的帖子。</p>\n<p>目前是直接用 API 来做的，比较稳定，后面还会用 playwright/agent-browser 支持更多的功能。</p>\n<p><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></p>\n\n\t",
+          "author": "jakevin",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -506,8 +536,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Agent 在传统企业的尝试与阻碍",
+          "link": "https://www.v2ex.com/t/1196366#reply19",
+          "pubDate": "2026-03-06T08:34:51.000Z",
+          "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
+          "author": "magicfield",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
-          "link": "https://www.v2ex.com/t/1196527#reply9",
+          "link": "https://www.v2ex.com/t/1196527#reply10",
           "pubDate": "2026-03-07T09:46:51.000Z",
           "content": "\n\t主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等\n\t",
           "author": "rowling",
@@ -541,16 +581,6 @@
           "pubDate": "2026-03-05T12:31:35.000Z",
           "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
           "author": "ope",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Agent 在传统企业的尝试与阻碍",
-          "link": "https://www.v2ex.com/t/1196366#reply18",
-          "pubDate": "2026-03-06T08:34:51.000Z",
-          "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
-          "author": "magicfield",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -674,58 +704,18 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "claude code CLI 登录 401",
-          "link": "https://www.v2ex.com/t/1196378#reply7",
-          "pubDate": "2026-03-06T09:16:01.000Z",
-          "content": "\n\t<p>刚开通 claude pro 命令行登录</p>\n<p>提示：401 {\"error\":{\"message\":\"401 授权信息无效，请检查\",\"type\":\"authentication_error\"},\"type\":\"error\"}</p>\n<p>claude 终端卸载重装也试了</p>\n<p>兄弟们有遇到过吗</p>\n\n\t",
-          "author": "audiozen3001",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
-          "link": "https://www.v2ex.com/t/1196435#reply7",
-          "pubDate": "2026-03-06T15:47:54.000Z",
-          "content": "\n\t<p>本地有 claudecode/gemini/codex/cursor 。用 cc-connect 花个 10 分钟就可以把他们拉个飞书群，让他们互相聊天，太酷了。不同的 agent ，不同的能力模型，不同的人设上下文，明天试试搭建一个的“三省六部”哈哈。</p>\n<p>项目地址： <a href=\"https://github.com/chenhg5/cc-connect\" rel=\"nofollow\">https://github.com/chenhg5/cc-connect</a></p>\n<p>一些截图：</p>\n<p><img alt=\"1ab013a95014ce1d5a797b468bb86d3d.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee24e9c.webp\"/>\n<img alt=\"5ce0b4f1b763b94623ea2d18cc79c0df.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee06d8f.webp\"/>\n<img alt=\"77487389f0d62407e984b5940cd898f5.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee397e1.webp\"/>\n<img alt=\"8fcecaac33734c491eda7d06e4b8ee88.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee6af7e.webp\"/></p>\n<p>项目的一些交流群：</p>\n<p>discord: <a href=\"https://discord.gg/kHpwgaM4kq\" rel=\"nofollow\">https://discord.gg/kHpwgaM4kq</a></p>\n<p>telegram: <a href=\"https://t.me/+odGNDhCjbjdmMmZl\" rel=\"nofollow\">https://t.me/+odGNDhCjbjdmMmZl</a></p>\n<p>wechat: </p>\n<p><img alt=\"wechat_group\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://quick.go-admin.cn/ai/article/cc-connect_wechat_group_2.jpeg\"/></p>\n\n\t",
-          "author": "plane",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Token 从哪里买或者获取",
-          "link": "https://www.v2ex.com/t/1195904#reply65",
-          "pubDate": "2026-03-05T00:39:37.000Z",
-          "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
-          "author": "anlitechnet",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-08T13:34:41.927Z",
+      "lastUpdated": "2026-03-08T14:17:50.613Z",
       "items": [
         {
           "title": "东京樱花已绽放",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524805",
           "pubDate": "2026-03-07 11:25:13",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "听说玫瑰有刺，可月季从不辩解",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524793",
-          "pubDate": "2026-03-07 09:35:22",
           "content": "",
           "author": "",
           "categories": [],
@@ -803,26 +793,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "中国人文社科学者在研究什么？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
-          "pubDate": "2026-03-07 09:50:52",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "SSCI 论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
-          "pubDate": "2026-03-07 10:12:07",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "殷商日食论证之总结",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1524843",
           "pubDate": "2026-03-07 09:01:10",
@@ -843,9 +813,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "無不為為用",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1524847",
-          "pubDate": "2026-03-07 08:23:26",
+          "title": "尽快发表才是“王道”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
+          "pubDate": "2026-03-08 07:32:15",
           "content": "",
           "author": "",
           "categories": [],
@@ -853,9 +823,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "尽快发表才是“王道”",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524879",
-          "pubDate": "2026-03-08 07:32:15",
+          "title": "庆三八",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
+          "pubDate": "2026-03-08 08:32:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -873,9 +843,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "庆祝三八妇女节",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
-          "pubDate": "2026-03-07 10:13:35",
+          "title": "無不為為用",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1524847",
+          "pubDate": "2026-03-07 08:23:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "殢人娇态最轻盈",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524892",
+          "pubDate": "2026-03-08 10:07:58",
           "content": "",
           "author": "",
           "categories": [],
@@ -893,9 +873,29 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "庆三八",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
-          "pubDate": "2026-03-08 08:32:05",
+          "title": "《时空的织物》——致物理探索者",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524870",
+          "pubDate": "2026-03-08 02:20:00",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "中医与活性算法 （17）中药不是天然药，而是生态信号",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524883",
+          "pubDate": "2026-03-08 08:55:00",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2025年 全球 SSCI 发文 Top10 刊物",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524897",
+          "pubDate": "2026-03-08 10:29:51",
           "content": "",
           "author": "",
           "categories": [],
@@ -917,7 +917,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-08T13:34:44.555Z",
+      "lastUpdated": "2026-03-08T14:17:53.443Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,7 +1124,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-08T13:34:47.465Z",
+      "lastUpdated": "2026-03-08T14:17:56.630Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-08T13:34:48.724Z",
+      "lastUpdated": "2026-03-08T14:17:57.506Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-08T13:34:48.932Z",
+      "lastUpdated": "2026-03-08T14:17:57.562Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-08T13:34:49.368Z",
+      "lastUpdated": "2026-03-08T14:17:58.083Z",
       "items": [
         {
           "title": "无题",

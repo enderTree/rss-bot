@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-03-08T13:34:49.371Z",
+  "lastUpdated": "2026-03-08T14:17:58.087Z",
   "totalItems": 133,
   "items": [
+    {
+      "title": "北京联通有公网 IP，搭建网站可行吗",
+      "link": "https://www.v2ex.com/t/1196678#reply0",
+      "pubDate": "2026-03-08T14:16:14.000Z",
+      "content": "\n\t虽然有没 44 和 80 端口，技术应该有办法解决吧<br /><br /><br />那么政策上有没有需要注意的点？<br /><br />安全性上需要注意什么？\n\t",
+      "author": "andforce",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+      "link": "https://www.v2ex.com/t/1196673#reply0",
+      "pubDate": "2026-03-08T14:02:37.000Z",
+      "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+      "author": "doctorzry",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "境内阿里云服务器访问 claude、codex 会有危险吗？",
+      "link": "https://www.v2ex.com/t/1196672#reply2",
+      "pubDate": "2026-03-08T13:49:28.000Z",
+      "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
+      "author": "wayneyang3",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
       "link": "https://www.v2ex.com/t/1196671#reply0",
@@ -88,8 +118,38 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "2025年 全球 SSCI 发文 Top10 刊物",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524897",
+      "pubDate": "2026-03-08 10:29:51",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "殢人娇态最轻盈",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524892",
+      "pubDate": "2026-03-08 10:07:58",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "中医与活性算法 （17）中药不是天然药，而是生态信号",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1524883",
+      "pubDate": "2026-03-08 08:55:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
-      "link": "https://www.v2ex.com/t/1196644#reply3",
+      "link": "https://www.v2ex.com/t/1196644#reply5",
       "pubDate": "2026-03-08T08:46:15.000Z",
       "content": "\n\t<p>在线游玩地址： <a href=\"https://ds.hookapp.top/\" rel=\"nofollow\">https://ds.hookapp.top/</a> 适配手机和 ipad 以及 PC ，调完设置点“折叠操作”显示最大化的棋盘。GitHub：GitHub - igofreely/flipchess · GitHub 有完整的 git 提交版本记录，有 Windows 、Linux 、Mac 的部署文档。\nFlipChess （揭棋）</p>\n<p>基于 React + TypeScript + Vite + PWA + Express + MySQL 的揭棋项目，支持本地客户端与服务器联机模式。</p>\n<p>主要功能</p>\n<p>客户端揭棋对局（ AI 、音效、复盘、FEN 导入导出）</p>\n<p>服务器账号体系（注册/登录/JWT ）</p>\n<p>服务器对局管理（ PVP / VS AI / AI VS AI ）</p>\n<p>平台统计与排行榜</p>\n\n\t",
       "author": "igofreely",
@@ -219,7 +279,7 @@
     },
     {
       "title": "Codex 的额度又又又重置了。",
-      "link": "https://www.v2ex.com/t/1196614#reply14",
+      "link": "https://www.v2ex.com/t/1196614#reply15",
       "pubDate": "2026-03-08T05:34:07.000Z",
       "content": "\n\t<p>即上次 openai 出现 bug 重置额度后，今天又重置了额度。官方人员说是因为有用户反馈额度消耗过快，所以重置了。</p>\n<p>切换 gpt-5.4 后，额度消耗真的很快，我以为是因为 5.4 输出快导致的，没想到很可能是一个 bug 。</p>\n<p>这世界果然都是草台班子。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XauPiqa.png\"/></p>\n\n\t",
       "author": "lifei6671",
@@ -229,7 +289,7 @@
     },
     {
       "title": "Chatbox AI / Cherry Studio / Monica 这类整合平台的定位是什么？",
-      "link": "https://www.v2ex.com/t/1196609#reply7",
+      "link": "https://www.v2ex.com/t/1196609#reply8",
       "pubDate": "2026-03-08T05:08:47.000Z",
       "content": "\n\t<p>Chatbox AI / Cherry Studio / Monica 这类第三方工具需要通过 LLM 的 API 去调用模型的。本身开 llm plus 或者 pro 也没办法在第三方平台使用？如果是 api 的费用应该比 plus ，pro 要高吧？</p>\n<p>或者 在第三方平台开其会员。但是这样就和中转站一样了吧？我之前试过几个平台，感觉明显的降智，根本无法判断是其声明的模型。通用的提示词和问题，gpt5.2 ，gemini pro 的结果和官方 ui 差别巨大。</p>\n<p>所以不是太理解这类平台的用户群体是什么样的？或者应该什么场景使用？</p>\n\n\t",
       "author": "Saunak",
@@ -279,13 +339,23 @@
     },
     {
       "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-      "link": "https://www.v2ex.com/t/1196592#reply29",
+      "link": "https://www.v2ex.com/t/1196592#reply33",
       "pubDate": "2026-03-08T03:01:06.000Z",
       "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
       "author": "yuan321",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "《时空的织物》——致物理探索者",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1524870",
+      "pubDate": "2026-03-08 02:20:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "超出预期，内部撕裂、规则破坏，由法治转向个人裁量审判。 (评论: 洛杉矶劫案)",
@@ -428,54 +498,14 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "庆祝三八妇女节",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1524798",
-      "pubDate": "2026-03-07 10:13:35",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "SSCI 论文 2025年 发文概况",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524797",
-      "pubDate": "2026-03-07 10:12:07",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "中国人文社科学者在研究什么？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524794",
-      "pubDate": "2026-03-07 09:50:52",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
-      "link": "https://www.v2ex.com/t/1196527#reply9",
+      "link": "https://www.v2ex.com/t/1196527#reply10",
       "pubDate": "2026-03-07T09:46:51.000Z",
       "content": "\n\t主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等\n\t",
       "author": "rowling",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "听说玫瑰有刺，可月季从不辩解",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524793",
-      "pubDate": "2026-03-07 09:35:22",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "[笔记，科普，数学] 素数（3）：素数定理，高斯两个估计的误差",
@@ -624,16 +654,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "花 10 分钟把 claude 和 gemini 拉到同一个飞书群里让他们互相聊天",
-      "link": "https://www.v2ex.com/t/1196435#reply7",
-      "pubDate": "2026-03-06T15:47:54.000Z",
-      "content": "\n\t<p>本地有 claudecode/gemini/codex/cursor 。用 cc-connect 花个 10 分钟就可以把他们拉个飞书群，让他们互相聊天，太酷了。不同的 agent ，不同的能力模型，不同的人设上下文，明天试试搭建一个的“三省六部”哈哈。</p>\n<p>项目地址： <a href=\"https://github.com/chenhg5/cc-connect\" rel=\"nofollow\">https://github.com/chenhg5/cc-connect</a></p>\n<p>一些截图：</p>\n<p><img alt=\"1ab013a95014ce1d5a797b468bb86d3d.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee24e9c.webp\"/>\n<img alt=\"5ce0b4f1b763b94623ea2d18cc79c0df.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee06d8f.webp\"/>\n<img alt=\"77487389f0d62407e984b5940cd898f5.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee397e1.webp\"/>\n<img alt=\"8fcecaac33734c491eda7d06e4b8ee88.JPG\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/06/69aaf4ee6af7e.webp\"/></p>\n<p>项目的一些交流群：</p>\n<p>discord: <a href=\"https://discord.gg/kHpwgaM4kq\" rel=\"nofollow\">https://discord.gg/kHpwgaM4kq</a></p>\n<p>telegram: <a href=\"https://t.me/+odGNDhCjbjdmMmZl\" rel=\"nofollow\">https://t.me/+odGNDhCjbjdmMmZl</a></p>\n<p>wechat: </p>\n<p><img alt=\"wechat_group\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://quick.go-admin.cn/ai/article/cc-connect_wechat_group_2.jpeg\"/></p>\n\n\t",
-      "author": "plane",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "你们能不能不跳粪坑？ (评论: 非穷尽列举)",
       "link": "https://movie.douban.com/review/17491932/",
       "pubDate": "Fri, 06 Mar 2026 15:13:50 GMT",
@@ -687,16 +707,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "claude code CLI 登录 401",
-      "link": "https://www.v2ex.com/t/1196378#reply7",
-      "pubDate": "2026-03-06T09:16:01.000Z",
-      "content": "\n\t<p>刚开通 claude pro 命令行登录</p>\n<p>提示：401 {\"error\":{\"message\":\"401 授权信息无效，请检查\",\"type\":\"authentication_error\"},\"type\":\"error\"}</p>\n<p>claude 终端卸载重装也试了</p>\n<p>兄弟们有遇到过吗</p>\n\n\t",
-      "author": "audiozen3001",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Steam 客户端其实是一个 Chromium 浏览器",
       "link": "https://www.appinn.com/steam-client-steamdb-extension/",
       "pubDate": "Fri, 06 Mar 2026 09:11:05 +0000",
@@ -712,7 +722,7 @@
     },
     {
       "title": "Agent 在传统企业的尝试与阻碍",
-      "link": "https://www.v2ex.com/t/1196366#reply18",
+      "link": "https://www.v2ex.com/t/1196366#reply19",
       "pubDate": "2026-03-06T08:34:51.000Z",
       "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
       "author": "magicfield",
@@ -945,16 +955,6 @@
       "pubDate": "2026-03-05T02:05:20.000Z",
       "content": "\n\t<p>SpringDataJPA 支持通过 findBy 方法构建查询语句，然而 findBy 方法构建的查询条件是固定的，不支持忽略值为 null 的参数对应的查询条件，这导致我们需要为每一组参数组合定义一个 findBy 方法。例如：</p>\n<pre><code class=\"language-java\">findByAuthor\nfindByAuthorAndPublishedYearGreaterThan\nfindByAuthorAndPublishedYearLessThan\nfindByAuthorAndPublishedYearGreaterThanAndPublishedYearLessThan\n</code></pre>\n<p>当条件变多时，方法名会变长，参数也会变多，并触发“长参数”坏味道。解决这一问题的重构方法是“引入参数对象”，即把所有的参数定义在一个对象里。同时，我们把 findBy 的方法名中对应查询条件的部分作为这个对象的字段名称，我们便能为每个字段构建一个查询条件，并且根据对象的赋值情况，动态地组合非空字段对应的查询条件组合为查询子句。</p>\n<pre><code class=\"language-java\">public class BookQuery {\n    String author;\n    Integer publishedYearGreaterThan;\n    Integer publishedYearLessThan;\n    //...\n}\n</code></pre>\n<p>基于此对象，我们可以把所有的 findBy 方法合并为一个泛型方法，从而简化查询接口的设计。</p>\n<pre><code class=\"language-java\">public class CrudRepository&lt;E, I, Q&gt; {\n    List&lt;E&gt; findBy(Q query);\n    //...\n}\n</code></pre>\n<p>提出查询对象这一概念，并利用它来解决动态查询问题，正是 DoytoQuery 的核心功能。</p>\n\n\t",
       "author": "f0rb",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Token 从哪里买或者获取",
-      "link": "https://www.v2ex.com/t/1195904#reply65",
-      "pubDate": "2026-03-05T00:39:37.000Z",
-      "content": "\n\t<p>AI 时代，感觉 Token 成了硬通货。只要用 AI 就离不开 Token 。不管是自己，还是公司层面，都要求采购 AI 。大家有哪些好用的 Token 渠道？</p>\n\n\t",
-      "author": "anlitechnet",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
