@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-09T17:40:52.943Z",
+  "lastUpdated": "2026-03-09T18:40:22.743Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-09T17:40:41.882Z",
+      "lastUpdated": "2026-03-09T18:40:12.034Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-09T17:40:42.766Z",
+      "lastUpdated": "2026-03-09T18:40:12.967Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-09T17:40:42.892Z",
+      "lastUpdated": "2026-03-09T18:40:13.043Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-09T17:40:44.384Z",
+      "lastUpdated": "2026-03-09T18:40:14.629Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,14 +303,24 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-09T17:40:44.595Z",
+      "lastUpdated": "2026-03-09T18:40:14.772Z",
       "items": [
         {
           "title": "面对不懂技术，强势的甲方要给你甩锅，你们会怎么做",
-          "link": "https://www.v2ex.com/t/1196996#reply2",
+          "link": "https://www.v2ex.com/t/1196996#reply4",
           "pubDate": "2026-03-09T15:59:19.000Z",
           "content": "\n\t背景：给甲方 A 业务部门开发系统，部署在由 B 部门管理的虚机上，虚机集群及底层由 B 维护，我们只有登录部署权限<br />起因：某天晚上，B 的集群底层存储 IO 全挂了，导致我们虚机也宕机，业务系统更是死的不能再死了，影响了第二天的业务，初步估计损失 7 位数<br />现状：A 领导要分锅，B 部门领导（强势，不懂技术）说我们乙方开发的系统没有技术手段检测到系统宕机，我们也要背锅，具体多少还没定出来，A 部门更是 B 说啥就是啥，现在在斡旋中<br /><br />其实我们有监控系统，但是虚机全挂了导致一锅端了，会中 B 部门老登粪口喷人我差点和他干起来，被我们项目经理死死按住，现在也不知道咋办，难道就要背这口锅吗\n\t",
           "author": "seers",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply67",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -321,16 +331,6 @@
           "pubDate": "2026-03-09T13:25:21.000Z",
           "content": "\n\t<p>刚入职不到 3 周的哥哥 在学习部署项目 交给了他之前的部署流程文档</p>\n<p>可惜原先部署文档没有给 nginx 的配置 头也是真放心 把其中一个客户的线上生产环境带 root 的直接送给了他 让他自己模仿</p>\n<p>项目的 SQL 也是考虑周全 每个 DDL 前必有 DROP 老哥也是犯了我之前的毛病...(看错服务器是哪个了)\n结果中午客户在企业微信里就傻眼了 我上次只是 DROP 了一张表 现在是清库了</p>\n<p>突然想起来《反基督者》里面的一句话 Chaos Reigns.</p>\n\n\t",
           "author": "PendingOni",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply66",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -406,21 +406,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "国行三星无法使用 Gemini 的问题？",
-          "link": "https://www.v2ex.com/t/1196835#reply16",
-          "pubDate": "2026-03-09T06:09:11.000Z",
-          "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
-          "author": "bzkmsjy",
+          "title": "阿里 qwen3.5 模型有个严重 bug",
+          "link": "https://www.v2ex.com/t/1196976#reply5",
+          "pubDate": "2026-03-09T14:07:22.000Z",
+          "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
+          "author": "wsseo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "阿里 qwen3.5 模型有个严重 bug",
-          "link": "https://www.v2ex.com/t/1196976#reply2",
-          "pubDate": "2026-03-09T14:07:22.000Z",
-          "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
-          "author": "wsseo",
+          "title": "国行三星无法使用 Gemini 的问题？",
+          "link": "https://www.v2ex.com/t/1196835#reply16",
+          "pubDate": "2026-03-09T06:09:11.000Z",
+          "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
+          "author": "bzkmsjy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -566,6 +566,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
+          "link": "https://www.v2ex.com/t/1196789#reply4",
+          "pubDate": "2026-03-09T03:28:28.000Z",
+          "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
+          "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "关于 cc 使用模型的问题",
           "link": "https://www.v2ex.com/t/1196787#reply3",
           "pubDate": "2026-03-09T03:22:23.000Z",
@@ -581,16 +591,6 @@
           "pubDate": "2026-03-09T04:16:28.000Z",
           "content": "\n\t<p>开始的时候只是想实现一个 <del><a href=\"http://jsonbase.com\" rel=\"nofollow\">jsonbase.com</a></del> (因为它已经嘎了) 差不多的简单 json 存储 server ，然后朋友整了个基于 cloudflare worker 的博客，于是得到启发那我用 cf 搞一个，服务器都省了。</p>\n<p>用 jsonbase 也是因为之前做应用版本更新、通知/公告 以及一些 App 的配置文件下发，另外就是 json 格式的日志上传非常方便（当然后面其实我自己用 php 手搓了一个的）。</p>\n<p>然后去年开始弄 <a href=\"https://github.com/PBK-B/cloudflare-worker-json-base\" rel=\"nofollow\">https://github.com/PBK-B/cloudflare-worker-json-base</a></p>\n<p>在做的过程中就是发现，我都存 json 了。那我存文件也很合理吧（传 zip 日志压缩包很方便）？于是加上了文件上传，结果发现 cf 的 kv 和 d1 存储单条数据大小有上限。于是做了文件分片。</p>\n<p>本来是读写都要 token 的鉴权的，于是想着做一个针对路径匹配的权限管理（公有读写、私有读写、公有读私有写、公有写私有读）</p>\n<p>就在昨晚和朋友讨论的时候发现这它喵不就是非标准 API 的 S3 (对象存储) 吗？所以我是在 cloudflare 的 d1 和 kv 上实现了一个 r2 ？给自己都整笑了 😄</p>\n\n\t",
           "author": "pbk",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
-          "link": "https://www.v2ex.com/t/1196789#reply3",
-          "pubDate": "2026-03-09T03:28:28.000Z",
-          "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
-          "author": "YanSeven",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -710,7 +710,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-09T17:40:46.357Z",
+      "lastUpdated": "2026-03-09T18:40:16.783Z",
       "items": [
         {
           "title": "《青少年科苑》杂志科普创作心得（Ⅲ）",
@@ -917,7 +917,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-09T17:40:48.929Z",
+      "lastUpdated": "2026-03-09T18:40:19.136Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1124,7 +1124,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-09T17:40:51.002Z",
+      "lastUpdated": "2026-03-09T18:40:21.110Z",
       "items": [
         {
           "title": "《呼啸山庄》：如影随形的爱与死亡 (评论: 呼啸山庄)",
@@ -1332,20 +1332,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-09T17:40:52.079Z",
+      "lastUpdated": "2026-03-09T18:40:22.271Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-09T17:40:52.272Z",
+      "lastUpdated": "2026-03-09T18:40:22.450Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-09T17:40:52.943Z",
+      "lastUpdated": "2026-03-09T18:40:22.742Z",
       "items": [
         {
           "title": "无题",

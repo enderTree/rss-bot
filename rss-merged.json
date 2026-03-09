@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-09T17:40:52.946Z",
+  "lastUpdated": "2026-03-09T18:40:22.746Z",
   "totalItems": 133,
   "items": [
     {
       "title": "面对不懂技术，强势的甲方要给你甩锅，你们会怎么做",
-      "link": "https://www.v2ex.com/t/1196996#reply2",
+      "link": "https://www.v2ex.com/t/1196996#reply4",
       "pubDate": "2026-03-09T15:59:19.000Z",
       "content": "\n\t背景：给甲方 A 业务部门开发系统，部署在由 B 部门管理的虚机上，虚机集群及底层由 B 维护，我们只有登录部署权限<br />起因：某天晚上，B 的集群底层存储 IO 全挂了，导致我们虚机也宕机，业务系统更是死的不能再死了，影响了第二天的业务，初步估计损失 7 位数<br />现状：A 领导要分锅，B 部门领导（强势，不懂技术）说我们乙方开发的系统没有技术手段检测到系统宕机，我们也要背锅，具体多少还没定出来，A 部门更是 B 说啥就是啥，现在在斡旋中<br /><br />其实我们有监控系统，但是虚机全挂了导致一锅端了，会中 B 部门老登粪口喷人我差点和他干起来，被我们项目经理死死按住，现在也不知道咋办，难道就要背这口锅吗\n\t",
       "author": "seers",
@@ -34,7 +34,7 @@
     },
     {
       "title": "阿里 qwen3.5 模型有个严重 bug",
-      "link": "https://www.v2ex.com/t/1196976#reply2",
+      "link": "https://www.v2ex.com/t/1196976#reply5",
       "pubDate": "2026-03-09T14:07:22.000Z",
       "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
       "author": "wsseo",
@@ -324,7 +324,7 @@
     },
     {
       "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
-      "link": "https://www.v2ex.com/t/1196789#reply3",
+      "link": "https://www.v2ex.com/t/1196789#reply4",
       "pubDate": "2026-03-09T03:28:28.000Z",
       "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
       "author": "YanSeven",
@@ -484,7 +484,7 @@
     },
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply66",
+      "link": "https://www.v2ex.com/t/1196703#reply67",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
