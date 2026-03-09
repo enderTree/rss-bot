@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-09T07:44:37.088Z",
+  "lastUpdated": "2026-03-09T08:34:37.812Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-09T07:44:25.164Z",
+      "lastUpdated": "2026-03-09T08:34:23.107Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-09T07:44:26.062Z",
+      "lastUpdated": "2026-03-09T08:34:24.299Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-09T07:44:26.158Z",
+      "lastUpdated": "2026-03-09T08:34:24.452Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-09T07:44:27.812Z",
+      "lastUpdated": "2026-03-09T08:34:26.216Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,21 +303,41 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-09T07:44:27.940Z",
+      "lastUpdated": "2026-03-09T08:34:27.316Z",
       "items": [
         {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply63",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
+          "title": "小米摄像头权限",
+          "link": "https://www.v2ex.com/t/1196719#reply29",
+          "pubDate": "2026-03-09T01:10:35.000Z",
+          "content": "\n\t<p>最近有个需求，希望家庭成员能在某个时间段的时候，才有某个摄像头的权限。</p>\n<p>这个好像米家没这样的精细权限控制，想到的方案是，调用米家的加入 家庭成员和取消家庭成员的 api ，定时脚本去处理。</p>\n<p>请问各位大佬\n有这样的 open api 吗？还是要抓包？\n别的品牌摄像头有这样的功能吗，能接入米家么。家里都是米家生态。不太想再安装一个 app</p>\n\n\t",
+          "author": "frank1256",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude Code 有哪些冷门但好用的技巧？分享几个我在用的",
+          "link": "https://www.v2ex.com/t/1196729#reply27",
+          "pubDate": "2026-03-09T01:26:57.000Z",
+          "content": "\n\t用 CC 也有段时间了，分享几个可能不是人人都知道的小技巧：<br /><br />1. /clear 不是清空历史，而是开启新的 session ，之前的上下文还在<br /><br />2. 在 .claudeignore 里可以配置忽略文件，避免 AI 读取 node_modules 拖慢速度<br /><br />3. 用 @ 引用文件时，可以直接 @<a target=\"_blank\" href=\"/member/src\" rel=\"nofollow noopener\">src</a>/ 引用整个目录<br /><br />4. 提示词里加 step by step 真的有用，复杂任务拆解后成功率明显提升<br /><br />5. 遇到报错直接贴错误信息，不用解释太多，CC 自己能从 stack trace 里读明白<br /><br />你们还有什么实用的技巧？\n\t",
+          "author": "anyChris",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude code/opencode 多会话管理，大家用啥",
+          "link": "https://www.v2ex.com/t/1196893#reply1",
+          "pubDate": "2026-03-09T08:01:33.000Z",
+          "content": "\n\t<p>终端里的 claude-squad/agent-deck\nweb 界面的有 vibekanban\n还有一些 vscode 里的插件</p>\n<p>另外猜测一个趋势，后面的 vibecoding 都会在云上 7X24 跑？人只需要收到通知时，去 check 下结果，这种情况下，有哪些编程会话工具可选</p>\n\n\t",
+          "author": "hotea",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "下次再也不宣传 trae 了",
-          "link": "https://www.v2ex.com/t/1196871#reply7",
+          "link": "https://www.v2ex.com/t/1196871#reply26",
           "pubDate": "2026-03-09T07:32:46.000Z",
           "content": "\n\t<a target=\"_blank\" href=\"/i/6768e84c.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 6768e84c.png\"><img src=\"//i.v2ex.co/6768e84c.png\" class=\"embedded_image\"></a><br /><br />分享完,自己要排队了\n\t",
           "author": "crocoBaby",
@@ -326,21 +346,41 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "被各种收费和水印简历工具劝退后，我做了一个真正免费可导出的 AI 简历工具",
-          "link": "https://www.v2ex.com/t/1196870#reply2",
-          "pubDate": "2026-03-09T07:30:59.000Z",
-          "content": "\n\t<p>最近在做一个自己挺有感触的小产品，叫 <strong>智简简历</strong>：</p>\n<p><a href=\"https://aijianli.cn\" rel=\"nofollow\">https://aijianli.cn</a></p>\n<p>做它的原因其实很简单。</p>\n<p>我发现市面上很多简历工具，前面的体验都还行，但最后总会在某一步“露出獠牙”：</p>\n<ul>\n<li>先让你填半天内容，最后下载时才提示付费</li>\n<li>表面说免费，导出的 PDF 却带着很明显的水印</li>\n<li>模板看起来很多，但编辑体验很像在填一个又一个表单</li>\n<li>AI 只是给你吐一段文字，最后还是得回到 Word 里自己调格式</li>\n</ul>\n<p>我一直觉得，简历工具最不应该做的事，就是在用户已经投入了大量时间之后，再通过导出门槛去收割。</p>\n<p>所以我干脆自己做了一个更克制一点的版本，目标很明确：</p>\n<ul>\n<li>真正免费</li>\n<li>无水印导出</li>\n<li>不让用户折腾 Word 排版</li>\n<li>让 AI 真的参与到简历制作流程里，而不是只负责“写一段话”</li>\n</ul>\n<p><img alt=\"首页 Hero 截图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://aijianli-wx.oss-cn-shanghai.aliyuncs.com/seo-metarils/Landing-Hero.png\"/></p>\n<p>目前已经做出来的一些核心能力：</p>\n<h2>1. 所见即所得编辑</h2>\n<p>不是传统的表单式录入，而是更接近文档编辑的体验。</p>\n<p>你在编辑内容时，右侧会实时预览 A4 页面效果；模块顺序、排版布局、主题风格、间距变化都能立刻看到。</p>\n<p>这点对做简历很重要，因为很多时间其实不是花在“写内容”，而是花在“来回调格式”。</p>\n<p><img alt=\"编辑器实时预览界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://aijianli-wx.oss-cn-shanghai.aliyuncs.com/seo-metarils/EditPage-RealTimePreview.png\"/></p>\n<h2>2. AI 文本极速转简历</h2>\n<p>现在很多人已经习惯先去豆包、ChatGPT 、DeepSeek 里让 AI 帮忙写一版简历内容。</p>\n<p>问题是，大模型通常输出的是一大段文本，不适合直接投递。</p>\n<p>所以我做了一个“AI 文本转简历”的流程：</p>\n<ul>\n<li>直接粘贴大模型生成的长文本</li>\n<li>系统自动解析结构</li>\n<li>一键套用专业模板排版</li>\n</ul>\n<p>这样你就不用自己再手动拆分“教育经历 / 项目经历 / 工作经历”。</p>\n<p><img alt=\"AI 文本转简历功能截图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://aijianli-wx.oss-cn-shanghai.aliyuncs.com/seo-metarils/AIImport-TextToResume.png\"/></p>\n<h2>3. 模块级 AI 润色</h2>\n<p>很多人的问题不是“没经历”，而是“不会表达”。</p>\n<p>比如：</p>\n<ul>\n<li>负责前端开发</li>\n<li>参与项目上线</li>\n<li>协助完成运营活动</li>\n</ul>\n<p>这些话都不算错，但太平了，不够职业化，也不够结果导向。</p>\n<p>所以我没有只做“整份简历重写”，而是加入了更细粒度的模块级 AI 润色，让用户可以对单条经历进行优化。</p>\n<h2>4. JD 智能匹配</h2>\n<p>同一份简历投不同岗位，其实重点应该不同。</p>\n<p>所以还做了一个 JD 智能匹配能力：</p>\n<ul>\n<li>粘贴目标岗位描述</li>\n<li>AI 自动识别岗位重点</li>\n<li>帮你调整简历表达的侧重点</li>\n</ul>\n<p>这对海投之外、认真准备重点岗位的人会更有价值。</p>\n<h2>5. ATS 友好与高清导出</h2>\n<p>很多“好看”的简历模板，未必适合投递系统解析。</p>\n<p>所以我在做模板时，会更偏向结构清晰、信息完整、适合 ATS 抓取的格式。同时支持高清 PDF 导出，而且<strong>没有水印</strong>。</p>\n<p><img alt=\"模板页效果图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://aijianli-wx.oss-cn-shanghai.aliyuncs.com/seo-metarils/EditPage-Templates.png\"/></p>\n<p>目前这个产品还在持续迭代中，但已经可以正常使用。</p>\n<p>如果你最近在准备春招、秋招、实习，或者只是想把旧简历重新整理一下，欢迎试试：</p>\n<p><a href=\"https://aijianli.cn\" rel=\"nofollow\">https://aijianli.cn</a></p>\n<p>如果你愿意提建议、吐槽 bug ，或者说说你最讨厌哪类简历工具，也欢迎直接回帖，我会认真看。</p>\n\n\t",
-          "author": "meyuhuan2",
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply64",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Claude Code 有哪些冷门但好用的技巧？分享几个我在用的",
-          "link": "https://www.v2ex.com/t/1196729#reply23",
-          "pubDate": "2026-03-09T01:26:57.000Z",
-          "content": "\n\t用 CC 也有段时间了，分享几个可能不是人人都知道的小技巧：<br /><br />1. /clear 不是清空历史，而是开启新的 session ，之前的上下文还在<br /><br />2. 在 .claudeignore 里可以配置忽略文件，避免 AI 读取 node_modules 拖慢速度<br /><br />3. 用 @ 引用文件时，可以直接 @<a target=\"_blank\" href=\"/member/src\" rel=\"nofollow noopener\">src</a>/ 引用整个目录<br /><br />4. 提示词里加 step by step 真的有用，复杂任务拆解后成功率明显提升<br /><br />5. 遇到报错直接贴错误信息，不用解释太多，CC 自己能从 stack trace 里读明白<br /><br />你们还有什么实用的技巧？\n\t",
-          "author": "anyChris",
+          "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
+          "link": "https://www.v2ex.com/t/1196766#reply18",
+          "pubDate": "2026-03-09T02:42:02.000Z",
+          "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
+          "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "捡到满意的机箱 h440",
+          "link": "https://www.v2ex.com/t/1196792#reply7",
+          "pubDate": "2026-03-09T03:34:29.000Z",
+          "content": "\n\t<p>最近花了时间搞了下 nas 的电源和机箱，机箱废了我好大力气。想分享一下。\n原文链接 </p>\n<p><a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/\" rel=\"nofollow\">https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/</a></p>\n<hr/>\n<p>机箱部分</p>\n<p>机箱我挑了很久，开始选择了银欣 CS382 。它拥有 8 个热插拔盘位，而且外观紧凑，散热设计也非常合理。 主要是我的目前硬件需求是 ATX 电源+MATX 的主板。</p>\n<p>选到最后基本只有御夫座和银欣 CS382 、CS380 还有 SG02,珍宝系列支持。</p>\n<p>其实 Nas 不是我的刚需，但多硬盘肯定是要的。热拔插也不是特别需要，有那是更好，这次下了血本，直接买了全新的 CS382.</p>\n<p>直接看<a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5465.mp4\" rel=\"nofollow\">视频</a>，我也不是小白脸，以前还有健身的，我竟然拔不动，这热拔插，我尼玛手疼死了。买之前到处看到银欣机箱铁皮薄，不值价钱，我不信，毕竟大品牌，拿到手之后我服了，真的太垃圾了做工，用料一点都不值 800 快，顶多 300 。就为了他那块背板吗？太亏了。品牌形象打打折扣。</p>\n<p>然后说说内部结构，官方明确支持 matx 主板，我的是技嘉的 B760M 小雕，主板电源根本就没法插，和硬盘笼卡在一块了。机箱内部紧凑,铁皮质量辣鸡，做工不好。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5475_hu_c687dc376aa8e1b.jpeg\"/></p>\n<p>被 CS382 坑了以后，天天上班不再心思，一直看评测视频，其实我的需求里，这个机器不是纯 Nas ，我也用不到那么大的 8 盘位，顶多 4 盘位，此外我的主板也只有 4 个 SATA 。所以我更想要的是一个有 4 盘位，支持 MATX+ATX 的机箱，而不是 Nas 机箱，区别就是带热拔插。热拔插一年又有几次能换？ 主要拿来跑 vm ，跑点 docker 才是我经常用的。我拿它来做开发环境，装 openclaw 。做软路由。</p>\n<h3>御夫座</h3>\n<p>御夫座我看了很多视频，确实不错，颜值，大小，matx+atx ，存储空间 6 盘位，都挺好。准备下手了，但我是一个爱捡垃圾的，我还是再问我自己，需要 500 多的机箱吗？这个机箱是值 500 的，但我需要这样的 Nas 机箱吗？还是只是要一个多盘位的塔式就行了呢？所以没有下手，继续在观望。</p>\n<h3>恩杰 H440</h3>\n<p>有天晚上，我正在海鲜市场挑菜，突然一款机箱映入眼前，虽然没看到背面，我猜测一定有竖着的一排硬盘仓，我立马去查了下资料，果然，原生自带 5 个盘位。隔音棉，做工优秀，质感，外观颜值，内部空间，双 USB3.0 。外加这个闲鱼价格，天呐，被我赶上狗屎运了，速速拿下。当然后来发现，基本都是二手百元左右。</p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5496_hu_92db0281c6f07dca.png\"/>\n离我上班很近，兴奋的不行。当晚就去拿了。到手灰尘很多，花了一天时间好好清理了一下，终于恢复了原本的面貌。</p>\n<p>这颜值、这触感、这做工，背后的风扇集成板我都没见过，什么科技啊。开机按钮，这 Logo 大灯。这隔音棉，这防尘网，太棒了辣。 无敌。心满意足。</p>\n<p>速速装机。点火，起飞。“嗯？”开机键坏了。我擦，赶紧试了一下 Rest 键，呼，还好是好的。嗯，满意，舒服了，我看着它运行了很久,心里真的很高兴，我可以花钱去买现成的机箱，但是这种捡到宝贝，自己折腾的感觉实在是太棒了。\n<img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5484_hu_338ab021219ba013.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5485_hu_51fd683c4b033f.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5486_hu_169da9d8a7f78bca.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5487_hu_263c8e15f7e380b6.jpeg\"/></p>\n<h2>总结</h2>\n<p>这次升级 Nas 的电源和机箱是我很久之前就想做的，以前的实在是太垃圾了。最后去了解了下历史，恩杰这个牌子，以前高端产品了，不知道现在怎么没落了，从我拿到机箱我就知道真的做工很棒。唯一失落是，开机键坏了。体积有点大。但人不能既要又要。我已经很满意这个了。 后来去了解了下，以前的机箱都重存储的，所以硬盘仓很多，现在都重显卡，海景房，也就舍弃了硬盘仓了。</p>\n<p>如果你和我有一样的需求，ATX+MATX ，多硬盘仓的需求。热拔插不是必要的，不如看看这些过去老式机箱。</p>\n\n\t",
+          "author": "frank1256",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply54",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -356,51 +396,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "小米摄像头权限",
-          "link": "https://www.v2ex.com/t/1196719#reply26",
-          "pubDate": "2026-03-09T01:10:35.000Z",
-          "content": "\n\t<p>最近有个需求，希望家庭成员能在某个时间段的时候，才有某个摄像头的权限。</p>\n<p>这个好像米家没这样的精细权限控制，想到的方案是，调用米家的加入 家庭成员和取消家庭成员的 api ，定时脚本去处理。</p>\n<p>请问各位大佬\n有这样的 open api 吗？还是要抓包？\n别的品牌摄像头有这样的功能吗，能接入米家么。家里都是米家生态。不太想再安装一个 app</p>\n\n\t",
-          "author": "frank1256",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
-          "link": "https://www.v2ex.com/t/1196766#reply16",
-          "pubDate": "2026-03-09T02:42:02.000Z",
-          "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
-          "author": "YanSeven",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "国行三星无法使用 Gemini 的问题？",
           "link": "https://www.v2ex.com/t/1196835#reply4",
           "pubDate": "2026-03-09T06:09:11.000Z",
           "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
           "author": "bzkmsjy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply48",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "捡到满意的机箱 h440",
-          "link": "https://www.v2ex.com/t/1196792#reply5",
-          "pubDate": "2026-03-09T03:34:29.000Z",
-          "content": "\n\t<p>最近花了时间搞了下 nas 的电源和机箱，机箱废了我好大力气。想分享一下。\n原文链接 </p>\n<p><a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/\" rel=\"nofollow\">https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/</a></p>\n<hr/>\n<p>机箱部分</p>\n<p>机箱我挑了很久，开始选择了银欣 CS382 。它拥有 8 个热插拔盘位，而且外观紧凑，散热设计也非常合理。 主要是我的目前硬件需求是 ATX 电源+MATX 的主板。</p>\n<p>选到最后基本只有御夫座和银欣 CS382 、CS380 还有 SG02,珍宝系列支持。</p>\n<p>其实 Nas 不是我的刚需，但多硬盘肯定是要的。热拔插也不是特别需要，有那是更好，这次下了血本，直接买了全新的 CS382.</p>\n<p>直接看<a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5465.mp4\" rel=\"nofollow\">视频</a>，我也不是小白脸，以前还有健身的，我竟然拔不动，这热拔插，我尼玛手疼死了。买之前到处看到银欣机箱铁皮薄，不值价钱，我不信，毕竟大品牌，拿到手之后我服了，真的太垃圾了做工，用料一点都不值 800 快，顶多 300 。就为了他那块背板吗？太亏了。品牌形象打打折扣。</p>\n<p>然后说说内部结构，官方明确支持 matx 主板，我的是技嘉的 B760M 小雕，主板电源根本就没法插，和硬盘笼卡在一块了。机箱内部紧凑,铁皮质量辣鸡，做工不好。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5475_hu_c687dc376aa8e1b.jpeg\"/></p>\n<p>被 CS382 坑了以后，天天上班不再心思，一直看评测视频，其实我的需求里，这个机器不是纯 Nas ，我也用不到那么大的 8 盘位，顶多 4 盘位，此外我的主板也只有 4 个 SATA 。所以我更想要的是一个有 4 盘位，支持 MATX+ATX 的机箱，而不是 Nas 机箱，区别就是带热拔插。热拔插一年又有几次能换？ 主要拿来跑 vm ，跑点 docker 才是我经常用的。我拿它来做开发环境，装 openclaw 。做软路由。</p>\n<h3>御夫座</h3>\n<p>御夫座我看了很多视频，确实不错，颜值，大小，matx+atx ，存储空间 6 盘位，都挺好。准备下手了，但我是一个爱捡垃圾的，我还是再问我自己，需要 500 多的机箱吗？这个机箱是值 500 的，但我需要这样的 Nas 机箱吗？还是只是要一个多盘位的塔式就行了呢？所以没有下手，继续在观望。</p>\n<h3>恩杰 H440</h3>\n<p>有天晚上，我正在海鲜市场挑菜，突然一款机箱映入眼前，虽然没看到背面，我猜测一定有竖着的一排硬盘仓，我立马去查了下资料，果然，原生自带 5 个盘位。隔音棉，做工优秀，质感，外观颜值，内部空间，双 USB3.0 。外加这个闲鱼价格，天呐，被我赶上狗屎运了，速速拿下。当然后来发现，基本都是二手百元左右。</p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5496_hu_92db0281c6f07dca.png\"/>\n离我上班很近，兴奋的不行。当晚就去拿了。到手灰尘很多，花了一天时间好好清理了一下，终于恢复了原本的面貌。</p>\n<p>这颜值、这触感、这做工，背后的风扇集成板我都没见过，什么科技啊。开机按钮，这 Logo 大灯。这隔音棉，这防尘网，太棒了辣。 无敌。心满意足。</p>\n<p>速速装机。点火，起飞。“嗯？”开机键坏了。我擦，赶紧试了一下 Rest 键，呼，还好是好的。嗯，满意，舒服了，我看着它运行了很久,心里真的很高兴，我可以花钱去买现成的机箱，但是这种捡到宝贝，自己折腾的感觉实在是太棒了。\n<img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5484_hu_338ab021219ba013.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5485_hu_51fd683c4b033f.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5486_hu_169da9d8a7f78bca.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5487_hu_263c8e15f7e380b6.jpeg\"/></p>\n<h2>总结</h2>\n<p>这次升级 Nas 的电源和机箱是我很久之前就想做的，以前的实在是太垃圾了。最后去了解了下历史，恩杰这个牌子，以前高端产品了，不知道现在怎么没落了，从我拿到机箱我就知道真的做工很棒。唯一失落是，开机键坏了。体积有点大。但人不能既要又要。我已经很满意这个了。 后来去了解了下，以前的机箱都重存储的，所以硬盘仓很多，现在都重显卡，海景房，也就舍弃了硬盘仓了。</p>\n<p>如果你和我有一样的需求，ATX+MATX ，多硬盘仓的需求。热拔插不是必要的，不如看看这些过去老式机箱。</p>\n\n\t",
-          "author": "frank1256",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -466,6 +466,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "关于 cc 使用模型的问题",
+          "link": "https://www.v2ex.com/t/1196787#reply2",
+          "pubDate": "2026-03-09T03:22:23.000Z",
+          "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
+          "author": "wnzhyee",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "想了解一下有没有无需联网的 AI 摄像头",
           "link": "https://www.v2ex.com/t/1196764#reply9",
           "pubDate": "2026-03-09T02:28:43.000Z",
@@ -486,21 +496,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
-          "link": "https://www.v2ex.com/t/1196789#reply3",
-          "pubDate": "2026-03-09T03:28:28.000Z",
-          "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
-          "author": "YanSeven",
+          "title": "antigravity 现在用 opus 容易出错, sonnet 就好很多, 什么情况",
+          "link": "https://www.v2ex.com/t/1196890#reply0",
+          "pubDate": "2026-03-09T07:59:52.000Z",
+          "content": "\n\t<p>大家使用稳定吗</p>\n<p>搞不懂了阿, 现在只能用 sonnet 算了, opus 没搞几下就出错了, agent error</p>\n\n\t",
+          "author": "iorilu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "关于 cc 使用模型的问题",
-          "link": "https://www.v2ex.com/t/1196787#reply1",
-          "pubDate": "2026-03-09T03:22:23.000Z",
-          "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
-          "author": "wnzhyee",
+          "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
+          "link": "https://www.v2ex.com/t/1196789#reply3",
+          "pubDate": "2026-03-09T03:28:28.000Z",
+          "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
+          "author": "YanSeven",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -586,6 +596,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
+          "link": "https://www.v2ex.com/t/1196671#reply5",
+          "pubDate": "2026-03-08T13:27:31.000Z",
+          "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
+          "author": "seers",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "开源一个自定义揭棋游戏到 GitHub，已部署到腾讯云，全平台适配",
           "link": "https://www.v2ex.com/t/1196644#reply15",
           "pubDate": "2026-03-08T08:46:15.000Z",
@@ -606,16 +626,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
-          "link": "https://www.v2ex.com/t/1196671#reply4",
-          "pubDate": "2026-03-08T13:27:31.000Z",
-          "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
-          "author": "seers",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "使用 Milvus 搭配 Ollama 搭建 RAG 知识库",
           "link": "https://www.v2ex.com/t/1196665#reply4",
           "pubDate": "2026-03-08T12:27:59.000Z",
@@ -626,11 +636,31 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "各位老板，有啥项目点子吗？欢迎砸向我",
+          "link": "https://www.v2ex.com/t/1196888#reply1",
+          "pubDate": "2026-03-09T07:53:37.000Z",
+          "content": "\n\t<p>最近刚刚学会 vibe coding ，想找个项目试试效果，各位老板，有啥想法或者点子，欢迎砸向我。</p>\n<p>来吧，我的宝贝。</p>\n\n\t",
+          "author": "lanyulei",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply132",
+          "link": "https://www.v2ex.com/t/1196011#reply133",
           "pubDate": "2026-03-05T04:33:26.000Z",
           "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
           "author": "v2exgo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "claude code 使用哪家国内 api 靠谱",
+          "link": "https://www.v2ex.com/t/1196478#reply64",
+          "pubDate": "2026-03-07T03:52:02.000Z",
+          "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
+          "author": "terry2048",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -671,6 +701,16 @@
           "pubDate": "2026-03-06T01:30:15.000Z",
           "content": "\n\t最近开始重度用 Claude Code ，官方 API 直连的话延迟有时候挺高的，尤其晚上高峰期体感明显。<br /><br />试了几个中转方案，发现坑还不少：<br /><br />1. 有些中转对 streaming 支持有问题，CC 那边直接报错断掉<br />2. 有的便宜是便宜，但隔三差五 502 ，写到一半代码丢了，血压拉满<br />3. 还有的延迟反而比直连更高，不知道绕了几层<br /><br />目前还在摸索中，想问下各位用 CC 配中转的，有没有比较稳的方案？主要关心这几点：<br /><br />- streaming 兼容性<br />- 延迟表现（特别是 Opus 这种大模型）<br />- 出问题的频率<br /><br />直连党也欢迎说说体验，看看差距到底大不大。\n\t",
           "author": "anyChris",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
+          "link": "https://www.v2ex.com/t/1192541#reply78",
+          "pubDate": "2026-02-12T11:37:22.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"https://peon-ping.vercel.app/\" rel=\"nofollow noopener\">https://peon-ping.vercel.app/</a>\n\t",
+          "author": "Livid",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -726,16 +766,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "claude code 使用哪家国内 api 靠谱",
-          "link": "https://www.v2ex.com/t/1196478#reply63",
-          "pubDate": "2026-03-07T03:52:02.000Z",
-          "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
-          "author": "terry2048",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "2026 年 PHP 路在何方",
           "link": "https://www.v2ex.com/t/1196334#reply47",
           "pubDate": "2026-03-06T07:07:55.000Z",
@@ -774,43 +804,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
-          "link": "https://www.v2ex.com/t/1192541#reply77",
-          "pubDate": "2026-02-12T11:37:22.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://peon-ping.vercel.app/\" rel=\"nofollow noopener\">https://peon-ping.vercel.app/</a>\n\t",
-          "author": "Livid",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。",
-          "link": "https://www.v2ex.com/t/1196364#reply14",
-          "pubDate": "2026-03-06T08:30:06.000Z",
-          "content": "\n\t<p>尝试了用 claude code 和 opencode 对接 bailian 的 glm-5, kimi-k2.5, qwen3.5-plus 。</p>\n<p>都会出现输出到一般突然输出一个 <code>&lt;tool_call&gt;</code> 之类的，然后就输出中断了。</p>\n<p>我使用以下供应商的模型，从来没出现过这种问题：</p>\n<ul>\n<li>中转的 gpt-5.3-codex, claude-4.6-sonnet</li>\n<li>glm coding plan 的 glm-4.7</li>\n<li>opencode zen 的 glm-5, kimi-k2.5</li>\n</ul>\n<p>出现问题具体的现象：</p>\n<ul>\n<li>claude-code</li>\n</ul>\n<p><img alt=\"claude-code-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8f6cee4bb_1772785516.png\"/></p>\n<ul>\n<li>opencode</li>\n</ul>\n<p><img alt=\"opencode-failed\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://img.cdn1.vip/i/69aa8fdf6af42_1772785631.webp\"/></p>\n\n\t",
-          "author": "SSang",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "最新 ClaudeCode 用 GLM 还是只要这 4 个环境变量吗",
-          "link": "https://www.v2ex.com/t/1196467#reply6",
-          "pubDate": "2026-03-07T03:01:04.000Z",
-          "content": "\n\tANTHROPIC_BASE_URL<br />ANTHROPIC_AUTH_TOKEN<br />ANTHROPIC_MODEL<br />ANTHROPIC_SMALL_FAST_MODEL\n\t",
-          "author": "admirez",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-09T07:44:29.974Z",
+      "lastUpdated": "2026-03-09T08:34:29.652Z",
       "items": [
         {
           "title": "殢人娇态最轻盈",
@@ -823,9 +823,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "玉兰花开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524902",
-          "pubDate": "2026-03-08 11:13:48",
+          "title": "庆三八",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
+          "pubDate": "2026-03-08 08:32:05",
           "content": "",
           "author": "",
           "categories": [],
@@ -833,9 +833,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "庆三八",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524882",
-          "pubDate": "2026-03-08 08:32:05",
+          "title": "玉兰花开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1524902",
+          "pubDate": "2026-03-08 11:13:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -973,6 +973,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "饭店“跷脚牛肉”门口的对联",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3370941&do=blog&id=1524900",
+          "pubDate": "2026-03-08 10:46:30",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "AI翻译能靠得住吗？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1524969",
           "pubDate": "2026-03-09 07:31:10",
@@ -1001,23 +1011,13 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "饭店“跷脚牛肉”门口的对联",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3370941&do=blog&id=1524900",
-          "pubDate": "2026-03-08 10:46:30",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-09T07:44:33.213Z",
+      "lastUpdated": "2026-03-09T08:34:33.479Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1224,7 +1224,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-09T07:44:35.332Z",
+      "lastUpdated": "2026-03-09T08:34:35.733Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1327,6 +1327,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "所以暂时将你眼睛闭了起来 (评论: 想见你)",
+          "link": "https://movie.douban.com/review/17495345/",
+          "pubDate": "Sun, 08 Mar 2026 15:58:02 GMT",
+          "content": "\n抹茶冰淇淋蛋卷评论: 想见你 (https://movie.douban.com/subject/30468961/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;EP6\\uff1a\\u89c9\\u5f97\\u9648\\u601d...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "不做新娘，就做杀人狂。女性力量=泼妇？ (评论: 暗黑新娘！)",
           "link": "https://movie.douban.com/review/17492812/",
           "pubDate": "Sat, 07 Mar 2026 08:37:09 GMT",
@@ -1377,16 +1387,6 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "所以暂时将你眼睛闭了起来 (评论: 想见你)",
-          "link": "https://movie.douban.com/review/17495345/",
-          "pubDate": "Sun, 08 Mar 2026 15:58:02 GMT",
-          "content": "\n抹茶冰淇淋蛋卷评论: 想见你 (https://movie.douban.com/subject/30468961/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;EP6\\uff1a\\u89c9\\u5f97\\u9648\\u601d...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
           "title": "从诅咒到祝福：皮克斯母女叙事的十年进化 (评论: 青春变形记)",
           "link": "https://movie.douban.com/review/17494517/",
           "pubDate": "Sun, 08 Mar 2026 09:48:27 GMT",
@@ -1407,20 +1407,20 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "超出预期，内部撕裂、规则破坏，由法治转向个人裁量审判。 (评论: 洛杉矶劫案)",
-          "link": "https://movie.douban.com/review/17493780/",
-          "pubDate": "Sat, 07 Mar 2026 19:10:09 GMT",
-          "content": "\n风里浪评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6ca1\\u770b\\u4e4b\\u524d\\uff0c\\u6...\n",
+          "title": "笑鼠，刚追平四集就想说感觉这剧群像真不错 (评论: 我的山与海)",
+          "link": "https://movie.douban.com/review/17493957/",
+          "pubDate": "Sun, 08 Mar 2026 02:58:41 GMT",
+          "content": "\n夏吾冬评论: 我的山与海 (https://movie.douban.com/subject/35725771/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6700\\u5927\\u7684\\u611f\\u53d7\\u6...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "坠入爱情的恐惧 (评论: 约翰与玛丽)",
-          "link": "https://movie.douban.com/review/17494038/",
-          "pubDate": "Sun, 08 Mar 2026 04:02:09 GMT",
-          "content": "\n猫有很多毛评论: 约翰与玛丽 (https://movie.douban.com/subject/1301429/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u672c\\u6587\\u9996\\u53d1\\u4e8e\\u5...\n",
+          "title": "车，钻石，劫案，阶层。 (评论: 洛杉矶劫案)",
+          "link": "https://movie.douban.com/review/17493432/",
+          "pubDate": "Sat, 07 Mar 2026 14:46:12 GMT",
+          "content": "\nJH评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1432,20 +1432,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-09T07:44:36.637Z",
+      "lastUpdated": "2026-03-09T08:34:36.816Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-09T07:44:36.695Z",
+      "lastUpdated": "2026-03-09T08:34:37.079Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-09T07:44:37.088Z",
+      "lastUpdated": "2026-03-09T08:34:37.812Z",
       "items": [
         {
           "title": "无题",
