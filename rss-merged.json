@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T19:35:38.511Z",
+  "lastUpdated": "2026-03-09T20:23:54.960Z",
   "totalItems": 133,
   "items": [
     {
@@ -483,8 +483,18 @@
       "sourceUrl": "https://tech.meituan.com/feed/"
     },
     {
+      "title": "被裁剪的故事 (评论: 木兰无名，缇萦无踪)",
+      "link": "https://book.douban.com/review/17495587/",
+      "pubDate": "Sun, 08 Mar 2026 21:19:42 GMT",
+      "content": "\n锦翼评论: 木兰无名，缇萦无踪 (https://book.douban.com/subject/37119331/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;977ia&#34;,&#34;text&#34;:&#34;如果木兰不是传说，而是一个真实活过的女孩子，她会是什么下场？《清稗类钞》里就记载了这样一位女性——姑且称她“陈木兰”。她幼年失怙，女扮男装混入军营，从伙夫做起，因作战勇猛，一路升至统领五营的记名提督。然而，当她与下属相...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply67",
+      "link": "https://www.v2ex.com/t/1196703#reply68",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -628,6 +638,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
+      "title": "京畿马影",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1243751&do=blog&id=1524954",
+      "pubDate": "2026-03-08 10:01:30",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "[笔记，科普，数学] 素数（4）：素数定理，黎曼两个估计的误差",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1524948",
       "pubDate": "2026-03-08 09:01:13",
@@ -708,16 +728,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "榆叶梅粉红炸裂，郁李仁通便给力",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1524921",
-      "pubDate": "2026-03-08 03:56:01",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
       "link": "https://www.v2ex.com/t/1196595#reply50",
       "pubDate": "2026-03-08T03:20:25.000Z",
@@ -756,6 +766,16 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "成为顶级“P人”指南 (评论: 小实验)",
+      "link": "https://book.douban.com/review/17493567/",
+      "pubDate": "Sat, 07 Mar 2026 15:43:59 GMT",
+      "content": "\n怒海枯涛评论: 小实验 (https://book.douban.com/subject/38219474/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u521a\\u8bfb\\u5b8c\\u8fd9\\...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "来一点脑袋空空的田园环保震撼 (评论: 河狸变身计划)",
@@ -1093,30 +1113,10 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "没见过这么可爱的书！ (评论: 枕鱼)",
-      "link": "https://book.douban.com/review/17486736/",
-      "pubDate": "Tue, 03 Mar 2026 03:05:30 GMT",
-      "content": "\n新星出版社评论: 枕鱼 (https://book.douban.com/subject/37532254/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;ee4hs&#34;,&#34;text&#34;:&#34;出门的时候偶尔会遇见流浪的小猫，就会夹起嗓子叫一声咪咪，有的小猫会停下脚步回头看看我，有的小猫跑起来钻到某处消失不见了。小区里总...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
       "title": "这是一本写了三年，历经十八个版本，写到我精神崩溃数次的书。祝它基本健康，希望大家能喜欢。 (评论: 明夜，谁将留存于这具身体)",
       "link": "https://book.douban.com/review/17486687/",
       "pubDate": "Tue, 03 Mar 2026 02:26:37 GMT",
       "content": "\n乌拉拉评论: 明夜，谁将留存于这具身体 (https://book.douban.com/subject/37431538/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6ks6f&#34;,&#34;text&#34;:&#34;动笔写这本书的时候，还是2022年春天。那时候完全没有想到一本书会整整写了三年时间。\\n我从来就是一个狂妄的人，但即使以我之狂妄，动笔的时候我也不敢承认这本书的目标。\\n这本书的目标是创造一个世界。\\n自从“科幻”这种类型诞生以来，诞生过很多优秀的作品，...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "间隙中的幻象：评周沐君《中国公民社会的死与生》 (评论: The Death and Life of Chinese Civil Society)",
-      "link": "https://book.douban.com/review/17485032/",
-      "pubDate": "Mon, 02 Mar 2026 00:47:29 GMT",
-      "content": "\nSoo Yung评论: The Death and Life of Chinese Civil Society (https://book.douban.com/subject/37302132/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6agdn&#34;,&#34;text&#34;:&#34;周沐君的《The Death and Life of Chinese Civil Society》有一种近乎刻意的冷静。她用十二年时间写完这本书，但...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣书评",
