@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-09T08:34:37.812Z",
+  "lastUpdated": "2026-03-09T09:39:37.693Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-09T08:34:23.107Z",
+      "lastUpdated": "2026-03-09T09:39:25.210Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-09T08:34:24.299Z",
+      "lastUpdated": "2026-03-09T09:39:26.115Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-09T08:34:24.452Z",
+      "lastUpdated": "2026-03-09T09:39:26.256Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-09T08:34:26.216Z",
+      "lastUpdated": "2026-03-09T09:39:28.587Z",
       "items": [
         {
           "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
@@ -303,13 +303,113 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-09T08:34:27.316Z",
+      "lastUpdated": "2026-03-09T09:39:28.792Z",
       "items": [
         {
+          "title": "macos 机械键盘推荐",
+          "link": "https://www.v2ex.com/t/1196927#reply4",
+          "pubDate": "2026-03-09T09:16:03.000Z",
+          "content": "\n\t<p>用惯了 mbp ，现在有时候会来回切换用 mac mini ，发现键盘还有点难适应</p>\n<ol>\n<li>mbp 的键盘 x 和 command 是右侧对齐的，因为复制粘贴（ command+c ）用的多，command 的键位在普通键盘上位置不太一样，有点难以适应</li>\n<li>f1 键（不需要按 fn ）可以直接调节屏幕亮度，f12,可以直接调节声音，这样的功能，一般键盘不好做到，或者说可能我不太会设置，如果大家知道，可以教教我</li>\n<li>mac 妙控这样的原生键盘可以，但是不是机械的，我想用机械键盘，手感稍微好一些</li>\n<li>最好是键帽就是和 mac 完全适配，原生 command ，option 。而不是 windows 的 win 和 ctrl</li>\n</ol>\n<p>有没有满足上述需求的机械键盘，求推荐。大家给自己的 mac 配了哪些机械键盘？求分享</p>\n\n\t",
+          "author": "yukinotech",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "大家好，分享一个我开发的轻量级 Python 量化回测工具 finquant。",
+          "link": "https://www.v2ex.com/t/1196926#reply10",
+          "pubDate": "2026-03-09T09:13:06.000Z",
+          "content": "\n\t<p>完全开源： <a href=\"https://github.com/finvfamily/finquant\" rel=\"nofollow\">https://github.com/finvfamily/finquant</a></p>\n<h2>特性</h2>\n<ul>\n<li><strong>纯 Python 脚本</strong>：无需数据库、无需服务端，开箱即用</li>\n<li><strong>数据源</strong>：使用 finshare 获取实时股票数据，支持 A 股</li>\n<li><strong>内置策略</strong>：均线交叉、RSI 、MACD 、布林带、双 EMA 等</li>\n<li><strong>仓位控制</strong>：固定仓位、金字塔、倒金字塔、ATR 波动率仓位</li>\n<li><strong>参数优化</strong>：网格搜索参数优化</li>\n</ul>\n<h2>快速开始</h2>\n<pre><code class=\"language-python\">from finquant import get_kline, MACrossStrategy, BacktestEngine\n\n# 获取数据（支持短码）\ndata = get_kline([\"000001\", \"600000\"], start=\"2024-01-01\", end=\"2025-01-01\")\n\n# 创建策略和回测引擎\nengine = BacktestEngine(initial_capital=100000)\nresult = engine.run(data, MACrossStrategy(short_period=5, long_period=20))\n\n# 查看结果\nprint(result.summary())\n</code></pre>\n<h2>仓位控制示例</h2>\n<pre><code class=\"language-python\">from finquant import (\n    BacktestEngine,\n    PyramidPositionSizer,  # 金字塔仓位（浮盈加仓）\n)\n\nengine = BacktestEngine(\n    initial_capital=100000,\n    position_sizer=PyramidPositionSizer(\n        base_ratio=0.2,  # 基础仓位 20%\n        max_ratio=1.0,   # 最大仓位 100%\n        step=0.1,       # 每 10% 浮盈加仓一次\n    ),\n    max_positions=3,     # 最多 3 只持仓\n    max_single_position=0.3,  # 单票最多 30%\n)\n</code></pre>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">git clone https://github.com/finvfamily/finquant.git\ncd finquant\npip install -r requirements.txt\npip install -e .\n</code></pre>\n<h2>官方网站</h2>\n<p><a href=\"https://meepoquant.com\" rel=\"nofollow\">https://meepoquant.com</a></p>\n<hr/>\n<p>欢迎 Star 和 Fork ！</p>\n<hr/>\n\n\t",
+          "author": "sunfinv",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "claude code， codex， antigravity 这些 AI 工具能用来解决涉及到系统底层的技术问题吗？ rust 项目",
+          "link": "https://www.v2ex.com/t/1196921#reply1",
+          "pubDate": "2026-03-09T09:06:14.000Z",
+          "content": "\n\t<p>最近遇到这样一个问题，我想在 asahi linux 上查看备份到 Proxmox Backup Server 里的目录，于是在 pve9 系统上交叉编译了 proxmox-backup-client ，执行时遇到这样的报错：</p>\n<pre><code>d@d-macbookair:~$ proxmox-backup-client mount host/test test.ppxar ~/mnt/0\nError: unable to read dynamic index 'test.mpxar.didx' - Invalid argument (os error 22)\nd@d-macbookair:~$ \n</code></pre>\n<p>这个报错我几乎已经确定是因为 asahi linux 使用 16KB 的页大小导致的，因为我用 4KB 页的 arm64 虚拟机测试这条命令是正常的，我想修改 proxmox-backup-client 的代码解决这个问题，但我对这个项目不熟悉，而且我一直缺少用 AI 写代码的经验（目前为止我只会用网页版本的 AI 写一些不是很复杂的代码，比如一些 bash 脚本，功能比较独立的 linux 内核模块等)，想试试用 AI 来解决这个问题，但无法估计要花多少钱，也担心 AI 还没有能力解决这类问题，所以在尝试之前想先问一下有经验的 V 友，AI 适合用来解决这类问题吗？</p>\n\n\t",
+          "author": "wniming",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
+          "link": "https://www.v2ex.com/t/1196592#reply66",
+          "pubDate": "2026-03-08T03:01:06.000Z",
+          "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
+          "author": "yuan321",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply69",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "国行三星无法使用 Gemini 的问题？",
+          "link": "https://www.v2ex.com/t/1196835#reply5",
+          "pubDate": "2026-03-09T06:09:11.000Z",
+          "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
+          "author": "bzkmsjy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "小米摄像头权限",
-          "link": "https://www.v2ex.com/t/1196719#reply29",
+          "link": "https://www.v2ex.com/t/1196719#reply34",
           "pubDate": "2026-03-09T01:10:35.000Z",
           "content": "\n\t<p>最近有个需求，希望家庭成员能在某个时间段的时候，才有某个摄像头的权限。</p>\n<p>这个好像米家没这样的精细权限控制，想到的方案是，调用米家的加入 家庭成员和取消家庭成员的 api ，定时脚本去处理。</p>\n<p>请问各位大佬\n有这样的 open api 吗？还是要抓包？\n别的品牌摄像头有这样的功能吗，能接入米家么。家里都是米家生态。不太想再安装一个 app</p>\n\n\t",
+          "author": "frank1256",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "下次再也不宣传 trae 了",
+          "link": "https://www.v2ex.com/t/1196871#reply33",
+          "pubDate": "2026-03-09T07:32:46.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"/i/6768e84c.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 6768e84c.png\"><img src=\"//i.v2ex.co/6768e84c.png\" class=\"embedded_image\"></a><br /><br />分享完,自己要排队了\n\t",
+          "author": "crocoBaby",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply60",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "群晖 Container Manager(Docker)还有啥好玩的",
+          "link": "https://www.v2ex.com/t/1196866#reply3",
+          "pubDate": "2026-03-09T07:28:24.000Z",
+          "content": "\n\t<p>我现在装的有</p>\n<ol>\n<li>Immich （相册）</li>\n<li>navidrome （音乐服务）</li>\n<li>music-tag-web （配合 navidrome 刮削歌曲信息）</li>\n</ol>\n<p>还有没有其他有用的工具推荐？现在闲着就想折腾下</p>\n\n\t",
+          "author": "MisterQ",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "捡到满意的机箱 h440",
+          "link": "https://www.v2ex.com/t/1196792#reply9",
+          "pubDate": "2026-03-09T03:34:29.000Z",
+          "content": "\n\t<p>最近花了时间搞了下 nas 的电源和机箱，机箱废了我好大力气。想分享一下。\n原文链接 </p>\n<p><a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/\" rel=\"nofollow\">https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/</a></p>\n<hr/>\n<p>机箱部分</p>\n<p>机箱我挑了很久，开始选择了银欣 CS382 。它拥有 8 个热插拔盘位，而且外观紧凑，散热设计也非常合理。 主要是我的目前硬件需求是 ATX 电源+MATX 的主板。</p>\n<p>选到最后基本只有御夫座和银欣 CS382 、CS380 还有 SG02,珍宝系列支持。</p>\n<p>其实 Nas 不是我的刚需，但多硬盘肯定是要的。热拔插也不是特别需要，有那是更好，这次下了血本，直接买了全新的 CS382.</p>\n<p>直接看<a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5465.mp4\" rel=\"nofollow\">视频</a>，我也不是小白脸，以前还有健身的，我竟然拔不动，这热拔插，我尼玛手疼死了。买之前到处看到银欣机箱铁皮薄，不值价钱，我不信，毕竟大品牌，拿到手之后我服了，真的太垃圾了做工，用料一点都不值 800 快，顶多 300 。就为了他那块背板吗？太亏了。品牌形象打打折扣。</p>\n<p>然后说说内部结构，官方明确支持 matx 主板，我的是技嘉的 B760M 小雕，主板电源根本就没法插，和硬盘笼卡在一块了。机箱内部紧凑,铁皮质量辣鸡，做工不好。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5475_hu_c687dc376aa8e1b.jpeg\"/></p>\n<p>被 CS382 坑了以后，天天上班不再心思，一直看评测视频，其实我的需求里，这个机器不是纯 Nas ，我也用不到那么大的 8 盘位，顶多 4 盘位，此外我的主板也只有 4 个 SATA 。所以我更想要的是一个有 4 盘位，支持 MATX+ATX 的机箱，而不是 Nas 机箱，区别就是带热拔插。热拔插一年又有几次能换？ 主要拿来跑 vm ，跑点 docker 才是我经常用的。我拿它来做开发环境，装 openclaw 。做软路由。</p>\n<h3>御夫座</h3>\n<p>御夫座我看了很多视频，确实不错，颜值，大小，matx+atx ，存储空间 6 盘位，都挺好。准备下手了，但我是一个爱捡垃圾的，我还是再问我自己，需要 500 多的机箱吗？这个机箱是值 500 的，但我需要这样的 Nas 机箱吗？还是只是要一个多盘位的塔式就行了呢？所以没有下手，继续在观望。</p>\n<h3>恩杰 H440</h3>\n<p>有天晚上，我正在海鲜市场挑菜，突然一款机箱映入眼前，虽然没看到背面，我猜测一定有竖着的一排硬盘仓，我立马去查了下资料，果然，原生自带 5 个盘位。隔音棉，做工优秀，质感，外观颜值，内部空间，双 USB3.0 。外加这个闲鱼价格，天呐，被我赶上狗屎运了，速速拿下。当然后来发现，基本都是二手百元左右。</p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5496_hu_92db0281c6f07dca.png\"/>\n离我上班很近，兴奋的不行。当晚就去拿了。到手灰尘很多，花了一天时间好好清理了一下，终于恢复了原本的面貌。</p>\n<p>这颜值、这触感、这做工，背后的风扇集成板我都没见过，什么科技啊。开机按钮，这 Logo 大灯。这隔音棉，这防尘网，太棒了辣。 无敌。心满意足。</p>\n<p>速速装机。点火，起飞。“嗯？”开机键坏了。我擦，赶紧试了一下 Rest 键，呼，还好是好的。嗯，满意，舒服了，我看着它运行了很久,心里真的很高兴，我可以花钱去买现成的机箱，但是这种捡到宝贝，自己折腾的感觉实在是太棒了。\n<img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5484_hu_338ab021219ba013.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5485_hu_51fd683c4b033f.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5486_hu_169da9d8a7f78bca.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5487_hu_263c8e15f7e380b6.jpeg\"/></p>\n<h2>总结</h2>\n<p>这次升级 Nas 的电源和机箱是我很久之前就想做的，以前的实在是太垃圾了。最后去了解了下历史，恩杰这个牌子，以前高端产品了，不知道现在怎么没落了，从我拿到机箱我就知道真的做工很棒。唯一失落是，开机键坏了。体积有点大。但人不能既要又要。我已经很满意这个了。 后来去了解了下，以前的机箱都重存储的，所以硬盘仓很多，现在都重显卡，海景房，也就舍弃了硬盘仓了。</p>\n<p>如果你和我有一样的需求，ATX+MATX ，多硬盘仓的需求。热拔插不是必要的，不如看看这些过去老式机箱。</p>\n\n\t",
           "author": "frank1256",
           "categories": [],
           "source": "V2EX - 技术",
@@ -336,71 +436,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "下次再也不宣传 trae 了",
-          "link": "https://www.v2ex.com/t/1196871#reply26",
-          "pubDate": "2026-03-09T07:32:46.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"/i/6768e84c.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 6768e84c.png\"><img src=\"//i.v2ex.co/6768e84c.png\" class=\"embedded_image\"></a><br /><br />分享完,自己要排队了\n\t",
-          "author": "crocoBaby",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply64",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
           "link": "https://www.v2ex.com/t/1196766#reply18",
           "pubDate": "2026-03-09T02:42:02.000Z",
           "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
           "author": "YanSeven",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "捡到满意的机箱 h440",
-          "link": "https://www.v2ex.com/t/1196792#reply7",
-          "pubDate": "2026-03-09T03:34:29.000Z",
-          "content": "\n\t<p>最近花了时间搞了下 nas 的电源和机箱，机箱废了我好大力气。想分享一下。\n原文链接 </p>\n<p><a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/\" rel=\"nofollow\">https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/</a></p>\n<hr/>\n<p>机箱部分</p>\n<p>机箱我挑了很久，开始选择了银欣 CS382 。它拥有 8 个热插拔盘位，而且外观紧凑，散热设计也非常合理。 主要是我的目前硬件需求是 ATX 电源+MATX 的主板。</p>\n<p>选到最后基本只有御夫座和银欣 CS382 、CS380 还有 SG02,珍宝系列支持。</p>\n<p>其实 Nas 不是我的刚需，但多硬盘肯定是要的。热拔插也不是特别需要，有那是更好，这次下了血本，直接买了全新的 CS382.</p>\n<p>直接看<a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5465.mp4\" rel=\"nofollow\">视频</a>，我也不是小白脸，以前还有健身的，我竟然拔不动，这热拔插，我尼玛手疼死了。买之前到处看到银欣机箱铁皮薄，不值价钱，我不信，毕竟大品牌，拿到手之后我服了，真的太垃圾了做工，用料一点都不值 800 快，顶多 300 。就为了他那块背板吗？太亏了。品牌形象打打折扣。</p>\n<p>然后说说内部结构，官方明确支持 matx 主板，我的是技嘉的 B760M 小雕，主板电源根本就没法插，和硬盘笼卡在一块了。机箱内部紧凑,铁皮质量辣鸡，做工不好。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5475_hu_c687dc376aa8e1b.jpeg\"/></p>\n<p>被 CS382 坑了以后，天天上班不再心思，一直看评测视频，其实我的需求里，这个机器不是纯 Nas ，我也用不到那么大的 8 盘位，顶多 4 盘位，此外我的主板也只有 4 个 SATA 。所以我更想要的是一个有 4 盘位，支持 MATX+ATX 的机箱，而不是 Nas 机箱，区别就是带热拔插。热拔插一年又有几次能换？ 主要拿来跑 vm ，跑点 docker 才是我经常用的。我拿它来做开发环境，装 openclaw 。做软路由。</p>\n<h3>御夫座</h3>\n<p>御夫座我看了很多视频，确实不错，颜值，大小，matx+atx ，存储空间 6 盘位，都挺好。准备下手了，但我是一个爱捡垃圾的，我还是再问我自己，需要 500 多的机箱吗？这个机箱是值 500 的，但我需要这样的 Nas 机箱吗？还是只是要一个多盘位的塔式就行了呢？所以没有下手，继续在观望。</p>\n<h3>恩杰 H440</h3>\n<p>有天晚上，我正在海鲜市场挑菜，突然一款机箱映入眼前，虽然没看到背面，我猜测一定有竖着的一排硬盘仓，我立马去查了下资料，果然，原生自带 5 个盘位。隔音棉，做工优秀，质感，外观颜值，内部空间，双 USB3.0 。外加这个闲鱼价格，天呐，被我赶上狗屎运了，速速拿下。当然后来发现，基本都是二手百元左右。</p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5496_hu_92db0281c6f07dca.png\"/>\n离我上班很近，兴奋的不行。当晚就去拿了。到手灰尘很多，花了一天时间好好清理了一下，终于恢复了原本的面貌。</p>\n<p>这颜值、这触感、这做工，背后的风扇集成板我都没见过，什么科技啊。开机按钮，这 Logo 大灯。这隔音棉，这防尘网，太棒了辣。 无敌。心满意足。</p>\n<p>速速装机。点火，起飞。“嗯？”开机键坏了。我擦，赶紧试了一下 Rest 键，呼，还好是好的。嗯，满意，舒服了，我看着它运行了很久,心里真的很高兴，我可以花钱去买现成的机箱，但是这种捡到宝贝，自己折腾的感觉实在是太棒了。\n<img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5484_hu_338ab021219ba013.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5485_hu_51fd683c4b033f.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5486_hu_169da9d8a7f78bca.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5487_hu_263c8e15f7e380b6.jpeg\"/></p>\n<h2>总结</h2>\n<p>这次升级 Nas 的电源和机箱是我很久之前就想做的，以前的实在是太垃圾了。最后去了解了下历史，恩杰这个牌子，以前高端产品了，不知道现在怎么没落了，从我拿到机箱我就知道真的做工很棒。唯一失落是，开机键坏了。体积有点大。但人不能既要又要。我已经很满意这个了。 后来去了解了下，以前的机箱都重存储的，所以硬盘仓很多，现在都重显卡，海景房，也就舍弃了硬盘仓了。</p>\n<p>如果你和我有一样的需求，ATX+MATX ，多硬盘仓的需求。热拔插不是必要的，不如看看这些过去老式机箱。</p>\n\n\t",
-          "author": "frank1256",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply54",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "群晖 Container Manager(Docker)还有啥好玩的",
-          "link": "https://www.v2ex.com/t/1196866#reply1",
-          "pubDate": "2026-03-09T07:28:24.000Z",
-          "content": "\n\t<p>我现在装的有</p>\n<ol>\n<li>Immich （相册）</li>\n<li>navidrome （音乐服务）</li>\n<li>music-tag-web （配合 navidrome 刮削歌曲信息）</li>\n</ol>\n<p>还有没有其他有用的工具推荐？现在闲着就想折腾下</p>\n\n\t",
-          "author": "MisterQ",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "国行三星无法使用 Gemini 的问题？",
-          "link": "https://www.v2ex.com/t/1196835#reply4",
-          "pubDate": "2026-03-09T06:09:11.000Z",
-          "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
-          "author": "bzkmsjy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -426,11 +466,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-          "link": "https://www.v2ex.com/t/1196592#reply61",
-          "pubDate": "2026-03-08T03:01:06.000Z",
-          "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
-          "author": "yuan321",
+          "title": "antigravity 现在用 opus 容易出错, sonnet 就好很多, 什么情况",
+          "link": "https://www.v2ex.com/t/1196890#reply2",
+          "pubDate": "2026-03-09T07:59:52.000Z",
+          "content": "\n\t<p>大家使用稳定吗</p>\n<p>搞不懂了阿, 现在只能用 sonnet 算了, opus 没搞几下就出错了, agent error</p>\n\n\t",
+          "author": "iorilu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -467,7 +507,7 @@
         },
         {
           "title": "关于 cc 使用模型的问题",
-          "link": "https://www.v2ex.com/t/1196787#reply2",
+          "link": "https://www.v2ex.com/t/1196787#reply3",
           "pubDate": "2026-03-09T03:22:23.000Z",
           "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
           "author": "wnzhyee",
@@ -477,7 +517,7 @@
         },
         {
           "title": "想了解一下有没有无需联网的 AI 摄像头",
-          "link": "https://www.v2ex.com/t/1196764#reply9",
+          "link": "https://www.v2ex.com/t/1196764#reply10",
           "pubDate": "2026-03-09T02:28:43.000Z",
           "content": "\n\t<p>最近准备请育儿嫂，为了孩子安全，打算在家里装几路摄像头。\n需求大概是：最好带 AI 人形/动作识别，甚至能做简单的意图判断，这样一旦有异常行为可以及时提醒。\n但我又比较在意隐私，不太想把画面传到云端。如果有那种支持本地算力、可以在机身里直接跑 AI 模型，或者方便自己部署开源模型（比如接到 NAS/小主机上跑算法）的方案，也非常感兴趣。\n想问问大家：\n1 ）现在有没有比较成熟的本地 AI 家用摄像头推荐？\n2 ）如果自己折腾开源模型，整体方案大概怎么搭比较靠谱？</p>\n\n\t",
           "author": "fingerxie",
@@ -491,16 +531,6 @@
           "pubDate": "2026-03-09T04:16:28.000Z",
           "content": "\n\t<p>开始的时候只是想实现一个 <del><a href=\"http://jsonbase.com\" rel=\"nofollow\">jsonbase.com</a></del> (因为它已经嘎了) 差不多的简单 json 存储 server ，然后朋友整了个基于 cloudflare worker 的博客，于是得到启发那我用 cf 搞一个，服务器都省了。</p>\n<p>用 jsonbase 也是因为之前做应用版本更新、通知/公告 以及一些 App 的配置文件下发，另外就是 json 格式的日志上传非常方便（当然后面其实我自己用 php 手搓了一个的）。</p>\n<p>然后去年开始弄 <a href=\"https://github.com/PBK-B/cloudflare-worker-json-base\" rel=\"nofollow\">https://github.com/PBK-B/cloudflare-worker-json-base</a></p>\n<p>在做的过程中就是发现，我都存 json 了。那我存文件也很合理吧（传 zip 日志压缩包很方便）？于是加上了文件上传，结果发现 cf 的 kv 和 d1 存储单条数据大小有上限。于是做了文件分片。</p>\n<p>本来是读写都要 token 的鉴权的，于是想着做一个针对路径匹配的权限管理（公有读写、私有读写、公有读私有写、公有写私有读）</p>\n<p>就在昨晚和朋友讨论的时候发现这它喵不就是非标准 API 的 S3 (对象存储) 吗？所以我是在 cloudflare 的 d1 和 kv 上实现了一个 r2 ？给自己都整笑了 😄</p>\n\n\t",
           "author": "pbk",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "antigravity 现在用 opus 容易出错, sonnet 就好很多, 什么情况",
-          "link": "https://www.v2ex.com/t/1196890#reply0",
-          "pubDate": "2026-03-09T07:59:52.000Z",
-          "content": "\n\t<p>大家使用稳定吗</p>\n<p>搞不懂了阿, 现在只能用 sonnet 算了, opus 没搞几下就出错了, agent error</p>\n\n\t",
-          "author": "iorilu",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -557,7 +587,7 @@
         },
         {
           "title": "openclaw 还能入手吗？好像越来越多的大模型官方都开始推广类似 openclaw 的功能了，是选择 openclaw 还是官方的？",
-          "link": "https://www.v2ex.com/t/1196685#reply12",
+          "link": "https://www.v2ex.com/t/1196685#reply13",
           "pubDate": "2026-03-08T14:48:12.000Z",
           "content": "\n\t\n\t",
           "author": "2361779769",
@@ -591,6 +621,16 @@
           "pubDate": "2026-03-08T17:56:13.000Z",
           "content": "\n\t<p>之前 Kiro 续杯的时候，每天都沉迷 Vibe Coding 疯狂续杯</p>\n<p>后来发现 Kiro 使用了一段时间之后就开始莫名其妙的变卡，当时试过卸载重装等等各种方式好像也不管用，最后才定位到时 Kiro 本地的对话数据太多了之后（比如我是 M1 Pro 有一千多次对话数据之后基本就卡的不行了），而 Kiro 本身也不支持清理会话数据</p>\n<p>然后就写了一个小工具每隔一段时间就执行清理一下本地的各种会话缓存，每次清理完之后就能够健步如飞一段时间，分享给有需要的大佬，有用的话求个 Star </p>\n<p>Github 开源仓库链接：<a href=\"https://github.com/vibe-coding-labs/kiro-cleaner\" rel=\"nofollow\">https://github.com/vibe-coding-labs/kiro-cleaner</a></p>\n<p>执行效果图：</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-scan-command-final.gif\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/vibe-coding-labs/kiro-cleaner/raw/main/data/demo-clean-command-3x.gif\"/></p>\n\n\t",
           "author": "CC11001100",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+          "link": "https://www.v2ex.com/t/1196011#reply141",
+          "pubDate": "2026-03-05T04:33:26.000Z",
+          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+          "author": "v2exgo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -646,18 +686,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply133",
-          "pubDate": "2026-03-05T04:33:26.000Z",
-          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-          "author": "v2exgo",
+          "title": "谁有 Linux .do 的邀请链接啊，分享一个呗",
+          "link": "https://www.v2ex.com/t/1196928#reply1",
+          "pubDate": "2026-03-09T09:16:43.000Z",
+          "content": "\n\t<p>谁有 <a href=\"http://linux.do\" rel=\"nofollow\">linux.do</a> 的邀请链接啊，分享一个呗，还有小作文指导一下，，嘻嘻</p>\n\n\t",
+          "author": "wangxiaoer12138",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "claude code 使用哪家国内 api 靠谱",
-          "link": "https://www.v2ex.com/t/1196478#reply64",
+          "link": "https://www.v2ex.com/t/1196478#reply65",
           "pubDate": "2026-03-07T03:52:02.000Z",
           "content": "\n\t之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？\n\t",
           "author": "terry2048",
@@ -764,53 +804,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "2026 年 PHP 路在何方",
-          "link": "https://www.v2ex.com/t/1196334#reply47",
-          "pubDate": "2026-03-06T07:07:55.000Z",
-          "content": "\n\t\n\t",
-          "author": "lanhiy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude Code 中转站选购, 避坑指北",
-          "link": "https://www.v2ex.com/t/1196633#reply3",
-          "pubDate": "2026-03-08T07:45:02.000Z",
-          "content": "\n\t<h2>一. 前提说明</h2>\n<p>客观上介绍了个人站 HelpAIO, 为了体验放在文章末尾</p>\n<h2>二. 使用中转前应该知道的</h2>\n<p>了解下面的信息, 基本能帮助入门, 避坑</p>\n<h3>1. 不用中转,自己开账号可以吗</h3>\n<p><strong>省流: 能的, Claude Code Max20 自己开完一个月, 比任何中转都便宜</strong></p>\n<ul>\n<li><strong>Claude Code</strong>: 多维度风控, 人称 A➗, 严重到肉身在国外开, 正常用都封号. 老号风控较轻, 新号风控很严格, 建议不要直接开 Max20, 分发的话更容易被封; <strong>这个确实不是在传播焦虑(经常能在 v2,推特等地方看到“如何防封”)</strong>;</li>\n</ul>\n<hr/>\n<h3>2. 中转能不能看到我的数据, 有没有可能卖数据, 恶意投毒</h3>\n<p><strong>省流: 理论上能, 实际站长更想赚钱.</strong></p>\n<p>使用中转站就相当于 HTTPS 中间人攻击, 理论上能实现的数据收集, 也能投毒.</p>\n<p>我个人大概想法是<strong>去饭店不能去后厨看, 否则可能吃不下饭, 尽量找靠谱的馆子吃饭.</strong></p>\n<p>对于大型中转来说, 稳定本身就是一种商誉价值.</p>\n<hr/>\n<h3>3. 中转倍率是什么</h3>\n<p>中转站一般面向国内用户, 倍率是模型的美元价格转成人民币计价后的比例.\n一般默认 1 元=1 美刀, 也就是 1:1, 下面是一个示例.</p>\n<ul>\n<li>1 倍：1 元 换 1 美元</li>\n<li>1.5 倍：1.5 元 换 1 美元</li>\n<li>7 倍：7 元 换 1 美元</li>\n</ul>\n<hr/>\n<h3>4. 中转渠道说明</h3>\n<p><strong>省流: 一定要问清楚中转提供的是什么渠道, 官方和逆向价格差 5~6 倍.</strong></p>\n<p>在一切开始前, 要先介绍渠道, 渠道大概分为两种.</p>\n<ul>\n<li>\n官方渠道: <ul>\n<li><strong>来源</strong>: 如<strong>Claude Max20x 订阅</strong>, <strong>Claude 官方 API</strong>, <strong>Aws</strong>, <strong>Azure</strong>这种官方或一线服务商</li>\n<li><strong>优点</strong>: 公认效果最好, 模型能力最强, 但 Claude 官方订阅仅限 Claude Code 中使用(甚至不支持自家 sdk 用)</li>\n<li><strong>缺点</strong>: 普遍较贵, 一小时 20~30 块正常, <strong>建议选购价, 0.85~1.5 元每刀</strong></li>\n</ul>\n</li>\n<li>\n逆向渠道: <ul>\n<li><strong>来源</strong>: 如 Kiro, Cursor, Windsurf, Awsq, Warp 等一些编辑器或终端本身集成了, 逆向出来给客户用 </li>\n<li><strong>优点</strong>: <strong>可以在 Claude Code 外面使用, 价格一般是官渠的 0.2~0.3 倍</strong>, 少数如反重力模型能力很强的可以到 0.6 倍率;</li>\n<li>\n<strong>缺点</strong>: 大部分逆向模型能力有缺陷, 比不上官方<ul>\n<li><strong>智商低</strong>: 逆向渠道可能带固定的提示词, 能力不如官方</li>\n<li><strong>没缓存</strong>: 有些渠道没缓存, 缓存是站长加的(比如写死 80%~88%)</li>\n<li><strong>工具调用失败</strong>: MCP, Skill, Tool 调用失败, 或调用也无法正常完成任务</li>\n<li><strong>上下文短</strong>: 比如 Claude Code 官方是 200K 上下文, 逆向渠道可能是 128K</li>\n<li><strong>断流</strong>: 经常用着用着就断了</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr/>\n<h3>5. 中转会不会掺假</h3>\n<p><strong>省流: 会的</strong>, HelpAIO 发现过, 包括前几天都有论文实锤了.</p>\n<h4>问就是上游掺假</h4>\n<p>中转为了提高 SLA 可用率, 除了自己的号池外, 还会找一些其他渠道, 也就是上游, 这个客观存在\n包括中转站之间都可能互为上游.</p>\n<p>现在普遍情况就是, 如果被用户发现就说是其他渠道, 上游的锅.\n大概就是: 上游可能谈的时候给的是 max, 等用了就会给你惨点儿逆向, 类似直播带货的 AB 货.</p>\n<p>当然也有站长自己发现, 然后主动公告给用户退款.</p>\n<h4>(1) 怎么惨?</h4>\n<ul>\n<li>正常官方, 官方挂了逆向</li>\n<li>官方+逆向: 混着卖, 比例不定, 看站长良心, 有可能 9:1, 有可能 1:9</li>\n<li>官方+其他模型</li>\n<li>其他模型(GLM, DeepSeek, Gemini)</li>\n</ul>\n<h4>(2) 几种情况</h4>\n<ul>\n<li>最好: 站长主动发现自己的上游渠道有问题, 主动公告并退款</li>\n<li>一般: 问是不是纯官方, 会说惨的, 或者沉默</li>\n<li>略差: 被用户发现, 答复上游惨的</li>\n<li>差的: 后台偷偷换, 用户发现就 T 了</li>\n</ul>\n<hr/>\n<h3>6. 中转好不好的核心</h3>\n<ul>\n<li><strong>渠道</strong>: 上面已经说了</li>\n<li>\n<strong>价格组成</strong>: <ul>\n<li><strong>输入</strong>: 读取文件的花费</li>\n<li><strong>输出</strong>: 写入文件的花费</li>\n<li><strong>缓存创建</strong>: 读过的文件, 可以创建缓存, 后续读取缓存更便宜. 缓存创建价格如 Claude Code, 5 分钟缓存价格是输入的 1.25 倍, 1 小时缓存价格是输入的 2 倍</li>\n<li><strong>缓存读取</strong>: 从缓存里面读取, 价格是输入的 0.1 倍</li>\n</ul>\n</li>\n<li>\n**缓存率: <strong>“价格”</strong> 只是一个显眼指标，缓存率同样重要, 缓存率差 10%, 价格便宜的渠道可能更贵<ul>\n<li><strong>参考缓存率: 一线中转 Claude Code 缓存率 80%以上, Codex 缓存率 85%以上</strong></li>\n<li>\n统计缓存率: <ul>\n<li>网页的<a href=\"https://github.com/ding113/claude-code-hub\" rel=\"nofollow\">Claude Code Hub</a>: 网页版, 适合团队用户, 可部署在服务器或 Docker</li>\n<li>HelpAIO 开源的<a href=\"https://github.com/dyndynjyxa/aio-coding-hub\" rel=\"nofollow\">aio-coding-hub</a>: Tauri2 开发的本地客户端, 支持 Mac, Win, Linux</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>可用率</strong>: 价格再低, 不可用等于 0</li>\n</ul>\n<p>上面的信息, <a href=\"https://www.helpaio.com/transit\" rel=\"nofollow\">HelpAIO</a>都有</p>\n<ul>\n<li><a href=\"https://www.helpaio.com/transit/compare\" rel=\"nofollow\"><strong>价格收集, 比价</strong></a>: 目前主要收集 Claude Code 官方渠道(Max)</li>\n<li><a href=\"https://www.helpaio.com/transit/availability\" rel=\"nofollow\"><strong>可用率检测</strong></a>: 7*24 小时不间断检测 Claude Code, Codex 可用率</li>\n<li><strong>渠道说明</strong>: 官方, 逆向, 官逆混用</li>\n<li><strong>优缺点, 近期体验</strong>: 自己作为用户的一些体验分享</li>\n</ul>\n<hr/>\n<h3>7. 其他风险</h3>\n<ul>\n<li>中转作为下游, 受到上游政策影响, 可能随时调整价格.</li>\n<li>中转可能随时不可用, 如某 8 站之前经常出现.</li>\n<li>中转可能随时跑路, 某 P 站至今退款难, 甚至起诉用户(太抽象了); 某 8 站持续不可用, 停摆两个月, 不过近期开始恢复并退款.</li>\n</ul>\n<hr/>\n<h3>8. HelpAIO 是怎么排名的</h3>\n<ul>\n<li>\n<strong>基础分</strong><ul>\n<li>服务设施分 65%: 后台有 50+个指标, 所有中转都在同一指标下进行打分得出(个人深度使用的经验看服务设施非常重要!).</li>\n<li>模型价格分 35%: 模型价格便宜, 分越高.</li>\n</ul>\n</li>\n<li><strong>动态排名</strong>: <strong>最终排名=基础分✖️3 日模型可用率, 防止宕机很久了排名还很高.</strong></li>\n<li><strong>新站收录</strong>: 收录小于 3 天, 权重额外✖️0.8, 收录大于 3 天小于 7 天权重额外✖️0.9(测试无法 24 小时不间断, 降权是为了收集可用率).</li>\n<li><strong>渠道争议</strong>: 发现模型与描述渠道不符(比如承诺 Max 渠道, 惨逆向), 前 10 天权重额外✖️0.3, 后 20 天线性恢复.\n<img alt=\"Xnip2026-03-08_14-22-18.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/XQ8Cqwy2.png\"/></li>\n</ul>\n<hr/>\n<h2>三. 写在最后</h2>\n<p>HelpAIO 是我第一个<strong>创业</strong>项目, 借着 AI 的东风, 也说一些迭代到现在的一些想法.\n一家之言, 欢迎讨论.</p>\n<h3>code is cheap, show me the idea</h3>\n<p>不知道大家知不知道, <code>微舆</code>这个开源项目作者发布 3 个月被盛大陈天桥投资 3000 万, 这个项目就是 idea 价值的一个体现</p>\n<p>对于陈天桥来说他真的是看好这个项目吗, 个人感觉是一种更多是\"紧迫感\", 自己不革命, 就要被别人革命的紧迫感</p>\n<p>是否是真的其实不是关键, 但能看到的是<strong>AI 是<code>工业革命</code>级别的机会, 不断涌现项目, 可以说 AI 缩小了差距, 有 idea 和行动力, 比单纯的开发能力更重要</strong>.</p>\n<h3>不要有完美的\"执念\"</h3>\n<p>很多开发者对自己有很高的要求, 要搞得满足自己的要求才发布, 结果搞着搞着自己怎么都不满意, 最终放弃了. </p>\n<p><strong>但 AI 来了, 试错的成本已经无限降低</strong>, 现在一个天能完成以前一个周工作, <strong>今天不发布, 明天可能就被别人发布了</strong></p>\n<p>快速验证接受市场检验越来越重要</p>\n<h3>重视用户的反馈</h3>\n<p>作为 PM, 要乐于接受用户的反馈, 合理的规划需求. </p>\n<p>我特别感谢一个网友,这个网友对当时那个版本的 HelpAIO 评价大概意思是: <strong>\"有用但有点儿花里胡哨, 没有重点\"</strong></p>\n<p>是这个评价让我快速优化了几个大版本, 实用性增强了不少</p>\n<h3><strong>快速迭代</strong></h3>\n<p>AI 磨平了差距, 也带来了弊端, 产品一旦在市场上被发现, 可能就会被快速 copy.</p>\n<p>你的项目可能好, 但是可能不如别人会营销. 一定要重视营销, 快速迭代. 如最近出现的<a href=\"https://github.com/cft0808/edict/issues/55\" rel=\"nofollow\">openclaw 三省六部开源项目疑似抄袭</a> 原作者 300star, 而该仓库 5000star</p>\n<p>总之要快速持续迭代.</p>\n<p>最后欢迎大家使用 HelpAIO 了解中转, 希望能帮助大家选到合适的中转站.\n中转评测: <a href=\"https://www.helpaio.com/transit\" rel=\"nofollow\">https://www.helpaio.com/transit</a></p>\n<p>中转比价: <a href=\"https://www.helpaio.com/transit/compare\" rel=\"nofollow\">https://www.helpaio.com/transit/compare</a></p>\n<p><img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/8QGwNqdL.png\"/></p>\n<p>中转可用率: <a href=\"https://www.helpaio.com/transit/availability\" rel=\"nofollow\">https://www.helpaio.com/transit/availability</a></p>\n<p><img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://s3.bmp.ovh/2026/03/08/wxxyVR6O.png\"/></p>\n\n\t",
-          "author": "dismantle",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址",
-          "link": "https://www.v2ex.com/t/1196147#reply38",
-          "pubDate": "2026-03-05T12:31:35.000Z",
-          "content": "\n\t<p>Windows 11 25H2/24H2/Arm/Windows 10 专业版/企业版/专业工作站版微软批量许可正版 ISO 企业直供下载镜像地址</p>\n<p>公司之前购买的 50 多套正版微软系统，买的早还是批量授权许可的，现在都是订阅制了。</p>\n<p>从 Microsoft 365  admin center 管理员后台给大家直接获取的正版镜像下载地址，</p>\n<p><strong>所有镜像都自带 3 种版本：专业版、企业版、专业工作站版。</strong></p>\n<p>作为企业系统母版(比如域控系统母版、超融合云桌面 vdi 系统母版等~)、自己电脑安装正版稳定版系统非常合适，微软直链，没有任何第三方再封装，微软企业直供，每次微软封装更新都会提供更新下载地址：（仅是微软正版封装 ISO 镜像，正版的批量激活密钥就不方便发了哈~，收藏帖子，同步微软 admin center 后台更新！）</p>\n<h1>Windows 11 Pro / Windows 11 Pro for Workstations</h1>\n<p>Windows 11 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 11 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 11 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 11 25H2 版是最新发布的 Windows 11 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。 并非所有运行 Windows 10 的设备都符合升级到 Windows 11 的条件。请参阅 <a href=\"https://www.microsoft.com/en-us/windows/windows-11-specifications\" rel=\"nofollow\">Windows 11 设备规格</a>，了解升级要求和支持的功能。某些功能需要额外硬件。</p>\n<p><strong>版本:</strong> 11<strong>版本日期:</strong> 2026 年 2 月 23 日</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：</p>\n<p>SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27837.ISO?t=d1eab5e9-650b-4416-97a4-1f98cf39be61&amp;P1=1772724706&amp;P2=601&amp;P3=2&amp;P4=QvEKb187UvekjLagcFT91uu%2fRRrkU1TkCuvjihYmudaozKrzgm9fRX0EztQnRlBEgUKOPL5tFX%2br2Z9p6cp3bBF3RYpowqBkZ7gQ4piQ1lxFnax19S0qpH4DH9X2VZd54tekYj%2f6GfX%2bZuuJCp3%2fSEukNNqySMlFz5CwuKCtkMJ8j4s5%2bPfOVh6Oy%2fjhdP5232bA24TvOoooKOSns4K%2fVaK2mChTdymewRzDGddzX7Mp55ru%2fuQyaX4SRsFxgdaoywKc0BvSkJtWXgPa2%2bz0yldkyQAGt1KAKbsHJme1EZ6YfT5u6xEflow0y2s6NsGHTTe1wsIbY22tJ3uWclA1NA%3d%3d\n</code></pre>\n<p><strong>Windows 11 version 24H2</strong> (updated Feb 2026) 64Bit Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_24H2.16_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-28237.ISO?t=698b8ef9-ac19-4106-b130-52fa55bf7735&amp;P1=1772724425&amp;P2=601&amp;P3=2&amp;P4=M%2blDocNjQs3p83A2zQPNjf0CKky03akFbtc4jtbPTD1fhI3O5O5DGEocQ5T8691uJ4C%2fAoCKVeTrp6ZcmpUv0Ta9GyQ4ERCyYXJKDZVSa2xx9LUf7znvTjd0uiZUY698XbE61W1cWr0gHI2uKEFC3XXysDwl68cpTyIjSKG6Z350EraeWm9bDmeopWYHbSw3KsN05tK0HxG0yPsEypAFayXtQIaRXBVCkFJ0Fwb5AC89c9OtXAf9QgImKDW9dgI0y7KBDAg%2fAYRVzaicT1%2fo5%2f%2btPouA%2bklLQXaFqW%2bhEkGbgNEkiifgWszVj6idWeW%2biZ6TeNg2LLAu%2frNbbMri1Q%3d%3d\n</code></pre>\n<p>苹果 M 芯片 Arm 系统<strong>Parallels Desktop</strong> 26 For Mac 可以直装的：</p>\n<p><strong>Windows 11 version 25H2</strong> (updated Feb 2026) <strong>Arm64</strong> Chinese Simplified：</p>\n<p>镜像名：SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_11_25H2.5_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27875.ISO?t=a73b3286-e746-44c2-92d5-afba4798bdba&amp;P1=1772725118&amp;P2=601&amp;P3=2&amp;P4=1tAPEvsvEi8BqTQVXFwNBCqolafZlCUoUIDScBRteIxY%2bZ70S%2ffRFSjHq2N1FdOsbXDUaXQfk6YE1xyxq5y6duo0xmBqKrCMZApyzptySQCSLRy6YdPw9LlZOf8csnw0hWk%2bNE7q2sPnv6c%2bTFoAfWzRqxeY8qenAxcckvOmTooD6w1lD1TlcDXQULX6owZBEA7mk5hOGXG3Q5upE33Qz4%2f1tAIUjOaFGIB6IBlvYYC4hRs37G9Gc7lwp9TWs8t5rYH7U89FNoH%2f4q48suRX%2fn1a%2bom3EagHpg78Vkx%2bQFj4V3W9efNniqWzCYNjwbfI56snu4jivfhtuaqoFhumBA%3d%3d\n</code></pre>\n<h1>Windows 10 Pro / Windows 10 Pro for Workstations</h1>\n<p>Windows 10 Pro 专为中小型企业设计，使组织能够管理他们的设备和应用，保护他们的业务数据，优化远程和移动方案，以及充分利用面向其组织的云技术。除了适合中小型企业使用外，安装了 Windows 10 Pro 的设备也很适合其他组织用来为“自选设备”(CYOD) 计划提供支持。Windows 10 Pro for Workstations 为服务器级硬件提供独特支持。其旨在满足需要频繁使用计算机的任务关键型工作负载的苛刻需求。Windows 10 22H2 版是最新发布的 Windows 10 版本。媒体在继原始发布版本得到更新，并额外添加安全相关和非安全相关修补程序后，所做更新的年份和月份会在下载内容的文件名中有所体现。</p>\n<p><strong>版本:</strong> 10<strong>版本日期:</strong> 2026 年 1 月 23 日</p>\n<p>镜像名：SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO</p>\n<p>下载地址：(复制地址直接下载或 IDM 下载)</p>\n<pre><code>https://msproduct.download.prss.microsoft.com/dbazure/SW_DVD9_Win_Pro_10_22H2.38_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X24-27437.ISO?t=8beb527b-35f2-4a98-8db6-49beb04e3e93&amp;P1=1772725347&amp;P2=601&amp;P3=2&amp;P4=WPXHghAk5tD3dKYVzjwHPAhGZW2y2eDBmG1qa8zsIVXdHzhJLgkFydaNb2dv2buhpIEV96nnNiiIsUty1xZy4xELZ37RBKgDe2RDwibQEKYDUsCDWAIpiNjlPpHKZFvr8s7HLIGPw24Vx%2bWjKJojgCqekUMp4BUoEHZw95Z5kjUQJoV28nmPGfh22EAYwlMwx7kbcgwc3cgsWgx6%2b9ywR71OlCweue3aWk8nJbCag82CjmNsnmS3HWaIR6JbAKlZbF7ppC23IF0YlSGuLm0thRn9cUq%2fs%2bvw9R2bbE8AoONF1kOcpiZPOnEDFNi3lMIMeROqb8S3o%2fNBZWCsyBUkcw%3d%3d\n</code></pre>\n\n\t",
-          "author": "ope",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Agent 在传统企业的尝试与阻碍",
-          "link": "https://www.v2ex.com/t/1196366#reply22",
-          "pubDate": "2026-03-06T08:34:51.000Z",
-          "content": "\n\t<p>因为领导层反复强调和要求推进 AI 相关的工作，近期也试了不少方案。\n目前是做了两个实验性的 Agent：</p>\n<p>1 、各种技术资料的检索 Agent ，效果一般般，但勉强能用。</p>\n<p>2 、对某个特定平台，报错后，对各类历史问题的处理方案自动检索 Agent ，方便用户自行解决。</p>\n<p>都是用 Elastic + Dify 简单做的。</p>\n<p>目前就是感觉 Agent 的效果还是没达到能大规模实际投入生产的程度。主要几个问题：</p>\n<p>1 、数据保密问题，也是最主要的问题，由于厂内对信息保密的要求比较高，不允许使用外部大模型 API 。虽然采购了一些卡部署了 deepseek 开源模型，但速度方面感觉很难满足大规模使用，我算了下只能满足 20 个并发左右。</p>\n<p>2 、传统企业数字化程度不足的问题，文档格式非常混乱，虽然数字化已经推进了好几年，但资料还是不太行（还有部门之间的问题，数据上下游配合一直都挺困难的）。</p>\n<p>感觉一种现在各种企业都想强推 AI ，但基础又很难执行。</p>\n<p>有相关经验的大佬也可以分享下你们的经历。</p>\n\n\t",
-          "author": "magicfield",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-09T08:34:29.652Z",
+      "lastUpdated": "2026-03-09T09:39:31.052Z",
       "items": [
         {
           "title": "殢人娇态最轻盈",
@@ -1003,9 +1003,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "博文细分类：生活杂谈2",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1524872",
-          "pubDate": "2026-03-08 07:06:35",
+          "title": "“苦”中作乐也是一种必需的能力",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3234816&do=blog&id=1525031",
+          "pubDate": "2026-03-09 01:40:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -1017,7 +1017,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-09T08:34:33.479Z",
+      "lastUpdated": "2026-03-09T09:39:33.550Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1224,7 +1224,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-09T08:34:35.733Z",
+      "lastUpdated": "2026-03-09T09:39:35.760Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1367,6 +1367,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "笑鼠，刚追平四集就想说感觉这剧群像真不错 (评论: 我的山与海)",
+          "link": "https://movie.douban.com/review/17493957/",
+          "pubDate": "Sun, 08 Mar 2026 02:58:41 GMT",
+          "content": "\n夏吾冬评论: 我的山与海 (https://movie.douban.com/subject/35725771/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6700\\u5927\\u7684\\u611f\\u53d7\\u6...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "有几个点不是很明白。 (评论: 非穷尽列举)",
           "link": "https://movie.douban.com/review/17495053/",
           "pubDate": "Sun, 08 Mar 2026 13:59:29 GMT",
@@ -1407,20 +1417,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "笑鼠，刚追平四集就想说感觉这剧群像真不错 (评论: 我的山与海)",
-          "link": "https://movie.douban.com/review/17493957/",
-          "pubDate": "Sun, 08 Mar 2026 02:58:41 GMT",
-          "content": "\n夏吾冬评论: 我的山与海 (https://movie.douban.com/subject/35725771/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6700\\u5927\\u7684\\u611f\\u53d7\\u6...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "车，钻石，劫案，阶层。 (评论: 洛杉矶劫案)",
-          "link": "https://movie.douban.com/review/17493432/",
-          "pubDate": "Sat, 07 Mar 2026 14:46:12 GMT",
-          "content": "\nJH评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "title": "《暗黑新娘！》：女性主体性觉醒与类型缝合怪 (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17495840/",
+          "pubDate": "Mon, 09 Mar 2026 03:32:35 GMT",
+          "content": "\n焱评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6g089&#34;,&#34;text&#34;:&#34;《暗黑新娘！》是一部野心勃勃的女性电影，它试图在当代语境下，为被父权制所压抑的女性，打造一个如《小丑》般的反叛文化符号。这一尝试值得肯定，只是受限于导演的经验与能力，难以掌控议题与叙事支撑其构想，最...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1432,20 +1432,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-09T08:34:36.816Z",
+      "lastUpdated": "2026-03-09T09:39:36.913Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-09T08:34:37.079Z",
+      "lastUpdated": "2026-03-09T09:39:37.105Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-09T08:34:37.812Z",
+      "lastUpdated": "2026-03-09T09:39:37.693Z",
       "items": [
         {
           "title": "无题",
