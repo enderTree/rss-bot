@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-09T15:55:46.929Z",
+  "lastUpdated": "2026-03-09T16:50:15.464Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "面对不懂技术，强势的甲方要给你甩锅，你们会怎么做",
+      "link": "https://www.v2ex.com/t/1196996#reply1",
+      "pubDate": "2026-03-09T15:59:19.000Z",
+      "content": "\n\t背景：给甲方 A 业务部门开发系统，部署在由 B 部门管理的虚机上，虚机集群及底层由 B 维护，我们只有登录部署权限<br />起因：某天晚上，B 的集群底层存储 IO 全挂了，导致我们虚机也宕机，业务系统更是死的不能再死了，影响了第二天的业务，初步估计损失 7 位数<br />现状：A 领导要分锅，B 部门领导（强势，不懂技术）说我们乙方开发的系统没有技术手段检测到系统宕机，我们也要背锅，具体多少还没定出来，A 部门更是 B 说啥就是啥，现在在斡旋中<br /><br />其实我们有监控系统，但是虚机全挂了导致一锅端了，会中 B 部门老登粪口喷人我差点和他干起来，被我们项目经理死死按住，现在也不知道咋办，难道就要背这口锅吗\n\t",
+      "author": "seers",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "独立开发日记：今天给「静听」音乐播放器做了十几个优化",
       "link": "https://www.v2ex.com/t/1196992#reply0",
@@ -24,7 +34,7 @@
     },
     {
       "title": "阿里 qwen3.5 模型有个严重 bug",
-      "link": "https://www.v2ex.com/t/1196976#reply1",
+      "link": "https://www.v2ex.com/t/1196976#reply2",
       "pubDate": "2026-03-09T14:07:22.000Z",
       "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
       "author": "wsseo",
@@ -156,6 +166,16 @@
       "title": "惊蛰",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524982",
       "pubDate": "2026-03-09 09:01:29",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "微雨夜来歇，江南春色回",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1524976",
+      "pubDate": "2026-03-09 08:25:06",
       "content": "",
       "author": "",
       "categories": [],
@@ -354,7 +374,7 @@
     },
     {
       "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
-      "link": "https://www.v2ex.com/t/1196766#reply23",
+      "link": "https://www.v2ex.com/t/1196766#reply25",
       "pubDate": "2026-03-09T02:42:02.000Z",
       "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
       "author": "YanSeven",
@@ -364,7 +384,7 @@
     },
     {
       "title": "想了解一下有没有无需联网的 AI 摄像头",
-      "link": "https://www.v2ex.com/t/1196764#reply12",
+      "link": "https://www.v2ex.com/t/1196764#reply13",
       "pubDate": "2026-03-09T02:28:43.000Z",
       "content": "\n\t<p>最近准备请育儿嫂，为了孩子安全，打算在家里装几路摄像头。\n需求大概是：最好带 AI 人形/动作识别，甚至能做简单的意图判断，这样一旦有异常行为可以及时提醒。\n但我又比较在意隐私，不太想把画面传到云端。如果有那种支持本地算力、可以在机身里直接跑 AI 模型，或者方便自己部署开源模型（比如接到 NAS/小主机上跑算法）的方案，也非常感兴趣。\n想问问大家：\n1 ）现在有没有比较成熟的本地 AI 家用摄像头推荐？\n2 ）如果自己折腾开源模型，整体方案大概怎么搭比较靠谱？</p>\n\n\t",
       "author": "fingerxie",
@@ -474,7 +494,7 @@
     },
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply65",
+      "link": "https://www.v2ex.com/t/1196703#reply66",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -563,16 +583,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "2025年SSCI论文发文情况分析报告",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524910",
-      "pubDate": "2026-03-08 12:49:06",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "我想做的事 (评论: 我想做的是)",
       "link": "https://movie.douban.com/review/17494848/",
       "pubDate": "Sun, 08 Mar 2026 12:29:56 GMT",
@@ -603,9 +613,9 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "双声、叠韵，“鸿鹄”读作 hóng hú",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=504669&do=blog&id=1524909",
-      "pubDate": "2026-03-08 12:14:53",
+      "title": "夜间光线：沉默的健康杀手",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1524958",
+      "pubDate": "2026-03-08 11:51:55",
       "content": "",
       "author": "",
       "categories": [],
@@ -626,16 +636,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "Carry Code v0.7.3 发布：基于 Rust 的 AI 编程助手",
-      "link": "https://www.v2ex.com/t/1196652#reply3",
-      "pubDate": "2026-03-08T10:35:09.000Z",
-      "content": "\n\t<p>大家好！ Carry Code v0.7.3 正式发布了！这是一个使用 Rust 彻底重写的, 终端原生的 AI 代码代理，能通过自然对话帮助你编写、重构、调试和理解代码。</p>\n<blockquote>\n<p>Q: Carry Code 为什么选择做 Cli 作为交互形式?</p>\n</blockquote>\n<blockquote>\n<p>A: 我们认为编程的最终形式是黑灯工厂, 端到端实现需求定义到产品交付, 甚至无需人工介入;</p>\n</blockquote>\n<ul>\n<li>官网： <a href=\"https://carrycode.ai\" rel=\"nofollow\">https://carrycode.ai</a></li>\n<li>文档： <a href=\"https://carrycode.ai/docs\" rel=\"nofollow\">https://carrycode.ai/docs</a></li>\n<li>源码： <a href=\"https://github.com/deepcarryai/carrycode\" rel=\"nofollow\">https://github.com/deepcarryai/carrycode</a></li>\n</ul>\n<h2>📦 v0.7.3 更新</h2>\n<ol>\n<li><strong>环境变量自动加载 Model API Key</strong>：支持从环境变量读取 Claude 、Gemini 、OpenAI 、OpenRouter 的密钥, <code>carry</code>命令可以直接兼容你的其他 cli 客户端;</li>\n<li><strong>Skills 智能推理</strong>：大模型能自动选择合适的技能, 功能上对齐 claude code 和 openclaw;</li>\n<li><strong>MCP 输出标准化</strong>：与 Bash 工具输出格式对齐，更直观;</li>\n<li><strong>原生 GPT-5.4/5.4 Pro 支持</strong>, <strong>原生 OpenRouter 支持</strong>;</li>\n</ol>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.23.02.png\"/></p>\n<h2>✨ 核心亮点</h2>\n<p>🤖 双模式 Agent</p>\n<ul>\n<li><strong>Build 模式</strong>：自主生成和编辑代码</li>\n<li><strong>Plan 模式</strong>：只读分析和规划方案，安全可控</li>\n</ul>\n<p>🧩 MCP 协议支持</p>\n<ul>\n<li>通过 Model Context Protocol 扩展智能体能力，用 <code>/mcp</code> 轻松管理</li>\n</ul>\n<p>🎯 SKILL 技能系统</p>\n<ul>\n<li>v0.7.3 新增 16 个内置技能，大模型会自动选择合适的技能来完成任务</li>\n<li>与 Claude Code Skills 兼容，可用 <code>/skill</code> 管理</li>\n</ul>\n<p><img alt=\"iShot_2026-03-08_18.23.02|690x484\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.carrycode.ai/archive/pics/iShot_2026-03-08_18.28.33.png\"/></p>\n<p>📋 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a></p>\n<ul>\n<li>在项目根目录放置 <a href=\"http://AGENTS.md\" rel=\"nofollow\">AGENTS.md</a> ，CarryCode 就会遵循项目专属规范</li>\n</ul>\n<p>🎨 精美终端 UI</p>\n<ul>\n<li>渐变 Banner 、Markdown 渲染、语法高亮、代码 Diff 预览</li>\n<li>亮色/暗色主题一键切换</li>\n</ul>\n<p>🔌 17+ 模型服务商</p>\n<ul>\n<li>OpenAI 、Claude 、Gemini 、DeepSeek 、Kimi 、GLM 、MiniMax 、通义千问、Ollama 、vLLM 、OpenRouter……总有一款适合你</li>\n</ul>\n<p>🚀 240+ SOTA 模型</p>\n<ul>\n<li>GPT-5.4/5.4 Pro 、Claude Opus/Sonnet 4.6 、Gemini 3 Pro/Flash 、Kimi 2.5 、DeepSeek V3.2 、Qwen3 等业界最新模型的原生支持(准确上下文适配和多模态识别).</li>\n</ul>\n<p>🗜️ 智能上下文压缩</p>\n<ul>\n<li>自动压缩长对话，适应 Token 限制同时保留关键信息</li>\n</ul>\n<h2>📥 安装</h2>\n<pre><code> 1 │ # MacOS / Linux\n 2 │ curl -fsSL https://carrycode.ai/install.sh | sudo sh\n 3 │ \n 4 │ # Windows\n 5 │ irm https://carrycode.ai/install.ps1 | iex\n\n 1 │ # 运行\n 2 │ carry\n</code></pre>\n<p>或使用单次模式：</p>\n<pre><code> 1 │ carry --once \"解释这个函数\"\n</code></pre>\n<p>快来试试吧！🎉</p>\n\n\t",
-      "author": "zhangliang605",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
