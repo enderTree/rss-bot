@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T22:20:02.171Z",
+  "lastUpdated": "2026-03-09T23:19:51.297Z",
   "totalItems": 133,
   "items": [
     {
@@ -384,7 +384,7 @@
     },
     {
       "title": "Ubuntu 26.04 LTS 关键变化解读",
-      "link": "https://www.v2ex.com/t/1196785#reply3",
+      "link": "https://www.v2ex.com/t/1196785#reply4",
       "pubDate": "2026-03-09T03:18:05.000Z",
       "content": "\n\tUbuntu 26.04 LTS （代号 Resolute Raccoon ）预计于 2026 年 4 月 23 日发布，作为下一代长期支持版本，它将成为未来数年企业与服务器环境的重要基础系统。<br /><br />相比 24.04 LTS ，本次版本的变化并不只是界面升级，而是涉及 内核、桌面架构、软件栈、应用分发和系统安全机制等多个底层领域。<br /><br />参考 <a target=\"_blank\" href=\"https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw\" rel=\"nofollow noopener\">https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw</a>\n\t",
       "author": "webs",
