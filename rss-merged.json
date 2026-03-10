@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T15:55:16.061Z",
+  "lastUpdated": "2026-03-10T16:48:19.859Z",
   "totalItems": 143,
   "items": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "title": "写了个脚本对付营销号，现在我的抖音和 B 站清爽多了",
-      "link": "https://www.v2ex.com/t/1197243#reply2",
+      "link": "https://www.v2ex.com/t/1197243#reply4",
       "pubDate": "2026-03-10T15:05:35.000Z",
       "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
       "author": "2962051004",
@@ -44,7 +44,7 @@
     },
     {
       "title": "真的有人裸考 软考高架么",
-      "link": "https://www.v2ex.com/t/1197237#reply2",
+      "link": "https://www.v2ex.com/t/1197237#reply3",
       "pubDate": "2026-03-10T14:38:43.000Z",
       "content": "\n\t<p>晚上 github 找了个题库，做了下，基本靠蒙。</p>\n<p>大家准备多久过的</p>\n\n\t",
       "author": "collery",
@@ -54,7 +54,7 @@
     },
     {
       "title": "求推荐轻量级带内建词典的阅读 app，",
-      "link": "https://www.v2ex.com/t/1197234#reply9",
+      "link": "https://www.v2ex.com/t/1197234#reply10",
       "pubDate": "2026-03-10T14:26:40.000Z",
       "content": "\n\t我有一块性能很差的安卓阅读器，想要一个轻量级的 app ，能打开本地 epub 和 pdf 就行。<br />目前测了下来比较喜欢：<br />1. Readera 轻量简洁，但注释只能黑白，没有内建词典，但可以跳转到已安装的词典 app<br />2. google play book 满足我所有需求除了！要上传云端，好麻烦，需要联网开 vpn （耗电！），而且还要等很久才能传上去。。<br />还尝试过 moon+（比如 readera ，有太多花里胡哨的设置，不喜欢）<br /><br />大佬们有其他推荐好用的阅读器 app 吗？\n\t",
       "author": "rs007",
@@ -74,7 +74,7 @@
     },
     {
       "title": "为什么这次“龙虾🦞”能这么火？？各方面感觉都在往里面拱火儿。",
-      "link": "https://www.v2ex.com/t/1197227#reply14",
+      "link": "https://www.v2ex.com/t/1197227#reply22",
       "pubDate": "2026-03-10T13:54:55.000Z",
       "content": "\n\t看到有几个市里面的政策在出。<br />云厂商在宣传一键部署和云电脑/云服务器。<br />大模型厂商在出套餐卖 token 。<br />公共平台热搜在涨。<br />报道里有上门安装赚几十万这种新闻。<br />公众号/知识星球/这些卖课的在取 UC 震惊体引流。<br /><br />这玩意儿在“合规性”和“生产力落地上”称得上这么大的阵仗吗。<br />没有顶级的模型在后面撑着不就一滩泥巴吗。<br /><br />先不说 token 耗的多不多。<br />真有拿免费的或者低价的类似 glm 这种模型的 api 干出正经活儿的吗。\n\t",
       "author": "YanSeven",
@@ -144,7 +144,7 @@
     },
     {
       "title": "国产 coding plan 哪个最推荐？",
-      "link": "https://www.v2ex.com/t/1197191#reply9",
+      "link": "https://www.v2ex.com/t/1197191#reply11",
       "pubDate": "2026-03-10T10:04:25.000Z",
       "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
       "author": "westisc",
@@ -154,7 +154,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply32",
+      "link": "https://www.v2ex.com/t/1197190#reply33",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
@@ -224,7 +224,7 @@
     },
     {
       "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-      "link": "https://www.v2ex.com/t/1197168#reply31",
+      "link": "https://www.v2ex.com/t/1197168#reply32",
       "pubDate": "2026-03-10T08:11:30.000Z",
       "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
       "author": "zitup",
@@ -409,6 +409,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
+      "pubDate": "2026-03-10 04:55:11",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "观鸟",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525205",
       "pubDate": "2026-03-10 04:39:15",
@@ -466,7 +476,7 @@
     },
     {
       "title": "指挥 AI 做了一个 LLM API 网关",
-      "link": "https://www.v2ex.com/t/1197080#reply13",
+      "link": "https://www.v2ex.com/t/1197080#reply14",
       "pubDate": "2026-03-10T03:06:35.000Z",
       "content": "\n\t<p>现在只想到了路由配置、APIKEY 配置、token 统计与限制、限速与并发控制、自动化的封禁规则和监控。</p>\n<p>还有哪些功能能够添加进去？</p>\n<p><img alt=\"route\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqtJJyk.png\"/></p>\n<p>Token 统计\n<img alt=\"token 统计\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TmkPyCQ.png\"/></p>\n\n\t",
       "author": "midraos",
@@ -638,26 +648,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "海棠一种",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38547&do=blog&id=1525027",
-      "pubDate": "2026-03-09 12:14:05",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "战略是方向，人才是引擎",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=435975&do=blog&id=1525026",
-      "pubDate": "2026-03-09 12:02:34",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "[笔记，科普，数学] 素数（5）：黎曼猜想 Riemann Hypothesis",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525092",
       "pubDate": "2026-03-09 10:12:56",
@@ -696,16 +686,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "Claude code/opencode 多会话管理，大家用啥",
-      "link": "https://www.v2ex.com/t/1196893#reply7",
-      "pubDate": "2026-03-09T08:01:33.000Z",
-      "content": "\n\t<p>终端里的 claude-squad/agent-deck\nweb 界面的有 vibekanban\n还有一些 vscode 里的插件</p>\n<p>另外猜测一个趋势，后面的 vibecoding 都会在云上 7X24 跑？人只需要收到通知时，去 check 下结果，这种情况下，有哪些编程会话工具可选</p>\n\n\t",
-      "author": "hotea",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "下次再也不宣传 trae 了",
@@ -811,6 +791,16 @@
       "title": "AI时代创业新态势：一人公司",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525030",
       "pubDate": "2026-03-09 01:25:52",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "清晨的沉着",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525028",
+      "pubDate": "2026-03-09 01:01:51",
       "content": "",
       "author": "",
       "categories": [],
@@ -1477,6 +1467,16 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
+    },
+    {
+      "title": "基于 casdoor 的 ELK 开源登录认证解决方案: elk-auth-casdoor",
+      "link": "https://www.v2ex.com/t/1021725#reply20",
+      "pubDate": "2024-03-08T02:33:46.000Z",
+      "content": "\n\t<div><div><h2>前言</h2>\n<p>ELK 的一大缺点就是这东西最初是没有登录机制的，只要拿到了 url 地址，kibana 看板谁都可以访问一下。后来 ELK 自带了一套 xpack 进行登录认证，可是除了账户名密码登录这种最原始的方法，剩下的高级功能，比如 oauth, oidc, ldap ，统统都是收费的.....总不能给每个人都专门搞一个 kibana 账户名密码吧......</p>\n<p>所以呢，这里有一个基于 casdoor 的 elk 鉴权解决方案，<strong>不要钱，开源的，还有人维护呢~<strong>。Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，而 casdoor/elk-auth-casdoor 这套解决方案，则是一个</strong>反向代理</strong>，他可以拦截所有未经登录的前往 elk 的 http 访问流量，并且引导未登录用户进行登录，而且这个反向代理对已登录用户是<strong>完全透明</strong>的。</p>\n<p>仓库地址\n<a href=\"https://github.com/casdoor/elk-auth-casdoor\" rel=\"nofollow\">https://github.com/casdoor/elk-auth-casdoor</a></p>\n<p>QQ 群：645200447</p>\n<p>如果您有更多相关的特殊需求可以加群，我们会有专人对接~ （可以联系 ComradeProgrammer ）</p>\n<h2>casdoor 是什么</h2>\n<p>Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，简单点说，就是 Casdoor 可以帮你解决 用户管理 的难题，你无需开发用户登录注册等与用户鉴权相关的一系列功能，只需几个步骤，简单配置，与你的主应用配合，便可完全托管你的用户模块，简单省心，功能强大。</p>\n<p>仓库地址： <a href=\"https://github.com/casbin/casdoor\" rel=\"nofollow\">https://github.com/casbin/casdoor</a></p>\n<p>演示地址： <a href=\"https://door.casbin.com/\" rel=\"nofollow\">https://door.casbin.com/</a></p>\n<p>官网文档： <a href=\"https://casdoor.org/\" rel=\"nofollow\">https://casdoor.org/</a></p>\n<p>QQ 群：645200447</p>\n<p>Casdoor 还支持 ldap ，saml 等诸多功能.....</p>\n<p>Casdoor 目前作为 Casbin 社区项目统一使用的鉴权平台，项目已开源，希望得到大家的一些建议和 Star~，我们会及时跟进反馈并改正问题哒</p>\n<h2>Casdoor 又有哪些特性？</h2>\n<ul>\n<li>支持普通的账户密码注册登录，也支持各种常见的第三方认证，例如 GitHub 、Facebook 、Google 、Wechat 、QQ 、LinkedIn 等等，截止目前共 9 个平台，并在不断听取用户建议对更多的平台提供支持。</li>\n<li>管理方便。Casdoor 内部将模块分为了 5 大类，Organization 、User 、Application 、Token 和 Provider 。可以同时接入多个组织，组织下有不同应用，用户可以通过应用或组织分类，单独管理任何组织、应用或用户的 Token 令牌，轻松管理复杂系统，目前已部署在 Casbin 社区各种系统当作鉴权平台。</li>\n<li>自定义程度高。Casdoor 可以随意修改登录方式，例如是否允许密码或第三方登录，自定义应用的注册项数量，是否启用两步验证，以及是否允许各个 Provider 登录、注册等等，高度可插拔。</li>\n<li>具备 Swagger API 文档。清晰的 API 介绍，无需阅读源代码即可直接方便调用各个 API 接口，提供定制化功能。</li>\n<li>前后端分离架构，部署简单。作为统一认证平台，除了性能，稳定性，新特性之外，易用性也是考量的重要标准，Casdoor 后端使用 Golang 语言开发，前端使用 React.js 框架，使用者只需启动后端服务，并将前端工程文件打包，即可直接使用，操作简单，上手难度低。\n...</li>\n</ul>\n</div></div>\n\t",
+      "author": "Casbin",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     }
   ]
 }
