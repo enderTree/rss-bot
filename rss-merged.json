@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T19:32:44.017Z",
+  "lastUpdated": "2026-03-10T20:24:07.663Z",
   "totalItems": 133,
   "items": [
     {
@@ -113,6 +113,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "老有所学     勤学苦练",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525153",
+      "pubDate": "2026-03-10 11:10:06",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "再疯狂的外星机器，也干不过铲车司机。 (评论: 侵略机器)",
       "link": "https://movie.douban.com/review/17497796/",
       "pubDate": "Tue, 10 Mar 2026 11:03:41 GMT",
@@ -151,6 +161,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "CPCI-S 论文 2025年发文概况",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525133",
+      "pubDate": "2026-03-10 09:43:05",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "感 (评论: 堕落天使)",
@@ -518,6 +538,16 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "悲伤都将是暂时的......吗？ (评论: 成长的迷思)",
+      "link": "https://book.douban.com/review/17497231/",
+      "pubDate": "Tue, 10 Mar 2026 02:36:41 GMT",
+      "content": "\n新星出版社评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;p4df&#34;,&#34;text&#34;:&#34;这两年，“爱老己”成了热门词。打开各类社交媒体，满屏都是“把自己重新养一遍”、“对自己好一点”、“要学会爱自己”。&#34;,&#34;type...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
       "title": "Openclaw 你们是怎么实现让他一直自动的编码工作的",
       "link": "https://www.v2ex.com/t/1197051#reply35",
       "pubDate": "2026-03-10T02:25:19.000Z",
@@ -706,26 +736,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "永恒的花园：最早植物标本册的起源、传播与用途",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38998&do=blog&id=1525062",
-      "pubDate": "2026-03-09 04:21:29",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "马不停蹄唯在志，牛为垦地自诚心。",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525060",
-      "pubDate": "2026-03-09 04:14:36",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -1027,16 +1037,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "那些“本该如此”，都是被发明的 (评论: 发明国际秩序)",
-      "link": "https://book.douban.com/review/17489500/",
-      "pubDate": "Thu, 05 Mar 2026 03:26:07 GMT",
-      "content": "\n树评论: 发明国际秩序 (https://book.douban.com/subject/37465018/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bpkpi&#34;,&#34;text&#34;:&#34;以为会读得很痛苦，没想到还挺喜欢的，收获很多！强烈建议搭配gpt一起读，边读边补课、边梳理思路、形成理解框架，全靠...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",

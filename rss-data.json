@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-10T19:32:44.014Z",
+  "lastUpdated": "2026-03-10T20:24:07.658Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-10T19:32:32.205Z",
+      "lastUpdated": "2026-03-10T20:23:55.695Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-10T19:32:33.364Z",
+      "lastUpdated": "2026-03-10T20:23:56.858Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-10T19:32:33.519Z",
+      "lastUpdated": "2026-03-10T20:23:57.063Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-10T19:32:35.321Z",
+      "lastUpdated": "2026-03-10T20:23:58.720Z",
       "items": [
         {
           "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
@@ -309,7 +309,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-10T19:32:35.541Z",
+      "lastUpdated": "2026-03-10T20:23:59.025Z",
       "items": [
         {
           "title": "国产 coding plan 哪个最推荐？",
@@ -716,7 +716,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-10T19:32:37.933Z",
+      "lastUpdated": "2026-03-10T20:24:01.742Z",
       "items": [
         {
           "title": "[笔记，科普，数学] 素数（5）：黎曼猜想 Riemann Hypothesis",
@@ -739,9 +739,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "李径独来数，愁情相与悬",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525116",
-          "pubDate": "2026-03-10 08:25:11",
+          "title": "怎样有意识争取诺贝尔奖？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525103",
+          "pubDate": "2026-03-10 07:36:15",
           "content": "",
           "author": "",
           "categories": [],
@@ -749,9 +749,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "怎样有意识争取诺贝尔奖？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525103",
-          "pubDate": "2026-03-10 07:36:15",
+          "title": "李径独来数，愁情相与悬",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525116",
+          "pubDate": "2026-03-10 08:25:11",
           "content": "",
           "author": "",
           "categories": [],
@@ -789,16 +789,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "马不停蹄唯在志，牛为垦地自诚心。",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525060",
-          "pubDate": "2026-03-09 04:14:36",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "郁金香",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=5889&do=blog&id=1525182",
           "pubDate": "2026-03-10 03:29:02",
@@ -822,16 +812,6 @@
           "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
           "pubDate": "2026-03-10 04:55:11",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "永恒的花园：最早植物标本册的起源、传播与用途",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38998&do=blog&id=1525062",
-          "pubDate": "2026-03-09 04:21:29",
           "content": "",
           "author": "",
           "categories": [],
@@ -917,13 +897,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "CPCI-S 论文 2025年发文概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525133",
+          "pubDate": "2026-03-10 09:43:05",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "老有所学     勤学苦练",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525153",
+          "pubDate": "2026-03-10 11:10:06",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-10T19:32:40.285Z",
+      "lastUpdated": "2026-03-10T20:24:04.091Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1076,6 +1076,36 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
+          "link": "https://book.douban.com/review/17490921/",
+          "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
+          "content": "\n新经典评论: 马孔多在下雨 (https://book.douban.com/subject/36946790/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fmjqs&#34;,&#34;text&#34;:&#34;在加西亚·马尔克斯书中，天气预报员算不算地狱难度的职业？这里——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlin...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
+          "title": "悲伤都将是暂时的......吗？ (评论: 成长的迷思)",
+          "link": "https://book.douban.com/review/17497231/",
+          "pubDate": "Tue, 10 Mar 2026 02:36:41 GMT",
+          "content": "\n新星出版社评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;p4df&#34;,&#34;text&#34;:&#34;这两年，“爱老己”成了热门词。打开各类社交媒体，满屏都是“把自己重新养一遍”、“对自己好一点”、“要学会爱自己”。&#34;,&#34;type...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
+          "title": "成为顶级“P人”指南 (评论: 小实验)",
+          "link": "https://book.douban.com/review/17493567/",
+          "pubDate": "Sat, 07 Mar 2026 15:43:59 GMT",
+          "content": "\n怒海枯涛评论: 小实验 (https://book.douban.com/subject/38219474/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u521a\\u8bfb\\u5b8c\\u8fd9\\...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "读懂四大名著，就读懂了人生：万事万物，终是虚无！ (评论: 四大名著（全四册）)",
           "link": "https://book.douban.com/review/17490907/",
           "pubDate": "Fri, 06 Mar 2026 03:03:30 GMT",
@@ -1094,43 +1124,13 @@
           "categories": [],
           "source": "豆瓣书评",
           "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
-          "link": "https://book.douban.com/review/17490921/",
-          "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
-          "content": "\n新经典评论: 马孔多在下雨 (https://book.douban.com/subject/36946790/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fmjqs&#34;,&#34;text&#34;:&#34;在加西亚·马尔克斯书中，天气预报员算不算地狱难度的职业？这里——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlin...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "成为顶级“P人”指南 (评论: 小实验)",
-          "link": "https://book.douban.com/review/17493567/",
-          "pubDate": "Sat, 07 Mar 2026 15:43:59 GMT",
-          "content": "\n怒海枯涛评论: 小实验 (https://book.douban.com/subject/38219474/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u521a\\u8bfb\\u5b8c\\u8fd9\\...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "那些“本该如此”，都是被发明的 (评论: 发明国际秩序)",
-          "link": "https://book.douban.com/review/17489500/",
-          "pubDate": "Thu, 05 Mar 2026 03:26:07 GMT",
-          "content": "\n树评论: 发明国际秩序 (https://book.douban.com/subject/37465018/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bpkpi&#34;,&#34;text&#34;:&#34;以为会读得很痛苦，没想到还挺喜欢的，收获很多！强烈建议搭配gpt一起读，边读边补课、边梳理思路、形成理解框架，全靠...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
         }
       ]
     },
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-10T19:32:42.177Z",
+      "lastUpdated": "2026-03-10T20:24:05.964Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1338,20 +1338,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-10T19:32:43.285Z",
+      "lastUpdated": "2026-03-10T20:24:07.132Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-10T19:32:43.548Z",
+      "lastUpdated": "2026-03-10T20:24:07.421Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-10T19:32:44.014Z",
+      "lastUpdated": "2026-03-10T20:24:07.658Z",
       "items": [
         {
           "title": "无题",
