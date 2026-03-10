@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-10T09:35:37.149Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-10T10:30:47.539Z",
+  "totalItems": 133,
   "items": [
     {
+      "title": "国产 coding plan 哪个最推荐？",
+      "link": "https://www.v2ex.com/t/1197191#reply2",
+      "pubDate": "2026-03-10T10:04:25.000Z",
+      "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
+      "author": "westisc",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "用 AI 写代码一个月之后，我开始怀念自己手写的感觉",
-      "link": "https://www.v2ex.com/t/1197174#reply0",
+      "link": "https://www.v2ex.com/t/1197174#reply1",
       "pubDate": "2026-03-10T08:51:46.000Z",
       "content": "\n\t<p>最近一个月基本全程 Claude Code ，效率确实高了，但有一天突然发现自己看着一段生成的代码，完全不知道它为什么这么写。\n不是看不懂，是没有参与感。\n以前自己写，哪怕是很烂的实现，脑子里是清楚的，出了 bug 大概知道往哪查。现在 AI 一把梭，跑起来了，但那个\"为什么\"是空的。\n最近开始强迫自己做一件事：AI 给出方案之后，不直接 accept ，先在脑子里过一遍，说不清楚逻辑的地方让它解释，直到我能用自己的话复述出来再合进去。\n慢了一点，但感觉找回来了。\n有没有人有类似的感受，我这种方式是不是马上要被 AI 淘汰了？</p>\n\n\t",
       "author": "zarajade",
@@ -14,10 +24,10 @@
     },
     {
       "title": "以后 I coding 就是拼提示词了",
-      "link": "https://www.v2ex.com/t/1197171#reply11",
+      "link": "https://www.v2ex.com/t/1197171#reply14",
       "pubDate": "2026-03-10T08:25:16.000Z",
       "content": "\n\t<p>整个 AI 工具其实都在围绕提示词做展开，以后大学肯定会专门开提示词的课程，感觉文科生的优势一下起来了，AI 科学家们成功干翻了理科生。</p>\n\n\t",
-      "author": "factorio33",
+      "author": "tina2998",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -34,7 +44,7 @@
     },
     {
       "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-      "link": "https://www.v2ex.com/t/1197168#reply14",
+      "link": "https://www.v2ex.com/t/1197168#reply20",
       "pubDate": "2026-03-10T08:11:30.000Z",
       "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
       "author": "zitup",
@@ -44,7 +54,7 @@
     },
     {
       "title": "分享一个完全免费的中国 A 股数据获取库",
-      "link": "https://www.v2ex.com/t/1197162#reply18",
+      "link": "https://www.v2ex.com/t/1197162#reply25",
       "pubDate": "2026-03-10T08:00:14.000Z",
       "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
       "author": "sunfinv",
@@ -54,7 +64,7 @@
     },
     {
       "title": "使用 WebGPU 在线测试显卡性能",
-      "link": "https://www.v2ex.com/t/1197159#reply4",
+      "link": "https://www.v2ex.com/t/1197159#reply6",
       "pubDate": "2026-03-10T07:47:25.000Z",
       "content": "\n\t<p>演示： <a href=\"https://etherdream.github.io/hash-miner/\" rel=\"nofollow\">https://etherdream.github.io/hash-miner/</a></p>\n<p>前几天把很久前写的 <a href=\"https://v2ex.com/t/347005\" rel=\"nofollow\">SHA-256 PoW</a> 翻新了下，用 WebGPU 代替 WebGL2 ，并修复了之前的一些缺陷，性能大幅提升。</p>\n<p>此外加入了 Wasm 以及 SIMD 、asm.js 版本，可用于性能对比测试。</p>\n<p>如果瞬间完成的话可以加大一点难度多运行几秒，否则无法达到最高速度。</p>\n\n\t",
       "author": "iqoo",
@@ -160,7 +170,7 @@
     },
     {
       "title": "codex 中转站今天崩溃问题",
-      "link": "https://www.v2ex.com/t/1197112#reply24",
+      "link": "https://www.v2ex.com/t/1197112#reply25",
       "pubDate": "2026-03-10T05:39:34.000Z",
       "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
       "author": "forrestgump",
@@ -170,7 +180,7 @@
     },
     {
       "title": "最近一段时间，我调整了我利用 AI 学习知识的方式，感觉很好，分享一下",
-      "link": "https://www.v2ex.com/t/1197110#reply5",
+      "link": "https://www.v2ex.com/t/1197110#reply6",
       "pubDate": "2026-03-10T05:35:03.000Z",
       "content": "\n\t以前我利用 AI 学习的方式，更多的是我在提问，让 AI 提供相关进阶学习资料，然后我去学习，然后接着提问。当然，少不了日常笔记总结，以及 demo 级别代码实践和验证。<br /><br />最近我看 ChatGPT 加了 study and learn 模式，我干脆就仿造这个，让 ChatGPT 通过提问以及纠错的方式，来考察我对某个技术领域的理解程度。我觉得还蛮惊喜的，比我之前光提问，效果好上不少。<br /><br />具体，我想了下，为什么感觉上效果会好：<br /><br />1. 费曼学习法，我变成主动提供输入的人<br /><br />2. 另外，我学习的知识内容，不仅仅局限于我个人的理解，因为不再是我问什么，ChatGPT 回答什么，ChatGPT 会主动提供很多输入<br /><br />3. ChatGPT 可以帮我打磨细节，很多我口语化或者不够深入本质的回答，ChatGPT 会告诉我，哪些需要调整描述，哪些是我没理解到位导致的<br /><br />我相信应该有很多人已经是这么使用的了，但是我还是分享出来我的个人感受，来一起讨论一下\n\t",
       "author": "swananan",
@@ -269,7 +279,7 @@
     },
     {
       "title": "吐槽一下 DeepSeek 余额清空",
-      "link": "https://www.v2ex.com/t/1197048#reply79",
+      "link": "https://www.v2ex.com/t/1197048#reply80",
       "pubDate": "2026-03-10T02:22:55.000Z",
       "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
       "author": "ingrowthly",
@@ -289,7 +299,7 @@
     },
     {
       "title": "Antigravity 为啥能这么垃圾啊？",
-      "link": "https://www.v2ex.com/t/1197042#reply17",
+      "link": "https://www.v2ex.com/t/1197042#reply18",
       "pubDate": "2026-03-10T02:10:01.000Z",
       "content": "\n\t<p>去年 12 月底花了差不多 700 块入的 Google AI Pro 会员，当时心想赚麻了，毕竟 Google 还是值得信赖的。结果先是额度大砍，后面还不停的调整额度限制一点都不透明， 后面更新一次比一次难用，今天更新了 1.20.5, 结果呢内存泄漏直接 OOM 了。'terminated due to error'忍忍也就罢了，现在是完全用不了了</p>\n\n\t",
       "author": "burnsby",
@@ -389,7 +399,7 @@
     },
     {
       "title": "[记录]-2026-03-09 神仙操作",
-      "link": "https://www.v2ex.com/t/1196972#reply11",
+      "link": "https://www.v2ex.com/t/1196972#reply12",
       "pubDate": "2026-03-09T13:25:21.000Z",
       "content": "\n\t<p>刚入职不到 3 周的哥哥 在学习部署项目 交给了他之前的部署流程文档</p>\n<p>可惜原先部署文档没有给 nginx 的配置 头也是真放心 把其中一个客户的线上生产环境带 root 的直接送给了他 让他自己模仿</p>\n<p>项目的 SQL 也是考虑周全 每个 DDL 前必有 DROP 老哥也是犯了我之前的毛病...(看错服务器是哪个了)\n结果中午客户在企业微信里就傻眼了 我上次只是 DROP 了一张表 现在是清库了</p>\n<p>突然想起来《反基督者》里面的一句话 Chaos Reigns.</p>\n\n\t",
       "author": "PendingOni",
@@ -648,31 +658,11 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "非 8E Gen5 但想 root 的小米用户也建议暂缓升级",
-      "link": "https://www.v2ex.com/t/1196845#reply3",
-      "pubDate": "2026-03-09T06:26:55.000Z",
-      "content": "\n\t<p>先前的<a href=\"https://www.v2ex.com/t/1196673\" rel=\"nofollow\">讨论</a>中已经有不少人意识到，尽管彻底解锁利用的是 8E Gen5 的特性，但其它漏洞已经足以在不解锁的情况下获取 root 权限。<br/>\n<del>直播“小米高考”得了 30 分的</del>KernelSU 的作者已经表示，萌生了重新买一台小米的冲动。同时也证实前述观点，指出现有的漏洞能为 Android 系统带来一种类似 iOS 的越狱模式，可以在不解锁手机的前提下直接获取并使用 Root 功能。KernelSU 团队也正在考虑为这种“越狱模式”添加特别的支持。<br/>\n所以，对于 HyperOS 时代非 8E Gen5 机型但想 root 的小米用户，也建议暂缓升级、<strong>关闭自动升级相关选项</strong>，等待社区进一步的研究以完善具体方法、明确适用范围。</p>\n\n\t",
-      "author": "LnTrx",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "国行三星无法使用 Gemini 的问题？",
       "link": "https://www.v2ex.com/t/1196835#reply22",
       "pubDate": "2026-03-09T06:09:11.000Z",
       "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
       "author": "bzkmsjy",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "开源 AI 设计神器，一键导出种代码！",
-      "link": "https://www.v2ex.com/t/1196810#reply7",
-      "pubDate": "2026-03-09T04:34:50.000Z",
-      "content": "\n\tOpenPencil 迎来了 v0.3.0：彻底打通了从设计到代码的“最后一公里”，真正的 Design-as-Code 。<br /><br />👁️ 给 AI 装上“眼睛”（视觉参考管线）<br /><br />看图抄作业： 直接扔一张参考图给 AI ，它就能秒懂你的意图，在画布上实时生成对应的 UI 结构。<br /><br />自带质检员：AI 画完之后，还会触发底层的自动校验系统，给自己打分并修正布局偏差。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/hYiGF8N.gif\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/hYiGF8N.gif\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />💻 丧心病狂的 8 大框架代码导出 这绝对是本次更新的王炸！画完图还要手敲代码？不存在的。 现在可以直接一键导出生产级代码，除了原有的 React 和 HTML ，这次我们一口气加上了：<br /><br />React &amp; Vue &amp; Svelte + Tailwind （前端老哥狂喜）<br /><br />SwiftUI &amp; React Native &amp; Flutter &amp; Jetpack Compose （开发 iOS/macOS 或跨端 App 的独立开发者，这波绝对让你们爽飞，直接复制粘贴就能跑原生界面！）<br /><br />📐 补齐专业短板：原生布尔运算 现在 OpenPencil 已经不仅仅是个大模型套壳了，它支持真正的矢量布尔运算（联集/减去/交集）。按下快捷键 ⌘⌥U/S/I ，复杂的图形组合瞬间搞定。<br /><br />🖥️ 桌面端丝滑体验 全平台原生支持双击打开 .op 文件。配合动态呼吸灯边框（ Agent Badge Glow ），你在本地看 AI 多线程画图的赛博朋克感再次飙升！\n\t",
-      "author": "finiking",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -698,41 +688,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "关于 cc 使用模型的问题",
-      "link": "https://www.v2ex.com/t/1196787#reply5",
-      "pubDate": "2026-03-09T03:22:23.000Z",
-      "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
-      "author": "wnzhyee",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Ubuntu 26.04 LTS 关键变化解读",
-      "link": "https://www.v2ex.com/t/1196785#reply5",
-      "pubDate": "2026-03-09T03:18:05.000Z",
-      "content": "\n\tUbuntu 26.04 LTS （代号 Resolute Raccoon ）预计于 2026 年 4 月 23 日发布，作为下一代长期支持版本，它将成为未来数年企业与服务器环境的重要基础系统。<br /><br />相比 24.04 LTS ，本次版本的变化并不只是界面升级，而是涉及 内核、桌面架构、软件栈、应用分发和系统安全机制等多个底层领域。<br /><br />参考 <a target=\"_blank\" href=\"https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw\" rel=\"nofollow noopener\">https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw</a>\n\t",
-      "author": "webs",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
       "link": "https://www.v2ex.com/t/1196766#reply28",
       "pubDate": "2026-03-09T02:42:02.000Z",
       "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
       "author": "YanSeven",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "想了解一下有没有无需联网的 AI 摄像头",
-      "link": "https://www.v2ex.com/t/1196764#reply18",
-      "pubDate": "2026-03-09T02:28:43.000Z",
-      "content": "\n\t<p>最近准备请育儿嫂，为了孩子安全，打算在家里装几路摄像头。\n需求大概是：最好带 AI 人形/动作识别，甚至能做简单的意图判断，这样一旦有异常行为可以及时提醒。\n但我又比较在意隐私，不太想把画面传到云端。如果有那种支持本地算力、可以在机身里直接跑 AI 模型，或者方便自己部署开源模型（比如接到 NAS/小主机上跑算法）的方案，也非常感兴趣。\n想问问大家：\n1 ）现在有没有比较成熟的本地 AI 家用摄像头推荐？\n2 ）如果自己折腾开源模型，整体方案大概怎么搭比较靠谱？</p>\n\n\t",
-      "author": "fingerxie",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -756,16 +716,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "小米摄像头权限",
-      "link": "https://www.v2ex.com/t/1196719#reply36",
-      "pubDate": "2026-03-09T01:10:35.000Z",
-      "content": "\n\t<p>最近有个需求，希望家庭成员能在某个时间段的时候，才有某个摄像头的权限。</p>\n<p>这个好像米家没这样的精细权限控制，想到的方案是，调用米家的加入 家庭成员和取消家庭成员的 api ，定时脚本去处理。</p>\n<p>请问各位大佬\n有这样的 open api 吗？还是要抓包？\n别的品牌摄像头有这样的功能吗，能接入米家么。家里都是米家生态。不太想再安装一个 app</p>\n\n\t",
-      "author": "frank1256",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "爆水管|全能六边形战士 (评论: 爆水管)",
@@ -808,41 +758,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "手机支持 DP1.2 重要吗？可以外接显示器",
-      "link": "https://www.v2ex.com/t/1196689#reply22",
-      "pubDate": "2026-03-08T14:58:21.000Z",
-      "content": "\n\t<p>看到有些手机，可以外接显示器，显示类似桌面，类似台式机一样。加上手机上也有各种远程桌面应用，比如微软的，但是不知道实用不？用手机做一些远程，是不是有点奇葩？</p>\n\n\t",
-      "author": "PhoenixDancing",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-      "link": "https://www.v2ex.com/t/1196673#reply85",
+      "link": "https://www.v2ex.com/t/1196673#reply86",
       "pubDate": "2026-03-08T14:02:37.000Z",
       "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
       "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "境内阿里云服务器访问 claude、codex 会有危险吗？",
-      "link": "https://www.v2ex.com/t/1196672#reply15",
-      "pubDate": "2026-03-08T13:49:28.000Z",
-      "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
-      "author": "wayneyang3",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
-      "link": "https://www.v2ex.com/t/1196671#reply9",
-      "pubDate": "2026-03-08T13:27:31.000Z",
-      "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
-      "author": "seers",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -1076,16 +996,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply63",
-      "pubDate": "2026-03-05T10:08:30.000Z",
-      "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
-      "author": "jiaokun",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "关于帕拉第奥的相关内容整理 (评论: 人文主义时代的建筑原理)",
       "link": "https://book.douban.com/review/17489981/",
       "pubDate": "Thu, 05 Mar 2026 09:34:55 GMT",
@@ -1114,16 +1024,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply145",
-      "pubDate": "2026-03-05T04:33:26.000Z",
-      "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-      "author": "v2exgo",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
