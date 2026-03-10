@@ -1,10 +1,70 @@
 {
-  "lastUpdated": "2026-03-10T06:37:38.693Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-10T07:35:43.007Z",
+  "totalItems": 133,
   "items": [
     {
+      "title": "李径独来数，愁情相与悬",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525116",
+      "pubDate": "2026-03-10 08:25:11",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "分享一个高效的开发思路",
+      "link": "https://www.v2ex.com/t/1197155#reply0",
+      "pubDate": "2026-03-10T07:35:16.000Z",
+      "content": "\n\t<p>把 cursor 安装在服务器上，通过远程桌面上去开发。有 2 个好处：</p>\n<ol>\n<li>可以本机、远程同时开 2 个 cursor ，同时开发 2 个项目，牛马属性点满了；</li>\n<li>cursor 直接在服务器上查生产日志、修 bug 、自动部署，一条龙全搞定了。</li>\n</ol>\n<p>当前装个其它命令行代码工具，kimi code 之类的，可以直接在命令行就完成了，也不错。</p>\n<p>你可能会说写完不测试吗？那是测试人员的工作，ai 写的代码从来不用自测，只用 review 方向有没有跑偏就完了。</p>\n\n\t",
+      "author": "jedeft",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "[开源] SpringBoot 实现的 webSSH",
+      "link": "https://www.v2ex.com/t/1197154#reply0",
+      "pubDate": "2026-03-10T07:25:09.000Z",
+      "content": "\n\t功能<br />登录鉴权 — Spring Security 表单登录，内存用户存储（ BCrypt 加密）<br />多标签 SSH 终端 — 每个标签独立 WebSocket + xterm.js ，互不干扰<br />会话保存 — 按登录用户持久化到本地 JSON 文件<br />凭据加密保存 — AES-GCM 加密，主密钥可配置<br />主机指纹校验 — SHA-256 ，首次连接自动信任并回填<br />认证方式 — 密码认证、私钥认证（私钥口令可选）<br />终端尺寸同步 — 浏览器窗口变化自动同步到远端 PTY<br />SFTP 文件管理 — 目录浏览、上传（分片）、下载（分片 + ACK 流控）、创建目录<br />SSH 端口转发 — 本地转发（ L ）/ 远程转发（ R ）<br />Shell 工作目录追踪 — 注入 shell 钩子实时感知远端 $PWD 变化，SFTP 面板自动同步<br />终端主题 — 6 种配色方案（默认蓝、橙、绿、琥珀、紫、红）<br />国际化 — 支持 7 种语言（简体中文、English 、日本語、한국어、Deutsch 、Français 、Русский）<br />全屏模式 — 终端可切换全屏显示<br />移动端适配 — 响应式 Web 设计，针对手机端优化布局、侧边栏滑动及文件管理交互<br /><br />源码： <a target=\"_blank\" href=\"https://github.com/Jstrom2022/webSSH\" rel=\"nofollow noopener\">https://github.com/Jstrom2022/webSSH</a>\n\t",
+      "author": "huangjinjiang20",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "你的 AI 记忆，凭什么被平台锁定？ MIP：一个让 AI 记忆可移植的开放标准",
+      "link": "https://www.v2ex.com/t/1197152#reply0",
+      "pubDate": "2026-03-10T07:23:20.000Z",
+      "content": "\n\t<p>一个关于 AI 记忆可移植性的思考，以及一个极简开放标准的提案。</p>\n<hr/>\n<h2>从一个烦人的场景说起</h2>\n<p>你花了三个月教 ChatGPT 了解你：</p>\n<ul>\n<li>你是前端工程师，用 React 和 TypeScript</li>\n<li>你喜欢简洁直接的回复，讨厌废话</li>\n<li>你写代码注释用中文，变量名用英文</li>\n<li>你习惯先出方案再动手</li>\n</ul>\n<p>ChatGPT 确实越来越懂你了。直到有一天，你决定试试 Claude 。</p>\n<p>打开 Claude 的对话框，一片空白。它不知道你是谁，不知道你喜欢什么，也不知道你的任何习惯。你不得不再教一遍。</p>\n<p>换到 Gemini ？再来一遍。用本地模型？再来一遍。</p>\n<p>你的 AI 记忆，今天基本是平台私产，而不是你的资产。</p>\n<hr/>\n<h2>这不是功能缺失，而是结构性问题</h2>\n<p>你可能会觉得，这不就是各家 AI 产品迟早都会补上的能力吗？</p>\n<p>不完全是。</p>\n<p>问题不在于厂商有没有能力做记忆，而在于它们没有动力把记忆做成可携带的。</p>\n<ul>\n<li>OpenAI 没有动力让 ChatGPT 的记忆被 Claude 直接利用</li>\n<li>Google 没有动力让 Gemini 的用户画像迁移到别处</li>\n<li>每个平台都天然倾向于把“越来越懂你”变成自己的护城河</li>\n</ul>\n<p>所以，真正缺的不是“某一家的记忆功能”，而是一个用户侧、平台外的可移植标准。</p>\n<hr/>\n<h2>MIP 的想法很简单</h2>\n<p>我做了一个很小的提案，叫 MIP ，Memory Interoperability Protocol 。</p>\n<p>它的核心可以用一句话说完：</p>\n<blockquote>\n<p>在你的电脑上维护一个 <code>~/.mip/memory.json</code>，任何 AI 工具都可以读取它来了解你。</p>\n</blockquote>\n<p>没有守护进程，没有数据库，没有远程服务。</p>\n<p>就一个文件。</p>\n<p>例如：</p>\n<pre><code class=\"language-json\">{\n  \"version\": \"0.1.0\",\n  \"identity\": {\n    \"name\": \"张三\",\n    \"language\": \"zh-CN\",\n    \"role\": \"前端工程师\",\n    \"tech_stack\": [\"React\", \"TypeScript\", \"Next.js\"]\n  },\n  \"preferences\": {\n    \"response_style\": \"concise\",\n    \"formality\": \"casual\",\n    \"code_comments_language\": \"zh-CN\",\n    \"variable_names_language\": \"en\"\n  },\n  \"custom\": {\n    \"编辑器\": \"VS Code\",\n    \"关注领域\": [\"AI 应用开发\", \"Web3\"]\n  }\n}\n</code></pre>\n<p>任何 AI 产品要接入它，读取成本只有几行代码：</p>\n<pre><code class=\"language-python\">import json, pathlib\npath = pathlib.Path.home() / \".mip\" / \"memory.json\"\nmemory = json.loads(path.read_text()) if path.exists() else {}\n</code></pre>\n<p>这不是“让 AI 拥有完整人格档案”的终局方案。</p>\n<p>MIP v0.1 只想先解决一个很具体的问题：把显式的用户偏好，从平台私有数据，变成用户自己持有的标准化数据。</p>\n<hr/>\n<h2>它和 <code>.cursorrules</code>、<code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code> 有什么不同？</h2>\n<p>这是最常见的问题。</p>\n<p>确实，今天已经有很多本地规则文件：</p>\n<ul>\n<li>Cursor 有 <code>.cursorrules</code></li>\n<li>Claude Code 有 <code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code></li>\n<li>其他工具也有各自的全局规则、偏好文件</li>\n</ul>\n<p>这些文件当然有价值，而且本质上都在帮助 AI 了解你。</p>\n<p>但它们有两个问题：</p>\n<p>第一，它们是工具私有约定，不是跨工具约定。</p>\n<p>第二，它们更像“用户写给某个工具的操作手册”，而不是一个所有工具都能稳定读取的通用用户记忆格式。</p>\n<p>MIP 在 v0.1 阶段做的事其实很克制：</p>\n<ul>\n<li>统一路径：<code>~/.mip/memory.json</code></li>\n<li>统一格式：JSON Schema</li>\n<li>统一范围：身份、偏好、自定义字段</li>\n</ul>\n<p>所以如果一定要类比，我更愿意把它叫做：</p>\n<blockquote>\n<p><code>.editorconfig</code> for AI memory</p>\n</blockquote>\n<p>没有什么魔法，只是定义一个所有工具都可以认同的最小公约数。</p>\n<hr/>\n<h2>为什么不是直接用 Mem0 、MemGPT 、Letta ？</h2>\n<p>因为它们和 MIP 解决的是不同层的问题。</p>\n<ul>\n<li>Mem0 、Letta 、各种长期记忆框架，是实现</li>\n<li>MIP 想做的是协议</li>\n</ul>\n<p>它们可以完全兼容，甚至应该兼容。</p>\n<p>如果未来某个记忆系统愿意把用户偏好导出成 MIP ，或者把 MIP 作为导入导出格式，那恰恰说明这个协议是有价值的。</p>\n<p>协议层的意义，不在于替代实现，而在于让不同实现之间开始有可交换的数据格式。</p>\n<p>HTTP 不等于 Nginx ，<code>.editorconfig</code> 也不等于 VS Code 。</p>\n<p>MIP 想做的是那个更靠底层的“共同语言”。</p>\n<hr/>\n<h2>MIP 和 MCP 的关系</h2>\n<p>如果你知道 MCP ，那可以用一句话理解它们的关系：</p>\n<ul>\n<li>MCP 解决的是：AI 能调用什么工具</li>\n<li>MIP 解决的是：AI 了解谁</li>\n</ul>\n<p>一个偏工具接入，一个偏用户记忆。</p>\n<p>它们不是竞争关系，而是互补关系。</p>\n<p>MIP 完全可以脱离 MCP 独立存在，因为读本地文件本身就够简单。</p>\n<p>但对于支持 MCP 的客户端，MIP 也可以通过 MCP server 暴露出来，这样工具接入会更方便。我在仓库里已经放了一个概念验证版本。</p>\n<hr/>\n<h2>这是不是伪需求？</h2>\n<p>如果只看 2026 年，当下它确实不是最刚性的需求。</p>\n<p>很多时候，你自己写一段系统提示词，也能解决 80% 的问题。</p>\n<p>但我认为这是一个典型的“现在弱需求，未来强需求”的方向。</p>\n<p>因为 AI 记住你的，不会永远只是：</p>\n<ul>\n<li>你喜欢简洁回复</li>\n<li>你用 TypeScript</li>\n<li>你写注释用中文</li>\n</ul>\n<p>再往后，AI 会逐渐理解：</p>\n<ul>\n<li>你最近在忙什么项目</li>\n<li>你做决策的方式是什么</li>\n<li>你在哪些领域需要更多解释</li>\n<li>你过去几个月的工作脉络是什么</li>\n</ul>\n<p>到那个阶段，所谓“换一个 AI 平台”，丢失的不再是一些偏好，而是一个系统对你的长期理解。</p>\n<p>那时候，“记忆可携带”更像一种基础数据权利，而不是可有可无的小功能。</p>\n<p>好的标准，往往是在需求全面爆发之前建立的。</p>\n<hr/>\n<h2>先别把愿景讲得太大</h2>\n<p>这也是我刻意想收住的一点。</p>\n<p>MIP v0.1 不是在宣称：</p>\n<ul>\n<li>已经解决了 AI 长期记忆</li>\n<li>已经解决了自动画像</li>\n<li>已经解决了权限、安全、同步</li>\n</ul>\n<p>恰恰相反，v0.1 是有意做小的。</p>\n<p>它只处理显式的、用户愿意手写的那部分记忆：</p>\n<ul>\n<li>我是谁</li>\n<li>我偏好什么</li>\n<li>我希望 AI 怎么和我协作</li>\n</ul>\n<p>先把最容易共识、最容易落地、最容易被工具采纳的那一层定下来。</p>\n<p>如果连这层都没有，后面的自动写入、权限控制、跨设备同步都无从谈起。</p>\n<hr/>\n<h2>真正可能先采用它的是谁？</h2>\n<p>MIP 不是在等大厂突然良心发现。</p>\n<p>它最可能先被下面几类东西采用：</p>\n<ul>\n<li>IDE 里的 AI Agent</li>\n<li>本地代码助手</li>\n<li>开源 AI 客户端</li>\n<li>MCP 客户端</li>\n<li>本地模型工作流</li>\n</ul>\n<p>因为这些工具本来就运行在你的机器上，读取本地文件的成本极低，也更有动力支持开放标准。</p>\n<p>所以 MIP 的现实路径不是“先说服 OpenAI 和 Google”。</p>\n<p>而是：</p>\n<blockquote>\n<p>先让开源工具和本地工具支持，先形成一个用户侧事实标准。</p>\n</blockquote>\n<hr/>\n<h2>安全问题不能后补</h2>\n<p>把用户画像存在本地，当然会有安全问题。</p>\n<p>所以我对 MIP 的态度是分层推进，而不是一步到位。</p>\n<p>v0.1 只建议存储低敏感、显式、用户手写的结构化偏好。它更接近 <code>.gitconfig</code> 或 <code>.editorconfig</code>，而不是心理档案。</p>\n<p>更深层的画像、自动写入、加密、权限控制，应该等后续版本在模型和机制上都更成熟之后再进入标准。</p>\n<p>如果没有安全设计，MIP 不应该贸然走向“自动累积人格画像”。</p>\n<hr/>\n<h2>我为什么还想把它提出来？</h2>\n<p>因为没有标准的领域，用户连选择都没有。</p>\n<p>MIP 现在当然还很早。它更像一个种子，而不是已经成为行业标准的东西。</p>\n<p>但我觉得这个问题值得先被提出来：</p>\n<blockquote>\n<p>如果 AI 越来越懂你，那么“它对你的记忆”到底应该属于平台，还是属于你？</p>\n</blockquote>\n<p>我的答案是：至少应该存在一种属于用户自己的开放格式。</p>\n<p>MIP 不一定是最终答案。</p>\n<p>但如果没有人先把这个问题做成一个可讨论、可实现、可集成的最小提案，那么答案永远不会出现。</p>\n<hr/>\n<h2>现在你可以做什么</h2>\n<ol>\n<li>给自己建一个 <code>~/.mip/memory.json</code></li>\n<li>如果你在做 AI 工具，试着加一个 MIP read support</li>\n<li>如果你觉得这个方向值得讨论，给仓库一个 star 或提个 issue</li>\n<li>如果你觉得它是伪需求，欢迎直接挑战</li>\n</ol>\n<p>仓库地址：</p>\n<p><a href=\"https://github.com/UnCooe/MIP\" rel=\"nofollow\">https://github.com/UnCooe/MIP</a></p>\n<hr/>\n<p>MCP 让 AI 的“手”更标准化，MIP 想讨论的是 AI 的“脑”里那部分用户记忆，是否也该有一个用户侧、开放的最小标准。</p>\n<p>这件事未必立刻爆发，但我认为值得现在就开始做。</p>\n\n\t",
+      "author": "bimeixishuai",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "我做了一个程序员技能搜索网站： Skills.lc，可以查全球技能与岗位需求",
+      "link": "https://www.v2ex.com/t/1197145#reply0",
+      "pubDate": "2026-03-10T07:07:41.000Z",
+      "content": "\n\t<h1>我做了一个程序员技能搜索网站：<a href=\"http://Skills.lc\" rel=\"nofollow\">Skills.lc</a> ，可以查全球技能与岗位需求</h1>\n<p>最近在做一些 AI + 职业数据相关的小项目，顺手做了一个工具网站：</p>\n<p>👉 <a href=\"https://skills.lc/\" rel=\"nofollow\">https://skills.lc/</a></p>\n<p>简单来说，这是一个 <strong>技能搜索引擎</strong>。</p>\n<p>你可以输入任何技能，比如：</p>\n<ul>\n<li>React</li>\n<li>Rust</li>\n<li>Kubernetes</li>\n<li>Prompt Engineering</li>\n</ul>\n<p>网站会展示：</p>\n<ul>\n<li>相关技能</li>\n<li>技能分类</li>\n<li>技能描述</li>\n<li>技能之间的关系</li>\n</ul>\n<p>本质上是把分散在互联网里的 <strong>职业技能数据做成一个可搜索的技能图谱</strong>。</p>\n<hr/>\n<h2>为什么做这个？</h2>\n<p>很多人都会问：</p>\n<ul>\n<li>现在学什么技术更有前景？</li>\n<li>一个技术栈应该往哪些方向扩展？</li>\n<li>某个技能和哪些技术相关？</li>\n</ul>\n<p>但这些信息通常分散在：</p>\n<ul>\n<li>招聘网站</li>\n<li>技术社区</li>\n<li>AI 模型训练数据</li>\n</ul>\n<p>所以我尝试把这些 <strong>技能数据整理了一下，做成一个简单的工具网站</strong>。</p>\n<hr/>\n<h2>目前可以用来做什么</h2>\n<p>现在这个网站可以：</p>\n<ul>\n<li>查技能解释</li>\n<li>找相关技能</li>\n<li>了解技术栈关系</li>\n<li>做职业技能探索</li>\n</ul>\n<hr/>\n<h2>未来可能会增加</h2>\n<p>如果有人用的话，后面可能会继续做一些功能，比如：</p>\n<ul>\n<li>技能趋势</li>\n<li>技能薪资</li>\n<li>技能学习路径</li>\n<li>AI 推荐技术栈</li>\n<li>技能与岗位需求分析</li>\n</ul>\n<hr/>\n<p>目前这个项目是我一个人做的 <strong>side project</strong>，界面比较简单 😄  </p>\n<p>如果大家有建议或者想要的功能，欢迎在帖子里提。</p>\n<p>也欢迎大家试试看：</p>\n<p>👉 <a href=\"https://skills.lc/\" rel=\"nofollow\">https://skills.lc/</a></p>\n<p>如果觉得有用，我就继续把数据和功能做大一点。</p>\n<hr/>\n\n\t",
+      "author": "jxausea",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "怎么关闭 vscode 这个文件顶部的这个折叠",
+      "link": "https://www.v2ex.com/t/1197133#reply1",
+      "pubDate": "2026-03-10T06:40:19.000Z",
+      "content": "\n\t怎么关闭 vscode 这个文件顶部的这个折叠。看的我眼花缭乱，非常不好用。<br /><br /><a target=\"_blank\" href=\"/i/sIvjJ91Jl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 sIvjJ91Jl.png\"><img src=\"//i.v2ex.co/sIvjJ91Jl.png\" class=\"embedded_image\"></a>\n\t",
+      "author": "wsseo",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "继续提问，被封过号的老哥们来解答一下",
-      "link": "https://www.v2ex.com/t/1197128#reply0",
+      "link": "https://www.v2ex.com/t/1197128#reply1",
       "pubDate": "2026-03-10T06:26:15.000Z",
       "content": "\n\t<p>Claude 在封号的时候 是拉黑你的邮箱？手机号？信用卡号？还是全封？</p>\n<p>我想请朋友帮我开一下 CC 具体想了解下 用同一个手机号/信用卡给不同账号付款 有没有连累他被封的风险？</p>\n\n\t",
       "author": "craftsmanship",
@@ -13,8 +73,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "没给观众情绪出口，反而悲观说教 (评论: 不过是上班)",
+      "link": "https://movie.douban.com/review/17497444/",
+      "pubDate": "Tue, 10 Mar 2026 06:06:41 GMT",
+      "content": "\n落木Lin评论: 不过是上班 (https://movie.douban.com/subject/37193378/)\n评价: 较差\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "codex 中转站今天崩溃问题",
-      "link": "https://www.v2ex.com/t/1197112#reply14",
+      "link": "https://www.v2ex.com/t/1197112#reply17",
       "pubDate": "2026-03-10T05:39:34.000Z",
       "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
       "author": "forrestgump",
@@ -31,6 +101,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
+      "link": "https://movie.douban.com/review/17497400/",
+      "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
+      "content": "\n发条辰评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3b6ut&#34;,&#34;text&#34;:&#34;时隔3年，吴炜伦导演携新作《夜王》再次回归香港春节档。此次《夜王》除了维持《毒舌律师》的基本班底外，主演加入了吴炜伦儿时的偶像郑秀文，编剧团队加入了获多次金像奖最佳编剧提名的何妙祺，主演阵容引入吴炜伦儿时偶像郑秀文，编剧团...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "Chrome 省内存、省电扩展 OneTab 更新，解决升级后内容丢失的情况",
@@ -60,7 +140,7 @@
     },
     {
       "title": "试用了一下 GitHub Copilot 写 unity，一直提问也解决不了 bug，难道只用补全的功能吗",
-      "link": "https://www.v2ex.com/t/1197091#reply2",
+      "link": "https://www.v2ex.com/t/1197091#reply3",
       "pubDate": "2026-03-10T03:55:24.000Z",
       "content": "\n\t<p>这两天浅试了一下 GitHub Copilot 的提问，看看一句代码都不写行不行，结果出现一个 bug 后，提问很多次都没办法解决，在考虑从头开始自己写了，因为 AI 写的我看不懂，也不想看，哈哈哈</p>\n\n\t",
       "author": "resist",
@@ -70,7 +150,7 @@
     },
     {
       "title": "指挥 AI 做了一个 LLM API 网关",
-      "link": "https://www.v2ex.com/t/1197080#reply6",
+      "link": "https://www.v2ex.com/t/1197080#reply8",
       "pubDate": "2026-03-10T03:06:35.000Z",
       "content": "\n\t<p>现在只想到了路由配置、APIKEY 配置、token 统计与限制、限速与并发控制、自动化的封禁规则和监控。</p>\n<p>还有哪些功能能够添加进去？</p>\n<p><img alt=\"route\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqtJJyk.png\"/></p>\n<p>Token 统计\n<img alt=\"token 统计\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TmkPyCQ.png\"/></p>\n\n\t",
       "author": "midraos",
@@ -112,18 +192,8 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "80 后想自学一门编程增收，恳请各位大佬推荐指教",
-      "link": "https://www.v2ex.com/t/1197057#reply54",
-      "pubDate": "2026-03-10T02:31:21.000Z",
-      "content": "\n\t本人 40+，大学学过编程基础（基本都还给老师了），想利用闲暇时间学习编程，希望能做到接一些商单或者个人开发，不知道现在学习哪种语言及应用市场如何（ Python 、C 、JAVA 、IOS ），还请各位大佬科普推荐！\n\t",
-      "author": "Micoool",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Openclaw 你们是怎么实现让他一直自动的编码工作的",
-      "link": "https://www.v2ex.com/t/1197051#reply29",
+      "link": "https://www.v2ex.com/t/1197051#reply32",
       "pubDate": "2026-03-10T02:25:19.000Z",
       "content": "\n\t<p>我的 openclaw 我让他用 opencode-controller-skill ，镜像开发工作。\n就喝傻子一样，我需求都写的清清楚楚了\n回复我：我会继续工作的，然后就没有下文了。\n是我不应该答复他，还是有什么办法查到他倒地有没有在工作的，\n大概率是没有，我专门试了一下 ，睡觉前把任务给他，他说他会继续工作的，今天早上回来，没有任何新消息，代码也没有任何变化。</p>\n<p>各位大佬是如何做到？</p>\n\n\t",
       "author": "SuperDaFu",
@@ -133,7 +203,7 @@
     },
     {
       "title": "吐槽一下 DeepSeek 余额清空",
-      "link": "https://www.v2ex.com/t/1197048#reply52",
+      "link": "https://www.v2ex.com/t/1197048#reply64",
       "pubDate": "2026-03-10T02:22:55.000Z",
       "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
       "author": "ingrowthly",
@@ -143,7 +213,7 @@
     },
     {
       "title": "想要重构屎山老项目,有成功实践的老哥分享一下经验嘛?",
-      "link": "https://www.v2ex.com/t/1197046#reply12",
+      "link": "https://www.v2ex.com/t/1197046#reply19",
       "pubDate": "2026-03-10T02:13:43.000Z",
       "content": "\n\t公司的老项目已经立项 5 年多了,用的技术栈还是 vue2 的,ui 框架和周边生态已经不维护了,现在想要升级成 vue3 生态的,需要保持页面逻辑不变,只是改变整体项目的依赖为 vue3 生态的,有人成功重构过吗?会不会有什么坑?\n\t",
       "author": "crocoBaby",
@@ -153,7 +223,7 @@
     },
     {
       "title": "Antigravity 为啥能这么垃圾啊？",
-      "link": "https://www.v2ex.com/t/1197042#reply10",
+      "link": "https://www.v2ex.com/t/1197042#reply12",
       "pubDate": "2026-03-10T02:10:01.000Z",
       "content": "\n\t<p>去年 12 月底花了差不多 700 块入的 Google AI Pro 会员，当时心想赚麻了，毕竟 Google 还是值得信赖的。结果先是额度大砍，后面还不停的调整额度限制一点都不透明， 后面更新一次比一次难用，今天更新了 1.20.5, 结果呢内存泄漏直接 OOM 了。'terminated due to error'忍忍也就罢了，现在是完全用不了了</p>\n\n\t",
       "author": "burnsby",
@@ -163,7 +233,7 @@
     },
     {
       "title": "有写 Rust 的像我一样，代码手动写时用 Zed， AI 写时用 TraeCN，调试、Git、翻代码在 JetBrains 里的吗？",
-      "link": "https://www.v2ex.com/t/1197041#reply10",
+      "link": "https://www.v2ex.com/t/1197041#reply12",
       "pubDate": "2026-03-10T02:09:52.000Z",
       "content": "\n\t<p>Zed 的代码编辑真的很快很流畅，但是除此之外都拉跨的不行</p>\n<p>TraeCN 里面白嫖 AI ，但是配合着 RustAnalyzer 卡卡的</p>\n<p>Jetbrains 的 Rustrover ，代码导航、调试、Git 是最好用的，但是代码编辑比不上 Zed ，AI 不如 TraeCN 可以白嫖</p>\n<p>虽然折腾点，但是依旧感谢这些工具免费赏我口饭吃🙏🙏🙏</p>\n\n\t",
       "author": "cby0414",
@@ -203,7 +273,7 @@
     },
     {
       "title": "独立开发日记：今天给「静听」音乐播放器做了十几个优化",
-      "link": "https://www.v2ex.com/t/1196992#reply14",
+      "link": "https://www.v2ex.com/t/1196992#reply15",
       "pubDate": "2026-03-09T15:37:38.000Z",
       "content": "\n\t<h1>独立开发日记：今天给「静听」音乐播放器做了十几个优化</h1>\n<h2>项目背景</h2>\n<p>「静听」是我独立开发的一款 iOS 本地音乐播放器，主打无损格式支持、WiFi 传歌、无广告体验。开发一年多了，一直在持续优化。</p>\n<h2>今日优化清单</h2>\n<h3>🎵 播放体验修复</h3>\n<ol>\n<li><strong>单曲循环 bug</strong>：之前循环播放时只重复最后几秒，现已修复</li>\n<li><strong>随机播放逻辑</strong>：优化了算法，现在是真正的全曲库随机</li>\n<li><strong>播放连续性</strong>：歌曲播完后自动切下一首，逻辑更符合直觉</li>\n<li><strong>播放时间显示</strong>：修复了偶尔「卡住」不走的罕见问题</li>\n</ol>\n<h3>🎧 蓝牙交互优化</h3>\n<ol>\n<li><strong>蓝牙自动恢复</strong>：连接蓝牙耳机自动继续播放，断开自动暂停</li>\n<li><strong>Siri 兼容性</strong>：修复了唤起 Siri 时闪退的问题</li>\n<li><strong>音频中断处理</strong>：微信语音等中断后智能恢复播放位置</li>\n</ol>\n<h3>📱 UI/UX 细节</h3>\n<ol>\n<li><strong>歌单封面</strong>：无封面歌单自动显示第一首歌的封面</li>\n<li><strong>静默刷新</strong>：修改歌曲信息后列表自动刷新，无闪烁</li>\n<li><strong>播放队列定位</strong>：新增「一键定位」到当前播放歌曲</li>\n<li><strong>工具栏同步</strong>：底部工具栏播放模式修改即时生效</li>\n</ol>\n<h3>🔧 核心功能</h3>\n<ol>\n<li><strong>WiFi 传歌</strong>：增加取消导入功能，修复重复导入跳过逻辑</li>\n<li><strong>编辑页面</strong>：优化封面保存逻辑，不再保存占位图</li>\n<li><strong>歌词显示</strong>：修复导入的歌词文件显示空白的问题</li>\n</ol>\n<h3>🛠️ 技术底层</h3>\n<ol>\n<li><strong>音频引擎</strong>：换用 ffmpeg ，支持更多音频格式</li>\n<li><strong>状态同步</strong>：播放模式修改后全局同步更新</li>\n<li><strong>状态恢复</strong>：重启 App 正确记住播放状态和队列</li>\n<li><strong>批量管理</strong>：页面底部显示筛选后的歌曲总数</li>\n</ol>\n<h2>技术细节分享</h2>\n<h3>单曲循环修复</h3>\n<p>问题出现在 <code>AVPlayer</code> 的 <code>timeObserver</code> 回调时机处理上。原逻辑在歌曲即将结束时就开始准备循环，导致只播放最后几秒。</p>\n<p>解决方案：</p>\n<pre><code class=\"language-swift\">// 修复后的逻辑\nplayer.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.5, preferredTimescale: CMTimeScale(NSEC_PER_SEC)), queue: .main) { [weak self] time in\n    guard let self = self else { return }\n    let currentTime = CMTimeGetSeconds(time)\n    let duration = CMTimeGetSeconds(self.player.currentItem?.duration ?? CMTime.zero)\n    \n    // 在歌曲结束前 0.1 秒开始准备循环\n    if duration - currentTime &lt; 0.1 &amp;&amp; self.playMode == .singleLoop {\n        self.seek(to: 0)\n        self.play()\n    }\n}\n</code></pre>\n<h3>蓝牙中断处理</h3>\n<p>iOS 的音频会话管理比较 tricky ，特别是蓝牙设备连接/断开时的状态恢复。</p>\n<p>关键代码：</p>\n<pre><code class=\"language-swift\">// 监听蓝牙状态变化\nNotificationCenter.default.addObserver(\n    self,\n    selector: #selector(handleAudioRouteChange),\n    name: AVAudioSession.routeChangeNotification,\n    object: nil\n)\n\n@objc func handleAudioRouteChange(notification: Notification) {\n    guard let userInfo = notification.userInfo,\n          let reasonValue = userInfo[AVAudioSessionRouteChangeReasonKey] as? UInt,\n          let reason = AVAudioSession.RouteChangeReason(rawValue: reasonValue) else {\n        return\n    }\n    \n    switch reason {\n    case .newDeviceAvailable: // 新设备可用（如连接蓝牙）\n        if shouldResumePlayback {\n            resumePlayback()\n        }\n    case .oldDeviceUnavailable: // 旧设备不可用（如断开蓝牙）\n        pausePlayback()\n        savePlaybackPosition()\n    default:\n        break\n    }\n}\n</code></pre>\n<h3>播放模式全局同步</h3>\n<p>使用 <code>UserDefaults</code> + <code>NotificationCenter</code> 实现状态同步：</p>\n<pre><code class=\"language-swift\">// 设置播放模式时\nUserDefaults.standard.set(playMode.rawValue, forKey: \"currentPlayMode\")\nNotificationCenter.default.post(name: .playModeChanged, object: playMode)\n\n// 各处监听\nNotificationCenter.default.addObserver(\n    self,\n    selector: #selector(updatePlayModeUI),\n    name: .playModeChanged,\n    object: nil\n)\n</code></pre>\n<h2>遇到的问题和解决方案</h2>\n<h3>1. 随机播放只在几首歌里随机</h3>\n<p><strong>问题</strong>：原算法使用了 <code>Array.shuffled()</code>，但在每次切歌时都重新 shuffle ，导致随机性不够。</p>\n<p><strong>解决</strong>：改为一次性 shuffle 整个播放队列，然后顺序播放。</p>\n<h3>2. 播放时间偶尔不走</h3>\n<p><strong>问题</strong>：<code>AVPlayer</code> 的 <code>timeObserver</code> 在某些情况下（如后台播放、网络波动）会停止回调。</p>\n<p><strong>解决</strong>：增加保活机制，定期检查播放状态，必要时重新添加 observer 。</p>\n<h3>3. 编辑页面封面逻辑</h3>\n<p><strong>问题</strong>：用户不选择封面时，系统会保存一个占位图，导致不必要的存储。</p>\n<p><strong>解决</strong>：判断用户是否真的选择了新封面，如果没有，保持原封面或使用默认 App logo 。</p>\n<h2>开发感悟</h2>\n<p>做独立开发最有趣的地方就是这些「小修小补」。每个 bug 的修复、每个体验的优化，都能让产品更接近「完美」。</p>\n<p>今天修复的这些问题，大多都是用户反馈或自己使用中发现的。有时候一个看似简单的「继续播放」逻辑，背后涉及音频会话管理、状态恢复、用户体验等多个方面。</p>\n<h2>下一步计划</h2>\n<ol>\n<li><strong>批量管理筛选</strong>：增加按专辑、艺术家、最近播放等筛选功能</li>\n<li><strong>播放列表管理</strong>：优化播放列表的创建、编辑、分享功能</li>\n<li><strong>音频效果</strong>：考虑增加更多均衡器预设和音效</li>\n<li><strong>多设备同步</strong>：研究 iCloud 同步播放列表和播放进度的可行性</li>\n</ol>\n<h2>讨论点</h2>\n<ol>\n<li>大家在使用音乐播放器时，最在意哪些功能或细节？</li>\n<li>对于本地音乐播放器，还有什么功能是你们觉得必备的？</li>\n<li>在音频播放和蓝牙设备兼容性方面，有什么经验或坑可以分享？</li>\n</ol>\n<hr/>\n<p><strong>静听 - 无损音乐播放器 &amp; 本地传歌</strong>\nApp Store: [搜索「静听」即可下载]\nGitHub: [暂未开源，考虑中]</p>\n<p>欢迎交流讨论！</p>\n\n\t",
       "author": "kfj92",
@@ -233,7 +303,7 @@
     },
     {
       "title": "阿里 qwen3.5 模型有个严重 bug",
-      "link": "https://www.v2ex.com/t/1196976#reply8",
+      "link": "https://www.v2ex.com/t/1196976#reply11",
       "pubDate": "2026-03-09T14:07:22.000Z",
       "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
       "author": "wsseo",
@@ -252,16 +322,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "Root 回归后，手持 iPhone14 去手机店摸了一把安卓，感觉还是回不去",
-      "link": "https://www.v2ex.com/t/1196973#reply5",
-      "pubDate": "2026-03-09T13:27:01.000Z",
-      "content": "\n\t手持越狱版的 iPhone14 ，电量 80%了，估计等不到新版本的越狱了，前天刚下单一台 iqoo15 ，准备试试，正好，听说小米 17 可以无痛 root 了，遂去手机店体验了一把小米 17 和 vivo x300 ，还是使用哔哩哔哩刷视频，结果还是跟以前一样的失望，向上刷视频的时候单击屏幕尝试让页面暂停滑动，使用这两款机器大概率会直接进入视频，而不是暂停滑动，对比之下，iPhone 这边明显好太多了。\n\t",
-      "author": "n2l",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "[记录]-2026-03-09 神仙操作",
       "link": "https://www.v2ex.com/t/1196972#reply11",
       "pubDate": "2026-03-09T13:25:21.000Z",
@@ -276,16 +336,6 @@
       "link": "https://movie.douban.com/review/17496573/",
       "pubDate": "Mon, 09 Mar 2026 13:05:48 GMT",
       "content": "\n影评人 杉姐评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aob5a&#34;,&#34;text&#34;:&#34;文：杉姐&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "误闯天家 (评论: 暗黑新娘！)",
-      "link": "https://movie.douban.com/review/17496541/",
-      "pubDate": "Mon, 09 Mar 2026 12:39:56 GMT",
-      "content": "\n落木Lin评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -452,16 +502,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "antigravity 现在用 opus 容易出错, sonnet 就好很多, 什么情况",
-      "link": "https://www.v2ex.com/t/1196890#reply2",
-      "pubDate": "2026-03-09T07:59:52.000Z",
-      "content": "\n\t<p>大家使用稳定吗</p>\n<p>搞不懂了阿, 现在只能用 sonnet 算了, opus 没搞几下就出错了, agent error</p>\n\n\t",
-      "author": "iorilu",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "下次再也不宣传 trae 了",
       "link": "https://www.v2ex.com/t/1196871#reply48",
       "pubDate": "2026-03-09T07:32:46.000Z",
@@ -542,31 +582,11 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "非 8E Gen5 但想 root 的小米用户也建议暂缓升级",
-      "link": "https://www.v2ex.com/t/1196845#reply3",
-      "pubDate": "2026-03-09T06:26:55.000Z",
-      "content": "\n\t<p>先前的<a href=\"https://www.v2ex.com/t/1196673\" rel=\"nofollow\">讨论</a>中已经有不少人意识到，尽管彻底解锁利用的是 8E Gen5 的特性，但其它漏洞已经足以在不解锁的情况下获取 root 权限。<br/>\n<del>直播“小米高考”得了 30 分的</del>KernelSU 的作者已经表示，萌生了重新买一台小米的冲动。同时也证实前述观点，指出现有的漏洞能为 Android 系统带来一种类似 iOS 的越狱模式，可以在不解锁手机的前提下直接获取并使用 Root 功能。KernelSU 团队也正在考虑为这种“越狱模式”添加特别的支持。<br/>\n所以，对于 HyperOS 时代非 8E Gen5 机型但想 root 的小米用户，也建议暂缓升级、<strong>关闭自动升级相关选项</strong>，等待社区进一步的研究以完善具体方法、明确适用范围。</p>\n\n\t",
-      "author": "LnTrx",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "国行三星无法使用 Gemini 的问题？",
-      "link": "https://www.v2ex.com/t/1196835#reply21",
+      "link": "https://www.v2ex.com/t/1196835#reply22",
       "pubDate": "2026-03-09T06:09:11.000Z",
       "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
       "author": "bzkmsjy",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "开源 AI 设计神器，一键导出种代码！",
-      "link": "https://www.v2ex.com/t/1196810#reply7",
-      "pubDate": "2026-03-09T04:34:50.000Z",
-      "content": "\n\tOpenPencil 迎来了 v0.3.0：彻底打通了从设计到代码的“最后一公里”，真正的 Design-as-Code 。<br /><br />👁️ 给 AI 装上“眼睛”（视觉参考管线）<br /><br />看图抄作业： 直接扔一张参考图给 AI ，它就能秒懂你的意图，在画布上实时生成对应的 UI 结构。<br /><br />自带质检员：AI 画完之后，还会触发底层的自动校验系统，给自己打分并修正布局偏差。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/hYiGF8N.gif\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/hYiGF8N.gif\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />💻 丧心病狂的 8 大框架代码导出 这绝对是本次更新的王炸！画完图还要手敲代码？不存在的。 现在可以直接一键导出生产级代码，除了原有的 React 和 HTML ，这次我们一口气加上了：<br /><br />React &amp; Vue &amp; Svelte + Tailwind （前端老哥狂喜）<br /><br />SwiftUI &amp; React Native &amp; Flutter &amp; Jetpack Compose （开发 iOS/macOS 或跨端 App 的独立开发者，这波绝对让你们爽飞，直接复制粘贴就能跑原生界面！）<br /><br />📐 补齐专业短板：原生布尔运算 现在 OpenPencil 已经不仅仅是个大模型套壳了，它支持真正的矢量布尔运算（联集/减去/交集）。按下快捷键 ⌘⌥U/S/I ，复杂的图形组合瞬间搞定。<br /><br />🖥️ 桌面端丝滑体验 全平台原生支持双击打开 .op 文件。配合动态呼吸灯边框（ Agent Badge Glow ），你在本地看 AI 多线程画图的赛博朋克感再次飙升！\n\t",
-      "author": "finiking",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -582,51 +602,11 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "所以我是在 cloudflare 的 d1 和 kv 上实现了一个 r2? 人在无语的时候真的会笑",
-      "link": "https://www.v2ex.com/t/1196809#reply4",
-      "pubDate": "2026-03-09T04:16:28.000Z",
-      "content": "\n\t<p>开始的时候只是想实现一个 <del><a href=\"http://jsonbase.com\" rel=\"nofollow\">jsonbase.com</a></del> (因为它已经嘎了) 差不多的简单 json 存储 server ，然后朋友整了个基于 cloudflare worker 的博客，于是得到启发那我用 cf 搞一个，服务器都省了。</p>\n<p>用 jsonbase 也是因为之前做应用版本更新、通知/公告 以及一些 App 的配置文件下发，另外就是 json 格式的日志上传非常方便（当然后面其实我自己用 php 手搓了一个的）。</p>\n<p>然后去年开始弄 <a href=\"https://github.com/PBK-B/cloudflare-worker-json-base\" rel=\"nofollow\">https://github.com/PBK-B/cloudflare-worker-json-base</a></p>\n<p>在做的过程中就是发现，我都存 json 了。那我存文件也很合理吧（传 zip 日志压缩包很方便）？于是加上了文件上传，结果发现 cf 的 kv 和 d1 存储单条数据大小有上限。于是做了文件分片。</p>\n<p>本来是读写都要 token 的鉴权的，于是想着做一个针对路径匹配的权限管理（公有读写、私有读写、公有读私有写、公有写私有读）</p>\n<p>就在昨晚和朋友讨论的时候发现这它喵不就是非标准 API 的 S3 (对象存储) 吗？所以我是在 cloudflare 的 d1 和 kv 上实现了一个 r2 ？给自己都整笑了 😄</p>\n\n\t",
-      "author": "pbk",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "马不停蹄唯在志，牛为垦地自诚心。",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525060",
-      "pubDate": "2026-03-09 04:14:36",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "捡到满意的机箱 h440",
-      "link": "https://www.v2ex.com/t/1196792#reply24",
+      "link": "https://www.v2ex.com/t/1196792#reply25",
       "pubDate": "2026-03-09T03:34:29.000Z",
       "content": "\n\t<p>最近花了时间搞了下 nas 的电源和机箱，机箱废了我好大力气。想分享一下。\n原文链接 </p>\n<p><a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/\" rel=\"nofollow\">https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/</a></p>\n<hr/>\n<p>机箱部分</p>\n<p>机箱我挑了很久，开始选择了银欣 CS382 。它拥有 8 个热插拔盘位，而且外观紧凑，散热设计也非常合理。 主要是我的目前硬件需求是 ATX 电源+MATX 的主板。</p>\n<p>选到最后基本只有御夫座和银欣 CS382 、CS380 还有 SG02,珍宝系列支持。</p>\n<p>其实 Nas 不是我的刚需，但多硬盘肯定是要的。热拔插也不是特别需要，有那是更好，这次下了血本，直接买了全新的 CS382.</p>\n<p>直接看<a href=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5465.mp4\" rel=\"nofollow\">视频</a>，我也不是小白脸，以前还有健身的，我竟然拔不动，这热拔插，我尼玛手疼死了。买之前到处看到银欣机箱铁皮薄，不值价钱，我不信，毕竟大品牌，拿到手之后我服了，真的太垃圾了做工，用料一点都不值 800 快，顶多 300 。就为了他那块背板吗？太亏了。品牌形象打打折扣。</p>\n<p>然后说说内部结构，官方明确支持 matx 主板，我的是技嘉的 B760M 小雕，主板电源根本就没法插，和硬盘笼卡在一块了。机箱内部紧凑,铁皮质量辣鸡，做工不好。</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5475_hu_c687dc376aa8e1b.jpeg\"/></p>\n<p>被 CS382 坑了以后，天天上班不再心思，一直看评测视频，其实我的需求里，这个机器不是纯 Nas ，我也用不到那么大的 8 盘位，顶多 4 盘位，此外我的主板也只有 4 个 SATA 。所以我更想要的是一个有 4 盘位，支持 MATX+ATX 的机箱，而不是 Nas 机箱，区别就是带热拔插。热拔插一年又有几次能换？ 主要拿来跑 vm ，跑点 docker 才是我经常用的。我拿它来做开发环境，装 openclaw 。做软路由。</p>\n<h3>御夫座</h3>\n<p>御夫座我看了很多视频，确实不错，颜值，大小，matx+atx ，存储空间 6 盘位，都挺好。准备下手了，但我是一个爱捡垃圾的，我还是再问我自己，需要 500 多的机箱吗？这个机箱是值 500 的，但我需要这样的 Nas 机箱吗？还是只是要一个多盘位的塔式就行了呢？所以没有下手，继续在观望。</p>\n<h3>恩杰 H440</h3>\n<p>有天晚上，我正在海鲜市场挑菜，突然一款机箱映入眼前，虽然没看到背面，我猜测一定有竖着的一排硬盘仓，我立马去查了下资料，果然，原生自带 5 个盘位。隔音棉，做工优秀，质感，外观颜值，内部空间，双 USB3.0 。外加这个闲鱼价格，天呐，被我赶上狗屎运了，速速拿下。当然后来发现，基本都是二手百元左右。</p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/IMG_5496_hu_92db0281c6f07dca.png\"/>\n离我上班很近，兴奋的不行。当晚就去拿了。到手灰尘很多，花了一天时间好好清理了一下，终于恢复了原本的面貌。</p>\n<p>这颜值、这触感、这做工，背后的风扇集成板我都没见过，什么科技啊。开机按钮，这 Logo 大灯。这隔音棉，这防尘网，太棒了辣。 无敌。心满意足。</p>\n<p>速速装机。点火，起飞。“嗯？”开机键坏了。我擦，赶紧试了一下 Rest 键，呼，还好是好的。嗯，满意，舒服了，我看着它运行了很久,心里真的很高兴，我可以花钱去买现成的机箱，但是这种捡到宝贝，自己折腾的感觉实在是太棒了。\n<img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5484_hu_338ab021219ba013.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5485_hu_51fd683c4b033f.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5486_hu_169da9d8a7f78bca.jpeg\"/></p>\n<p><img alt=\"1|30%\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://blog.luluhome.site/p/nas-%E5%8D%87%E7%BA%A7%E5%91%8A%E5%88%AB-50w-%E5%BE%85%E6%9C%BA%E5%8A%9F%E8%80%97/h440/IMG_5487_hu_263c8e15f7e380b6.jpeg\"/></p>\n<h2>总结</h2>\n<p>这次升级 Nas 的电源和机箱是我很久之前就想做的，以前的实在是太垃圾了。最后去了解了下历史，恩杰这个牌子，以前高端产品了，不知道现在怎么没落了，从我拿到机箱我就知道真的做工很棒。唯一失落是，开机键坏了。体积有点大。但人不能既要又要。我已经很满意这个了。 后来去了解了下，以前的机箱都重存储的，所以硬盘仓很多，现在都重显卡，海景房，也就舍弃了硬盘仓了。</p>\n<p>如果你和我有一样的需求，ATX+MATX ，多硬盘仓的需求。热拔插不是必要的，不如看看这些过去老式机箱。</p>\n\n\t",
       "author": "frank1256",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "周末大致正式阅读了一下 openai 的 function call 以及 anthropic 的 mcp 之类怎么感觉 agent 开发和以前的 CURD 开发没啥太大区别啊。",
-      "link": "https://www.v2ex.com/t/1196789#reply4",
-      "pubDate": "2026-03-09T03:28:28.000Z",
-      "content": "\n\tCURD 围绕数据库写一堆声明式的 SQL, 然后整一堆 if else 的逻辑，或许还有一些别的组件。<br /><br />Agent 开发围绕 llm 写一堆声明式的排列组合的 prompt ，然后也是整一堆 if else 的匹配路由逻辑，或许还有一些别的组件。<br /><br />这是我周末两天看到的东西都感受。不知道我这周再多了解一点后是否会有新的改观。\n\t",
-      "author": "YanSeven",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "关于 cc 使用模型的问题",
-      "link": "https://www.v2ex.com/t/1196787#reply4",
-      "pubDate": "2026-03-09T03:22:23.000Z",
-      "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
-      "author": "wnzhyee",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -643,7 +623,7 @@
     },
     {
       "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
-      "link": "https://www.v2ex.com/t/1196766#reply27",
+      "link": "https://www.v2ex.com/t/1196766#reply28",
       "pubDate": "2026-03-09T02:42:02.000Z",
       "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
       "author": "YanSeven",
@@ -653,30 +633,10 @@
     },
     {
       "title": "想了解一下有没有无需联网的 AI 摄像头",
-      "link": "https://www.v2ex.com/t/1196764#reply17",
+      "link": "https://www.v2ex.com/t/1196764#reply18",
       "pubDate": "2026-03-09T02:28:43.000Z",
       "content": "\n\t<p>最近准备请育儿嫂，为了孩子安全，打算在家里装几路摄像头。\n需求大概是：最好带 AI 人形/动作识别，甚至能做简单的意图判断，这样一旦有异常行为可以及时提醒。\n但我又比较在意隐私，不太想把画面传到云端。如果有那种支持本地算力、可以在机身里直接跑 AI 模型，或者方便自己部署开源模型（比如接到 NAS/小主机上跑算法）的方案，也非常感兴趣。\n想问问大家：\n1 ）现在有没有比较成熟的本地 AI 家用摄像头推荐？\n2 ）如果自己折腾开源模型，整体方案大概怎么搭比较靠谱？</p>\n\n\t",
       "author": "fingerxie",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "你们使用 clawhub，遇到这个问题了吗？",
-      "link": "https://www.v2ex.com/t/1196745#reply3",
-      "pubDate": "2026-03-09T02:03:23.000Z",
-      "content": "\n\t<p>访问 clawhub 之后提示</p>\n<p>[CONVEX Q(appMeta:getDeploymentInfo)] [Request ID: 5476d1e434681193] Server Error\nCalled by client</p>\n<p>这是什么意思？？有大佬解答下</p>\n\n\t",
-      "author": "byranb",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "分享我的 ai coding 方案",
-      "link": "https://www.v2ex.com/t/1196741#reply3",
-      "pubDate": "2026-03-09T01:51:59.000Z",
-      "content": "\n\t咸鱼 team 拼车 买个车位<br />最好新注册个 gpt 小号，因为不知道有没有封号风险<br />vsc 里安装 codex 插件<br />先跟 agent 说：帮我解决一下 powershell 中文乱码问题<br />会生成脚本把 powershell 环境强制成 utf8<br />codex 安装目录的 <a target=\"_blank\" href=\"http://agents.md\" rel=\"nofollow noopener\">agents.md</a> 是定义全局规则，项目目录里放 <a target=\"_blank\" href=\"http://agents.md\" rel=\"nofollow noopener\">agents.md</a> 定义项目规则<br />不过 agent 不一定会遵从规则，比较随缘<br />然后就可以开始用了，注意 agent 会直接改文件，需要手动看 diff<br />提交用 trae ，生成的提交信息比较详细，vsc 的不太行\n\t",
-      "author": "werwer",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -700,16 +660,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "kiro 的开发团队在干什么",
-      "link": "https://www.v2ex.com/t/1196727#reply4",
-      "pubDate": "2026-03-09T01:19:35.000Z",
-      "content": "\n\taborted. The agent has seen this error and will try a different approach to write the file if needed.<br /><br />Error(s) while generating properties based on requirements<br /><br />这两个 error 频繁出现，要不是它的 spec driven 模式能生成 tasks ，一点都不想用它。\n\t",
-      "author": "Yasuke",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "小米摄像头权限",
@@ -753,7 +703,7 @@
     },
     {
       "title": "win11 对比 ubuntu，是真的拉胯",
-      "link": "https://www.v2ex.com/t/1196703#reply74",
+      "link": "https://www.v2ex.com/t/1196703#reply75",
       "pubDate": "2026-03-08T19:14:34.000Z",
       "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
       "author": "Donahue",
@@ -777,16 +727,6 @@
       "pubDate": "2026-03-08T14:02:37.000Z",
       "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
       "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "境内阿里云服务器访问 claude、codex 会有危险吗？",
-      "link": "https://www.v2ex.com/t/1196672#reply14",
-      "pubDate": "2026-03-08T13:49:28.000Z",
-      "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
-      "author": "wayneyang3",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -822,16 +762,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "使用 Milvus 搭配 Ollama 搭建 RAG 知识库",
-      "link": "https://www.v2ex.com/t/1196665#reply5",
-      "pubDate": "2026-03-08T12:27:59.000Z",
-      "content": "\n\t<h3>1 、RAG 介绍</h3>\n<p>RAG （ Retrieval-Augmented Generation ，检索增强生成）是一种结合信息检索与文本生成的先进 AI 架构，其核心在于让大语言模型在回答问题前，先从外部知识库中“查找资料”，再基于查到的信息生成准确、有依据的回答。这种方法有效缓解了大模型常见的知识过时、幻觉等问题。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/8153de570e9f4349bca34735428fea61.png\"/></p>\n<h4>1.1 、RAG 基本原理</h4>\n<p>RAG 的工作流程可分为三个关键阶段：数据准备 → 检索 → 生成，形成一个“先查后答”的闭环机制。</p>\n<ul>\n<li><strong>数据准备</strong>（索引阶段）：将企业文档、网页、PDF 等非结构化数据加载并切分为小块（ chunking ），例如每段 300–800 字符。 使用嵌入模型（如 text-embedding-3-small ）将文本块转化为向量，并存储于向量数据库中，便于后续语义检索。</li>\n<li><strong>检索阶段</strong>（ Retrieval ）： 当用户提问时，系统将问题也转化为向量。 在向量数据库中通过相似度匹配（如余弦相似度）检索出最相关的若干个文本片段。 可结合关键词检索（ BM25 ）与语义检索（ DPR ）进行多路召回，提升召回率与精准度。</li>\n<li><strong>生成阶段</strong>（ Generation ）： 将检索到的相关片段与原始问题拼接成提示词（ Prompt ），输入大语言模型。 模型基于这些“参考资料”生成最终回答，确保内容有据可依，减少虚构风险。</li>\n</ul>\n<p>RAG 的准确率瓶颈本质上是“检索上下文质量”的瓶颈。如果检索不到正确信息，再强的生成模型也无法给出正确答案。</p>\n<h4>1.2 、RAG 应用场景</h4>\n<p>RAG 因其灵活性和高准确性，已在多个领域实现落地应用，尤其适合需要专业性、实时性、可解释性的场景。</p>\n<ul>\n<li><strong>企业知识库问答</strong>：员工可通过自然语言查询内部制度、产品手册、项目文档。 无需人工整理，系统自动检索并生成摘要，提升信息获取效率。</li>\n<li><strong>智能客服与售后服务</strong>：客户咨询产品功能、退换货政策时，RAG 可实时检索最新服务条款，避免因信息滞后导致误答。 支持个性化回复，如结合用户历史订单生成定制化建议。</li>\n<li><strong>医疗与法律辅助决策</strong>：医生可输入患者症状，系统检索最新诊疗指南或临床研究，辅助诊断。律师查询合同条款时，RAG 能从历史案例或法规库中提取相关判例，提升合规性。</li>\n<li><strong>学术研究与文献综述</strong>：研究者提出研究问题后，RAG 可快速检索大量论文摘要，并生成初步综述框架。节省查阅资料时间，提高科研效率。</li>\n<li><strong>动态内容生成与新闻撰写</strong>：结合实时数据（如股市行情、体育赛事结果），RAG 可生成带最新信息的报告或新闻稿。适用于财经、体育、舆情监控等对时效性要求高的领域。</li>\n</ul>\n<h4>1.3 、RAG 核心技术</h4>\n<p>RAG 的核心技术组成主要包括以下几个关键部分：</p>\n<ul>\n<li><strong>信息检索模块</strong>（ Retrieval Module ）：负责从大规模文档库中检索与用户查询最相关的文档片段。通常使用向量数据库（如 Faiss 、Pinecone 、Milvus ）存储文档的向量表示，通过计算查询向量与文档向量的相似度来实现快速检索。检索算法可以是基于关键词的（如 BM25 ）或基于语义的（如 DPR 、Sentence-BERT ）。</li>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n<li><strong>检索-生成融合机制</strong>（ Retrieval-Generation Fusion ）：将检索到的文档片段与原始查询组合成提示（ Prompt ），输入到生成模型中。这个过程可以是简单的拼接，也可以是更复杂的融合策略，如注意力机制。</li>\n<li><strong>向量数据库</strong>（ Vector Database ）：用于高效存储和检索高维向量数据。支持快速的近似最近邻（ ANN ）搜索，是实现大规模文档检索的关键。常见的向量数据库包括：Faiss 、Pinecone 、Milvus 、Weaviate 等。</li>\n<li><strong>数据预处理与后处理</strong>：数据预处理包括文档清洗、分块、去除无关内容等，以提高检索效率和质量。后处理可能包括答案过滤、格式化输出、引用标注等，以提升最终回答的可读性和可信度。这些组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。</li>\n</ul>\n<p>上述组件协同工作，使得 RAG 能够在保持大语言模型强大生成能力的同时，通过外部知识库提供更准确、更可靠的问答结果。\n本文选型 “Milvus （向量数据库）、Qwen （生成模型）、Qwen-embedding （嵌入模型）及 SpringAI” 讲述及实践。</p>\n<h3>2 、向量数据库</h3>\n<p>向量数据库是专门用于存储、管理和高效检索高维向量数据的新型数据库系统，它能将文本、图像、音频等非结构化数据，通过 AI 模型转化为蕴含语义特征的向量序列，再基于向量间的相似度实现“语义级检索”，解决传统数据库在非结构化数据处理上的局限性，为 RAG 智能问答、多模态搜索、智能推荐等 AI 应用提供底层支撑。</p>\n<h4>2.1 、核心工作步骤</h4>\n<ul>\n<li>\n<strong>数据向量化</strong>：生成“特征指纹”。这是向量数据库的前置核心环节，需借助 Embedding 模型将原始非结构化数据转化为高维向量，同时要平衡向量维度：维度越高特征表达越精细、检索精度越高，但存储和计算成本会指数级增长；维度越低效率越高，但可能丢失关键特征导致精度下降，工业级常规选择文本 768-1536 维、图像 512-2048 维。<ul>\n<li>文本数据：可选用 OpenAI 的 text-embedding-ada-002 （通用场景最优，1536 维）、国产开源的 BGE （性价比之选，768 维）、微调后的 BERT （细分领域首选）等模型。</li>\n<li>图像数据：CLIP （支持文本搜图的多模态适配模型）、ResNet （纯图像特征提取模型）是常用工具。</li>\n<li>音频数据：Wav2Vec2 （语音转向量）、VGGish （音频场景特征提取）可满足需求。</li>\n</ul>\n</li>\n<li><strong>存储与索引构建</strong>：加速相似性计算。向量数据库会将生成的高维向量存储起来，并构建特殊索引结构来提升检索效率，常见索引算法有 IVF （倒排文件）、HNSW （分层可导航小世界图）等，它们能大幅降低相似性计算的耗时。</li>\n<li>\n<strong>相似性检索</strong>：找“最近邻”。当用户发起查询时，系统先将查询内容转为向量，再在数据库中寻找与其“距离最近”的 Top-K 个向量，常用的距离度量方式有三种：<ul>\n<li>余弦相似度：最常用，只关注向量方向、忽略长度，适合语义级对比，如文本检索，计算结果取值范围[-1,1]，越接近 1 相似度越高。</li>\n<li>欧氏距离：计算两个向量的直线距离，同时考虑方向与长度，适合关注绝对特征差异的场景，如图像检索，值越小相似度越高，需提前对向量进行归一化处理。</li>\n<li>点积相似度：计算速度最快，但受向量长度影响大，对向量进行 L2 归一化后，结果等价于余弦相似度，适合高并发低延迟场景，如实时推荐。</li>\n</ul>\n</li>\n</ul>\n<h3>3 、Milvus 介绍</h3>\n<p>Milvus 是一款专为高维向量数据设计的云原生向量数据库，广泛应用于人工智能、机器学习和相似性搜索场景。它采用存储与计算分离的架构，具备高可用性、高性能和弹性扩展能力。</p>\n<p><img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/be0828ff3e2d4355aa1c76230f4f1cdb.png\"/></p>\n<h4>3.1 、核心架构层次</h4>\n<p>Milvus 的系统架构分为四个主要层次：</p>\n<ul>\n<li><strong>接入层</strong>（ Access Layer ）：作为系统的入口，由一组无状态的 Proxy 组件构成，负责请求路由和负载均衡。</li>\n<li><strong>协调服务</strong>（ Coordinator Service ）：管理元数据、任务调度和状态同步，包括 Root Coordinator 、Data Coordinator 和 Index Coordinator 等。</li>\n<li><strong>执行节点</strong>（ Worker Node ）：处理实际的数据插入、查询和索引构建等操作，包含 Query Node 、Index Node 和 Data Node 。</li>\n<li><strong>存储层</strong>（ Storage Layer ）：负责持久化存储，使用对象存储（如 S3 、MinIO ）来保存向量数据和索引文件，同时通过 etcd 和 Pulsar/Kafka 管理元数据和日志。</li>\n</ul>\n<h4>3.2 、数据模型与存储机制:</h4>\n<table>\n<thead>\n<tr>\n<th>维度</th>\n<th>Milvus</th>\n<th>关系型数据库</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>数据组织结构</td>\n<td>Database → Collection → Partition → Segment → Entity</td>\n<td>Database → Table → Row</td>\n<td>Milvus 以 Segment 为最小存储单元，支持分片；关系库以页或块为单位</td>\n</tr>\n<tr>\n<td>存储介质</td>\n<td>对象存储（ S3/MinIO ）+ 元数据存储（ etcd ）+ 消息队列（ Pulsar/Kafka ）</td>\n<td>磁盘文件 + 日志（ Redo Log ）</td>\n<td>Milvus 使用对象存储持久化数据，元数据由 etcd 管理；关系库依赖本地存储</td>\n</tr>\n<tr>\n<td>索引机制</td>\n<td>支持多种 ANN 索引（ HNSW 、IVF 、FLAT 等）</td>\n<td>B-tree 、Hash 、Bitmap 等</td>\n<td>Milvus 为高维向量优化索引，支持近似搜索；关系库为低维结构化字段设计</td>\n</tr>\n</tbody></table><h4>3.3 、术语映射关系:</h4>\n<table>\n<thead>\n<tr>\n<th>Milvus 术语</th>\n<th>关系型数据库术语</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Database</td>\n<td>Database</td>\n<td>数据库是组织和管理数据的逻辑单元。为了提高数据安全性并实现多租户，你可以创建多个数据库，为不同的应用程序或租户从逻辑上隔离数据。Milvus 在集合之上引入了数据库层，为管理和组织数据提供了更有效的方式，同时支持多租户</td>\n</tr>\n<tr>\n<td>Collection</td>\n<td>Table</td>\n<td>数据集合，定义字段结构。用于存储和管理实体的主要逻辑对象。</td>\n</tr>\n<tr>\n<td>Partition</td>\n<td>Partition</td>\n<td>集合内的物理分区</td>\n</tr>\n<tr>\n<td>Segment</td>\n<td>Page / Block</td>\n<td>定义数据类型和数据属性的元信息。每个 Collections 都有自己的 Collections Schema ，该 Schema 定义了 Collections 的所有字段、自动 ID （主键）分配启用和 Collection 说明</td>\n</tr>\n<tr>\n<td>Field</td>\n<td>Column</td>\n<td>字段类型支持标量与向量</td>\n</tr>\n<tr>\n<td>Entity</td>\n<td>Row</td>\n<td>单条数据记录</td>\n</tr>\n<tr>\n<td>Index</td>\n<td>Index</td>\n<td>向量索引，类型多样</td>\n</tr>\n</tbody></table><h3>4 、Milvus 本地部署</h3>\n<h4>4.1 、Docker Compose 部署</h4>\n<p>Milvus 提供了 Docker Compose 配置文件：</p>\n<pre><code class=\"language-shell\">wget https://github.com/milvus-io/milvus/releases/download/v2.6.11/milvus-standalone-docker-compose.yml -O docker-compose.yml\n\nsudo docker compose up -d\n\nCreating milvus-etcd  ... done\nCreating milvus-minio ... done\nCreating milvus-standalone ... done\n</code></pre>\n<p>启动完成后可以访问 Milvus WebUI 网址（ <a href=\"http://127.0.0.1:9091/webui/\" rel=\"nofollow\">http://127.0.0.1:9091/webui/</a> ）了解有关 Milvus 实例的更多信息。</p>\n<h4>4.2 、Attu （可视化工具）安装</h4>\n<p>Attu 是 Milvus 官方推出的图形化管理工具，提供直观的可视化界面，方便用户查看和管理向量数据库。通过 Attu ，用户可以轻松完成数据库架构设计、数据操作、向量搜索等复杂任务，大大降低 Milvus 的使用门槛。</p>\n<pre><code class=\"language-shell\">docker run -d --name milvus-attu \\\n  -p 8000:3000 \\\n  -e MILVUS_URL=localhost:19530 \\\n  zilliz/attu:v2.6\n</code></pre>\n<p>Attu 启动完成后可以访问（ http://localhost:8000 ），以图形化方式查看和管理 Milvus 实例。\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/9d5e8ea98751424d9c57e5984e128b57.png\"/></p>\n<h3>5 、模型本地安装</h3>\n<p>RAG 系统依赖 Embedding 与 Generation 两类模型：</p>\n<ul>\n<li><strong>嵌入模型</strong>（ Embedding Model ）：用于将文本（文档和查询）转换为固定长度的向量表示，以便进行语义相似度计算。常用的嵌入模型包括：Sentence-BERT （ SBERT ）、OpenAI 的 text-embedding 模型、通义千问的 QwenEmbedding 等。嵌入模型的质量直接影响检索效果。</li>\n<li><strong>生成模型</strong>（ Generation Model ）：通常基于大语言模型（ LLM ），如 GPT 系列、通义千问、Llama 等。接收检索到的相关文档片段和原始查询作为输入，生成最终的回答。生成模型需要具备良好的上下文理解和语言生成能力。</li>\n</ul>\n<p>本文分别选择 “qwen3-embedding” 与 “qwen3.5” 作为嵌入模型与生成模型，Ollama 本地安装如下；</p>\n<pre><code>admin@Mac-miniM4 milvus % ollama list\nNAME                                ID              SIZE      MODIFIED    \nqwen3.5:2b                          324d162be6ca    2.7 GB    3 hours ago    \nqwen3-embedding:0.6b                ac6da0dfba84    639 MB    4 hours ago    \n</code></pre>\n<h3>6 、RAG 系统设计</h3>\n<p>RAG 知识库的核心价值在于「结构化检索（关系型）+ 语义检索（向量）」的融合，实体模型设计需同时兼顾关系型数据的结构化关联能力和向量数据的语义匹配能力，既要保证实体间的逻辑关联清晰，又要实现基于语义的精准检索。以下聚焦「关系型 + 向量数据融合」的实体模型设计，包含核心实体定义、数据存储分工、关联逻辑、落地实现四大核心模块。</p>\n<h4>6.1 、核心设计原则（融合版）</h4>\n<ul>\n<li><strong>分工明确</strong>：关系型数据库（ MySQL ）存储「实体元数据、关联关系、检索过滤条件」，向量数据库（ Milvus ）存储「文本语义向量」，避免单库承载所有压力；</li>\n<li><strong>双向关联</strong>：关系型数据与向量数据通过唯一 ID （ chunk_id ）绑定，支持「从关系型维度筛选→向量语义检索」「从向量检索结果→回溯关系型元数据」；</li>\n<li><strong>轻量化融合</strong>：向量数据仅存储核心检索单元（ Chunk ）的向量，不冗余存储文档 / 实体的全量向量，关系型数据补充向量无法表达的结构化信息（如实体类型、文档来源）。</li>\n</ul>\n<h4>6.2 、核心实体模型（关系型 + 向量融合）</h4>\n<p><strong>实体分工总览</strong>：</p>\n<table>\n<thead>\n<tr>\n<th>数据类型</th>\n<th>存储载体</th>\n<th>存储内容</th>\n<th>核心作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>关系型数据</td>\n<td>MySQL/PostgreSQL</td>\n<td>文档 / Chunk / 业务实体的元数据、实体间关联关系、检索过滤字段（状态 / 租户 / 类型）</td>\n<td>结构化筛选、实体关联、结果回溯</td>\n</tr>\n<tr>\n<td>向量数据</td>\n<td>Milvus/PGVector/FAISS</td>\n<td>Chunk 的 Embedding 向量、向量索引（ IVF_FLAT/HNSW ）</td>\n<td>语义相似度检索</td>\n</tr>\n</tbody></table><p><strong>关系型实体表设计（核心元数据 + 关联）</strong>：</p>\n<ul>\n<li>\n<p><strong>Knowledge</strong>（知识库实体，关系型）：存储知识库定义元数据，维护知识库 Embedding 模型、向量数据库设置信息。</p>\n</li>\n<li>\n<p><strong>Document</strong>（文档实体，关系型）：存储文档级结构化元数据，是所有子实体的根节点，不存储完整内容和向量。</p>\n</li>\n<li>\n<p><strong>Chunk</strong>（文本块实体，关系型）：\n存储 Chunk 的元数据，仅保留向量 ID （与向量库绑定），不存储原始向量，是关系型与向量数据的核心桥梁。</p>\n</li>\n<li>\n<p><strong>向量数据模型设计（语义检索核心）</strong>：\nMilvus 中创建「 knowledge_vector_collection 」集合，与关系型 Chunk 表的 vector_id 一一对应：</p>\n</li>\n</ul>\n<h3>7 、RAG 关键代码</h3>\n<h4>7.1 、Maven 依赖引入</h4>\n<p>使用 SpringAI 进行模型与向量数据库集成，需要添加如下依赖：</p>\n<pre><code>&lt;!-- milvus --&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;io.milvus&lt;/groupId&gt;\n    &lt;artifactId&gt;milvus-sdk-java&lt;/artifactId&gt;\n&lt;/dependency&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.ai&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-ai-starter-model-ollama&lt;/artifactId&gt;\n&lt;/dependency&gt;\n</code></pre>\n<h4>7.2 、知识数据向量化入库</h4>\n<p>核心流程为：「文档分块 → 向量化 → Milvus 入库」</p>\n<pre><code>// 1 、初始化 Embedding 模型\nEmbeddingModel embeddingModel = OllamaEmbeddingModel\n                .builder()\n                .defaultOptions(OllamaEmbeddingOptions\n                        .builder()\n                        .model(EMBEDDING_MODEL_NAME)\n                        .dimensions(VECTOR_DIMENSION)\n                        .build())\n                .ollamaApi(ollamaApi)\n                .build();\n\n// 2 、知识文档正文分块\nList&lt;String&gt; chunks = splitDocument(doc.getContent());\n\n// 3 、Chunk 文档向量化处理\nList&lt;float[]&gt; vectors = embeddingModel.embed(texts);\n\n// 4 、知识数据向量化入库\nList&lt;JsonObject&gt; vectorData = process(vectors);\nUpsertResp upsertResp = client.upsert(UpsertReq.builder()\n                .collectionName(collectionName)\n                .data(vectorData)\n                .build());\n</code></pre>\n<h4>7.3 、知识相似度检索</h4>\n<p>核心流程为：「问题向量化 → Milvus 检索」</p>\n<pre><code>// 1 、问题向量化\nfloat[] keywordVector = embed(List.of(keyword)).get(0);\n\n// 2 、向量 检索\nSearchReq searchReq = SearchReq.builder()\n                    .collectionName(buildCollectionName(kbId))                          \t\t\n                    .data(Collections.singletonList(new FloatVec(keywordVector)))  \n                    .annsField(\"contentVector\")                                         \t\t\t\n                    .outputFields(Arrays.asList(\"id\", \"chunkId\", \"contentVector\"))     \n                    .limit(TOP_K_COUNT)\n                    .searchParams(Map.of(\"radius\", SIMILARITY_THRESHOLD))   // 相似度阈值\n                    .build();\nSearchResp searchResp = client.search(searchReq);\n</code></pre>\n<h4>7.4 、知识库系统交互</h4>\n<p>知识库系统交互见下文，支持针对文档进行新建、管理、向量化/Embedding 、相似度检索等操作。为 RAG 、\n部分截图如下：</p>\n<ul>\n<li>知识库管理：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/c6f62ec646114df88d0a33cb79a526d0.png\"/></li>\n<li>知识相似度检索：\n<img alt=\"在这里插入图片描述\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i-blog.csdnimg.cn/direct/fb8fb2ff484e422e9c2d0e3afbcb955f.png\"/></li>\n</ul>\n\n\t",
-      "author": "xuxueli",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
       "link": "https://www.appinn.com/llmfit/",
       "pubDate": "Sun, 08 Mar 2026 10:50:47 +0000",
@@ -857,44 +787,14 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "求助：求一个可以通过 Movie Pilot 认证的 PT 邀请",
-      "link": "https://www.v2ex.com/t/1196637#reply5",
-      "pubDate": "2026-03-08T08:16:24.000Z",
-      "content": "\n\t<p>我是馒头用户，发现馒头不在支持列表中……</p>\n\n\t",
-      "author": "XuanYuan",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
-      "link": "https://www.v2ex.com/t/1196595#reply50",
-      "pubDate": "2026-03-08T03:20:25.000Z",
-      "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
-      "author": "JamesMackerel",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "相比 cursor， 100 美刀的 claude code 是不是好用+便宜太多？",
-      "link": "https://www.v2ex.com/t/1196592#reply82",
+      "link": "https://www.v2ex.com/t/1196592#reply83",
       "pubDate": "2026-03-08T03:01:06.000Z",
       "content": "\n\t感觉 cursor 一点价格优势都没有了\n\t",
       "author": "yuan321",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "超出预期，内部撕裂、规则破坏，由法治转向个人裁量审判。 (评论: 洛杉矶劫案)",
-      "link": "https://movie.douban.com/review/17493780/",
-      "pubDate": "Sat, 07 Mar 2026 19:10:09 GMT",
-      "content": "\n风里浪评论: 洛杉矶劫案 (https://movie.douban.com/subject/36901008/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6ca1\\u770b\\u4e4b\\u524d\\uff0c\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "成为顶级“P人”指南 (评论: 小实验)",
@@ -1061,7 +961,7 @@
     },
     {
       "title": "[内测抽奖] 0.2 元起的 Claude，让 OpenClaw/Claude Code 实现 Token 自由",
-      "link": "https://www.v2ex.com/t/1196121#reply57",
+      "link": "https://www.v2ex.com/t/1196121#reply63",
       "pubDate": "2026-03-05T10:08:30.000Z",
       "content": "\n\t<h1>[内测抽奖] 0.2 元起的 Claude ，让 OpenClaw/Claude Code 实现 Token 自由</h1>\n<p>各位 V 友，</p>\n<p>最近 OpenClaw 这类开源工具确实爽，但这些工具扫描一次项目就要吞掉几十万 Token ，官方价格用起来实在肉疼。</p>\n<p>为了自用爽，我搭建了一个中转站：<a href=\"http://api.aiyahmm.com\" rel=\"nofollow\">api.aiyahmm.com</a> ，专门解决“想用重度工具又怕烧钱”的痛点。</p>\n<h3>🚀 为什么说这里是 OpenClaw / Claude Code 的绝配？</h3>\n<ol>\n<li>极致特价区 ($0.2 / 刀)：价格只有官方的几分之一。特别适合跑 OpenClaw 、Aider 这种全项目扫描工具，怎么扫都不心疼。</li>\n<li>生产力 Max 区 ($1.2 / 刀)：官方正版 Tier 4/5 渠道，支持 Prompt Caching （缓存预填充）。配合 Claude Code 使用，不仅响应更稳，而且越用越省。</li>\n<li>针对性适配：完美支持官方配置格式，国内直连不 403 。</li>\n</ol>\n<h3>🛠️ 官方标准 JSON 配置 (一键接入)：</h3>\n<p>你可以直接将以下配置填入你的 config 文件：</p>\n<p>{\n\"env\": {\n\"ANTHROPIC_API_KEY\": \"你的 API 密钥\",\n\"ANTHROPIC_BASE_URL\": \"<a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a>\"\n},\n\"apiKeyHelper\": \"echo '你的 API 密钥'\"\n}</p>\n<h3>🎁 专属内测福利与抽奖：</h3>\n<ul>\n<li>内测加额度：由于目前是人工审核内测，请在注册后在本帖回复你的用户名或 ID ，我会手动为您发放 $1.0 初始体验金额度。</li>\n<li>随机楼层抽奖：截止开奖时间，我将使用随机数生成器在评论区抽取 5 位老哥，每人赠送价值 9.9 元的体验套餐！</li>\n<li>规则说明：为公平起见，同一 ID 多次回复仅计第一次，若抽中楼主本人或重复楼层则顺延至下一楼。</li>\n<li>开奖时间：帖子发布 48 小时后，将在本帖更新名单并私信发放。</li>\n</ul>\n<p>站点地址： <a href=\"https://api.aiyahmm.com\" rel=\"nofollow\">https://api.aiyahmm.com</a></p>\n<hr/>\n<p>📢 老实交代：\n目前是流量验证期，服务器带宽有限。如果大家测下来觉得不错，注册人数多，我立马换高配服务器！欢迎各位老哥轻喷并提供建议。</p>\n\n\t",
       "author": "jiaokun",
