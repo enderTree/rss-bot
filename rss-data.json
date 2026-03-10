@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-10T07:35:43.004Z",
+  "lastUpdated": "2026-03-10T08:31:23.254Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-10T07:35:31.240Z",
+      "lastUpdated": "2026-03-10T08:31:10.629Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-10T07:35:32.050Z",
+      "lastUpdated": "2026-03-10T08:31:11.447Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-10T07:35:32.115Z",
+      "lastUpdated": "2026-03-10T08:31:11.594Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,8 +156,24 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-10T07:35:33.589Z",
+      "lastUpdated": "2026-03-10T08:31:13.588Z",
       "items": [
+        {
+          "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
+          "link": "https://www.appinn.com/handbrake-1-11-0/",
+          "pubDate": "Tue, 10 Mar 2026 07:44:35 +0000",
+          "content": "HandBrake 昨日发布 1.11.0 版本，这是2026年的第一次更新，也是一次里程碑式的更新：HandBrake 不再仅仅是那个“压缩视频”的开源工具了。从这个版本开始，它正式支持专业视频后期流程中的核心格式：ProRes、DNxHR 以及 MOV 容器。 @Appinn HandBrake ",
+          "author": "",
+          "categories": [
+            "业界消息",
+            "linux",
+            "macOS",
+            "Windows",
+            "HandBrake"
+          ],
+          "source": "小众软件",
+          "sourceUrl": "https://feeds.appinn.com/appinns/"
+        },
         {
           "title": "Chrome 省内存、省电扩展 OneTab 更新，解决升级后内容丢失的情况",
           "link": "https://www.appinn.com/onetab/",
@@ -287,39 +303,47 @@
           ],
           "source": "小众软件",
           "sourceUrl": "https://feeds.appinn.com/appinns/"
-        },
-        {
-          "title": "10 款最新发现的小工具[260304]",
-          "link": "https://www.appinn.com/10-faxian-list-260304/",
-          "pubDate": "Wed, 04 Mar 2026 03:05:00 +0000",
-          "content": "我发现浏览器标签页有一个神奇的悖论：清空它，很快就满了；不清空它，一直是满的 😂 直接开始： 亚马逊因受到物理攻击而宕机，然后 Claude AI 挂了 这两年互联网台柱子经常出问题，比如 Cloudflare、亚马逊的 AWS 服务。但此前几次都是草台班子，这次就…更难绷了。 北京时间 3 月 3 ",
-          "author": "",
-          "categories": [
-            "每日发现"
-          ],
-          "source": "小众软件",
-          "sourceUrl": "https://feeds.appinn.com/appinns/"
         }
       ]
     },
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-10T07:35:33.658Z",
+      "lastUpdated": "2026-03-10T08:31:13.731Z",
       "items": [
         {
-          "title": "分享一个高效的开发思路",
-          "link": "https://www.v2ex.com/t/1197155#reply0",
-          "pubDate": "2026-03-10T07:35:16.000Z",
-          "content": "\n\t<p>把 cursor 安装在服务器上，通过远程桌面上去开发。有 2 个好处：</p>\n<ol>\n<li>可以本机、远程同时开 2 个 cursor ，同时开发 2 个项目，牛马属性点满了；</li>\n<li>cursor 直接在服务器上查生产日志、修 bug 、自动部署，一条龙全搞定了。</li>\n</ol>\n<p>当前装个其它命令行代码工具，kimi code 之类的，可以直接在命令行就完成了，也不错。</p>\n<p>你可能会说写完不测试吗？那是测试人员的工作，ai 写的代码从来不用自测，只用 review 方向有没有跑偏就完了。</p>\n\n\t",
-          "author": "jedeft",
+          "title": "以后 I coding 就是拼提示词了",
+          "link": "https://www.v2ex.com/t/1197171#reply2",
+          "pubDate": "2026-03-10T08:25:16.000Z",
+          "content": "\n\t<p>整个 AI 工具其实都在围绕提示词做展开，以后大学肯定会专门开提示词的课程，感觉文科生的优势一下起来了，AI 科学家们成功干翻了理科生。</p>\n\n\t",
+          "author": "factorio33",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
+          "link": "https://www.v2ex.com/t/1197168#reply3",
+          "pubDate": "2026-03-10T08:11:30.000Z",
+          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
+          "author": "zitup",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "分享一个完全免费的中国 A 股数据获取库",
+          "link": "https://www.v2ex.com/t/1197162#reply8",
+          "pubDate": "2026-03-10T08:00:14.000Z",
+          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
+          "author": "sunfinv",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "codex 中转站今天崩溃问题",
-          "link": "https://www.v2ex.com/t/1197112#reply17",
+          "link": "https://www.v2ex.com/t/1197112#reply23",
           "pubDate": "2026-03-10T05:39:34.000Z",
           "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
           "author": "forrestgump",
@@ -329,7 +353,7 @@
         },
         {
           "title": "吐槽一下 DeepSeek 余额清空",
-          "link": "https://www.v2ex.com/t/1197048#reply64",
+          "link": "https://www.v2ex.com/t/1197048#reply72",
           "pubDate": "2026-03-10T02:22:55.000Z",
           "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
           "author": "ingrowthly",
@@ -338,21 +362,81 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "指挥 AI 做了一个 LLM API 网关",
-          "link": "https://www.v2ex.com/t/1197080#reply8",
-          "pubDate": "2026-03-10T03:06:35.000Z",
-          "content": "\n\t<p>现在只想到了路由配置、APIKEY 配置、token 统计与限制、限速与并发控制、自动化的封禁规则和监控。</p>\n<p>还有哪些功能能够添加进去？</p>\n<p><img alt=\"route\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqtJJyk.png\"/></p>\n<p>Token 统计\n<img alt=\"token 统计\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TmkPyCQ.png\"/></p>\n\n\t",
-          "author": "midraos",
+          "title": "最近一段时间，我调整了我利用 AI 学习知识的方式，感觉很好，分享一下",
+          "link": "https://www.v2ex.com/t/1197110#reply5",
+          "pubDate": "2026-03-10T05:35:03.000Z",
+          "content": "\n\t以前我利用 AI 学习的方式，更多的是我在提问，让 AI 提供相关进阶学习资料，然后我去学习，然后接着提问。当然，少不了日常笔记总结，以及 demo 级别代码实践和验证。<br /><br />最近我看 ChatGPT 加了 study and learn 模式，我干脆就仿造这个，让 ChatGPT 通过提问以及纠错的方式，来考察我对某个技术领域的理解程度。我觉得还蛮惊喜的，比我之前光提问，效果好上不少。<br /><br />具体，我想了下，为什么感觉上效果会好：<br /><br />1. 费曼学习法，我变成主动提供输入的人<br /><br />2. 另外，我学习的知识内容，不仅仅局限于我个人的理解，因为不再是我问什么，ChatGPT 回答什么，ChatGPT 会主动提供很多输入<br /><br />3. ChatGPT 可以帮我打磨细节，很多我口语化或者不够深入本质的回答，ChatGPT 会告诉我，哪些需要调整描述，哪些是我没理解到位导致的<br /><br />我相信应该有很多人已经是这么使用的了，但是我还是分享出来我的个人感受，来一起讨论一下\n\t",
+          "author": "swananan",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "Openclaw 你们是怎么实现让他一直自动的编码工作的",
-          "link": "https://www.v2ex.com/t/1197051#reply32",
+          "link": "https://www.v2ex.com/t/1197051#reply34",
           "pubDate": "2026-03-10T02:25:19.000Z",
           "content": "\n\t<p>我的 openclaw 我让他用 opencode-controller-skill ，镜像开发工作。\n就喝傻子一样，我需求都写的清清楚楚了\n回复我：我会继续工作的，然后就没有下文了。\n是我不应该答复他，还是有什么办法查到他倒地有没有在工作的，\n大概率是没有，我专门试了一下 ，睡觉前把任务给他，他说他会继续工作的，今天早上回来，没有任何新消息，代码也没有任何变化。</p>\n<p>各位大佬是如何做到？</p>\n\n\t",
           "author": "SuperDaFu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply79",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "使用 WebGPU 在线测试显卡性能",
+          "link": "https://www.v2ex.com/t/1197159#reply2",
+          "pubDate": "2026-03-10T07:47:25.000Z",
+          "content": "\n\t<p>演示： <a href=\"https://etherdream.github.io/hash-miner/\" rel=\"nofollow\">https://etherdream.github.io/hash-miner/</a></p>\n<p>前几天把很久前写的 <a href=\"https://v2ex.com/t/347005\" rel=\"nofollow\">SHA-256 PoW</a> 翻新了下，用 WebGPU 代替 WebGL2 ，并修复了之前的一些缺陷，性能大幅提升。</p>\n<p>此外加入了 Wasm 以及 SIMD 、asm.js 版本，可用于性能对比测试。</p>\n<p>如果瞬间完成的话可以加大一点难度多运行几秒，否则无法达到最高速度。</p>\n\n\t",
+          "author": "iqoo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "你的 AI 记忆，凭什么被平台锁定？ MIP：一个让 AI 记忆可移植的开放标准",
+          "link": "https://www.v2ex.com/t/1197152#reply1",
+          "pubDate": "2026-03-10T07:23:20.000Z",
+          "content": "\n\t<p>一个关于 AI 记忆可移植性的思考，以及一个极简开放标准的提案。</p>\n<hr/>\n<h2>从一个烦人的场景说起</h2>\n<p>你花了三个月教 ChatGPT 了解你：</p>\n<ul>\n<li>你是前端工程师，用 React 和 TypeScript</li>\n<li>你喜欢简洁直接的回复，讨厌废话</li>\n<li>你写代码注释用中文，变量名用英文</li>\n<li>你习惯先出方案再动手</li>\n</ul>\n<p>ChatGPT 确实越来越懂你了。直到有一天，你决定试试 Claude 。</p>\n<p>打开 Claude 的对话框，一片空白。它不知道你是谁，不知道你喜欢什么，也不知道你的任何习惯。你不得不再教一遍。</p>\n<p>换到 Gemini ？再来一遍。用本地模型？再来一遍。</p>\n<p>你的 AI 记忆，今天基本是平台私产，而不是你的资产。</p>\n<hr/>\n<h2>这不是功能缺失，而是结构性问题</h2>\n<p>你可能会觉得，这不就是各家 AI 产品迟早都会补上的能力吗？</p>\n<p>不完全是。</p>\n<p>问题不在于厂商有没有能力做记忆，而在于它们没有动力把记忆做成可携带的。</p>\n<ul>\n<li>OpenAI 没有动力让 ChatGPT 的记忆被 Claude 直接利用</li>\n<li>Google 没有动力让 Gemini 的用户画像迁移到别处</li>\n<li>每个平台都天然倾向于把“越来越懂你”变成自己的护城河</li>\n</ul>\n<p>所以，真正缺的不是“某一家的记忆功能”，而是一个用户侧、平台外的可移植标准。</p>\n<hr/>\n<h2>MIP 的想法很简单</h2>\n<p>我做了一个很小的提案，叫 MIP ，Memory Interoperability Protocol 。</p>\n<p>它的核心可以用一句话说完：</p>\n<blockquote>\n<p>在你的电脑上维护一个 <code>~/.mip/memory.json</code>，任何 AI 工具都可以读取它来了解你。</p>\n</blockquote>\n<p>没有守护进程，没有数据库，没有远程服务。</p>\n<p>就一个文件。</p>\n<p>例如：</p>\n<pre><code class=\"language-json\">{\n  \"version\": \"0.1.0\",\n  \"identity\": {\n    \"name\": \"张三\",\n    \"language\": \"zh-CN\",\n    \"role\": \"前端工程师\",\n    \"tech_stack\": [\"React\", \"TypeScript\", \"Next.js\"]\n  },\n  \"preferences\": {\n    \"response_style\": \"concise\",\n    \"formality\": \"casual\",\n    \"code_comments_language\": \"zh-CN\",\n    \"variable_names_language\": \"en\"\n  },\n  \"custom\": {\n    \"编辑器\": \"VS Code\",\n    \"关注领域\": [\"AI 应用开发\", \"Web3\"]\n  }\n}\n</code></pre>\n<p>任何 AI 产品要接入它，读取成本只有几行代码：</p>\n<pre><code class=\"language-python\">import json, pathlib\npath = pathlib.Path.home() / \".mip\" / \"memory.json\"\nmemory = json.loads(path.read_text()) if path.exists() else {}\n</code></pre>\n<p>这不是“让 AI 拥有完整人格档案”的终局方案。</p>\n<p>MIP v0.1 只想先解决一个很具体的问题：把显式的用户偏好，从平台私有数据，变成用户自己持有的标准化数据。</p>\n<hr/>\n<h2>它和 <code>.cursorrules</code>、<code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code> 有什么不同？</h2>\n<p>这是最常见的问题。</p>\n<p>确实，今天已经有很多本地规则文件：</p>\n<ul>\n<li>Cursor 有 <code>.cursorrules</code></li>\n<li>Claude Code 有 <code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code></li>\n<li>其他工具也有各自的全局规则、偏好文件</li>\n</ul>\n<p>这些文件当然有价值，而且本质上都在帮助 AI 了解你。</p>\n<p>但它们有两个问题：</p>\n<p>第一，它们是工具私有约定，不是跨工具约定。</p>\n<p>第二，它们更像“用户写给某个工具的操作手册”，而不是一个所有工具都能稳定读取的通用用户记忆格式。</p>\n<p>MIP 在 v0.1 阶段做的事其实很克制：</p>\n<ul>\n<li>统一路径：<code>~/.mip/memory.json</code></li>\n<li>统一格式：JSON Schema</li>\n<li>统一范围：身份、偏好、自定义字段</li>\n</ul>\n<p>所以如果一定要类比，我更愿意把它叫做：</p>\n<blockquote>\n<p><code>.editorconfig</code> for AI memory</p>\n</blockquote>\n<p>没有什么魔法，只是定义一个所有工具都可以认同的最小公约数。</p>\n<hr/>\n<h2>为什么不是直接用 Mem0 、MemGPT 、Letta ？</h2>\n<p>因为它们和 MIP 解决的是不同层的问题。</p>\n<ul>\n<li>Mem0 、Letta 、各种长期记忆框架，是实现</li>\n<li>MIP 想做的是协议</li>\n</ul>\n<p>它们可以完全兼容，甚至应该兼容。</p>\n<p>如果未来某个记忆系统愿意把用户偏好导出成 MIP ，或者把 MIP 作为导入导出格式，那恰恰说明这个协议是有价值的。</p>\n<p>协议层的意义，不在于替代实现，而在于让不同实现之间开始有可交换的数据格式。</p>\n<p>HTTP 不等于 Nginx ，<code>.editorconfig</code> 也不等于 VS Code 。</p>\n<p>MIP 想做的是那个更靠底层的“共同语言”。</p>\n<hr/>\n<h2>MIP 和 MCP 的关系</h2>\n<p>如果你知道 MCP ，那可以用一句话理解它们的关系：</p>\n<ul>\n<li>MCP 解决的是：AI 能调用什么工具</li>\n<li>MIP 解决的是：AI 了解谁</li>\n</ul>\n<p>一个偏工具接入，一个偏用户记忆。</p>\n<p>它们不是竞争关系，而是互补关系。</p>\n<p>MIP 完全可以脱离 MCP 独立存在，因为读本地文件本身就够简单。</p>\n<p>但对于支持 MCP 的客户端，MIP 也可以通过 MCP server 暴露出来，这样工具接入会更方便。我在仓库里已经放了一个概念验证版本。</p>\n<hr/>\n<h2>这是不是伪需求？</h2>\n<p>如果只看 2026 年，当下它确实不是最刚性的需求。</p>\n<p>很多时候，你自己写一段系统提示词，也能解决 80% 的问题。</p>\n<p>但我认为这是一个典型的“现在弱需求，未来强需求”的方向。</p>\n<p>因为 AI 记住你的，不会永远只是：</p>\n<ul>\n<li>你喜欢简洁回复</li>\n<li>你用 TypeScript</li>\n<li>你写注释用中文</li>\n</ul>\n<p>再往后，AI 会逐渐理解：</p>\n<ul>\n<li>你最近在忙什么项目</li>\n<li>你做决策的方式是什么</li>\n<li>你在哪些领域需要更多解释</li>\n<li>你过去几个月的工作脉络是什么</li>\n</ul>\n<p>到那个阶段，所谓“换一个 AI 平台”，丢失的不再是一些偏好，而是一个系统对你的长期理解。</p>\n<p>那时候，“记忆可携带”更像一种基础数据权利，而不是可有可无的小功能。</p>\n<p>好的标准，往往是在需求全面爆发之前建立的。</p>\n<hr/>\n<h2>先别把愿景讲得太大</h2>\n<p>这也是我刻意想收住的一点。</p>\n<p>MIP v0.1 不是在宣称：</p>\n<ul>\n<li>已经解决了 AI 长期记忆</li>\n<li>已经解决了自动画像</li>\n<li>已经解决了权限、安全、同步</li>\n</ul>\n<p>恰恰相反，v0.1 是有意做小的。</p>\n<p>它只处理显式的、用户愿意手写的那部分记忆：</p>\n<ul>\n<li>我是谁</li>\n<li>我偏好什么</li>\n<li>我希望 AI 怎么和我协作</li>\n</ul>\n<p>先把最容易共识、最容易落地、最容易被工具采纳的那一层定下来。</p>\n<p>如果连这层都没有，后面的自动写入、权限控制、跨设备同步都无从谈起。</p>\n<hr/>\n<h2>真正可能先采用它的是谁？</h2>\n<p>MIP 不是在等大厂突然良心发现。</p>\n<p>它最可能先被下面几类东西采用：</p>\n<ul>\n<li>IDE 里的 AI Agent</li>\n<li>本地代码助手</li>\n<li>开源 AI 客户端</li>\n<li>MCP 客户端</li>\n<li>本地模型工作流</li>\n</ul>\n<p>因为这些工具本来就运行在你的机器上，读取本地文件的成本极低，也更有动力支持开放标准。</p>\n<p>所以 MIP 的现实路径不是“先说服 OpenAI 和 Google”。</p>\n<p>而是：</p>\n<blockquote>\n<p>先让开源工具和本地工具支持，先形成一个用户侧事实标准。</p>\n</blockquote>\n<hr/>\n<h2>安全问题不能后补</h2>\n<p>把用户画像存在本地，当然会有安全问题。</p>\n<p>所以我对 MIP 的态度是分层推进，而不是一步到位。</p>\n<p>v0.1 只建议存储低敏感、显式、用户手写的结构化偏好。它更接近 <code>.gitconfig</code> 或 <code>.editorconfig</code>，而不是心理档案。</p>\n<p>更深层的画像、自动写入、加密、权限控制，应该等后续版本在模型和机制上都更成熟之后再进入标准。</p>\n<p>如果没有安全设计，MIP 不应该贸然走向“自动累积人格画像”。</p>\n<hr/>\n<h2>我为什么还想把它提出来？</h2>\n<p>因为没有标准的领域，用户连选择都没有。</p>\n<p>MIP 现在当然还很早。它更像一个种子，而不是已经成为行业标准的东西。</p>\n<p>但我觉得这个问题值得先被提出来：</p>\n<blockquote>\n<p>如果 AI 越来越懂你，那么“它对你的记忆”到底应该属于平台，还是属于你？</p>\n</blockquote>\n<p>我的答案是：至少应该存在一种属于用户自己的开放格式。</p>\n<p>MIP 不一定是最终答案。</p>\n<p>但如果没有人先把这个问题做成一个可讨论、可实现、可集成的最小提案，那么答案永远不会出现。</p>\n<hr/>\n<h2>现在你可以做什么</h2>\n<ol>\n<li>给自己建一个 <code>~/.mip/memory.json</code></li>\n<li>如果你在做 AI 工具，试着加一个 MIP read support</li>\n<li>如果你觉得这个方向值得讨论，给仓库一个 star 或提个 issue</li>\n<li>如果你觉得它是伪需求，欢迎直接挑战</li>\n</ol>\n<p>仓库地址：</p>\n<p><a href=\"https://github.com/UnCooe/MIP\" rel=\"nofollow\">https://github.com/UnCooe/MIP</a></p>\n<hr/>\n<p>MCP 让 AI 的“手”更标准化，MIP 想讨论的是 AI 的“脑”里那部分用户记忆，是否也该有一个用户侧、开放的最小标准。</p>\n<p>这件事未必立刻爆发，但我认为值得现在就开始做。</p>\n\n\t",
+          "author": "bimeixishuai",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有没有稳定一点的，面向网页对话的-chatgpt-plus-中转站推荐？",
+          "link": "https://www.v2ex.com/t/1197158#reply0",
+          "pubDate": "2026-03-10T07:43:48.000Z",
+          "content": "\n\t<p>rt 。\n习惯用 gpt 的服务，但是自己购买的中转站抽风比较严重，看看大家有没有推荐，不需要 api 那种，就是希望登陆上去是一个网页对话就行了，最好聚合 gpt+grok 。</p>\n\n\t",
+          "author": "Hhhven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "分享一个高效的开发思路",
+          "link": "https://www.v2ex.com/t/1197155#reply7",
+          "pubDate": "2026-03-10T07:35:16.000Z",
+          "content": "\n\t<p>把 cursor 安装在服务器上，通过远程桌面上去开发。有 2 个好处：</p>\n<ol>\n<li>可以本机、远程同时开 2 个 cursor ，同时开发 2 个项目，牛马属性点满了；</li>\n<li>cursor 直接在服务器上查生产日志、修 bug 、自动部署，一条龙全搞定了。</li>\n</ol>\n<p>当前装个其它命令行代码工具，kimi code 之类的，可以直接在命令行就完成了，也不错。</p>\n<p>你可能会说写完不测试吗？那是测试人员的工作，ai 写的代码从来不用自测，只用 review 方向有没有跑偏就完了。</p>\n\n\t",
+          "author": "jedeft",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "指挥 AI 做了一个 LLM API 网关",
+          "link": "https://www.v2ex.com/t/1197080#reply10",
+          "pubDate": "2026-03-10T03:06:35.000Z",
+          "content": "\n\t<p>现在只想到了路由配置、APIKEY 配置、token 统计与限制、限速与并发控制、自动化的封禁规则和监控。</p>\n<p>还有哪些功能能够添加进去？</p>\n<p><img alt=\"route\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqtJJyk.png\"/></p>\n<p>Token 统计\n<img alt=\"token 统计\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TmkPyCQ.png\"/></p>\n\n\t",
+          "author": "midraos",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -363,26 +447,6 @@
           "pubDate": "2026-03-10T07:25:09.000Z",
           "content": "\n\t功能<br />登录鉴权 — Spring Security 表单登录，内存用户存储（ BCrypt 加密）<br />多标签 SSH 终端 — 每个标签独立 WebSocket + xterm.js ，互不干扰<br />会话保存 — 按登录用户持久化到本地 JSON 文件<br />凭据加密保存 — AES-GCM 加密，主密钥可配置<br />主机指纹校验 — SHA-256 ，首次连接自动信任并回填<br />认证方式 — 密码认证、私钥认证（私钥口令可选）<br />终端尺寸同步 — 浏览器窗口变化自动同步到远端 PTY<br />SFTP 文件管理 — 目录浏览、上传（分片）、下载（分片 + ACK 流控）、创建目录<br />SSH 端口转发 — 本地转发（ L ）/ 远程转发（ R ）<br />Shell 工作目录追踪 — 注入 shell 钩子实时感知远端 $PWD 变化，SFTP 面板自动同步<br />终端主题 — 6 种配色方案（默认蓝、橙、绿、琥珀、紫、红）<br />国际化 — 支持 7 种语言（简体中文、English 、日本語、한국어、Deutsch 、Français 、Русский）<br />全屏模式 — 终端可切换全屏显示<br />移动端适配 — 响应式 Web 设计，针对手机端优化布局、侧边栏滑动及文件管理交互<br /><br />源码： <a target=\"_blank\" href=\"https://github.com/Jstrom2022/webSSH\" rel=\"nofollow noopener\">https://github.com/Jstrom2022/webSSH</a>\n\t",
           "author": "huangjinjiang20",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "你的 AI 记忆，凭什么被平台锁定？ MIP：一个让 AI 记忆可移植的开放标准",
-          "link": "https://www.v2ex.com/t/1197152#reply0",
-          "pubDate": "2026-03-10T07:23:20.000Z",
-          "content": "\n\t<p>一个关于 AI 记忆可移植性的思考，以及一个极简开放标准的提案。</p>\n<hr/>\n<h2>从一个烦人的场景说起</h2>\n<p>你花了三个月教 ChatGPT 了解你：</p>\n<ul>\n<li>你是前端工程师，用 React 和 TypeScript</li>\n<li>你喜欢简洁直接的回复，讨厌废话</li>\n<li>你写代码注释用中文，变量名用英文</li>\n<li>你习惯先出方案再动手</li>\n</ul>\n<p>ChatGPT 确实越来越懂你了。直到有一天，你决定试试 Claude 。</p>\n<p>打开 Claude 的对话框，一片空白。它不知道你是谁，不知道你喜欢什么，也不知道你的任何习惯。你不得不再教一遍。</p>\n<p>换到 Gemini ？再来一遍。用本地模型？再来一遍。</p>\n<p>你的 AI 记忆，今天基本是平台私产，而不是你的资产。</p>\n<hr/>\n<h2>这不是功能缺失，而是结构性问题</h2>\n<p>你可能会觉得，这不就是各家 AI 产品迟早都会补上的能力吗？</p>\n<p>不完全是。</p>\n<p>问题不在于厂商有没有能力做记忆，而在于它们没有动力把记忆做成可携带的。</p>\n<ul>\n<li>OpenAI 没有动力让 ChatGPT 的记忆被 Claude 直接利用</li>\n<li>Google 没有动力让 Gemini 的用户画像迁移到别处</li>\n<li>每个平台都天然倾向于把“越来越懂你”变成自己的护城河</li>\n</ul>\n<p>所以，真正缺的不是“某一家的记忆功能”，而是一个用户侧、平台外的可移植标准。</p>\n<hr/>\n<h2>MIP 的想法很简单</h2>\n<p>我做了一个很小的提案，叫 MIP ，Memory Interoperability Protocol 。</p>\n<p>它的核心可以用一句话说完：</p>\n<blockquote>\n<p>在你的电脑上维护一个 <code>~/.mip/memory.json</code>，任何 AI 工具都可以读取它来了解你。</p>\n</blockquote>\n<p>没有守护进程，没有数据库，没有远程服务。</p>\n<p>就一个文件。</p>\n<p>例如：</p>\n<pre><code class=\"language-json\">{\n  \"version\": \"0.1.0\",\n  \"identity\": {\n    \"name\": \"张三\",\n    \"language\": \"zh-CN\",\n    \"role\": \"前端工程师\",\n    \"tech_stack\": [\"React\", \"TypeScript\", \"Next.js\"]\n  },\n  \"preferences\": {\n    \"response_style\": \"concise\",\n    \"formality\": \"casual\",\n    \"code_comments_language\": \"zh-CN\",\n    \"variable_names_language\": \"en\"\n  },\n  \"custom\": {\n    \"编辑器\": \"VS Code\",\n    \"关注领域\": [\"AI 应用开发\", \"Web3\"]\n  }\n}\n</code></pre>\n<p>任何 AI 产品要接入它，读取成本只有几行代码：</p>\n<pre><code class=\"language-python\">import json, pathlib\npath = pathlib.Path.home() / \".mip\" / \"memory.json\"\nmemory = json.loads(path.read_text()) if path.exists() else {}\n</code></pre>\n<p>这不是“让 AI 拥有完整人格档案”的终局方案。</p>\n<p>MIP v0.1 只想先解决一个很具体的问题：把显式的用户偏好，从平台私有数据，变成用户自己持有的标准化数据。</p>\n<hr/>\n<h2>它和 <code>.cursorrules</code>、<code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code> 有什么不同？</h2>\n<p>这是最常见的问题。</p>\n<p>确实，今天已经有很多本地规则文件：</p>\n<ul>\n<li>Cursor 有 <code>.cursorrules</code></li>\n<li>Claude Code 有 <code><a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a></code></li>\n<li>其他工具也有各自的全局规则、偏好文件</li>\n</ul>\n<p>这些文件当然有价值，而且本质上都在帮助 AI 了解你。</p>\n<p>但它们有两个问题：</p>\n<p>第一，它们是工具私有约定，不是跨工具约定。</p>\n<p>第二，它们更像“用户写给某个工具的操作手册”，而不是一个所有工具都能稳定读取的通用用户记忆格式。</p>\n<p>MIP 在 v0.1 阶段做的事其实很克制：</p>\n<ul>\n<li>统一路径：<code>~/.mip/memory.json</code></li>\n<li>统一格式：JSON Schema</li>\n<li>统一范围：身份、偏好、自定义字段</li>\n</ul>\n<p>所以如果一定要类比，我更愿意把它叫做：</p>\n<blockquote>\n<p><code>.editorconfig</code> for AI memory</p>\n</blockquote>\n<p>没有什么魔法，只是定义一个所有工具都可以认同的最小公约数。</p>\n<hr/>\n<h2>为什么不是直接用 Mem0 、MemGPT 、Letta ？</h2>\n<p>因为它们和 MIP 解决的是不同层的问题。</p>\n<ul>\n<li>Mem0 、Letta 、各种长期记忆框架，是实现</li>\n<li>MIP 想做的是协议</li>\n</ul>\n<p>它们可以完全兼容，甚至应该兼容。</p>\n<p>如果未来某个记忆系统愿意把用户偏好导出成 MIP ，或者把 MIP 作为导入导出格式，那恰恰说明这个协议是有价值的。</p>\n<p>协议层的意义，不在于替代实现，而在于让不同实现之间开始有可交换的数据格式。</p>\n<p>HTTP 不等于 Nginx ，<code>.editorconfig</code> 也不等于 VS Code 。</p>\n<p>MIP 想做的是那个更靠底层的“共同语言”。</p>\n<hr/>\n<h2>MIP 和 MCP 的关系</h2>\n<p>如果你知道 MCP ，那可以用一句话理解它们的关系：</p>\n<ul>\n<li>MCP 解决的是：AI 能调用什么工具</li>\n<li>MIP 解决的是：AI 了解谁</li>\n</ul>\n<p>一个偏工具接入，一个偏用户记忆。</p>\n<p>它们不是竞争关系，而是互补关系。</p>\n<p>MIP 完全可以脱离 MCP 独立存在，因为读本地文件本身就够简单。</p>\n<p>但对于支持 MCP 的客户端，MIP 也可以通过 MCP server 暴露出来，这样工具接入会更方便。我在仓库里已经放了一个概念验证版本。</p>\n<hr/>\n<h2>这是不是伪需求？</h2>\n<p>如果只看 2026 年，当下它确实不是最刚性的需求。</p>\n<p>很多时候，你自己写一段系统提示词，也能解决 80% 的问题。</p>\n<p>但我认为这是一个典型的“现在弱需求，未来强需求”的方向。</p>\n<p>因为 AI 记住你的，不会永远只是：</p>\n<ul>\n<li>你喜欢简洁回复</li>\n<li>你用 TypeScript</li>\n<li>你写注释用中文</li>\n</ul>\n<p>再往后，AI 会逐渐理解：</p>\n<ul>\n<li>你最近在忙什么项目</li>\n<li>你做决策的方式是什么</li>\n<li>你在哪些领域需要更多解释</li>\n<li>你过去几个月的工作脉络是什么</li>\n</ul>\n<p>到那个阶段，所谓“换一个 AI 平台”，丢失的不再是一些偏好，而是一个系统对你的长期理解。</p>\n<p>那时候，“记忆可携带”更像一种基础数据权利，而不是可有可无的小功能。</p>\n<p>好的标准，往往是在需求全面爆发之前建立的。</p>\n<hr/>\n<h2>先别把愿景讲得太大</h2>\n<p>这也是我刻意想收住的一点。</p>\n<p>MIP v0.1 不是在宣称：</p>\n<ul>\n<li>已经解决了 AI 长期记忆</li>\n<li>已经解决了自动画像</li>\n<li>已经解决了权限、安全、同步</li>\n</ul>\n<p>恰恰相反，v0.1 是有意做小的。</p>\n<p>它只处理显式的、用户愿意手写的那部分记忆：</p>\n<ul>\n<li>我是谁</li>\n<li>我偏好什么</li>\n<li>我希望 AI 怎么和我协作</li>\n</ul>\n<p>先把最容易共识、最容易落地、最容易被工具采纳的那一层定下来。</p>\n<p>如果连这层都没有，后面的自动写入、权限控制、跨设备同步都无从谈起。</p>\n<hr/>\n<h2>真正可能先采用它的是谁？</h2>\n<p>MIP 不是在等大厂突然良心发现。</p>\n<p>它最可能先被下面几类东西采用：</p>\n<ul>\n<li>IDE 里的 AI Agent</li>\n<li>本地代码助手</li>\n<li>开源 AI 客户端</li>\n<li>MCP 客户端</li>\n<li>本地模型工作流</li>\n</ul>\n<p>因为这些工具本来就运行在你的机器上，读取本地文件的成本极低，也更有动力支持开放标准。</p>\n<p>所以 MIP 的现实路径不是“先说服 OpenAI 和 Google”。</p>\n<p>而是：</p>\n<blockquote>\n<p>先让开源工具和本地工具支持，先形成一个用户侧事实标准。</p>\n</blockquote>\n<hr/>\n<h2>安全问题不能后补</h2>\n<p>把用户画像存在本地，当然会有安全问题。</p>\n<p>所以我对 MIP 的态度是分层推进，而不是一步到位。</p>\n<p>v0.1 只建议存储低敏感、显式、用户手写的结构化偏好。它更接近 <code>.gitconfig</code> 或 <code>.editorconfig</code>，而不是心理档案。</p>\n<p>更深层的画像、自动写入、加密、权限控制，应该等后续版本在模型和机制上都更成熟之后再进入标准。</p>\n<p>如果没有安全设计，MIP 不应该贸然走向“自动累积人格画像”。</p>\n<hr/>\n<h2>我为什么还想把它提出来？</h2>\n<p>因为没有标准的领域，用户连选择都没有。</p>\n<p>MIP 现在当然还很早。它更像一个种子，而不是已经成为行业标准的东西。</p>\n<p>但我觉得这个问题值得先被提出来：</p>\n<blockquote>\n<p>如果 AI 越来越懂你，那么“它对你的记忆”到底应该属于平台，还是属于你？</p>\n</blockquote>\n<p>我的答案是：至少应该存在一种属于用户自己的开放格式。</p>\n<p>MIP 不一定是最终答案。</p>\n<p>但如果没有人先把这个问题做成一个可讨论、可实现、可集成的最小提案，那么答案永远不会出现。</p>\n<hr/>\n<h2>现在你可以做什么</h2>\n<ol>\n<li>给自己建一个 <code>~/.mip/memory.json</code></li>\n<li>如果你在做 AI 工具，试着加一个 MIP read support</li>\n<li>如果你觉得这个方向值得讨论，给仓库一个 star 或提个 issue</li>\n<li>如果你觉得它是伪需求，欢迎直接挑战</li>\n</ol>\n<p>仓库地址：</p>\n<p><a href=\"https://github.com/UnCooe/MIP\" rel=\"nofollow\">https://github.com/UnCooe/MIP</a></p>\n<hr/>\n<p>MCP 让 AI 的“手”更标准化，MIP 想讨论的是 AI 的“脑”里那部分用户记忆，是否也该有一个用户侧、开放的最小标准。</p>\n<p>这件事未必立刻爆发，但我认为值得现在就开始做。</p>\n\n\t",
-          "author": "bimeixishuai",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply75",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -433,16 +497,6 @@
           "pubDate": "2026-03-09T21:41:52.000Z",
           "content": "\n\t<p>2024 年 11 月玄学注册成功的，但放着一直吃灰没管。上个月 1Password 宣布涨价于是折腾起了自建 vaultwarden ，正好翻到自己还有甲骨文的账户，遂登陆创建虚拟机。arm 的免费 vm 一直注册不到，google 之后发现免费的池子很小，升级到 PAYG 会容易很多。但是用了很多张卡都不能升级(abc)，于是填了个工单之后开了个 micro vm 挂到域名上用。上周发现备份很久没有更新了，再次登陆甲骨文控制台发现无法登陆。于是再次邮件联系，今天刚收到消息邮件：</p>\n<blockquote>\n<p>Hello,</p>\n<p>Thank you for contacting us regarding your account. We have escalated your account for review and it was determined that it will remain closed. This decision is final.</p>\n<p>Regards,</p>\n<p>Customer Service Agent</p>\n</blockquote>\n<p>真服了，想给钱都不行。一怒之下转到美区 GCP 的 micro-e2 ，1GB 内存+30GB 硬盘也够用了，从注册到创建也是一气呵成。\n甲骨文一生黑。</p>\n\n\t",
           "author": "kaki1lI",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "最近一段时间，我调整了我利用 AI 学习知识的方式，感觉很好，分享一下",
-          "link": "https://www.v2ex.com/t/1197110#reply3",
-          "pubDate": "2026-03-10T05:35:03.000Z",
-          "content": "\n\t以前我利用 AI 学习的方式，更多的是我在提问，让 AI 提供相关进阶学习资料，然后我去学习，然后接着提问。当然，少不了日常笔记总结，以及 demo 级别代码实践和验证。<br /><br />最近我看 ChatGPT 加了 study and learn 模式，我干脆就仿造这个，让 ChatGPT 通过提问以及纠错的方式，来考察我对某个技术领域的理解程度。我觉得还蛮惊喜的，比我之前光提问，效果好上不少。<br /><br />具体，我想了下，为什么感觉上效果会好：<br /><br />1. 费曼学习法，我变成主动提供输入的人<br /><br />2. 另外，我学习的知识内容，不仅仅局限于我个人的理解，因为不再是我问什么，ChatGPT 回答什么，ChatGPT 会主动提供很多输入<br /><br />3. ChatGPT 可以帮我打磨细节，很多我口语化或者不够深入本质的回答，ChatGPT 会告诉我，哪些需要调整描述，哪些是我没理解到位导致的<br /><br />我相信应该有很多人已经是这么使用的了，但是我还是分享出来我的个人感受，来一起讨论一下\n\t",
-          "author": "swananan",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -508,21 +562,31 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
-          "link": "https://www.v2ex.com/t/1196766#reply28",
-          "pubDate": "2026-03-09T02:42:02.000Z",
-          "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
-          "author": "YanSeven",
+          "title": "Antigravity 为啥能这么垃圾啊？",
+          "link": "https://www.v2ex.com/t/1197042#reply14",
+          "pubDate": "2026-03-10T02:10:01.000Z",
+          "content": "\n\t<p>去年 12 月底花了差不多 700 块入的 Google AI Pro 会员，当时心想赚麻了，毕竟 Google 还是值得信赖的。结果先是额度大砍，后面还不停的调整额度限制一点都不透明， 后面更新一次比一次难用，今天更新了 1.20.5, 结果呢内存泄漏直接 OOM 了。'terminated due to error'忍忍也就罢了，现在是完全用不了了</p>\n\n\t",
+          "author": "burnsby",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "阿里 qwen3.5 模型有个严重 bug",
-          "link": "https://www.v2ex.com/t/1196976#reply11",
+          "link": "https://www.v2ex.com/t/1196976#reply12",
           "pubDate": "2026-03-09T14:07:22.000Z",
           "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
           "author": "wsseo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "碎碎念：什么时候硬件+llm 的发展能让码农像部署 nas 一样部署一个家用 llm",
+          "link": "https://www.v2ex.com/t/1196766#reply28",
+          "pubDate": "2026-03-09T02:42:02.000Z",
+          "content": "\n\t有生之年有可能吗。<br /><br />1. 硬件价格打下来。<br />2. LLM 开源模型能媲美顶尖模型\n\t",
+          "author": "YanSeven",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -543,16 +607,6 @@
           "pubDate": "2026-03-09T06:09:11.000Z",
           "content": "\n\t分应用代理我使用白名单模式，勾选了所有名字里带 google 和 play 的服务，也勾选了 Gemini ，同样的设置小米已经可以正常使用 Gemini 了，但是国行三星不可以，发文字消息提示需要重新登录，Gemini Live 直接报错，把所有跟定位相关的服务也勾选，也没用，Gemini 还是用不了。<br /><br />三星反过来使用黑名单模式，只把国内常见的中文名字的 APP 比如微信淘宝京东这些加入不走代理的黑名单，Gemini 就能正常使用。所以搞不清楚白名单模式的话还要放行哪些东西？\n\t",
           "author": "bzkmsjy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 为啥能这么垃圾啊？",
-          "link": "https://www.v2ex.com/t/1197042#reply12",
-          "pubDate": "2026-03-10T02:10:01.000Z",
-          "content": "\n\t<p>去年 12 月底花了差不多 700 块入的 Google AI Pro 会员，当时心想赚麻了，毕竟 Google 还是值得信赖的。结果先是额度大砍，后面还不停的调整额度限制一点都不透明， 后面更新一次比一次难用，今天更新了 1.20.5, 结果呢内存泄漏直接 OOM 了。'terminated due to error'忍忍也就罢了，现在是完全用不了了</p>\n\n\t",
-          "author": "burnsby",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -648,6 +702,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "关于 cc 使用模型的问题",
+          "link": "https://www.v2ex.com/t/1196787#reply5",
+          "pubDate": "2026-03-09T03:22:23.000Z",
+          "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
+          "author": "wnzhyee",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "小米摄像头权限",
           "link": "https://www.v2ex.com/t/1196719#reply36",
           "pubDate": "2026-03-09T01:10:35.000Z",
@@ -659,7 +723,7 @@
         },
         {
           "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
-          "link": "https://www.v2ex.com/t/1196671#reply8",
+          "link": "https://www.v2ex.com/t/1196671#reply9",
           "pubDate": "2026-03-08T13:27:31.000Z",
           "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
           "author": "seers",
@@ -669,7 +733,7 @@
         },
         {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply144",
+          "link": "https://www.v2ex.com/t/1196011#reply145",
           "pubDate": "2026-03-05T04:33:26.000Z",
           "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
           "author": "v2exgo",
@@ -706,18 +770,58 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "非 8E Gen5 但想 root 的小米用户也建议暂缓升级",
+          "link": "https://www.v2ex.com/t/1196845#reply3",
+          "pubDate": "2026-03-09T06:26:55.000Z",
+          "content": "\n\t<p>先前的<a href=\"https://www.v2ex.com/t/1196673\" rel=\"nofollow\">讨论</a>中已经有不少人意识到，尽管彻底解锁利用的是 8E Gen5 的特性，但其它漏洞已经足以在不解锁的情况下获取 root 权限。<br/>\n<del>直播“小米高考”得了 30 分的</del>KernelSU 的作者已经表示，萌生了重新买一台小米的冲动。同时也证实前述观点，指出现有的漏洞能为 Android 系统带来一种类似 iOS 的越狱模式，可以在不解锁手机的前提下直接获取并使用 Root 功能。KernelSU 团队也正在考虑为这种“越狱模式”添加特别的支持。<br/>\n所以，对于 HyperOS 时代非 8E Gen5 机型但想 root 的小米用户，也建议暂缓升级、<strong>关闭自动升级相关选项</strong>，等待社区进一步的研究以完善具体方法、明确适用范围。</p>\n\n\t",
+          "author": "LnTrx",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "开源 AI 设计神器，一键导出种代码！",
+          "link": "https://www.v2ex.com/t/1196810#reply7",
+          "pubDate": "2026-03-09T04:34:50.000Z",
+          "content": "\n\tOpenPencil 迎来了 v0.3.0：彻底打通了从设计到代码的“最后一公里”，真正的 Design-as-Code 。<br /><br />👁️ 给 AI 装上“眼睛”（视觉参考管线）<br /><br />看图抄作业： 直接扔一张参考图给 AI ，它就能秒懂你的意图，在画布上实时生成对应的 UI 结构。<br /><br />自带质检员：AI 画完之后，还会触发底层的自动校验系统，给自己打分并修正布局偏差。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/hYiGF8N.gif\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/hYiGF8N.gif\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />💻 丧心病狂的 8 大框架代码导出 这绝对是本次更新的王炸！画完图还要手敲代码？不存在的。 现在可以直接一键导出生产级代码，除了原有的 React 和 HTML ，这次我们一口气加上了：<br /><br />React &amp; Vue &amp; Svelte + Tailwind （前端老哥狂喜）<br /><br />SwiftUI &amp; React Native &amp; Flutter &amp; Jetpack Compose （开发 iOS/macOS 或跨端 App 的独立开发者，这波绝对让你们爽飞，直接复制粘贴就能跑原生界面！）<br /><br />📐 补齐专业短板：原生布尔运算 现在 OpenPencil 已经不仅仅是个大模型套壳了，它支持真正的矢量布尔运算（联集/减去/交集）。按下快捷键 ⌘⌥U/S/I ，复杂的图形组合瞬间搞定。<br /><br />🖥️ 桌面端丝滑体验 全平台原生支持双击打开 .op 文件。配合动态呼吸灯边框（ Agent Badge Glow ），你在本地看 AI 多线程画图的赛博朋克感再次飙升！\n\t",
+          "author": "finiking",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI 让折腾变得更容易并且快乐了（Vim 和 Linux ）",
+          "link": "https://www.v2ex.com/t/1196595#reply50",
+          "pubDate": "2026-03-08T03:20:25.000Z",
+          "content": "\n\t<p>以前折腾过 vim ，一方面是因为装 b ，一方面是因为好玩，花很多时间去折腾 Youcompleteme ，后来尝试 spf13 ，搞来搞去最后觉得没意思，浪费了太多时间最后的效果也不好，bug 多多，就用了 Windows ，上了 JetBrains 全家桶。随后的几年期间，我觉得“最好的 vim 是活在各种 IDE 里的 vim”。</p>\n<h1>从 JetBrains 到 Vim</h1>\n<p>那时候还是学生，所以可以免费获得全家桶的学生版。后来进入互联网公司工作期间主力用过一两年 Ubuntu 工作，最后换了 MacOS 一直用到现在，但是使用 JetBrains 的习惯一直保持下来。工作的五年间用了一段时间免费的版本和从朋友那里“借用”的版本，最后索性直接买。一开始是买的国区，后面发现日区便宜就转到日区。这么买了三四年，从公司离职之后 GAP 了两年多一直到现在，这两年之间我还一直保持续费。到了 2025 年秋季的时候，我还在试着用里面的 Junie 写点代码，确实也是给了第一次 vibe coding 的我一点点震撼。</p>\n<p>进入 2026 之后，coding agent 爆发，又找到了可以稳定续订 ChatGPT 的路子。我计算了一下，觉得如果未来是 coding agent 写大部分代码，手动编辑少量代码的时代，那么我对 IDE 的需求其实没有那么重了，不如就把用来买 IDE 的钱拿去买 OpenAI 的服务，再借助 AI 花上一两天，打磨出一个趁手的轻量化编辑工具。</p>\n<p>于是我就这样做了。用一两天，借助 ChatBot 帮我搜集资料，根据我的需求让它告诉我我需要什么样的 nvim 插件。最后折腾出来一个我自己完全可用、好用的配置，为此还浅浅学会了一点点 Lua 。不得不说，折腾还是很快乐的，跟 AI 一起折腾那是双倍的快乐。</p>\n<p>新生的 nvim config 很好用，bug 不多，快捷键完全是我自己设计的。</p>\n<p>这个 repo 比过去花上一两周折腾出来的东西更好用，想要什么功能都有插件，并且可以借助 AI 的能力轻易让插件跑起来。遇到问题不需要读大量文档就能解决，过去需要折腾 10 个插件才能达到的“好用阈值”，到现在并没有降低，还是 10 个，但是过去折腾 10 个插件需要 10 天的话，现在一天半天就能搞定。这种折腾就对耐心和体力的要求大大降低了。</p>\n<p>当然这种体验不仅仅是 AI 带来的，更多的是技术的发展。在十多年之前，vscode 还没有（或者刚刚）发布，没有 LSP ，没有 treesitter ，补全用的是 ctags ，Youcompleteme 发明了 ycmd + 各种语言的补全后端，C++ 用 clang ，Java 用 Eclim （其实就是用了 Eclipse 的补全能力）。</p>\n<p>自己折腾的也比“拿来主义”的 spf13-like 的 config repo 好用。人家的毕竟是人家的，每个人在工作了那么多年之后都有一套自己趁手的工作流和工具，很难改。自己从零搞一个就是更加符合自己的习惯。</p>\n<blockquote>\n<p>（可能可以搞一个帮助新手初始化 nvim 的 skills ，让新手更加快地搞定自己的 nvim?）</p>\n</blockquote>\n<h1>Archlinux</h1>\n<p>除了折腾 nvim 之外，我还第一次成功地自己安装了 Archlinux 。</p>\n<p>上一次我自己安装 Arch 以失败告终，那是 2014 年左右吧，在折腾了好久，所有的步骤都执行完毕了之后，无论如何都进不去系统。过了好久之后才知道正好是我安装的当时，Archlinux 做了一个变更，把某个系统级目录（类似 /usr/bin ，具体是什么记不清了）移动了一个位置，导致所有使用那个版本的镜像的新装用户都会挂掉。已经折腾了那么久又遇到那么离谱的事情，这给我当时幼小的心灵带来了巨大的伤害，于是转向了 Ubuntu 。</p>\n<p>如果这个事情放到现在，我应该不会倒在这一步。因为可能过去跑完所有安装流程需要研究一两天，现在用 AI 只需要几个小时，等到遇到难题的时候，还剩有充足的精力去解决这些问题。</p>\n<p>本文全程没有用 AI ，很久没有输出这么大段的文字了。最近找工作不顺利，写点东西缓解一下压力，感谢各位观看。</p>\n\n\t",
+          "author": "JamesMackerel",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "antigravity 现在用 opus 容易出错, sonnet 就好很多, 什么情况",
+          "link": "https://www.v2ex.com/t/1196890#reply2",
+          "pubDate": "2026-03-09T07:59:52.000Z",
+          "content": "\n\t<p>大家使用稳定吗</p>\n<p>搞不懂了阿, 现在只能用 sonnet 算了, opus 没搞几下就出错了, agent error</p>\n\n\t",
+          "author": "iorilu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-10T07:35:35.451Z",
+      "lastUpdated": "2026-03-10T08:31:16.068Z",
       "items": [
         {
-          "title": "“苦”中作乐也是一种必需的能力",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3234816&do=blog&id=1525031",
-          "pubDate": "2026-03-09 01:40:59",
+          "title": "AI时代创业新态势：一人公司",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525030",
+          "pubDate": "2026-03-09 01:25:52",
           "content": "",
           "author": "",
           "categories": [],
@@ -725,9 +829,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "AI时代创业新态势：一人公司",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525030",
-          "pubDate": "2026-03-09 01:25:52",
+          "title": "“苦”中作乐也是一种必需的能力",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3234816&do=blog&id=1525031",
+          "pubDate": "2026-03-09 01:40:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -775,9 +879,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "回忆我与成都理工大学的结缘",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=673617&do=blog&id=1524968",
-          "pubDate": "2026-03-09 07:29:07",
+          "title": "科学史中的教训：第四章 波动的困惑：杨氏双缝实验的二十年沉默",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525021",
+          "pubDate": "2026-03-09 11:32:32",
           "content": "",
           "author": "",
           "categories": [],
@@ -785,9 +889,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第四章 波动的困惑：杨氏双缝实验的二十年沉默",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525021",
-          "pubDate": "2026-03-09 11:32:32",
+          "title": "回忆我与成都理工大学的结缘",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=673617&do=blog&id=1524968",
+          "pubDate": "2026-03-09 07:29:07",
           "content": "",
           "author": "",
           "categories": [],
@@ -919,7 +1023,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-10T07:35:38.958Z",
+      "lastUpdated": "2026-03-10T08:31:18.795Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1126,7 +1230,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-10T07:35:41.248Z",
+      "lastUpdated": "2026-03-10T08:31:21.159Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1163,6 +1267,16 @@
           "link": "https://movie.douban.com/review/17497334/",
           "pubDate": "Tue, 10 Mar 2026 04:02:06 GMT",
           "content": "\n一條评论: 极度寒冷 (https://movie.douban.com/subject/1316499/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.dou...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
+          "link": "https://movie.douban.com/review/17497400/",
+          "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
+          "content": "\n发条辰评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3b6ut&#34;,&#34;text&#34;:&#34;时隔3年，吴炜伦导演携新作《夜王》再次回归香港春节档。此次《夜王》除了维持《毒舌律师》的基本班底外，主演加入了吴炜伦儿时的偶像郑秀文，编剧团队加入了获多次金像奖最佳编剧提名的何妙祺，主演阵容引入吴炜伦儿时偶像郑秀文，编剧团...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1269,16 +1383,6 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
-          "link": "https://movie.douban.com/review/17497400/",
-          "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
-          "content": "\n发条辰评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3b6ut&#34;,&#34;text&#34;:&#34;时隔3年，吴炜伦导演携新作《夜王》再次回归香港春节档。此次《夜王》除了维持《毒舌律师》的基本班底外，主演加入了吴炜伦儿时的偶像郑秀文，编剧团队加入了获多次金像奖最佳编剧提名的何妙祺，主演阵容引入吴炜伦儿时偶像郑秀文，编剧团...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
           "title": "你们能不能不跳粪坑？ (评论: 非穷尽列举)",
           "link": "https://movie.douban.com/review/17491932/",
           "pubDate": "Fri, 06 Mar 2026 15:13:50 GMT",
@@ -1334,20 +1438,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-10T07:35:42.391Z",
+      "lastUpdated": "2026-03-10T08:31:22.241Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-10T07:35:42.449Z",
+      "lastUpdated": "2026-03-10T08:31:22.434Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-10T07:35:43.004Z",
+      "lastUpdated": "2026-03-10T08:31:23.254Z",
       "items": [
         {
           "title": "无题",
