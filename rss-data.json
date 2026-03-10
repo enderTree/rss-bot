@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-10T12:39:19.254Z",
+  "lastUpdated": "2026-03-10T13:56:19.680Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-10T12:39:06.072Z",
+      "lastUpdated": "2026-03-10T13:56:05.555Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-10T12:39:06.989Z",
+      "lastUpdated": "2026-03-10T13:56:06.865Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-10T12:39:07.177Z",
+      "lastUpdated": "2026-03-10T13:56:07.029Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-10T12:39:09.059Z",
+      "lastUpdated": "2026-03-10T13:56:08.797Z",
       "items": [
         {
           "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
@@ -309,8 +309,78 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-10T12:39:09.265Z",
+      "lastUpdated": "2026-03-10T13:56:08.945Z",
       "items": [
+        {
+          "title": "为什么这次“龙虾🦞”能这么火？？各方面感觉都在往里面拱火儿。",
+          "link": "https://www.v2ex.com/t/1197227#reply0",
+          "pubDate": "2026-03-10T13:54:55.000Z",
+          "content": "\n\t看到有几个市里面的政策在出。<br />云厂商在宣传一键部署和云电脑/云服务器。<br />大模型厂商在出套餐卖 token 。<br />公共平台热搜在涨。<br />报道里有上门安装赚几十万这种新闻。<br />公众号/知识星球/这些卖课的在取 UC 震惊体引流。<br /><br />这玩意儿在“合规性”和“生产力落地上”称得上这么大的阵仗吗。<br />没有顶级的模型在后面撑着不就一滩泥巴吗。<br /><br />先不说 token 耗的多不多。<br />真有拿免费的或者低价的类似 glm 这种模型的 api 干出正经活儿的吗。\n\t",
+          "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
+          "link": "https://www.v2ex.com/t/1197168#reply28",
+          "pubDate": "2026-03-10T08:11:30.000Z",
+          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
+          "author": "zitup",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
+          "link": "https://www.v2ex.com/t/1197190#reply26",
+          "pubDate": "2026-03-10T09:59:01.000Z",
+          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
+          "author": "Danswerme",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "分享一个完全免费的中国 A 股数据获取库",
+          "link": "https://www.v2ex.com/t/1197162#reply39",
+          "pubDate": "2026-03-10T08:00:14.000Z",
+          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
+          "author": "sunfinv",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有写 Rust 的像我一样，代码手动写时用 Zed， AI 写时用 TraeCN，调试、Git、翻代码在 JetBrains 里的吗？",
+          "link": "https://www.v2ex.com/t/1197041#reply17",
+          "pubDate": "2026-03-10T02:09:52.000Z",
+          "content": "\n\t<p>Zed 的代码编辑真的很快很流畅，但是除此之外都拉跨的不行</p>\n<p>TraeCN 里面白嫖 AI ，但是配合着 RustAnalyzer 卡卡的</p>\n<p>Jetbrains 的 Rustrover ，代码导航、调试、Git 是最好用的，但是代码编辑比不上 Zed ，AI 不如 TraeCN 可以白嫖</p>\n<p>虽然折腾点，但是依旧感谢这些工具免费赏我口饭吃🙏🙏🙏</p>\n\n\t",
+          "author": "cby0414",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "codex 中转站今天崩溃问题",
+          "link": "https://www.v2ex.com/t/1197112#reply29",
+          "pubDate": "2026-03-10T05:39:34.000Z",
+          "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
+          "author": "forrestgump",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "吐槽一下 DeepSeek 余额清空",
+          "link": "https://www.v2ex.com/t/1197048#reply81",
+          "pubDate": "2026-03-10T02:22:55.000Z",
+          "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
+          "author": "ingrowthly",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "国产 coding plan 哪个最推荐？",
           "link": "https://www.v2ex.com/t/1197191#reply5",
@@ -342,61 +412,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "有写 Rust 的像我一样，代码手动写时用 Zed， AI 写时用 TraeCN，调试、Git、翻代码在 JetBrains 里的吗？",
-          "link": "https://www.v2ex.com/t/1197041#reply16",
-          "pubDate": "2026-03-10T02:09:52.000Z",
-          "content": "\n\t<p>Zed 的代码编辑真的很快很流畅，但是除此之外都拉跨的不行</p>\n<p>TraeCN 里面白嫖 AI ，但是配合着 RustAnalyzer 卡卡的</p>\n<p>Jetbrains 的 Rustrover ，代码导航、调试、Git 是最好用的，但是代码编辑比不上 Zed ，AI 不如 TraeCN 可以白嫖</p>\n<p>虽然折腾点，但是依旧感谢这些工具免费赏我口饭吃🙏🙏🙏</p>\n\n\t",
-          "author": "cby0414",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-          "link": "https://www.v2ex.com/t/1197190#reply19",
-          "pubDate": "2026-03-10T09:59:01.000Z",
-          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
-          "author": "Danswerme",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "最近一段时间，我调整了我利用 AI 学习知识的方式，感觉很好，分享一下",
           "link": "https://www.v2ex.com/t/1197110#reply7",
           "pubDate": "2026-03-10T05:35:03.000Z",
           "content": "\n\t以前我利用 AI 学习的方式，更多的是我在提问，让 AI 提供相关进阶学习资料，然后我去学习，然后接着提问。当然，少不了日常笔记总结，以及 demo 级别代码实践和验证。<br /><br />最近我看 ChatGPT 加了 study and learn 模式，我干脆就仿造这个，让 ChatGPT 通过提问以及纠错的方式，来考察我对某个技术领域的理解程度。我觉得还蛮惊喜的，比我之前光提问，效果好上不少。<br /><br />具体，我想了下，为什么感觉上效果会好：<br /><br />1. 费曼学习法，我变成主动提供输入的人<br /><br />2. 另外，我学习的知识内容，不仅仅局限于我个人的理解，因为不再是我问什么，ChatGPT 回答什么，ChatGPT 会主动提供很多输入<br /><br />3. ChatGPT 可以帮我打磨细节，很多我口语化或者不够深入本质的回答，ChatGPT 会告诉我，哪些需要调整描述，哪些是我没理解到位导致的<br /><br />我相信应该有很多人已经是这么使用的了，但是我还是分享出来我的个人感受，来一起讨论一下\n\t",
           "author": "swananan",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "分享一个完全免费的中国 A 股数据获取库",
-          "link": "https://www.v2ex.com/t/1197162#reply30",
-          "pubDate": "2026-03-10T08:00:14.000Z",
-          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
-          "author": "sunfinv",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-          "link": "https://www.v2ex.com/t/1197168#reply25",
-          "pubDate": "2026-03-10T08:11:30.000Z",
-          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-          "author": "zitup",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "codex 中转站今天崩溃问题",
-          "link": "https://www.v2ex.com/t/1197112#reply27",
-          "pubDate": "2026-03-10T05:39:34.000Z",
-          "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
-          "author": "forrestgump",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -422,11 +442,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "吐槽一下 DeepSeek 余额清空",
-          "link": "https://www.v2ex.com/t/1197048#reply80",
-          "pubDate": "2026-03-10T02:22:55.000Z",
-          "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
-          "author": "ingrowthly",
+          "title": "win11 对比 ubuntu，是真的拉胯",
+          "link": "https://www.v2ex.com/t/1196703#reply80",
+          "pubDate": "2026-03-08T19:14:34.000Z",
+          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
+          "author": "Donahue",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -472,11 +492,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply79",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
+          "title": "继续提问，被封过号的老哥们来解答一下",
+          "link": "https://www.v2ex.com/t/1197128#reply2",
+          "pubDate": "2026-03-10T06:26:15.000Z",
+          "content": "\n\t<p>Claude 在封号的时候 是拉黑你的邮箱？手机号？信用卡号？还是全封？</p>\n<p>我想请朋友帮我开一下 CC 具体想了解下 用同一个手机号/信用卡给不同账号付款 有没有连累他被封的风险？</p>\n\n\t",
+          "author": "craftsmanship",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -487,16 +507,6 @@
           "pubDate": "2026-03-10T07:43:48.000Z",
           "content": "\n\t<p>rt 。\n习惯用 gpt 的服务，但是自己购买的中转站抽风比较严重，看看大家有没有推荐，不需要 api 那种，就是希望登陆上去是一个网页对话就行了，最好聚合 gpt+grok 。</p>\n\n\t",
           "author": "Hhhven",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "继续提问，被封过号的老哥们来解答一下",
-          "link": "https://www.v2ex.com/t/1197128#reply1",
-          "pubDate": "2026-03-10T06:26:15.000Z",
-          "content": "\n\t<p>Claude 在封号的时候 是拉黑你的邮箱？手机号？信用卡号？还是全封？</p>\n<p>我想请朋友帮我开一下 CC 具体想了解下 用同一个手机号/信用卡给不同账号付款 有没有连累他被封的风险？</p>\n\n\t",
-          "author": "craftsmanship",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -513,7 +523,7 @@
         },
         {
           "title": "看见 V 站没人说， JetBrains 也出了个 Agent IDE，叫 Air",
-          "link": "https://www.v2ex.com/t/1197210#reply2",
+          "link": "https://www.v2ex.com/t/1197210#reply3",
           "pubDate": "2026-03-10T11:45:42.000Z",
           "content": "\n\t<p>官网在 air.dev 现在只有 mac 版，可以接入 Codex, Claude ，或者 JetBrains 自家的 Junie 。 </p>\n<p>看了下项目的 Licenses ,有依赖 fleet 一些东西，可能是之前的 fleet 碎土转生了，不过可以确定基本上就是 java 或者 kotlin 写的了，体验我觉得应该会比 electron 好一点，至少我觉得比现在 Codex 桌面要好点。</p>\n<p>然后就是软件还挺美观吧，保持着 Jetbrains 一贯的水准。</p>\n\n\t",
           "author": "thetbw",
@@ -553,7 +563,7 @@
         },
         {
           "title": "Antigravity 为啥能这么垃圾啊？",
-          "link": "https://www.v2ex.com/t/1197042#reply18",
+          "link": "https://www.v2ex.com/t/1197042#reply20",
           "pubDate": "2026-03-10T02:10:01.000Z",
           "content": "\n\t<p>去年 12 月底花了差不多 700 块入的 Google AI Pro 会员，当时心想赚麻了，毕竟 Google 还是值得信赖的。结果先是额度大砍，后面还不停的调整额度限制一点都不透明， 后面更新一次比一次难用，今天更新了 1.20.5, 结果呢内存泄漏直接 OOM 了。'terminated due to error'忍忍也就罢了，现在是完全用不了了</p>\n\n\t",
           "author": "burnsby",
@@ -592,21 +602,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "阿里 qwen3.5 模型有个严重 bug",
-          "link": "https://www.v2ex.com/t/1196976#reply13",
-          "pubDate": "2026-03-09T14:07:22.000Z",
-          "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
-          "author": "wsseo",
+          "title": "想要重构屎山老项目,有成功实践的老哥分享一下经验嘛?",
+          "link": "https://www.v2ex.com/t/1197046#reply23",
+          "pubDate": "2026-03-10T02:13:43.000Z",
+          "content": "\n\t公司的老项目已经立项 5 年多了,用的技术栈还是 vue2 的,ui 框架和周边生态已经不维护了,现在想要升级成 vue3 生态的,需要保持页面逻辑不变,只是改变整体项目的依赖为 vue3 生态的,有人成功重构过吗?会不会有什么坑?\n\t",
+          "author": "crocoBaby",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "想要重构屎山老项目,有成功实践的老哥分享一下经验嘛?",
-          "link": "https://www.v2ex.com/t/1197046#reply22",
-          "pubDate": "2026-03-10T02:13:43.000Z",
-          "content": "\n\t公司的老项目已经立项 5 年多了,用的技术栈还是 vue2 的,ui 框架和周边生态已经不维护了,现在想要升级成 vue3 生态的,需要保持页面逻辑不变,只是改变整体项目的依赖为 vue3 生态的,有人成功重构过吗?会不会有什么坑?\n\t",
-          "author": "crocoBaby",
+          "title": "阿里 qwen3.5 模型有个严重 bug",
+          "link": "https://www.v2ex.com/t/1196976#reply13",
+          "pubDate": "2026-03-09T14:07:22.000Z",
+          "content": "\n\t模型生成的回复中会在中英文混杂的时候，加入多余的空格字符，导致 Edit 失败。<br /><br /><br /><a target=\"_blank\" href=\"/i/FFNAfQ7zl.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 FFNAfQ7zl.png\"><img src=\"//i.v2ex.co/FFNAfQ7zl.png\" class=\"embedded_image\"></a>\n\t",
+          "author": "wsseo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -672,6 +682,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "群晖 Container Manager(Docker)还有啥好玩的",
+          "link": "https://www.v2ex.com/t/1196866#reply8",
+          "pubDate": "2026-03-09T07:28:24.000Z",
+          "content": "\n\t<p>我现在装的有</p>\n<ol>\n<li>Immich （相册）</li>\n<li>navidrome （音乐服务）</li>\n<li>music-tag-web （配合 navidrome 刮削歌曲信息）</li>\n</ol>\n<p>还有没有其他有用的工具推荐？现在闲着就想折腾下</p>\n\n\t",
+          "author": "MisterQ",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "拥抱黑盒：一个研究者 All in AI 的实录与反思",
           "link": "https://www.v2ex.com/t/1196441#reply23",
           "pubDate": "2026-03-06T18:34:55.000Z",
@@ -683,130 +703,10 @@
         },
         {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply146",
+          "link": "https://www.v2ex.com/t/1196011#reply147",
           "pubDate": "2026-03-05T04:33:26.000Z",
           "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
           "author": "v2exgo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用 AI 写代码一个月之后，我开始怀念自己手写的感觉",
-          "link": "https://www.v2ex.com/t/1197174#reply2",
-          "pubDate": "2026-03-10T08:51:46.000Z",
-          "content": "\n\t<p>最近一个月基本全程 Claude Code ，效率确实高了，但有一天突然发现自己看着一段生成的代码，完全不知道它为什么这么写。\n不是看不懂，是没有参与感。\n以前自己写，哪怕是很烂的实现，脑子里是清楚的，出了 bug 大概知道往哪查。现在 AI 一把梭，跑起来了，但那个\"为什么\"是空的。\n最近开始强迫自己做一件事：AI 给出方案之后，不直接 accept ，先在脑子里过一遍，说不清楚逻辑的地方让它解释，直到我能用自己的话复述出来再合进去。\n慢了一点，但感觉找回来了。\n有没有人有类似的感受，我这种方式是不是马上要被 AI 淘汰了？</p>\n\n\t",
-          "author": "zarajade",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "群晖 Container Manager(Docker)还有啥好玩的",
-          "link": "https://www.v2ex.com/t/1196866#reply7",
-          "pubDate": "2026-03-09T07:28:24.000Z",
-          "content": "\n\t<p>我现在装的有</p>\n<ol>\n<li>Immich （相册）</li>\n<li>navidrome （音乐服务）</li>\n<li>music-tag-web （配合 navidrome 刮削歌曲信息）</li>\n</ol>\n<p>还有没有其他有用的工具推荐？现在闲着就想折腾下</p>\n\n\t",
-          "author": "MisterQ",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude code/opencode 多会话管理，大家用啥",
-          "link": "https://www.v2ex.com/t/1196893#reply7",
-          "pubDate": "2026-03-09T08:01:33.000Z",
-          "content": "\n\t<p>终端里的 claude-squad/agent-deck\nweb 界面的有 vibekanban\n还有一些 vscode 里的插件</p>\n<p>另外猜测一个趋势，后面的 vibecoding 都会在云上 7X24 跑？人只需要收到通知时，去 check 下结果，这种情况下，有哪些编程会话工具可选</p>\n\n\t",
-          "author": "hotea",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "claude code， codex， antigravity 这些 AI 工具能用来解决涉及到系统底层的技术问题吗？ rust 项目",
-          "link": "https://www.v2ex.com/t/1196921#reply7",
-          "pubDate": "2026-03-09T09:06:14.000Z",
-          "content": "\n\t<p>最近遇到这样一个问题，我想在 asahi linux 上查看备份到 Proxmox Backup Server 里的目录，于是在 pve9 系统上交叉编译了 proxmox-backup-client ，执行时遇到这样的报错：</p>\n<pre><code>d@d-macbookair:~$ proxmox-backup-client mount host/test test.ppxar ~/mnt/0\nError: unable to read dynamic index 'test.mpxar.didx' - Invalid argument (os error 22)\nd@d-macbookair:~$ \n</code></pre>\n<p>这个报错我几乎已经确定是因为 asahi linux 使用 16KB 的页大小导致的，因为我用 4KB 页的 arm64 虚拟机测试这条命令是正常的，我想修改 proxmox-backup-client 的代码解决这个问题，但我对这个项目不熟悉，而且我一直缺少用 AI 写代码的经验（目前为止我只会用网页版本的 AI 写一些不是很复杂的代码，比如一些 bash 脚本，功能比较独立的 linux 内核模块等)，想试试用 AI 来解决这个问题，但无法估计要花多少钱，也担心 AI 还没有能力解决这类问题，所以在尝试之前想先问一下有经验的 V 友，AI 适合用来解决这类问题吗？</p>\n\n\t",
-          "author": "wniming",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "大家好，分享一个我开发的轻量级 Python 量化回测工具 finquant。",
-          "link": "https://www.v2ex.com/t/1196926#reply17",
-          "pubDate": "2026-03-09T09:13:06.000Z",
-          "content": "\n\t<p>完全开源： <a href=\"https://github.com/finvfamily/finquant\" rel=\"nofollow\">https://github.com/finvfamily/finquant</a></p>\n<h2>特性</h2>\n<ul>\n<li><strong>纯 Python 脚本</strong>：无需数据库、无需服务端，开箱即用</li>\n<li><strong>数据源</strong>：使用 finshare 获取实时股票数据，支持 A 股</li>\n<li><strong>内置策略</strong>：均线交叉、RSI 、MACD 、布林带、双 EMA 等</li>\n<li><strong>仓位控制</strong>：固定仓位、金字塔、倒金字塔、ATR 波动率仓位</li>\n<li><strong>参数优化</strong>：网格搜索参数优化</li>\n</ul>\n<h2>快速开始</h2>\n<pre><code class=\"language-python\">from finquant import get_kline, MACrossStrategy, BacktestEngine\n\n# 获取数据（支持短码）\ndata = get_kline([\"000001\", \"600000\"], start=\"2024-01-01\", end=\"2025-01-01\")\n\n# 创建策略和回测引擎\nengine = BacktestEngine(initial_capital=100000)\nresult = engine.run(data, MACrossStrategy(short_period=5, long_period=20))\n\n# 查看结果\nprint(result.summary())\n</code></pre>\n<h2>仓位控制示例</h2>\n<pre><code class=\"language-python\">from finquant import (\n    BacktestEngine,\n    PyramidPositionSizer,  # 金字塔仓位（浮盈加仓）\n)\n\nengine = BacktestEngine(\n    initial_capital=100000,\n    position_sizer=PyramidPositionSizer(\n        base_ratio=0.2,  # 基础仓位 20%\n        max_ratio=1.0,   # 最大仓位 100%\n        step=0.1,       # 每 10% 浮盈加仓一次\n    ),\n    max_positions=3,     # 最多 3 只持仓\n    max_single_position=0.3,  # 单票最多 30%\n)\n</code></pre>\n<h2>安装</h2>\n<pre><code class=\"language-bash\">git clone https://github.com/finvfamily/finquant.git\ncd finquant\npip install -r requirements.txt\npip install -e .\n</code></pre>\n<h2>官方网站</h2>\n<p><a href=\"https://meepoquant.com\" rel=\"nofollow\">https://meepoquant.com</a></p>\n<hr/>\n<p>欢迎 Star 和 Fork ！</p>\n<hr/>\n\n\t",
-          "author": "sunfinv",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "想了解一下有没有无需联网的 AI 摄像头",
-          "link": "https://www.v2ex.com/t/1196764#reply18",
-          "pubDate": "2026-03-09T02:28:43.000Z",
-          "content": "\n\t<p>最近准备请育儿嫂，为了孩子安全，打算在家里装几路摄像头。\n需求大概是：最好带 AI 人形/动作识别，甚至能做简单的意图判断，这样一旦有异常行为可以及时提醒。\n但我又比较在意隐私，不太想把画面传到云端。如果有那种支持本地算力、可以在机身里直接跑 AI 模型，或者方便自己部署开源模型（比如接到 NAS/小主机上跑算法）的方案，也非常感兴趣。\n想问问大家：\n1 ）现在有没有比较成熟的本地 AI 家用摄像头推荐？\n2 ）如果自己折腾开源模型，整体方案大概怎么搭比较靠谱？</p>\n\n\t",
-          "author": "fingerxie",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "境内阿里云服务器访问 claude、codex 会有危险吗？",
-          "link": "https://www.v2ex.com/t/1196672#reply15",
-          "pubDate": "2026-03-08T13:49:28.000Z",
-          "content": "\n\t<p>如题，买了阿里云 68 一年的境内服务器，装了 openclaw 。现在用的百炼给的免费额度做测试，最终还是想用 claude 、codex ，我闲鱼买了订阅的。</p>\n<p>自己平时日常开发连梯子所以能用，但不确定在阿里云这种境内服务器上挂梯子去连境外模型是否会有危险？比如阿里云会监测发现有流量访问被 ban 的网站？第一次用境内服务器不太懂，诚心求教。</p>\n\n\t",
-          "author": "wayneyang3",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "关于 cc 使用模型的问题",
-          "link": "https://www.v2ex.com/t/1196787#reply5",
-          "pubDate": "2026-03-09T03:22:23.000Z",
-          "content": "\n\t用第三方中转的时候看后台使用日志，我指定了用 opus 但似乎有些任务还是会切换会 haiku 来跑，这是 cc 自己调度的问题还是中转站的策略？\n\t",
-          "author": "wnzhyee",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "小米摄像头权限",
-          "link": "https://www.v2ex.com/t/1196719#reply36",
-          "pubDate": "2026-03-09T01:10:35.000Z",
-          "content": "\n\t<p>最近有个需求，希望家庭成员能在某个时间段的时候，才有某个摄像头的权限。</p>\n<p>这个好像米家没这样的精细权限控制，想到的方案是，调用米家的加入 家庭成员和取消家庭成员的 api ，定时脚本去处理。</p>\n<p>请问各位大佬\n有这样的 open api 吗？还是要抓包？\n别的品牌摄像头有这样的功能吗，能接入米家么。家里都是米家生态。不太想再安装一个 app</p>\n\n\t",
-          "author": "frank1256",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "米系澎湃 OS 手机出二手谷歌账号锁注意事项",
-          "link": "https://www.v2ex.com/t/1196671#reply9",
-          "pubDate": "2026-03-08T13:27:31.000Z",
-          "content": "\n\t<p>最近出了一个 K60 澎湃 3 未解锁 bl 给爱回收，已经退出了谷歌账号，但是现象是重置系统后依然无法安装 apk ，提示需要登陆绑定的谷歌账号，商店装应用不影响，做了以下一些措施，最终是成功退出了但是不确定是哪个步骤成功的，在这里记录下：\n1 、再次登录谷歌账号，这时候安装 apk 是 ok 的，退出账号，重置系统，再次尝试安装 apk ，失败\n2 、再次登录谷歌账号，打开/关闭 oem 解锁开关，保证最终是关闭状态，重启，退出账号，重置系统，再次尝试安装 apk ，失败\n3 、再次登录谷歌账号，确保 oem 解锁开关关闭，退出谷歌账号，等待 5 分钟，关闭谷歌框架开关，退出账号，重置系统，尝试安装 apk ，成功</p>\n<p>最终结论猜测是退出账号后可能需要一些时间同步到谷歌或者小米，希望有帮助。</p>\n\n\t",
-          "author": "seers",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Ubuntu 26.04 LTS 关键变化解读",
-          "link": "https://www.v2ex.com/t/1196785#reply5",
-          "pubDate": "2026-03-09T03:18:05.000Z",
-          "content": "\n\tUbuntu 26.04 LTS （代号 Resolute Raccoon ）预计于 2026 年 4 月 23 日发布，作为下一代长期支持版本，它将成为未来数年企业与服务器环境的重要基础系统。<br /><br />相比 24.04 LTS ，本次版本的变化并不只是界面升级，而是涉及 内核、桌面架构、软件栈、应用分发和系统安全机制等多个底层领域。<br /><br />参考 <a target=\"_blank\" href=\"https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw\" rel=\"nofollow noopener\">https://mp.weixin.qq.com/s/1D2OZ3SPDU0NZcvRidAiTw</a>\n\t",
-          "author": "webs",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "手机支持 DP1.2 重要吗？可以外接显示器",
-          "link": "https://www.v2ex.com/t/1196689#reply22",
-          "pubDate": "2026-03-08T14:58:21.000Z",
-          "content": "\n\t<p>看到有些手机，可以外接显示器，显示类似桌面，类似台式机一样。加上手机上也有各种远程桌面应用，比如微软的，但是不知道实用不？用手机做一些远程，是不是有点奇葩？</p>\n\n\t",
-          "author": "PhoenixDancing",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -816,7 +716,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-10T12:39:11.601Z",
+      "lastUpdated": "2026-03-10T13:56:11.125Z",
       "items": [
         {
           "title": "AI时代创业新态势：一人公司",
@@ -842,16 +742,6 @@
           "title": "河边的油菜花",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525008",
           "pubDate": "2026-03-09 10:52:54",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "惊蛰",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1524982",
-          "pubDate": "2026-03-09 09:01:29",
           "content": "",
           "author": "",
           "categories": [],
@@ -899,9 +789,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "山耕谭葛  葛的化学·葛化学成分随栽培加工方式有别  万变不离其宗 主动应对变化",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3638195&do=blog&id=1524984",
-          "pubDate": "2026-03-09 09:21:46",
+          "title": "科学网2026年2月十佳博文榜单公布！",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=45&do=blog&id=1525064",
+          "pubDate": "2026-03-10 12:08:06",
           "content": "",
           "author": "",
           "categories": [],
@@ -939,16 +829,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学网2026年2月十佳博文榜单公布！",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=45&do=blog&id=1525064",
-          "pubDate": "2026-03-10 12:08:06",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "科学史中的教训：第三章 燃烧的悖论：普利斯特里发现氧气却守护燃素",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525017",
           "pubDate": "2026-03-09 11:27:36",
@@ -972,16 +852,6 @@
           "title": "分子之美——施一公院士的结构生物学探索",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1525087",
           "pubDate": "2026-03-09 08:04:52",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "近 5 年昙花一现的信息科技词汇",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1524981",
-          "pubDate": "2026-03-09 08:57:12",
           "content": "",
           "author": "",
           "categories": [],
@@ -1017,13 +887,43 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "怎样有意识争取诺贝尔奖？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525103",
+          "pubDate": "2026-03-10 07:36:15",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "虎刺梅巧布防御阵，铁海棠花开治疗方",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525117",
+          "pubDate": "2026-03-10 08:28:27",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "海棠一种",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38547&do=blog&id=1525027",
+          "pubDate": "2026-03-09 12:14:05",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-10T12:39:15.259Z",
+      "lastUpdated": "2026-03-10T13:56:14.537Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1230,7 +1130,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-10T12:39:17.358Z",
+      "lastUpdated": "2026-03-10T13:56:17.666Z",
       "items": [
         {
           "title": "长剧完蛋了 (评论: 逐玉)",
@@ -1303,6 +1203,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "对谈“网盘导演”贺亚雄：曾经向往做法官的人，后来怎么样了 (评论: 乡村骑士)",
+          "link": "https://movie.douban.com/review/17497142/",
+          "pubDate": "Tue, 10 Mar 2026 01:07:38 GMT",
+          "content": "\n大宝没在学习评论: 乡村骑士 (https://movie.douban.com/subject/36025510/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e021j&#34;,&#34;text&#34;:&#34;在2025年FIRST电影节的产业放映单元，贺亚雄导演的《乡村骑士》给观众留下了非常深刻的印象。电影讲述了一个失业青年回到乡村，面对系统性的不公感到愤怒并再次离开乡村的当代困境。我们有感于他在...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "狄仁杰不一定是个胖子 (评论: 狄仁杰断案传奇)",
           "link": "https://movie.douban.com/review/17496188/",
           "pubDate": "Mon, 09 Mar 2026 08:09:22 GMT",
@@ -1327,6 +1237,16 @@
           "link": "https://movie.douban.com/review/17497444/",
           "pubDate": "Tue, 10 Mar 2026 06:06:41 GMT",
           "content": "\n落木Lin评论: 不过是上班 (https://movie.douban.com/subject/37193378/)\n评价: 较差\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "感 (评论: 堕落天使)",
+          "link": "https://movie.douban.com/review/17497711/",
+          "pubDate": "Tue, 10 Mar 2026 09:42:05 GMT",
+          "content": "\n甘草杏仁酥评论: 堕落天使 (https://movie.douban.com/subject/1298112/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u603b\\u89c9\\u5f97\\u738b\\u5bb6\\u5...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1383,6 +1303,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "为什么我认为《非穷尽列举》不存在所谓更好的结局 (评论: 非穷尽列举)",
+          "link": "https://movie.douban.com/review/17497937/",
+          "pubDate": "Tue, 10 Mar 2026 12:48:53 GMT",
+          "content": "\nÅręs.评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://www.douban.com/people/200...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "我想做的事 (评论: 我想做的是)",
           "link": "https://movie.douban.com/review/17494848/",
           "pubDate": "Sun, 08 Mar 2026 12:29:56 GMT",
@@ -1401,36 +1331,6 @@
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "非穷尽列举，悲悼与批判之间 (评论: 非穷尽列举)",
-          "link": "https://movie.douban.com/review/17494168/",
-          "pubDate": "Sun, 08 Mar 2026 05:44:05 GMT",
-          "content": "\nVyrielle评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u539f\\u672c\\u60f3\\u7740\\u4e0e\\u3...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "爆水管|全能六边形战士 (评论: 爆水管)",
-          "link": "https://movie.douban.com/review/17495614/",
-          "pubDate": "Mon, 09 Mar 2026 00:06:06 GMT",
-          "content": "\neflysky评论: 爆水管 (https://movie.douban.com/subject/37134618/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6ok5c&#34;,&#34;text&#34;:&#34; \\n&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRange...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "笑鼠，刚追平四集就想说感觉这剧群像真不错 (评论: 我的山与海)",
-          "link": "https://movie.douban.com/review/17493957/",
-          "pubDate": "Sun, 08 Mar 2026 02:58:41 GMT",
-          "content": "\n夏吾冬评论: 我的山与海 (https://movie.douban.com/subject/35725771/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6700\\u5927\\u7684\\u611f\\u53d7\\u6...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
         }
       ]
     },
@@ -1438,20 +1338,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-10T12:39:18.454Z",
+      "lastUpdated": "2026-03-10T13:56:18.873Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-10T12:39:18.664Z",
+      "lastUpdated": "2026-03-10T13:56:19.137Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-10T12:39:19.254Z",
+      "lastUpdated": "2026-03-10T13:56:19.680Z",
       "items": [
         {
           "title": "无题",
