@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T20:25:58.244Z",
+  "lastUpdated": "2026-03-11T21:24:46.896Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-11T20:25:46.710Z",
+      "lastUpdated": "2026-03-11T21:24:29.617Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-11T20:25:47.590Z",
+      "lastUpdated": "2026-03-11T21:24:30.600Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-11T20:25:47.661Z",
+      "lastUpdated": "2026-03-11T21:24:30.742Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-11T20:25:49.634Z",
+      "lastUpdated": "2026-03-11T21:24:32.937Z",
       "items": [
         {
           "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
@@ -308,7 +308,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-11T20:25:49.769Z",
+      "lastUpdated": "2026-03-11T21:24:33.156Z",
       "items": [
         {
           "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
@@ -715,7 +715,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-11T20:25:51.902Z",
+      "lastUpdated": "2026-03-11T21:24:40.141Z",
       "items": [
         {
           "title": "范博士中了一篇SCI……",
@@ -728,29 +728,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "观鸟",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525205",
-          "pubDate": "2026-03-10 04:39:15",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "[打听，科普，数学] 素数（6）：不用黎曼猜想的“素数计数函数”2个估计",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525254",
           "pubDate": "2026-03-10 08:54:28",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
-          "pubDate": "2026-03-10 04:55:11",
           "content": "",
           "author": "",
           "categories": [],
@@ -788,29 +768,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "临界现象二百年：第六章 伊辛模型的诞生：一条线上的小磁铁",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525207",
-          "pubDate": "2026-03-10 04:43:25",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "跨界研究成功的科学家",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525280",
           "pubDate": "2026-03-11 07:37:45",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "科学史中的教训：第五章 以太的葬礼：迈克尔逊的终身遗憾",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525211",
-          "pubDate": "2026-03-10 04:50:52",
           "content": "",
           "author": "",
           "categories": [],
@@ -888,16 +848,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "高校图书馆学科服务重点与难点",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525219",
-          "pubDate": "2026-03-10 05:01:55",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "金婚家宴",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=69051&do=blog&id=1525268",
           "pubDate": "2026-03-11 12:12:08",
@@ -916,13 +866,63 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "“一种量化两个概率分布之间统计差异的新指标”论文正式发表上线",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3427112&do=blog&id=1525274",
+          "pubDate": "2026-03-11 06:18:10",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
+          "pubDate": "2026-03-11 02:52:48",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
+          "pubDate": "2026-03-11 03:05:00",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "“拆弹专家”——邵峰院士与细胞焦亡的发现",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1525272",
+          "pubDate": "2026-03-11 04:50:43",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "倒骑牛背剥莲蓬（读图偶拾421）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525278",
+          "pubDate": "2026-03-11 06:48:20",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-11T20:25:54.158Z",
+      "lastUpdated": "2026-03-11T21:24:42.566Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1129,7 +1129,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-11T20:25:56.233Z",
+      "lastUpdated": "2026-03-11T21:24:44.418Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1337,20 +1337,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-11T20:25:57.281Z",
+      "lastUpdated": "2026-03-11T21:24:46.339Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-11T20:25:57.489Z",
+      "lastUpdated": "2026-03-11T21:24:46.558Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-11T20:25:58.244Z",
+      "lastUpdated": "2026-03-11T21:24:46.896Z",
       "items": [
         {
           "title": "无题",
