@@ -1,10 +1,73 @@
 {
-  "lastUpdated": "2026-03-11T08:30:44.367Z",
+  "lastUpdated": "2026-03-11T09:34:11.733Z",
   "totalItems": 143,
   "items": [
     {
+      "title": "探索未来 AI 自动化岗位：将企业工作流与 Agent 技术结合的可能性",
+      "link": "https://www.v2ex.com/t/1197488#reply0",
+      "pubDate": "2026-03-11T09:26:13.000Z",
+      "content": "\n\t<p>最近我一直在思考一个可能的未来岗位方向。我的理解是：</p>\n<p>未来会出现一种新的岗位，其核心职责是：将公司现有的业务流程与 AI 技能（ Skill ）、MCP 等工具相结合，生成新的自动化应用，并将其嵌入到公司的平台、软件或硬件中，从而优化企业生产效率。</p>\n<p>换句话说，这个岗位不是单纯写代码，也不是只做 AI 模型，而是站在 企业系统 + 自动化 + AI 工作流 的交叉点上，负责：</p>\n<p>分析和拆解企业业务流程</p>\n<p>设计基于 Agent 和 Skill 的自动化工作流</p>\n<p>集成企业内部工具和系统（例如 CRM 、ERP 、数据库、消息系统等）</p>\n<p>构建可持续运行的自动化流程，提高整体效率</p>\n<p>我觉得，这个岗位其实有点类似现在的 AI Agent 工程师</p>\n\n\t",
+      "author": "loo617",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "自建 Emby / MoviePilot 用户安全提醒",
+      "link": "https://www.v2ex.com/t/1197485#reply0",
+      "pubDate": "2026-03-11T09:18:58.000Z",
+      "content": "\n\t<p>最近在排查服务器被入侵事件时发现，部分使用 Docker <strong>host 网络模式</strong>部署的 MoviePilot 可能会意外暴露内部接口，存在被利用的风险。</p>\n<p>如果你是自建 Emby 并使用 <strong>MoviePilot</strong> 管理媒体库，建议检查一下自己的服务器：</p>\n<ol>\n<li>\n<p>在浏览器访问<br/>\n<code>http://服务器 IP:38379/version</code></p>\n</li>\n<li>\n<p>如果可以直接返回版本信息，说明该接口已经对外暴露，存在被扫描和利用的风险。</p>\n</li>\n</ol>\n<p>建议处理方式：</p>\n<ul>\n<li>尽快更新 <strong>MoviePilot</strong> 到最新版本 <strong>v2.9.14</strong> </li>\n<li>尽量避免使用 <code>host</code> 网络模式直接暴露服务  </li>\n</ul>\n<p>之前已有服务器因为该接口暴露被利用执行恶意脚本，最终被植入挖矿程序。</p>\n<p>详细分析过程可以参考：<br/>\n<a href=\"https://blog.v2.games/archives/server-attack-analysis\" rel=\"nofollow\">https://blog.v2.games/archives/server-attack-analysis</a></p>\n<p>建议大家尽快自查，避免服务器被入侵。</p>\n\n\t",
+      "author": "ziwiwiz",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
+      "link": "https://www.v2ex.com/t/1197478#reply0",
+      "pubDate": "2026-03-11T08:58:47.000Z",
+      "content": "\n\t\n\t",
+      "author": "Yasuo666",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "大部分模型都不支持结构化输出",
+      "link": "https://www.v2ex.com/t/1197476#reply9",
+      "pubDate": "2026-03-11T08:57:49.000Z",
+      "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
+      "author": "iSNN",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "企业微信的大哥们，你们发 openclaw 插件版本规则搞错了",
+      "link": "https://www.v2ex.com/t/1197469#reply1",
+      "pubDate": "2026-03-11T08:34:26.000Z",
+      "content": "\n\t<p>翻了 Github 过往的几个 issue ，看起来没人回复的样子，直接这里丢了</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.v2ex.co/F26gwK6d.png\"/></p>\n<pre><code>Downloading @wecom/wecom-openclaw-plugin…\nResolved @wecom/wecom-openclaw-plugin to prerelease version 1.0.7-beta.1, but prereleases are only installed when explicitly requested. Use \"@wecom/wecom-openclaw-plugin@beta\" (or another prerelease tag) or an exact prerelease version to opt in explicitly.\n</code></pre>\n<p><a href=\"https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27\" rel=\"nofollow\">https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27</a></p>\n\n\t",
+      "author": "kincaid",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "飞书上线云 OpenClaw，一步创建完成。限免到月底，每日10万个",
+      "link": "https://www.appinn.com/feishu-openclaw/",
+      "pubDate": "Wed, 11 Mar 2026 08:29:55 +0000",
+      "content": "飞书上线了云 OpenClaw 服务器，限免到月底，并且有每日免费 100 万 Tokens 额度，可自行更换大模型。 如果你在担心不会搭建 OpenClaw 这件事，或者担忧 OpenClaw 权限太高泄漏隐私的问题，那么可以试试 云 OpenClaw。 是的，搭建在云上的 OpenClaw。 活 ",
+      "author": "",
+      "categories": [
+        "AI",
+        "OpenClaw"
+      ],
+      "source": "小众软件",
+      "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
       "title": "使用 AI 编程的时候，配置文件里的敏感数据会被读取上传吗",
-      "link": "https://www.v2ex.com/t/1197468#reply0",
+      "link": "https://www.v2ex.com/t/1197468#reply1",
       "pubDate": "2026-03-11T08:25:29.000Z",
       "content": "\n\t比如数据库连接的配置文件在 json 文件里面，也会被 AI 工具读取然后上传上去分析的吗？\n\t",
       "author": "yagamil",
@@ -14,7 +77,7 @@
     },
     {
       "title": "AI 发展太快，俺已经跟不是节奏了",
-      "link": "https://www.v2ex.com/t/1197466#reply1",
+      "link": "https://www.v2ex.com/t/1197466#reply7",
       "pubDate": "2026-03-11T08:15:58.000Z",
       "content": "\n\t<p>眼下的发展速度完全超越我的生活节奏，就连刷 X 有时候都很难分辨视频是否为 AI 生成</p>\n<p>真希望节奏慢一点，再慢一点…</p>\n\n\t",
       "author": "moducat",
@@ -24,7 +87,7 @@
     },
     {
       "title": "使用 qt c++,对比了 cluade opus 4.6 和 codex5.4, cluade 更好啊",
-      "link": "https://www.v2ex.com/t/1197462#reply4",
+      "link": "https://www.v2ex.com/t/1197462#reply5",
       "pubDate": "2026-03-11T08:11:25.000Z",
       "content": "\n\t传入一张截图，生成 exe 程序，都能最终生成截图的效果<br /><br />cluade 一次成功，codex 有一个小错误，提出问题后自动修正了。<br /><br />但是 codex5.4 速度要慢很多，不知道是不是我的中转站不行<br /><br />而且 claude 会问我要不要这么干，体验较好<br /><br /><br />ps 没钱人，都是用的中转站测试的<br /><br /><br />另外，请问一个问题<br />vscode claude 插件，按 alt+k ，可以指定当前文件或者当前选中内容，让 cluade 解释含义<br /><br />vscode codex 插件，没有这个功能？\n\t",
       "author": "lyvv",
@@ -74,7 +137,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply18",
+      "link": "https://www.v2ex.com/t/1197429#reply21",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -126,7 +189,7 @@
     },
     {
       "title": "找一个微信群机器人 API 服务平台，愿付费",
-      "link": "https://www.v2ex.com/t/1197399#reply7",
+      "link": "https://www.v2ex.com/t/1197399#reply10",
       "pubDate": "2026-03-11T05:32:03.000Z",
       "content": "\n\t<p>有没有这样的平台。通过平台 API 可以实现微信机器人的群消息发送或接收。</p>\n<p>GitHub 上有相关开源项目我知道，我需要的是现成的平台来提供服务，我不用去关心、操作这些。</p>\n<p>可以按月或者按年付费，怎么付费都行，这东西肯定不是无偿。</p>\n<p>要普通微信，不是企微，企微有 API 提供我知道。</p>\n<p>使用场景举例：\n拉你们平台的微信机器人进群，然后我们系统有订单消息调用你们的 API 发送通知，然后你们机器人会在群内发通知。</p>\n\n\t",
       "author": "qiqi669",
@@ -166,7 +229,7 @@
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-      "link": "https://www.v2ex.com/t/1197381#reply32",
+      "link": "https://www.v2ex.com/t/1197381#reply39",
       "pubDate": "2026-03-11T04:16:53.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
       "author": "v2exgo",
@@ -176,7 +239,7 @@
     },
     {
       "title": "这个项目所有代码都是我睡觉的时候让我的 openclaw 自己写的， PR 有一些自动化记录",
-      "link": "https://www.v2ex.com/t/1197376#reply7",
+      "link": "https://www.v2ex.com/t/1197376#reply12",
       "pubDate": "2026-03-11T04:04:44.000Z",
       "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
       "author": "dodoa",
@@ -206,7 +269,7 @@
     },
     {
       "title": "2w 预算，请教下装机配置问题",
-      "link": "https://www.v2ex.com/t/1197355#reply1",
+      "link": "https://www.v2ex.com/t/1197355#reply2",
       "pubDate": "2026-03-11T03:26:59.000Z",
       "content": "\n\t2w 预算，不考虑显示器<br /><br />使用需求：本地跑模型生图，比如用：comfyUI ，flux 。以及打一些游戏，希望两者能均衡一些。<br /><br />cpu 考虑英特尔，日常会用虚拟机冲浪。<br /><br />不过目前手上有 5080 和 32g 6400 内存，以及笔电的 2t 固态。<br /><br />这个需求需要替换哪些已有配置吗，不替换的话剩下的该怎么配？只想把钱花在刀刃上！！！<br /><br />麻烦大佬们给点意见，谢谢~\n\t",
       "author": "qize0921",
@@ -216,7 +279,7 @@
     },
     {
       "title": "现在小龙虾那么火，开发一款开源反龙虾有搞头嘛？",
-      "link": "https://www.v2ex.com/t/1197344#reply27",
+      "link": "https://www.v2ex.com/t/1197344#reply30",
       "pubDate": "2026-03-11T03:15:16.000Z",
       "content": "\n\t<p>现在 claw 主流联干活网方式还是浏览器或 app 的使用。能不能开发一款内嵌程序，通过特征识别出小龙虾，通过提示词注入让小龙虾让他失效。例如，让它捐款给希望小学，救助基金。检测电脑中的违反线索发送给帽子叔叔，打开电脑防火墙并开启最严格模式，下载 360 ，下载鲁大师，腾讯电脑关键，删除小龙虾自己的所有配置文件。</p>\n\n\t",
       "author": "skuuhui",
@@ -236,7 +299,7 @@
     },
     {
       "title": "OpenCode 使用问题",
-      "link": "https://www.v2ex.com/t/1197337#reply9",
+      "link": "https://www.v2ex.com/t/1197337#reply10",
       "pubDate": "2026-03-11T03:06:21.000Z",
       "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
       "author": "xing4576",
@@ -256,7 +319,7 @@
     },
     {
       "title": "想买一个新版的 MBP，去闲鱼买靠谱吗？",
-      "link": "https://www.v2ex.com/t/1197321#reply32",
+      "link": "https://www.v2ex.com/t/1197321#reply33",
       "pubDate": "2026-03-11T02:32:20.000Z",
       "content": "\n\t手头的笔记本还是 mid2015 的<br />新版的 xcode 都装不上，而且 intel cpu ，随便干点啥风扇就呼呼转<br />claudecode 倒是能跑<br /><br />想买一台新的 MBP ，我看到闲鱼的有那种类似店铺的，不知道靠谱不靠谱\n\t",
       "author": "wew3",
@@ -276,7 +339,7 @@
     },
     {
       "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
-      "link": "https://www.v2ex.com/t/1197313#reply9",
+      "link": "https://www.v2ex.com/t/1197313#reply11",
       "pubDate": "2026-03-11T02:08:04.000Z",
       "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
       "author": "Fezl",
@@ -286,7 +349,7 @@
     },
     {
       "title": "最近小龙虾很火，一般用来做什么副业呢？大佬们都聊聊",
-      "link": "https://www.v2ex.com/t/1197308#reply25",
+      "link": "https://www.v2ex.com/t/1197308#reply29",
       "pubDate": "2026-03-11T02:04:25.000Z",
       "content": "\n\t\n\t",
       "author": "sandy136",
@@ -316,7 +379,7 @@
     },
     {
       "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
-      "link": "https://www.v2ex.com/t/1197297#reply11",
+      "link": "https://www.v2ex.com/t/1197297#reply13",
       "pubDate": "2026-03-11T01:42:22.000Z",
       "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
       "author": "kssss",
@@ -336,7 +399,7 @@
     },
     {
       "title": "小主机配置太差跑不了 OpenClaw，有没有能完全兼容其生态的替代品？",
-      "link": "https://www.v2ex.com/t/1197285#reply24",
+      "link": "https://www.v2ex.com/t/1197285#reply26",
       "pubDate": "2026-03-11T01:27:13.000Z",
       "content": "\n\t<p>我大概搜索了下，似乎 OpenClaw 的插件系统，只有自家能用？有没有其他家的替代品能做到兼容的？</p>\n\n\t",
       "author": "x97bgt",
@@ -370,7 +433,7 @@
     },
     {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-      "link": "https://www.v2ex.com/t/1197269#reply62",
+      "link": "https://www.v2ex.com/t/1197269#reply66",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",
@@ -400,7 +463,7 @@
     },
     {
       "title": "海外 Coding Plan 哪个最便宜+最推荐？",
-      "link": "https://www.v2ex.com/t/1197261#reply14",
+      "link": "https://www.v2ex.com/t/1197261#reply16",
       "pubDate": "2026-03-11T00:20:40.000Z",
       "content": "\n\t\n\t",
       "author": "enihcam",
@@ -410,7 +473,7 @@
     },
     {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply67",
+      "link": "https://www.v2ex.com/t/1197259#reply75",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -429,16 +492,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "我用免费 A 股数据做了几个工具，欢迎一起开源！",
-      "link": "https://www.v2ex.com/t/1197248#reply1",
-      "pubDate": "2026-03-10T15:50:40.000Z",
-      "content": "\n\t<p>大家好！</p>\n<p>之前分享了 <strong>finshare</strong>（免费 A 股数据库），最近用它做了几个小工具，今天分享下。</p>\n<hr/>\n<h2>3 分钟做一个行情看板</h2>\n<pre><code class=\"language-python\">pip install finshare streamlit plotly\n</code></pre>\n<pre><code class=\"language-python\">import streamlit as st\nimport finshare as fs\n\nst.title(\"📈 实时行情\")\nstocks = ['000001.SZ', '600519.SH', '300750.SZ']\nfor code in stocks:\n    snap = fs.get_snapshot_data(code)\n    st.metric(code, snap.last_price, f\"{snap.change_pct:.2f}%\")\n</code></pre>\n<p>运行 <code>streamlit run <a href=\"http://app.py\" rel=\"nofollow\">app.py</a></code>，搞定！</p>\n<hr/>\n<h2>已开源的项目</h2>\n<table>\n<thead>\n<tr>\n<th>项目</th>\n<th>功能</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://github.com/finvfamily/finboard\" rel=\"nofollow\">finboard</a></td>\n<td>实时行情看板</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/finvfamily/finscreener\" rel=\"nofollow\">finscreener</a></td>\n<td>选股器</td>\n</tr>\n</tbody></table><hr/>\n<h2>一起开源！</h2>\n<p>基于 finshare 可以做：</p>\n<ul>\n<li>选股器 / 条件筛选</li>\n<li>价格提醒机器人</li>\n<li>K 线图表工具</li>\n<li>数据导出 Excel</li>\n<li>...</li>\n</ul>\n<p><strong>fork 项目，自己改改就能用！</strong></p>\n<p>优秀项目我会推荐、帮你宣传～</p>\n<hr/>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>Discord: <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>欢迎来玩！</p>\n\n\t",
-      "author": "sunfinv",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "写了个脚本对付营销号，现在我的抖音和 B 站清爽多了",
       "link": "https://www.v2ex.com/t/1197243#reply20",
       "pubDate": "2026-03-10T15:05:35.000Z",
@@ -454,16 +507,6 @@
       "pubDate": "2026-03-10T14:38:43.000Z",
       "content": "\n\t<p>晚上 github 找了个题库，做了下，基本靠蒙。</p>\n<p>大家准备多久过的</p>\n\n\t",
       "author": "collery",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "求推荐轻量级带内建词典的阅读 app，",
-      "link": "https://www.v2ex.com/t/1197234#reply14",
-      "pubDate": "2026-03-10T14:26:40.000Z",
-      "content": "\n\t我有一块性能很差的安卓阅读器，想要一个轻量级的 app ，能打开本地 epub 和 pdf 就行。<br />目前测了下来比较喜欢：<br />1. Readera 轻量简洁，但注释只能黑白，没有内建词典，但可以跳转到已安装的词典 app<br />2. google play book 满足我所有需求除了！要上传云端，好麻烦，需要联网开 vpn （耗电！），而且还要等很久才能传上去。。<br />还尝试过 moon+（比如 readera ，有太多花里胡哨的设置，不喜欢）<br /><br />大佬们有其他推荐好用的阅读器 app 吗？\n\t",
-      "author": "rs007",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -530,7 +573,7 @@
     },
     {
       "title": "国产 coding plan 哪个最推荐？",
-      "link": "https://www.v2ex.com/t/1197191#reply32",
+      "link": "https://www.v2ex.com/t/1197191#reply33",
       "pubDate": "2026-03-10T10:04:25.000Z",
       "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
       "author": "westisc",
@@ -540,7 +583,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply67",
+      "link": "https://www.v2ex.com/t/1197190#reply72",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
@@ -735,16 +778,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "最近一段时间，我调整了我利用 AI 学习知识的方式，感觉很好，分享一下",
-      "link": "https://www.v2ex.com/t/1197110#reply14",
-      "pubDate": "2026-03-10T05:35:03.000Z",
-      "content": "\n\t以前我利用 AI 学习的方式，更多的是我在提问，让 AI 提供相关进阶学习资料，然后我去学习，然后接着提问。当然，少不了日常笔记总结，以及 demo 级别代码实践和验证。<br /><br />最近我看 ChatGPT 加了 study and learn 模式，我干脆就仿造这个，让 ChatGPT 通过提问以及纠错的方式，来考察我对某个技术领域的理解程度。我觉得还蛮惊喜的，比我之前光提问，效果好上不少。<br /><br />具体，我想了下，为什么感觉上效果会好：<br /><br />1. 费曼学习法，我变成主动提供输入的人<br /><br />2. 另外，我学习的知识内容，不仅仅局限于我个人的理解，因为不再是我问什么，ChatGPT 回答什么，ChatGPT 会主动提供很多输入<br /><br />3. ChatGPT 可以帮我打磨细节，很多我口语化或者不够深入本质的回答，ChatGPT 会告诉我，哪些需要调整描述，哪些是我没理解到位导致的<br /><br />我相信应该有很多人已经是这么使用的了，但是我还是分享出来我的个人感受，来一起讨论一下\n\t",
-      "author": "swananan",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
       "link": "https://movie.douban.com/review/17497400/",
       "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
@@ -879,16 +912,6 @@
       "pubDate": "2026-03-10T02:22:55.000Z",
       "content": "\n\t2025 年 3 月在 DeepSeek 充值了 50 元，当时没用几次 API ，后续使用的 Chat 。最近在开发 Agent ，准备用 DeepSeek ，一登录发现余额为 0 ，订单记录也是空的。刚开始以为自己登录错手机号了，换一个手机号还是空的，又去官方文档里面找找，是不是余额有有效期啥的，FAQ 提到余额是永久有效的。<br /><br />由于现在充值 DeepSeek 还要实名认证，我嫌麻烦，就提工单申请退款去年的充值，后续要我提供清晰的身份证正反面图片，同时现在的账号也要实名认证，想一想太麻烦了，这钱就不要了。<br /><br />在实名认证之前充值过 DeepSeek 的，并且长时间没关注过余额的，建议都去检查一下。\n\t",
       "author": "ingrowthly",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "有写 Rust 的像我一样，代码手动写时用 Zed， AI 写时用 TraeCN，调试、Git、翻代码在 JetBrains 里的吗？",
-      "link": "https://www.v2ex.com/t/1197041#reply19",
-      "pubDate": "2026-03-10T02:09:52.000Z",
-      "content": "\n\t<p>Zed 的代码编辑真的很快很流畅，但是除此之外都拉跨的不行</p>\n<p>TraeCN 里面白嫖 AI ，但是配合着 RustAnalyzer 卡卡的</p>\n<p>Jetbrains 的 Rustrover ，代码导航、调试、Git 是最好用的，但是代码编辑比不上 Zed ，AI 不如 TraeCN 可以白嫖</p>\n<p>虽然折腾点，但是依旧感谢这些工具免费赏我口饭吃🙏🙏🙏</p>\n\n\t",
-      "author": "cby0414",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -1150,19 +1173,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "广告拦截工具 AdGuard 家庭版买断版特价 8.8 刀，比个人版还便宜",
-      "link": "https://www.appinn.com/stacksocial-adguard/",
-      "pubDate": "Thu, 05 Mar 2026 04:11:50 +0000",
-      "content": "AdGuard 家庭版终身授权，可激活9台设备，目前在 Stacksocial 特价 8.8 刀，比个人版还便宜！ 真的是离个大谱，家庭版比个人版还便宜 😂 在使用优惠码 TAKE20 之后，售价只有 8.8 刀了，折合人民币大约 60 块钱，比之前还便宜了。 购买方式 由于差距太大，推荐购买家庭版 ",
-      "author": "",
-      "categories": [
-        "团购",
-        "Adguard"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
@@ -1463,16 +1473,6 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "基于 casdoor 的 ELK 开源登录认证解决方案: elk-auth-casdoor",
-      "link": "https://www.v2ex.com/t/1021725#reply20",
-      "pubDate": "2024-03-08T02:33:46.000Z",
-      "content": "\n\t<div><div><h2>前言</h2>\n<p>ELK 的一大缺点就是这东西最初是没有登录机制的，只要拿到了 url 地址，kibana 看板谁都可以访问一下。后来 ELK 自带了一套 xpack 进行登录认证，可是除了账户名密码登录这种最原始的方法，剩下的高级功能，比如 oauth, oidc, ldap ，统统都是收费的.....总不能给每个人都专门搞一个 kibana 账户名密码吧......</p>\n<p>所以呢，这里有一个基于 casdoor 的 elk 鉴权解决方案，<strong>不要钱，开源的，还有人维护呢~<strong>。Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，而 casdoor/elk-auth-casdoor 这套解决方案，则是一个</strong>反向代理</strong>，他可以拦截所有未经登录的前往 elk 的 http 访问流量，并且引导未登录用户进行登录，而且这个反向代理对已登录用户是<strong>完全透明</strong>的。</p>\n<p>仓库地址\n<a href=\"https://github.com/casdoor/elk-auth-casdoor\" rel=\"nofollow\">https://github.com/casdoor/elk-auth-casdoor</a></p>\n<p>QQ 群：645200447</p>\n<p>如果您有更多相关的特殊需求可以加群，我们会有专人对接~ （可以联系 ComradeProgrammer ）</p>\n<h2>casdoor 是什么</h2>\n<p>Casdoor 是一个基于 OAuth 2.0 / OIDC 的 UI 优先集中认证 / 单点登录 (SSO) 平台，简单点说，就是 Casdoor 可以帮你解决 用户管理 的难题，你无需开发用户登录注册等与用户鉴权相关的一系列功能，只需几个步骤，简单配置，与你的主应用配合，便可完全托管你的用户模块，简单省心，功能强大。</p>\n<p>仓库地址： <a href=\"https://github.com/casbin/casdoor\" rel=\"nofollow\">https://github.com/casbin/casdoor</a></p>\n<p>演示地址： <a href=\"https://door.casbin.com/\" rel=\"nofollow\">https://door.casbin.com/</a></p>\n<p>官网文档： <a href=\"https://casdoor.org/\" rel=\"nofollow\">https://casdoor.org/</a></p>\n<p>QQ 群：645200447</p>\n<p>Casdoor 还支持 ldap ，saml 等诸多功能.....</p>\n<p>Casdoor 目前作为 Casbin 社区项目统一使用的鉴权平台，项目已开源，希望得到大家的一些建议和 Star~，我们会及时跟进反馈并改正问题哒</p>\n<h2>Casdoor 又有哪些特性？</h2>\n<ul>\n<li>支持普通的账户密码注册登录，也支持各种常见的第三方认证，例如 GitHub 、Facebook 、Google 、Wechat 、QQ 、LinkedIn 等等，截止目前共 9 个平台，并在不断听取用户建议对更多的平台提供支持。</li>\n<li>管理方便。Casdoor 内部将模块分为了 5 大类，Organization 、User 、Application 、Token 和 Provider 。可以同时接入多个组织，组织下有不同应用，用户可以通过应用或组织分类，单独管理任何组织、应用或用户的 Token 令牌，轻松管理复杂系统，目前已部署在 Casbin 社区各种系统当作鉴权平台。</li>\n<li>自定义程度高。Casdoor 可以随意修改登录方式，例如是否允许密码或第三方登录，自定义应用的注册项数量，是否启用两步验证，以及是否允许各个 Provider 登录、注册等等，高度可插拔。</li>\n<li>具备 Swagger API 文档。清晰的 API 介绍，无需阅读源代码即可直接方便调用各个 API 接口，提供定制化功能。</li>\n<li>前后端分离架构，部署简单。作为统一认证平台，除了性能，稳定性，新特性之外，易用性也是考量的重要标准，Casdoor 后端使用 Golang 语言开发，前端使用 React.js 框架，使用者只需启动后端服务，并将前端工程文件打包，即可直接使用，操作简单，上手难度低。\n...</li>\n</ul>\n</div></div>\n\t",
-      "author": "Casbin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     }
   ]
 }
