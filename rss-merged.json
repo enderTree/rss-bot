@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-11T14:50:58.729Z",
+  "lastUpdated": "2026-03-11T15:39:32.164Z",
   "totalItems": 133,
   "items": [
     {
       "title": "DeepSeek V4 发布在即？ HuggingFace 已出现量化版权重上传记录",
-      "link": "https://www.v2ex.com/t/1197548#reply0",
+      "link": "https://www.v2ex.com/t/1197548#reply1",
       "pubDate": "2026-03-11T14:44:35.000Z",
       "content": "\n\tRT ，量化大神 @<a target=\"_blank\" href=\"/member/bdsqlsz\" rel=\"nofollow noopener\">bdsqlsz</a> 已经在 HF 上传 DeepSeek-V4-INT8 了，看来官宣就在这 48 小时内。<br /><br />目前流出的 Specs 汇总：<br /><br />1T 参数 MoE ，激活 32B ；<br />1M Context ；<br />支持原生音频（看来要刚 GPT-5.4 的实时语音了）；<br />深度优化昇腾 910C 。<br /><br /><br />V2EX 不知道如何贴图，相关泄露图大家可以点这查看：<br /><a target=\"_blank\" href=\"https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface\" rel=\"nofollow noopener\">https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface</a><br /><br />坐等 DeepSeek 再次震撼！\n\t",
       "author": "dreamwing",
@@ -227,7 +227,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply26",
+      "link": "https://www.v2ex.com/t/1197429#reply28",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -319,7 +319,7 @@
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-      "link": "https://www.v2ex.com/t/1197381#reply48",
+      "link": "https://www.v2ex.com/t/1197381#reply51",
       "pubDate": "2026-03-11T04:16:53.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
       "author": "v2exgo",
@@ -503,7 +503,7 @@
     },
     {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply92",
+      "link": "https://www.v2ex.com/t/1197259#reply93",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -593,7 +593,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply78",
+      "link": "https://www.v2ex.com/t/1197190#reply79",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",

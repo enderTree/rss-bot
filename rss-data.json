@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T14:50:58.724Z",
+  "lastUpdated": "2026-03-11T15:39:32.160Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-11T14:50:46.315Z",
+      "lastUpdated": "2026-03-11T15:39:18.550Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-11T14:50:47.041Z",
+      "lastUpdated": "2026-03-11T15:39:19.458Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-11T14:50:47.111Z",
+      "lastUpdated": "2026-03-11T15:39:19.617Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-11T14:50:48.524Z",
+      "lastUpdated": "2026-03-11T15:39:21.578Z",
       "items": [
         {
           "title": "飞书上线云 OpenClaw，一步创建完成。限免到月底，每日10万个",
@@ -305,14 +305,54 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-11T14:50:48.612Z",
+      "lastUpdated": "2026-03-11T15:39:21.822Z",
       "items": [
         {
+          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
+          "link": "https://www.v2ex.com/t/1197381#reply51",
+          "pubDate": "2026-03-11T04:16:53.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
+          "author": "v2exgo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "DeepSeek V4 发布在即？ HuggingFace 已出现量化版权重上传记录",
-          "link": "https://www.v2ex.com/t/1197548#reply0",
+          "link": "https://www.v2ex.com/t/1197548#reply1",
           "pubDate": "2026-03-11T14:44:35.000Z",
           "content": "\n\tRT ，量化大神 @<a target=\"_blank\" href=\"/member/bdsqlsz\" rel=\"nofollow noopener\">bdsqlsz</a> 已经在 HF 上传 DeepSeek-V4-INT8 了，看来官宣就在这 48 小时内。<br /><br />目前流出的 Specs 汇总：<br /><br />1T 参数 MoE ，激活 32B ；<br />1M Context ；<br />支持原生音频（看来要刚 GPT-5.4 的实时语音了）；<br />深度优化昇腾 910C 。<br /><br /><br />V2EX 不知道如何贴图，相关泄露图大家可以点这查看：<br /><a target=\"_blank\" href=\"https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface\" rel=\"nofollow noopener\">https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface</a><br /><br />坐等 DeepSeek 再次震撼！\n\t",
           "author": "dreamwing",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
+          "link": "https://www.v2ex.com/t/1197190#reply79",
+          "pubDate": "2026-03-10T09:59:01.000Z",
+          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
+          "author": "Danswerme",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+          "link": "https://www.v2ex.com/t/1197429#reply28",
+          "pubDate": "2026-03-11T06:36:16.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+          "author": "TheBlind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
+          "link": "https://www.v2ex.com/t/1197259#reply93",
+          "pubDate": "2026-03-11T00:17:59.000Z",
+          "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
+          "author": "fushall",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -323,36 +363,6 @@
           "pubDate": "2026-03-11T00:57:26.000Z",
           "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
           "author": "RiverMoon",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply26",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-          "link": "https://www.v2ex.com/t/1197259#reply92",
-          "pubDate": "2026-03-11T00:17:59.000Z",
-          "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
-          "author": "fushall",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-          "link": "https://www.v2ex.com/t/1197190#reply78",
-          "pubDate": "2026-03-10T09:59:01.000Z",
-          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
-          "author": "Danswerme",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -393,16 +403,6 @@
           "pubDate": "2026-03-11T12:57:42.000Z",
           "content": "\n\t<p>网站： <a href=\"https://www.inssnap.com\" rel=\"nofollow\">https://www.inssnap.com</a>\n工具：Claude Code opus 4.6\n功能：下载 instagram 图片、视频、Reels 等，支持 10 国语言，目前每天限制 3 次</p>\n<p>感受：opus 4.6 实在是太美妙了，基本上不跟我说废话，各种 plan 和 coding 效果很棒，就是太贵了</p>\n\n\t",
           "author": "loulijun",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-          "link": "https://www.v2ex.com/t/1197381#reply48",
-          "pubDate": "2026-03-11T04:16:53.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
-          "author": "v2exgo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -712,7 +712,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-11T14:50:50.180Z",
+      "lastUpdated": "2026-03-11T15:39:24.050Z",
       "items": [
         {
           "title": "范博士中了一篇SCI……",
@@ -755,6 +755,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
+          "pubDate": "2026-03-10 04:55:11",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "“科学易”的“刘纲领”",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525173",
           "pubDate": "2026-03-10 02:56:56",
@@ -775,26 +785,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
-          "pubDate": "2026-03-10 04:55:11",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "一中的奇人奇事之三十 15.后记",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1525176",
-          "pubDate": "2026-03-10 03:02:59",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "眼见不再为实：AI 时代，图书馆员如何守护“真相”？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3316383&do=blog&id=1525275",
           "pubDate": "2026-03-11 06:34:38",
@@ -805,19 +795,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "偏憎杨柳难钤辖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525286",
-          "pubDate": "2026-03-11 08:28:18",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "2025年我国1-6-24小时最大降水量的年变化分析--4--",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1525161",
-          "pubDate": "2026-03-10 12:29:34",
+          "title": "一中的奇人奇事之三十 15.后记",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1525176",
+          "pubDate": "2026-03-10 03:02:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -848,6 +828,26 @@
           "title": "跨界研究成功的科学家",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525280",
           "pubDate": "2026-03-11 07:37:45",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "偏憎杨柳难钤辖",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525286",
+          "pubDate": "2026-03-11 08:28:18",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2025年我国1-6-24小时最大降水量的年变化分析--4--",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1525161",
+          "pubDate": "2026-03-10 12:29:34",
           "content": "",
           "author": "",
           "categories": [],
@@ -919,7 +919,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-11T14:50:54.880Z",
+      "lastUpdated": "2026-03-11T15:39:27.929Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1126,7 +1126,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-11T14:50:56.987Z",
+      "lastUpdated": "2026-03-11T15:39:30.196Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1334,20 +1334,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-11T14:50:57.768Z",
+      "lastUpdated": "2026-03-11T15:39:31.373Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-11T14:50:57.910Z",
+      "lastUpdated": "2026-03-11T15:39:31.652Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-11T14:50:58.724Z",
+      "lastUpdated": "2026-03-11T15:39:32.159Z",
       "items": [
         {
           "title": "无题",
