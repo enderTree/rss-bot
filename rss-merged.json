@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-03-11T10:30:39.901Z",
+  "lastUpdated": "2026-03-11T11:27:02.480Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "看到一个群友说要卸载龙虾🦞，于是我做了一个龙虾卸载教程网站",
+      "link": "https://www.v2ex.com/t/1197506#reply4",
+      "pubDate": "2026-03-11T10:55:57.000Z",
+      "content": "\n\t<p>看到一个群友说要把🦞龙虾卸载了，然后我就想找下龙虾卸载的教程看下，于是用 anygen 收集了下材料做成了网站，不过 anygen 用的是 vite + react client ，于是使用 gemini-cli ，改成了 nextjs ，但由于今天用了 gemini 比较多，被限制了额度，该用 trae 继续干活。。。但是呢，多语言老是出错，最后还是用 Claude 给修复了，ai 牛马也是分等级的，Claude 我都是用来最后收尾使用的。</p>\n<p>卸载龙虾教程网站： <a href=\"https://openclawuninstall.org/zh\" rel=\"nofollow\">https://openclawuninstall.org/zh</a> ，都是各个 ai 牛马生成的，各位兄弟有什么建议，可以留言给我。</p>\n<p><img alt=\"龙虾卸载教程网站截图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/t1Ze0LO.png\"/></p>\n\n\t",
+      "author": "jsiwa123",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "绿里奇迹 (评论: 绿里奇迹)",
+      "link": "https://movie.douban.com/review/17499116/",
+      "pubDate": "Wed, 11 Mar 2026 10:26:22 GMT",
+      "content": "\n疯狂的Max评论: 绿里奇迹 (https://movie.douban.com/subject/1300374/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
     {
       "title": "我用 4 小时，让 AI 帮我从 0 开发了一个 AI 漫剧生成平台",
       "link": "https://www.v2ex.com/t/1197501#reply0",
@@ -21,6 +41,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "父权制度就像空气，而我是那个对空气过敏的人 (评论: 非穷尽列举)",
+      "link": "https://movie.douban.com/review/17499057/",
+      "pubDate": "Wed, 11 Mar 2026 09:26:52 GMT",
+      "content": "\n岸上的鱼评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;d6e6v&#34;,&#34;text&#34;:&#34;电影开篇的第一句话：“这该死的父权制度”基本上贯穿整部电影以及所有角色和剧情塑造。“这该死的父权制度。”&#34;,&#34;type&#34;:&#34;unstyled&#34;...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "自建 Emby / MoviePilot 用户安全提醒",
@@ -44,7 +74,7 @@
     },
     {
       "title": "大部分模型都不支持结构化输出",
-      "link": "https://www.v2ex.com/t/1197476#reply10",
+      "link": "https://www.v2ex.com/t/1197476#reply11",
       "pubDate": "2026-03-11T08:57:49.000Z",
       "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
       "author": "iSNN",
@@ -54,7 +84,7 @@
     },
     {
       "title": "企业微信的大哥们，你们发 openclaw 插件版本规则搞错了",
-      "link": "https://www.v2ex.com/t/1197469#reply1",
+      "link": "https://www.v2ex.com/t/1197469#reply2",
       "pubDate": "2026-03-11T08:34:26.000Z",
       "content": "\n\t<p>翻了 Github 过往的几个 issue ，看起来没人回复的样子，直接这里丢了</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.v2ex.co/F26gwK6d.png\"/></p>\n<pre><code>Downloading @wecom/wecom-openclaw-plugin…\nResolved @wecom/wecom-openclaw-plugin to prerelease version 1.0.7-beta.1, but prereleases are only installed when explicitly requested. Use \"@wecom/wecom-openclaw-plugin@beta\" (or another prerelease tag) or an exact prerelease version to opt in explicitly.\n</code></pre>\n<p><a href=\"https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27\" rel=\"nofollow\">https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27</a></p>\n\n\t",
       "author": "kincaid",
@@ -87,13 +117,23 @@
     },
     {
       "title": "使用 qt c++,对比了 cluade opus 4.6 和 codex5.4, cluade 更好啊",
-      "link": "https://www.v2ex.com/t/1197462#reply6",
+      "link": "https://www.v2ex.com/t/1197462#reply7",
       "pubDate": "2026-03-11T08:11:25.000Z",
       "content": "\n\t传入一张截图，生成 exe 程序，都能最终生成截图的效果<br /><br />cluade 一次成功，codex 有一个小错误，提出问题后自动修正了。<br /><br />但是 codex5.4 速度要慢很多，不知道是不是我的中转站不行<br /><br />而且 claude 会问我要不要这么干，体验较好<br /><br /><br />ps 没钱人，都是用的中转站测试的<br /><br /><br />另外，请问一个问题<br />vscode claude 插件，按 alt+k ，可以指定当前文件或者当前选中内容，让 cluade 解释含义<br /><br />vscode codex 插件，没有这个功能？\n\t",
       "author": "lyvv",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "春田踏青图",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=5889&do=blog&id=1525279",
+      "pubDate": "2026-03-11 07:24:47",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "Vibe 出一个开源免费语音输入法： TypeMore",
@@ -107,7 +147,7 @@
     },
     {
       "title": "Bigmodel 的模型评分不是很高的吗？ GLM-5",
-      "link": "https://www.v2ex.com/t/1197432#reply7",
+      "link": "https://www.v2ex.com/t/1197432#reply9",
       "pubDate": "2026-03-11T06:40:37.000Z",
       "content": "\n\t我购买了 GLM-5 的季度 coding-plan 。<br /><br />现在用 claude-code 写代码，效果太差了，完全浪费时间。<br /><br />有没有划算的 coding token ？\n\t",
       "author": "rwecho",
@@ -199,7 +239,7 @@
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-      "link": "https://www.v2ex.com/t/1197381#reply43",
+      "link": "https://www.v2ex.com/t/1197381#reply44",
       "pubDate": "2026-03-11T04:16:53.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
       "author": "v2exgo",
@@ -239,7 +279,7 @@
     },
     {
       "title": "2w 预算，请教下装机配置问题",
-      "link": "https://www.v2ex.com/t/1197355#reply2",
+      "link": "https://www.v2ex.com/t/1197355#reply3",
       "pubDate": "2026-03-11T03:26:59.000Z",
       "content": "\n\t2w 预算，不考虑显示器<br /><br />使用需求：本地跑模型生图，比如用：comfyUI ，flux 。以及打一些游戏，希望两者能均衡一些。<br /><br />cpu 考虑英特尔，日常会用虚拟机冲浪。<br /><br />不过目前手上有 5080 和 32g 6400 内存，以及笔电的 2t 固态。<br /><br />这个需求需要替换哪些已有配置吗，不替换的话剩下的该怎么配？只想把钱花在刀刃上！！！<br /><br />麻烦大佬们给点意见，谢谢~\n\t",
       "author": "qize0921",
@@ -249,7 +289,7 @@
     },
     {
       "title": "macos 自带中文输入法能默认使用英文标点吗",
-      "link": "https://www.v2ex.com/t/1197341#reply1",
+      "link": "https://www.v2ex.com/t/1197341#reply2",
       "pubDate": "2026-03-11T03:11:25.000Z",
       "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
       "author": "iorilu",
@@ -299,7 +339,7 @@
     },
     {
       "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
-      "link": "https://www.v2ex.com/t/1197313#reply12",
+      "link": "https://www.v2ex.com/t/1197313#reply18",
       "pubDate": "2026-03-11T02:08:04.000Z",
       "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
       "author": "Fezl",
@@ -393,7 +433,7 @@
     },
     {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-      "link": "https://www.v2ex.com/t/1197269#reply67",
+      "link": "https://www.v2ex.com/t/1197269#reply68",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",
@@ -433,7 +473,7 @@
     },
     {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply82",
+      "link": "https://www.v2ex.com/t/1197259#reply87",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -452,21 +492,11 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "我用免费 A 股数据做了几个工具，欢迎一起开源！",
-      "link": "https://www.v2ex.com/t/1197248#reply1",
-      "pubDate": "2026-03-10T15:50:40.000Z",
-      "content": "\n\t<p>大家好！</p>\n<p>之前分享了 <strong>finshare</strong>（免费 A 股数据库），最近用它做了几个小工具，今天分享下。</p>\n<hr/>\n<h2>3 分钟做一个行情看板</h2>\n<pre><code class=\"language-python\">pip install finshare streamlit plotly\n</code></pre>\n<pre><code class=\"language-python\">import streamlit as st\nimport finshare as fs\n\nst.title(\"📈 实时行情\")\nstocks = ['000001.SZ', '600519.SH', '300750.SZ']\nfor code in stocks:\n    snap = fs.get_snapshot_data(code)\n    st.metric(code, snap.last_price, f\"{snap.change_pct:.2f}%\")\n</code></pre>\n<p>运行 <code>streamlit run <a href=\"http://app.py\" rel=\"nofollow\">app.py</a></code>，搞定！</p>\n<hr/>\n<h2>已开源的项目</h2>\n<table>\n<thead>\n<tr>\n<th>项目</th>\n<th>功能</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://github.com/finvfamily/finboard\" rel=\"nofollow\">finboard</a></td>\n<td>实时行情看板</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/finvfamily/finscreener\" rel=\"nofollow\">finscreener</a></td>\n<td>选股器</td>\n</tr>\n</tbody></table><hr/>\n<h2>一起开源！</h2>\n<p>基于 finshare 可以做：</p>\n<ul>\n<li>选股器 / 条件筛选</li>\n<li>价格提醒机器人</li>\n<li>K 线图表工具</li>\n<li>数据导出 Excel</li>\n<li>...</li>\n</ul>\n<p><strong>fork 项目，自己改改就能用！</strong></p>\n<p>优秀项目我会推荐、帮你宣传～</p>\n<hr/>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>Discord: <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>欢迎来玩！</p>\n\n\t",
-      "author": "sunfinv",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "写了个脚本对付营销号，现在我的抖音和 B 站清爽多了",
       "link": "https://www.v2ex.com/t/1197243#reply21",
       "pubDate": "2026-03-10T15:05:35.000Z",
       "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
-      "author": "2962051004",
+      "author": "StevenQ",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -553,7 +583,7 @@
     },
     {
       "title": "国产 coding plan 哪个最推荐？",
-      "link": "https://www.v2ex.com/t/1197191#reply33",
+      "link": "https://www.v2ex.com/t/1197191#reply34",
       "pubDate": "2026-03-10T10:04:25.000Z",
       "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
       "author": "westisc",
@@ -642,16 +672,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "肉未为奇骨最奇（南宋方岳咏白鲟）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525115",
-      "pubDate": "2026-03-10 08:23:50",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "我1999年的一封信",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525112",
       "pubDate": "2026-03-10 08:22:07",
@@ -718,16 +738,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "巴黎埃菲尔铁塔的故事",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3032375&do=blog&id=1525099",
-      "pubDate": "2026-03-10 06:50:01",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "范博士中了一篇SCI……",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525243",
       "pubDate": "2026-03-10 06:38:25",
@@ -771,6 +781,16 @@
       "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
       "pubDate": "2026-03-10 04:55:11",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "科学史中的教训：第五章 以太的葬礼：迈克尔逊的终身遗憾",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525211",
+      "pubDate": "2026-03-10 04:50:52",
       "content": "",
       "author": "",
       "categories": [],
@@ -854,16 +874,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "西方导演不黑大毛和兔子几句就显不出他们的幽默感了！？ (评论: 侵略机器)",
-      "link": "https://movie.douban.com/review/17497237/",
-      "pubDate": "Tue, 10 Mar 2026 02:45:36 GMT",
-      "content": "\nwooyuefeng评论: 侵略机器 (https://movie.douban.com/subject/35900174/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;1tcs3&#34;,&#34;text&#34;:&#34;本片拍摄手法是标准工业流水线产品，场面虽不大但特效、故事节奏该有都有。但本片最大的问题是可以看出欧美导演们骨子里的刻板和傲慢，在他们的各类电影里不忘黑一下大毛和兔子以显示西方幽默感。在面对外星黑科技暴打男主和他的小伙伴时吐槽了一句，我认同前一句...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "OpenClaw 的世界，有点癫狂",
       "link": "https://www.appinn.com/openclaw-guaiguaide/",
       "pubDate": "Tue, 10 Mar 2026 02:42:25 +0000",
@@ -911,16 +921,6 @@
       "link": "https://movie.douban.com/review/17496573/",
       "pubDate": "Mon, 09 Mar 2026 13:05:48 GMT",
       "content": "\n影评人 杉姐评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aob5a&#34;,&#34;text&#34;:&#34;文：杉姐&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "《非穷尽列举》——两性对白与成长中的必修课 (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17496271/",
-      "pubDate": "Mon, 09 Mar 2026 09:07:06 GMT",
-      "content": "\nsunshine🌻评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u3010\\u4ee5\\u4e0b\\u5185\\u5bb9\\u8...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
