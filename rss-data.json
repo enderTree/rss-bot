@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T18:42:33.988Z",
+  "lastUpdated": "2026-03-11T19:36:45.379Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-11T18:42:20.049Z",
+      "lastUpdated": "2026-03-11T19:36:33.407Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-11T18:42:21.082Z",
+      "lastUpdated": "2026-03-11T19:36:34.383Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-11T18:42:21.202Z",
+      "lastUpdated": "2026-03-11T19:36:34.635Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-11T18:42:23.313Z",
+      "lastUpdated": "2026-03-11T19:36:36.233Z",
       "items": [
         {
           "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
@@ -308,7 +308,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-11T18:42:23.492Z",
+      "lastUpdated": "2026-03-11T19:36:36.747Z",
       "items": [
         {
           "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
@@ -709,113 +709,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "🔄 分享一个 AI 自动化神器： acp-loop",
-          "link": "https://www.v2ex.com/t/1197330#reply0",
-          "pubDate": "2026-03-11T02:51:48.000Z",
-          "content": "\n\t<p>作为程序员，经常需要重复检查一些东西：</p>\n<ul>\n<li>\n<p>部署成功了没？</p>\n</li>\n<li>\n<p>有没有新的 PR 要 review ？</p>\n</li>\n<li>\n<p>今天的 issue 总结一下？</p>\n</li>\n</ul>\n<p>以前要么手动查，要么写脚本+cron ，很麻烦 😮‍💨</p>\n<p>现在用 acp-loop ，一行命令搞定：</p>\n<p>acp-loop --interval 5m \"检查部署状态\"</p>\n<p>acp-loop --cron \"0 9 * * *\" \"总结昨晚的 GitHub issues\"</p>\n<p>它会定时把任务发给 AI agent 执行，支持 Claude Code 、Codex 、Gemini CLI</p>\n<p>等各种 agent 🤖</p>\n<p>灵感来自 Claude Code 的 /loop 命令，但做成了独立工具，不挑 agent~（主要是 claude 的/loop 一开始有 bug)</p>\n<p>GitHub: <a href=\"http://github.com/femto/acp-loop\" rel=\"nofollow\">github.com/femto/acp-loop</a></p>\n<p>npm install -g acp-loop</p>\n<p>#AI #程序员 #效率工具 #自动化 #ClaudeCode #开源</p>\n\n\t",
-          "author": "femto",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "分享一个完全免费的中国 A 股数据获取库",
-          "link": "https://www.v2ex.com/t/1197162#reply69",
-          "pubDate": "2026-03-10T08:00:14.000Z",
-          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
-          "author": "sunfinv",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "创建蜂群 Agent Team， 24 小时运行你的 AI 公司的编程应用更新到 0.1.9 版本，大佬们，快快更新",
-          "link": "https://www.v2ex.com/t/1197293#reply1",
-          "pubDate": "2026-03-11T01:35:38.000Z",
-          "content": "\n\t<p>当前版本真正做到了完全自定义的一人公司架构，更适合长期运行，并且可以根据行业的不同搭建属于你的工作流，还可以直接分享模版，减少搭建工作流的繁琐，欢迎大家体验</p>\n<p>正在规划中的下一步计划包括：\n重构 OpenClaw 为真正的“ceo”，手机端远程操控 ，自动 Agent 构建能力，Agent 接入永久记忆层\n视频演示地址：\n<a href=\"https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005\" rel=\"nofollow\">https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005</a></p>\n<p>开源仓库地址如下，欢迎大佬们提出 bug ，给出建议</p>\n<p><a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>版本亮点\n更方便地创建属于自己的 Agent Team 工作流\n现在可以更方便地创建和组织属于自己的 Agent Team 工作流\n团队工作流已更适合 24 小时持续运行\n监工能力进一步增强，调度、跟进与协同更智能\n更适合长时间运行、持续推进和自动化执行场景\n导入与导出流程进一步优化，迁移、分享和复制更方便</p>\n\n\t",
-          "author": "seeksky",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "macos 自带中文输入法能默认使用英文标点吗",
-          "link": "https://www.v2ex.com/t/1197341#reply3",
-          "pubDate": "2026-03-11T03:11:25.000Z",
-          "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
-          "author": "iorilu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "一个无头小龙虾，写给 Agent 的沙盒",
-          "link": "https://www.v2ex.com/t/1197268#reply1",
-          "pubDate": "2026-03-11T00:53:07.000Z",
-          "content": "\n\t<p><a href=\"https://deeptask.ai/\" rel=\"nofollow\">https://deeptask.ai/</a></p>\n<p>可以连接 claude desktop ，单提示词，可以准确抓取 amazon 的产品列表，下载产品图片，google 搜索，bind 搜索，medium 发布文章，gmail 发送邮件等等。</p>\n<p>比如一，\nMe: help me to download amazon home page products to scv\nClaude: ... Excellent — 166 products scraped! Now let me save the CSV file and deliver it:</p>\n<p>比如二，\nMe：help me to create a deeptask script to download the first product 's images to /Images folder.\nClaude: ... 37 images downloaded to /Images/old_spice_swagger/ in sandbox1! 🎉</p>\n<p>兄弟们，我的这个应用猛不猛？</p>\n\n\t",
-          "author": "jishuzhan",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "大佬们，这种记录方式有方案吗",
-          "link": "https://www.v2ex.com/t/1197298#reply3",
-          "pubDate": "2026-03-11T01:42:37.000Z",
-          "content": "\n\t<p>打开 QQ 或微信，把需要记录的丢给 Ai 机器人帮我记录，然后我需要时，直接问 Ai 机器人拿到之前记录的结果。</p>\n<p>我的要求是数据不能丢了。要永久保存下来。这种有什么方案能整？</p>\n\n\t",
-          "author": "junwind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-          "link": "https://www.v2ex.com/t/1197168#reply40",
-          "pubDate": "2026-03-10T08:11:30.000Z",
-          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-          "author": "zitup",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply108",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "真的有人裸考 软考高架么",
-          "link": "https://www.v2ex.com/t/1197237#reply6",
-          "pubDate": "2026-03-10T14:38:43.000Z",
-          "content": "\n\t<p>晚上 github 找了个题库，做了下，基本靠蒙。</p>\n<p>大家准备多久过的</p>\n\n\t",
-          "author": "collery",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "codex 中转站今天崩溃问题",
-          "link": "https://www.v2ex.com/t/1197112#reply37",
-          "pubDate": "2026-03-10T05:39:34.000Z",
-          "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
-          "author": "forrestgump",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-11T18:42:26.342Z",
+      "lastUpdated": "2026-03-11T19:36:39.147Z",
       "items": [
         {
           "title": "范博士中了一篇SCI……",
@@ -851,36 +751,6 @@
           "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525214",
           "pubDate": "2026-03-10 04:55:11",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "“科学易”的“刘纲领”",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525173",
-          "pubDate": "2026-03-10 02:56:56",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "郁金香",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=5889&do=blog&id=1525182",
-          "pubDate": "2026-03-10 03:29:02",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "一中的奇人奇事之三十 15.后记",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1525176",
-          "pubDate": "2026-03-10 03:02:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -1016,13 +886,43 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "高校图书馆学科服务重点与难点",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525219",
+          "pubDate": "2026-03-10 05:01:55",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "金婚家宴",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=69051&do=blog&id=1525268",
+          "pubDate": "2026-03-11 12:12:08",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "散文初作（13）：六一年岁感怀",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1251036&do=blog&id=1525273",
+          "pubDate": "2026-03-11 06:02:41",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-11T18:42:28.813Z",
+      "lastUpdated": "2026-03-11T19:36:41.507Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1229,7 +1129,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-11T18:42:32.255Z",
+      "lastUpdated": "2026-03-11T19:36:43.438Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1437,20 +1337,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-11T18:42:33.349Z",
+      "lastUpdated": "2026-03-11T19:36:44.540Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-11T18:42:33.612Z",
+      "lastUpdated": "2026-03-11T19:36:44.737Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-11T18:42:33.988Z",
+      "lastUpdated": "2026-03-11T19:36:45.379Z",
       "items": [
         {
           "title": "无题",
