@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-11T13:59:52.163Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-11T14:50:58.729Z",
+  "totalItems": 133,
   "items": [
     {
-      "title": "免费公益的 OpenClaw 体验",
-      "link": "https://www.v2ex.com/t/1197539#reply0",
-      "pubDate": "2026-03-11T13:36:36.000Z",
-      "content": "\n\t<p>最近 OpenClaw 龙虾实在是太火热了，想要尝鲜的朋友往往受限于本地部署的复杂，云端大厂的一键部署又很贵，这里提供一只免费尝鲜的龙虾供大家快速体验：</p>\n<p><a href=\"https://claw.lusyoe.com/lusyoe\" rel=\"nofollow\">https://claw.lusyoe.com/lusyoe</a></p>\n<p>PS：为了避免滥用和安全性考虑，需先登陆官网才能访问，官网地址：<a href=\"https://claw.lusyoe.com\" rel=\"nofollow\">https://claw.lusyoe.com</a></p>\n<p>体验地址是共享的，可以直接免费用，不过会定时清空数据，防止隐私泄露~</p>\n\n\t",
-      "author": "lusyoe",
+      "title": "DeepSeek V4 发布在即？ HuggingFace 已出现量化版权重上传记录",
+      "link": "https://www.v2ex.com/t/1197548#reply0",
+      "pubDate": "2026-03-11T14:44:35.000Z",
+      "content": "\n\tRT ，量化大神 @<a target=\"_blank\" href=\"/member/bdsqlsz\" rel=\"nofollow noopener\">bdsqlsz</a> 已经在 HF 上传 DeepSeek-V4-INT8 了，看来官宣就在这 48 小时内。<br /><br />目前流出的 Specs 汇总：<br /><br />1T 参数 MoE ，激活 32B ；<br />1M Context ；<br />支持原生音频（看来要刚 GPT-5.4 的实时语音了）；<br />深度优化昇腾 910C 。<br /><br /><br />V2EX 不知道如何贴图，相关泄露图大家可以点这查看：<br /><a target=\"_blank\" href=\"https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface\" rel=\"nofollow noopener\">https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface</a><br /><br />坐等 DeepSeek 再次震撼！\n\t",
+      "author": "dreamwing",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -18,16 +18,6 @@
       "pubDate": "2026-03-11T12:57:42.000Z",
       "content": "\n\t<p>网站： <a href=\"https://www.inssnap.com\" rel=\"nofollow\">https://www.inssnap.com</a>\n工具：Claude Code opus 4.6\n功能：下载 instagram 图片、视频、Reels 等，支持 10 国语言，目前每天限制 3 次</p>\n<p>感受：opus 4.6 实在是太美妙了，基本上不跟我说废话，各种 plan 和 coding 效果很棒，就是太贵了</p>\n\n\t",
       "author": "loulijun",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "你们的龙虾是有什么自动化任务呢",
-      "link": "https://www.v2ex.com/t/1197522#reply11",
-      "pubDate": "2026-03-11T12:18:12.000Z",
-      "content": "\n\t<table>\n<thead>\n<tr>\n<th>任务名</th>\n<th>时间</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>health-check</td>\n<td>每 6 小时</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>早间提醒</td>\n<td>每天 07:15</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>阿里云账单提醒-早</td>\n<td>每天 09:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>HotNews 用户统计-早</td>\n<td>每天 09:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>发票采集提醒</td>\n<td>每天 09:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>发票自动采集</td>\n<td>每天 10:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>HotNews 用户统计-午</td>\n<td>每天 12:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>阿里云账单提醒-晚</td>\n<td>每天 18:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>智能巡检</td>\n<td>每天 08:00, 20:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>HotNews 用户统计-晚</td>\n<td>每天 20:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>晚间预告</td>\n<td>每天 22:30</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>工资生成与邮件发送</td>\n<td>每月 1 号 09:00</td>\n<td>✅</td>\n</tr>\n<tr>\n<td><a href=\"http://hot.uihash.com\" rel=\"nofollow\">hot.uihash.com</a></td>\n<td>欢迎来看</td>\n<td>✅</td>\n</tr>\n</tbody></table>\n\t",
-      "author": "David666",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -54,7 +44,7 @@
     },
     {
       "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
-      "link": "https://www.v2ex.com/t/1197519#reply6",
+      "link": "https://www.v2ex.com/t/1197519#reply8",
       "pubDate": "2026-03-11T12:04:33.000Z",
       "content": "\n\t\n\t",
       "author": "drymonfidelia",
@@ -63,11 +53,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "看到一个群友说要卸载龙虾🦞，于是我做了一个龙虾卸载教程网站",
-      "link": "https://www.v2ex.com/t/1197506#reply6",
-      "pubDate": "2026-03-11T10:55:57.000Z",
-      "content": "\n\t<p>看到一个群友说要把🦞龙虾卸载了，然后我就想找下龙虾卸载的教程看下，于是用 anygen 收集了下材料做成了网站，不过 anygen 用的是 vite + react client ，于是使用 gemini-cli ，改成了 nextjs ，但由于今天用了 gemini 比较多，被限制了额度，该用 trae 继续干活。。。但是呢，多语言老是出错，最后还是用 Claude 给修复了，ai 牛马也是分等级的，Claude 我都是用来最后收尾使用的。</p>\n<p>卸载龙虾教程网站： <a href=\"https://openclawuninstall.org/zh\" rel=\"nofollow\">https://openclawuninstall.org/zh</a> ，都是各个 ai 牛马生成的，各位兄弟有什么建议，可以留言给我。</p>\n<p><img alt=\"龙虾卸载教程网站截图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/t1Ze0LO.png\"/></p>\n\n\t",
-      "author": "jsiwa123",
+      "title": "还是 cc 好用",
+      "link": "https://www.v2ex.com/t/1197512#reply0",
+      "pubDate": "2026-03-11T11:33:09.000Z",
+      "content": "\n\t试了 codex 很难受，一直问我确认吗，不理解我的需求。我主要拿来写代码，cc 的 sonnet 都能理解我的意思，完善代码，可惜最近限制的太厉害了，大佬们正价买的吗，中转的也很拉，下午给折腾很久用不了。\n\t",
+      "author": "iamtuzi3333",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -83,16 +73,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "我用 4 小时，让 AI 帮我从 0 开发了一个 AI 漫剧生成平台",
-      "link": "https://www.v2ex.com/t/1197501#reply3",
-      "pubDate": "2026-03-11T10:22:17.000Z",
-      "content": "\n\t<p>开发过程： <a href=\"https://github.com/twwch/vibe-coding\" rel=\"nofollow\">https://github.com/twwch/vibe-coding</a></p>\n<p>漫剧平台： <a href=\"https://github.com/twwch/AIComicBuilder\" rel=\"nofollow\">https://github.com/twwch/AIComicBuilder</a></p>\n<p>效果图：</p>\n<h3>列表页</h3>\n<p><img alt=\"列表页\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/list.png\"/></p>\n<h3>剧本生成</h3>\n<p><img alt=\"剧本生成\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/%E5%89%A7%E6%9C%AC%E7%94%9F%E6%88%90.png\"/></p>\n<h3>角色解析</h3>\n<p><img alt=\"角色解析\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/%E8%A7%92%E8%89%B2%E8%A7%A3%E6%9E%90.png\"/></p>\n<h3>分镜</h3>\n<p><img alt=\"分镜\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/%E5%88%86%E9%95%9C.png\"/></p>\n<h3>预览</h3>\n<p><img alt=\"预览\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/%E9%A2%84%E8%A7%88.png\"/></p>\n<h3>模型配置</h3>\n<p><img alt=\"模型配置\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo/%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE.png\"/></p>\n\n\t",
-      "author": "jaycee110905",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
       "link": "https://www.v2ex.com/t/1197498#reply0",
       "pubDate": "2026-03-11T10:07:45.000Z",
@@ -101,6 +81,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "ADVANCED MATERIALS 2025年发文概况",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525309",
+      "pubDate": "2026-03-11 09:58:07",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "父权制度就像空气，而我是那个对空气过敏的人 (评论: 非穷尽列举)",
@@ -114,7 +104,7 @@
     },
     {
       "title": "自建 Emby / MoviePilot 用户安全提醒",
-      "link": "https://www.v2ex.com/t/1197485#reply0",
+      "link": "https://www.v2ex.com/t/1197485#reply1",
       "pubDate": "2026-03-11T09:18:58.000Z",
       "content": "\n\t<p>最近在排查服务器被入侵事件时发现，部分使用 Docker <strong>host 网络模式</strong>部署的 MoviePilot 可能会意外暴露内部接口，存在被利用的风险。</p>\n<p>如果你是自建 Emby 并使用 <strong>MoviePilot</strong> 管理媒体库，建议检查一下自己的服务器：</p>\n<ol>\n<li>\n<p>在浏览器访问<br/>\n<code>http://服务器 IP:38379/version</code></p>\n</li>\n<li>\n<p>如果可以直接返回版本信息，说明该接口已经对外暴露，存在被扫描和利用的风险。</p>\n</li>\n</ol>\n<p>建议处理方式：</p>\n<ul>\n<li>尽快更新 <strong>MoviePilot</strong> 到最新版本 <strong>v2.9.14</strong> </li>\n<li>尽量避免使用 <code>host</code> 网络模式直接暴露服务  </li>\n</ul>\n<p>之前已有服务器因为该接口暴露被利用执行恶意脚本，最终被植入挖矿程序。</p>\n<p>详细分析过程可以参考：<br/>\n<a href=\"https://blog.v2.games/archives/server-attack-analysis\" rel=\"nofollow\">https://blog.v2.games/archives/server-attack-analysis</a></p>\n<p>建议大家尽快自查，避免服务器被入侵。</p>\n\n\t",
       "author": "ziwiwiz",
@@ -124,7 +114,7 @@
     },
     {
       "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
-      "link": "https://www.v2ex.com/t/1197478#reply3",
+      "link": "https://www.v2ex.com/t/1197478#reply4",
       "pubDate": "2026-03-11T08:58:47.000Z",
       "content": "\n\t\n\t",
       "author": "Yasuo666",
@@ -237,7 +227,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply23",
+      "link": "https://www.v2ex.com/t/1197429#reply26",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -378,31 +368,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "macos 自带中文输入法能默认使用英文标点吗",
-      "link": "https://www.v2ex.com/t/1197341#reply3",
-      "pubDate": "2026-03-11T03:11:25.000Z",
-      "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
-      "author": "iorilu",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "OpenCode 使用问题",
       "link": "https://www.v2ex.com/t/1197337#reply10",
       "pubDate": "2026-03-11T03:06:21.000Z",
       "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
       "author": "xing4576",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "🔄 分享一个 AI 自动化神器： acp-loop",
-      "link": "https://www.v2ex.com/t/1197330#reply0",
-      "pubDate": "2026-03-11T02:51:48.000Z",
-      "content": "\n\t<p>作为程序员，经常需要重复检查一些东西：</p>\n<ul>\n<li>\n<p>部署成功了没？</p>\n</li>\n<li>\n<p>有没有新的 PR 要 review ？</p>\n</li>\n<li>\n<p>今天的 issue 总结一下？</p>\n</li>\n</ul>\n<p>以前要么手动查，要么写脚本+cron ，很麻烦 😮‍💨</p>\n<p>现在用 acp-loop ，一行命令搞定：</p>\n<p>acp-loop --interval 5m \"检查部署状态\"</p>\n<p>acp-loop --cron \"0 9 * * *\" \"总结昨晚的 GitHub issues\"</p>\n<p>它会定时把任务发给 AI agent 执行，支持 Claude Code 、Codex 、Gemini CLI</p>\n<p>等各种 agent 🤖</p>\n<p>灵感来自 Claude Code 的 /loop 命令，但做成了独立工具，不挑 agent~（主要是 claude 的/loop 一开始有 bug)</p>\n<p>GitHub: <a href=\"http://github.com/femto/acp-loop\" rel=\"nofollow\">github.com/femto/acp-loop</a></p>\n<p>npm install -g acp-loop</p>\n<p>#AI #程序员 #效率工具 #自动化 #ClaudeCode #开源</p>\n\n\t",
-      "author": "femto",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -439,7 +409,7 @@
     },
     {
       "title": "最近小龙虾很火，一般用来做什么副业呢？大佬们都聊聊",
-      "link": "https://www.v2ex.com/t/1197308#reply35",
+      "link": "https://www.v2ex.com/t/1197308#reply36",
       "pubDate": "2026-03-11T02:04:25.000Z",
       "content": "\n\t\n\t",
       "author": "sandy136",
@@ -458,31 +428,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "大佬们，这种记录方式有方案吗",
-      "link": "https://www.v2ex.com/t/1197298#reply3",
-      "pubDate": "2026-03-11T01:42:37.000Z",
-      "content": "\n\t<p>打开 QQ 或微信，把需要记录的丢给 Ai 机器人帮我记录，然后我需要时，直接问 Ai 机器人拿到之前记录的结果。</p>\n<p>我的要求是数据不能丢了。要永久保存下来。这种有什么方案能整？</p>\n\n\t",
-      "author": "junwind",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
       "link": "https://www.v2ex.com/t/1197297#reply15",
       "pubDate": "2026-03-11T01:42:22.000Z",
       "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
       "author": "kssss",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "创建蜂群 Agent Team， 24 小时运行你的 AI 公司的编程应用更新到 0.1.9 版本，大佬们，快快更新",
-      "link": "https://www.v2ex.com/t/1197293#reply1",
-      "pubDate": "2026-03-11T01:35:38.000Z",
-      "content": "\n\t<p>当前版本真正做到了完全自定义的一人公司架构，更适合长期运行，并且可以根据行业的不同搭建属于你的工作流，还可以直接分享模版，减少搭建工作流的繁琐，欢迎大家体验</p>\n<p>正在规划中的下一步计划包括：\n重构 OpenClaw 为真正的“ceo”，手机端远程操控 ，自动 Agent 构建能力，Agent 接入永久记忆层\n视频演示地址：\n<a href=\"https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005\" rel=\"nofollow\">https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005</a></p>\n<p>开源仓库地址如下，欢迎大佬们提出 bug ，给出建议</p>\n<p><a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>版本亮点\n更方便地创建属于自己的 Agent Team 工作流\n现在可以更方便地创建和组织属于自己的 Agent Team 工作流\n团队工作流已更适合 24 小时持续运行\n监工能力进一步增强，调度、跟进与协同更智能\n更适合长时间运行、持续推进和自动化执行场景\n导入与导出流程进一步优化，迁移、分享和复制更方便</p>\n\n\t",
-      "author": "seeksky",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -523,20 +473,10 @@
     },
     {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-      "link": "https://www.v2ex.com/t/1197269#reply77",
+      "link": "https://www.v2ex.com/t/1197269#reply80",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "一个无头小龙虾，写给 Agent 的沙盒",
-      "link": "https://www.v2ex.com/t/1197268#reply1",
-      "pubDate": "2026-03-11T00:53:07.000Z",
-      "content": "\n\t<p><a href=\"https://deeptask.ai/\" rel=\"nofollow\">https://deeptask.ai/</a></p>\n<p>可以连接 claude desktop ，单提示词，可以准确抓取 amazon 的产品列表，下载产品图片，google 搜索，bind 搜索，medium 发布文章，gmail 发送邮件等等。</p>\n<p>比如一，\nMe: help me to download amazon home page products to scv\nClaude: ... Excellent — 166 products scraped! Now let me save the CSV file and deliver it:</p>\n<p>比如二，\nMe：help me to create a deeptask script to download the first product 's images to /Images folder.\nClaude: ... 37 images downloaded to /Images/old_spice_swagger/ in sandbox1! 🎉</p>\n<p>兄弟们，我的这个应用猛不猛？</p>\n\n\t",
-      "author": "jishuzhan",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -563,7 +503,7 @@
     },
     {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply89",
+      "link": "https://www.v2ex.com/t/1197259#reply92",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -587,16 +527,6 @@
       "pubDate": "2026-03-10T15:05:35.000Z",
       "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
       "author": "StevenQ",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "真的有人裸考 软考高架么",
-      "link": "https://www.v2ex.com/t/1197237#reply6",
-      "pubDate": "2026-03-10T14:38:43.000Z",
-      "content": "\n\t<p>晚上 github 找了个题库，做了下，基本靠蒙。</p>\n<p>大家准备多久过的</p>\n\n\t",
-      "author": "collery",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -632,16 +562,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "老有所学     勤学苦练",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525153",
-      "pubDate": "2026-03-10 11:10:06",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "Steve又成男妈妈了 (评论: 绿液惊魂)",
       "link": "https://movie.douban.com/review/17497800/",
       "pubDate": "Tue, 10 Mar 2026 11:09:50 GMT",
@@ -662,16 +582,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "古之名藍",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1525142",
-      "pubDate": "2026-03-10 10:37:30",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "国产 coding plan 哪个最推荐？",
       "link": "https://www.v2ex.com/t/1197191#reply35",
       "pubDate": "2026-03-10T10:04:25.000Z",
@@ -683,7 +593,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply76",
+      "link": "https://www.v2ex.com/t/1197190#reply78",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
@@ -732,24 +642,14 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-      "link": "https://www.v2ex.com/t/1197168#reply40",
-      "pubDate": "2026-03-10T08:11:30.000Z",
-      "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-      "author": "zitup",
+      "title": "紫荆花",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3370941&do=blog&id=1525253",
+      "pubDate": "2026-03-10 08:51:40",
+      "content": "",
+      "author": "",
       "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "分享一个完全免费的中国 A 股数据获取库",
-      "link": "https://www.v2ex.com/t/1197162#reply69",
-      "pubDate": "2026-03-10T08:00:14.000Z",
-      "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
-      "author": "sunfinv",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
