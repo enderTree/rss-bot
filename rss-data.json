@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T22:19:50.545Z",
+  "lastUpdated": "2026-03-11T23:17:42.750Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-11T22:19:38.961Z",
+      "lastUpdated": "2026-03-11T23:17:30.865Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-11T22:19:40.022Z",
+      "lastUpdated": "2026-03-11T23:17:31.989Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-11T22:19:40.130Z",
+      "lastUpdated": "2026-03-11T23:17:32.118Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-11T22:19:41.898Z",
+      "lastUpdated": "2026-03-11T23:17:34.046Z",
       "items": [
         {
           "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
@@ -308,7 +308,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-11T22:19:42.099Z",
+      "lastUpdated": "2026-03-11T23:17:34.243Z",
       "items": [
         {
           "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
@@ -321,21 +321,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
-          "link": "https://www.v2ex.com/t/1197519#reply10",
-          "pubDate": "2026-03-11T12:04:33.000Z",
-          "content": "\n\t\n\t",
-          "author": "drymonfidelia",
+          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
+          "link": "https://www.v2ex.com/t/1197381#reply54",
+          "pubDate": "2026-03-11T04:16:53.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
+          "author": "v2exgo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-          "link": "https://www.v2ex.com/t/1197381#reply53",
-          "pubDate": "2026-03-11T04:16:53.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
-          "author": "v2exgo",
+          "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
+          "link": "https://www.v2ex.com/t/1197519#reply10",
+          "pubDate": "2026-03-11T12:04:33.000Z",
+          "content": "\n\t\n\t",
+          "author": "drymonfidelia",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -481,8 +481,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Vibe 出一个开源免费语音输入法： TypeMore",
+          "link": "https://www.v2ex.com/t/1197440#reply4",
+          "pubDate": "2026-03-11T07:13:22.000Z",
+          "content": "\n\t最近几个星期断断续续开发，费劲口舌各种调试，终于 vibe 出了一个 macOS 的语音输入法：TypeMore 。可以离线语音识别，BYOK （ Bring Your Own Key ）优化、翻译，自定义 prompt 。<br /><br />开源地址：<br /><a target=\"_blank\" href=\"https://github.com/everettjf/typemore\" rel=\"nofollow noopener\">https://github.com/everettjf/typemore</a><br /><br />离线语音识别基于：<br /><a target=\"_blank\" href=\"https://github.com/k2-fsa/sherpa-onnx\" rel=\"nofollow noopener\">https://github.com/k2-fsa/sherpa-onnx</a><br /><br /><br />名字的灵感来自 Typeless：既然可以 TypeLess ，那也可以试试 TypeMore 😄<br /><br />目前只支持 macOS ，近期会支持 Windows 。<br /><br />官网： <a target=\"_blank\" href=\"https://typemore.app\" rel=\"nofollow noopener\">https://typemore.app</a><br /><br />欢迎试试，也欢迎提 Issue / PR 。当然效果还是不如 Typeless ，后续慢慢优化，中英文混合识别还是不太好。大家有兴趣可以试用试用。\n\t",
+          "author": "everettjf",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
-          "link": "https://www.v2ex.com/t/1197498#reply0",
+          "link": "https://www.v2ex.com/t/1197498#reply1",
           "pubDate": "2026-03-11T10:07:45.000Z",
           "content": "\n\t<blockquote>\n<p>编程 Agent 会分析/解决问题，但不会积累经验。它们有印象，但没有笔记。RadioHeader 给 Claude Code 补上了这一层。</p>\n</blockquote>\n<hr/>\n<h2>先说个真事儿</h2>\n<p>我用 Claude Code 做 iOS 的时候，遇到过一次 app 启动白屏几十秒的问题。Claude 一路查日志、翻文件、试各种排查，折腾了很久都没定位到。最后还是我想起来，另一个项目以前也出过差不多的事，让它去翻那个项目的旧记录，才找到根因——Xcode 的 scheme 设置问题。</p>\n<p>那一刻我就很确定一件事：像 Claude Code 这样的编程 Agent ，分析问题、写代码都很强，但它们不会共享项目经验。后来 Claude Code 虽然也加了 memory ，但本质问题没变——它记得方向，记不住关键细节，更别说跨项目复用了。</p>\n<p>项目之间的记忆完全隔离，就意味着项目 A 踩过的坑，项目 B 根本不知道。如果我自己记得”我好像遇到过这个问题”，还能手动指路，要是我也忘了呢？</p>\n<p>现有的工具几乎都是在做\"规则\"层面的事。规则当然有用，但规则无很难达到“这个坑我真的踩过，而且已经知道怎么修\"这种程度。做硬件产品的时候我也经常遇到这类\"认知型经验\"——不是文档里写了你就会的，得自己撞上、解决了，才真正印象深刻。</p>\n<p>在没找到做编程 agent”经验\"层面的工具的情况下，我自己做了一个。</p>\n<hr/>\n<p>RadioHeader 不是一开始设计好的，是被真实问题一步步逼出来的。</p>\n<h2>第一步：让 Agent 学会记笔记</h2>\n<p>起点是单项目内的记忆缺失。Claude Code 在一个项目里工作久了，早期的经验就开始模糊。它记得\"之前遇到过类似问题\"，但记不住具体怎么解决的。</p>\n<p>换句话说：<strong>Agent 需要的是笔记，不是印象。</strong> 自带的 memory 记的是大致印象，而能被精确搜索到的结构化笔记才有复用价值。</p>\n<p>我的想法很朴素：让 Claude 每次解决完问题后，主动把经验记下来。具体分两种：一种是<strong>经验条目</strong>，写进 <code>memory/</code> 目录——根因、修法、注意事项，按主题组织，方便以后检索；另一种是<strong>任务日志</strong>，写进 <code>logs/</code> 目录——以一个问题的解决为单位，记录背景、过程、结论，保留完整上下文。日志的文件名经过设计：<code>日期-主题-撰写者</code>，Agent 和人类都要署名，标清楚方便追溯。起初我会在关键节点手动提醒 Claude\"同步一下项目信息\"，后来逐渐做成了自动化。</p>\n<p>我把这个机制叫<strong>经验回流</strong>——完成一个任务后，经验自动流回记忆系统。每次修完 bug 、做了架构决策、踩了非直觉的坑，Claude 都把经验写回去。用 Claude Code 的 hook 机制让这个过程自动：PostToolUse hook 在写入 memory 时触发检查，Stop hook 在会话结束时提醒有没有新经验遗漏。</p>\n<p>同一个项目里，以前要重新排查的问题，现在翻笔记就能解决。</p>\n<p>但很快就遇到了开头那个场景：项目 A 的笔记，项目 B 搜不到。</p>\n<h2>第二步：打通项目之间的壁垒</h2>\n<p>于是我在所有项目之上建了一个全局经验中枢：<code>~/.claude/radioheader/</code>。</p>\n<p>名字的由来——我喜欢 Radiohead 这个乐队，而这个全局中枢又像一个信号塔，各个项目需要的时候就从里面接收信息。RadioHeader ，就这么出现了。</p>\n<p>架构变成了三层：</p>\n<pre><code>┌─────────────────────────────────┐\n│  RadioHeader （全局经验中枢）      │  ← 所有项目共享\n├─────────────────────────────────┤\n│  项目 memory/（项目专属记忆）     │  ← 当前项目\n├─────────────────────────────────┤\n│  会话上下文（临时）               │  ← 当前对话\n└─────────────────────────────────┘\n</code></pre>\n<p>每次经验回流时，Claude 会顺手判断一下：这条经验是不是跨项目通用的？如果是，写入全局层，标注来源项目。之后任何项目遇到类似问题，先搜这里。有了 RadioHeader 这个信号塔的隐喻之后，我把经验回流叫做 <strong>Echo</strong>（回波）——经验像信号的回波一样，从项目返回信号塔。</p>\n<p>装了之后再遇到白屏问题：</p>\n<pre><code>你：App 启动白屏 10 秒以上\n\nClaude：RadioHeader 中有来自 ProjectA 的经验：\n        \"Xcode scheme 的 Launch 配置导致 iOS app 启动白屏，\n        检查 scheme 设置中的相关选项……\"\n\n        验证一下是否适用…… ✓ 同样的模式。正在应用修复。\n</code></pre>\n<p>不用我手动指路了。<strong>同一类问题从第二次开始，解决时间从分钟级掉到秒级。不是 AI 变聪明了，是答案已经在那里了。</strong></p>\n<h3>精炼：从项目经验到通用知识</h3>\n<p>跨项目共享之后冒出一个新问题：经验一旦放到全局以后，原始条目里保留的项目上下文太多，搜索噪音和 token 消耗都上来了。比如一条经验写着 <code>[来源:DarkWriting] iCloud I/O 阻塞主线程</code>，另一个项目用的是 CoreData 不是 iCloud——但根因相同。项目名和具体技术细节反而成了搜索障碍。</p>\n<p>于是我加了一层精炼：<strong>短波（ Shortwave ）</strong>——去掉项目名、文件路径、框架细节，只保留通用知识。这不光是为了降噪，也是为了保护隐私——经验条目在精炼之前可能包含项目路径、内部命名甚至 API key ，短波会把这些全部剥离。</p>\n<p>这样三层就接上了：经验先通过 <strong>Echo</strong> 回到 <strong>RadioHeader</strong>，再由 <strong>Shortwave</strong> 去掉项目噪音，变成可广播的通用知识。</p>\n<pre><code class=\"language-yaml\">---\nid: sw-ios-task-inherits-mainactor\ndomain: iOS, SwiftUI, Concurrency\ntags: 白屏 | 启动慢 | white screen | slow launch | 10s+ | Main Actor | Task\n---\n### Task {} 在 @MainActor 上下文中继承主线程，I/O 阻塞导致白屏\n\nsymptoms: 应用启动后 10s+ 白屏，首次加载卡死\ncause: Task {} 在 @MainActor 标记的上下文中创建时继承主线程\nfix: 使用 Task.detached(priority:) 将 I/O 操作移出主线程\n</code></pre>\n<p>注意 <code>tags</code> 里的\"白屏\"、\"启动慢\"、\"slow launch\"——这些是开发者实际会搜的词。如果只保留 \"Task.detached\" 这种解法关键词，这条经验就搜不到了。<strong>症状关键词比解法关键词重要得多。</strong> 经验条目删掉了症状词就等于不存在。</p>\n<h3>比搜不到更烦的，是搜到了也不用</h3>\n<p>到这里遇到了另一个让人头疼的问题：Claude 搜到了经验，但不用。</p>\n<p>早期我在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写：\"遇到技术问题时先搜索 RadioHeader\"。Claude 确实搜了，也找到了相关结果——然后完全忽略，直接跳进独立分析。就像你给新同事一本 wiki ，他打开看了一眼，还是选择自己摸索。</p>\n<p>后来搞明白了：<strong>行为指令比知识描述有效得多。</strong> 在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写\"这里有个东西可以查\"没用，得写\"你必须搜，搜到必须引用，禁止搜到不用\"才行。这两种写法在 Agent 系统中效果差很远。</p>\n<p>最终方案是\"<strong>搜→用→追</strong>\"三步强制规则：</p>\n<ol>\n<li><strong>搜</strong>：遇到技术问题，先搜 RadioHeader</li>\n<li><strong>用</strong>：搜到相关经验，必须引用并验证</li>\n<li><strong>追</strong>：需要更多细节，追溯到来源项目的 memory</li>\n</ol>\n<p>外加一句禁令：\"禁止搜到相关经验却不引用、不应用，直接跳过去做独立分析\"——这句话比前面三条都管用。</p>\n<h2>第三步：从个人记忆到社区共享</h2>\n<p>前两步解决了自己不重复踩坑的问题，但我的经验仍然是一座孤岛。我遇到的问题，世界上某个人在开发中一定早就有经验了；反过来，我踩过的坑可能也正好能帮到别人。</p>\n<p>能不能把精炼好的短波共享出去？难题不在技术，在质量治理——不能什么都往池子里丢，但我一个人也做不了人工审核。</p>\n<p>当时我想到试试从生物学里找找灵感，结果还真找到了一个概念——Stigmergy （痕迹协作）。这是蚁群行为学里的东西：蚂蚁在路径上留信息素，走的越多越浓，没蚂蚁走的自然蒸发。不需要谁来管理，好路径自己就显现出来了。</p>\n<p>用这个思路做知识共享的质量治理：</p>\n<ul>\n<li><strong>自动投票</strong>：Claude 用了社区短波解决问题后，自动判断这条经验是不是真帮上忙了，+1 或 -1</li>\n<li><strong>时间衰减</strong>：分数随时间下降（半衰期约 125 天），过时的经验自然淘汰（需要验证一下效果）</li>\n<li><strong>每周清洗</strong>：GitHub Actions 聚合投票，高分标记 <code>verified</code>，低分归档</li>\n</ul>\n<p>发布也有门槛——质量评分（≥6/8 ）、隐私扫描（确保没泄露路径和密钥）、去重检查。不需要管理员，好经验自己浮上来，差经验自己沉下去。</p>\n<h2>目前的状态</h2>\n<p>我不是做完一个 demo 就拿出来讲故事，这套东西已经在我自己手里滚了几个月。13 个项目，覆盖 iOS/SwiftUI 、Rust 、后端部署、网络代理、AI API 、Claude Code 、硬件产品 7 个技术领域。205 条原始经验，120 条精炼短波，114 条发布到社区池。（截止发稿时）</p>\n<h2>试试看</h2>\n<p>不用先研究完整设计，找一个你最近最常重复踩坑的项目，装上跑一周就知道它有没有用。</p>\n<pre><code class=\"language-bash\">git clone https://github.com/ZaptainZ/radioheader.git\ncd radioheader\n./install.sh\n</code></pre>\n<p>之后在任何项目中启动 Claude Code 就生效了。</p>\n<pre><code class=\"language-bash\"># 开启社区共享\nradioheader community on\nradioheader sync\n</code></pre>\n<p>GitHub：<a href=\"https://github.com/ZaptainZ/radioheader\" rel=\"nofollow\">ZaptainZ/radioheader</a></p>\n<hr/>\n<p>RadioHeader 还在继续打磨，但它已经在我自己的真实项目里跑出价值了，所以我把它公开出来。开源社区帮了我很多，这次也算把自己真用出来的一套东西拿出来回馈。</p>\n<p>MIT 协议。你要是也受不了重复踩坑，直接装上试试。有用欢迎 star ，没用也欢迎来 issue 吐槽。</p>\n\n\t",
           "author": "Zaptain",
@@ -526,16 +536,6 @@
           "pubDate": "2026-03-11T04:04:44.000Z",
           "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
           "author": "dodoa",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Vibe 出一个开源免费语音输入法： TypeMore",
-          "link": "https://www.v2ex.com/t/1197440#reply3",
-          "pubDate": "2026-03-11T07:13:22.000Z",
-          "content": "\n\t最近几个星期断断续续开发，费劲口舌各种调试，终于 vibe 出了一个 macOS 的语音输入法：TypeMore 。可以离线语音识别，BYOK （ Bring Your Own Key ）优化、翻译，自定义 prompt 。<br /><br />开源地址：<br /><a target=\"_blank\" href=\"https://github.com/everettjf/typemore\" rel=\"nofollow noopener\">https://github.com/everettjf/typemore</a><br /><br />离线语音识别基于：<br /><a target=\"_blank\" href=\"https://github.com/k2-fsa/sherpa-onnx\" rel=\"nofollow noopener\">https://github.com/k2-fsa/sherpa-onnx</a><br /><br /><br />名字的灵感来自 Typeless：既然可以 TypeLess ，那也可以试试 TypeMore 😄<br /><br />目前只支持 macOS ，近期会支持 Windows 。<br /><br />官网： <a target=\"_blank\" href=\"https://typemore.app\" rel=\"nofollow noopener\">https://typemore.app</a><br /><br />欢迎试试，也欢迎提 Issue / PR 。当然效果还是不如 Typeless ，后续慢慢优化，中英文混合识别还是不太好。大家有兴趣可以试用试用。\n\t",
-          "author": "everettjf",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -715,18 +715,8 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-11T22:19:44.497Z",
+      "lastUpdated": "2026-03-11T23:17:36.434Z",
       "items": [
-        {
-          "title": "范博士中了一篇SCI……",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525243",
-          "pubDate": "2026-03-10 06:38:25",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "[打听，科普，数学] 素数（6）：不用黎曼猜想的“素数计数函数”2个估计",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525254",
@@ -741,6 +731,16 @@
           "title": "跨界研究成功的科学家",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525280",
           "pubDate": "2026-03-11 07:37:45",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "偏憎杨柳难钤辖",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525286",
+          "pubDate": "2026-03-11 08:28:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -768,9 +768,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "偏憎杨柳难钤辖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525286",
-          "pubDate": "2026-03-11 08:28:18",
+          "title": "海棠初开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
+          "pubDate": "2026-03-11 07:04:21",
           "content": "",
           "author": "",
           "categories": [],
@@ -791,16 +791,6 @@
           "title": "植物侦探——吴征镒院士与中国绿色宝藏的情缘",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1525255",
           "pubDate": "2026-03-10 09:07:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "踏雪寻梅，书法",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=63222&do=blog&id=1525244",
-          "pubDate": "2026-03-10 06:49:40",
           "content": "",
           "author": "",
           "categories": [],
@@ -838,9 +828,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "海棠初开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
-          "pubDate": "2026-03-11 07:04:21",
+          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
+          "pubDate": "2026-03-11 03:05:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -878,9 +868,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
-          "pubDate": "2026-03-11 02:52:48",
+          "title": "农田实验生态和作物光合生理生态研究忆述（6）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1525291",
+          "pubDate": "2026-03-11 08:40:54",
           "content": "",
           "author": "",
           "categories": [],
@@ -888,9 +878,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
-          "pubDate": "2026-03-11 03:05:00",
+          "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
+          "pubDate": "2026-03-11 02:52:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -916,13 +906,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "AI时代，为什么我们还要沉浸式读书、办线下读书会、读中华经典？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525282",
+          "pubDate": "2026-03-11 08:13:08",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-11T22:19:46.675Z",
+      "lastUpdated": "2026-03-11T23:17:38.999Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1129,7 +1129,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-11T22:19:48.628Z",
+      "lastUpdated": "2026-03-11T23:17:40.869Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1337,20 +1337,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-11T22:19:49.619Z",
+      "lastUpdated": "2026-03-11T23:17:41.833Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-11T22:19:49.913Z",
+      "lastUpdated": "2026-03-11T23:17:42.089Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-11T22:19:50.545Z",
+      "lastUpdated": "2026-03-11T23:17:42.750Z",
       "items": [
         {
           "title": "无题",
