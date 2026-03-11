@@ -1,10 +1,27 @@
 {
-  "lastUpdated": "2026-03-11T16:41:35.994Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-11T17:42:32.247Z",
+  "totalItems": 133,
   "items": [
     {
+      "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
+      "link": "https://www.appinn.com/unzip-fast-ios-free/",
+      "pubDate": "Wed, 11 Mar 2026 16:35:44 +0000",
+      "content": "限免的 iOS 解压缩工具 Unzip Fast，支持 RAR/7z。",
+      "author": "",
+      "categories": [
+        "iPhone",
+        "iOS",
+        "iPad",
+        "7z",
+        "RAR",
+        "解压缩"
+      ],
+      "source": "小众软件",
+      "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
       "title": "DeepSeek V4 发布在即？ HuggingFace 已出现量化版权重上传记录",
-      "link": "https://www.v2ex.com/t/1197548#reply3",
+      "link": "https://www.v2ex.com/t/1197548#reply5",
       "pubDate": "2026-03-11T14:44:35.000Z",
       "content": "\n\tRT ，量化大神 @<a target=\"_blank\" href=\"/member/bdsqlsz\" rel=\"nofollow noopener\">bdsqlsz</a> 已经在 HF 上传 DeepSeek-V4-INT8 了，看来官宣就在这 48 小时内。<br /><br />目前流出的 Specs 汇总：<br /><br />1T 参数 MoE ，激活 32B ；<br />1M Context ；<br />支持原生音频（看来要刚 GPT-5.4 的实时语音了）；<br />深度优化昇腾 910C 。<br /><br /><br />V2EX 不知道如何贴图，相关泄露图大家可以点这查看：<br /><a target=\"_blank\" href=\"https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface\" rel=\"nofollow noopener\">https://deepseekv4.app/zh/news/2026-03-11-leak-deepseek-v4-int8-spotted-huggingface</a><br /><br />坐等 DeepSeek 再次震撼！\n\t",
       "author": "dreamwing",
@@ -33,16 +50,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "金婚家宴",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=69051&do=blog&id=1525268",
-      "pubDate": "2026-03-11 12:12:08",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "Claude Code 还可以用哪家模型？",
       "link": "https://www.v2ex.com/t/1197520#reply2",
       "pubDate": "2026-03-11T12:08:27.000Z",
@@ -54,7 +61,7 @@
     },
     {
       "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
-      "link": "https://www.v2ex.com/t/1197519#reply8",
+      "link": "https://www.v2ex.com/t/1197519#reply9",
       "pubDate": "2026-03-11T12:04:33.000Z",
       "content": "\n\t\n\t",
       "author": "drymonfidelia",
@@ -71,6 +78,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "短篇小说 岔路",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1525328",
+      "pubDate": "2026-03-11 11:18:22",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "绿里奇迹 (评论: 绿里奇迹)",
@@ -226,6 +243,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "海棠初开",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
+      "pubDate": "2026-03-11 07:04:21",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "Bigmodel 的模型评分不是很高的吗？ GLM-5",
       "link": "https://www.v2ex.com/t/1197432#reply9",
       "pubDate": "2026-03-11T06:40:37.000Z",
@@ -237,7 +264,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply31",
+      "link": "https://www.v2ex.com/t/1197429#reply34",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -378,16 +405,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "macos 自带中文输入法能默认使用英文标点吗",
-      "link": "https://www.v2ex.com/t/1197341#reply3",
-      "pubDate": "2026-03-11T03:11:25.000Z",
-      "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
-      "author": "iorilu",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "OpenCode 使用问题",
       "link": "https://www.v2ex.com/t/1197337#reply10",
       "pubDate": "2026-03-11T03:06:21.000Z",
@@ -406,16 +423,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "🔄 分享一个 AI 自动化神器： acp-loop",
-      "link": "https://www.v2ex.com/t/1197330#reply0",
-      "pubDate": "2026-03-11T02:51:48.000Z",
-      "content": "\n\t<p>作为程序员，经常需要重复检查一些东西：</p>\n<ul>\n<li>\n<p>部署成功了没？</p>\n</li>\n<li>\n<p>有没有新的 PR 要 review ？</p>\n</li>\n<li>\n<p>今天的 issue 总结一下？</p>\n</li>\n</ul>\n<p>以前要么手动查，要么写脚本+cron ，很麻烦 😮‍💨</p>\n<p>现在用 acp-loop ，一行命令搞定：</p>\n<p>acp-loop --interval 5m \"检查部署状态\"</p>\n<p>acp-loop --cron \"0 9 * * *\" \"总结昨晚的 GitHub issues\"</p>\n<p>它会定时把任务发给 AI agent 执行，支持 Claude Code 、Codex 、Gemini CLI</p>\n<p>等各种 agent 🤖</p>\n<p>灵感来自 Claude Code 的 /loop 命令，但做成了独立工具，不挑 agent~（主要是 claude 的/loop 一开始有 bug)</p>\n<p>GitHub: <a href=\"http://github.com/femto/acp-loop\" rel=\"nofollow\">github.com/femto/acp-loop</a></p>\n<p>npm install -g acp-loop</p>\n<p>#AI #程序员 #效率工具 #自动化 #ClaudeCode #开源</p>\n\n\t",
-      "author": "femto",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "想买一个新版的 MBP，去闲鱼买靠谱吗？",
@@ -449,7 +456,7 @@
     },
     {
       "title": "最近小龙虾很火，一般用来做什么副业呢？大佬们都聊聊",
-      "link": "https://www.v2ex.com/t/1197308#reply36",
+      "link": "https://www.v2ex.com/t/1197308#reply37",
       "pubDate": "2026-03-11T02:04:25.000Z",
       "content": "\n\t\n\t",
       "author": "sandy136",
@@ -468,31 +475,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "大佬们，这种记录方式有方案吗",
-      "link": "https://www.v2ex.com/t/1197298#reply3",
-      "pubDate": "2026-03-11T01:42:37.000Z",
-      "content": "\n\t<p>打开 QQ 或微信，把需要记录的丢给 Ai 机器人帮我记录，然后我需要时，直接问 Ai 机器人拿到之前记录的结果。</p>\n<p>我的要求是数据不能丢了。要永久保存下来。这种有什么方案能整？</p>\n\n\t",
-      "author": "junwind",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
-      "link": "https://www.v2ex.com/t/1197297#reply15",
+      "link": "https://www.v2ex.com/t/1197297#reply16",
       "pubDate": "2026-03-11T01:42:22.000Z",
       "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
       "author": "kssss",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "创建蜂群 Agent Team， 24 小时运行你的 AI 公司的编程应用更新到 0.1.9 版本，大佬们，快快更新",
-      "link": "https://www.v2ex.com/t/1197293#reply1",
-      "pubDate": "2026-03-11T01:35:38.000Z",
-      "content": "\n\t<p>当前版本真正做到了完全自定义的一人公司架构，更适合长期运行，并且可以根据行业的不同搭建属于你的工作流，还可以直接分享模版，减少搭建工作流的繁琐，欢迎大家体验</p>\n<p>正在规划中的下一步计划包括：\n重构 OpenClaw 为真正的“ceo”，手机端远程操控 ，自动 Agent 构建能力，Agent 接入永久记忆层\n视频演示地址：\n<a href=\"https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005\" rel=\"nofollow\">https://www.bilibili.com/video/BV1k7PczeELY/?spm_id_from=333.1387.0.0&amp;vd_source=99a6a5e6529f563261503f851a93c005</a></p>\n<p>开源仓库地址如下，欢迎大佬们提出 bug ，给出建议</p>\n<p><a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>版本亮点\n更方便地创建属于自己的 Agent Team 工作流\n现在可以更方便地创建和组织属于自己的 Agent Team 工作流\n团队工作流已更适合 24 小时持续运行\n监工能力进一步增强，调度、跟进与协同更智能\n更适合长时间运行、持续推进和自动化执行场景\n导入与导出流程进一步优化，迁移、分享和复制更方便</p>\n\n\t",
-      "author": "seeksky",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -533,20 +520,10 @@
     },
     {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-      "link": "https://www.v2ex.com/t/1197269#reply80",
+      "link": "https://www.v2ex.com/t/1197269#reply81",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "一个无头小龙虾，写给 Agent 的沙盒",
-      "link": "https://www.v2ex.com/t/1197268#reply1",
-      "pubDate": "2026-03-11T00:53:07.000Z",
-      "content": "\n\t<p><a href=\"https://deeptask.ai/\" rel=\"nofollow\">https://deeptask.ai/</a></p>\n<p>可以连接 claude desktop ，单提示词，可以准确抓取 amazon 的产品列表，下载产品图片，google 搜索，bind 搜索，medium 发布文章，gmail 发送邮件等等。</p>\n<p>比如一，\nMe: help me to download amazon home page products to scv\nClaude: ... Excellent — 166 products scraped! Now let me save the CSV file and deliver it:</p>\n<p>比如二，\nMe：help me to create a deeptask script to download the first product 's images to /Images folder.\nClaude: ... 37 images downloaded to /Images/old_spice_swagger/ in sandbox1! 🎉</p>\n<p>兄弟们，我的这个应用猛不猛？</p>\n\n\t",
-      "author": "jishuzhan",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -573,7 +550,7 @@
     },
     {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply93",
+      "link": "https://www.v2ex.com/t/1197259#reply94",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -597,16 +574,6 @@
       "pubDate": "2026-03-10T15:05:35.000Z",
       "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
       "author": "StevenQ",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "真的有人裸考 软考高架么",
-      "link": "https://www.v2ex.com/t/1197237#reply6",
-      "pubDate": "2026-03-10T14:38:43.000Z",
-      "content": "\n\t<p>晚上 github 找了个题库，做了下，基本靠蒙。</p>\n<p>大家准备多久过的</p>\n\n\t",
-      "author": "collery",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -643,7 +610,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply79",
+      "link": "https://www.v2ex.com/t/1197190#reply80",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
@@ -702,26 +669,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-      "link": "https://www.v2ex.com/t/1197168#reply40",
-      "pubDate": "2026-03-10T08:11:30.000Z",
-      "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-      "author": "zitup",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "分享一个完全免费的中国 A 股数据获取库",
-      "link": "https://www.v2ex.com/t/1197162#reply69",
-      "pubDate": "2026-03-10T08:00:14.000Z",
-      "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
-      "author": "sunfinv",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
       "link": "https://www.appinn.com/handbrake-1-11-0/",
       "pubDate": "Tue, 10 Mar 2026 07:44:35 +0000",
@@ -768,16 +715,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "codex 中转站今天崩溃问题",
-      "link": "https://www.v2ex.com/t/1197112#reply37",
-      "pubDate": "2026-03-10T05:39:34.000Z",
-      "content": "\n\t<p>rc 买的 codex 号池套餐，今天 gpt5.4 异常服务，服务提示  </p>\n<p>\"detail\":\"The 'gpt-5.4' model is not supported when using Codex with a ChatGPT account.  </p>\n<p>看今天 chatgpt 限制了 free 访问 5.3 和 5.4 的调整，这种是不是注册机批量注册的 free 账号，站长坚称是买的 team 号池，有一样的同学吗</p>\n\n\t",
-      "author": "forrestgump",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
       "link": "https://movie.douban.com/review/17497400/",
       "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
@@ -786,16 +723,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "高校图书馆学科服务重点与难点",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525219",
-      "pubDate": "2026-03-10 05:01:55",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "科学史中的教训：第六章 无穷的恐惧：芝诺、伽利略与康托的疯狂",
@@ -977,16 +904,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-      "link": "https://www.v2ex.com/t/1196673#reply108",
-      "pubDate": "2026-03-08T14:02:37.000Z",
-      "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-      "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
       "link": "https://www.appinn.com/llmfit/",
       "pubDate": "Sun, 08 Mar 2026 10:50:47 +0000",
@@ -1076,20 +993,6 @@
       "categories": [
         "AI",
         "AtomGit"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "Steam 客户端其实是一个 Chromium 浏览器",
-      "link": "https://www.appinn.com/steam-client-steamdb-extension/",
-      "pubDate": "Fri, 06 Mar 2026 09:11:05 +0000",
-      "content": "在 Steam 内置 Chromium 里安装 SteamDB 扩展，让商店页直接显示史低与在线人数等信息。",
-      "author": "",
-      "categories": [
-        "Windows",
-        "steam",
-        "steamdb"
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
