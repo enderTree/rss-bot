@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T06:40:50.106Z",
+  "lastUpdated": "2026-03-11T07:38:01.888Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-11T06:40:39.351Z",
+      "lastUpdated": "2026-03-11T07:37:51.893Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-11T06:40:40.059Z",
+      "lastUpdated": "2026-03-11T07:37:52.634Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-11T06:40:40.145Z",
+      "lastUpdated": "2026-03-11T07:37:52.701Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,8 +156,20 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-11T06:40:41.414Z",
+      "lastUpdated": "2026-03-11T07:37:54.154Z",
       "items": [
+        {
+          "title": "国货之光闪耀，素材管理神器 Eagle 终身授权 7 折优惠，限时开启！",
+          "link": "https://www.appinn.com/eagle-26311/",
+          "pubDate": "Wed, 11 Mar 2026 06:11:47 +0000",
+          "content": "Eagle 是一款 Win / Mac 素材收集管理工具，帮你轻松收集及整理「案例、灵感、图片、音视频、情绪板」等各种素材，激发更多创意灵感，让工作变得更有效率。Eagle 是一款买断版工具，可以使用终身、更新终身。2026年了，居然还有买断制软件！ 老朋友数码荔枝联合国产软件厂商，带来 7 折的国 ",
+          "author": "",
+          "categories": [
+            "团购"
+          ],
+          "source": "小众软件",
+          "sourceUrl": "https://feeds.appinn.com/appinns/"
+        },
         {
           "title": "cron-job：免费定时任务工具，可定时签到或调用 API",
           "link": "https://www.appinn.com/cron-job/",
@@ -287,43 +299,77 @@
           ],
           "source": "小众软件",
           "sourceUrl": "https://feeds.appinn.com/appinns/"
-        },
-        {
-          "title": "59.99 美元的沉浸式听书应用 Aurader 高级版终身限免",
-          "link": "https://www.appinn.com/aurader-immersive-ai-reader/",
-          "pubDate": "Thu, 05 Mar 2026 02:11:52 +0000",
-          "content": "原价 59.99 美金的 EPUB &#38; PDF &#38; TXT 文字转语音朗读工具，iPhone、iPad 沉浸式听书应用 Aurader 目前正在内购终身限免。@Appinn 感谢群里 Max 同学的推荐。 沉浸式听书 Aurader 高级版 解锁 Aurader 高级版（内购）后，将 ",
-          "author": "",
-          "categories": [
-            "iOS",
-            "iPad",
-            "iPhone",
-            "听书",
-            "电子书"
-          ],
-          "source": "小众软件",
-          "sourceUrl": "https://feeds.appinn.com/appinns/"
         }
       ]
     },
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-11T06:40:41.523Z",
+      "lastUpdated": "2026-03-11T07:37:54.219Z",
       "items": [
         {
-          "title": "国内如何购买 GPT business，正规靠谱途径",
-          "link": "https://www.v2ex.com/t/1197410#reply3",
-          "pubDate": "2026-03-11T05:56:53.000Z",
-          "content": "\n\t\n\t",
-          "author": "jasonqjlls",
+          "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
+          "link": "https://www.v2ex.com/t/1197259#reply60",
+          "pubDate": "2026-03-11T00:17:59.000Z",
+          "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
+          "author": "fushall",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "小主机配置太差跑不了 OpenClaw，有没有能完全兼容其生态的替代品？",
+          "link": "https://www.v2ex.com/t/1197285#reply22",
+          "pubDate": "2026-03-11T01:27:13.000Z",
+          "content": "\n\t<p>我大概搜索了下，似乎 OpenClaw 的插件系统，只有自家能用？有没有其他家的替代品能做到兼容的？</p>\n\n\t",
+          "author": "x97bgt",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Bigmodel 的模型评分不是很高的吗？ GLM-5",
+          "link": "https://www.v2ex.com/t/1197432#reply6",
+          "pubDate": "2026-03-11T06:40:37.000Z",
+          "content": "\n\t我购买了 GLM-5 的季度 coding-plan 。<br /><br />现在用 claude-code 写代码，效果太差了，完全浪费时间。<br /><br />有没有划算的 coding token ？\n\t",
+          "author": "rwecho",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
+          "link": "https://www.v2ex.com/t/1197190#reply63",
+          "pubDate": "2026-03-10T09:59:01.000Z",
+          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
+          "author": "Danswerme",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+          "link": "https://www.v2ex.com/t/1197429#reply9",
+          "pubDate": "2026-03-11T06:36:16.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+          "author": "TheBlind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "OpenCode 使用问题",
+          "link": "https://www.v2ex.com/t/1197337#reply6",
+          "pubDate": "2026-03-11T03:06:21.000Z",
+          "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
+          "author": "xing4576",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-          "link": "https://www.v2ex.com/t/1197381#reply8",
+          "link": "https://www.v2ex.com/t/1197381#reply18",
           "pubDate": "2026-03-11T04:16:53.000Z",
           "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
           "author": "v2exgo",
@@ -332,8 +378,48 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "ARC 浏览器大家还在用么？有啥替换的对象",
+          "link": "https://www.v2ex.com/t/1197269#reply53",
+          "pubDate": "2026-03-11T00:57:26.000Z",
+          "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
+          "author": "RiverMoon",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "这个项目所有代码都是我睡觉的时候让我的 openclaw 自己写的， PR 有一些自动化记录",
+          "link": "https://www.v2ex.com/t/1197376#reply6",
+          "pubDate": "2026-03-11T04:04:44.000Z",
+          "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
+          "author": "dodoa",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "现在小龙虾那么火，开发一款开源反龙虾有搞头嘛？",
+          "link": "https://www.v2ex.com/t/1197344#reply26",
+          "pubDate": "2026-03-11T03:15:16.000Z",
+          "content": "\n\t<p>现在 claw 主流联干活网方式还是浏览器或 app 的使用。能不能开发一款内嵌程序，通过特征识别出小龙虾，通过提示词注入让小龙虾让他失效。例如，让它捐款给希望小学，救助基金。检测电脑中的违反线索发送给帽子叔叔，打开电脑防火墙并开启最严格模式，下载 360 ，下载鲁大师，腾讯电脑关键，删除小龙虾自己的所有配置文件。</p>\n\n\t",
+          "author": "skuuhui",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "写了个脚本对付营销号，现在我的抖音和 B 站清爽多了",
+          "link": "https://www.v2ex.com/t/1197243#reply20",
+          "pubDate": "2026-03-10T15:05:35.000Z",
+          "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
+          "author": "2962051004",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "想买一个新版的 MBP，去闲鱼买靠谱吗？",
-          "link": "https://www.v2ex.com/t/1197321#reply24",
+          "link": "https://www.v2ex.com/t/1197321#reply31",
           "pubDate": "2026-03-11T02:32:20.000Z",
           "content": "\n\t手头的笔记本还是 mid2015 的<br />新版的 xcode 都装不上，而且 intel cpu ，随便干点啥风扇就呼呼转<br />claudecode 倒是能跑<br /><br />想买一台新的 MBP ，我看到闲鱼的有那种类似店铺的，不知道靠谱不靠谱\n\t",
           "author": "wew3",
@@ -342,8 +428,28 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Vibe 出一个开源免费语音输入法： TypeMore",
+          "link": "https://www.v2ex.com/t/1197440#reply0",
+          "pubDate": "2026-03-11T07:13:22.000Z",
+          "content": "\n\t最近几个星期断断续续开发，费劲口舌各种调试，终于 vibe 出了一个 macOS 的语音输入法：TypeMore 。可以离线语音识别，BYOK （ Bring Your Own Key ）优化、翻译，自定义 prompt 。<br /><br />开源地址：<br /><a target=\"_blank\" href=\"https://github.com/everettjf/typemore\" rel=\"nofollow noopener\">https://github.com/everettjf/typemore</a><br /><br />离线语音识别基于：<br /><a target=\"_blank\" href=\"https://github.com/k2-fsa/sherpa-onnx\" rel=\"nofollow noopener\">https://github.com/k2-fsa/sherpa-onnx</a><br /><br /><br />名字的灵感来自 Typeless：既然可以 TypeLess ，那也可以试试 TypeMore 😄<br /><br />目前只支持 macOS ，近期会支持 Windows 。<br /><br />官网： <a target=\"_blank\" href=\"https://typemore.app\" rel=\"nofollow noopener\">https://typemore.app</a><br /><br />欢迎试试，也欢迎提 Issue / PR 。当然效果还是不如 Typeless ，后续慢慢优化，中英文混合识别还是不太好。大家有兴趣可以试用试用。\n\t",
+          "author": "everettjf",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "国内如何购买 GPT business，正规靠谱途径",
+          "link": "https://www.v2ex.com/t/1197410#reply5",
+          "pubDate": "2026-03-11T05:56:53.000Z",
+          "content": "\n\t\n\t",
+          "author": "jasonqjlls",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "本地大模型优先版的 openclaw，您来提需求，我来改进！",
-          "link": "https://www.v2ex.com/t/1197403#reply7",
+          "link": "https://www.v2ex.com/t/1197403#reply9",
           "pubDate": "2026-03-11T05:43:24.000Z",
           "content": "\n\t<p><a href=\"https://openwalrus.xyz/\" rel=\"nofollow\">https://openwalrus.xyz/</a></p>\n<p>目前主要的 feature 就是<strong>可以直接跑本地大模型</strong>！（默认 Qwen3-4b)</p>\n<ul>\n<li>不需要花钱买 API</li>\n<li>不需要 docker</li>\n<li>不需要 ollama</li>\n</ul>\n<p>memory 层面做了内置的 graph database ，team 方面使用的 tree 状的 agent dispatch 模型，还有一堆其他乱七八糟的设计..</p>\n<p>本来想做到完美再发出来，但是优化实在是无底洞，还是想边交流边做</p>\n\n\t",
           "author": "udtrokia",
@@ -362,61 +468,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "写了个脚本对付营销号，现在我的抖音和 B 站清爽多了",
-          "link": "https://www.v2ex.com/t/1197243#reply18",
-          "pubDate": "2026-03-10T15:05:35.000Z",
-          "content": "\n\t<p>我真的受不了那些没有营养的官方新闻号了，一点屁事都要发视频，写了个油猴脚本来批量拉黑账号解决这个问题。</p>\n<h2>功能特性</h2>\n<p><img alt=\"抖音拉黑界面\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://github.com/Steven-Qiang/block-kit/blob/main/assets/screenshot.douyin.png?raw=true\"/></p>\n<h3>批量拉黑</h3>\n<ul>\n<li>关键词搜索用户（支持多关键词批量处理）</li>\n<li>自动批量拉黑用户</li>\n<li>自动跳过已拉黑用户</li>\n<li>实时进度显示和操作日志</li>\n</ul>\n<h3>高级过滤</h3>\n<ul>\n<li>仅拉黑认证用户选项</li>\n<li>认证类型关键词过滤（抖音）</li>\n<li>可调节操作间隔和翻页延迟</li>\n</ul>\n<h3>黑名单管理（ B 站）</h3>\n<ul>\n<li>一键清空黑名单列表</li>\n<li>导出黑名单为 CSV 文件</li>\n</ul>\n<h3>预设管理</h3>\n<ul>\n<li>创建和保存自定义拉黑预设</li>\n<li>导入/导出预设分享</li>\n</ul>\n<h2>支持平台</h2>\n<ul>\n<li>✅ 抖音</li>\n<li>✅ 哔哩哔哩</li>\n</ul>\n<h2>安装</h2>\n<p><a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></p>\n<p><a href=\"https://github.com/Steven-Qiang/block-kit/releases\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit/releases</a></p>\n<h2>使用示例</h2>\n<ol>\n<li>登录抖音或 B 站</li>\n<li>左上角会出现浮球面板</li>\n<li>输入关键词（如：<code>新闻,日报,资讯</code>）</li>\n<li>设置拉黑数量（ 0 表示不限制）</li>\n<li>点击「开始拉黑」</li>\n</ol>\n<h2>特点</h2>\n<ul>\n<li>所有操作在本地浏览器执行，不收集任何数据</li>\n<li>预设数据存储在浏览器本地</li>\n<li>可调节操作间隔避免触发风控</li>\n<li>支持从小到大测试，确认效果后再大批量操作</li>\n</ul>\n<h2>项目链接</h2>\n<ul>\n<li>GitHub: <a href=\"https://github.com/Steven-Qiang/block-kit\" rel=\"nofollow\">https://github.com/Steven-Qiang/block-kit</a></li>\n<li>GreasyFork: <a href=\"https://greasyfork.org/zh-CN/scripts/569170\" rel=\"nofollow\">https://greasyfork.org/zh-CN/scripts/569170</a></li>\n</ul>\n<p>欢迎反馈和建议！</p>\n\n\t",
-          "author": "2962051004",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "现在小龙虾那么火，开发一款开源反龙虾有搞头嘛？",
-          "link": "https://www.v2ex.com/t/1197344#reply21",
-          "pubDate": "2026-03-11T03:15:16.000Z",
-          "content": "\n\t<p>现在 claw 主流联干活网方式还是浏览器或 app 的使用。能不能开发一款内嵌程序，通过特征识别出小龙虾，通过提示词注入让小龙虾让他失效。例如，让它捐款给希望小学，救助基金。检测电脑中的违反线索发送给帽子叔叔，打开电脑防火墙并开启最严格模式，下载 360 ，下载鲁大师，腾讯电脑关键，删除小龙虾自己的所有配置文件。</p>\n\n\t",
-          "author": "skuuhui",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-          "link": "https://www.v2ex.com/t/1197259#reply55",
-          "pubDate": "2026-03-11T00:17:59.000Z",
-          "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
-          "author": "fushall",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "最近小龙虾很火，一般用来做什么副业呢？大佬们都聊聊",
           "link": "https://www.v2ex.com/t/1197308#reply19",
           "pubDate": "2026-03-11T02:04:25.000Z",
           "content": "\n\t\n\t",
           "author": "sandy136",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-          "link": "https://www.v2ex.com/t/1197190#reply59",
-          "pubDate": "2026-03-10T09:59:01.000Z",
-          "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
-          "author": "Danswerme",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-          "link": "https://www.v2ex.com/t/1197269#reply48",
-          "pubDate": "2026-03-11T00:57:26.000Z",
-          "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
-          "author": "RiverMoon",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -437,16 +493,6 @@
           "pubDate": "2026-03-10T10:04:25.000Z",
           "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
           "author": "westisc",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "小主机配置太差跑不了 OpenClaw，有没有能完全兼容其生态的替代品？",
-          "link": "https://www.v2ex.com/t/1197285#reply20",
-          "pubDate": "2026-03-11T01:27:13.000Z",
-          "content": "\n\t<p>我大概搜索了下，似乎 OpenClaw 的插件系统，只有自家能用？有没有其他家的替代品能做到兼容的？</p>\n\n\t",
-          "author": "x97bgt",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -482,21 +528,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "OpenCode 使用问题",
-          "link": "https://www.v2ex.com/t/1197337#reply4",
-          "pubDate": "2026-03-11T03:06:21.000Z",
-          "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
-          "author": "xing4576",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "这个项目所有代码都是我睡觉的时候让我的 openclaw 自己写的， PR 有一些自动化记录",
-          "link": "https://www.v2ex.com/t/1197376#reply0",
-          "pubDate": "2026-03-11T04:04:44.000Z",
-          "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
-          "author": "dodoa",
+          "title": "海外 Coding Plan 哪个最便宜+最推荐？",
+          "link": "https://www.v2ex.com/t/1197261#reply14",
+          "pubDate": "2026-03-11T00:20:40.000Z",
+          "content": "\n\t\n\t",
+          "author": "enihcam",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -542,16 +578,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "海外 Coding Plan 哪个最便宜+最推荐？",
-          "link": "https://www.v2ex.com/t/1197261#reply13",
-          "pubDate": "2026-03-11T00:20:40.000Z",
-          "content": "\n\t\n\t",
-          "author": "enihcam",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Dune - 一个 local-first 自带 Slack 式协作的 AI Agent 团队，开源了",
           "link": "https://www.v2ex.com/t/1197266#reply1",
           "pubDate": "2026-03-11T00:50:38.000Z",
@@ -582,11 +608,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply0",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
+          "title": "分享一个完全免费的中国 A 股数据获取库",
+          "link": "https://www.v2ex.com/t/1197162#reply66",
+          "pubDate": "2026-03-10T08:00:14.000Z",
+          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
+          "author": "sunfinv",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -632,21 +658,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "分享一个完全免费的中国 A 股数据获取库",
-          "link": "https://www.v2ex.com/t/1197162#reply63",
-          "pubDate": "2026-03-10T08:00:14.000Z",
-          "content": "\n\t<p>大家好！今天想分享一个我开源的金融数据获取库 finshare ，完全免费，无需 API\nKey 。</p>\n<p>GitHub: <a href=\"https://github.com/finvfamily/finshare\" rel=\"nofollow\">https://github.com/finvfamily/finshare</a></p>\n<p>finshare 源于我的项目： <a href=\"https://meepoquant.com/\" rel=\"nofollow\">https://meepoquant.com/</a></p>\n<p>特性：</p>\n<ul>\n<li>完全免费：无需 API Key ，无调用次数限制</li>\n<li>多数据源：东方财富、腾讯、新浪、通达信、BaoStock</li>\n<li>自动故障切换：数据源失败时自动切换备用源</li>\n<li>高性能：支持异步批量获取</li>\n<li>内置缓存：减少重复请求</li>\n</ul>\n<p>安装：\npip install finshare</p>\n<p>快速开始：\nimport finshare as fs</p>\n<h1>获取历史 K 线数据</h1>\n<p>df = fs.get_historical_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>', start='2024-01-01', end='2024-12-31',\nadjust='qfq')</p>\n<h1>获取实时快照</h1>\n<p>snapshot = fs.get_snapshot_data('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')</p>\n<h1>财务数据</h1>\n<p>df = fs.get_income('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 利润表</p>\n<h1>特色数据</h1>\n<p>df = fs.get_money_flow('<a href=\"http://000001.SZ\" rel=\"nofollow\">000001.SZ</a>')  # 资金流向\ndf = fs.get_lhb()                     # 龙虎榜</p>\n<p>征集想法：</p>\n<p>我正在开发 finquant 开源量化交易框架，想收集大家的想法：</p>\n<ul>\n<li>你想要什么样的交易系统？</li>\n<li>需要哪些功能？（回测、实盘、因子库、风控、实时交易等）</li>\n</ul>\n<p>欢迎加入 Discord 社群一起讨论： <a href=\"https://discord.gg/XT5f8ZGB\" rel=\"nofollow\">https://discord.gg/XT5f8ZGB</a></p>\n<p>也欢迎 Star 和 PR ！</p>\n\n\t",
-          "author": "sunfinv",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "大佬们，这种记录方式有方案吗",
           "link": "https://www.v2ex.com/t/1197298#reply1",
           "pubDate": "2026-03-11T01:42:37.000Z",
           "content": "\n\t<p>打开 QQ 或微信，把需要记录的丢给 Ai 机器人帮我记录，然后我需要时，直接问 Ai 机器人拿到之前记录的结果。</p>\n<p>我的要求是数据不能丢了。要永久保存下来。这种有什么方案能整？</p>\n\n\t",
           "author": "junwind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
+          "link": "https://www.v2ex.com/t/1197168#reply37",
+          "pubDate": "2026-03-10T08:11:30.000Z",
+          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
+          "author": "zitup",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -687,16 +713,6 @@
           "pubDate": "2026-03-10T14:26:40.000Z",
           "content": "\n\t我有一块性能很差的安卓阅读器，想要一个轻量级的 app ，能打开本地 epub 和 pdf 就行。<br />目前测了下来比较喜欢：<br />1. Readera 轻量简洁，但注释只能黑白，没有内建词典，但可以跳转到已安装的词典 app<br />2. google play book 满足我所有需求除了！要上传云端，好麻烦，需要联网开 vpn （耗电！），而且还要等很久才能传上去。。<br />还尝试过 moon+（比如 readera ，有太多花里胡哨的设置，不喜欢）<br /><br />大佬们有其他推荐好用的阅读器 app 吗？\n\t",
           "author": "rs007",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-          "link": "https://www.v2ex.com/t/1197168#reply34",
-          "pubDate": "2026-03-10T08:11:30.000Z",
-          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-          "author": "zitup",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -762,21 +778,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "分享一个高效的开发思路",
-          "link": "https://www.v2ex.com/t/1197155#reply16",
-          "pubDate": "2026-03-10T07:35:16.000Z",
-          "content": "\n\t<p>把 cursor 安装在服务器上，通过远程桌面上去开发。有 2 个好处：</p>\n<ol>\n<li>可以本机、远程同时开 2 个 cursor ，同时开发 2 个项目，牛马属性点满了；</li>\n<li>cursor 直接在服务器上查生产日志、修 bug 、自动部署，一条龙全搞定了。</li>\n</ol>\n<p>当前装个其它命令行代码工具，kimi code 之类的，可以直接在命令行就完成了，也不错。</p>\n<p>你可能会说写完不测试吗？那是测试人员的工作，ai 写的代码从来不用自测，只用 review 方向有没有跑偏就完了。</p>\n\n\t",
-          "author": "jedeft",
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply101",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply100",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
+          "title": "分享一个高效的开发思路",
+          "link": "https://www.v2ex.com/t/1197155#reply16",
+          "pubDate": "2026-03-10T07:35:16.000Z",
+          "content": "\n\t<p>把 cursor 安装在服务器上，通过远程桌面上去开发。有 2 个好处：</p>\n<ol>\n<li>可以本机、远程同时开 2 个 cursor ，同时开发 2 个项目，牛马属性点满了；</li>\n<li>cursor 直接在服务器上查生产日志、修 bug 、自动部署，一条龙全搞定了。</li>\n</ol>\n<p>当前装个其它命令行代码工具，kimi code 之类的，可以直接在命令行就完成了，也不错。</p>\n<p>你可能会说写完不测试吗？那是测试人员的工作，ai 写的代码从来不用自测，只用 review 方向有没有跑偏就完了。</p>\n\n\t",
+          "author": "jedeft",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -790,33 +806,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "[开源] SpringBoot 实现的 webSSH",
-          "link": "https://www.v2ex.com/t/1197154#reply3",
-          "pubDate": "2026-03-10T07:25:09.000Z",
-          "content": "\n\t功能<br />登录鉴权 — Spring Security 表单登录，内存用户存储（ BCrypt 加密）<br />多标签 SSH 终端 — 每个标签独立 WebSocket + xterm.js ，互不干扰<br />会话保存 — 按登录用户持久化到本地 JSON 文件<br />凭据加密保存 — AES-GCM 加密，主密钥可配置<br />主机指纹校验 — SHA-256 ，首次连接自动信任并回填<br />认证方式 — 密码认证、私钥认证（私钥口令可选）<br />终端尺寸同步 — 浏览器窗口变化自动同步到远端 PTY<br />SFTP 文件管理 — 目录浏览、上传（分片）、下载（分片 + ACK 流控）、创建目录<br />SSH 端口转发 — 本地转发（ L ）/ 远程转发（ R ）<br />Shell 工作目录追踪 — 注入 shell 钩子实时感知远端 $PWD 变化，SFTP 面板自动同步<br />终端主题 — 6 种配色方案（默认蓝、橙、绿、琥珀、紫、红）<br />国际化 — 支持 7 种语言（简体中文、English 、日本語、한국어、Deutsch 、Français 、Русский）<br />全屏模式 — 终端可切换全屏显示<br />移动端适配 — 响应式 Web 设计，针对手机端优化布局、侧边栏滑动及文件管理交互<br /><br />源码： <a target=\"_blank\" href=\"https://github.com/Jstrom2022/webSSH\" rel=\"nofollow noopener\">https://github.com/Jstrom2022/webSSH</a>\n\t",
-          "author": "huangjinjiang20",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "win11 对比 ubuntu，是真的拉胯",
-          "link": "https://www.v2ex.com/t/1196703#reply81",
-          "pubDate": "2026-03-08T19:14:34.000Z",
-          "content": "\n\t最近购入一台 8845hs CPU 的笔记本，win11 下经常出现以下情况:<br />win11 内置安全扫描，自动扫病毒，风扇狂转<br />win11 自动后台更新，风扇狂转<br />win11 什么也没做，但是 cpu 有工作，风扇会转<br /><br /><br />win11 是进到桌面就开始风扇转，开浏览器看视频什么的也是会有较大风扇声音。<br /><br />而 ubuntu 下就安静多了，日常使用/浏览器看视频风扇几乎不转，完全听不到声音。cpu 温度也很低，当前室温 22 度，cpu 温度只有 37 度。<br /><br />不比不知道原来 win11 这么拉胯\n\t",
-          "author": "Donahue",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-11T06:40:43.194Z",
+      "lastUpdated": "2026-03-11T07:37:55.913Z",
       "items": [
         {
           "title": "怎样有意识争取诺贝尔奖？",
@@ -939,6 +935,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "一中的奇人奇事之三十 15.后记",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1525176",
+          "pubDate": "2026-03-10 03:02:59",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "[打听，科普，数学] 素数（6）：不用黎曼猜想的“素数计数函数”2个估计",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525254",
           "pubDate": "2026-03-10 08:54:28",
@@ -962,16 +968,6 @@
           "title": "“科学易”的“刘纲领”",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525173",
           "pubDate": "2026-03-10 02:56:56",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "一中的奇人奇事之三十 15.后记",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3622817&do=blog&id=1525176",
-          "pubDate": "2026-03-10 03:02:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -1023,7 +1019,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-11T06:40:45.943Z",
+      "lastUpdated": "2026-03-11T07:37:58.326Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1230,7 +1226,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-11T06:40:48.433Z",
+      "lastUpdated": "2026-03-11T07:38:00.345Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1438,20 +1434,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-11T06:40:49.281Z",
+      "lastUpdated": "2026-03-11T07:38:01.224Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-11T06:40:49.389Z",
+      "lastUpdated": "2026-03-11T07:38:01.282Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-11T06:40:50.106Z",
+      "lastUpdated": "2026-03-11T07:38:01.888Z",
       "items": [
         {
           "title": "无题",
