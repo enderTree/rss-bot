@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-03-12T06:42:24.770Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-12T07:40:34.011Z",
+  "totalItems": 133,
   "items": [
+    {
+      "title": "国内， claude code 有什么性价比高稳定的使用途径吗？",
+      "link": "https://www.v2ex.com/t/1197754#reply0",
+      "pubDate": "2026-03-12T07:39:00.000Z",
+      "content": "\n\t<p>claude code 官网一直因手机号无法注册。\n大家都是什么途径买的？淘宝上能买吗</p>\n\n\t",
+      "author": "ponelyr",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Claude code 想跟朋友一起拼车有教程吗直接买 team plan 就行吗",
+      "link": "https://www.v2ex.com/t/1197753#reply0",
+      "pubDate": "2026-03-12T07:32:49.000Z",
+      "content": "\n\t如题第一次弄没太看明白她这个如果一个按网站上一个 seat20 的话拼车好像意义不大\n\t",
+      "author": "iosyyy",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "ffmpeg-over-ip – 远程 FFmpeg，异地处理视频。但是有用吗？",
+      "link": "https://www.appinn.com/ffmpeg-over-ip/",
+      "pubDate": "Thu, 12 Mar 2026 07:04:35 +0000",
+      "content": "ffmpeg-over-ip 是一款支持 Win/mac/Linux 的开源项目，它的作用是：把 ffmpeg 变成远程工具。即：你在任何地方使用 ffmpeg 处理视频，实际上工作的是远程高性能电脑上的 ffmpeg。 这个工具的用途&#8230;不太明朗。 青小蛙能想到的，就是局域网中有一台高性 ",
+      "author": "",
+      "categories": [
+        "Windows",
+        "linux",
+        "macOS",
+        "FFmpeg"
+      ],
+      "source": "小众软件",
+      "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "[开源学英语小软件] 微信中学英语 ，让英语学习融入日常聊天，把刷微信的时间，变成学英语的机会",
+      "link": "https://www.v2ex.com/t/1197733#reply0",
+      "pubDate": "2026-03-12T06:52:30.000Z",
+      "content": "\n\t<h2>智能监听 + 实时翻译 + 点词查询，打造 Mac 上最强的微信英语学习工具！</h2>\n<h2>功能特色</h2>\n<ul>\n<li>智能监听 ：精准捕捉微信消息，支持群聊/私聊/自己发送</li>\n<li>实时浮窗，实时翻译 ：跟随微信窗口或独立置顶，原文/译文/双语模式随心切换</li>\n<li>点词查词 ：浮窗英文即点即查，Cambridge/Free Dictionary 权威词典</li>\n<li>单词本系统 ：收藏生词、添加笔记、智能复习，把聊天变成学习宝库</li>\n<li>原生体验 ：Tauri 2 + Rust 构建，性能强劲，界面美观</li>\n</ul>\n<h2>把刷微信的时间，变成学英语的机会！</h2>\n<p><img alt=\"贴附右侧\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/iEjXGcu.jpeg\"/>\n<img alt=\"词典\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/2GRuC7pb.jpg\"/>\n<img alt=\"收藏\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqykjwKb.jpg\"/>\n<img alt=\"词典 2\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/WIytf9Sb.jpg\"/>\n<img alt=\"词典 3\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/T6v18MCb.jpg\"/>\n<img alt=\"词典 4\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/bAa3bPgb.jpg\"/>\n<img alt=\"词典 5\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/wB5abaKb.jpg\"/>\n<img alt=\"设置 1\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/vgZEoMxb.jpg\"/>\n<img alt=\"设置 2\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/gBWfhMWb.jpg\"/>\n<img alt=\"设置 3\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/nz2JC0bb.jpg\"/></p>\n<h2>项目地址</h2>\n<table>\n<thead>\n<tr>\n<th>平台</th>\n<th>地址</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>GitHub</strong></td>\n<td><a href=\"https://github.com/congwa/wechat-translate\" rel=\"nofollow\">https://github.com/congwa/wechat-translate</a></td>\n</tr>\n<tr>\n<td><strong>Gitee</strong></td>\n<td><a href=\"https://gitee.com/cong_wa/wechat-translate\" rel=\"nofollow\">https://gitee.com/cong_wa/wechat-translate</a></td>\n</tr>\n</tbody></table><h2>致谢</h2>\n<h3>💝 特别感谢</h3>\n<p>本项目的 macOS 版本灵感来源于 <strong>Loveyless</strong> 的天才想法和卓越的动手能力。</p>\n<p><strong>Loveyless</strong> 创建的 <a href=\"https://github.com/Loveyless/wechat-pc-auto\" rel=\"nofollow\">wechat-pc-auto</a> 项目开创了先河，其创新的思路和扎实的技术实现为本项目奠定了坚实的基础。</p>\n<p>正是因为有了这样优秀的原版项目作为起点，才得以让 macOS 版本顺利诞生，为广大 Mac 用户带来同样便捷的英语学习体验。</p>\n<h3>🌟 致敬原作</h3>\n<ul>\n<li><strong>原版项目</strong>: <a href=\"https://github.com/Loveyless/wechat-pc-auto\" rel=\"nofollow\">wechat-pc-auto</a></li>\n<li><strong>原作者</strong>: <a href=\"https://github.com/Loveyless\" rel=\"nofollow\">Loveyless</a></li>\n<li><strong>贡献</strong>: 开创性的解决方案，为整个项目生态提供了宝贵的思路和技术积累</li>\n</ul>\n<p>感谢 <strong>Loveyless</strong> 的开源精神和技术分享，让更多人能够受益于英语学习的便利。愿这份技术的火种继续传递，照亮更多开发者的创新之路。</p>\n<hr/>\n<p><em>\"一个人的灵感，点燃了另一个人的梦想；一个人的分享，成就了更多人的可能。\"</em></p>\n<p><strong>—— 向所有开源先驱者致敬</strong></p>\n<p><strong>—— 向所有给 star 的开发者致敬🫡</strong></p>\n\n\t",
+      "author": "wangbawangba",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
+      "link": "https://www.v2ex.com/t/1197732#reply8",
+      "pubDate": "2026-03-12T06:50:10.000Z",
+      "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
+      "author": "wsbqdyhm",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "国家互联网应急中心：OpenClaw 风险提示",
+      "link": "https://www.appinn.com/openclaw-security-risk-alert-cnnic/",
+      "pubDate": "Thu, 12 Mar 2026 06:13:51 +0000",
+      "content": "国家互联网应急中心在两日前（2026年3月10日）发布《关于OpenClaw安全应用的风险提示》，主要有以下几个问题： 另外，根据彭博社的消息： 据知情人士透露，政府机构和国有企业，包括最大的银行，最近几天收到通知，警告他们出于安全原因不要在办公设备上安装 OpenClaw 软件。一些要求匿名讨论私 ",
+      "author": "",
+      "categories": [
+        "业界消息",
+        "OpenClaw",
+        "风险"
+      ],
+      "source": "小众软件",
+      "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
     {
       "title": "结婚了，然后呢 (评论: 爱的证明)",
       "link": "https://movie.douban.com/review/17500101/",
@@ -47,7 +116,7 @@
     },
     {
       "title": "codeBuddy，有大佬深度用过的吗，体验咋样？",
-      "link": "https://www.v2ex.com/t/1197665#reply1",
+      "link": "https://www.v2ex.com/t/1197665#reply3",
       "pubDate": "2026-03-12T03:26:18.000Z",
       "content": "\n\t<p>看到 codeBuddy 有 IDE, CLI, 插件。 并且还新出了 WorkBuddy ，我今天使用了一下 WorkBuddy ，感觉没什么用。\ncodeBuddy 的 cli 有深度用过的大佬吗，对比 Claude code 如何。</p>\n\n\t",
       "author": "junwind",
@@ -77,7 +146,7 @@
     },
     {
       "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-      "link": "https://www.v2ex.com/t/1197650#reply8",
+      "link": "https://www.v2ex.com/t/1197650#reply11",
       "pubDate": "2026-03-12T02:48:43.000Z",
       "content": "\n\t\n\t",
       "author": "mcfever",
@@ -87,7 +156,7 @@
     },
     {
       "title": "以现在 AI 发展的水平来看，会不会现有的图灵方案都形同虚设?",
-      "link": "https://www.v2ex.com/t/1197642#reply12",
+      "link": "https://www.v2ex.com/t/1197642#reply13",
       "pubDate": "2026-03-12T02:40:22.000Z",
       "content": "\n\t<p>我们常用的图灵测试方案基础的图形验证码、复杂点的图形验证码+计算数学题，再进一步的就是各种混淆干扰线之类的。还有一种验证方式是识别图形、拼图之类的交互式验证码。</p>\n<p>在现在 AI 发展迅速的当下，这些验证手段会不会即将（或已经）失效，那我们有没有什么方法去更好的区分 “人类” 和 “AI” 呢？</p>\n<p>我能想到的就是手机验证码这种，尽可能增加获取验证码的成本</p>\n\n\t",
       "author": "815979670",
@@ -97,7 +166,7 @@
     },
     {
       "title": "opencode 下， deepseek 有时候比较蠢",
-      "link": "https://www.v2ex.com/t/1197641#reply14",
+      "link": "https://www.v2ex.com/t/1197641#reply15",
       "pubDate": "2026-03-12T02:39:40.000Z",
       "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
       "author": "nativeBoy",
@@ -107,7 +176,7 @@
     },
     {
       "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-      "link": "https://www.v2ex.com/t/1197618#reply39",
+      "link": "https://www.v2ex.com/t/1197618#reply44",
       "pubDate": "2026-03-12T01:48:58.000Z",
       "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
       "author": "Newbee24",
@@ -127,7 +196,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply21",
+      "link": "https://www.v2ex.com/t/1197595#reply28",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",
@@ -137,7 +206,7 @@
     },
     {
       "title": "话说我用中转站的话会泄露 api 吗？",
-      "link": "https://www.v2ex.com/t/1197589#reply25",
+      "link": "https://www.v2ex.com/t/1197589#reply27",
       "pubDate": "2026-03-12T00:08:49.000Z",
       "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
       "author": "tina2998",
@@ -244,7 +313,7 @@
     },
     {
       "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
-      "link": "https://www.v2ex.com/t/1197519#reply12",
+      "link": "https://www.v2ex.com/t/1197519#reply14",
       "pubDate": "2026-03-11T12:04:33.000Z",
       "content": "\n\t\n\t",
       "author": "drymonfidelia",
@@ -264,7 +333,7 @@
     },
     {
       "title": "还是 cc 好用",
-      "link": "https://www.v2ex.com/t/1197512#reply3",
+      "link": "https://www.v2ex.com/t/1197512#reply4",
       "pubDate": "2026-03-11T11:33:09.000Z",
       "content": "\n\t试了 codex 很难受，一直问我确认吗，不理解我的需求。我主要拿来写代码，cc 的 sonnet 都能理解我的意思，完善代码，可惜最近限制的太厉害了，大佬们正价买的吗，中转的也很拉，下午给折腾很久用不了。\n\t",
       "author": "iamtuzi3333",
@@ -344,7 +413,7 @@
     },
     {
       "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
-      "link": "https://www.v2ex.com/t/1197478#reply10",
+      "link": "https://www.v2ex.com/t/1197478#reply11",
       "pubDate": "2026-03-11T08:58:47.000Z",
       "content": "\n\t\n\t",
       "author": "Yasuo666",
@@ -354,7 +423,7 @@
     },
     {
       "title": "大部分模型都不支持结构化输出",
-      "link": "https://www.v2ex.com/t/1197476#reply14",
+      "link": "https://www.v2ex.com/t/1197476#reply16",
       "pubDate": "2026-03-11T08:57:49.000Z",
       "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
       "author": "iSNN",
@@ -404,16 +473,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "使用 AI 编程的时候，配置文件里的敏感数据会被读取上传吗",
-      "link": "https://www.v2ex.com/t/1197468#reply2",
-      "pubDate": "2026-03-11T08:25:29.000Z",
-      "content": "\n\t比如数据库连接的配置文件在 json 文件里面，也会被 AI 工具读取然后上传上去分析的吗？\n\t",
-      "author": "yagamil",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "当AI开始替代人类：高学历高收入反而最危险？",
@@ -467,7 +526,7 @@
     },
     {
       "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
-      "link": "https://www.v2ex.com/t/1197438#reply2",
+      "link": "https://www.v2ex.com/t/1197438#reply4",
       "pubDate": "2026-03-11T07:05:00.000Z",
       "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
       "author": "CHTuring",
@@ -517,7 +576,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply67",
+      "link": "https://www.v2ex.com/t/1197429#reply68",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -534,16 +593,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "现在主流的开发一个 agent 的方式是怎样的",
-      "link": "https://www.v2ex.com/t/1197423#reply0",
-      "pubDate": "2026-03-11T06:23:36.000Z",
-      "content": "\n\t<p>是编码实现，还是用 dify,coze 这种低代码平台实现，还是？有没有这种集合网站，可以找到各种各样的智能体的集合网站？</p>\n\n\t",
-      "author": "weishao666",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "“一种量化两个概率分布之间统计差异的新指标”论文正式发表上线",
@@ -568,16 +617,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "CASA Tier 2 安全报告也太贵了",
-      "link": "https://www.v2ex.com/t/1197414#reply0",
-      "pubDate": "2026-03-11T06:04:27.000Z",
-      "content": "\n\t迫于自己有太多的邮箱账号，让 AI 用 Go 帮我写了一个 web 邮件客户端，想着搭建一个公网展示提供一下服务，甚至考虑以后卖服务。<br /><br />去 Google Cloud 申请了 API 。 几经周转到了最后一步， 结果 Google 要求提供  CASA Tier 2 级的安全报告， 我看了一下 要 500 刀，直接劝退\n\t",
-      "author": "Ansen",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "散文初作（13）：六一年岁感怀",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1251036&do=blog&id=1525273",
       "pubDate": "2026-03-11 06:02:41",
@@ -593,26 +632,6 @@
       "pubDate": "2026-03-11T05:32:03.000Z",
       "content": "\n\t<p>有没有这样的平台。通过平台 API 可以实现微信机器人的群消息发送或接收。</p>\n<p>GitHub 上有相关开源项目我知道，我需要的是现成的平台来提供服务，我不用去关心、操作这些。</p>\n<p>可以按月或者按年付费，怎么付费都行，这东西肯定不是无偿。</p>\n<p>要普通微信，不是企微，企微有 API 提供我知道。</p>\n<p>使用场景举例：\n拉你们平台的微信机器人进群，然后我们系统有订单消息调用你们的 API 发送通知，然后你们机器人会在群内发通知。</p>\n\n\t",
       "author": "qiqi669",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "刚发现字节火山的 coding plan 添加新模型了， doubao-seed-2-0-pro-260215",
-      "link": "https://www.v2ex.com/t/1197395#reply0",
-      "pubDate": "2026-03-11T05:22:15.000Z",
-      "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/eDytf2A.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/eDytf2A.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 当初吹的特厉害超越 gpt5.2 ，但是我感觉和阿里百炼的 Qwen 3.5 plus 好像差不多\n\t",
-      "author": "lynn1su",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "vibecoding 产物 MailAggregator（邮件聚合器）",
-      "link": "https://www.v2ex.com/t/1197393#reply0",
-      "pubDate": "2026-03-11T05:11:19.000Z",
-      "content": "\n\t<p>花了几天就做出来了，感觉 claude code 真的太强了。</p>\n<p>项目地址： <a href=\"https://github.com/wzxklm/MailAggregator\" rel=\"nofollow\">https://github.com/wzxklm/MailAggregator</a></p>\n<p>主要功能就是邮件聚合，主流邮箱都能用，然后还带有 2fa 的附加功能。</p>\n<p><img alt=\"YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\"/></p>\n<p><img alt=\"EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\"/></p>\n\n\t",
-      "author": "cowiejulewbfwo",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -649,7 +668,7 @@
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-      "link": "https://www.v2ex.com/t/1197381#reply68",
+      "link": "https://www.v2ex.com/t/1197381#reply71",
       "pubDate": "2026-03-11T04:16:53.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
       "author": "v2exgo",
@@ -668,18 +687,8 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "Codex APP 中 Flutter 里 Ai 执行 Shell 命令会卡死",
-      "link": "https://www.v2ex.com/t/1197363#reply0",
-      "pubDate": "2026-03-11T03:39:03.000Z",
-      "content": "\n\t<p>大家有用 Codex 的 Windows APP 开发 Flutter 吗？\nShell 里 flutter 相关耗时长的命令似乎一直会卡死。\n还有一个线程里上下文多了后会显示“正在自动压缩背景信息”，报异常，只能开一个新线程使用。\n挺影响使用的，感觉类似于这个 issue： <a href=\"https://github.com/openai/codex/issues/14220\" rel=\"nofollow\">https://github.com/openai/codex/issues/14220</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/t73YBIv.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/BKYhp6p.png\"/></p>\n\n\t",
-      "author": "PtAu",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "2w 预算，请教下装机配置问题",
-      "link": "https://www.v2ex.com/t/1197355#reply9",
+      "link": "https://www.v2ex.com/t/1197355#reply10",
       "pubDate": "2026-03-11T03:26:59.000Z",
       "content": "\n\t2w 预算，不考虑显示器<br /><br />使用需求：本地跑模型生图，比如用：comfyUI ，flux 。以及打一些游戏，希望两者能均衡一些。<br /><br />cpu 考虑英特尔，日常会用虚拟机冲浪。<br /><br />不过目前手上有 5080 和 32g 6400 内存，以及笔电的 2t 固态。<br /><br />这个需求需要替换哪些已有配置吗，不替换的话剩下的该怎么配？只想把钱花在刀刃上！！！<br /><br />麻烦大佬们给点意见，谢谢~\n\t",
       "author": "qize0921",
@@ -748,41 +757,11 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "wifi 摄像头本地运行目标检测算法，把有目标的视频流传输到服务器处理。",
-      "link": "https://www.v2ex.com/t/1197317#reply4",
-      "pubDate": "2026-03-11T02:14:56.000Z",
-      "content": "\n\t<p>想实现这个功能，有啥好的解决方案吗？</p>\n<p>wifi 摄像头本地运行目标检测算法，把有目标的视频流传输到服务器处理。</p>\n\n\t",
-      "author": "OceanRs",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
       "link": "https://www.v2ex.com/t/1197313#reply23",
       "pubDate": "2026-03-11T02:08:04.000Z",
       "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
       "author": "Fezl",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "用 ThreeJs 就能实现这样的效果，非常有交互感",
-      "link": "https://www.v2ex.com/t/1197305#reply4",
-      "pubDate": "2026-03-11T01:55:54.000Z",
-      "content": "\n\t<p>用 ThreeJs 就能实现这样的效果，非常有交互感，争取早点给我的 <a href=\"https://github.com/xun082/DocFlow\" rel=\"nofollow\">协同文档</a> 的项目给用上</p>\n<p><img alt=\"20260311095414\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095414.png\"/></p>\n<p><img alt=\"20260311095433\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095433.png\"/></p>\n\n\t",
-      "author": "moment082",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
-      "link": "https://www.v2ex.com/t/1197297#reply17",
-      "pubDate": "2026-03-11T01:42:22.000Z",
-      "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
-      "author": "kssss",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -812,28 +791,8 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "Dune - 一个 local-first 自带 Slack 式协作的 AI Agent 团队，开源了",
-      "link": "https://www.v2ex.com/t/1197266#reply2",
-      "pubDate": "2026-03-11T00:50:38.000Z",
-      "content": "\n\t<p>最近做了个开源项目 Dune ，分享一下。\n简单来说，就是你可以拉起一个 AI Agent 团队，Agent 数量随意，每个有自己的角色，跑在 BoxLite 提供的独立沙箱里。它们在群里沟通协作，跟真人团队一样干活。\n比如我现在用它搭了一个工程团队：Runtime 工程师、SDK 开发、平台工程师、QA 、文档管理，各司其职，在各自的沙箱里写代码、跑测试，遇到问题就在群里讨论。\nGitHub：<a href=\"http://github.com/dorianzheng/dune\" rel=\"nofollow\">github.com/dorianzheng/dune</a>\n欢迎试玩，欢迎 Star ，有问题随时交流。</p>\n<p><img alt=\"Dune workspace with the sidebar, a release channel conversation, and Dorian's skills panel open\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://imgur.com/a/NCUAuSY\"/>\n<img alt=\"Dune workspace with the sidebar, a release channel conversation, and Dorian's skills panel open\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://imgur.com/cV6OIEP\"/></p>\n\n\t",
-      "author": "d0r1an",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "海外 Coding Plan 哪个最便宜+最推荐？",
-      "link": "https://www.v2ex.com/t/1197261#reply17",
-      "pubDate": "2026-03-11T00:20:40.000Z",
-      "content": "\n\t\n\t",
-      "author": "enihcam",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "codex+各种 skill，跑通了自动写需求+自动调试+自动修 bug+自动部署，很担心",
-      "link": "https://www.v2ex.com/t/1197259#reply99",
+      "link": "https://www.v2ex.com/t/1197259#reply100",
       "pubDate": "2026-03-11T00:17:59.000Z",
       "content": "\n\t<p>如题，  </p>\n<p>楼主最近用 codex 多，于是抽时间，  </p>\n<p>把 grafana , rancher 查询日志， </p>\n<p>jenkins 部署，gitlab 创建 merge request ， 提交代码  </p>\n<p>等等一系列自动化跑通了（原理很简单，把他们的 API 封装成 SKILL ，让 codex 自己编排） </p>\n<hr/>\n<p>曾经也是小学初中就热爱计算机，最后大学学的计算机， </p>\n<p>到今天觉得自己已经没什么不可替代性（赚不到钱） </p>\n<p>现在很迷茫， </p>\n<p>唯一能做的就是早点睡觉，早上早点起床跑步 </p>\n<p>（虽然晚上愁得睡不着）</p>\n\n\t",
       "author": "fushall",
@@ -863,7 +822,7 @@
     },
     {
       "title": "国产 coding plan 哪个最推荐？",
-      "link": "https://www.v2ex.com/t/1197191#reply41",
+      "link": "https://www.v2ex.com/t/1197191#reply42",
       "pubDate": "2026-03-10T10:04:25.000Z",
       "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
       "author": "westisc",
@@ -877,16 +836,6 @@
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-      "link": "https://www.v2ex.com/t/1197168#reply41",
-      "pubDate": "2026-03-10T08:11:30.000Z",
-      "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-      "author": "zitup",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -1017,31 +966,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-      "link": "https://www.v2ex.com/t/1196673#reply110",
-      "pubDate": "2026-03-08T14:02:37.000Z",
-      "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-      "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "llmfit – 1秒测出：你的电脑能跑哪些 AI 大模型",
-      "link": "https://www.appinn.com/llmfit/",
-      "pubDate": "Sun, 08 Mar 2026 10:50:47 +0000",
-      "content": "终于有这样的工具了，帮你从 500 多款大模型中，1秒测出：你的电脑能跑哪些 AI 大模型。 llmfit 是什么? llmfit 是一款 Windows、macOS、Linux 小工具，也是一款 TUI 程序（终端图形界面），它可以自动检测你的电脑 CPU、GPU、内存，从 500+ 款大模型中， ",
-      "author": "",
-      "categories": [
-        "AI",
-        "大模型",
-        "本地部署",
-        "检测"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
       "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
       "link": "https://book.douban.com/review/17494559/",
       "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
@@ -1062,36 +986,20 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "OpenClaw 接入 QQ 机器人：腾讯官方入口，1 分钟扫码即用（详细教程）",
-      "link": "https://www.appinn.com/openclaw-channel-qqbot/",
-      "pubDate": "Sat, 07 Mar 2026 06:06:01 +0000",
-      "content": "腾讯发力，QQ 官方专门为 OpenClaw 开放了 QQ 机器人能力：现有 QQ 号扫码就能用，接入只需要1分钟。而且：免费 一个 QQ 号最多支持创建 5 个 QQ 机器人与 OpenClaw 聊天。 视频教程 必备条件 其实非常简单： 注册地址 打开该页面后，手机 QQ 扫码登录即可： 注意： ",
-      "author": "",
-      "categories": [
-        "AI",
-        "OpenClaw",
-        "QQ",
-        "机器人",
-        "腾讯"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "长剧完蛋了 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17492150/",
-      "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
-      "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
+      "title": "平台强按头的爆剧，真的能爆吗 (评论: 逐玉)",
+      "link": "https://movie.douban.com/review/17492278/",
+      "pubDate": "Sat, 07 Mar 2026 00:50:57 GMT",
+      "content": "\n北大荒野玫瑰评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 较差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;9migb&#34;,&#34;text&#34;:&#34; 这部作品堪称“灾难级”的观剧体验。男主全程面瘫式的表演令人如坐针毡，喜怒哀乐全凭眉头那微不可察的抽搐。剧情幼稚得仿佛初中生暑期习作，逻辑漏洞百出。导演刻意追求的“构图感”极度生硬，每个镜头都像在拍精修写真，与叙事严重割裂。男女主更是工业糖精的集大成者，...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "曾导真的一点不浪费这两张伟大的脸 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17491886/",
-      "pubDate": "Fri, 06 Mar 2026 14:51:31 GMT",
-      "content": "\n小张评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+      "title": "长剧完蛋了 (评论: 逐玉)",
+      "link": "https://movie.douban.com/review/17492150/",
+      "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
+      "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -1166,16 +1074,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply156",
-      "pubDate": "2026-03-05T04:33:26.000Z",
-      "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-      "author": "v2exgo",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
