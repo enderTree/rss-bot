@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T08:32:48.639Z",
+  "lastUpdated": "2026-03-12T09:34:35.260Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T08:32:38.724Z",
+      "lastUpdated": "2026-03-12T09:34:23.388Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T08:32:39.490Z",
+      "lastUpdated": "2026-03-12T09:34:24.335Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T08:32:39.552Z",
+      "lastUpdated": "2026-03-12T09:34:24.527Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T08:32:41.014Z",
+      "lastUpdated": "2026-03-12T09:34:26.203Z",
       "items": [
         {
           "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -307,11 +307,71 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T08:32:41.087Z",
+      "lastUpdated": "2026-03-12T09:34:26.459Z",
       "items": [
         {
+          "title": "opencode 下， deepseek 有时候比较蠢",
+          "link": "https://www.v2ex.com/t/1197641#reply23",
+          "pubDate": "2026-03-12T02:39:40.000Z",
+          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
+          "author": "nativeBoy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "话说我用中转站的话会泄露 api 吗？",
+          "link": "https://www.v2ex.com/t/1197589#reply28",
+          "pubDate": "2026-03-12T00:08:49.000Z",
+          "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
+          "author": "tina2998",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "血肉苦弱 机械飞升",
+          "link": "https://www.v2ex.com/t/1197787#reply3",
+          "pubDate": "2026-03-12T09:13:04.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"https://www.linkedin.com/pulse/first-multi-behavior-brain-upload-alex-wissner-gross-mttye\" rel=\"nofollow noopener\">https://www.linkedin.com/pulse/first-multi-behavior-brain-upload-alex-wissner-gross-mttye</a><br />还在算法-&gt;学习行为？ 新的版本来了 ：神经结构-&gt;产生行为<br /><br />已经开始验证了吗？<br />数学结构-&gt;物理规律-&gt;物质-&gt;生命-&gt;意识.<br />这不比 openclaw 更有话题吗？\n\t",
+          "author": "ffw5b7",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
+          "link": "https://www.v2ex.com/t/1197790#reply0",
+          "pubDate": "2026-03-12T09:27:15.000Z",
+          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
+          "author": "lp4298707",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有推荐的光驱位热插拔硬盘笼吗",
+          "link": "https://www.v2ex.com/t/1197784#reply1",
+          "pubDate": "2026-03-12T08:44:10.000Z",
+          "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
+          "author": "y5g",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude code 想跟朋友一起拼车有教程吗直接买 team plan 就行吗",
+          "link": "https://www.v2ex.com/t/1197753#reply5",
+          "pubDate": "2026-03-12T07:32:49.000Z",
+          "content": "\n\t如题第一次弄没太看明白她这个如果一个按网站上一个 seat20 的话拼车好像意义不大\n\t",
+          "author": "iosyyy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply69",
+          "link": "https://www.v2ex.com/t/1197429#reply72",
           "pubDate": "2026-03-11T06:36:16.000Z",
           "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
           "author": "TheBlind",
@@ -320,21 +380,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply16",
-          "pubDate": "2026-03-12T02:48:43.000Z",
-          "content": "\n\t\n\t",
-          "author": "mcfever",
+          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
+          "link": "https://www.v2ex.com/t/1197618#reply49",
+          "pubDate": "2026-03-12T01:48:58.000Z",
+          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
+          "author": "Newbee24",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-          "link": "https://www.v2ex.com/t/1197618#reply46",
-          "pubDate": "2026-03-12T01:48:58.000Z",
-          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
-          "author": "Newbee24",
+          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
+          "link": "https://www.v2ex.com/t/1197650#reply17",
+          "pubDate": "2026-03-12T02:48:43.000Z",
+          "content": "\n\t\n\t",
+          "author": "mcfever",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -370,41 +430,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "opencode 下， deepseek 有时候比较蠢",
-          "link": "https://www.v2ex.com/t/1197641#reply17",
-          "pubDate": "2026-03-12T02:39:40.000Z",
-          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-          "author": "nativeBoy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "ARC 浏览器大家还在用么？有啥替换的对象",
           "link": "https://www.v2ex.com/t/1197269#reply97",
           "pubDate": "2026-03-11T00:57:26.000Z",
           "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
           "author": "RiverMoon",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude code 想跟朋友一起拼车有教程吗直接买 team plan 就行吗",
-          "link": "https://www.v2ex.com/t/1197753#reply3",
-          "pubDate": "2026-03-12T07:32:49.000Z",
-          "content": "\n\t如题第一次弄没太看明白她这个如果一个按网站上一个 seat20 的话拼车好像意义不大\n\t",
-          "author": "iosyyy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "话说我用中转站的话会泄露 api 吗？",
-          "link": "https://www.v2ex.com/t/1197589#reply27",
-          "pubDate": "2026-03-12T00:08:49.000Z",
-          "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
-          "author": "tina2998",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -451,7 +481,7 @@
         },
         {
           "title": "国内， claude code 有什么性价比高稳定的使用途径吗？",
-          "link": "https://www.v2ex.com/t/1197754#reply0",
+          "link": "https://www.v2ex.com/t/1197754#reply1",
           "pubDate": "2026-03-12T07:39:00.000Z",
           "content": "\n\t<p>claude code 官网一直因手机号无法注册。\n大家都是什么途径买的？淘宝上能买吗</p>\n\n\t",
           "author": "ponelyr",
@@ -461,7 +491,7 @@
         },
         {
           "title": "roo code+deepseek，缓存命中很便宜！",
-          "link": "https://www.v2ex.com/t/1197609#reply11",
+          "link": "https://www.v2ex.com/t/1197609#reply12",
           "pubDate": "2026-03-12T01:36:32.000Z",
           "content": "\n\t我让 Roo code 从 0 规划写了个小项目，考虑到 deepseek 便宜就用官方的 deepseek ，结果用了 6M tokens 才完成，一看花费才 2 块钱！<br />看了一下，6M tokens 几乎都命中了缓存，所以便宜的很<br /><br />相同场景，用中转站没有缓存命中，贵的要死！余额减得很快<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/BmC5Qvc.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/BmC5Qvc.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/Mv3laUI.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/Mv3laUI.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />deepseek 官方价格链接： <a target=\"_blank\" href=\"https://api-docs.deepseek.com/zh-cn/quick_start/pricing/\" rel=\"nofollow noopener\">https://api-docs.deepseek.com/zh-cn/quick_start/pricing/</a>\n\t",
           "author": "nativeBoy",
@@ -530,11 +560,31 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
+          "link": "https://www.v2ex.com/t/1197313#reply24",
+          "pubDate": "2026-03-11T02:08:04.000Z",
+          "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
+          "author": "Fezl",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
           "link": "https://www.v2ex.com/t/1197478#reply11",
           "pubDate": "2026-03-11T08:58:47.000Z",
           "content": "\n\t\n\t",
           "author": "Yasuo666",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "国产 coding plan 哪个最推荐？",
+          "link": "https://www.v2ex.com/t/1197191#reply43",
+          "pubDate": "2026-03-10T10:04:25.000Z",
+          "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
+          "author": "westisc",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -550,28 +600,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
-          "link": "https://www.v2ex.com/t/1197313#reply23",
-          "pubDate": "2026-03-11T02:08:04.000Z",
-          "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
-          "author": "Fezl",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "国产 coding plan 哪个最推荐？",
-          "link": "https://www.v2ex.com/t/1197191#reply42",
-          "pubDate": "2026-03-10T10:04:25.000Z",
-          "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
-          "author": "westisc",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
-          "link": "https://www.v2ex.com/t/1197438#reply5",
+          "link": "https://www.v2ex.com/t/1197438#reply6",
           "pubDate": "2026-03-11T07:05:00.000Z",
           "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
           "author": "CHTuring",
@@ -691,7 +721,7 @@
         },
         {
           "title": "OpenCode 使用问题",
-          "link": "https://www.v2ex.com/t/1197337#reply11",
+          "link": "https://www.v2ex.com/t/1197337#reply12",
           "pubDate": "2026-03-11T03:06:21.000Z",
           "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
           "author": "xing4576",
@@ -778,43 +808,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "刚发现字节火山的 coding plan 添加新模型了， doubao-seed-2-0-pro-260215",
-          "link": "https://www.v2ex.com/t/1197395#reply0",
-          "pubDate": "2026-03-11T05:22:15.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/eDytf2A.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/eDytf2A.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 当初吹的特厉害超越 gpt5.2 ，但是我感觉和阿里百炼的 Qwen 3.5 plus 好像差不多\n\t",
-          "author": "lynn1su",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用 ThreeJs 就能实现这样的效果，非常有交互感",
-          "link": "https://www.v2ex.com/t/1197305#reply4",
-          "pubDate": "2026-03-11T01:55:54.000Z",
-          "content": "\n\t<p>用 ThreeJs 就能实现这样的效果，非常有交互感，争取早点给我的 <a href=\"https://github.com/xun082/DocFlow\" rel=\"nofollow\">协同文档</a> 的项目给用上</p>\n<p><img alt=\"20260311095414\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095414.png\"/></p>\n<p><img alt=\"20260311095433\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095433.png\"/></p>\n\n\t",
-          "author": "moment082",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "vibecoding 产物 MailAggregator（邮件聚合器）",
-          "link": "https://www.v2ex.com/t/1197393#reply0",
-          "pubDate": "2026-03-11T05:11:19.000Z",
-          "content": "\n\t<p>花了几天就做出来了，感觉 claude code 真的太强了。</p>\n<p>项目地址： <a href=\"https://github.com/wzxklm/MailAggregator\" rel=\"nofollow\">https://github.com/wzxklm/MailAggregator</a></p>\n<p>主要功能就是邮件聚合，主流邮箱都能用，然后还带有 2fa 的附加功能。</p>\n<p><img alt=\"YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\"/></p>\n<p><img alt=\"EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\"/></p>\n\n\t",
-          "author": "cowiejulewbfwo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T08:32:42.884Z",
+      "lastUpdated": "2026-03-12T09:34:28.746Z",
       "items": [
         {
           "title": "跨界研究成功的科学家",
@@ -897,6 +897,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "倒骑牛背剥莲蓬（读图偶拾421）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525278",
+          "pubDate": "2026-03-11 06:48:20",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
           "pubDate": "2026-03-11 02:52:48",
@@ -907,29 +917,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "“拆弹专家”——邵峰院士与细胞焦亡的发现",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1525272",
-          "pubDate": "2026-03-11 04:50:43",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "“一种量化两个概率分布之间统计差异的新指标”论文正式发表上线",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3427112&do=blog&id=1525274",
           "pubDate": "2026-03-11 06:18:10",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "倒骑牛背剥莲蓬（读图偶拾421）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525278",
-          "pubDate": "2026-03-11 06:48:20",
           "content": "",
           "author": "",
           "categories": [],
@@ -1007,6 +997,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "毕业困难户:类型、根源与帮扶路径",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=58729&do=blog&id=1525454",
+          "pubDate": "2026-03-12 09:43:10",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "AI时代，为什么我们还要沉浸式读书、办线下读书会、读中华经典？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525282",
           "pubDate": "2026-03-11 08:13:08",
@@ -1021,7 +1021,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T08:32:45.245Z",
+      "lastUpdated": "2026-03-12T09:34:31.338Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1228,7 +1228,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T08:32:47.197Z",
+      "lastUpdated": "2026-03-12T09:34:33.331Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1245,6 +1245,16 @@
           "link": "https://movie.douban.com/review/17499944/",
           "pubDate": "Thu, 12 Mar 2026 03:03:35 GMT",
           "content": "\nlalalalala评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u597d\\u50cf\\u662f\\u4ece201...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
+          "link": "https://movie.douban.com/review/17500172/",
+          "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
+          "content": "\nGrace.Zhang评论: 生命树 (https://movie.douban.com/subject/35424715/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1305,16 +1315,6 @@
           "link": "https://movie.douban.com/review/17499222/",
           "pubDate": "Wed, 11 Mar 2026 12:15:08 GMT",
           "content": "\n下雨即破碎评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5148\\u4e0b\\u7ed3\\u8bba\\uff0c\\u6...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
-          "link": "https://movie.douban.com/review/17500172/",
-          "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
-          "content": "\nGrace.Zhang评论: 生命树 (https://movie.douban.com/subject/35424715/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1436,20 +1436,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T08:32:48.082Z",
+      "lastUpdated": "2026-03-12T09:34:34.406Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T08:32:48.143Z",
+      "lastUpdated": "2026-03-12T09:34:34.639Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T08:32:48.639Z",
+      "lastUpdated": "2026-03-12T09:34:35.259Z",
       "items": [
         {
           "title": "无题",
