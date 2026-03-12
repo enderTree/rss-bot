@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T17:42:29.988Z",
+  "lastUpdated": "2026-03-12T18:40:56.852Z",
   "totalItems": 133,
   "items": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
-      "link": "https://www.v2ex.com/t/1197827#reply3",
+      "link": "https://www.v2ex.com/t/1197827#reply4",
       "pubDate": "2026-03-12T12:31:52.000Z",
       "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
       "author": "odokei",
@@ -337,7 +337,7 @@
     },
     {
       "title": "有在玩 openclaw 的朋友吗？",
-      "link": "https://www.v2ex.com/t/1197699#reply2",
+      "link": "https://www.v2ex.com/t/1197699#reply3",
       "pubDate": "2026-03-12T05:13:01.000Z",
       "content": "\n\t<p>有在玩 openclaw 的朋友吗？我为 StarDots 发布了一个 skill ，欢迎来体验呀。  </p>\n<p><img alt=\"stardots-backup-skill.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.stardots.io/keepchen/stardots-backup-skill.png\"/></p>\n<p>skill 发布地址：\n<a href=\"https://clawhub.ai/keepchen/stardots-backup-skill\" rel=\"nofollow\">https://clawhub.ai/keepchen/stardots-backup-skill</a></p>\n<p>博客地址：\n<a href=\"https://stardots.io/blog/stardots-ai-agent-skill-supported-now/\" rel=\"nofollow\">https://stardots.io/blog/stardots-ai-agent-skill-supported-now/</a></p>\n\n\t",
       "author": "wogogoing",
@@ -480,7 +480,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply45",
+      "link": "https://www.v2ex.com/t/1197595#reply46",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",

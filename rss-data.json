@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T17:42:29.985Z",
+  "lastUpdated": "2026-03-12T18:40:56.849Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T17:42:18.974Z",
+      "lastUpdated": "2026-03-12T18:40:45.087Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T17:42:19.778Z",
+      "lastUpdated": "2026-03-12T18:40:46.251Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T17:42:19.886Z",
+      "lastUpdated": "2026-03-12T18:40:46.399Z",
       "items": [
         {
           "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T17:42:21.446Z",
+      "lastUpdated": "2026-03-12T18:40:48.273Z",
       "items": [
         {
           "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -307,8 +307,18 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T17:42:21.556Z",
+      "lastUpdated": "2026-03-12T18:40:48.478Z",
       "items": [
+        {
+          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
+          "link": "https://www.v2ex.com/t/1197595#reply46",
+          "pubDate": "2026-03-12T00:55:22.000Z",
+          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
+          "author": "mrsbryant",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
           "link": "https://www.v2ex.com/t/1197790#reply16",
@@ -325,16 +335,6 @@
           "pubDate": "2026-03-12T16:35:38.000Z",
           "content": "\n\t<p>观察到有时候会解析到 127.0.0.1,有时候会解析到正常 IP ，这种有时候正常，有时候不正常的解析目的是什么</p>\n<p><img alt=\"device-proxy.sec.xiaomi.com_多地 Ping 值测试.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/vOSItbq.jpeg\"/></p>\n<p>最近几次的解析记录\n<img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/EIH2Zqv.png\"/>\n<img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/bwbgZKq.png\"/></p>\n<p>我不用小米手机，应该是 IOT 设备发出的</p>\n\n\t",
           "author": "lnbiuc",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-          "link": "https://www.v2ex.com/t/1197595#reply45",
-          "pubDate": "2026-03-12T00:55:22.000Z",
-          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
-          "author": "mrsbryant",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -451,7 +451,7 @@
         },
         {
           "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
-          "link": "https://www.v2ex.com/t/1197827#reply3",
+          "link": "https://www.v2ex.com/t/1197827#reply4",
           "pubDate": "2026-03-12T12:31:52.000Z",
           "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
           "author": "odokei",
@@ -501,7 +501,7 @@
         },
         {
           "title": "有在玩 openclaw 的朋友吗？",
-          "link": "https://www.v2ex.com/t/1197699#reply2",
+          "link": "https://www.v2ex.com/t/1197699#reply3",
           "pubDate": "2026-03-12T05:13:01.000Z",
           "content": "\n\t<p>有在玩 openclaw 的朋友吗？我为 StarDots 发布了一个 skill ，欢迎来体验呀。  </p>\n<p><img alt=\"stardots-backup-skill.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.stardots.io/keepchen/stardots-backup-skill.png\"/></p>\n<p>skill 发布地址：\n<a href=\"https://clawhub.ai/keepchen/stardots-backup-skill\" rel=\"nofollow\">https://clawhub.ai/keepchen/stardots-backup-skill</a></p>\n<p>博客地址：\n<a href=\"https://stardots.io/blog/stardots-ai-agent-skill-supported-now/\" rel=\"nofollow\">https://stardots.io/blog/stardots-ai-agent-skill-supported-now/</a></p>\n\n\t",
           "author": "wogogoing",
@@ -714,7 +714,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T17:42:23.681Z",
+      "lastUpdated": "2026-03-12T18:40:50.734Z",
       "items": [
         {
           "title": "科学史中的教训：第七章 几何的独裁：非欧几何的地下流传",
@@ -921,7 +921,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T17:42:26.414Z",
+      "lastUpdated": "2026-03-12T18:40:53.175Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1128,7 +1128,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T17:42:28.124Z",
+      "lastUpdated": "2026-03-12T18:40:55.071Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
@@ -1336,20 +1336,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T17:42:29.159Z",
+      "lastUpdated": "2026-03-12T18:40:56.189Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T17:42:29.349Z",
+      "lastUpdated": "2026-03-12T18:40:56.400Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T17:42:29.985Z",
+      "lastUpdated": "2026-03-12T18:40:56.849Z",
       "items": [
         {
           "title": "无题",
