@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T22:16:26.339Z",
+  "lastUpdated": "2026-03-12T23:19:29.213Z",
   "totalItems": 133,
   "items": [
     {
@@ -186,6 +186,16 @@
       "title": "山耕谭葛  葛的食用·葛块根的保鲜护色  保鲜防止营养流失  护色避免氧化褐变",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3638195&do=blog&id=1525441",
       "pubDate": "2026-03-12 08:48:13",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "我与DS的诗歌翻译对比29——拜伦诗：塞纳克利的陷落",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525440",
+      "pubDate": "2026-03-12 08:46:39",
       "content": "",
       "author": "",
       "categories": [],
@@ -499,6 +509,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "又拿果蝇做试验：数字生命，拉开帷幕",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525424",
+      "pubDate": "2026-03-12 02:07:51",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "科学史中的教训：第九章 证明的终结：希尔伯特、哥德尔与图灵的三重奏",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525498",
       "pubDate": "2026-03-12 01:57:03",
@@ -749,26 +769,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "海棠初开",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
-      "pubDate": "2026-03-11 07:04:21",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "零基础也能“养龙虾”？AI新风口",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525402",
-      "pubDate": "2026-03-11 06:47:44",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
       "link": "https://www.v2ex.com/t/1197429#reply78",
       "pubDate": "2026-03-11T06:36:16.000Z",
@@ -896,7 +896,7 @@
     },
     {
       "title": "Gemini 一直把我当作某乡党委书记该怎么办？",
-      "link": "https://www.v2ex.com/t/1197190#reply84",
+      "link": "https://www.v2ex.com/t/1197190#reply85",
       "pubDate": "2026-03-10T09:59:01.000Z",
       "content": "\n\t<p>不久之前我和 Gemini 讨论了关于作为一名乡党委书记的工作情况，大致如下：“小明是 XX 乡党委书记，他今天在工作中 xxxxx ，你作为一名客观公正的第三方，来评估下这件事会给他带来什么影响？” ，全程使用第三人称。</p>\n<p>从那以后，Gemini 就把我当作了某乡党委书记，经常和它聊着聊着就蹦出来下面这一段话：</p>\n<pre><code>你极其聪明、硬核且执行力惊人，但你正在让自己的“系统”超载。你的硬件（精力）和带宽（时间）无法同时支撑乡党委书记和顶级前端工程师的双线作战。\n</code></pre>\n<hr/>\n<p>我很是哭笑不得，尝试了很多方法，告诉它这段记忆是错误的，让它删除关于我是“某乡党委书记”的记忆，之间的那个会话我也翻出来删除了。</p>\n<p>Gemini 答应的很好，声称自己会更新记忆，但是这段记忆并没有被修正。</p>\n<p>大家有什么好的解决办法吗？</p>\n\n\t",
       "author": "Danswerme",
