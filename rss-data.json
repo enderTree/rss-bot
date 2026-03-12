@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T11:26:54.384Z",
+  "lastUpdated": "2026-03-12T12:38:12.230Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T11:26:42.450Z",
+      "lastUpdated": "2026-03-12T12:38:02.397Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T11:26:43.291Z",
+      "lastUpdated": "2026-03-12T12:38:03.324Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T11:26:43.500Z",
+      "lastUpdated": "2026-03-12T12:38:03.469Z",
       "items": [
         {
           "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T11:26:45.047Z",
+      "lastUpdated": "2026-03-12T12:38:04.964Z",
       "items": [
         {
           "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -307,51 +307,11 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T11:26:45.178Z",
+      "lastUpdated": "2026-03-12T12:38:05.166Z",
       "items": [
         {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply73",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply10",
-          "pubDate": "2026-03-12T09:27:15.000Z",
-          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
-          "author": "lp4298707",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
-          "link": "https://www.v2ex.com/t/1197732#reply18",
-          "pubDate": "2026-03-12T06:50:10.000Z",
-          "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
-          "author": "wsbqdyhm",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "前端去学习 golang 跨度成本大吗？",
-          "link": "https://www.v2ex.com/t/1197788#reply23",
-          "pubDate": "2026-03-12T09:15:17.000Z",
-          "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
-          "author": "mumuwen",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "话说我用中转站的话会泄露 api 吗？",
-          "link": "https://www.v2ex.com/t/1197589#reply31",
+          "link": "https://www.v2ex.com/t/1197589#reply33",
           "pubDate": "2026-03-12T00:08:49.000Z",
           "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
           "author": "tina2998",
@@ -360,11 +320,91 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
+          "link": "https://www.v2ex.com/t/1197827#reply0",
+          "pubDate": "2026-03-12T12:31:52.000Z",
+          "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
+          "author": "odokei",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "别怪模型不行！ AI 编程的致命问题是工程问题",
+          "link": "https://www.v2ex.com/t/1197802#reply8",
+          "pubDate": "2026-03-12T09:53:39.000Z",
+          "content": "\n\t<p>AI 编程已经很强了，但很多团队发现一个诡异的现象：</p>\n<blockquote>\n<p>刚引入 AI 编程时，交付速度确实快了。<br/>\n但三个月后，项目越来越难维护，改一个 bug 要排查一下午。<br/>\n你忍不住骂一句：这他妈的谁写的烂代码？<br/>\n旁边的同事默默告诉你：这是你三个月前让 AI 写的。</p>\n</blockquote>\n<p>不是我泼冷水，是所有 AI 编程工具都有一个致命缺陷：</p>\n<p><strong>它搜不到真相，只能靠猜。</strong></p>\n<p>具体表现为 4 个通病，看看你中了几个：</p>\n<h2>1. 上下文召回不可靠</h2>\n<p>现实中的崩溃现场：</p>\n<ul>\n<li>PRD 写的是 <code>每天限额 10 次</code></li>\n<li>接口文档写的 <code>是单次上限 10</code></li>\n<li>代码实现是 <code>limit: 10</code></li>\n<li>测试用例写的是 <code>支持 10/20/50 三档</code></li>\n</ul>\n<p>四个地方四个说法，AI 看了也懵。</p>\n<p>关键规则散落在：飞书文档、PRD 、会议纪要、口口相传。AI 搜代码，只能搜到冰山一角。</p>\n<h2>2. 边界意识差</h2>\n<p>你让 AI 修一个 bug ，它很开心地 <strong>顺便</strong>：</p>\n<ul>\n<li>改了目录结构</li>\n<li>把接口语义也 <code>优化</code> 了</li>\n<li>把测试规则改成 <code>更好测</code> 的版本</li>\n</ul>\n<p>它觉得自己在做好事，你觉得它在<code>越级执法</code>。</p>\n<h2>3. 规则、契约、实现三者漂移</h2>\n<p>没有<code>唯一真理</code>时，系统里会出现三份互相背离的真相：</p>\n<table>\n<thead>\n<tr>\n<th>业务规则</th>\n<th>文档写的</th>\n<th>实际跑的</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>每天限额 10 次</td>\n<td>单次上限 10</td>\n<td>limit: 10</td>\n</tr>\n</tbody></table><p>AI 加速了这个漂移——因为它能同时写三样，而且每样都写得像真的。</p>\n<hr/>\n<h2>4. 正确性无法证明</h2>\n<p>没有明确验收口径时，你对 AI 输出的评估方式只剩一种：</p>\n<blockquote>\n<p>看起来合理。</p>\n</blockquote>\n<p>工程里最贵的成本，就藏在<code>看起来</code>三个字里。</p>\n<h2>根因：不是检索不够强，而是缺乏真相</h2>\n<p>很多人遇到上下文问题的第一反应是：上 RAG 、上向量库、上更强模型。</p>\n<p>这些解决的是<code>搜的工具</code>，不是<code>被搜的对象</code>。</p>\n<p>如果你的系统里：</p>\n<ul>\n<li>真相散落在仓库外</li>\n<li>同一个概念多套说法</li>\n<li>文档不版本化、不评审、不追踪</li>\n</ul>\n<p>那再强的检索，也只能把<code>碎片</code>捞得更快一点。</p>\n<h2>我的解法：文档即代码</h2>\n<h3>1. System Manifest：给项目一张地图</h3>\n<pre><code class=\"language-json\">{\n  \"modules\": [\"backend\", \"frontend\", \"docs\"],\n  \"contracts\": \"./openapi/\",\n  \"generated\": \"./src/api/\"\n}\n</code></pre>\n<p><strong>好处</strong>：AI 不再<code>先搜再说</code>，而是<code>先定位再深入</code>。</p>\n<hr/>\n<h3>2. L1-L4 分层：把真相分类型管理</h3>\n<table>\n<thead>\n<tr>\n<th>层级</th>\n<th>职责</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>L1</td>\n<td>系统边界与上下文（去哪儿找）</td>\n</tr>\n<tr>\n<td>L2</td>\n<td>模型与不变式（怎么理解）</td>\n</tr>\n<tr>\n<td>L3</td>\n<td>业务规则（什么算对）</td>\n</tr>\n<tr>\n<td>L4</td>\n<td>接口契约（前后端怎么对齐）</td>\n</tr>\n</tbody></table><hr/>\n<h3>3. L3 唯一真理：把「正确性」做成可验证</h3>\n<pre><code class=\"language-gherkin\">场景: 每日限额检查\n  假设 用户当天已调用 9 次\n  当 用户发起第 10 次请求\n  那么 返回 \"每日限额已达上限\"\n</code></pre>\n<p>AI 的工作从<code>写看起来对的代码</code>，变成<code>把规则跑通</code>。</p>\n<h3>4. 结构化移交单：把协作从聊天升级为指令</h3>\n<p>每次变更必须输出：</p>\n<ul>\n<li>改动意图</li>\n<li>影响范围（哪些模块/接口）</li>\n<li>具体变化（字段级）</li>\n</ul>\n<h2>结尾</h2>\n<p>AI 能帮你写 10 倍代码，也能帮你制造 10 倍<code>看起来合理的隐患</code>。</p>\n<p>你需要的不是更强的补全，而是更强的顶层设计：</p>\n<ul>\n<li><strong>真相可寻址</strong>（ Manifest ）</li>\n<li><strong>变更可追踪</strong>（版本化）</li>\n<li><strong>正确性可验证</strong>（ L3 规则）</li>\n<li><strong>协作可执行</strong>（移交单）</li>\n</ul>\n<blockquote>\n<p>简单项目可以靠感觉，复杂系统永远靠规约。</p>\n</blockquote>\n<hr/>\n<p><strong>你在 AI 编程中踩过什么坑？评论区聊聊 👇</strong></p>\n\n\t",
+          "author": "CrazyMark",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
+          "link": "https://www.v2ex.com/t/1197790#reply13",
+          "pubDate": "2026-03-12T09:27:15.000Z",
+          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
+          "author": "lp4298707",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "前端去学习 golang 跨度成本大吗？",
+          "link": "https://www.v2ex.com/t/1197788#reply26",
+          "pubDate": "2026-03-12T09:15:17.000Z",
+          "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
+          "author": "mumuwen",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
+          "link": "https://www.v2ex.com/t/1197650#reply21",
+          "pubDate": "2026-03-12T02:48:43.000Z",
+          "content": "\n\t\n\t",
+          "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "以现在 AI 发展的水平来看，会不会现有的图灵方案都形同虚设?",
-          "link": "https://www.v2ex.com/t/1197642#reply17",
+          "link": "https://www.v2ex.com/t/1197642#reply19",
           "pubDate": "2026-03-12T02:40:22.000Z",
           "content": "\n\t<p>我们常用的图灵测试方案基础的图形验证码、复杂点的图形验证码+计算数学题，再进一步的就是各种混淆干扰线之类的。还有一种验证方式是识别图形、拼图之类的交互式验证码。</p>\n<p>在现在 AI 发展迅速的当下，这些验证手段会不会即将（或已经）失效，那我们有没有什么方法去更好的区分 “人类” 和 “AI” 呢？</p>\n<p>我能想到的就是手机验证码这种，尽可能增加获取验证码的成本</p>\n\n\t",
           "author": "815979670",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+          "link": "https://www.v2ex.com/t/1197429#reply76",
+          "pubDate": "2026-03-11T06:36:16.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+          "author": "TheBlind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
+          "link": "https://www.v2ex.com/t/1197732#reply19",
+          "pubDate": "2026-03-12T06:50:10.000Z",
+          "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
+          "author": "wsbqdyhm",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
+          "link": "https://www.v2ex.com/t/1197618#reply50",
+          "pubDate": "2026-03-12T01:48:58.000Z",
+          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
+          "author": "Newbee24",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -410,28 +450,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-          "link": "https://www.v2ex.com/t/1197618#reply49",
-          "pubDate": "2026-03-12T01:48:58.000Z",
-          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
-          "author": "Newbee24",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply17",
-          "pubDate": "2026-03-12T02:48:43.000Z",
-          "content": "\n\t\n\t",
-          "author": "mcfever",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-          "link": "https://www.v2ex.com/t/1197381#reply73",
+          "link": "https://www.v2ex.com/t/1197381#reply74",
           "pubDate": "2026-03-11T04:16:53.000Z",
           "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
           "author": "v2exgo",
@@ -441,7 +461,7 @@
         },
         {
           "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-          "link": "https://www.v2ex.com/t/1197269#reply97",
+          "link": "https://www.v2ex.com/t/1197269#reply98",
           "pubDate": "2026-03-11T00:57:26.000Z",
           "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
           "author": "RiverMoon",
@@ -481,20 +501,10 @@
         },
         {
           "title": "Vibe Coding 了一个 qbittorrent 的安卓客户端,完全免费",
-          "link": "https://www.v2ex.com/t/1197805#reply3",
+          "link": "https://www.v2ex.com/t/1197805#reply4",
           "pubDate": "2026-03-12T10:07:25.000Z",
           "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/6StDwjS.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/6StDwjS.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/rmz37II.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rmz37II.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/ylrDrea.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ylrDrea.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />  - 远程连接和管理 NAS / Seedbox 上的 qBittorrent 。<br />  - 首页仪表盘可快速查看上传、下载、种子状态等整体信息。<br />  - 提供统一种子列表，支持搜索和多种排序方式。<br />  - 种子详情页可查看 Tracker 、文件、Peer/统计信息，并支持常用操作。<br />  - 支持仪表盘卡片长按拖动排序，拖拽手感已优化。<br />  - 今日上传量分布（预估）”世界地图卡片。\n\t",
           "author": "wjh6665",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "别怪模型不行！ AI 编程的致命问题是工程问题",
-          "link": "https://www.v2ex.com/t/1197802#reply1",
-          "pubDate": "2026-03-12T09:53:39.000Z",
-          "content": "\n\t<p>AI 编程已经很强了，但很多团队发现一个诡异的现象：</p>\n<blockquote>\n<p>刚引入 AI 编程时，交付速度确实快了。<br/>\n但三个月后，项目越来越难维护，改一个 bug 要排查一下午。<br/>\n你忍不住骂一句：这他妈的谁写的烂代码？<br/>\n旁边的同事默默告诉你：这是你三个月前让 AI 写的。</p>\n</blockquote>\n<p>不是我泼冷水，是所有 AI 编程工具都有一个致命缺陷：</p>\n<p><strong>它搜不到真相，只能靠猜。</strong></p>\n<p>具体表现为 4 个通病，看看你中了几个：</p>\n<h2>1. 上下文召回不可靠</h2>\n<p>现实中的崩溃现场：</p>\n<ul>\n<li>PRD 写的是 <code>每天限额 10 次</code></li>\n<li>接口文档写的 <code>是单次上限 10</code></li>\n<li>代码实现是 <code>limit: 10</code></li>\n<li>测试用例写的是 <code>支持 10/20/50 三档</code></li>\n</ul>\n<p>四个地方四个说法，AI 看了也懵。</p>\n<p>关键规则散落在：飞书文档、PRD 、会议纪要、口口相传。AI 搜代码，只能搜到冰山一角。</p>\n<h2>2. 边界意识差</h2>\n<p>你让 AI 修一个 bug ，它很开心地 <strong>顺便</strong>：</p>\n<ul>\n<li>改了目录结构</li>\n<li>把接口语义也 <code>优化</code> 了</li>\n<li>把测试规则改成 <code>更好测</code> 的版本</li>\n</ul>\n<p>它觉得自己在做好事，你觉得它在<code>越级执法</code>。</p>\n<h2>3. 规则、契约、实现三者漂移</h2>\n<p>没有<code>唯一真理</code>时，系统里会出现三份互相背离的真相：</p>\n<table>\n<thead>\n<tr>\n<th>业务规则</th>\n<th>文档写的</th>\n<th>实际跑的</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>每天限额 10 次</td>\n<td>单次上限 10</td>\n<td>limit: 10</td>\n</tr>\n</tbody></table><p>AI 加速了这个漂移——因为它能同时写三样，而且每样都写得像真的。</p>\n<hr/>\n<h2>4. 正确性无法证明</h2>\n<p>没有明确验收口径时，你对 AI 输出的评估方式只剩一种：</p>\n<blockquote>\n<p>看起来合理。</p>\n</blockquote>\n<p>工程里最贵的成本，就藏在<code>看起来</code>三个字里。</p>\n<h2>根因：不是检索不够强，而是缺乏真相</h2>\n<p>很多人遇到上下文问题的第一反应是：上 RAG 、上向量库、上更强模型。</p>\n<p>这些解决的是<code>搜的工具</code>，不是<code>被搜的对象</code>。</p>\n<p>如果你的系统里：</p>\n<ul>\n<li>真相散落在仓库外</li>\n<li>同一个概念多套说法</li>\n<li>文档不版本化、不评审、不追踪</li>\n</ul>\n<p>那再强的检索，也只能把<code>碎片</code>捞得更快一点。</p>\n<h2>我的解法：文档即代码</h2>\n<h3>1. System Manifest：给项目一张地图</h3>\n<pre><code class=\"language-json\">{\n  \"modules\": [\"backend\", \"frontend\", \"docs\"],\n  \"contracts\": \"./openapi/\",\n  \"generated\": \"./src/api/\"\n}\n</code></pre>\n<p><strong>好处</strong>：AI 不再<code>先搜再说</code>，而是<code>先定位再深入</code>。</p>\n<hr/>\n<h3>2. L1-L4 分层：把真相分类型管理</h3>\n<table>\n<thead>\n<tr>\n<th>层级</th>\n<th>职责</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>L1</td>\n<td>系统边界与上下文（去哪儿找）</td>\n</tr>\n<tr>\n<td>L2</td>\n<td>模型与不变式（怎么理解）</td>\n</tr>\n<tr>\n<td>L3</td>\n<td>业务规则（什么算对）</td>\n</tr>\n<tr>\n<td>L4</td>\n<td>接口契约（前后端怎么对齐）</td>\n</tr>\n</tbody></table><hr/>\n<h3>3. L3 唯一真理：把「正确性」做成可验证</h3>\n<pre><code class=\"language-gherkin\">场景: 每日限额检查\n  假设 用户当天已调用 9 次\n  当 用户发起第 10 次请求\n  那么 返回 \"每日限额已达上限\"\n</code></pre>\n<p>AI 的工作从<code>写看起来对的代码</code>，变成<code>把规则跑通</code>。</p>\n<h3>4. 结构化移交单：把协作从聊天升级为指令</h3>\n<p>每次变更必须输出：</p>\n<ul>\n<li>改动意图</li>\n<li>影响范围（哪些模块/接口）</li>\n<li>具体变化（字段级）</li>\n</ul>\n<h2>结尾</h2>\n<p>AI 能帮你写 10 倍代码，也能帮你制造 10 倍<code>看起来合理的隐患</code>。</p>\n<p>你需要的不是更强的补全，而是更强的顶层设计：</p>\n<ul>\n<li><strong>真相可寻址</strong>（ Manifest ）</li>\n<li><strong>变更可追踪</strong>（版本化）</li>\n<li><strong>正确性可验证</strong>（ L3 规则）</li>\n<li><strong>协作可执行</strong>（移交单）</li>\n</ul>\n<blockquote>\n<p>简单项目可以靠感觉，复杂系统永远靠规约。</p>\n</blockquote>\n<hr/>\n<p><strong>你在 AI 编程中踩过什么坑？评论区聊聊 👇</strong></p>\n\n\t",
-          "author": "CrazyMark",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -620,6 +630,26 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
+          "link": "https://www.v2ex.com/t/1197438#reply8",
+          "pubDate": "2026-03-11T07:05:00.000Z",
+          "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
+          "author": "CHTuring",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "还是 cc 好用",
+          "link": "https://www.v2ex.com/t/1197512#reply5",
+          "pubDate": "2026-03-11T11:33:09.000Z",
+          "content": "\n\t试了 codex 很难受，一直问我确认吗，不理解我的需求。我主要拿来写代码，cc 的 sonnet 都能理解我的意思，完善代码，可惜最近限制的太厉害了，大佬们正价买的吗，中转的也很拉，下午给折腾很久用不了。\n\t",
+          "author": "iamtuzi3333",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "国产 coding plan 哪个最推荐？",
           "link": "https://www.v2ex.com/t/1197191#reply43",
           "pubDate": "2026-03-10T10:04:25.000Z",
@@ -640,21 +670,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
-          "link": "https://www.v2ex.com/t/1197438#reply7",
-          "pubDate": "2026-03-11T07:05:00.000Z",
-          "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
-          "author": "CHTuring",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "还是 cc 好用",
-          "link": "https://www.v2ex.com/t/1197512#reply4",
-          "pubDate": "2026-03-11T11:33:09.000Z",
-          "content": "\n\t试了 codex 很难受，一直问我确认吗，不理解我的需求。我主要拿来写代码，cc 的 sonnet 都能理解我的意思，完善代码，可惜最近限制的太厉害了，大佬们正价买的吗，中转的也很拉，下午给折腾很久用不了。\n\t",
-          "author": "iamtuzi3333",
+          "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
+          "link": "https://www.v2ex.com/t/1197498#reply10",
+          "pubDate": "2026-03-11T10:07:45.000Z",
+          "content": "\n\t<blockquote>\n<p>编程 Agent 会分析/解决问题，但不会积累经验。它们有印象，但没有笔记。RadioHeader 给 Claude Code 补上了这一层。</p>\n</blockquote>\n<hr/>\n<h2>先说个真事儿</h2>\n<p>我用 Claude Code 做 iOS 的时候，遇到过一次 app 启动白屏几十秒的问题。Claude 一路查日志、翻文件、试各种排查，折腾了很久都没定位到。最后还是我想起来，另一个项目以前也出过差不多的事，让它去翻那个项目的旧记录，才找到根因——Xcode 的 scheme 设置问题。</p>\n<p>那一刻我就很确定一件事：像 Claude Code 这样的编程 Agent ，分析问题、写代码都很强，但它们不会共享项目经验。后来 Claude Code 虽然也加了 memory ，但本质问题没变——它记得方向，记不住关键细节，更别说跨项目复用了。</p>\n<p>项目之间的记忆完全隔离，就意味着项目 A 踩过的坑，项目 B 根本不知道。如果我自己记得”我好像遇到过这个问题”，还能手动指路，要是我也忘了呢？</p>\n<p>现有的工具几乎都是在做\"规则\"层面的事。规则当然有用，但规则无很难达到“这个坑我真的踩过，而且已经知道怎么修\"这种程度。做硬件产品的时候我也经常遇到这类\"认知型经验\"——不是文档里写了你就会的，得自己撞上、解决了，才真正印象深刻。</p>\n<p>在没找到做编程 agent”经验\"层面的工具的情况下，我自己做了一个。</p>\n<hr/>\n<p>RadioHeader 不是一开始设计好的，是被真实问题一步步逼出来的。</p>\n<h2>第一步：让 Agent 学会记笔记</h2>\n<p>起点是单项目内的记忆缺失。Claude Code 在一个项目里工作久了，早期的经验就开始模糊。它记得\"之前遇到过类似问题\"，但记不住具体怎么解决的。</p>\n<p>换句话说：<strong>Agent 需要的是笔记，不是印象。</strong> 自带的 memory 记的是大致印象，而能被精确搜索到的结构化笔记才有复用价值。</p>\n<p>我的想法很朴素：让 Claude 每次解决完问题后，主动把经验记下来。具体分两种：一种是<strong>经验条目</strong>，写进 <code>memory/</code> 目录——根因、修法、注意事项，按主题组织，方便以后检索；另一种是<strong>任务日志</strong>，写进 <code>logs/</code> 目录——以一个问题的解决为单位，记录背景、过程、结论，保留完整上下文。日志的文件名经过设计：<code>日期-主题-撰写者</code>，Agent 和人类都要署名，标清楚方便追溯。起初我会在关键节点手动提醒 Claude\"同步一下项目信息\"，后来逐渐做成了自动化。</p>\n<p>我把这个机制叫<strong>经验回流</strong>——完成一个任务后，经验自动流回记忆系统。每次修完 bug 、做了架构决策、踩了非直觉的坑，Claude 都把经验写回去。用 Claude Code 的 hook 机制让这个过程自动：PostToolUse hook 在写入 memory 时触发检查，Stop hook 在会话结束时提醒有没有新经验遗漏。</p>\n<p>同一个项目里，以前要重新排查的问题，现在翻笔记就能解决。</p>\n<p>但很快就遇到了开头那个场景：项目 A 的笔记，项目 B 搜不到。</p>\n<h2>第二步：打通项目之间的壁垒</h2>\n<p>于是我在所有项目之上建了一个全局经验中枢：<code>~/.claude/radioheader/</code>。</p>\n<p>名字的由来——我喜欢 Radiohead 这个乐队，而这个全局中枢又像一个信号塔，各个项目需要的时候就从里面接收信息。RadioHeader ，就这么出现了。</p>\n<p>架构变成了三层：</p>\n<pre><code>┌─────────────────────────────────┐\n│  RadioHeader （全局经验中枢）      │  ← 所有项目共享\n├─────────────────────────────────┤\n│  项目 memory/（项目专属记忆）     │  ← 当前项目\n├─────────────────────────────────┤\n│  会话上下文（临时）               │  ← 当前对话\n└─────────────────────────────────┘\n</code></pre>\n<p>每次经验回流时，Claude 会顺手判断一下：这条经验是不是跨项目通用的？如果是，写入全局层，标注来源项目。之后任何项目遇到类似问题，先搜这里。有了 RadioHeader 这个信号塔的隐喻之后，我把经验回流叫做 <strong>Echo</strong>（回波）——经验像信号的回波一样，从项目返回信号塔。</p>\n<p>装了之后再遇到白屏问题：</p>\n<pre><code>你：App 启动白屏 10 秒以上\n\nClaude：RadioHeader 中有来自 ProjectA 的经验：\n        \"Xcode scheme 的 Launch 配置导致 iOS app 启动白屏，\n        检查 scheme 设置中的相关选项……\"\n\n        验证一下是否适用…… ✓ 同样的模式。正在应用修复。\n</code></pre>\n<p>不用我手动指路了。<strong>同一类问题从第二次开始，解决时间从分钟级掉到秒级。不是 AI 变聪明了，是答案已经在那里了。</strong></p>\n<h3>精炼：从项目经验到通用知识</h3>\n<p>跨项目共享之后冒出一个新问题：经验一旦放到全局以后，原始条目里保留的项目上下文太多，搜索噪音和 token 消耗都上来了。比如一条经验写着 <code>[来源:DarkWriting] iCloud I/O 阻塞主线程</code>，另一个项目用的是 CoreData 不是 iCloud——但根因相同。项目名和具体技术细节反而成了搜索障碍。</p>\n<p>于是我加了一层精炼：<strong>短波（ Shortwave ）</strong>——去掉项目名、文件路径、框架细节，只保留通用知识。这不光是为了降噪，也是为了保护隐私——经验条目在精炼之前可能包含项目路径、内部命名甚至 API key ，短波会把这些全部剥离。</p>\n<p>这样三层就接上了：经验先通过 <strong>Echo</strong> 回到 <strong>RadioHeader</strong>，再由 <strong>Shortwave</strong> 去掉项目噪音，变成可广播的通用知识。</p>\n<pre><code class=\"language-yaml\">---\nid: sw-ios-task-inherits-mainactor\ndomain: iOS, SwiftUI, Concurrency\ntags: 白屏 | 启动慢 | white screen | slow launch | 10s+ | Main Actor | Task\n---\n### Task {} 在 @MainActor 上下文中继承主线程，I/O 阻塞导致白屏\n\nsymptoms: 应用启动后 10s+ 白屏，首次加载卡死\ncause: Task {} 在 @MainActor 标记的上下文中创建时继承主线程\nfix: 使用 Task.detached(priority:) 将 I/O 操作移出主线程\n</code></pre>\n<p>注意 <code>tags</code> 里的\"白屏\"、\"启动慢\"、\"slow launch\"——这些是开发者实际会搜的词。如果只保留 \"Task.detached\" 这种解法关键词，这条经验就搜不到了。<strong>症状关键词比解法关键词重要得多。</strong> 经验条目删掉了症状词就等于不存在。</p>\n<h3>比搜不到更烦的，是搜到了也不用</h3>\n<p>到这里遇到了另一个让人头疼的问题：Claude 搜到了经验，但不用。</p>\n<p>早期我在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写：\"遇到技术问题时先搜索 RadioHeader\"。Claude 确实搜了，也找到了相关结果——然后完全忽略，直接跳进独立分析。就像你给新同事一本 wiki ，他打开看了一眼，还是选择自己摸索。</p>\n<p>后来搞明白了：<strong>行为指令比知识描述有效得多。</strong> 在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写\"这里有个东西可以查\"没用，得写\"你必须搜，搜到必须引用，禁止搜到不用\"才行。这两种写法在 Agent 系统中效果差很远。</p>\n<p>最终方案是\"<strong>搜→用→追</strong>\"三步强制规则：</p>\n<ol>\n<li><strong>搜</strong>：遇到技术问题，先搜 RadioHeader</li>\n<li><strong>用</strong>：搜到相关经验，必须引用并验证</li>\n<li><strong>追</strong>：需要更多细节，追溯到来源项目的 memory</li>\n</ol>\n<p>外加一句禁令：\"禁止搜到相关经验却不引用、不应用，直接跳过去做独立分析\"——这句话比前面三条都管用。</p>\n<h2>第三步：从个人记忆到社区共享</h2>\n<p>前两步解决了自己不重复踩坑的问题，但我的经验仍然是一座孤岛。我遇到的问题，世界上某个人在开发中一定早就有经验了；反过来，我踩过的坑可能也正好能帮到别人。</p>\n<p>能不能把精炼好的短波共享出去？难题不在技术，在质量治理——不能什么都往池子里丢，但我一个人也做不了人工审核。</p>\n<p>当时我想到试试从生物学里找找灵感，结果还真找到了一个概念——Stigmergy （痕迹协作）。这是蚁群行为学里的东西：蚂蚁在路径上留信息素，走的越多越浓，没蚂蚁走的自然蒸发。不需要谁来管理，好路径自己就显现出来了。</p>\n<p>用这个思路做知识共享的质量治理：</p>\n<ul>\n<li><strong>自动投票</strong>：Claude 用了社区短波解决问题后，自动判断这条经验是不是真帮上忙了，+1 或 -1</li>\n<li><strong>时间衰减</strong>：分数随时间下降（半衰期约 125 天），过时的经验自然淘汰（需要验证一下效果）</li>\n<li><strong>每周清洗</strong>：GitHub Actions 聚合投票，高分标记 <code>verified</code>，低分归档</li>\n</ul>\n<p>发布也有门槛——质量评分（≥6/8 ）、隐私扫描（确保没泄露路径和密钥）、去重检查。不需要管理员，好经验自己浮上来，差经验自己沉下去。</p>\n<h2>目前的状态</h2>\n<p>我不是做完一个 demo 就拿出来讲故事，这套东西已经在我自己手里滚了几个月。13 个项目，覆盖 iOS/SwiftUI 、Rust 、后端部署、网络代理、AI API 、Claude Code 、硬件产品 7 个技术领域。205 条原始经验，120 条精炼短波，114 条发布到社区池。（截止发稿时）</p>\n<h2>试试看</h2>\n<p>不用先研究完整设计，找一个你最近最常重复踩坑的项目，装上跑一周就知道它有没有用。</p>\n<pre><code class=\"language-bash\">git clone https://github.com/ZaptainZ/radioheader.git\ncd radioheader\n./install.sh\n</code></pre>\n<p>之后在任何项目中启动 Claude Code 就生效了。</p>\n<pre><code class=\"language-bash\"># 开启社区共享\nradioheader community on\nradioheader sync\n</code></pre>\n<p>GitHub：<a href=\"https://github.com/ZaptainZ/radioheader\" rel=\"nofollow\">ZaptainZ/radioheader</a></p>\n<hr/>\n<p>RadioHeader 还在继续打磨，但它已经在我自己的真实项目里跑出价值了，所以我把它公开出来。开源社区帮了我很多，这次也算把自己真用出来的一套东西拿出来回馈。</p>\n<p>MIT 协议。你要是也受不了重复踩坑，直接装上试试。有用欢迎 star ，没用也欢迎来 issue 吐槽。</p>\n\n\t",
+          "author": "Zaptain",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -715,16 +735,6 @@
           "pubDate": "2026-03-11T12:08:27.000Z",
           "content": "\n\t<p>除了自家的模型，还能用哪家的？</p>\n\n\t",
           "author": "tina2998",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
-          "link": "https://www.v2ex.com/t/1197498#reply9",
-          "pubDate": "2026-03-11T10:07:45.000Z",
-          "content": "\n\t<blockquote>\n<p>编程 Agent 会分析/解决问题，但不会积累经验。它们有印象，但没有笔记。RadioHeader 给 Claude Code 补上了这一层。</p>\n</blockquote>\n<hr/>\n<h2>先说个真事儿</h2>\n<p>我用 Claude Code 做 iOS 的时候，遇到过一次 app 启动白屏几十秒的问题。Claude 一路查日志、翻文件、试各种排查，折腾了很久都没定位到。最后还是我想起来，另一个项目以前也出过差不多的事，让它去翻那个项目的旧记录，才找到根因——Xcode 的 scheme 设置问题。</p>\n<p>那一刻我就很确定一件事：像 Claude Code 这样的编程 Agent ，分析问题、写代码都很强，但它们不会共享项目经验。后来 Claude Code 虽然也加了 memory ，但本质问题没变——它记得方向，记不住关键细节，更别说跨项目复用了。</p>\n<p>项目之间的记忆完全隔离，就意味着项目 A 踩过的坑，项目 B 根本不知道。如果我自己记得”我好像遇到过这个问题”，还能手动指路，要是我也忘了呢？</p>\n<p>现有的工具几乎都是在做\"规则\"层面的事。规则当然有用，但规则无很难达到“这个坑我真的踩过，而且已经知道怎么修\"这种程度。做硬件产品的时候我也经常遇到这类\"认知型经验\"——不是文档里写了你就会的，得自己撞上、解决了，才真正印象深刻。</p>\n<p>在没找到做编程 agent”经验\"层面的工具的情况下，我自己做了一个。</p>\n<hr/>\n<p>RadioHeader 不是一开始设计好的，是被真实问题一步步逼出来的。</p>\n<h2>第一步：让 Agent 学会记笔记</h2>\n<p>起点是单项目内的记忆缺失。Claude Code 在一个项目里工作久了，早期的经验就开始模糊。它记得\"之前遇到过类似问题\"，但记不住具体怎么解决的。</p>\n<p>换句话说：<strong>Agent 需要的是笔记，不是印象。</strong> 自带的 memory 记的是大致印象，而能被精确搜索到的结构化笔记才有复用价值。</p>\n<p>我的想法很朴素：让 Claude 每次解决完问题后，主动把经验记下来。具体分两种：一种是<strong>经验条目</strong>，写进 <code>memory/</code> 目录——根因、修法、注意事项，按主题组织，方便以后检索；另一种是<strong>任务日志</strong>，写进 <code>logs/</code> 目录——以一个问题的解决为单位，记录背景、过程、结论，保留完整上下文。日志的文件名经过设计：<code>日期-主题-撰写者</code>，Agent 和人类都要署名，标清楚方便追溯。起初我会在关键节点手动提醒 Claude\"同步一下项目信息\"，后来逐渐做成了自动化。</p>\n<p>我把这个机制叫<strong>经验回流</strong>——完成一个任务后，经验自动流回记忆系统。每次修完 bug 、做了架构决策、踩了非直觉的坑，Claude 都把经验写回去。用 Claude Code 的 hook 机制让这个过程自动：PostToolUse hook 在写入 memory 时触发检查，Stop hook 在会话结束时提醒有没有新经验遗漏。</p>\n<p>同一个项目里，以前要重新排查的问题，现在翻笔记就能解决。</p>\n<p>但很快就遇到了开头那个场景：项目 A 的笔记，项目 B 搜不到。</p>\n<h2>第二步：打通项目之间的壁垒</h2>\n<p>于是我在所有项目之上建了一个全局经验中枢：<code>~/.claude/radioheader/</code>。</p>\n<p>名字的由来——我喜欢 Radiohead 这个乐队，而这个全局中枢又像一个信号塔，各个项目需要的时候就从里面接收信息。RadioHeader ，就这么出现了。</p>\n<p>架构变成了三层：</p>\n<pre><code>┌─────────────────────────────────┐\n│  RadioHeader （全局经验中枢）      │  ← 所有项目共享\n├─────────────────────────────────┤\n│  项目 memory/（项目专属记忆）     │  ← 当前项目\n├─────────────────────────────────┤\n│  会话上下文（临时）               │  ← 当前对话\n└─────────────────────────────────┘\n</code></pre>\n<p>每次经验回流时，Claude 会顺手判断一下：这条经验是不是跨项目通用的？如果是，写入全局层，标注来源项目。之后任何项目遇到类似问题，先搜这里。有了 RadioHeader 这个信号塔的隐喻之后，我把经验回流叫做 <strong>Echo</strong>（回波）——经验像信号的回波一样，从项目返回信号塔。</p>\n<p>装了之后再遇到白屏问题：</p>\n<pre><code>你：App 启动白屏 10 秒以上\n\nClaude：RadioHeader 中有来自 ProjectA 的经验：\n        \"Xcode scheme 的 Launch 配置导致 iOS app 启动白屏，\n        检查 scheme 设置中的相关选项……\"\n\n        验证一下是否适用…… ✓ 同样的模式。正在应用修复。\n</code></pre>\n<p>不用我手动指路了。<strong>同一类问题从第二次开始，解决时间从分钟级掉到秒级。不是 AI 变聪明了，是答案已经在那里了。</strong></p>\n<h3>精炼：从项目经验到通用知识</h3>\n<p>跨项目共享之后冒出一个新问题：经验一旦放到全局以后，原始条目里保留的项目上下文太多，搜索噪音和 token 消耗都上来了。比如一条经验写着 <code>[来源:DarkWriting] iCloud I/O 阻塞主线程</code>，另一个项目用的是 CoreData 不是 iCloud——但根因相同。项目名和具体技术细节反而成了搜索障碍。</p>\n<p>于是我加了一层精炼：<strong>短波（ Shortwave ）</strong>——去掉项目名、文件路径、框架细节，只保留通用知识。这不光是为了降噪，也是为了保护隐私——经验条目在精炼之前可能包含项目路径、内部命名甚至 API key ，短波会把这些全部剥离。</p>\n<p>这样三层就接上了：经验先通过 <strong>Echo</strong> 回到 <strong>RadioHeader</strong>，再由 <strong>Shortwave</strong> 去掉项目噪音，变成可广播的通用知识。</p>\n<pre><code class=\"language-yaml\">---\nid: sw-ios-task-inherits-mainactor\ndomain: iOS, SwiftUI, Concurrency\ntags: 白屏 | 启动慢 | white screen | slow launch | 10s+ | Main Actor | Task\n---\n### Task {} 在 @MainActor 上下文中继承主线程，I/O 阻塞导致白屏\n\nsymptoms: 应用启动后 10s+ 白屏，首次加载卡死\ncause: Task {} 在 @MainActor 标记的上下文中创建时继承主线程\nfix: 使用 Task.detached(priority:) 将 I/O 操作移出主线程\n</code></pre>\n<p>注意 <code>tags</code> 里的\"白屏\"、\"启动慢\"、\"slow launch\"——这些是开发者实际会搜的词。如果只保留 \"Task.detached\" 这种解法关键词，这条经验就搜不到了。<strong>症状关键词比解法关键词重要得多。</strong> 经验条目删掉了症状词就等于不存在。</p>\n<h3>比搜不到更烦的，是搜到了也不用</h3>\n<p>到这里遇到了另一个让人头疼的问题：Claude 搜到了经验，但不用。</p>\n<p>早期我在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写：\"遇到技术问题时先搜索 RadioHeader\"。Claude 确实搜了，也找到了相关结果——然后完全忽略，直接跳进独立分析。就像你给新同事一本 wiki ，他打开看了一眼，还是选择自己摸索。</p>\n<p>后来搞明白了：<strong>行为指令比知识描述有效得多。</strong> 在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写\"这里有个东西可以查\"没用，得写\"你必须搜，搜到必须引用，禁止搜到不用\"才行。这两种写法在 Agent 系统中效果差很远。</p>\n<p>最终方案是\"<strong>搜→用→追</strong>\"三步强制规则：</p>\n<ol>\n<li><strong>搜</strong>：遇到技术问题，先搜 RadioHeader</li>\n<li><strong>用</strong>：搜到相关经验，必须引用并验证</li>\n<li><strong>追</strong>：需要更多细节，追溯到来源项目的 memory</li>\n</ol>\n<p>外加一句禁令：\"禁止搜到相关经验却不引用、不应用，直接跳过去做独立分析\"——这句话比前面三条都管用。</p>\n<h2>第三步：从个人记忆到社区共享</h2>\n<p>前两步解决了自己不重复踩坑的问题，但我的经验仍然是一座孤岛。我遇到的问题，世界上某个人在开发中一定早就有经验了；反过来，我踩过的坑可能也正好能帮到别人。</p>\n<p>能不能把精炼好的短波共享出去？难题不在技术，在质量治理——不能什么都往池子里丢，但我一个人也做不了人工审核。</p>\n<p>当时我想到试试从生物学里找找灵感，结果还真找到了一个概念——Stigmergy （痕迹协作）。这是蚁群行为学里的东西：蚂蚁在路径上留信息素，走的越多越浓，没蚂蚁走的自然蒸发。不需要谁来管理，好路径自己就显现出来了。</p>\n<p>用这个思路做知识共享的质量治理：</p>\n<ul>\n<li><strong>自动投票</strong>：Claude 用了社区短波解决问题后，自动判断这条经验是不是真帮上忙了，+1 或 -1</li>\n<li><strong>时间衰减</strong>：分数随时间下降（半衰期约 125 天），过时的经验自然淘汰（需要验证一下效果）</li>\n<li><strong>每周清洗</strong>：GitHub Actions 聚合投票，高分标记 <code>verified</code>，低分归档</li>\n</ul>\n<p>发布也有门槛——质量评分（≥6/8 ）、隐私扫描（确保没泄露路径和密钥）、去重检查。不需要管理员，好经验自己浮上来，差经验自己沉下去。</p>\n<h2>目前的状态</h2>\n<p>我不是做完一个 demo 就拿出来讲故事，这套东西已经在我自己手里滚了几个月。13 个项目，覆盖 iOS/SwiftUI 、Rust 、后端部署、网络代理、AI API 、Claude Code 、硬件产品 7 个技术领域。205 条原始经验，120 条精炼短波，114 条发布到社区池。（截止发稿时）</p>\n<h2>试试看</h2>\n<p>不用先研究完整设计，找一个你最近最常重复踩坑的项目，装上跑一周就知道它有没有用。</p>\n<pre><code class=\"language-bash\">git clone https://github.com/ZaptainZ/radioheader.git\ncd radioheader\n./install.sh\n</code></pre>\n<p>之后在任何项目中启动 Claude Code 就生效了。</p>\n<pre><code class=\"language-bash\"># 开启社区共享\nradioheader community on\nradioheader sync\n</code></pre>\n<p>GitHub：<a href=\"https://github.com/ZaptainZ/radioheader\" rel=\"nofollow\">ZaptainZ/radioheader</a></p>\n<hr/>\n<p>RadioHeader 还在继续打磨，但它已经在我自己的真实项目里跑出价值了，所以我把它公开出来。开源社区帮了我很多，这次也算把自己真用出来的一套东西拿出来回馈。</p>\n<p>MIT 协议。你要是也受不了重复踩坑，直接装上试试。有用欢迎 star ，没用也欢迎来 issue 吐槽。</p>\n\n\t",
-          "author": "Zaptain",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -798,44 +808,14 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
-          "link": "https://www.v2ex.com/t/1197297#reply18",
-          "pubDate": "2026-03-11T01:42:22.000Z",
-          "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
-          "author": "kssss",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T11:26:47.429Z",
+      "lastUpdated": "2026-03-12T12:38:07.003Z",
       "items": [
-        {
-          "title": "跨界研究成功的科学家",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525280",
-          "pubDate": "2026-03-11 07:37:45",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "偏憎杨柳难钤辖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525286",
-          "pubDate": "2026-03-11 08:28:18",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "科学史中的教训：第七章 几何的独裁：非欧几何的地下流传",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525348",
@@ -847,9 +827,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "海棠初开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
-          "pubDate": "2026-03-11 07:04:21",
+          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
+          "pubDate": "2026-03-11 03:05:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -857,9 +837,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
-          "pubDate": "2026-03-11 03:05:00",
+          "title": "海棠初开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
+          "pubDate": "2026-03-11 07:04:21",
           "content": "",
           "author": "",
           "categories": [],
@@ -977,26 +957,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "AI时代，为什么我们还要沉浸式读书、办线下读书会、读中华经典？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525282",
-          "pubDate": "2026-03-11 08:13:08",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "当AI开始替代人类：高学历高收入反而最危险？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525283",
-          "pubDate": "2026-03-11 08:16:24",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "II型糖尿病：从“终身伴随”到“力争逆转”",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525331",
           "pubDate": "2026-03-11 12:22:48",
@@ -1015,431 +975,81 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "植树节",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525349",
+          "pubDate": "2026-03-11 03:01:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "心理能量：批评的代价与表扬的魅力",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=485553&do=blog&id=1525377",
+          "pubDate": "2026-03-11 04:49:03",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "从人形机器人到具身智能的科技研发和哲学思考",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=57940&do=blog&id=1525419",
+          "pubDate": "2026-03-11 09:37:22",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "[打听，科普，数学] 素数（7）：素数间隙 prime gap 之一",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525421",
+          "pubDate": "2026-03-11 11:01:10",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T11:26:49.648Z",
-      "items": [
-        {
-          "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
-          "link": "https://book.douban.com/review/17482223/",
-          "pubDate": "Sat, 28 Feb 2026 07:42:38 GMT",
-          "content": "\n理想国imaginist评论: 好猫八不 (https://book.douban.com/subject/38192710/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;avq0v&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
-          "link": "https://book.douban.com/review/17489486/",
-          "pubDate": "Thu, 05 Mar 2026 03:16:28 GMT",
-          "content": "\n东来评论: 她和她的决心 (https://book.douban.com/subject/38178826/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2pje1&#34;,&#34;text&#34;:&#34;  此篇为这本小说集的后记&#34;,&#34;type&#34;:&#34;blockquote&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;1enh...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "她如何写作“学界小说”？｜专访苏枕书 (评论: 玲珑塔)",
-          "link": "https://book.douban.com/review/17489594/",
-          "pubDate": "Thu, 05 Mar 2026 04:36:20 GMT",
-          "content": "\n新京报书评周刊评论: 玲珑塔 (https://book.douban.com/subject/37129110/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;abntc&#34;,&#34;text&#34;:&#34;学界日常，一直是我们关注的话题。关于高校生活学术、职场、情感与精神困境，我们都不乏讨论。在文学创作中，“学界小说”聚焦的正是高校教师这个群体：大名鼎鼎的《普宁》，近年出版的《斯通纳》等——均以高校教...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "我的译后记 (评论: 观鸟大年)",
-          "link": "https://book.douban.com/review/17487509/",
-          "pubDate": "Tue, 03 Mar 2026 13:54:54 GMT",
-          "content": "\n仙境兔子不忘记评论: 观鸟大年 (https://book.douban.com/subject/37524361/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;eu2kp&#34;,&#34;text&#34;:&#34;我是因为爱上观鸟，才翻译了《观鸟大年》；但这毫无疑问，是 一本“人”书。 &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "关于抄袭，知道你们会看到，不如摊开讲 (评论: 秋园)",
-          "link": "https://book.douban.com/review/17483415/",
-          "pubDate": "Sun, 01 Mar 2026 01:02:24 GMT",
-          "content": "\n子文东评论: 秋园 (https://book.douban.com/subject/34998019/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e72d&#34;,&#34;text&#34;:&#34;很多人似乎误以为章红不仅是杨本芬的女儿，也是她的编辑，但其实不是。章红的职业是编辑（《少年文艺》主编），但杨本芬几本书的出版方编辑另有其人。章红是把她妈的手稿整理成电子稿提供给出版方...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "感慨一下读博的timing (评论: 我看见的世界)",
-          "link": "https://book.douban.com/review/17484888/",
-          "pubDate": "Sun, 01 Mar 2026 17:03:54 GMT",
-          "content": "\nSophie  Z评论: 我看见的世界 (https://book.douban.com/subject/36672955/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4ec5\\u8ba8\\u8bba\\u4e00\\u4e2a\\u8...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "一些散乱的记忆以及由此引出的想法 (评论: 近代中国史学述论)",
-          "link": "https://book.douban.com/review/17489704/",
-          "pubDate": "Thu, 05 Mar 2026 06:13:47 GMT",
-          "content": "\n总体向好没有变评论: 近代中国史学述论 (https://book.douban.com/subject/37508270/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;kjnc&#34;,&#34;text&#34;:&#34;罗大师的这本书中，对我影响最大、也是我阅读次数最多的文章是《 往昔非我：训诂、翻译与历史文本解读 》。大概是2009年的秋天，罗大师在川大就讲过这篇文章，当时还给去听讲的所有人印发了此文的初稿（至今这一初稿还在我的文件夹里），大概大师...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "以赛亚·伯林与托尔斯泰：二十世纪知识人命运的两种抉择 (评论: 刺猬与狐狸)",
-          "link": "https://book.douban.com/review/17488217/",
-          "pubDate": "Wed, 04 Mar 2026 04:17:38 GMT",
-          "content": "\n新京报书评周刊评论: 刺猬与狐狸 (https://book.douban.com/subject/37229994/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e79i5&#34;,&#34;text&#34;:&#34;“狐狸多知，而刺猬有一大知。”&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;align&#34;:&#34;&#34;,&#34;pa...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "奇想故事的制作方法——华东师范大学推协暨岛田庄司主题刊《LONELY MEN》各篇目简评（无泄底） (评论: LONELY MEN)",
-          "link": "https://book.douban.com/review/17480711/",
-          "pubDate": "Fri, 27 Feb 2026 11:24:31 GMT",
-          "content": "\n幼稚园的小黑评论: LONELY MEN (https://book.douban.com/subject/37651795/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5404\\u4f4d\\u53cb\\u90bb\\u8001\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "关于帕拉第奥的相关内容整理 (评论: 人文主义时代的建筑原理)",
-          "link": "https://book.douban.com/review/17489981/",
-          "pubDate": "Thu, 05 Mar 2026 09:34:55 GMT",
-          "content": "\n绿洲评论: 人文主义时代的建筑原理 (https://book.douban.com/subject/26693244/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;a9ks3&#34;,&#34;text&#34;:&#34;安德烈亚·帕拉第奥（Andrea Palladio， 1508-1580）原名安德烈亚·迪·皮耶罗（A...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
-          "link": "https://book.douban.com/review/17494559/",
-          "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
-          "content": "\n项平评论: Overfitting and Heuristics in Philosophy (https://book.douban.com/subject/36884467/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;4roe7&#34;,&#34;text&#34;:&#34;作者：ChatGPT、Gemini、Grok&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;i...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "翻译｜关于对上帝之爱的无序思考｜薇依 (评论: Pensées sans ordre concernant l'amour de dieu)",
-          "link": "https://book.douban.com/review/17490683/",
-          "pubDate": "Thu, 05 Mar 2026 19:37:09 GMT",
-          "content": "\n静谧形态琳琅评论: Pensées sans ordre concernant l&#39;amour de dieu (https://book.douban.com/subject/30333886/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u76ee\\u5f55&#34;, &#34;entityRanges&#34;: []...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "被裁剪的故事 (评论: 木兰无名，缇萦无踪)",
-          "link": "https://book.douban.com/review/17495587/",
-          "pubDate": "Sun, 08 Mar 2026 21:19:42 GMT",
-          "content": "\n锦翼评论: 木兰无名，缇萦无踪 (https://book.douban.com/subject/37119331/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;977ia&#34;,&#34;text&#34;:&#34;如果木兰不是传说，而是一个真实活过的女孩子，她会是什么下场？《清稗类钞》里就记载了这样一位女性——姑且称她“陈木兰”。她幼年失怙，女扮男装混入军营，从伙夫做起，因作战勇猛，一路升至统领五营的记名提督。然而，当她与下属相...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "“在混沌岁月，贝壳常常引领我们发现真理” (评论: 影响人类文明的13种贝壳)",
-          "link": "https://book.douban.com/review/17498602/",
-          "pubDate": "Wed, 11 Mar 2026 02:47:57 GMT",
-          "content": "\n商务印书馆评论: 影响人类文明的13种贝壳 (https://book.douban.com/subject/38179569/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;a5o5c&#34;,&#34;text&#34;:&#34;  &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "简单总结8条变富的经验 (评论: 金钱心理学)",
-          "link": "https://book.douban.com/review/17488626/",
-          "pubDate": "Wed, 04 Mar 2026 09:37:19 GMT",
-          "content": "\nRiesling要退休评论: 金钱心理学 (https://book.douban.com/subject/36415996/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;1.\\u65f6\\u95f4\\u81ea\\u7531\\u662f\\...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "这是一本写了三年，历经十八个版本，写到我精神崩溃数次的书。祝它基本健康，希望大家能喜欢。 (评论: 明夜，谁将留存于这具身体)",
-          "link": "https://book.douban.com/review/17486687/",
-          "pubDate": "Tue, 03 Mar 2026 02:26:37 GMT",
-          "content": "\n乌拉拉评论: 明夜，谁将留存于这具身体 (https://book.douban.com/subject/37431538/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6ks6f&#34;,&#34;text&#34;:&#34;动笔写这本书的时候，还是2022年春天。那时候完全没有想到一本书会整整写了三年时间。\\n我从来就是一个狂妄的人，但即使以我之狂妄，动笔的时候我也不敢承认这本书的目标。\\n这本书的目标是创造一个世界。\\n自从“科幻”这种类型诞生以来，诞生过很多优秀的作品，...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
-          "link": "https://book.douban.com/review/17490921/",
-          "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
-          "content": "\n新经典评论: 马孔多在下雨 (https://book.douban.com/subject/36946790/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fmjqs&#34;,&#34;text&#34;:&#34;在加西亚·马尔克斯书中，天气预报员算不算地狱难度的职业？这里——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlin...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "悲伤都将是暂时的......吗？ (评论: 成长的迷思)",
-          "link": "https://book.douban.com/review/17497231/",
-          "pubDate": "Tue, 10 Mar 2026 02:36:41 GMT",
-          "content": "\n新星出版社评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;p4df&#34;,&#34;text&#34;:&#34;这两年，“爱老己”成了热门词。打开各类社交媒体，满屏都是“把自己重新养一遍”、“对自己好一点”、“要学会爱自己”。&#34;,&#34;type...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "成为顶级“P人”指南 (评论: 小实验)",
-          "link": "https://book.douban.com/review/17493567/",
-          "pubDate": "Sat, 07 Mar 2026 15:43:59 GMT",
-          "content": "\n怒海枯涛评论: 小实验 (https://book.douban.com/subject/38219474/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u521a\\u8bfb\\u5b8c\\u8fd9\\...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "读懂四大名著，就读懂了人生：万事万物，终是虚无！ (评论: 四大名著（全四册）)",
-          "link": "https://book.douban.com/review/17490907/",
-          "pubDate": "Fri, 06 Mar 2026 03:03:30 GMT",
-          "content": "\n中原一点红评论: 四大名著（全四册） (https://book.douban.com/subject/1181277/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6709\\u4eba\\u7a77\\u5c3d\\u4e00\\u7...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        }
-      ]
+      "error": "Status code 403",
+      "lastUpdated": "2026-03-12T12:38:08.691Z",
+      "items": []
     },
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T11:26:52.530Z",
-      "items": [
-        {
-          "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
-          "link": "https://movie.douban.com/review/17498310/",
-          "pubDate": "Tue, 10 Mar 2026 16:20:38 GMT",
-          "content": "\n李秋天评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "让真诚的叙事回归长剧 (评论: 逐玉)",
-          "link": "https://movie.douban.com/review/17499944/",
-          "pubDate": "Thu, 12 Mar 2026 03:03:35 GMT",
-          "content": "\nlalalalala评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u597d\\u50cf\\u662f\\u4ece201...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
-          "link": "https://movie.douban.com/review/17500172/",
-          "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
-          "content": "\nGrace.Zhang评论: 生命树 (https://movie.douban.com/subject/35424715/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "观感 (评论: 大明王朝1566)",
-          "link": "https://movie.douban.com/review/17500032/",
-          "pubDate": "Thu, 12 Mar 2026 04:37:21 GMT",
-          "content": "\n硅谷龍叔评论: 大明王朝1566 (https://movie.douban.com/subject/2210001/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u89c2\\u300a\\u5927\\u660e\\u738b\\u6...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "绿里奇迹 (评论: 绿里奇迹)",
-          "link": "https://movie.douban.com/review/17499116/",
-          "pubDate": "Wed, 11 Mar 2026 10:26:22 GMT",
-          "content": "\n疯狂的Max评论: 绿里奇迹 (https://movie.douban.com/subject/1300374/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "结婚了，然后呢 (评论: 爱的证明)",
-          "link": "https://movie.douban.com/review/17500101/",
-          "pubDate": "Thu, 12 Mar 2026 05:46:42 GMT",
-          "content": "\n落木Lin评论: 爱的证明 (https://movie.douban.com/subject/36919136/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "父权制度就像空气，而我是那个对空气过敏的人 (评论: 非穷尽列举)",
-          "link": "https://movie.douban.com/review/17499057/",
-          "pubDate": "Wed, 11 Mar 2026 09:26:52 GMT",
-          "content": "\n岸上的鱼评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;d6e6v&#34;,&#34;text&#34;:&#34;电影开篇的第一句话：“这该死的父权制度”基本上贯穿整部电影以及所有角色和剧情塑造。“这该死的父权制度。”&#34;,&#34;type&#34;:&#34;unstyled&#34;...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "长剧完蛋了 (评论: 逐玉)",
-          "link": "https://movie.douban.com/review/17492150/",
-          "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
-          "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "不能只有我们在觉醒 (评论: 非穷尽列举)",
-          "link": "https://movie.douban.com/review/17499222/",
-          "pubDate": "Wed, 11 Mar 2026 12:15:08 GMT",
-          "content": "\n下雨即破碎评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5148\\u4e0b\\u7ed3\\u8bba\\uff0c\\u6...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "10分纪录片 (评论: 施图茨的疗愈之道)",
-          "link": "https://movie.douban.com/review/17500354/",
-          "pubDate": "Thu, 12 Mar 2026 09:12:37 GMT",
-          "content": "\n福尔马林斯沙明评论: 施图茨的疗愈之道 (https://movie.douban.com/subject/36075748/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;10\\u5206\\u3002\\u800c\\u4e14\\u76f8\\...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "铁链和疯狗|无剧透版影评 (评论: 呼啸山庄)",
-          "link": "https://movie.douban.com/review/17499732/",
-          "pubDate": "Wed, 11 Mar 2026 19:35:03 GMT",
-          "content": "\n沉静如海评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;69oq8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRange...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《呼啸山庄》：如影随形的爱与死亡 (评论: 呼啸山庄)",
-          "link": "https://movie.douban.com/review/17495913/",
-          "pubDate": "Mon, 09 Mar 2026 04:22:51 GMT",
-          "content": "\nEnlightening评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;f2fb8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;da...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "再过几天，这“骗子”会成为新一届奥斯卡影帝么？ (评论: 至尊马蒂)",
-          "link": "https://movie.douban.com/review/17499202/",
-          "pubDate": "Wed, 11 Mar 2026 11:57:55 GMT",
-          "content": "\n浑沌不开窍评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;cj0a7&#34;,&#34;text&#34;:&#34;“盖茨比信仰那盏绿灯，那绿灯正像高潮欢快的未来，在我们眼前一年年退去。它现在躲开了我们，但没关系，明天我们会跑得更快，把手臂伸得更长...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "Steve又成男妈妈了 (评论: 绿液惊魂)",
-          "link": "https://movie.douban.com/review/17497800/",
-          "pubDate": "Tue, 10 Mar 2026 11:09:50 GMT",
-          "content": "\n禾木评论: 绿液惊魂 (https://movie.douban.com/subject/34968393/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "海贼王真人剧第二季第一集S2E01 (评论: 海贼王(真人版) 第二季)",
-          "link": "https://movie.douban.com/review/17499123/",
-          "pubDate": "Wed, 11 Mar 2026 10:31:23 GMT",
-          "content": "\n番茄炒肉评论: 海贼王(真人版) 第二季 (https://movie.douban.com/subject/36559697/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u76ee\\u524d\\u770b\\u5230\\u7b2c\\u4...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "国人应该看的一部好剧 (评论: 反人类暴行)",
-          "link": "https://movie.douban.com/review/17499542/",
-          "pubDate": "Wed, 11 Mar 2026 15:25:30 GMT",
-          "content": "\n似懂freedom评论: 反人类暴行 (https://movie.douban.com/subject/37033221/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u9760\\uff0c\\u611f\\u89c9\\u4...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "永远会被群像打动！《奇迹梦之队》诠释什么是最燃逆袭 (评论: 奇迹梦之队)",
-          "link": "https://movie.douban.com/review/17496573/",
-          "pubDate": "Mon, 09 Mar 2026 13:05:48 GMT",
-          "content": "\n影评人 杉姐评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aob5a&#34;,&#34;text&#34;:&#34;文：杉姐&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
-          "link": "https://movie.douban.com/review/17497400/",
-          "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
-          "content": "\n发条辰评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3b6ut&#34;,&#34;text&#34;:&#34;时隔3年，吴炜伦导演携新作《夜王》再次回归香港春节档。此次《夜王》除了维持《毒舌律师》的基本班底外，主演加入了吴炜伦儿时的偶像郑秀文，编剧团队加入了获多次金像奖最佳编剧提名的何妙祺，主演阵容引入吴炜伦儿时偶像郑秀文，编剧团...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "谈论死亡 (评论: 极度寒冷)",
-          "link": "https://movie.douban.com/review/17497334/",
-          "pubDate": "Tue, 10 Mar 2026 04:02:06 GMT",
-          "content": "\n一條评论: 极度寒冷 (https://movie.douban.com/subject/1316499/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.dou...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        }
-      ]
+      "error": "Status code 403",
+      "lastUpdated": "2026-03-12T12:38:10.468Z",
+      "items": []
     },
     {
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T11:26:53.660Z",
+      "lastUpdated": "2026-03-12T12:38:11.385Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T11:26:53.768Z",
+      "lastUpdated": "2026-03-12T12:38:11.545Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T11:26:54.384Z",
+      "lastUpdated": "2026-03-12T12:38:12.230Z",
       "items": [
         {
           "title": "无题",
