@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-03-12T14:45:30.294Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-12T15:50:28.952Z",
+  "totalItems": 103,
   "items": [
+    {
+      "title": "新手机到手就把 AI 所有的功能都关了",
+      "link": "https://www.v2ex.com/t/1197854#reply0",
+      "pubDate": "2026-03-12T15:07:57.000Z",
+      "content": "\n\t倒不是说不好用，只是国内厂商什么德行懂得都懂，你用了 AI 功能就给出了所有的隐私，太膈应\n\t",
+      "author": "seers",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "开源了一个 OpenClaw 运维工具",
+      "link": "https://www.v2ex.com/t/1197851#reply0",
+      "pubDate": "2026-03-12T14:48:55.000Z",
+      "content": "\n\t<p>开源了一个 OpenClaw\n运维工具，让安装配置从「折腾半天」变成「 3 条命令搞定」。</p>\n<pre><code> 痛点大家都懂：\n - Node.js 版本不对装不上\n - 配置文件改来改去\n - 插件装完不知道安不安全\n - 服务跑没跑起来全靠猜\n\n simple-openclaw 解决了这些问题：\n\n ✅ 一键安装 — 自动装 Node.js 、构建工具、OpenClaw\n ✅ 交互式向导 — dialog 界面，选选填填就配好了\n ✅ 支持国内中转 API — 直接配 base-url 就能用\n ✅ 插件安全扫描 — 扫源码找 eval 、挖矿代码、环境变量窃取\n ✅ 安全审计 + 一键加固 — 文件权限、密钥泄露、网络暴露全检查\n ✅ 完整备份/恢复/回滚\n\n 3 条命令开始用：\n\n git clone https://github.com/majiajue/simple-openclaw.git\n cd simple-openclaw\n ./bin/simple-openclaw setup\n\n 纯 Bash 实现，零依赖，Linux/macOS 通用。\n\n GitHub： https://github.com/majiajue/simple-openclaw\n\n 觉得有用请 star ⭐，也欢迎提 PR ！\n</code></pre>\n\n\t",
+      "author": "gymayong",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "文本加密工具“与熊论道”算法已被成功逆向破解",
       "link": "https://www.v2ex.com/t/1197847#reply0",
@@ -14,7 +34,7 @@
     },
     {
       "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
-      "link": "https://www.v2ex.com/t/1197841#reply7",
+      "link": "https://www.v2ex.com/t/1197841#reply10",
       "pubDate": "2026-03-12T14:01:51.000Z",
       "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
       "author": "finiking",
@@ -94,7 +114,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply14",
+      "link": "https://www.v2ex.com/t/1197790#reply15",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -104,23 +124,13 @@
     },
     {
       "title": "前端去学习 golang 跨度成本大吗？",
-      "link": "https://www.v2ex.com/t/1197788#reply26",
+      "link": "https://www.v2ex.com/t/1197788#reply31",
       "pubDate": "2026-03-12T09:15:17.000Z",
       "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
       "author": "mumuwen",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "10分纪录片 (评论: 施图茨的疗愈之道)",
-      "link": "https://movie.douban.com/review/17500354/",
-      "pubDate": "Thu, 12 Mar 2026 09:12:37 GMT",
-      "content": "\n福尔马林斯沙明评论: 施图茨的疗愈之道 (https://movie.douban.com/subject/36075748/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;10\\u5206\\u3002\\u800c\\u4e14\\u76f8\\...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "视尔如荍，贻我握椒",
@@ -178,7 +188,7 @@
     },
     {
       "title": "国内， claude code 有什么性价比高稳定的使用途径吗？",
-      "link": "https://www.v2ex.com/t/1197754#reply1",
+      "link": "https://www.v2ex.com/t/1197754#reply3",
       "pubDate": "2026-03-12T07:39:00.000Z",
       "content": "\n\t<p>claude code 官网一直因手机号无法注册。\n大家都是什么途径买的？淘宝上能买吗</p>\n\n\t",
       "author": "ponelyr",
@@ -215,16 +225,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
-      "link": "https://movie.douban.com/review/17500172/",
-      "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
-      "content": "\nGrace.Zhang评论: 生命树 (https://movie.douban.com/subject/35424715/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "海棠花",
@@ -296,34 +296,14 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "结婚了，然后呢 (评论: 爱的证明)",
-      "link": "https://movie.douban.com/review/17500101/",
-      "pubDate": "Thu, 12 Mar 2026 05:46:42 GMT",
-      "content": "\n落木Lin评论: 爱的证明 (https://movie.douban.com/subject/36919136/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "有在玩 openclaw 的朋友吗？",
-      "link": "https://www.v2ex.com/t/1197699#reply1",
+      "link": "https://www.v2ex.com/t/1197699#reply2",
       "pubDate": "2026-03-12T05:13:01.000Z",
       "content": "\n\t<p>有在玩 openclaw 的朋友吗？我为 StarDots 发布了一个 skill ，欢迎来体验呀。  </p>\n<p><img alt=\"stardots-backup-skill.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.stardots.io/keepchen/stardots-backup-skill.png\"/></p>\n<p>skill 发布地址：\n<a href=\"https://clawhub.ai/keepchen/stardots-backup-skill\" rel=\"nofollow\">https://clawhub.ai/keepchen/stardots-backup-skill</a></p>\n<p>博客地址：\n<a href=\"https://stardots.io/blog/stardots-ai-agent-skill-supported-now/\" rel=\"nofollow\">https://stardots.io/blog/stardots-ai-agent-skill-supported-now/</a></p>\n\n\t",
       "author": "wogogoing",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "观感 (评论: 大明王朝1566)",
-      "link": "https://movie.douban.com/review/17500032/",
-      "pubDate": "Thu, 12 Mar 2026 04:37:21 GMT",
-      "content": "\n硅谷龍叔评论: 大明王朝1566 (https://movie.douban.com/subject/2210001/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u89c2\\u300a\\u5927\\u660e\\u738b\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "[开源] D-NET v2.0 发布 —— 支持 DDNS 管理功能",
@@ -359,16 +339,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "让真诚的叙事回归长剧 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17499944/",
-      "pubDate": "Thu, 12 Mar 2026 03:03:35 GMT",
-      "content": "\nlalalalala评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u597d\\u50cf\\u662f\\u4ece201...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "寻觅杜鹃花之王（上）",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525508",
       "pubDate": "2026-03-12 02:54:02",
@@ -390,7 +360,7 @@
     },
     {
       "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-      "link": "https://www.v2ex.com/t/1197650#reply26",
+      "link": "https://www.v2ex.com/t/1197650#reply28",
       "pubDate": "2026-03-12T02:48:43.000Z",
       "content": "\n\t\n\t",
       "author": "mcfever",
@@ -450,7 +420,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply40",
+      "link": "https://www.v2ex.com/t/1197595#reply43",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",
@@ -469,26 +439,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "一个单元，比一部史诗级电影大片都要长，冗长繁杂，这是要拍美剧吗？ (评论: 大侦探 第十一季)",
-      "link": "https://movie.douban.com/review/17499771/",
-      "pubDate": "Wed, 11 Mar 2026 22:43:34 GMT",
-      "content": "\n小贝壳同学评论: 大侦探 第十一季 (https://movie.douban.com/subject/37561280/)\n评价: 较差\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/3...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "铁链和疯狗|无剧透版影评 (评论: 呼啸山庄)",
-      "link": "https://movie.douban.com/review/17499732/",
-      "pubDate": "Wed, 11 Mar 2026 19:35:03 GMT",
-      "content": "\n沉静如海评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;69oq8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRange...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
       "link": "https://www.appinn.com/unzip-fast-ios-free/",
       "pubDate": "Wed, 11 Mar 2026 16:35:44 +0000",
@@ -504,16 +454,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "国人应该看的一部好剧 (评论: 反人类暴行)",
-      "link": "https://movie.douban.com/review/17499542/",
-      "pubDate": "Wed, 11 Mar 2026 15:25:30 GMT",
-      "content": "\n似懂freedom评论: 反人类暴行 (https://movie.douban.com/subject/37033221/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u9760\\uff0c\\u611f\\u89c9\\u4...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "DeepSeek V4 发布在即？ HuggingFace 已出现量化版权重上传记录",
@@ -546,16 +486,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "不能只有我们在觉醒 (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17499222/",
-      "pubDate": "Wed, 11 Mar 2026 12:15:08 GMT",
-      "content": "\n下雨即破碎评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5148\\u4e0b\\u7ed3\\u8bba\\uff0c\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "Claude Code 还可以用哪家模型？",
       "link": "https://www.v2ex.com/t/1197520#reply3",
       "pubDate": "2026-03-11T12:08:27.000Z",
@@ -576,16 +506,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "再过几天，这“骗子”会成为新一届奥斯卡影帝么？ (评论: 至尊马蒂)",
-      "link": "https://movie.douban.com/review/17499202/",
-      "pubDate": "Wed, 11 Mar 2026 11:57:55 GMT",
-      "content": "\n浑沌不开窍评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;cj0a7&#34;,&#34;text&#34;:&#34;“盖茨比信仰那盏绿灯，那绿灯正像高潮欢快的未来，在我们眼前一年年退去。它现在躲开了我们，但没关系，明天我们会跑得更快，把手臂伸得更长...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "还是 cc 好用",
       "link": "https://www.v2ex.com/t/1197512#reply5",
       "pubDate": "2026-03-11T11:33:09.000Z",
@@ -594,16 +514,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "短篇小说 岔路",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1525328",
-      "pubDate": "2026-03-11 11:18:22",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "[打听，科普，数学] 素数（7）：素数间隙 prime gap 之一",
@@ -616,26 +526,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "海贼王真人剧第二季第一集S2E01 (评论: 海贼王(真人版) 第二季)",
-      "link": "https://movie.douban.com/review/17499123/",
-      "pubDate": "Wed, 11 Mar 2026 10:31:23 GMT",
-      "content": "\n番茄炒肉评论: 海贼王(真人版) 第二季 (https://movie.douban.com/subject/36559697/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u76ee\\u524d\\u770b\\u5230\\u7b2c\\u4...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "绿里奇迹 (评论: 绿里奇迹)",
-      "link": "https://movie.douban.com/review/17499116/",
-      "pubDate": "Wed, 11 Mar 2026 10:26:22 GMT",
-      "content": "\n疯狂的Max评论: 绿里奇迹 (https://movie.douban.com/subject/1300374/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
       "link": "https://www.v2ex.com/t/1197498#reply11",
       "pubDate": "2026-03-11T10:07:45.000Z",
@@ -644,16 +534,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "父权制度就像空气，而我是那个对空气过敏的人 (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17499057/",
-      "pubDate": "Wed, 11 Mar 2026 09:26:52 GMT",
-      "content": "\n岸上的鱼评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;d6e6v&#34;,&#34;text&#34;:&#34;电影开篇的第一句话：“这该死的父权制度”基本上贯穿整部电影以及所有角色和剧情塑造。“这该死的父权制度。”&#34;,&#34;type&#34;:&#34;unstyled&#34;...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "自建 Emby / MoviePilot 用户安全提醒",
@@ -681,16 +561,6 @@
       "pubDate": "2026-03-11T08:57:49.000Z",
       "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
       "author": "iSNN",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "企业微信的大哥们，你们发 openclaw 插件版本规则搞错了",
-      "link": "https://www.v2ex.com/t/1197469#reply2",
-      "pubDate": "2026-03-11T08:34:26.000Z",
-      "content": "\n\t<p>翻了 Github 过往的几个 issue ，看起来没人回复的样子，直接这里丢了</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.v2ex.co/F26gwK6d.png\"/></p>\n<pre><code>Downloading @wecom/wecom-openclaw-plugin…\nResolved @wecom/wecom-openclaw-plugin to prerelease version 1.0.7-beta.1, but prereleases are only installed when explicitly requested. Use \"@wecom/wecom-openclaw-plugin@beta\" (or another prerelease tag) or an exact prerelease version to opt in explicitly.\n</code></pre>\n<p><a href=\"https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27\" rel=\"nofollow\">https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27</a></p>\n\n\t",
-      "author": "kincaid",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -750,7 +620,7 @@
     },
     {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply77",
+      "link": "https://www.v2ex.com/t/1197429#reply78",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
@@ -769,16 +639,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "找一个微信群机器人 API 服务平台，愿付费",
-      "link": "https://www.v2ex.com/t/1197399#reply13",
-      "pubDate": "2026-03-11T05:32:03.000Z",
-      "content": "\n\t<p>有没有这样的平台。通过平台 API 可以实现微信机器人的群消息发送或接收。</p>\n<p>GitHub 上有相关开源项目我知道，我需要的是现成的平台来提供服务，我不用去关心、操作这些。</p>\n<p>可以按月或者按年付费，怎么付费都行，这东西肯定不是无偿。</p>\n<p>要普通微信，不是企微，企微有 API 提供我知道。</p>\n<p>使用场景举例：\n拉你们平台的微信机器人进群，然后我们系统有订单消息调用你们的 API 发送通知，然后你们机器人会在群内发通知。</p>\n\n\t",
-      "author": "qiqi669",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
@@ -821,16 +681,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "OpenCode 使用问题",
-      "link": "https://www.v2ex.com/t/1197337#reply12",
-      "pubDate": "2026-03-11T03:06:21.000Z",
-      "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
-      "author": "xing4576",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
       "pubDate": "2026-03-11 03:05:00",
@@ -859,16 +709,6 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "“在混沌岁月，贝壳常常引领我们发现真理” (评论: 影响人类文明的13种贝壳)",
-      "link": "https://book.douban.com/review/17498602/",
-      "pubDate": "Wed, 11 Mar 2026 02:47:57 GMT",
-      "content": "\n商务印书馆评论: 影响人类文明的13种贝壳 (https://book.douban.com/subject/38179569/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;a5o5c&#34;,&#34;text&#34;:&#34;  &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
@@ -905,6 +745,16 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "模态信息论对退相干的诠释",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525335",
+      "pubDate": "2026-03-11 01:05:03",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
       "link": "https://www.v2ex.com/t/1197269#reply98",
       "pubDate": "2026-03-11T00:57:26.000Z",
@@ -933,26 +783,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17498310/",
-      "pubDate": "Tue, 10 Mar 2026 16:20:38 GMT",
-      "content": "\n李秋天评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "Steve又成男妈妈了 (评论: 绿液惊魂)",
-      "link": "https://movie.douban.com/review/17497800/",
-      "pubDate": "Tue, 10 Mar 2026 11:09:50 GMT",
-      "content": "\n禾木评论: 绿液惊魂 (https://movie.douban.com/subject/34968393/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "国产 coding plan 哪个最推荐？",
@@ -991,16 +821,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "简评｜捍卫过去“招徕式”港片时代的荣光 (评论: 夜王)",
-      "link": "https://movie.douban.com/review/17497400/",
-      "pubDate": "Tue, 10 Mar 2026 05:27:27 GMT",
-      "content": "\n发条辰评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3b6ut&#34;,&#34;text&#34;:&#34;时隔3年，吴炜伦导演携新作《夜王》再次回归香港春节档。此次《夜王》除了维持《毒舌律师》的基本班底外，主演加入了吴炜伦儿时的偶像郑秀文，编剧团队加入了获多次金像奖最佳编剧提名的何妙祺，主演阵容引入吴炜伦儿时偶像郑秀文，编剧团...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "Chrome 省内存、省电扩展 OneTab 更新，解决升级后内容丢失的情况",
       "link": "https://www.appinn.com/onetab/",
       "pubDate": "Tue, 10 Mar 2026 04:11:11 +0000",
@@ -1017,46 +837,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "谈论死亡 (评论: 极度寒冷)",
-      "link": "https://movie.douban.com/review/17497334/",
-      "pubDate": "Tue, 10 Mar 2026 04:02:06 GMT",
-      "content": "\n一條评论: 极度寒冷 (https://movie.douban.com/subject/1316499/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.dou...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "悲伤都将是暂时的......吗？ (评论: 成长的迷思)",
-      "link": "https://book.douban.com/review/17497231/",
-      "pubDate": "Tue, 10 Mar 2026 02:36:41 GMT",
-      "content": "\n新星出版社评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;p4df&#34;,&#34;text&#34;:&#34;这两年，“爱老己”成了热门词。打开各类社交媒体，满屏都是“把自己重新养一遍”、“对自己好一点”、“要学会爱自己”。&#34;,&#34;type...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "永远会被群像打动！《奇迹梦之队》诠释什么是最燃逆袭 (评论: 奇迹梦之队)",
-      "link": "https://movie.douban.com/review/17496573/",
-      "pubDate": "Mon, 09 Mar 2026 13:05:48 GMT",
-      "content": "\n影评人 杉姐评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aob5a&#34;,&#34;text&#34;:&#34;文：杉姐&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "《呼啸山庄》：如影随形的爱与死亡 (评论: 呼啸山庄)",
-      "link": "https://movie.douban.com/review/17495913/",
-      "pubDate": "Mon, 09 Mar 2026 04:22:51 GMT",
-      "content": "\nEnlightening评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;f2fb8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;da...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
       "link": "https://tech.meituan.com/2026/03/09/longcat-openclaw.html",
       "pubDate": "Mon, 09 Mar 2026 00:00:00 +0000",
@@ -1065,16 +845,6 @@
       "categories": [],
       "source": "美团技术团队",
       "sourceUrl": "https://tech.meituan.com/feed/"
-    },
-    {
-      "title": "被裁剪的故事 (评论: 木兰无名，缇萦无踪)",
-      "link": "https://book.douban.com/review/17495587/",
-      "pubDate": "Sun, 08 Mar 2026 21:19:42 GMT",
-      "content": "\n锦翼评论: 木兰无名，缇萦无踪 (https://book.douban.com/subject/37119331/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;977ia&#34;,&#34;text&#34;:&#34;如果木兰不是传说，而是一个真实活过的女孩子，她会是什么下场？《清稗类钞》里就记载了这样一位女性——姑且称她“陈木兰”。她幼年失怙，女扮男装混入军营，从伙夫做起，因作战勇猛，一路升至统领五营的记名提督。然而，当她与下属相...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
@@ -1087,56 +857,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
-      "link": "https://book.douban.com/review/17494559/",
-      "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
-      "content": "\n项平评论: Overfitting and Heuristics in Philosophy (https://book.douban.com/subject/36884467/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;4roe7&#34;,&#34;text&#34;:&#34;作者：ChatGPT、Gemini、Grok&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;i...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "成为顶级“P人”指南 (评论: 小实验)",
-      "link": "https://book.douban.com/review/17493567/",
-      "pubDate": "Sat, 07 Mar 2026 15:43:59 GMT",
-      "content": "\n怒海枯涛评论: 小实验 (https://book.douban.com/subject/38219474/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u521a\\u8bfb\\u5b8c\\u8fd9\\...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "长剧完蛋了 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17492150/",
-      "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
-      "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
-      "link": "https://book.douban.com/review/17490921/",
-      "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
-      "content": "\n新经典评论: 马孔多在下雨 (https://book.douban.com/subject/36946790/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fmjqs&#34;,&#34;text&#34;:&#34;在加西亚·马尔克斯书中，天气预报员算不算地狱难度的职业？这里——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlin...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "读懂四大名著，就读懂了人生：万事万物，终是虚无！ (评论: 四大名著（全四册）)",
-      "link": "https://book.douban.com/review/17490907/",
-      "pubDate": "Fri, 06 Mar 2026 03:03:30 GMT",
-      "content": "\n中原一点红评论: 四大名著（全四册） (https://book.douban.com/subject/1181277/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6709\\u4eba\\u7a77\\u5c3d\\u4e00\\u7...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
       "title": "科技爱好者周刊（第 387 期）：你是领先的",
       "link": "http://www.ruanyifeng.com/blog/2026/03/weekly-issue-387.html",
       "pubDate": "2026-03-05T20:20:54.000Z",
@@ -1147,114 +867,14 @@
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
     },
     {
-      "title": "翻译｜关于对上帝之爱的无序思考｜薇依 (评论: Pensées sans ordre concernant l'amour de dieu)",
-      "link": "https://book.douban.com/review/17490683/",
-      "pubDate": "Thu, 05 Mar 2026 19:37:09 GMT",
-      "content": "\n静谧形态琳琅评论: Pensées sans ordre concernant l&#39;amour de dieu (https://book.douban.com/subject/30333886/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u76ee\\u5f55&#34;, &#34;entityRanges&#34;: []...\n",
-      "author": "",
+      "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+      "link": "https://www.v2ex.com/t/1196011#reply157",
+      "pubDate": "2026-03-05T04:33:26.000Z",
+      "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+      "author": "v2exgo",
       "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "关于帕拉第奥的相关内容整理 (评论: 人文主义时代的建筑原理)",
-      "link": "https://book.douban.com/review/17489981/",
-      "pubDate": "Thu, 05 Mar 2026 09:34:55 GMT",
-      "content": "\n绿洲评论: 人文主义时代的建筑原理 (https://book.douban.com/subject/26693244/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;a9ks3&#34;,&#34;text&#34;:&#34;安德烈亚·帕拉第奥（Andrea Palladio， 1508-1580）原名安德烈亚·迪·皮耶罗（A...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "一些散乱的记忆以及由此引出的想法 (评论: 近代中国史学述论)",
-      "link": "https://book.douban.com/review/17489704/",
-      "pubDate": "Thu, 05 Mar 2026 06:13:47 GMT",
-      "content": "\n总体向好没有变评论: 近代中国史学述论 (https://book.douban.com/subject/37508270/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;kjnc&#34;,&#34;text&#34;:&#34;罗大师的这本书中，对我影响最大、也是我阅读次数最多的文章是《 往昔非我：训诂、翻译与历史文本解读 》。大概是2009年的秋天，罗大师在川大就讲过这篇文章，当时还给去听讲的所有人印发了此文的初稿（至今这一初稿还在我的文件夹里），大概大师...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "她如何写作“学界小说”？｜专访苏枕书 (评论: 玲珑塔)",
-      "link": "https://book.douban.com/review/17489594/",
-      "pubDate": "Thu, 05 Mar 2026 04:36:20 GMT",
-      "content": "\n新京报书评周刊评论: 玲珑塔 (https://book.douban.com/subject/37129110/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;abntc&#34;,&#34;text&#34;:&#34;学界日常，一直是我们关注的话题。关于高校生活学术、职场、情感与精神困境，我们都不乏讨论。在文学创作中，“学界小说”聚焦的正是高校教师这个群体：大名鼎鼎的《普宁》，近年出版的《斯通纳》等——均以高校教...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
-      "link": "https://book.douban.com/review/17489486/",
-      "pubDate": "Thu, 05 Mar 2026 03:16:28 GMT",
-      "content": "\n东来评论: 她和她的决心 (https://book.douban.com/subject/38178826/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2pje1&#34;,&#34;text&#34;:&#34;  此篇为这本小说集的后记&#34;,&#34;type&#34;:&#34;blockquote&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;1enh...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "简单总结8条变富的经验 (评论: 金钱心理学)",
-      "link": "https://book.douban.com/review/17488626/",
-      "pubDate": "Wed, 04 Mar 2026 09:37:19 GMT",
-      "content": "\nRiesling要退休评论: 金钱心理学 (https://book.douban.com/subject/36415996/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;1.\\u65f6\\u95f4\\u81ea\\u7531\\u662f\\...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "以赛亚·伯林与托尔斯泰：二十世纪知识人命运的两种抉择 (评论: 刺猬与狐狸)",
-      "link": "https://book.douban.com/review/17488217/",
-      "pubDate": "Wed, 04 Mar 2026 04:17:38 GMT",
-      "content": "\n新京报书评周刊评论: 刺猬与狐狸 (https://book.douban.com/subject/37229994/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e79i5&#34;,&#34;text&#34;:&#34;“狐狸多知，而刺猬有一大知。”&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;align&#34;:&#34;&#34;,&#34;pa...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "我的译后记 (评论: 观鸟大年)",
-      "link": "https://book.douban.com/review/17487509/",
-      "pubDate": "Tue, 03 Mar 2026 13:54:54 GMT",
-      "content": "\n仙境兔子不忘记评论: 观鸟大年 (https://book.douban.com/subject/37524361/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;eu2kp&#34;,&#34;text&#34;:&#34;我是因为爱上观鸟，才翻译了《观鸟大年》；但这毫无疑问，是 一本“人”书。 &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "这是一本写了三年，历经十八个版本，写到我精神崩溃数次的书。祝它基本健康，希望大家能喜欢。 (评论: 明夜，谁将留存于这具身体)",
-      "link": "https://book.douban.com/review/17486687/",
-      "pubDate": "Tue, 03 Mar 2026 02:26:37 GMT",
-      "content": "\n乌拉拉评论: 明夜，谁将留存于这具身体 (https://book.douban.com/subject/37431538/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6ks6f&#34;,&#34;text&#34;:&#34;动笔写这本书的时候，还是2022年春天。那时候完全没有想到一本书会整整写了三年时间。\\n我从来就是一个狂妄的人，但即使以我之狂妄，动笔的时候我也不敢承认这本书的目标。\\n这本书的目标是创造一个世界。\\n自从“科幻”这种类型诞生以来，诞生过很多优秀的作品，...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "感慨一下读博的timing (评论: 我看见的世界)",
-      "link": "https://book.douban.com/review/17484888/",
-      "pubDate": "Sun, 01 Mar 2026 17:03:54 GMT",
-      "content": "\nSophie  Z评论: 我看见的世界 (https://book.douban.com/subject/36672955/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4ec5\\u8ba8\\u8bba\\u4e00\\u4e2a\\u8...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "关于抄袭，知道你们会看到，不如摊开讲 (评论: 秋园)",
-      "link": "https://book.douban.com/review/17483415/",
-      "pubDate": "Sun, 01 Mar 2026 01:02:24 GMT",
-      "content": "\n子文东评论: 秋园 (https://book.douban.com/subject/34998019/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e72d&#34;,&#34;text&#34;:&#34;很多人似乎误以为章红不仅是杨本芬的女儿，也是她的编辑，但其实不是。章红的职业是编辑（《少年文艺》主编），但杨本芬几本书的出版方编辑另有其人。章红是把她妈的手稿整理成电子稿提供给出版方...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "无题",
@@ -1265,26 +885,6 @@
       "categories": [],
       "source": "王叨叨",
       "sourceUrl": "https://wangdaodao.com/feed/atom/"
-    },
-    {
-      "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
-      "link": "https://book.douban.com/review/17482223/",
-      "pubDate": "Sat, 28 Feb 2026 07:42:38 GMT",
-      "content": "\n理想国imaginist评论: 好猫八不 (https://book.douban.com/subject/38192710/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;avq0v&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "奇想故事的制作方法——华东师范大学推协暨岛田庄司主题刊《LONELY MEN》各篇目简评（无泄底） (评论: LONELY MEN)",
-      "link": "https://book.douban.com/review/17480711/",
-      "pubDate": "Fri, 27 Feb 2026 11:24:31 GMT",
-      "content": "\n幼稚园的小黑评论: LONELY MEN (https://book.douban.com/subject/37651795/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5404\\u4f4d\\u53cb\\u90bb\\u8001\\u5...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
