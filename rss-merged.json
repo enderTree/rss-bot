@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-12T10:31:18.314Z",
-  "totalItems": 133,
+  "lastUpdated": "2026-03-12T11:26:54.388Z",
+  "totalItems": 142,
   "items": [
     {
+      "title": "组装式架构：一种“把世界拆开再重组”的思想",
+      "link": "https://www.v2ex.com/t/1197813#reply0",
+      "pubDate": "2026-03-12T11:16:58.000Z",
+      "content": "\n\t<h1>组装式架构：一种“把世界拆开再重组”的思想</h1>\n<p>组装式架构（ Composable Architecture ）更像一种方法论：先把复杂系统拆成边界清晰、可复用的“标准能力单元”，再用规则、协议与编排把它们按目标快速组装成不同形态的产品与流程。它关注的不是某个框架、语言或平台，而是“组织复杂性”的方式：用组合对抗不确定性，用标准化对抗协作成本，用模块化对抗规模带来的熵增。</p>\n<h2>一、它解决的根问题：规模化创新的悖论</h2>\n<p>当业务或组织变大，需求会更快、更杂、更不可预测。传统做法常在两端摇摆：</p>\n<ul>\n<li>追求“统一大平台”：稳定但慢，改一点牵一发而动全身</li>\n<li>追求“项目制快速交付”：快但散，重复建设多，质量和一致性难守</li>\n</ul>\n<p>组装式思想试图取一个更可持续的中间态：底层稳定可复用，上层灵活可拼装。把“变化”限制在可控的组合空间里，让创新不必每次都从头造轮子。</p>\n<h2>二、核心观念：产品是“能力的组合”</h2>\n<p>在组装式视角里，一个产品或业务链路不是一坨不可分割的整体，而是由三类东西拼出来：</p>\n<ul>\n<li>标准件（模块、组件、服务、工具）：可替换、可升级、可复用</li>\n<li>接口与协议（契约）：让标准件能可靠协作的规则，包括语义、数据口径、权限、错误处理等</li>\n<li>装配方式（编排、流程、模板）：决定“如何组合”以达成目标的逻辑，可被复制与迭代</li>\n</ul>\n<p>真正的壁垒往往不在“有没有某个模块”，而在于：标准件体系是否完整、接口契约是否稳定、装配方式是否可复制。</p>\n<h2>三、从“中国制造”到“模块化供应链”</h2>\n<p>把组装式思想类比到制造业会更直观：</p>\n<ul>\n<li>早期工坊：一件产品从头到尾手工做，灵活但不可规模化</li>\n<li>流水线：把工序标准化，效率高但定制成本高</li>\n<li>模块化供应链：大量标准件、成熟分工、稳定接口与质检体系，能用“换模块、换供应商、换组合”快速生成不同型号与价位的产品</li>\n</ul>\n<p>组装式架构追求的就是“软件世界的模块化供应链”：</p>\n<ul>\n<li>标准件类似“零部件库”</li>\n<li>接口协议类似“国家标准、行业标准”</li>\n<li>治理与质量体系类似“质检、认证、追溯、召回”</li>\n<li>编排类似“装配线与工艺流程”</li>\n</ul>\n<p>这也解释了为什么它更像一种思想：它关心的不是“某个零件多先进”，而是“能否形成可持续的工业化装配能力”。</p>\n<h2>四、从“应用开发”到“能力装配”（以 MCP 为例）</h2>\n<p>以 MCP （ Model Context Protocol ）为例，它的价值不只在“多了一个协议”，更在于传递一种方向：把能力暴露成可被标准方式接入的工具，让上层（模型、应用、代理）能按需组合这些工具完成任务。</p>\n<p>把 MCP 放到组装式思想里看：</p>\n<ul>\n<li>工具与服务是标准件</li>\n<li>协议是统一接口</li>\n<li>Agent 与 Workflow 是装配工艺</li>\n<li>最终结果是用组合覆盖更多场景，而不是每个场景从零写集成</li>\n</ul>\n<p>重点在于：MCP 之类的协议强调“可组合性优先”，这与组装式架构的精神内核一致。</p>\n<h2>五、它不是“更碎”，而是“可组合的秩序”</h2>\n<p>第一次听“组装式”，很多人会担心拆得更碎会不会更乱。恰恰相反，组装式的前提是更强的秩序：</p>\n<ul>\n<li>边界清晰：每个模块负责什么、不负责什么</li>\n<li>契约稳定：输入输出、语义、兼容性、版本策略</li>\n<li>可观测可追责：组合出了问题能定位到具体模块与具体变更</li>\n<li>可替换可演进：模块能升级、能替换，不把系统绑死</li>\n</ul>\n<p>所以组装式的关键词通常不是“拆”，而是：标准化、模块化、编排化、治理化。</p>\n<h2>六、为什么它是一种“思想”，而不是技术</h2>\n<p>因为它可以落在任何层面：</p>\n<ul>\n<li>架构层：模块化单体、微服务、插件化平台、工作流编排、事件驱动等都能承载“组装式”</li>\n<li>组织层：能力团队做标准件，业务团队做装配，用契约协作</li>\n<li>产品层：从卖功能变成卖能力组合与模板，用配置与组合支持差异化</li>\n<li>演进层：用替换模块而不是推倒重来来迭代系统</li>\n</ul>\n<p>同一个思想，可以用完全不同的技术栈实现。反过来，同样用了微服务、低代码或工作流，也未必真的具备组装式能力（如果缺少契约、质量、治理与可替换性）。</p>\n<h2>七、如何判断是否真正“组装式”了</h2>\n<ul>\n<li>新需求主要通过“选模块 + 配置或编排”完成，而不是开新项目重写</li>\n<li>复用发生在能力与流程模板层面，而不靠复制粘贴</li>\n<li>能做到替换一个模块而不重做整条链路（可插拔）</li>\n<li>组合链路天然可观测、可回溯、可治理，而不是事后补监控补权限</li>\n<li>协作从“对人对齐”转向“对契约对齐”</li>\n</ul>\n<h2>结语：组装式的终极目标是降低试错成本</h2>\n<p>组装式架构的价值不在于把系统变得更“酷”，而在于把创新变得更“便宜”：更低的边际成本覆盖更多场景，更快的组合速度响应不确定性，更可控的治理质量支撑规模化。这就是它作为一种思想的意义：在变化不可避免时，用组合建立秩序，用标准化获得自由。</p>\n\n\t",
+      "author": "CrazyMark",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "Vibe Coding 了一个 qbittorrent 的安卓客户端,完全免费",
-      "link": "https://www.v2ex.com/t/1197805#reply2",
+      "link": "https://www.v2ex.com/t/1197805#reply3",
       "pubDate": "2026-03-12T10:07:25.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/6StDwjS.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/6StDwjS.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/rmz37II.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rmz37II.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/ylrDrea.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ylrDrea.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />  - 远程连接和管理 NAS / Seedbox 上的 qBittorrent 。<br />  - 首页仪表盘可快速查看上传、下载、种子状态等整体信息。<br />  - 提供统一种子列表，支持搜索和多种排序方式。<br />  - 种子详情页可查看 Tracker 、文件、Peer/统计信息，并支持常用操作。<br />  - 支持仪表盘卡片长按拖动排序，拖拽手感已优化。<br />  - 今日上传量分布（预估）”世界地图卡片。\n\t",
       "author": "wjh6665",
@@ -54,7 +64,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply8",
+      "link": "https://www.v2ex.com/t/1197790#reply10",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -63,11 +73,11 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "血肉苦弱 机械飞升",
-      "link": "https://www.v2ex.com/t/1197787#reply15",
-      "pubDate": "2026-03-12T09:13:04.000Z",
-      "content": "\n\t<a target=\"_blank\" href=\"https://www.linkedin.com/pulse/first-multi-behavior-brain-upload-alex-wissner-gross-mttye\" rel=\"nofollow noopener\">https://www.linkedin.com/pulse/first-multi-behavior-brain-upload-alex-wissner-gross-mttye</a><br />还在算法-&gt;学习行为？ 新的版本来了 ：神经结构-&gt;产生行为<br /><br />已经开始验证了吗？<br />数学结构-&gt;物理规律-&gt;物质-&gt;生命-&gt;意识.<br />这不比 openclaw 更有话题吗？\n\t",
-      "author": "ffw5b7",
+      "title": "前端去学习 golang 跨度成本大吗？",
+      "link": "https://www.v2ex.com/t/1197788#reply23",
+      "pubDate": "2026-03-12T09:15:17.000Z",
+      "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
+      "author": "mumuwen",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -84,13 +94,23 @@
     },
     {
       "title": "有推荐的光驱位热插拔硬盘笼吗",
-      "link": "https://www.v2ex.com/t/1197784#reply4",
+      "link": "https://www.v2ex.com/t/1197784#reply5",
       "pubDate": "2026-03-12T08:44:10.000Z",
       "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
       "author": "y5g",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
+      "link": "http://www.ruanyifeng.com/blog/2026/03/arkclaw.html",
+      "pubDate": "2026-03-12T08:01:06.000Z",
+      "content": "\n        <h2>一、引言</h2>\n\n<p>大家这两天，有没有被\"龙虾\"（OpenClaw）刷屏？</p>\n\n        <p>到处是它的新闻，就连两会代表和新华社都在谈论。真让人跌破眼镜，一个 AI 软件竟能引起这么大的反响。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031004.webp\" alt=\"\" title=\"\" /></p>\n\n<p>人们的热情高涨，免费的线下安装活动人满为患，网上的\"付费安装\"生意兴隆。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031006.webp\" alt=\"\" title=\"\" /></p>\n\n<p>很多人大概还不知道，现在有一种最简单的龙虾使用方法：<a href=\"https://www.volcengine.com/docs/82379/2229107?lang=zh\">ArkClaw</a>。</p>\n\n<p>简单到你根本不需要操心安装，<strong>因为这是一个免安装的方案</strong>，它直接内置了龙虾，开箱即用。</p>\n\n<p>我也是昨天才开始用，迫不及待跟大家分享，初步使用的感受。没有用过的同学，也可以把它当作《龙虾零门槛上手》教程，看看龙虾到底是怎么回事。</p>\n\n<h2>二、ArkClaw 是什么</h2>\n\n<p>事情是这样的，老读者可能还记得，我在春节前<a href=\"https://mp.weixin.qq.com/s/e9NvGyPHlQfrUFCXKO4H7A\">测评了</a>字节最新发布的 Seed 2.0 模型。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021416.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我在文章里说，这是字节目前最强的基础模型，手机豆包用的就是它，测试表现很不错。</p>\n\n<p>字节的同学后来就向我赠送了 <a href=\"https://www.volcengine.com/activity/codingplan\">Coding Plan</a> 套餐，方便继续测试这个模型，各种 AI 编程工具都可以调用它的 API（当然套餐还包含其他国产模型，也是自由使用）。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031007.webp\" alt=\"\" title=\"\" /></p>\n\n<p>本周一，我突然发现，字节的这个 Coding Plan 套餐开通了一个捆绑服务，就是 ArkClaw。</p>\n\n<p>我问了客服才知道，<strong>只要现在开通 Coding Plan，就能免费使用龙虾</strong>。</p>\n\n<p>也就是说，只要你用字节的 AI 编程套餐，不用多花一分钱，字节就提供一台远程主机，里面安装好了龙虾，你可以自由使用。</p>\n\n<p>需要说明的是，Coding Plan 分成 lite（首月9.9元）和 Pro（首月49.9元）两种套餐。lite 套餐只能免费体验7天，只有 Pro 套餐可以长期使用 ArkClaw。</p>\n\n<h2>三、云养虾</h2>\n\n<p>ArkClaw 属于\"云养虾\"（又称\"云龙虾\"），就是把龙虾（OpenClaw）安装在火山方舟（字节的 AI 云服务品牌）的云主机上，它名字里的 ark 就是\"方舟\"的意思。</p>\n\n<p>除了\"云养虾\"，也可以把龙虾安装在本地计算机。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031008.webp\" alt=\"\" title=\"\" /></p>\n\n<p>不了解的朋友可能会好奇，两者有什么区别，我简单说一下。</p>\n\n<p>首先，你要知道<strong>OpenClaw 属于自动化软件</strong>，它的作用就是让用户使用自然语言描述需求，它通过大模型找出满足需求的方法，然后自动去完成。</p>\n\n<p>当它安装在本地计算机（你的笔记本），就方便自动操作本地文件和本地设备，比如\"找出拍摄于去年今日的照片\"或者\"关闭客厅的智能灯，并查询最近一周的耗电量\"。</p>\n\n<p>当它安装在云端，就能 7x24 小时跟各种网络服务互动，比如\"收到电子邮件时，自动生成30字的内容摘要，向手机发送通知\"。</p>\n\n<p>所以，如果你需要自动化操作网络服务，并且需要长时间在线或者每天定时运行，那么就合适使用\"云养虾\"。</p>\n\n<h2>四、ArkClaw 基本操作</h2>\n\n<h3>4.1 界面</h3>\n\n<p>我给大家看一下，ArkClaw 的样子。</p>\n\n<p>进入<a href=\"https://console.volcengine.com/ark/region:ark+cn-beijing/experience/claw\">控制台</a>，点击\"立即创建\"，创建一个龙虾实例。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031101.webp\" alt=\"\" title=\"\" /></p>\n\n<p>创建完成后，就已经安装好了，直接使用。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031102.webp\" alt=\"\" title=\"\" /></p>\n\n<p>界面非常简洁，就是一个对话框。ArkClaw 对龙虾的官方控制台做了定制，简化了操作界面。</p>\n\n<h3>4.2 抓取信息</h3>\n\n<p>你可以在对话框里面，跟 AI 模型对话，这跟其他模型的用法并无二致。</p>\n\n<p>举例来说，我们可以让它抓取信息。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031103.webp\" alt=\"\" title=\"\" /></p>\n\n<p>可以看到，由于抓取的是动态内容，所以模型想到了很多实施方案，最后顺利完成。</p>\n\n<p>大家要记住，ArkClaw 就是一台远程主机，任何服务器可以用的技术方案，它都能用，这比安装在一般个人工作电脑上的龙虾更强大。</p>\n\n<h3>4.3 发送消息</h3>\n\n<p>获取信息以后，龙虾可以把这些信息发到手机。</p>\n\n<p>目前，ArkClaw 支持与企业微信、钉钉和飞书绑定。其中，飞书因为是自家的产品，绑定操作最简单，便捷快速，扫码即可。其他两家操作都比较麻烦，具体见<a href=\"https://www.volcengine.com/docs/6396/2249541?lang=zh\">官方文档</a>。</p>\n\n<p>点击对话框上方的\"飞书配对\"按钮。（前面的\"消息渠道\"按钮，用于绑定企业微信和钉钉。）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031104.webp\" alt=\"\" title=\"\" /></p>\n\n<p>系统会打开一个终端窗口，输出一个二维码，飞书扫描后可以创建一个机器人，跟当前的 ArkClaw 实例绑定。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031105.webp\" alt=\"\" title=\"\" /></p>\n\n<p>通过这个机器人，你就可以在手机上跟当前这台 ArkClaw 实例对话了。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031106.webp\" alt=\"\" title=\"\" /></p>\n\n<p>你也可以在电脑上，通过 ArkClaw 网页控制台，向你的手机发消息。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031107.webp\" alt=\"\" title=\"\" /></p>\n\n<p>电脑端输入上面指令后，手机端就会推送消息（下图）。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031108.webp\" alt=\"\" title=\"\" /></p>\n\n<h3>4.4 定时任务</h3>\n\n<p>我们还可以规定，龙虾执行某些任务的时间和频率，也就是定时任务。</p>\n\n<p>首先，使用自然语言，在对话框设置定时任务。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031109.webp\" alt=\"\" title=\"\" /></p>\n\n<p>设置完成后，你的手机就会每天收到消息了。</p>\n\n<p>如果要删除定时任务，也是使用自然语言发出指令。</p>\n\n<h2>五、Skill 和其他设置</h2>\n\n<h3>5.1 Skill</h3>\n\n<p>龙虾本身的能力是有限的，总会遇到一些它不知道如何处理的问题。这时，就可以通过 Skill（技能）扩展它的能力，这大大增加了龙虾的用途。</p>\n\n<p>什么是 Skill？简单理解，它就是一个文件包，里面包含了指令和示例，用来教模型如何完成某些特定的任务。</p>\n\n<p>网上已经有很多别人写好、分享出来的 Skill，只要挑一些自己需要的，让龙虾加载，就能扩展对应的能力。网站 <a href=\"https://clawhub.ai/\">ClawHub.ai</a> 就收集龙虾专用 Skill，已经有近20000个了。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031113.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我本来想用小红书 SKill 来举例，演示龙虾如何学会写小红书。但是，官方昨天发<a href=\"https://www.jiemian.com/article/14094710.html\">公告</a>了，最近这样做的人太多了，现在开始封账号了。</p>\n\n<p>那么就换一个例子。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031115.webp\" alt=\"\" title=\"\" /></p>\n\n<p>上面截图就是使用自然语言，让龙虾从 ClawHub 网站下载安装<a href=\"https://clawhub.ai/Dboy233/amap\">高德地图（amap）的技能</a>。</p>\n\n<p>龙虾本来不知道怎么使用高德地图，有了这个技能就学会了，可以从中查询信息。这个技能的具体详细，可以<a href=\"https://clawhub.ai/Dboy233/amap\">查看它的主页</a>。</p>\n\n<p>使用的时候，也是直接用自然语言描述需求，模型会自己加载调用所需的技能。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031116.webp\" alt=\"\" title=\"\" /></p>\n\n<p>上图的截图就是通过高德地图，查询实时路况。</p>\n\n<h3>5.2 其他设置</h3>\n\n<p>ArkClaw 的其他功能，都在\"设置\"菜单（下图），比如调整底层模型。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031110.webp\" alt=\"\" title=\"\" /></p>\n\n<p>只要是 Coding Plan 套餐提供的模型，这里都能使用。</p>\n\n<p>\"设置\"菜单还有两个很有用的功能。</p>\n\n<p>一个是\"打开终端\"，它会在网页上打开一个终端窗口，让你通过命令行直接操作 ArkClaw 所在的远程主机。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031111.webp\" alt=\"\" title=\"\" /></p>\n\n<p>从上面的终端窗口截图可以看到，ArkClaw 底层是 Ubuntu 系统。</p>\n\n<p>另一个是\"配置网盘\"。某些情况下，你可能需要向 ArkClaw 上传/下载文件，这个功能允许当前主机与火山引擎的对象存储服务 TOS 绑定，相当于有了一个无限容量的网盘。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202603/bg2026031112.webp\" alt=\"\" title=\"\" /></p>\n\n<h2>六、总结</h2>\n\n<p>以上就是我昨天第一天使用 ArkClaw 的主要内容。</p>\n\n<p>我的感受是，<strong>它确实大大简化了龙虾的使用</strong>，免安装、开箱即用，让龙虾的操作变得简单直观。通过自然语言加载调用 Skill，也很自然流畅。</p>\n\n<p><strong>它最大的强项就是跟字节生态深度融合</strong>，配合得十分丝滑：底层 Seed 2.0 模型 + 飞书推送 + 火山引擎网盘，完全不必复杂的配置。</p>\n\n<p>它是一个跟字节 Coding Plan 捆绑的服务，不用额外付费。相比自己从头搭建\"云龙虾\"，云主机和 AI 模型的费用就省掉了，这是一笔不小的费用。</p>\n\n<p>作为程序员，这个 AI 编程的 Coding Plan + 云龙虾 ArkClaw 主机的捆绑方案，还是很有吸引力的。</p>\n\n<p>（完）</p>\n\n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;border:1px solid #d3d3d3;margin:1em;background-color:#AAD2F0;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"><h3>文档信息</h3>\n<ul>\n<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh\">创意共享3.0许可证</a>）</li>\n<li>发表日期： <abbr class=\"published\" title=\"2026-03-12T16:01:06+08:00\">2026年3月12日</abbr></li>\n\n</ul></div>        \n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;margin:1em;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"></div>\n    ",
+      "author": "阮一峰",
+      "categories": [],
+      "source": "阮一峰的网络日志",
+      "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
     },
     {
       "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -193,13 +213,23 @@
     },
     {
       "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
-      "link": "https://www.v2ex.com/t/1197732#reply15",
+      "link": "https://www.v2ex.com/t/1197732#reply18",
       "pubDate": "2026-03-12T06:50:10.000Z",
       "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
       "author": "wsbqdyhm",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "旧作回顾： 关于科学分类的理论思考  ——光明网有奖话题：“生命科学是否应该成为第三大学科？”浅议",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=496942&do=blog&id=1525427",
+      "pubDate": "2026-03-12 06:17:07",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "国家互联网应急中心：OpenClaw 风险提示",
@@ -227,7 +257,7 @@
     },
     {
       "title": "有在玩 openclaw 的朋友吗？",
-      "link": "https://www.v2ex.com/t/1197699#reply0",
+      "link": "https://www.v2ex.com/t/1197699#reply1",
       "pubDate": "2026-03-12T05:13:01.000Z",
       "content": "\n\t<p>有在玩 openclaw 的朋友吗？我为 StarDots 发布了一个 skill ，欢迎来体验呀。  </p>\n<p><img alt=\"stardots-backup-skill.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.stardots.io/keepchen/stardots-backup-skill.png\"/></p>\n<p>skill 发布地址：\n<a href=\"https://clawhub.ai/keepchen/stardots-backup-skill\" rel=\"nofollow\">https://clawhub.ai/keepchen/stardots-backup-skill</a></p>\n<p>博客地址：\n<a href=\"https://stardots.io/blog/stardots-ai-agent-skill-supported-now/\" rel=\"nofollow\">https://stardots.io/blog/stardots-ai-agent-skill-supported-now/</a></p>\n\n\t",
       "author": "wogogoing",
@@ -310,7 +340,7 @@
     },
     {
       "title": "以现在 AI 发展的水平来看，会不会现有的图灵方案都形同虚设?",
-      "link": "https://www.v2ex.com/t/1197642#reply14",
+      "link": "https://www.v2ex.com/t/1197642#reply17",
       "pubDate": "2026-03-12T02:40:22.000Z",
       "content": "\n\t<p>我们常用的图灵测试方案基础的图形验证码、复杂点的图形验证码+计算数学题，再进一步的就是各种混淆干扰线之类的。还有一种验证方式是识别图形、拼图之类的交互式验证码。</p>\n<p>在现在 AI 发展迅速的当下，这些验证手段会不会即将（或已经）失效，那我们有没有什么方法去更好的区分 “人类” 和 “AI” 呢？</p>\n<p>我能想到的就是手机验证码这种，尽可能增加获取验证码的成本</p>\n\n\t",
       "author": "815979670",
@@ -360,23 +390,13 @@
     },
     {
       "title": "话说我用中转站的话会泄露 api 吗？",
-      "link": "https://www.v2ex.com/t/1197589#reply30",
+      "link": "https://www.v2ex.com/t/1197589#reply31",
       "pubDate": "2026-03-12T00:08:49.000Z",
       "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
       "author": "tina2998",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "一个单元，比一部史诗级电影大片都要长，冗长繁杂，这是要拍美剧吗？ (评论: 大侦探 第十一季)",
-      "link": "https://movie.douban.com/review/17499771/",
-      "pubDate": "Wed, 11 Mar 2026 22:43:34 GMT",
-      "content": "\n小贝壳同学评论: 大侦探 第十一季 (https://movie.douban.com/subject/37561280/)\n评价: 较差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u4f5c\\u4e3a\\u4e00\\u540d\\u8001\\u7...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "铁链和疯狗|无剧透版影评 (评论: 呼啸山庄)",
@@ -424,6 +444,26 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "用 Claude Code 写了个免费下载 ins 媒体的小工具",
+      "link": "https://www.v2ex.com/t/1197532#reply0",
+      "pubDate": "2026-03-11T12:57:42.000Z",
+      "content": "\n\t<p>网站： <a href=\"https://www.inssnap.com\" rel=\"nofollow\">https://www.inssnap.com</a>\n工具：Claude Code opus 4.6\n功能：下载 instagram 图片、视频、Reels 等，支持 10 国语言，目前每天限制 3 次</p>\n<p>感受：opus 4.6 实在是太美妙了，基本上不跟我说废话，各种 plan 和 coding 效果很棒，就是太贵了</p>\n\n\t",
+      "author": "loulijun",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "II型糖尿病：从“终身伴随”到“力争逆转”",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525331",
+      "pubDate": "2026-03-11 12:22:48",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "不能只有我们在觉醒 (评论: 非穷尽列举)",
@@ -547,10 +587,20 @@
     },
     {
       "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
-      "link": "https://www.v2ex.com/t/1197478#reply11",
+      "link": "https://www.v2ex.com/t/1197478#reply12",
       "pubDate": "2026-03-11T08:58:47.000Z",
       "content": "\n\t\n\t",
       "author": "Yasuo666",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "大部分模型都不支持结构化输出",
+      "link": "https://www.v2ex.com/t/1197476#reply16",
+      "pubDate": "2026-03-11T08:57:49.000Z",
+      "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
+      "author": "iSNN",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -564,6 +614,16 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "企业微信的大哥们，你们发 openclaw 插件版本规则搞错了",
+      "link": "https://www.v2ex.com/t/1197469#reply2",
+      "pubDate": "2026-03-11T08:34:26.000Z",
+      "content": "\n\t<p>翻了 Github 过往的几个 issue ，看起来没人回复的样子，直接这里丢了</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.v2ex.co/F26gwK6d.png\"/></p>\n<pre><code>Downloading @wecom/wecom-openclaw-plugin…\nResolved @wecom/wecom-openclaw-plugin to prerelease version 1.0.7-beta.1, but prereleases are only installed when explicitly requested. Use \"@wecom/wecom-openclaw-plugin@beta\" (or another prerelease tag) or an exact prerelease version to opt in explicitly.\n</code></pre>\n<p><a href=\"https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27\" rel=\"nofollow\">https://github.com/WecomTeam/wecom-openclaw-plugin/issues/27</a></p>\n\n\t",
+      "author": "kincaid",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "飞书上线云 OpenClaw，一步创建完成。限免到月底，每日10万个",
@@ -629,16 +689,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "春田踏青图",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=5889&do=blog&id=1525279",
-      "pubDate": "2026-03-11 07:24:47",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
       "link": "https://www.v2ex.com/t/1197438#reply7",
       "pubDate": "2026-03-11T07:05:00.000Z",
@@ -659,16 +709,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "倒骑牛背剥莲蓬（读图偶拾421）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525278",
-      "pubDate": "2026-03-11 06:48:20",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "零基础也能“养龙虾”？AI新风口",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525402",
       "pubDate": "2026-03-11 06:47:44",
@@ -679,24 +719,24 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "Bigmodel 的模型评分不是很高的吗？ GLM-5",
+      "link": "https://www.v2ex.com/t/1197432#reply9",
+      "pubDate": "2026-03-11T06:40:37.000Z",
+      "content": "\n\t我购买了 GLM-5 的季度 coding-plan 。<br /><br />现在用 claude-code 写代码，效果太差了，完全浪费时间。<br /><br />有没有划算的 coding token ？\n\t",
+      "author": "rwecho",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply72",
+      "link": "https://www.v2ex.com/t/1197429#reply73",
       "pubDate": "2026-03-11T06:36:16.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
       "author": "TheBlind",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "眼见不再为实：AI 时代，图书馆员如何守护“真相”？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3316383&do=blog&id=1525275",
-      "pubDate": "2026-03-11 06:34:38",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "国货之光闪耀，素材管理神器 Eagle 终身授权 7 折优惠，限时开启！",
@@ -711,11 +751,41 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "找一个微信群机器人 API 服务平台，愿付费",
+      "link": "https://www.v2ex.com/t/1197399#reply13",
+      "pubDate": "2026-03-11T05:32:03.000Z",
+      "content": "\n\t<p>有没有这样的平台。通过平台 API 可以实现微信机器人的群消息发送或接收。</p>\n<p>GitHub 上有相关开源项目我知道，我需要的是现成的平台来提供服务，我不用去关心、操作这些。</p>\n<p>可以按月或者按年付费，怎么付费都行，这东西肯定不是无偿。</p>\n<p>要普通微信，不是企微，企微有 API 提供我知道。</p>\n<p>使用场景举例：\n拉你们平台的微信机器人进群，然后我们系统有订单消息调用你们的 API 发送通知，然后你们机器人会在群内发通知。</p>\n\n\t",
+      "author": "qiqi669",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-      "link": "https://www.v2ex.com/t/1197381#reply72",
+      "link": "https://www.v2ex.com/t/1197381#reply73",
       "pubDate": "2026-03-11T04:16:53.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
       "author": "v2exgo",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "这个项目所有代码都是我睡觉的时候让我的 openclaw 自己写的， PR 有一些自动化记录",
+      "link": "https://www.v2ex.com/t/1197376#reply15",
+      "pubDate": "2026-03-11T04:04:44.000Z",
+      "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
+      "author": "dodoa",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "2w 预算，请教下装机配置问题",
+      "link": "https://www.v2ex.com/t/1197355#reply10",
+      "pubDate": "2026-03-11T03:26:59.000Z",
+      "content": "\n\t2w 预算，不考虑显示器<br /><br />使用需求：本地跑模型生图，比如用：comfyUI ，flux 。以及打一些游戏，希望两者能均衡一些。<br /><br />cpu 考虑英特尔，日常会用虚拟机冲浪。<br /><br />不过目前手上有 5080 和 32g 6400 内存，以及笔电的 2t 固态。<br /><br />这个需求需要替换哪些已有配置吗，不替换的话剩下的该怎么配？只想把钱花在刀刃上！！！<br /><br />麻烦大佬们给点意见，谢谢~\n\t",
+      "author": "qize0921",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -726,6 +796,16 @@
       "pubDate": "2026-03-11T03:11:25.000Z",
       "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
       "author": "iorilu",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "OpenCode 使用问题",
+      "link": "https://www.v2ex.com/t/1197337#reply12",
+      "pubDate": "2026-03-11T03:06:21.000Z",
+      "content": "\n\t<p>之前看论坛很多人在推 OpenCode ，我自己使用之后不尽人意，发现了很多不好用的地方：</p>\n<ol>\n<li>ctrl c,ctrl z 等快捷键直接就退出了，不像 clude code 那样 2 次才退出，很容易误退出</li>\n<li>OpenCode 复制粘贴很难用，使用第三方终端发现根本复制不了</li>\n<li>不能自定义光标等。</li>\n</ol>\n\n\t",
+      "author": "xing4576",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -772,13 +852,33 @@
     },
     {
       "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
-      "link": "https://www.v2ex.com/t/1197313#reply25",
+      "link": "https://www.v2ex.com/t/1197313#reply26",
       "pubDate": "2026-03-11T02:08:04.000Z",
       "content": "\n\t<p>最近买了阿里 Coding Plan 使用 GLM-5 感觉也太差劲了，我使用的是 Cursor 自定义这个 GLM-5\n我觉得完全无法对标 Opus-4.5</p>\n<p>是因为阿里的有阉割吗？用智普官方的会好点吗？</p>\n\n\t",
       "author": "Fezl",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
+      "link": "https://www.v2ex.com/t/1197297#reply18",
+      "pubDate": "2026-03-11T01:42:22.000Z",
+      "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
+      "author": "kssss",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "我会仰望星空",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525336",
+      "pubDate": "2026-03-11 01:33:21",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "cron-job：免费定时任务工具，可定时签到或调用 API",
@@ -1181,16 +1281,6 @@
       "link": "http://www.ruanyifeng.com/blog/2026/02/weekly-issue-386.html",
       "pubDate": "2026-02-27T00:07:08.000Z",
       "content": "\n        <p>这里记录每周值得分享的科技内容，周五发布。</p>\n\n        <p>本杂志<a href=\"https://github.com/ruanyf/weekly\">开源</a>，欢迎<a href=\"https://github.com/ruanyf/weekly/issues\">投稿</a>。另有<a href=\"https://github.com/ruanyf/weekly/issues/8882\">《谁在招人》</a>服务，发布程序员招聘信息。合作请<a href=\"mailto:yifeng.ruan@gmail.com\">邮件联系</a>（yifeng.ruan@gmail.com）。</p>\n\n<h2>封面图</h2>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026020702.webp\" alt=\"\" title=\"\" /></p>\n\n<p>上海黄浦江边的艺术装置《航舵》。此处是船厂遗址，有一堵防汛墙，为了吸引人们走上去，以及配合造船主题，就设计了这么一个装置。（<a href=\"https://www.gooood.cn/shanghai-urban-space-art-season-susas-2025-by-shanghai-summits-architecture.htm\">via</a>）</p>\n\n<h2>当外卖员接入 AI</h2>\n\n<p>最近，美国有一条<a href=\"https://www.cnbc.com/2026/02/12/waymo-is-paying-doordash-gig-workers-to-close-its-robotaxi-doors.html\">无人驾驶的新闻</a>，引起很大反响。</p>\n\n<p>Waymo 是一家无人驾驶公司，已经在多个美国城市开展出租车运营了。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021608.webp\" alt=\"\" title=\"\" /></p>\n\n<p>它有一个最大的烦恼，就是乘客下车后，没关好车门或后备箱，导致车辆无法驶离。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021610.webp\" alt=\"\" title=\"\" /></p>\n\n<p>奇怪的是，这样一家高科技公司，居然没有开发远程关车门功能，反而想出了一个另类的解决方案。</p>\n\n<p>它给外卖小哥下单，付钱让他们赶到现场关车门。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021609.webp\" alt=\"\" title=\"\" /></p>\n\n<p>有一个小哥看到了上面这张奇怪的订单，标价6.25美元，要求赶到1公里以外的一个地方，找到一辆 Waymo 出租车，把车门关上。完成后，还将额外收到5美元。</p>\n\n<p>他觉得很稀奇，就截图发到了网上，这件事顿时就变成了新闻。</p>\n\n<p>它的新闻点，其实不是接单关车门，而是<strong>程序在调动人力，完成自动化流程</strong>。</p>\n\n<p>一直以来，程序只能调动计算机，突然之间，它可以调动人力了，某个环节计算机完成不了，它就自动找人来完成。这才是新闻。</p>\n\n<p>这样做之所以能够成功，完全因为<strong>外卖员是一个自带 API 的人群</strong>，已经接入了软件系统，成为了自动化人力，程序可以通过接口去调用他们。</p>\n\n<p>你仔细思考这件事，就会意识到，在人工智能和机器人的时代，外卖员有特殊的价值，将是一个很有想象空间的职业。<strong>他们的作用绝不仅是送外卖，而是可以升级为远程操控、程序调用的人力</strong>，是\"机器 + 人\"自动化流程的一环。</p>\n\n<p>一旦 AI 模型跟人力结合在一起，模型的作用将大大扩展，现在的 OpenClaw 只能操作计算机，<strong>将来的 AI 助手还将是劳动力的调配引擎</strong>。</p>\n\n<p>比如，我要装修一套房子，AI 做好了设计方案，然后就在网上分布细分任务，水电工接单做好水电，监理员接单上门确认后，AI 就自动结算费用，进入下一个环节，泥工、木工......直至装修完成。</p>\n\n<p>到了那时，你在网上输入提示词\"我要装修房子\"，真的可能一套房子就被 AI 装修好了。</p>\n\n<p>AI 平台因此会变成一个劳务平台，你可以通过 AI 找工作，上面有各种劳务需求，你接单去做，完成后收到报酬。</p>\n\n<p>总之，一旦人力接入 AI，被它调配，AI 就不止是计算机革命，而是整个社会经济都将围绕它重构了。</p>\n\n<h2>[本周软件] PinMe：去中心化托管服务</h2>\n\n<p>链接会删除，网站会关闭，域名会消失，内容怎样<strong>永久</strong>保存在互联网？</p>\n\n<p>现在有一种解决方案 IPFS（星际文件系统），通过分布式协议，在所有节点之间分享内容，而网址就是内容的哈希值。</p>\n\n<p>所以，内容一旦上传 IPFS，就无法修改，因为哈希值会变，也无法删除，因为其他节点会有留存。</p>\n\n<p>今天介绍的 <a href=\"https://pinme.eth.limo/\">PinMe</a>，就是这样一个 IPFS 托管工具。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022202.webp\" alt=\"\" title=\"\" /></p>\n\n<p>你可以通过它，将任何文件上传到 IPFS。上传一个静态网站，理论上就是永久可访问，任何人（包括你）都无法删改和关闭，任何一个 IPFS 网关都能打开浏览。</p>\n\n<p>PinMe 会分配一个 ENS 域名，指向上传内容，这个域名写入以太坊区块链，也是永不消失。</p>\n\n<p>它提供的免费储存空间有 1GB，更大空间和自定义域名需要付费。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022203.webp\" alt=\"\" title=\"\" /></p>\n\n<p>文件可以网页上传，也可以用它的开源<a href=\"https://github.com/glitternetwork/pinme\">命令行发布工具</a>，一行命令发布到 IPFS，该工具已经有2800颗星。如果要永久保存内容，大家可以<a href=\"https://pinme.eth.limo/\">试试看</a>。</p>\n\n<h2>科技动态</h2>\n\n<p>1、<a href=\"https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator\">音频线</a></p>\n\n<p>材质越好的音频线，价格越贵，但真能听出差别吗？</p>\n\n<p>一个美国音响爱好者做了一个实验，分别用专业音频铜线、香蕉和湿泥来传输音频。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021605.webp\" alt=\"\" title=\"\" /></p>\n\n<p>他让不同的人来听，结果根本听不出差别。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021606.webp\" alt=\"\" title=\"\" /></p>\n\n<p>这太令人惊讶了。一般认为，香蕉和湿泥土不是良好的导体，但是这个实验表明，它们只是电阻大一点，除了降低信号电平之外，不会对音频造成太大失真。</p>\n\n<p>2、<a href=\"https://www.zerohedge.com/markets/ibm-plunges-after-anthropics-latest-update-takes-cobol\">COBOL 代码的 AI 维护</a></p>\n\n<p>COBOL 是上个世纪的编程语言，现在已经没人用了。</p>\n\n<p>但是，美国很多大公司的关键系统是 COBOL 写的，始终没有下线，目前都由 IBM 公司维护，收费非常昂贵，因为除了他们就没人懂这门语言。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022404.webp\" alt=\"\" title=\"\" /></p>\n\n<p>本周一（2月23日），Anthropic 公司突然在官网发布<a href=\"https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization\">文章</a>（上图），宣布他们的 Claude 模型可以自动分析 COBOL 代码，将其迁移到其他语言。</p>\n\n<p>这篇文章立刻导致 IBM 股价大跌（下图）。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022405.webp\" alt=\"\" title=\"\" /></p>\n\n<p>如果 AI 可以维护 COBOL 代码，是否意味着所有历史遗留软件的维护，都已经不成问题了？我们再也不必为接手老项目烦恼了？</p>\n\n<p>3、<a href=\"https://zomglol.wtf/@jamie/116059523957674208\">AI 编程项目的版权</a></p>\n\n<p>美国的司法规定，只有人类的智力成果才有版权，AI 的生成结果没有版权。</p>\n\n<p>这意味着，AI 编程出来的代码，（在美国）是无版权的，任何人都可以自由使用。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021415.webp\" alt=\"\" title=\"\" /></p>\n\n<p>这一点要特别注意，GitHub 上面那些 AI 编程项目，其实都没有版权，可以自由使用，即使加上版权声明和许可证也是无效的。因为 GitHub 是美国公司，必须遵守美国法律。</p>\n\n<p>除非项目明确披露哪些部分是 AI 生成的，哪些部分是人工编写的，这样可以对人工编写的部分主张版权。</p>\n\n<p>4、<a href=\"https://finance.sina.cn/7x24/2026-02-26/detail-inhpccus4563077.d.html\">僧侣机器人</a></p>\n\n<p>日本京都大学发布了一款僧侣机器人，硬件为宇树机器人，软件为佛经训练过的 ChatGPT。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022603.webp\" alt=\"\" title=\"\" /></p>\n\n<p>它步态缓慢，能做出双手合十、鞠躬等动作，能够跟你对话佛经，提供精神安慰，解答生活问题，还能主持祈福、洒净等简单法事。</p>\n\n<p>当被问到\"嗜酒困难\"时，机器人回答：\"远离损己伤身之物，持守不饮酒戒，勤修善行，方为安乐。\"又被问道\"性情急躁、难以专注\"怎么办？它建议：\"勿求速成，安住当下，逐一观照所遇之事，辨明本心所需，徐徐而理，自然澄明。\"</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022602.webp\" alt=\"\" title=\"\" /></p>\n\n<p>京都大学在声明中表示，这款机器人将来可能协助或替代人类，完成一些宗教仪式，并且也能解决由于人口老龄化和劳动力减少，佛教僧侣不足的问题。</p>\n\n<p>该机器人从3月起在京都青莲院门迹等寺庙进行为期6个月的实地测试，顺利的话，将于2027年推出商业版本，提供\"寺庙机器人租赁服务\"，帮助小型寺庙维持运营。</p>\n\n<h2>文章</h2>\n\n<p>1、<a href=\"https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/\">SWE-bench Verified 测试应该放弃</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022617.webp\" alt=\"\" title=\"\" /></p>\n\n<p>OpenAI 公司创建的 SWE-bench Verified 是目前最常用的测试基准，用来衡量模型的编码能力。</p>\n\n<p>本周，OpenAI 公司<a href=\"https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/\">提出</a>应该放弃它，因为有难以克服的缺陷，已经不准确，可以改用 ScaleAI 创建的 SWE-Bench Pro。</p>\n\n<p>2、<a href=\"https://matteolandi.net/plan-files.html\">.plan 文件</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021613.webp\" alt=\"\" title=\"\" /></p>\n\n<p>作者提出，文本文件 .plan 是最好的任务管理系统。放在云盘上，随时随地使用任何设备，都能查看和编辑。</p>\n\n<p>3、<a href=\"https://nesbitt.io/2026/02/21/whale-fall.html\">鲸落</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022616.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一鲸落，万物生。本文通过很多例子，说明一个大项目终止后，并不会真的死亡，而是化作许多小项目，四处生长。</p>\n\n<p>4、<a href=\"https://christopherkrapu.com/blog/2026/ocr-textbooks-modal-deepseek/\">40 行代码实现无服务器 OCR</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021701.webp\" alt=\"\" title=\"\" /></p>\n\n<p>本文是一篇教程，作者用云函数调用 DeepSeek OCR 模型，将 PDF 格式的数学论文转为 Markdown。</p>\n\n<p>5、<a href=\"https://popring.cn/blog/home-network-issues\">两台路由器实现局域网无缝漫游</a>（中文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022001.webp\" alt=\"\" title=\"\" /></p>\n\n<p>作者家中的两台路由器无法组 Mesh，本文介绍如何将它们组成同一个局域网，让设备可以无缝漫游。（<a href=\"https://github.com/ruanyf/weekly/issues/9042\">@popring</a> 投稿）</p>\n\n<p>6、<a href=\"https://dbushell.com/2026/02/20/visually-hidden/\">视觉隐藏的最新实现</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022103.webp\" alt=\"\" title=\"\" /></p>\n\n<p>视觉隐藏指的是，网页上看不见这个元素，但是网页阅读器能读到这个元素。本文介绍它的最新 CSS 写法。</p>\n\n<p>7、<a href=\"https://www.onuruzunismail.com/blog/the-engine-behind-the-hype\">OpenClaw 背后的引擎 Pi</a>（英文）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022407.webp\" alt=\"\" title=\"\" /></p>\n\n<p>OpenClaw 的走红，也带火了它的底层引擎 <a href=\"https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent\">Pi</a>。Pi 是一个 Coding Agent，跟 Claude Code 作用类似，但更轻量级。</p>\n\n<h2>工具</h2>\n\n<p>1、<a href=\"https://github.com/knadh/oat\">Oat</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021601.webp\" alt=\"\" title=\"\" /></p>\n\n<p>轻量级的 HTML + CSS + 极简 JS 的语义化 UI 组件库。</p>\n\n<p>2、<a href=\"https://github.com/rictic/jsonriver\">jsonriver</a></p>\n\n<p>一个 JS 库，用于解析 JSON 字符流，可以作用 JSON.parse() 的替代品，后者不支持流模式。</p>\n\n<p>3、<a href=\"https://github.com/Geek-1001/arcmark\">Arcmark</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021607.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一款开源的 macOS 桌面应用，用来管理浏览器书签，可以自动吸附在浏览器窗口的侧边。</p>\n\n<p>4、<a href=\"https://github.com/matheus-git/systemd-manager-tui\">Systemd manager tui</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021611.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一个通过终端界面管理 Systemd 服务的工具。</p>\n\n<p>5、<a href=\"https://github.com/Veirt/weathr\">weathr</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022104.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一个终端应用，用来查看指定地点的天气，以动画形式展示。</p>\n\n<p>6、<a href=\"https://github.com/blueberrycongee/CursorLens\">CursorLens</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021603.webp\" alt=\"\" title=\"\" /></p>\n\n<p>开源的录屏桌面应用，用于制作产品演示与讲解视频。（<a href=\"https://github.com/ruanyf/weekly/issues/9019\">@blueberrycongee</a> 投稿）</p>\n\n<p>7、<a href=\"https://github.com/huanglizhuo/Ketsuin\">结印</a>（Ketsuin）</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021502.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一个 Web 应用，通过火影忍者的手势输入法，摄像头识别手势进行文字输入。（<a href=\"https://github.com/ruanyf/weekly/issues/9018\">@huanglizhuo</a> 投稿）</p>\n\n<p>8、<a href=\"https://github.com/HeyPuter/puter\">Puter</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202506/bg2025061105.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一个需要自搭建、通过浏览器使用的云操作系统，参见<a href=\"https://www.xda-developers.com/this-cracking-cloud-computer-can-be-anything/\">介绍文章</a>。（<a href=\"https://github.com/ruanyf/weekly/issues/9043\">@cosmicqbit</a> 投稿）</p>\n\n<p>9、<a href=\"https://github.com/game1024/Penio\">Penio</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022102.webp\" alt=\"\" title=\"\" /></p>\n\n<p>跨平台的教学可视化桌面应用，让鼠标、键盘在屏幕可视化凸显出来。（<a href=\"https://github.com/ruanyf/weekly/issues/9046\">@game1024</a> 投稿）</p>\n\n<p>10、<a href=\"https://github.com/sjjian/openhare\">openhare</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022401.webp\" alt=\"\" title=\"\" /></p>\n\n<p>基于 Flutter 的跨平台桌面 SQL 查询工具，支持多种数据库，可以 AI 生成 SQL 查询和数据分析。（<a href=\"https://github.com/ruanyf/weekly/issues/9056\">@sjjian</a> 投稿）</p>\n\n<h2>AI 相关</h2>\n\n<p>1、<a href=\"https://github.com/GCWing/BitFun\">BitFun</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021501.webp\" alt=\"\" title=\"\" /></p>\n\n<p>开源的 AI 编程 IDE，类似于 Cursor。（<a href=\"https://github.com/ruanyf/weekly/issues/9004\">@GCWing</a> 投稿）</p>\n\n<p>2、<a href=\"https://github.com/tianrking/xcode-proxy\">Xcode Proxy</a></p>\n\n<p>一个本地的基于 Python 的服务，让 Xcode 可以调用各种第三方 AI 服务。（<a href=\"https://github.com/ruanyf/weekly/issues/9024\">@tianrking</a> 投稿）</p>\n\n<p>3、<a href=\"https://neutree.ai/projects/openapi-to-skills\">openapi-to-skills</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021901.webp\" alt=\"\" title=\"\" /></p>\n\n<p>将大型的 OpenAPI 文档转为按需加载的 Skills 结构，用来精确执行某个接口，以及减少 Token 消耗和幻觉。（<a href=\"https://github.com/ruanyf/weekly/issues/9036\">@Yuyz0112</a> 投稿）</p>\n\n<p>4、<a href=\"https://github.com/HarlonWang/TrendingAI\">Trending AI</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022201.webp\" alt=\"\" title=\"\" /></p>\n\n<p>开源手机应用，AI 总结 GitHub Trending 项目。（<a href=\"https://github.com/ruanyf/weekly/issues/9047\">@HarlonWang</a> 投稿）</p>\n\n<p>5、<a href=\"https://github.com/Thysrael/Horizon\">Horizon</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022302.webp\" alt=\"\" title=\"\" /></p>\n\n<p>一个 Python 项目，从自定义的多个信息源收集新闻，进行筛选和摘要，生成一份日报。（<a href=\"https://github.com/ruanyf/weekly/issues/9055\">@Thysrael</a> 投稿）</p>\n\n<p>6、<a href=\"https://github.com/twwch/JadeAI\">JadeAI</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022402.webp\" alt=\"\" title=\"\" /></p>\n\n<p>基于 Next.js 的智能简历生成器，支持拖拽编辑、实时 AI 优化、50 套专业模板打造简历。（<a href=\"https://github.com/ruanyf/weekly/issues/9058\">@twwch</a> 投稿）</p>\n\n<h2>资源</h2>\n\n<p>1、<a href=\"https://flashpointproject.github.io/flashpoint-database/\">Flashpoint Database</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021602.webp\" alt=\"\" title=\"\" /></p>\n\n<p>这个网站收集各种网页游戏和动画，目前有18万个游戏和3万个动画。</p>\n\n<p>2、<a href=\"https://github.com/KimYx0207/Claude-Code-Guide-Zh\">Claude Code 中文教程</a></p>\n\n<p>包含10个完整章节的 Claude Code 中文教程仓库。（<a href=\"https://github.com/ruanyf/weekly/issues/9022\">@KimYx0207</a> 投稿）</p>\n\n<p>3、<a href=\"https://www.runcell.dev/tool/true-size-map/sea-level-rise-simulator\">海平面上升模拟器</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022614.webp\" alt=\"\" title=\"\" /></p>\n\n<p>用户在网页上设定海平面的上升高度，查看地球卫星地图的变化，哪些地区被淹没。（<a href=\"https://github.com/ruanyf/weekly/issues/9070\">@ObservedObserver</a> 投稿）</p>\n\n<p>4、<a href=\"https://www.withdiode.com/\">diode</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022408.webp\" alt=\"\" title=\"\" /></p>\n\n<p>面包板在线模拟网站，在网页上用各种电子元件，可视化模拟面包板电路项目，可以查看运行效果。</p>\n\n<h2>图片</h2>\n\n<p>1、<a href=\"https://worldwideweb.cern.ch/\">世界第一个浏览器</a></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022101.webp\" alt=\"\" title=\"\" /></p>\n\n<p>1990年，欧洲核子研究中心的研究员蒂姆·伯纳斯-李（Tim Berners-Lee），发明了 WWW（互联网的网页浏览服务）。</p>\n\n<p>现在，欧洲核子研究中心的官网提供<a href=\"https://worldwideweb.cern.ch/\">世界第一个浏览器</a>（上图），作为历史体验，供用户在线体验。</p>\n\n<p>同时提供的，还有<a href=\"https://info.cern.ch/\">世界第一个网站</a>（下图）。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022601.webp\" alt=\"\" title=\"\" /></p>\n\n<p>2、<a href=\"https://www.ssp.sh/brain/computer-desk-setup-monitor-workflow/\">显示器布局</a></p>\n\n<p>程序员的工作台，往往放着1到 n 台显示器。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022410.webp\" alt=\"\" title=\"\" /></p>\n\n<p>有人总结了这些显示器的放置方法，你属于哪一种？</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022409.webp\" alt=\"\" title=\"\" /></p>\n\n<h2>文摘</h2>\n\n<p>1、<a href=\"https://www.thedrive.com/news/how-a-nasa-engineer-discovered-a-world-of-semi-truck-aerodynamics-by-accident\">卡车的空气动力学</a></p>\n\n<p>1973年，美国宇航局的一个工程师骑自行车上班，遇到一辆大卡车在身边飞驰而过，卡车的气流将他连人带车推向路边。</p>\n\n<p>大多数骑车人一定会心惊胆战，但是这个工程师立刻想到，大卡车的空气阻力非常大，所以才有这么强的气流。</p>\n\n<p>回到实验室后，他就召集了一些同事，借来一辆旧福特厢式货车做实验，怎样才能改善空气阻力，提高燃油效率。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022307.webp\" alt=\"\" title=\"\" /></p>\n\n<p>他们先在卡车外面包了一层方方正正的铝板（上图），测量基准阻力。</p>\n\n<p>然后，将车头前部的垂直角打磨成圆角（下图），再测试阻力有没有变化。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022308.webp\" alt=\"\" title=\"\" /></p>\n\n<p>接着，密封了车辆底部，使气流更顺畅地流过车身。</p>\n\n<p>经过测量，将前部四个边缘全部打磨成圆角后，阻力降低了52%；密封车底后，阻力又降低了7%。他们估计，这可以使高速公路行驶时的燃油消耗减少15%至25%。</p>\n\n<p>最后，他们又在驾驶室上方和底盘前方加装了整流罩，在车尾加装了尾翼，阻力又降低了15%。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022309.webp\" alt=\"\" title=\"\" /></p>\n\n<p>他们当时改装的样车，跟2017年特斯拉推出的 Semi 卡车很相像。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022310.webp\" alt=\"\" title=\"\" /></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026022311.webp\" alt=\"\" title=\"\" /></p>\n\n<h2>言论</h2>\n\n<p>1、</p>\n\n<p>美国最大的创业孵化器 YC 如今几乎只投人工智能领域，最新一轮它的投资组合中，高达88%的公司都基于人工智能。</p>\n\n<p>这与它曾经倡导的逆向思维背道而驰，转而倾向于稳妥的追随潮流。</p>\n\n<p>-- <a href=\"https://stanfordreview.org/is-yc-for-cowards/\">《YC 是收留懦夫吗？》</a></p>\n\n<p>2、</p>\n\n<p>我们应该帮助实体店生存下去。当一家实体店开业，它会让其他人受益，会帮助街区吸引居民和潜在顾客，最终让本地区变得有活力和适合生活。</p>\n\n<p>-- <a href=\"https://worksinprogress.co/issue/fixing-retail-with-land-value-capture/\">《零售业提升土地价值》</a></p>\n\n<p>3、</p>\n\n<p>如果 AI 主导一切，那些无法被 AI 量化的东西，不是会特立独行，而是最终会被淘汰。</p>\n\n<p>-- <a href=\"https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/\">Ben Thompson</a>，美国著名科技 UP 主</p>\n\n<p>4、</p>\n\n<p>美国企业有一个方面做得很好，那就是他们不会把时间和精力浪费在自己不擅长的事情上，而是对自己擅长的领域加倍投入。</p>\n\n<p>他们只关注收益最大化，不关注成本最小化。</p>\n\n<p>-- <a href=\"https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/\">Ben Thompson</a>，美国著名科技 UP 主</p>\n\n<p>5、</p>\n\n<p>创造力需要你有勇气去放弃确定性。</p>\n\n<p>-- <a href=\"https://newsletter.squishy.computer/p/folding-context\">埃里希·弗罗姆</a>，德国哲学家</p>\n\n<h2>往年回顾</h2>\n\n<p><a href=\"https://www.ruanyifeng.com/blog/2025/02/weekly-issue-339.html\">代币是什么</a>（#339）</p>\n\n<p><a href=\"https://www.ruanyifeng.com/blog/2024/02/weekly-issue-289.html\">宽容从何而来</a>（#289）</p>\n\n<p><a href=\"https://www.ruanyifeng.com/blog/2023/01/weekly-issue-239.html\">未来两种人会增加</a>（#239）</p>\n\n<p><a href=\"https://www.ruanyifeng.com/blog/2021/12/weekly-issue-189.html\">下一个内卷的行业</a>（#189）</p>\n\n<p>（完）</p>\n\n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;border:1px solid #d3d3d3;margin:1em;background-color:#AAD2F0;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"><h3>文档信息</h3>\n<ul>\n<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh\">创意共享3.0许可证</a>）</li>\n<li>发表日期： <abbr class=\"published\" title=\"2026-02-27T08:07:08+08:00\">2026年2月27日</abbr></li>\n\n</ul></div>        \n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;margin:1em;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"></div>\n    ",
-      "author": "阮一峰",
-      "categories": [],
-      "source": "阮一峰的网络日志",
-      "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
-    },
-    {
-      "title": "字节全家桶 Seed 2.0 + TRAE 玩转 Skill",
-      "link": "http://www.ruanyifeng.com/blog/2026/02/seed-2.0.html",
-      "pubDate": "2026-02-14T11:51:22.000Z",
-      "content": "\n        <h2>一、引言</h2>\n\n<p>国产大模型之中，字节是一个异类。</p>\n\n        <p>不像其他大模型轰轰烈烈、争夺眼球，它更低调，不引人注目。</p>\n\n<p>但是，它做的事情反倒最多，大模型、Agent、开发工具、云服务都有独立品牌，遍地开花，一个都不缺，都在高速推进。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021401.webp\" alt=\"\" title=\"\" /></p>\n\n<p>Seed 是字节的大模型团队，底下有好几条产品线，最近热得发烫的视频模型 Seedance 2.0 就是他们的产品。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021402.webp\" alt=\"\" title=\"\" /></p>\n\n<p>今天，我就用字节的全家桶 ---- 刚刚发布的 Seed 2.0 模型和开发工具 TRAE ---- 写一篇 Skill 教程。</p>\n\n<p>大家会看到，<strong>它们组合起来既强大，又简单好用，（个人用户）还免费</strong>。这也是我想写的原因，让大家知道有这个方案。</p>\n\n<p>只要十分钟，读完这篇教程，你还会明白 Skill 是什么，怎么用，以及为什么一定要用它。</p>\n\n<h2>二、Seed 2.0 简介</h2>\n\n<p>先介绍 Seed 2.0，它是 <strong>Seed 家族的基座模型</strong>。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021416.webp\" alt=\"\" title=\"\" /></p>\n\n<p>所谓\"基座模型\"（foundation model），就是一种通用大模型，<strong>可用来构建其他各种下游模型</strong>。最大的两个特征有两个：一个是规模大，另一个是泛化能力强，这样才方便构建别的模型。</p>\n\n<p>大家熟知的豆包，就是基于 Seed 模型，它也被称为\"豆包大模型\"。这次 Seed 2.0 包含 Pro、Lite、Mini 三款通用模型，以及专为开发者定制的 Seed 2.0 Code 模型。</p>\n\n<p>由于各种用途都必须支持，<strong>Seed 2.0 的通用性特别突出</strong>，比以前版本都要强。</p>\n\n<blockquote>\n  <p>1、支持多模态，各种类型的数据都能处理：文字、图表、视觉空间、运动、视频等等。</p>\n\n<p>2、具备各种 Agent 能力，方便跟企业工具对接：搜索、函数调用、工具调用、多轮指令、上下文管理等。</p>\n\n<p>3、有推理和代码能力。</p>\n</blockquote>\n\n<p>正因为最后一点，所以我们可以拿它来编程，尤其是生成前端代码。跟字节发布的 AI 编程工具 <a href=\"https://www.trae.cn/\">TRAE</a> 配合使用，效果很好，特别方便全栈开发，个人用户还免费。</p>\n\n<h2>三、TRAE 的准备工作</h2>\n\n<p><a href=\"https://www.trae.cn/ide/download\">下载安装</a> TRAE 以后，它有两种模式，左上角可以切换：IDE 模型和 SOLO 模型。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021404.webp\" alt=\"\" title=\"\" /></p>\n\n<p>选择 IDE 就可以了，SOLO 是 AI 任务的编排器，除非多个任务一起跑，否则用不到。</p>\n\n<p>然后，按下快捷键 Ctrl + U（或者 Command + U），唤出对话框，用来跟 AI 对话。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021429.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我们要构建 Web 应用，左上角就选 @Builder 开发模式。右下角的模型就选 Seed-2.0-Code。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021426.webp\" alt=\"\" title=\"\" /></p>\n\n<p>可以看到，TRAE 自带的国产开源编程模型很全，都是免费使用。</p>\n\n<p>准备工作这样就差不多了。</p>\n\n<h2>四、编程测试</h2>\n\n<p>我选了一个有点难度的任务，让 Seed 2.0 生成。</p>\n\n<p>ASCII 图形是使用字符画出来的图形，比如下图。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021407.webp\" alt=\"\" title=\"\" /></p>\n\n<p>我打算生成一个 Web 应用，用户在网页上输入 ASCII 图形，自动转成 Excalidraw 风格的手绘图形。</p>\n\n<p>提示词如下：</p>\n\n<blockquote>\n  <p>\"生成一个 Web 应用，可以将 ASCII 图形转为 Excalidraw 风格的图片，并提供下载。\"</p>\n</blockquote>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021428.webp\" alt=\"\" title=\"\" /></p>\n\n<p>模型就开始思考，将这个任务分解为四步。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021409.webp\" alt=\"\" title=\"\" /></p>\n\n<h2>五、生成结果</h2>\n\n<p>等到 Seed 2.0 代码生成完毕，TRAE 就会起一个本地服务 localhost:8080，同时打开了预览窗口。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021410.webp\" alt=\"\" title=\"\" /></p>\n\n<p>生成的结果还挺有意思，上部的 ASCII 输入框提供了四个示例：Box、Tree、Flowchart、Smiley。下面是 Tree 的样子。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021411.webp\" alt=\"\" title=\"\" /></p>\n\n<p>然后是 Excalidraw 参数的控制面板：线宽、粗糙度、弯曲度、字体大小。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021412.webp\" alt=\"\" title=\"\" /></p>\n\n<p>点击 Convert（转换）按钮，马上得到手绘风格的线条图。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021413.webp\" alt=\"\" title=\"\" /></p>\n\n<p>整个页面就是下面的样子。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021414.webp\" alt=\"\" title=\"\" /></p>\n\n<h2>六、Skill 简介</h2>\n\n<p>这个页面的设计，感觉不是很美观，还可以改进。我打算为 Seed 2.0 加入专门的前端设计技能，使其能够做出更美观的页面。</p>\n\n<p><strong>所谓 Skill（技能），就是一段专门用途的提示词，用来注入上下文。</strong></p>\n\n<p>有时候，提示词很长，每次都输入，就很麻烦。我们可以把反复用到的部分提取出来，保存在一个文件里面，方便重复使用。这种提取出来的提示词，往往是关于如何完成一种任务的详细描述，所以就称为\"技能文件\"。</p>\n\n<p>格式上，它就是一个 Markdown 文本文件，有一个 YAML 头，包含 name 字段和 description 字段。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021417.webp\" alt=\"\" title=\"\" /></p>\n\n<p>name 字段是 Skill 的名称，可以通过这个名称调用该技能；description 字段则是技能的简要描述，模型通过这段描述判断何时自动调用该技能。</p>\n\n<p>有些技能比较复杂，除了描述文件以外，还有专门的脚本文件、资源文件、模板文件等等，相当于一个代码库。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021418.webp\" alt=\"\" title=\"\" /></p>\n\n<p>这些文件里面，SKILL.md 是入口文件，模型根据它的描述，了解何时何处调用其他各个文件。</p>\n\n<p>这个库发到网上，就可以与其他人共享。如果你觉得 AI 模型处理任务时，需要用到某种技能，就可以寻找别人已经写好的 Skill 加载到模型。</p>\n\n<h2>七、前端设计技能</h2>\n\n<p>下面，我使用 Anthropic 公司共享出来的<a href=\"https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md\">前端设计技能</a>，重构一下前面的页面。它只有单独一个 Markdown 文件，可以下载下来。</p>\n\n<p>打开 TRAE 的\"设置/规则和技能\"页面。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021419.webp\" alt=\"\" title=\"\" /></p>\n\n<p>点击技能部分的\"+ 创建\"按钮，打开创建技能的窗口。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021420.webp\" alt=\"\" title=\"\" /></p>\n\n<p>你可以在这个窗口填写 SKill 内容，也可以上传现成的 Skill 文件。我选择上传，完成后，就可以看到列表里已经有 frontend-design 技能了。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021421.webp\" alt=\"\" title=\"\" /></p>\n\n<p>然后，我就用下面的提示词，唤起这个技能来重构页面。</p>\n\n<blockquote>\n  <p>\"使用 frontend-design 技能，重构这个页面，让其变得更美观易用，更有专业感。\"</p>\n</blockquote>\n\n<p>下面就是模型给出的文字描述和重构结果。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021422.webp\" alt=\"\" title=\"\" /></p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021423.webp\" alt=\"\" title=\"\" /></p>\n\n<p>页面确实感觉变得高大上了！</p>\n\n<h2>八、Vercel deploy 技能</h2>\n\n<p>最后，再看一个技能的例子。</p>\n\n<p>代码生成以后，都是在本地机器上运行，能不能发布到网上，分享给更多的人呢？</p>\n\n<p>回答是只要使用 Vercel 公司的 deploy 技能，就能一个命令将生成结果发布到 Vercel 的机器上。</p>\n\n<p>在 Vercel 官方技能的 <a href=\"https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai\">GitHub 仓库</a>里，下载 Vercel-deploy 技能的 zip 文件。</p>\n\n<p>然后，把这个 zip 文件拖到 TRAE 的技能窗口里面，就会自动加载了。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021424.webp\" alt=\"\" title=\"\" /></p>\n\n<p>输入提示词：\"将生成的网站发布到 Vercel\"。</p>\n\n<p>模型就会执行 vercel-deploy 技能，将网站发布到 Vercel，最后给出两个链接，一个是预览链接，另一个是发布到你个人账户的链接。</p>\n\n<p><img src=\"https://cdn.beekka.com/blogimg/asset/202602/bg2026021427.webp\" alt=\"\" title=\"\" /></p>\n\n<p>大家现在可以访问<a href=\"https://skill-deploy-wscj2pnyc7-agent-skill-vercel.vercel.app/\">这个链接</a>，看看网站的实际效果了。</p>\n\n<h2>九、总结</h2>\n\n<p>如果你读到这里，应该会同意我的观点，Seed 2.0 的编程能力相当不错，跟自家的编程工具 TRAE 搭配起来，好用又免费。</p>\n\n<p>Skill 则是强大的能力扩展机制，让模型变得无所不能，一定要学会使用。</p>\n\n<p>（完）</p>\n\n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;border:1px solid #d3d3d3;margin:1em;background-color:#AAD2F0;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"><h3>文档信息</h3>\n<ul>\n<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh\">创意共享3.0许可证</a>）</li>\n<li>发表日期： <abbr class=\"published\" title=\"2026-02-14T19:51:22+08:00\">2026年2月14日</abbr></li>\n\n</ul></div>        \n        <div style=\"color:#556677;line-height:160%;padding:0.3em 0.5em;margin:1em;-moz-border-radius: 10px;-webkit-border-radius:10px;border-radius: 10px;\"></div>\n    ",
       "author": "阮一峰",
       "categories": [],
       "source": "阮一峰的网络日志",
