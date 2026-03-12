@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T18:40:56.852Z",
+  "lastUpdated": "2026-03-12T19:36:37.462Z",
   "totalItems": 133,
   "items": [
     {
@@ -71,6 +71,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "忆往",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1525471",
+      "pubDate": "2026-03-12 10:40:35",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "Vibe Coding 了一个 qbittorrent 的安卓客户端,完全免费",
@@ -156,6 +166,16 @@
       "title": "视尔如荍，贻我握椒",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525443",
       "pubDate": "2026-03-12 08:52:07",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "山耕谭葛  葛的食用·葛块根的保鲜护色  保鲜防止营养流失  护色避免氧化褐变",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3638195&do=blog&id=1525441",
+      "pubDate": "2026-03-12 08:48:13",
       "content": "",
       "author": "",
       "categories": [],
@@ -420,7 +440,7 @@
     },
     {
       "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-      "link": "https://www.v2ex.com/t/1197650#reply28",
+      "link": "https://www.v2ex.com/t/1197650#reply29",
       "pubDate": "2026-03-12T02:48:43.000Z",
       "content": "\n\t\n\t",
       "author": "mcfever",
@@ -449,9 +469,29 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "科学史中的教训：第十章  混沌的蝴蝶：洛伦兹与确定性的死亡",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525505",
+      "pubDate": "2026-03-12 02:27:43",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "科学史中的教训：第九章 证明的终结：希尔伯特、哥德尔与图灵的三重奏",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525498",
       "pubDate": "2026-03-12 01:57:03",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "英文书法",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525496",
+      "pubDate": "2026-03-12 01:52:32",
       "content": "",
       "author": "",
       "categories": [],
@@ -751,46 +791,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
-      "pubDate": "2026-03-11 03:05:00",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "植树节",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525349",
-      "pubDate": "2026-03-11 03:01:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "科学史中的教训：第七章 几何的独裁：非欧几何的地下流传",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525348",
-      "pubDate": "2026-03-11 02:59:03",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
-      "pubDate": "2026-03-11 02:52:48",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "“在混沌岁月，贝壳常常引领我们发现真理” (评论: 影响人类文明的13种贝壳)",
       "link": "https://book.douban.com/review/17498602/",
       "pubDate": "Wed, 11 Mar 2026 02:47:57 GMT",
@@ -826,7 +826,7 @@
     },
     {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-      "link": "https://www.v2ex.com/t/1197269#reply98",
+      "link": "https://www.v2ex.com/t/1197269#reply100",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",

@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T18:40:56.849Z",
+  "lastUpdated": "2026-03-12T19:36:37.458Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T18:40:45.087Z",
+      "lastUpdated": "2026-03-12T19:36:26.153Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T18:40:46.251Z",
+      "lastUpdated": "2026-03-12T19:36:26.959Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T18:40:46.399Z",
+      "lastUpdated": "2026-03-12T19:36:27.131Z",
       "items": [
         {
           "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T18:40:48.273Z",
+      "lastUpdated": "2026-03-12T19:36:29.056Z",
       "items": [
         {
           "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -307,8 +307,18 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T18:40:48.478Z",
+      "lastUpdated": "2026-03-12T19:36:29.280Z",
       "items": [
+        {
+          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
+          "link": "https://www.v2ex.com/t/1197650#reply29",
+          "pubDate": "2026-03-12T02:48:43.000Z",
+          "content": "\n\t\n\t",
+          "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
         {
           "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
           "link": "https://www.v2ex.com/t/1197595#reply46",
@@ -395,16 +405,6 @@
           "pubDate": "2026-03-12T14:01:51.000Z",
           "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
           "author": "finiking",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply28",
-          "pubDate": "2026-03-12T02:48:43.000Z",
-          "content": "\n\t\n\t",
-          "author": "mcfever",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -521,7 +521,7 @@
         },
         {
           "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-          "link": "https://www.v2ex.com/t/1197269#reply98",
+          "link": "https://www.v2ex.com/t/1197269#reply100",
           "pubDate": "2026-03-11T00:57:26.000Z",
           "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
           "author": "RiverMoon",
@@ -714,32 +714,12 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T18:40:50.734Z",
+      "lastUpdated": "2026-03-12T19:36:31.087Z",
       "items": [
-        {
-          "title": "科学史中的教训：第七章 几何的独裁：非欧几何的地下流传",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525348",
-          "pubDate": "2026-03-11 02:59:03",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "海棠初开",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525406",
           "pubDate": "2026-03-11 07:04:21",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "科学史中的教训：第七章 统计的幻觉：高尔顿的优生学与皮尔逊的执念",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525350",
-          "pubDate": "2026-03-11 03:05:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -760,16 +740,6 @@
           "title": "南天竹：赤玉翠竹迎岁寒，本草良方藏叶间",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525431",
           "pubDate": "2026-03-12 07:33:52",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "临界现象二百年：第七章 昂萨格的奇袭：二维世界的精确解",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525346",
-          "pubDate": "2026-03-11 02:52:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -887,16 +857,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "植树节",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525349",
-          "pubDate": "2026-03-11 03:01:26",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "心理能量：批评的代价与表扬的魅力",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=485553&do=blog&id=1525377",
           "pubDate": "2026-03-11 04:49:03",
@@ -915,13 +875,53 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "山耕谭葛  葛的食用·葛块根的保鲜护色  保鲜防止营养流失  护色避免氧化褐变",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3638195&do=blog&id=1525441",
+          "pubDate": "2026-03-12 08:48:13",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "忆往",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1352130&do=blog&id=1525471",
+          "pubDate": "2026-03-12 10:40:35",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "英文书法",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525496",
+          "pubDate": "2026-03-12 01:52:32",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第十章  混沌的蝴蝶：洛伦兹与确定性的死亡",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525505",
+          "pubDate": "2026-03-12 02:27:43",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T18:40:53.175Z",
+      "lastUpdated": "2026-03-12T19:36:33.447Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1128,7 +1128,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T18:40:55.071Z",
+      "lastUpdated": "2026-03-12T19:36:35.474Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
@@ -1336,20 +1336,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T18:40:56.189Z",
+      "lastUpdated": "2026-03-12T19:36:36.622Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T18:40:56.400Z",
+      "lastUpdated": "2026-03-12T19:36:36.843Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T18:40:56.849Z",
+      "lastUpdated": "2026-03-12T19:36:37.458Z",
       "items": [
         {
           "title": "无题",
