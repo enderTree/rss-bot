@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T04:06:18.786Z",
+  "lastUpdated": "2026-03-12T05:43:49.283Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T04:06:03.456Z",
+      "lastUpdated": "2026-03-12T05:43:35.473Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T04:06:04.561Z",
+      "lastUpdated": "2026-03-12T05:43:36.345Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T04:06:04.707Z",
+      "lastUpdated": "2026-03-12T05:43:36.426Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 387 期）：你是领先的",
@@ -156,8 +156,21 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T04:06:06.505Z",
+      "lastUpdated": "2026-03-12T05:43:38.116Z",
       "items": [
+        {
+          "title": "不用新买 Mac mini，在 MacBook Pro 中用 PD 虚拟机部署 OpenClaw",
+          "link": "https://www.appinn.com/deploy-openclaw-parallels-macbook/",
+          "pubDate": "Thu, 12 Mar 2026 04:24:27 +0000",
+          "content": "针对 Mac 用户，最好的 OpenClaw 安装方式，还是 Mac mini。但如果没有 Mac mini，也不用着急购买，可以直接在 Mac 中虚拟一个新的 macOS 系统，就能安装了。 推荐的 OpenClaw 安装方式 单独的硬件 现有的硬件 小主机推荐贴：https://meta.app ",
+          "author": "",
+          "categories": [
+            "macOS",
+            "OpenClaw"
+          ],
+          "source": "小众软件",
+          "sourceUrl": "https://feeds.appinn.com/appinns/"
+        },
         {
           "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
           "link": "https://www.appinn.com/unzip-fast-ios-free/",
@@ -289,30 +302,17 @@
           ],
           "source": "小众软件",
           "sourceUrl": "https://feeds.appinn.com/appinns/"
-        },
-        {
-          "title": "免费无限量的 GLM-5、Qwen3.5-398B 模型，AtomGit 限时免费",
-          "link": "https://www.appinn.com/atomgit-263/",
-          "pubDate": "Fri, 06 Mar 2026 14:24:13 +0000",
-          "content": "AtomGit 发布限时活动：免费无限量的 GLM-5、Qwen3.5-398B 模型。但不知道是不是设置错误，OpenClaw 中显示上下文只有 16K 。 注册地址： 目前可免费不限量使用三种模型： 以及： 但注意：可能由于用量过大，青小蛙测试调用还一次没成功过。 不过在 OpenClaw 中验 ",
-          "author": "",
-          "categories": [
-            "AI",
-            "AtomGit"
-          ],
-          "source": "小众软件",
-          "sourceUrl": "https://feeds.appinn.com/appinns/"
         }
       ]
     },
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T04:06:06.711Z",
+      "lastUpdated": "2026-03-12T05:43:38.324Z",
       "items": [
         {
           "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-          "link": "https://www.v2ex.com/t/1197618#reply29",
+          "link": "https://www.v2ex.com/t/1197618#reply36",
           "pubDate": "2026-03-12T01:48:58.000Z",
           "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
           "author": "Newbee24",
@@ -321,11 +321,71 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AI 算不算天道规则变更，现在是散修程序员们的末法时代，所以散修程序员应当变法，寻求出路。那些大公司大宗门还有底子可以继续支撑，那我等散修如何是好？",
-          "link": "https://www.v2ex.com/t/1197674#reply4",
-          "pubDate": "2026-03-12T03:47:09.000Z",
-          "content": "\n\t\n\t",
-          "author": "go522000",
+          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
+          "link": "https://www.v2ex.com/t/1197381#reply67",
+          "pubDate": "2026-03-11T04:16:53.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
+          "author": "v2exgo",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "ARC 浏览器大家还在用么？有啥替换的对象",
+          "link": "https://www.v2ex.com/t/1197269#reply96",
+          "pubDate": "2026-03-11T00:57:26.000Z",
+          "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
+          "author": "RiverMoon",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "opencode 下， deepseek 有时候比较蠢",
+          "link": "https://www.v2ex.com/t/1197641#reply12",
+          "pubDate": "2026-03-12T02:39:40.000Z",
+          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
+          "author": "nativeBoy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有在玩 openclaw 的朋友吗？",
+          "link": "https://www.v2ex.com/t/1197699#reply0",
+          "pubDate": "2026-03-12T05:13:01.000Z",
+          "content": "\n\t<p>有在玩 openclaw 的朋友吗？我为 StarDots 发布了一个 skill ，欢迎来体验呀。  </p>\n<p><img alt=\"stardots-backup-skill.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.stardots.io/keepchen/stardots-backup-skill.png\"/></p>\n<p>skill 发布地址：\n<a href=\"https://clawhub.ai/keepchen/stardots-backup-skill\" rel=\"nofollow\">https://clawhub.ai/keepchen/stardots-backup-skill</a></p>\n<p>博客地址：\n<a href=\"https://stardots.io/blog/stardots-ai-agent-skill-supported-now/\" rel=\"nofollow\">https://stardots.io/blog/stardots-ai-agent-skill-supported-now/</a></p>\n\n\t",
+          "author": "wogogoing",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "话说我用中转站的话会泄露 api 吗？",
+          "link": "https://www.v2ex.com/t/1197589#reply23",
+          "pubDate": "2026-03-12T00:08:49.000Z",
+          "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
+          "author": "tina2998",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "[开源] D-NET v2.0 发布 —— 支持 DDNS 管理功能",
+          "link": "https://www.v2ex.com/t/1197689#reply0",
+          "pubDate": "2026-03-12T04:37:15.000Z",
+          "content": "\n\t<p>最近发布了 v2.0 ，主要带来了完整的 DDNS 功能，DCDN 和 DDNS 全集成了，分享给有需求的朋友。</p>\n<p><strong>项目地址：</strong> <a href=\"https://github.com/cxbdasheng/dnet\" rel=\"nofollow\">https://github.com/cxbdasheng/dnet</a> 欢迎提 Issue 或 PR 。如果遇到问题请告知，如果觉得有用，欢迎给个 Star ⭐，你的 Star ⭐，将使这个项目更优秀。</p>\n<hr/>\n<p><strong>v2.0 新增：DDNS 完整支持</strong></p>\n<p>这次 v2.0 的核心更新就是把 DDNS 功能做全了：</p>\n<ul>\n<li><strong>支持的 DNS 服务商：</strong> 阿里云、腾讯云、百度云、华为云、Cloudflare</li>\n<li><strong>支持的记录类型：</strong> <strong>A / AAAA / CNAME / TXT</strong>（其他 DDNS 工具没有哦，可无缝配合 DCDN 功能）</li>\n<li><strong>智能缓存：</strong> 用 <code>-ddnsCacheTimes</code> 控制强制同步频率，避免不必要的 API 调用</li>\n</ul>\n<hr/>\n<p><strong>其他功能</strong></p>\n<p>除了 DDNS ，工具本身还有：</p>\n<ul>\n<li><strong>动态 CDN 管理 (DCDN)：</strong> 支持阿里云（ CDN/DCDN/ESA ）、腾讯云（ CDN/EdgeOne ）、百度云、Cloudflare —— IP 变了自动更新回源 IP</li>\n<li><strong>Web 管理界面：</strong> 浏览器打开就能配，不用手撸 YAML</li>\n<li><strong>Webhook 通知：</strong> IP 变更时推送到 Server 酱、钉钉机器人等</li>\n<li><strong>Docker 支持：</strong> 一行命令跑起来</li>\n</ul>\n<hr/>\n<p><strong>后续规划</strong></p>\n<ul>\n<li><strong>DCDN 扩展：</strong> 接入又拍云（可白嫖）、七牛云、华为云 等 CDN 多厂商支持</li>\n<li><strong>DDNS 扩展：</strong> 持续接入更多 DNS 云厂商</li>\n<li><strong>内网穿透（ V3 ）：</strong> 从外网访问内网服务，规划中</li>\n</ul>\n<hr/>\n<p>更多配置技巧和使用场景见 <a href=\"https://github.com/cxbdasheng/dnet/wiki/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5\" rel=\"nofollow\">最佳实践</a>。</p>\n\n\t",
+          "author": "cxbdasheng",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+          "link": "https://www.v2ex.com/t/1197429#reply66",
+          "pubDate": "2026-03-11T06:36:16.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+          "author": "TheBlind",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -341,61 +401,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply62",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
-          "link": "https://www.v2ex.com/t/1197381#reply64",
-          "pubDate": "2026-03-11T04:16:53.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/Y9jY5NE.png\"/> </p>\n<p>最近站点做起来了，有人已经开始找我买用户数据了，这个很容易闹成法律纠纷，我这边果断还是拒绝了</p>\n<p>之前的帖子里面讲了，模型蒸馏产业链、以及用中转站的注意事项\n<a href=\"https://cn.v2ex.com/t/1196011\" rel=\"nofollow\">https://cn.v2ex.com/t/1196011</a></p>\n<p>大家还是使用中转的时候 还是要多多留意，关键 key 跟私钥 一定要放置到 agent 不能读取的目录里面，防止被坏人利用</p>\n\n\t",
-          "author": "v2exgo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "roo code+deepseek，缓存命中很便宜！",
           "link": "https://www.v2ex.com/t/1197609#reply11",
           "pubDate": "2026-03-12T01:36:32.000Z",
           "content": "\n\t我让 Roo code 从 0 规划写了个小项目，考虑到 deepseek 便宜就用官方的 deepseek ，结果用了 6M tokens 才完成，一看花费才 2 块钱！<br />看了一下，6M tokens 几乎都命中了缓存，所以便宜的很<br /><br />相同场景，用中转站没有缓存命中，贵的要死！余额减得很快<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/BmC5Qvc.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/BmC5Qvc.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/Mv3laUI.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/Mv3laUI.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />deepseek 官方价格链接： <a target=\"_blank\" href=\"https://api-docs.deepseek.com/zh-cn/quick_start/pricing/\" rel=\"nofollow noopener\">https://api-docs.deepseek.com/zh-cn/quick_start/pricing/</a>\n\t",
           "author": "nativeBoy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "opencode 下， deepseek 有时候比较蠢",
-          "link": "https://www.v2ex.com/t/1197641#reply3",
-          "pubDate": "2026-03-12T02:39:40.000Z",
-          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-          "author": "nativeBoy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "话说我用中转站的话会泄露 api 吗？",
-          "link": "https://www.v2ex.com/t/1197589#reply21",
-          "pubDate": "2026-03-12T00:08:49.000Z",
-          "content": "\n\t<p>项目里有一些 api key,是绑定信用卡计费的，如果用中转站是不是有风险泄露？可以避免吗？用的 Claude Code</p>\n\n\t",
-          "author": "tina2998",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "ARC 浏览器大家还在用么？有啥替换的对象",
-          "link": "https://www.v2ex.com/t/1197269#reply92",
-          "pubDate": "2026-03-11T00:57:26.000Z",
-          "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
-          "author": "RiverMoon",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -422,7 +432,7 @@
         },
         {
           "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply1",
+          "link": "https://www.v2ex.com/t/1197650#reply4",
           "pubDate": "2026-03-12T02:48:43.000Z",
           "content": "\n\t\n\t",
           "author": "mcfever",
@@ -551,6 +561,26 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "国产 coding plan 哪个最推荐？",
+          "link": "https://www.v2ex.com/t/1197191#reply40",
+          "pubDate": "2026-03-10T10:04:25.000Z",
+          "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
+          "author": "westisc",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "自建 Emby / MoviePilot 用户安全提醒",
+          "link": "https://www.v2ex.com/t/1197485#reply3",
+          "pubDate": "2026-03-11T09:18:58.000Z",
+          "content": "\n\t<p>最近在排查服务器被入侵事件时发现，部分使用 Docker <strong>host 网络模式</strong>部署的 MoviePilot 可能会意外暴露内部接口，存在被利用的风险。</p>\n<p>如果你是自建 Emby 并使用 <strong>MoviePilot</strong> 管理媒体库，建议检查一下自己的服务器：</p>\n<ol>\n<li>\n<p>在浏览器访问<br/>\n<code>http://服务器 IP:38379/version</code></p>\n</li>\n<li>\n<p>如果可以直接返回版本信息，说明该接口已经对外暴露，存在被扫描和利用的风险。</p>\n</li>\n</ol>\n<p>建议处理方式：</p>\n<ul>\n<li>尽快更新 <strong>MoviePilot</strong> 到最新版本 <strong>v2.9.14</strong> </li>\n<li>尽量避免使用 <code>host</code> 网络模式直接暴露服务  </li>\n</ul>\n<p>之前已有服务器因为该接口暴露被利用执行恶意脚本，最终被植入挖矿程序。</p>\n<p>详细分析过程可以参考：<br/>\n<a href=\"https://blog.v2.games/archives/server-attack-analysis\" rel=\"nofollow\">https://blog.v2.games/archives/server-attack-analysis</a></p>\n<p>建议大家尽快自查，避免服务器被入侵。</p>\n\n\t",
+          "author": "ziwiwiz",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "找一个微信群机器人 API 服务平台，愿付费",
           "link": "https://www.v2ex.com/t/1197399#reply13",
           "pubDate": "2026-03-11T05:32:03.000Z",
@@ -561,18 +591,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "国产 coding plan 哪个最推荐？",
-          "link": "https://www.v2ex.com/t/1197191#reply39",
-          "pubDate": "2026-03-10T10:04:25.000Z",
-          "content": "\n\t<p>原本要高强度跟进 ai coding ，却被模型使用限制到了，目前中转站使用体验不佳，想尝试使用国产模型，目前看到有很多厂商推出了 coding plan ，有佬们推荐哪一个更优势不。\n以下内容来自知乎</p>\n<p>单模型阵营（专卖店）\n平台\t核心模型\t特色\t最低月费\nMiniMax\tM2.5 (10B 参数)\t极速 100TPS ，SWE-bench 80.2 分\t29 元\n智谱 GLM\tGLM-5 (754B 参数)\t推理能力最强，但刚涨价 30%+\t49 元\nKimi\tK2.5\t视觉编程、多智能体协作\t49 元</p>\n<p>全家桶阵营（超市）\n一个套餐能用遍多模型，灵活性高</p>\n<p>平台\t包含模型\t最低月费\n阿里云百炼\tQwen 、MiniMax 、GLM 、Kimi 等 8+模型\t40 元（首月 7.9 元）\n火山方舟\t豆包、GLM 、DeepSeek 、Kimi 等 4 模型\t40 元（首月 9.9 元）</p>\n\n\t",
-          "author": "westisc",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "大部分模型都不支持结构化输出",
-          "link": "https://www.v2ex.com/t/1197476#reply12",
+          "link": "https://www.v2ex.com/t/1197476#reply14",
           "pubDate": "2026-03-11T08:57:49.000Z",
           "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
           "author": "iSNN",
@@ -591,16 +611,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "自建 Emby / MoviePilot 用户安全提醒",
-          "link": "https://www.v2ex.com/t/1197485#reply2",
-          "pubDate": "2026-03-11T09:18:58.000Z",
-          "content": "\n\t<p>最近在排查服务器被入侵事件时发现，部分使用 Docker <strong>host 网络模式</strong>部署的 MoviePilot 可能会意外暴露内部接口，存在被利用的风险。</p>\n<p>如果你是自建 Emby 并使用 <strong>MoviePilot</strong> 管理媒体库，建议检查一下自己的服务器：</p>\n<ol>\n<li>\n<p>在浏览器访问<br/>\n<code>http://服务器 IP:38379/version</code></p>\n</li>\n<li>\n<p>如果可以直接返回版本信息，说明该接口已经对外暴露，存在被扫描和利用的风险。</p>\n</li>\n</ol>\n<p>建议处理方式：</p>\n<ul>\n<li>尽快更新 <strong>MoviePilot</strong> 到最新版本 <strong>v2.9.14</strong> </li>\n<li>尽量避免使用 <code>host</code> 网络模式直接暴露服务  </li>\n</ul>\n<p>之前已有服务器因为该接口暴露被利用执行恶意脚本，最终被植入挖矿程序。</p>\n<p>详细分析过程可以参考：<br/>\n<a href=\"https://blog.v2.games/archives/server-attack-analysis\" rel=\"nofollow\">https://blog.v2.games/archives/server-attack-analysis</a></p>\n<p>建议大家尽快自查，避免服务器被入侵。</p>\n\n\t",
-          "author": "ziwiwiz",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "企业微信的大哥们，你们发 openclaw 插件版本规则搞错了",
           "link": "https://www.v2ex.com/t/1197469#reply2",
           "pubDate": "2026-03-11T08:34:26.000Z",
@@ -612,7 +622,7 @@
         },
         {
           "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
-          "link": "https://www.v2ex.com/t/1197438#reply1",
+          "link": "https://www.v2ex.com/t/1197438#reply2",
           "pubDate": "2026-03-11T07:05:00.000Z",
           "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
           "author": "CHTuring",
@@ -681,28 +691,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "现在主流的开发一个 agent 的方式是怎样的",
-          "link": "https://www.v2ex.com/t/1197423#reply0",
-          "pubDate": "2026-03-11T06:23:36.000Z",
-          "content": "\n\t<p>是编码实现，还是用 dify,coze 这种低代码平台实现，还是？有没有这种集合网站，可以找到各种各样的智能体的集合网站？</p>\n\n\t",
-          "author": "weishao666",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "CASA Tier 2 安全报告也太贵了",
-          "link": "https://www.v2ex.com/t/1197414#reply0",
-          "pubDate": "2026-03-11T06:04:27.000Z",
-          "content": "\n\t迫于自己有太多的邮箱账号，让 AI 用 Go 帮我写了一个 web 邮件客户端，想着搭建一个公网展示提供一下服务，甚至考虑以后卖服务。<br /><br />去 Google Cloud 申请了 API 。 几经周转到了最后一步， 结果 Google 要求提供  CASA Tier 2 级的安全报告， 我看了一下 要 500 刀，直接劝退\n\t",
-          "author": "Ansen",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-          "link": "https://www.v2ex.com/t/1196011#reply155",
+          "link": "https://www.v2ex.com/t/1196011#reply156",
           "pubDate": "2026-03-05T04:33:26.000Z",
           "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
           "author": "v2exgo",
@@ -711,101 +701,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "使用 AI 编程的时候，配置文件里的敏感数据会被读取上传吗",
-          "link": "https://www.v2ex.com/t/1197468#reply2",
-          "pubDate": "2026-03-11T08:25:29.000Z",
-          "content": "\n\t比如数据库连接的配置文件在 json 文件里面，也会被 AI 工具读取然后上传上去分析的吗？\n\t",
-          "author": "yagamil",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "刚发现字节火山的 coding plan 添加新模型了， doubao-seed-2-0-pro-260215",
-          "link": "https://www.v2ex.com/t/1197395#reply0",
-          "pubDate": "2026-03-11T05:22:15.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/eDytf2A.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/eDytf2A.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 当初吹的特厉害超越 gpt5.2 ，但是我感觉和阿里百炼的 Qwen 3.5 plus 好像差不多\n\t",
-          "author": "lynn1su",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用 ThreeJs 就能实现这样的效果，非常有交互感",
-          "link": "https://www.v2ex.com/t/1197305#reply4",
-          "pubDate": "2026-03-11T01:55:54.000Z",
-          "content": "\n\t<p>用 ThreeJs 就能实现这样的效果，非常有交互感，争取早点给我的 <a href=\"https://github.com/xun082/DocFlow\" rel=\"nofollow\">协同文档</a> 的项目给用上</p>\n<p><img alt=\"20260311095414\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095414.png\"/></p>\n<p><img alt=\"20260311095433\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://raw.githubusercontent.com/xun082/md/main/blogs.images20260311095433.png\"/></p>\n\n\t",
-          "author": "moment082",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "vibecoding 产物 MailAggregator（邮件聚合器）",
-          "link": "https://www.v2ex.com/t/1197393#reply0",
-          "pubDate": "2026-03-11T05:11:19.000Z",
-          "content": "\n\t<p>花了几天就做出来了，感觉 claude code 真的太强了。</p>\n<p>项目地址： <a href=\"https://github.com/wzxklm/MailAggregator\" rel=\"nofollow\">https://github.com/wzxklm/MailAggregator</a></p>\n<p>主要功能就是邮件聚合，主流邮箱都能用，然后还带有 2fa 的附加功能。</p>\n<p><img alt=\"YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/YttkzXLZKfODhG4HmrYQP8VofwDboiY1.webp\"/></p>\n<p><img alt=\"EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.nodeimage.com/i/EXAlM6aZq9AvKKh3IUYXMFBxE8Yzg2Tr.webp\"/></p>\n\n\t",
-          "author": "cowiejulewbfwo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Openclaw 开发速度太快了， 1 分钟一个 feature",
-          "link": "https://www.v2ex.com/t/1197168#reply41",
-          "pubDate": "2026-03-10T08:11:30.000Z",
-          "content": "\n\t<p>我发现时间都花在调教上了，只要 SOUL 、MEMORY 、AGENT 调教好了，真挺好用。</p>\n<h3>discord 聊天截图</h3>\n<p><img alt=\"discord\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/xUxUiJ4.png\"/></p>\n<h3>App 截图</h3>\n<p><img alt=\"App screenshot\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/VoH7vA3.jpeg\"/></p>\n\n\t",
-          "author": "zitup",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Dune - 一个 local-first 自带 Slack 式协作的 AI Agent 团队，开源了",
-          "link": "https://www.v2ex.com/t/1197266#reply2",
-          "pubDate": "2026-03-11T00:50:38.000Z",
-          "content": "\n\t<p>最近做了个开源项目 Dune ，分享一下。\n简单来说，就是你可以拉起一个 AI Agent 团队，Agent 数量随意，每个有自己的角色，跑在 BoxLite 提供的独立沙箱里。它们在群里沟通协作，跟真人团队一样干活。\n比如我现在用它搭了一个工程团队：Runtime 工程师、SDK 开发、平台工程师、QA 、文档管理，各司其职，在各自的沙箱里写代码、跑测试，遇到问题就在群里讨论。\nGitHub：<a href=\"http://github.com/dorianzheng/dune\" rel=\"nofollow\">github.com/dorianzheng/dune</a>\n欢迎试玩，欢迎 Star ，有问题随时交流。</p>\n<p><img alt=\"Dune workspace with the sidebar, a release channel conversation, and Dorian's skills panel open\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://imgur.com/a/NCUAuSY\"/>\n<img alt=\"Dune workspace with the sidebar, a release channel conversation, and Dorian's skills panel open\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://imgur.com/cV6OIEP\"/></p>\n\n\t",
-          "author": "d0r1an",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "wifi 摄像头本地运行目标检测算法，把有目标的视频流传输到服务器处理。",
-          "link": "https://www.v2ex.com/t/1197317#reply4",
-          "pubDate": "2026-03-11T02:14:56.000Z",
-          "content": "\n\t<p>想实现这个功能，有啥好的解决方案吗？</p>\n<p>wifi 摄像头本地运行目标检测算法，把有目标的视频流传输到服务器处理。</p>\n\n\t",
-          "author": "OceanRs",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Codex APP 中 Flutter 里 Ai 执行 Shell 命令会卡死",
-          "link": "https://www.v2ex.com/t/1197363#reply0",
-          "pubDate": "2026-03-11T03:39:03.000Z",
-          "content": "\n\t<p>大家有用 Codex 的 Windows APP 开发 Flutter 吗？\nShell 里 flutter 相关耗时长的命令似乎一直会卡死。\n还有一个线程里上下文多了后会显示“正在自动压缩背景信息”，报异常，只能开一个新线程使用。\n挺影响使用的，感觉类似于这个 issue： <a href=\"https://github.com/openai/codex/issues/14220\" rel=\"nofollow\">https://github.com/openai/codex/issues/14220</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/t73YBIv.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/BKYhp6p.png\"/></p>\n\n\t",
-          "author": "PtAu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "能用 AI 开发一个开源 claude code 工具吗？",
-          "link": "https://www.v2ex.com/t/1197361#reply7",
-          "pubDate": "2026-03-11T03:35:19.000Z",
-          "content": "\n\tclaude code 配置第三方模型不方便。\n\t",
-          "author": "wsseo",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "🔄 分享一个 AI 自动化神器： acp-loop",
-          "link": "https://www.v2ex.com/t/1197330#reply0",
-          "pubDate": "2026-03-11T02:51:48.000Z",
-          "content": "\n\t<p>作为程序员，经常需要重复检查一些东西：</p>\n<ul>\n<li>\n<p>部署成功了没？</p>\n</li>\n<li>\n<p>有没有新的 PR 要 review ？</p>\n</li>\n<li>\n<p>今天的 issue 总结一下？</p>\n</li>\n</ul>\n<p>以前要么手动查，要么写脚本+cron ，很麻烦 😮‍💨</p>\n<p>现在用 acp-loop ，一行命令搞定：</p>\n<p>acp-loop --interval 5m \"检查部署状态\"</p>\n<p>acp-loop --cron \"0 9 * * *\" \"总结昨晚的 GitHub issues\"</p>\n<p>它会定时把任务发给 AI agent 执行，支持 Claude Code 、Codex 、Gemini CLI</p>\n<p>等各种 agent 🤖</p>\n<p>灵感来自 Claude Code 的 /loop 命令，但做成了独立工具，不挑 agent~（主要是 claude 的/loop 一开始有 bug)</p>\n<p>GitHub: <a href=\"http://github.com/femto/acp-loop\" rel=\"nofollow\">github.com/femto/acp-loop</a></p>\n<p>npm install -g acp-loop</p>\n<p>#AI #程序员 #效率工具 #自动化 #ClaudeCode #开源</p>\n\n\t",
-          "author": "femto",
+          "title": "现在主流的开发一个 agent 的方式是怎样的",
+          "link": "https://www.v2ex.com/t/1197423#reply0",
+          "pubDate": "2026-03-11T06:23:36.000Z",
+          "content": "\n\t<p>是编码实现，还是用 dify,coze 这种低代码平台实现，还是？有没有这种集合网站，可以找到各种各样的智能体的集合网站？</p>\n\n\t",
+          "author": "weishao666",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -815,7 +715,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T04:06:09.013Z",
+      "lastUpdated": "2026-03-12T05:43:40.764Z",
       "items": [
         {
           "title": "跨界研究成功的科学家",
@@ -948,16 +848,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "金婚家宴",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=69051&do=blog&id=1525268",
-          "pubDate": "2026-03-11 12:12:08",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "“拆弹专家”——邵峰院士与细胞焦亡的发现",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=279293&do=blog&id=1525272",
           "pubDate": "2026-03-11 04:50:43",
@@ -988,16 +878,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "华盛顿州加班豁免薪资门槛提高：对大学图书馆管理的新挑战",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3316383&do=blog&id=1525270",
-          "pubDate": "2026-03-11 12:59:03",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "AI时代，为什么我们还要沉浸式读书、办线下读书会、读中华经典？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525282",
           "pubDate": "2026-03-11 08:13:08",
@@ -1016,13 +896,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "II型糖尿病：从“终身伴随”到“力争逆转”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525331",
+          "pubDate": "2026-03-11 12:22:48",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "心理能量：批评的代价与表扬的魅力",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=485553&do=blog&id=1525377",
+          "pubDate": "2026-03-11 04:49:03",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T04:06:12.049Z",
+      "lastUpdated": "2026-03-12T05:43:44.205Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1229,7 +1129,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T04:06:15.220Z",
+      "lastUpdated": "2026-03-12T05:43:47.437Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗 (评论: 非穷尽列举)",
@@ -1306,6 +1206,16 @@
           "link": "https://movie.douban.com/review/17495913/",
           "pubDate": "Mon, 09 Mar 2026 04:22:51 GMT",
           "content": "\nEnlightening评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;f2fb8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;da...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "再过几天，这“骗子”会成为新一届奥斯卡影帝么？ (评论: 至尊马蒂)",
+          "link": "https://movie.douban.com/review/17499202/",
+          "pubDate": "Wed, 11 Mar 2026 11:57:55 GMT",
+          "content": "\n浑沌不开窍评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;cj0a7&#34;,&#34;text&#34;:&#34;“盖茨比信仰那盏绿灯，那绿灯正像高潮欢快的未来，在我们眼前一年年退去。它现在躲开了我们，但没关系，明天我们会跑得更快，把手臂伸得更长...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1420,16 +1330,6 @@
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "重返寂静岭|早知道……就不看了 (评论: 重返寂静岭)",
-          "link": "https://movie.douban.com/review/17499801/",
-          "pubDate": "Thu, 12 Mar 2026 00:09:06 GMT",
-          "content": "\neflysky评论: 重返寂静岭 (https://movie.douban.com/subject/34965089/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;310s1&#34;,&#34;text&#34;:&#34; \\n&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
         }
       ]
     },
@@ -1437,20 +1337,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T04:06:16.655Z",
+      "lastUpdated": "2026-03-12T05:43:48.699Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T04:06:16.962Z",
+      "lastUpdated": "2026-03-12T05:43:48.981Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T04:06:18.786Z",
+      "lastUpdated": "2026-03-12T05:43:49.282Z",
       "items": [
         {
           "title": "无题",
