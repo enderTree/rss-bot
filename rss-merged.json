@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-12T16:51:35.024Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-12T17:42:29.988Z",
+  "totalItems": 133,
   "items": [
     {
       "title": "小米这个域名是用来检测代理的吗 device-proxy.sec.xiaomi.com",
@@ -34,7 +34,7 @@
     },
     {
       "title": "文本加密工具“与熊论道”算法已被成功逆向破解",
-      "link": "https://www.v2ex.com/t/1197847#reply2",
+      "link": "https://www.v2ex.com/t/1197847#reply4",
       "pubDate": "2026-03-12T14:27:32.000Z",
       "content": "\n\t<p>文本加密工具“熊曰加密”(与熊论道)已被通过<strong>已知明文攻击（ KPA ）</strong>完全破解。</p>\n<p>与熊论道加密网站因故于 2025 年上旬下线，由于其加密算法不开源，导致大量既有密文无法解密。</p>\n<p>经过逆向分析，其并未采用任何高级加密算法，主要基于 Base91 编码算法，字符替换，外加压缩和混淆处理，具体请见 PoC 。</p>\n<p>此次逆向工作解除了该工具在加密时对中心化服务端的依赖，为早期使用该加密算法生成的历史数据提供了一种长期可用的解密与归档途径。</p>\n<p>萌研社 2020 年更新以来加密出的所有熊曰密文现已<strong>允许被解密</strong>。</p>\n<p>此为魔曰项目的原创逆向研究，原创发布。</p>\n<hr/>\n<h3>Poc 代码 / 详细解释 / 快速解密 参见</h3>\n<h3><a href=\"https://github.com/SheepChef/Abracadabra/issues/123\" rel=\"nofollow\">https://github.com/SheepChef/Abracadabra/issues/123</a></h3>\n\n\t",
       "author": "SheepChef",
@@ -556,16 +556,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "用 Claude Code 写了个免费下载 ins 媒体的小工具",
-      "link": "https://www.v2ex.com/t/1197532#reply0",
-      "pubDate": "2026-03-11T12:57:42.000Z",
-      "content": "\n\t<p>网站： <a href=\"https://www.inssnap.com\" rel=\"nofollow\">https://www.inssnap.com</a>\n工具：Claude Code opus 4.6\n功能：下载 instagram 图片、视频、Reels 等，支持 10 国语言，目前每天限制 3 次</p>\n<p>感受：opus 4.6 实在是太美妙了，基本上不跟我说废话，各种 plan 和 coding 效果很棒，就是太贵了</p>\n\n\t",
-      "author": "loulijun",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "不能只有我们在觉醒 (评论: 非穷尽列举)",
       "link": "https://movie.douban.com/review/17499222/",
       "pubDate": "Wed, 11 Mar 2026 12:15:08 GMT",
@@ -574,16 +564,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "Claude Code 还可以用哪家模型？",
-      "link": "https://www.v2ex.com/t/1197520#reply3",
-      "pubDate": "2026-03-11T12:08:27.000Z",
-      "content": "\n\t<p>除了自家的模型，还能用哪家的？</p>\n\n\t",
-      "author": "tina2998",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "C#的 LINQ 查询是不是所有编程语言中最优雅的？为什么其它编程语言不学习？写起来太爽了",
@@ -646,14 +626,14 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "为了让 Claude Code 不再重复踩坑，我给它补了一层经验系统",
-      "link": "https://www.v2ex.com/t/1197498#reply11",
-      "pubDate": "2026-03-11T10:07:45.000Z",
-      "content": "\n\t<blockquote>\n<p>编程 Agent 会分析/解决问题，但不会积累经验。它们有印象，但没有笔记。RadioHeader 给 Claude Code 补上了这一层。</p>\n</blockquote>\n<hr/>\n<h2>先说个真事儿</h2>\n<p>我用 Claude Code 做 iOS 的时候，遇到过一次 app 启动白屏几十秒的问题。Claude 一路查日志、翻文件、试各种排查，折腾了很久都没定位到。最后还是我想起来，另一个项目以前也出过差不多的事，让它去翻那个项目的旧记录，才找到根因——Xcode 的 scheme 设置问题。</p>\n<p>那一刻我就很确定一件事：像 Claude Code 这样的编程 Agent ，分析问题、写代码都很强，但它们不会共享项目经验。后来 Claude Code 虽然也加了 memory ，但本质问题没变——它记得方向，记不住关键细节，更别说跨项目复用了。</p>\n<p>项目之间的记忆完全隔离，就意味着项目 A 踩过的坑，项目 B 根本不知道。如果我自己记得”我好像遇到过这个问题”，还能手动指路，要是我也忘了呢？</p>\n<p>现有的工具几乎都是在做\"规则\"层面的事。规则当然有用，但规则无很难达到“这个坑我真的踩过，而且已经知道怎么修\"这种程度。做硬件产品的时候我也经常遇到这类\"认知型经验\"——不是文档里写了你就会的，得自己撞上、解决了，才真正印象深刻。</p>\n<p>在没找到做编程 agent”经验\"层面的工具的情况下，我自己做了一个。</p>\n<hr/>\n<p>RadioHeader 不是一开始设计好的，是被真实问题一步步逼出来的。</p>\n<h2>第一步：让 Agent 学会记笔记</h2>\n<p>起点是单项目内的记忆缺失。Claude Code 在一个项目里工作久了，早期的经验就开始模糊。它记得\"之前遇到过类似问题\"，但记不住具体怎么解决的。</p>\n<p>换句话说：<strong>Agent 需要的是笔记，不是印象。</strong> 自带的 memory 记的是大致印象，而能被精确搜索到的结构化笔记才有复用价值。</p>\n<p>我的想法很朴素：让 Claude 每次解决完问题后，主动把经验记下来。具体分两种：一种是<strong>经验条目</strong>，写进 <code>memory/</code> 目录——根因、修法、注意事项，按主题组织，方便以后检索；另一种是<strong>任务日志</strong>，写进 <code>logs/</code> 目录——以一个问题的解决为单位，记录背景、过程、结论，保留完整上下文。日志的文件名经过设计：<code>日期-主题-撰写者</code>，Agent 和人类都要署名，标清楚方便追溯。起初我会在关键节点手动提醒 Claude\"同步一下项目信息\"，后来逐渐做成了自动化。</p>\n<p>我把这个机制叫<strong>经验回流</strong>——完成一个任务后，经验自动流回记忆系统。每次修完 bug 、做了架构决策、踩了非直觉的坑，Claude 都把经验写回去。用 Claude Code 的 hook 机制让这个过程自动：PostToolUse hook 在写入 memory 时触发检查，Stop hook 在会话结束时提醒有没有新经验遗漏。</p>\n<p>同一个项目里，以前要重新排查的问题，现在翻笔记就能解决。</p>\n<p>但很快就遇到了开头那个场景：项目 A 的笔记，项目 B 搜不到。</p>\n<h2>第二步：打通项目之间的壁垒</h2>\n<p>于是我在所有项目之上建了一个全局经验中枢：<code>~/.claude/radioheader/</code>。</p>\n<p>名字的由来——我喜欢 Radiohead 这个乐队，而这个全局中枢又像一个信号塔，各个项目需要的时候就从里面接收信息。RadioHeader ，就这么出现了。</p>\n<p>架构变成了三层：</p>\n<pre><code>┌─────────────────────────────────┐\n│  RadioHeader （全局经验中枢）      │  ← 所有项目共享\n├─────────────────────────────────┤\n│  项目 memory/（项目专属记忆）     │  ← 当前项目\n├─────────────────────────────────┤\n│  会话上下文（临时）               │  ← 当前对话\n└─────────────────────────────────┘\n</code></pre>\n<p>每次经验回流时，Claude 会顺手判断一下：这条经验是不是跨项目通用的？如果是，写入全局层，标注来源项目。之后任何项目遇到类似问题，先搜这里。有了 RadioHeader 这个信号塔的隐喻之后，我把经验回流叫做 <strong>Echo</strong>（回波）——经验像信号的回波一样，从项目返回信号塔。</p>\n<p>装了之后再遇到白屏问题：</p>\n<pre><code>你：App 启动白屏 10 秒以上\n\nClaude：RadioHeader 中有来自 ProjectA 的经验：\n        \"Xcode scheme 的 Launch 配置导致 iOS app 启动白屏，\n        检查 scheme 设置中的相关选项……\"\n\n        验证一下是否适用…… ✓ 同样的模式。正在应用修复。\n</code></pre>\n<p>不用我手动指路了。<strong>同一类问题从第二次开始，解决时间从分钟级掉到秒级。不是 AI 变聪明了，是答案已经在那里了。</strong></p>\n<h3>精炼：从项目经验到通用知识</h3>\n<p>跨项目共享之后冒出一个新问题：经验一旦放到全局以后，原始条目里保留的项目上下文太多，搜索噪音和 token 消耗都上来了。比如一条经验写着 <code>[来源:DarkWriting] iCloud I/O 阻塞主线程</code>，另一个项目用的是 CoreData 不是 iCloud——但根因相同。项目名和具体技术细节反而成了搜索障碍。</p>\n<p>于是我加了一层精炼：<strong>短波（ Shortwave ）</strong>——去掉项目名、文件路径、框架细节，只保留通用知识。这不光是为了降噪，也是为了保护隐私——经验条目在精炼之前可能包含项目路径、内部命名甚至 API key ，短波会把这些全部剥离。</p>\n<p>这样三层就接上了：经验先通过 <strong>Echo</strong> 回到 <strong>RadioHeader</strong>，再由 <strong>Shortwave</strong> 去掉项目噪音，变成可广播的通用知识。</p>\n<pre><code class=\"language-yaml\">---\nid: sw-ios-task-inherits-mainactor\ndomain: iOS, SwiftUI, Concurrency\ntags: 白屏 | 启动慢 | white screen | slow launch | 10s+ | Main Actor | Task\n---\n### Task {} 在 @MainActor 上下文中继承主线程，I/O 阻塞导致白屏\n\nsymptoms: 应用启动后 10s+ 白屏，首次加载卡死\ncause: Task {} 在 @MainActor 标记的上下文中创建时继承主线程\nfix: 使用 Task.detached(priority:) 将 I/O 操作移出主线程\n</code></pre>\n<p>注意 <code>tags</code> 里的\"白屏\"、\"启动慢\"、\"slow launch\"——这些是开发者实际会搜的词。如果只保留 \"Task.detached\" 这种解法关键词，这条经验就搜不到了。<strong>症状关键词比解法关键词重要得多。</strong> 经验条目删掉了症状词就等于不存在。</p>\n<h3>比搜不到更烦的，是搜到了也不用</h3>\n<p>到这里遇到了另一个让人头疼的问题：Claude 搜到了经验，但不用。</p>\n<p>早期我在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写：\"遇到技术问题时先搜索 RadioHeader\"。Claude 确实搜了，也找到了相关结果——然后完全忽略，直接跳进独立分析。就像你给新同事一本 wiki ，他打开看了一眼，还是选择自己摸索。</p>\n<p>后来搞明白了：<strong>行为指令比知识描述有效得多。</strong> 在 <a href=\"http://CLAUDE.md\" rel=\"nofollow\">CLAUDE.md</a> 里写\"这里有个东西可以查\"没用，得写\"你必须搜，搜到必须引用，禁止搜到不用\"才行。这两种写法在 Agent 系统中效果差很远。</p>\n<p>最终方案是\"<strong>搜→用→追</strong>\"三步强制规则：</p>\n<ol>\n<li><strong>搜</strong>：遇到技术问题，先搜 RadioHeader</li>\n<li><strong>用</strong>：搜到相关经验，必须引用并验证</li>\n<li><strong>追</strong>：需要更多细节，追溯到来源项目的 memory</li>\n</ol>\n<p>外加一句禁令：\"禁止搜到相关经验却不引用、不应用，直接跳过去做独立分析\"——这句话比前面三条都管用。</p>\n<h2>第三步：从个人记忆到社区共享</h2>\n<p>前两步解决了自己不重复踩坑的问题，但我的经验仍然是一座孤岛。我遇到的问题，世界上某个人在开发中一定早就有经验了；反过来，我踩过的坑可能也正好能帮到别人。</p>\n<p>能不能把精炼好的短波共享出去？难题不在技术，在质量治理——不能什么都往池子里丢，但我一个人也做不了人工审核。</p>\n<p>当时我想到试试从生物学里找找灵感，结果还真找到了一个概念——Stigmergy （痕迹协作）。这是蚁群行为学里的东西：蚂蚁在路径上留信息素，走的越多越浓，没蚂蚁走的自然蒸发。不需要谁来管理，好路径自己就显现出来了。</p>\n<p>用这个思路做知识共享的质量治理：</p>\n<ul>\n<li><strong>自动投票</strong>：Claude 用了社区短波解决问题后，自动判断这条经验是不是真帮上忙了，+1 或 -1</li>\n<li><strong>时间衰减</strong>：分数随时间下降（半衰期约 125 天），过时的经验自然淘汰（需要验证一下效果）</li>\n<li><strong>每周清洗</strong>：GitHub Actions 聚合投票，高分标记 <code>verified</code>，低分归档</li>\n</ul>\n<p>发布也有门槛——质量评分（≥6/8 ）、隐私扫描（确保没泄露路径和密钥）、去重检查。不需要管理员，好经验自己浮上来，差经验自己沉下去。</p>\n<h2>目前的状态</h2>\n<p>我不是做完一个 demo 就拿出来讲故事，这套东西已经在我自己手里滚了几个月。13 个项目，覆盖 iOS/SwiftUI 、Rust 、后端部署、网络代理、AI API 、Claude Code 、硬件产品 7 个技术领域。205 条原始经验，120 条精炼短波，114 条发布到社区池。（截止发稿时）</p>\n<h2>试试看</h2>\n<p>不用先研究完整设计，找一个你最近最常重复踩坑的项目，装上跑一周就知道它有没有用。</p>\n<pre><code class=\"language-bash\">git clone https://github.com/ZaptainZ/radioheader.git\ncd radioheader\n./install.sh\n</code></pre>\n<p>之后在任何项目中启动 Claude Code 就生效了。</p>\n<pre><code class=\"language-bash\"># 开启社区共享\nradioheader community on\nradioheader sync\n</code></pre>\n<p>GitHub：<a href=\"https://github.com/ZaptainZ/radioheader\" rel=\"nofollow\">ZaptainZ/radioheader</a></p>\n<hr/>\n<p>RadioHeader 还在继续打磨，但它已经在我自己的真实项目里跑出价值了，所以我把它公开出来。开源社区帮了我很多，这次也算把自己真用出来的一套东西拿出来回馈。</p>\n<p>MIT 协议。你要是也受不了重复踩坑，直接装上试试。有用欢迎 star ，没用也欢迎来 issue 吐槽。</p>\n\n\t",
-      "author": "Zaptain",
+      "title": "从人形机器人到具身智能的科技研发和哲学思考",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=57940&do=blog&id=1525419",
+      "pubDate": "2026-03-11 09:37:22",
+      "content": "",
+      "author": "",
       "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "父权制度就像空气，而我是那个对空气过敏的人 (评论: 非穷尽列举)",
@@ -666,31 +646,11 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "自建 Emby / MoviePilot 用户安全提醒",
-      "link": "https://www.v2ex.com/t/1197485#reply4",
-      "pubDate": "2026-03-11T09:18:58.000Z",
-      "content": "\n\t<p>最近在排查服务器被入侵事件时发现，部分使用 Docker <strong>host 网络模式</strong>部署的 MoviePilot 可能会意外暴露内部接口，存在被利用的风险。</p>\n<p>如果你是自建 Emby 并使用 <strong>MoviePilot</strong> 管理媒体库，建议检查一下自己的服务器：</p>\n<ol>\n<li>\n<p>在浏览器访问<br/>\n<code>http://服务器 IP:38379/version</code></p>\n</li>\n<li>\n<p>如果可以直接返回版本信息，说明该接口已经对外暴露，存在被扫描和利用的风险。</p>\n</li>\n</ol>\n<p>建议处理方式：</p>\n<ul>\n<li>尽快更新 <strong>MoviePilot</strong> 到最新版本 <strong>v2.9.14</strong> </li>\n<li>尽量避免使用 <code>host</code> 网络模式直接暴露服务  </li>\n</ul>\n<p>之前已有服务器因为该接口暴露被利用执行恶意脚本，最终被植入挖矿程序。</p>\n<p>详细分析过程可以参考：<br/>\n<a href=\"https://blog.v2.games/archives/server-attack-analysis\" rel=\"nofollow\">https://blog.v2.games/archives/server-attack-analysis</a></p>\n<p>建议大家尽快自查，避免服务器被入侵。</p>\n\n\t",
-      "author": "ziwiwiz",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
       "link": "https://www.v2ex.com/t/1197478#reply13",
       "pubDate": "2026-03-11T08:58:47.000Z",
       "content": "\n\t\n\t",
       "author": "Yasuo666",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "大部分模型都不支持结构化输出",
-      "link": "https://www.v2ex.com/t/1197476#reply16",
-      "pubDate": "2026-03-11T08:57:49.000Z",
-      "content": "\n\t<p>请教下国内模型大部分都不支持结构化输出，普通的问答倒是无所谓，开发上做一些结构化入库有什么好方法呢，有结构化输出之前，我是直接字符串截取。</p>\n<p>比如：从对话中提取用户的姓名，放到 name 字段入库。\n还有特别 sb 的是模型会回复：好的，我不输出其他内容直接给你输出 {name:xxxx}</p>\n<p>还有像 codex 和 cc 这种需要完全准确的代码和指令的，会需要结构化输出吗？</p>\n\n\t",
-      "author": "iSNN",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -707,16 +667,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "使用 qt c++,对比了 cluade opus 4.6 和 codex5.4, cluade 更好啊",
-      "link": "https://www.v2ex.com/t/1197462#reply12",
-      "pubDate": "2026-03-11T08:11:25.000Z",
-      "content": "\n\t传入一张截图，生成 exe 程序，都能最终生成截图的效果<br /><br />cluade 一次成功，codex 有一个小错误，提出问题后自动修正了。<br /><br />但是 codex5.4 速度要慢很多，不知道是不是我的中转站不行<br /><br />而且 claude 会问我要不要这么干，体验较好<br /><br /><br />ps 没钱人，都是用的中转站测试的<br /><br /><br />另外，请问一个问题<br />vscode claude 插件，按 alt+k ，可以指定当前文件或者当前选中内容，让 cluade 解释含义<br /><br />vscode codex 插件，没有这个功能？\n\t",
-      "author": "lyvv",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
@@ -771,6 +721,16 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "心理能量：批评的代价与表扬的魅力",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=485553&do=blog&id=1525377",
+      "pubDate": "2026-03-11 04:49:03",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
       "link": "https://www.v2ex.com/t/1197381#reply74",
       "pubDate": "2026-03-11T04:16:53.000Z",
@@ -786,16 +746,6 @@
       "pubDate": "2026-03-11T04:04:44.000Z",
       "content": "\n\t项目地址： <a target=\"_blank\" href=\"https://github.com/ripplek/arclight\" rel=\"nofollow noopener\">https://github.com/ripplek/arclight</a><br />因为我这周 token 烧完了，所以下周再继续搞吧。<br /><br />这是用这个项目昨天推送到我 telegram 的内容：<br /><br />📰 今日精选 — 2026-03-10<br />共 8 条精选<br /><br />🧠 AI 行业<br /><br />• 1. 马斯克 xAI 遭遇离职潮<br />  xAI 联合创始人 Toby Pohlen 离职，这家马斯克旗下 AI 初创公司正面临一波高管出走<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm\" rel=\"nofollow noopener\">https://www.msn.com/en-in/money/topstories/xai-founding-member-toby-pohlen-departs-as-elon-musk-s-ai-startup-faces-wave-of-exits/ar-AA1XaODm</a>)<br /><br />🌍 国际局势<br /><br />• 2. 伊朗强硬派接任最高领袖<br />  伊朗任命哈梅内伊之子莫杰塔巴为新最高领袖，油价突破 100 美元，特朗普称油价上涨是'值得付出的小代价'<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar\" rel=\"nofollow noopener\">https://www.theguardian.com/world/live/2026/mar/09/iran-war-live-updates-new-supreme-leader-mojtaba-khamenei-oil-prices-soar</a>)<br /><br />💵 外汇市场<br /><br />• 3. 美元避险需求激增<br />  伊朗战争引发市场恐慌，美元作为避险资产走强，原油价格飙升冲击全球金融市场<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets</a>)<br /><br />🍎 消费电子<br /><br />• 4. 苹果押注 Ultra 高端产品线<br />  继推出低价 MacBook Neo 后，苹果计划发布至少三款 Ultra 系列旗舰产品，进一步扩展高端产品矩阵<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next\" rel=\"nofollow noopener\">https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next</a>)<br /><br />🦘 澳洲市场<br /><br />• 5. 澳股单日蒸发 900 亿<br />  受中东危机推高油价影响，澳洲 ASX200 指数暴跌 2.85%，创特朗普关税公告以来最大单日跌幅<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears\" rel=\"nofollow noopener\">https://www.theguardian.com/australia-news/2026/mar/09/asx-australian-shares-plunge-as-spike-in-oil-prices-over-middle-east-conflict-sparks-global-inflation-fears</a>)<br /><br />🤖 科技伦理<br /><br />• 6. Anthropic 军方合作引争议<br />  五角大楼与 AI 公司 Anthropic 的合作引发争议，TechCrunch 探讨此事件是否会让其他初创公司对国防项目望而却步<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://techcrunch.com/?p=3100337\" rel=\"nofollow noopener\">https://techcrunch.com/?p=3100337</a>)<br /><br />⛽ 能源市场<br /><br />• 7. 油价突破 100 美元<br />  布伦特原油飙升至 2022 年俄乌战争以来最高点，市场对伊朗局势快速解决失去希望，美国汽油价格预计继续上涨<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100\" rel=\"nofollow noopener\">https://www.npr.org/2026/03/08/nx-s1-5741818/iran-israel-trump-oil-100</a>)<br /><br />📈 金融市场<br /><br />• 8. 美股崩盘概率升至 35%<br />  知名投资研究机构 Yardeni 因伊朗战争风险，将美国市场崩盘概率从此前水平大幅上调至 35%<br />  🔗 原文 ( <a target=\"_blank\" href=\"https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks\" rel=\"nofollow noopener\">https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks</a>)<br /><br />🎲 意外发现<br /><br />📱 在 ArcLight 中查看完整版\n\t",
       "author": "dodoa",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "macos 自带中文输入法能默认使用英文标点吗",
-      "link": "https://www.v2ex.com/t/1197341#reply5",
-      "pubDate": "2026-03-11T03:11:25.000Z",
-      "content": "\n\t<p>我试了好像不行\n在输入法哪里设置成了使用半角标点</p>\n<p>单实际上还是中文标点</p>\n<p>有没有方法默认全部使用英文标点</p>\n\n\t",
-      "author": "iorilu",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -861,16 +811,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "我会仰望星空",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525336",
-      "pubDate": "2026-03-11 01:33:21",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "cron-job：免费定时任务工具，可定时签到或调用 API",
       "link": "https://www.appinn.com/cron-job/",
       "pubDate": "Wed, 11 Mar 2026 01:24:40 +0000",
@@ -885,31 +825,11 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "模态信息论对退相干的诠释",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525335",
-      "pubDate": "2026-03-11 01:05:03",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "ARC 浏览器大家还在用么？有啥替换的对象",
       "link": "https://www.v2ex.com/t/1197269#reply98",
       "pubDate": "2026-03-11T00:57:26.000Z",
       "content": "\n\t<p>ARC 浏览器现在除了更新 chromium 内核，功能都不怎么更新了。遇到些问题有几个版本也没修复。\n大家有啥替换的对象么？\n试了下 Firefox 内核的 Zen Browser ，跟 ARC 是挺像的，就是挺多网页现在都不适配火狐了，小问题太多了，有点忍不了。</p>\n<p>需要竖版的标签栏和左上角的常驻收藏的功能</p>\n\n\t",
       "author": "RiverMoon",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "海外 Coding Plan 哪个最便宜+最推荐？",
-      "link": "https://www.v2ex.com/t/1197261#reply18",
-      "pubDate": "2026-03-11T00:20:40.000Z",
-      "content": "\n\t\n\t",
-      "author": "enihcam",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -1067,16 +987,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-      "link": "https://www.v2ex.com/t/1196673#reply112",
-      "pubDate": "2026-03-08T14:02:37.000Z",
-      "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-      "author": "doctorzry",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
       "link": "https://book.douban.com/review/17494559/",
       "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
@@ -1175,16 +1085,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply157",
-      "pubDate": "2026-03-05T04:33:26.000Z",
-      "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
-      "author": "v2exgo",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
