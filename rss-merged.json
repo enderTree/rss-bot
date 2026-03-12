@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T20:25:33.037Z",
+  "lastUpdated": "2026-03-12T21:24:44.367Z",
   "totalItems": 143,
   "items": [
     {
@@ -144,7 +144,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply16",
+      "link": "https://www.v2ex.com/t/1197790#reply17",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -154,7 +154,7 @@
     },
     {
       "title": "前端去学习 golang 跨度成本大吗？",
-      "link": "https://www.v2ex.com/t/1197788#reply32",
+      "link": "https://www.v2ex.com/t/1197788#reply33",
       "pubDate": "2026-03-12T09:15:17.000Z",
       "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
       "author": "mumuwen",
@@ -482,6 +482,16 @@
       "title": "科学史中的教训：第十章  混沌的蝴蝶：洛伦兹与确定性的死亡",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525505",
       "pubDate": "2026-03-12 02:27:43",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "又拿果蝇做试验：数字生命，拉开帷幕",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525424",
+      "pubDate": "2026-03-12 02:07:51",
       "content": "",
       "author": "",
       "categories": [],
@@ -839,16 +849,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "心理能量：批评的代价与表扬的魅力",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=485553&do=blog&id=1525377",
-      "pubDate": "2026-03-11 04:49:03",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "用中转站的千万要小心，已经有人在 tg 大量购买用户数据用于训练",
