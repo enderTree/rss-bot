@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T13:57:31.690Z",
+  "lastUpdated": "2026-03-12T14:45:30.291Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-12T13:57:18.234Z",
+      "lastUpdated": "2026-03-12T14:45:19.245Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-12T13:57:19.132Z",
+      "lastUpdated": "2026-03-12T14:45:20.124Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-12T13:57:19.228Z",
+      "lastUpdated": "2026-03-12T14:45:20.234Z",
       "items": [
         {
           "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-12T13:57:21.153Z",
+      "lastUpdated": "2026-03-12T14:45:22.164Z",
       "items": [
         {
           "title": "1TB 免费 S3 存储空间：来自 Hi168",
@@ -307,24 +307,94 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-12T13:57:21.375Z",
+      "lastUpdated": "2026-03-12T14:45:22.285Z",
       "items": [
         {
-          "title": "如何破解 grok 现在只回复有蓝标人的艾特",
-          "link": "https://www.v2ex.com/t/1197836#reply0",
-          "pubDate": "2026-03-12T13:36:04.000Z",
-          "content": "\n\t“@grok 是真的吗？”<br />现在 grok 只回复有蓝标的号，所以我在想能不能找一个有蓝标的号，作为一个中间代理，大家艾特他，然后他来替我们艾特 grok ，来实现以前大家都可以艾特 grok 的效果。可能需要自动化程序来实现，不知道好不好做，有没有老哥来实现一下。\n\t",
-          "author": "punny",
+          "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
+          "link": "https://www.v2ex.com/t/1197841#reply7",
+          "pubDate": "2026-03-12T14:01:51.000Z",
+          "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+          "author": "finiking",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
+          "link": "https://www.v2ex.com/t/1197790#reply14",
+          "pubDate": "2026-03-12T09:27:15.000Z",
+          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
+          "author": "lp4298707",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
+          "link": "https://www.v2ex.com/t/1197618#reply52",
+          "pubDate": "2026-03-12T01:48:58.000Z",
+          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
+          "author": "Newbee24",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+          "link": "https://www.v2ex.com/t/1197429#reply77",
+          "pubDate": "2026-03-11T06:36:16.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+          "author": "TheBlind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "文本加密工具“与熊论道”算法已被成功逆向破解",
+          "link": "https://www.v2ex.com/t/1197847#reply0",
+          "pubDate": "2026-03-12T14:27:32.000Z",
+          "content": "\n\t<p>文本加密工具“熊曰加密”(与熊论道)已被通过<strong>已知明文攻击（ KPA ）</strong>完全破解。</p>\n<p>与熊论道加密网站因故于 2025 年上旬下线，由于其加密算法不开源，导致大量既有密文无法解密。</p>\n<p>经过逆向分析，其并未采用任何高级加密算法，主要基于 Base91 编码算法，字符替换，外加压缩和混淆处理，具体请见 PoC 。</p>\n<p>此次逆向工作解除了该工具在加密时对中心化服务端的依赖，为早期使用该加密算法生成的历史数据提供了一种长期可用的解密与归档途径。</p>\n<p>萌研社 2020 年更新以来加密出的所有熊曰密文现已<strong>允许被解密</strong>。</p>\n<p>此为魔曰项目的原创逆向研究，原创发布。</p>\n<hr/>\n<h3>Poc 代码 / 详细解释 / 快速解密 参见</h3>\n<h3><a href=\"https://github.com/SheepChef/Abracadabra/issues/123\" rel=\"nofollow\">https://github.com/SheepChef/Abracadabra/issues/123</a></h3>\n\n\t",
+          "author": "SheepChef",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
+          "link": "https://www.v2ex.com/t/1197732#reply22",
+          "pubDate": "2026-03-12T06:50:10.000Z",
+          "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
+          "author": "wsbqdyhm",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有推荐的光驱位热插拔硬盘笼吗",
+          "link": "https://www.v2ex.com/t/1197784#reply7",
+          "pubDate": "2026-03-12T08:44:10.000Z",
+          "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
+          "author": "y5g",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply25",
+          "link": "https://www.v2ex.com/t/1197650#reply26",
           "pubDate": "2026-03-12T02:48:43.000Z",
           "content": "\n\t\n\t",
           "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "如何破解 grok 现在只回复有蓝标人的艾特",
+          "link": "https://www.v2ex.com/t/1197836#reply2",
+          "pubDate": "2026-03-12T13:36:04.000Z",
+          "content": "\n\t“@grok 是真的吗？”<br />现在 grok 只回复有蓝标的号，所以我在想能不能找一个有蓝标的号，作为一个中间代理，大家艾特他，然后他来替我们艾特 grok ，来实现以前大家都可以艾特 grok 的效果。可能需要自动化程序来实现，不知道好不好做，有没有老哥来实现一下。\n\t",
+          "author": "punny",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -350,16 +420,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply13",
-          "pubDate": "2026-03-12T09:27:15.000Z",
-          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
-          "author": "lp4298707",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "前端去学习 golang 跨度成本大吗？",
           "link": "https://www.v2ex.com/t/1197788#reply26",
           "pubDate": "2026-03-12T09:15:17.000Z",
@@ -380,41 +440,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply76",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
-          "link": "https://www.v2ex.com/t/1197732#reply19",
-          "pubDate": "2026-03-12T06:50:10.000Z",
-          "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
-          "author": "wsbqdyhm",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-          "link": "https://www.v2ex.com/t/1197618#reply50",
-          "pubDate": "2026-03-12T01:48:58.000Z",
-          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
-          "author": "Newbee24",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有推荐的光驱位热插拔硬盘笼吗",
-          "link": "https://www.v2ex.com/t/1197784#reply5",
-          "pubDate": "2026-03-12T08:44:10.000Z",
-          "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
-          "author": "y5g",
+          "title": "opencode 下， deepseek 有时候比较蠢",
+          "link": "https://www.v2ex.com/t/1197641#reply25",
+          "pubDate": "2026-03-12T02:39:40.000Z",
+          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
+          "author": "nativeBoy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -425,16 +455,6 @@
           "pubDate": "2026-03-12T00:55:22.000Z",
           "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
           "author": "mrsbryant",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "opencode 下， deepseek 有时候比较蠢",
-          "link": "https://www.v2ex.com/t/1197641#reply24",
-          "pubDate": "2026-03-12T02:39:40.000Z",
-          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-          "author": "nativeBoy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -500,21 +520,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "[开源] D-NET v2.0 发布 —— 支持 DDNS 管理功能",
-          "link": "https://www.v2ex.com/t/1197689#reply2",
-          "pubDate": "2026-03-12T04:37:15.000Z",
-          "content": "\n\t<p>最近发布了 v2.0 ，主要带来了完整的 DDNS 功能，DCDN 和 DDNS 全集成了，分享给有需求的朋友。</p>\n<p><strong>项目地址：</strong> <a href=\"https://github.com/cxbdasheng/dnet\" rel=\"nofollow\">https://github.com/cxbdasheng/dnet</a> 欢迎提 Issue 或 PR 。如果遇到问题请告知，如果觉得有用，欢迎给个 Star ⭐，你的 Star ⭐，将使这个项目更优秀。</p>\n<hr/>\n<p><strong>v2.0 新增：DDNS 完整支持</strong></p>\n<p>这次 v2.0 的核心更新就是把 DDNS 功能做全了：</p>\n<ul>\n<li><strong>支持的 DNS 服务商：</strong> 阿里云、腾讯云、百度云、华为云、Cloudflare</li>\n<li><strong>支持的记录类型：</strong> <strong>A / AAAA / CNAME / TXT</strong>（其他 DDNS 工具没有哦，可无缝配合 DCDN 功能）</li>\n<li><strong>智能缓存：</strong> 用 <code>-ddnsCacheTimes</code> 控制强制同步频率，避免不必要的 API 调用</li>\n</ul>\n<hr/>\n<p><strong>其他功能</strong></p>\n<p>除了 DDNS ，工具本身还有：</p>\n<ul>\n<li><strong>动态 CDN 管理 (DCDN)：</strong> 支持阿里云（ CDN/DCDN/ESA ）、腾讯云（ CDN/EdgeOne ）、百度云、Cloudflare —— IP 变了自动更新回源 IP</li>\n<li><strong>Web 管理界面：</strong> 浏览器打开就能配，不用手撸 YAML</li>\n<li><strong>Webhook 通知：</strong> IP 变更时推送到 Server 酱、钉钉机器人等</li>\n<li><strong>Docker 支持：</strong> 一行命令跑起来</li>\n</ul>\n<hr/>\n<p><strong>后续规划</strong></p>\n<ul>\n<li><strong>DCDN 扩展：</strong> 接入又拍云（可白嫖）、七牛云、华为云 等 CDN 多厂商支持</li>\n<li><strong>DDNS 扩展：</strong> 持续接入更多 DNS 云厂商</li>\n<li><strong>内网穿透（ V3 ）：</strong> 从外网访问内网服务，规划中</li>\n</ul>\n<hr/>\n<p>更多配置技巧和使用场景见 <a href=\"https://github.com/cxbdasheng/dnet/wiki/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5\" rel=\"nofollow\">最佳实践</a>。</p>\n\n\t",
-          "author": "cxbdasheng",
+          "title": "《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线",
+          "link": "https://www.v2ex.com/t/1197799#reply2",
+          "pubDate": "2026-03-12T09:40:35.000Z",
+          "content": "\n\t<p><strong>标题：</strong> 我们实验室开源了一本《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线</p>\n<p><strong>正文：</strong></p>\n<p>大家好。</p>\n<p>最近我和团队（ datascale-ai ）在集中精力维护一本关于大模型数据工程（ Data Engineering for LLMs ）的开源书。目前内容已经基本成型，这也是我们近期开源输出的一个核心项目，想和大家分享一下。</p>\n<p><strong>GitHub 地址：</strong> <a href=\"https://github.com/datascale-ai/data_engineering_book/\" rel=\"nofollow\">https://github.com/datascale-ai/data_engineering_book/</a></p>\n<p><strong>在线阅读：</strong> <a href=\"https://datascale-ai.github.io/\" rel=\"nofollow\">https://datascale-ai.github.io/</a></p>\n<h3>为什么要做这个项目？</h3>\n<p>现在行业里大家都认可 \"Data-centric AI\"，但现实是，网上的资料非常碎片化。多数教程都在教怎么调 API 、怎么写 Prompt ，但当开发者真正在一线干活时，怎么清洗几十 TB 的预训练数据？多模态数据怎么对齐？怎么搭一个稳定不翻车的 RAG 数据流水线？踩的坑极其多。</p>\n<p>我们发现系统性的实战资料极度稀缺，所以干脆把实际工作中的经验和主流方案沉淀下来，写了这本开源书。希望帮大家从“摸着石头过河”到建立完整的底层逻辑。</p>\n<h3>这本书里有什么？</h3>\n<p>项目整体遵循“基础设施 -&gt; 专项场景 -&gt; 端到端实战”的结构：</p>\n<ol>\n<li><strong>拒绝玩具框架，全企业级技术栈：</strong> 没有停留在纯理论，直接上目前主流的工具。分布式计算用 Ray Data / Spark ；存储讲 Parquet / WebDataset ；多模态对齐涉及 CLIP / ColPali 等。</li>\n<li><strong>四大核心场景全覆盖：</strong></li>\n</ol>\n<ul>\n<li>文本预训练数据工程（采集、清洗、去重）</li>\n<li>多模态数据工程（图文对、重描述、音视频）</li>\n<li>对齐与合成数据（指令微调 SFT 、偏好数据）</li>\n<li>应用级流水线（文本 RAG 与多模态 RAG ）</li>\n</ul>\n<ol>\n<li><strong>5 个直接可跑的实战项目：</strong>\n全书包含 5 个端到端的实战代码，比如“Mini-C4 预训练集构建”、“垂直领域法律专家 SFT 数据集”、“企业财报多模态 RAG”。代码都在仓库里，可以直接复用落地。</li>\n</ol>\n<h3>写在最后</h3>\n<p>项目采用 MIT 协议，支持中英双语，基于 MkDocs 构建。</p>\n<p>目前还有很多可以完善的地方，如果你对 LLM 数据流水线感兴趣，或者正在做大模型相关的业务，欢迎来看看。非常欢迎大家在 Repo 里提 Issue 交流，或者提交 PR 一起共建。</p>\n<p>如果觉得内容对你有帮助，求个 Star ⭐️ 支持一下，感谢！</p>\n\n\t",
+          "author": "xuxin123122",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线",
-          "link": "https://www.v2ex.com/t/1197799#reply0",
-          "pubDate": "2026-03-12T09:40:35.000Z",
-          "content": "\n\t<p><strong>标题：</strong> 我们实验室开源了一本《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线</p>\n<p><strong>正文：</strong></p>\n<p>大家好。</p>\n<p>最近我和团队（ datascale-ai ）在集中精力维护一本关于大模型数据工程（ Data Engineering for LLMs ）的开源书。目前内容已经基本成型，这也是我们近期开源输出的一个核心项目，想和大家分享一下。</p>\n<p><strong>GitHub 地址：</strong> <a href=\"https://github.com/datascale-ai/data_engineering_book/\" rel=\"nofollow\">https://github.com/datascale-ai/data_engineering_book/</a></p>\n<p><strong>在线阅读：</strong> <a href=\"https://datascale-ai.github.io/\" rel=\"nofollow\">https://datascale-ai.github.io/</a></p>\n<h3>为什么要做这个项目？</h3>\n<p>现在行业里大家都认可 \"Data-centric AI\"，但现实是，网上的资料非常碎片化。多数教程都在教怎么调 API 、怎么写 Prompt ，但当开发者真正在一线干活时，怎么清洗几十 TB 的预训练数据？多模态数据怎么对齐？怎么搭一个稳定不翻车的 RAG 数据流水线？踩的坑极其多。</p>\n<p>我们发现系统性的实战资料极度稀缺，所以干脆把实际工作中的经验和主流方案沉淀下来，写了这本开源书。希望帮大家从“摸着石头过河”到建立完整的底层逻辑。</p>\n<h3>这本书里有什么？</h3>\n<p>项目整体遵循“基础设施 -&gt; 专项场景 -&gt; 端到端实战”的结构：</p>\n<ol>\n<li><strong>拒绝玩具框架，全企业级技术栈：</strong> 没有停留在纯理论，直接上目前主流的工具。分布式计算用 Ray Data / Spark ；存储讲 Parquet / WebDataset ；多模态对齐涉及 CLIP / ColPali 等。</li>\n<li><strong>四大核心场景全覆盖：</strong></li>\n</ol>\n<ul>\n<li>文本预训练数据工程（采集、清洗、去重）</li>\n<li>多模态数据工程（图文对、重描述、音视频）</li>\n<li>对齐与合成数据（指令微调 SFT 、偏好数据）</li>\n<li>应用级流水线（文本 RAG 与多模态 RAG ）</li>\n</ul>\n<ol>\n<li><strong>5 个直接可跑的实战项目：</strong>\n全书包含 5 个端到端的实战代码，比如“Mini-C4 预训练集构建”、“垂直领域法律专家 SFT 数据集”、“企业财报多模态 RAG”。代码都在仓库里，可以直接复用落地。</li>\n</ol>\n<h3>写在最后</h3>\n<p>项目采用 MIT 协议，支持中英双语，基于 MkDocs 构建。</p>\n<p>目前还有很多可以完善的地方，如果你对 LLM 数据流水线感兴趣，或者正在做大模型相关的业务，欢迎来看看。非常欢迎大家在 Repo 里提 Issue 交流，或者提交 PR 一起共建。</p>\n<p>如果觉得内容对你有帮助，求个 Star ⭐️ 支持一下，感谢！</p>\n\n\t",
-          "author": "xuxin123122",
+          "title": "[开源] D-NET v2.0 发布 —— 支持 DDNS 管理功能",
+          "link": "https://www.v2ex.com/t/1197689#reply2",
+          "pubDate": "2026-03-12T04:37:15.000Z",
+          "content": "\n\t<p>最近发布了 v2.0 ，主要带来了完整的 DDNS 功能，DCDN 和 DDNS 全集成了，分享给有需求的朋友。</p>\n<p><strong>项目地址：</strong> <a href=\"https://github.com/cxbdasheng/dnet\" rel=\"nofollow\">https://github.com/cxbdasheng/dnet</a> 欢迎提 Issue 或 PR 。如果遇到问题请告知，如果觉得有用，欢迎给个 Star ⭐，你的 Star ⭐，将使这个项目更优秀。</p>\n<hr/>\n<p><strong>v2.0 新增：DDNS 完整支持</strong></p>\n<p>这次 v2.0 的核心更新就是把 DDNS 功能做全了：</p>\n<ul>\n<li><strong>支持的 DNS 服务商：</strong> 阿里云、腾讯云、百度云、华为云、Cloudflare</li>\n<li><strong>支持的记录类型：</strong> <strong>A / AAAA / CNAME / TXT</strong>（其他 DDNS 工具没有哦，可无缝配合 DCDN 功能）</li>\n<li><strong>智能缓存：</strong> 用 <code>-ddnsCacheTimes</code> 控制强制同步频率，避免不必要的 API 调用</li>\n</ul>\n<hr/>\n<p><strong>其他功能</strong></p>\n<p>除了 DDNS ，工具本身还有：</p>\n<ul>\n<li><strong>动态 CDN 管理 (DCDN)：</strong> 支持阿里云（ CDN/DCDN/ESA ）、腾讯云（ CDN/EdgeOne ）、百度云、Cloudflare —— IP 变了自动更新回源 IP</li>\n<li><strong>Web 管理界面：</strong> 浏览器打开就能配，不用手撸 YAML</li>\n<li><strong>Webhook 通知：</strong> IP 变更时推送到 Server 酱、钉钉机器人等</li>\n<li><strong>Docker 支持：</strong> 一行命令跑起来</li>\n</ul>\n<hr/>\n<p><strong>后续规划</strong></p>\n<ul>\n<li><strong>DCDN 扩展：</strong> 接入又拍云（可白嫖）、七牛云、华为云 等 CDN 多厂商支持</li>\n<li><strong>DDNS 扩展：</strong> 持续接入更多 DNS 云厂商</li>\n<li><strong>内网穿透（ V3 ）：</strong> 从外网访问内网服务，规划中</li>\n</ul>\n<hr/>\n<p>更多配置技巧和使用场景见 <a href=\"https://github.com/cxbdasheng/dnet/wiki/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5\" rel=\"nofollow\">最佳实践</a>。</p>\n\n\t",
+          "author": "cxbdasheng",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -551,7 +571,7 @@
         },
         {
           "title": "codeBuddy，有大佬深度用过的吗，体验咋样？",
-          "link": "https://www.v2ex.com/t/1197665#reply3",
+          "link": "https://www.v2ex.com/t/1197665#reply4",
           "pubDate": "2026-03-12T03:26:18.000Z",
           "content": "\n\t<p>看到 codeBuddy 有 IDE, CLI, 插件。 并且还新出了 WorkBuddy ，我今天使用了一下 WorkBuddy ，感觉没什么用。\ncodeBuddy 的 cli 有深度用过的大佬吗，对比 Claude code 如何。</p>\n\n\t",
           "author": "junwind",
@@ -600,6 +620,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
+          "link": "https://www.v2ex.com/t/1197438#reply10",
+          "pubDate": "2026-03-11T07:05:00.000Z",
+          "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
+          "author": "CHTuring",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "阿里 Coding Plan 的 GLM-5 和 智普官方的 GLM-5 有区别吗？",
           "link": "https://www.v2ex.com/t/1197313#reply26",
           "pubDate": "2026-03-11T02:08:04.000Z",
@@ -610,18 +640,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "2026 年做企业官网，前端友好的技术栈是哪些呢？",
-          "link": "https://www.v2ex.com/t/1197438#reply9",
-          "pubDate": "2026-03-11T07:05:00.000Z",
-          "content": "\n\t<p>请问下目前 2026 年国内部署制作官网前端友好的最佳技术栈是啥</p>\n<p>1 、方便的后台管理，以便发布新闻和产品</p>\n<p>2 、文件储存</p>\n<p>3 、国内云服务部署</p>\n<p>4 、可能还有 SEO 需要</p>\n<p>目前了解到的前端方面的有：</p>\n<p>1 、Next.js + Strapi 或者 Payload CMS + Next.js</p>\n<p>2 、Astro + Sanity</p>\n<p>谢谢</p>\n\n\t",
-          "author": "CHTuring",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "各位 Android 开发老哥现在是怎么用 AI coding 的？是直接用 AS 上的 Gmini 吗？",
-          "link": "https://www.v2ex.com/t/1197478#reply12",
+          "link": "https://www.v2ex.com/t/1197478#reply13",
           "pubDate": "2026-03-11T08:58:47.000Z",
           "content": "\n\t\n\t",
           "author": "Yasuo666",
@@ -788,33 +808,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Bigmodel 的模型评分不是很高的吗？ GLM-5",
-          "link": "https://www.v2ex.com/t/1197432#reply9",
-          "pubDate": "2026-03-11T06:40:37.000Z",
-          "content": "\n\t我购买了 GLM-5 的季度 coding-plan 。<br /><br />现在用 claude-code 写代码，效果太差了，完全浪费时间。<br /><br />有没有划算的 coding token ？\n\t",
-          "author": "rwecho",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Sing-box UI: 开源的 sing-box Web 管理面板， Docker 一键部署",
-          "link": "https://www.v2ex.com/t/1197297#reply18",
-          "pubDate": "2026-03-11T01:42:22.000Z",
-          "content": "\n\t<p>分享一个自己的开源项目，给 sing-box 做了一个 Web 管理界面。</p>\n<p><strong>GitHub</strong>: <a href=\"https://github.com/SpadesA99/singbox_ui\" rel=\"nofollow\">https://github.com/SpadesA99/singbox_ui</a></p>\n<h3>为什么做这个</h3>\n<p>sing-box 功能强大但配置全靠手写 JSON ，协议多了之后维护起来很痛苦。现有的 GUI 工具主要是客户端（ SFI 、NekoBox ），服务端管理一直缺少好用的可视化方案。</p>\n<h3>功能概览</h3>\n<ul>\n<li><strong>12 种入站协议</strong>: WireGuard 、VLESS 、VMess 、Trojan 、Shadowsocks 、Hysteria2 、TUIC 、Naive 、ShadowTLS 、AnyTLS 、Mixed 、HTTP</li>\n<li><strong>订阅解析</strong>: VMess/VLESS/Trojan/SS/AnyTLS 链接 + Clash YAML 格式</li>\n<li><strong>路由规则可视化</strong>: 内置快速模板，支持自定义规则</li>\n<li><strong>负载均衡</strong>: URLTest 自动选择最低延迟节点</li>\n<li><strong>TLS 证书</strong>: 内置 ACME (Let's Encrypt) + 手动上传</li>\n<li><strong>多实例管理</strong>: 多个独立 sing-box 实例</li>\n<li><strong>节点探测</strong>: 异步并发探测 + WebSocket 实时结果</li>\n<li><strong>WireGuard</strong>: 密钥生成 + 客户端配置批量管理</li>\n</ul>\n<h3>部署方式</h3>\n<p>Docker Compose 一行搞定，不需要手动安装 sing-box：</p>\n<pre><code class=\"language-bash\">docker-compose up -d\n</code></pre>\n<p>通过 SSH 隧道访问 <code>http://127.0.0.1:7000</code>，默认仅监听本地，安全第一。</p>\n<h3>技术栈</h3>\n<p>Go 1.24 + Next.js 16 + React 19 + shadcn/ui ，编译为单二进制内嵌前端静态文件，Docker 容器化部署。</p>\n<p>MIT 协议开源，欢迎 Star 和反馈。</p>\n\n\t",
-          "author": "kssss",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-12T13:57:23.642Z",
+      "lastUpdated": "2026-03-12T14:45:23.981Z",
       "items": [
         {
           "title": "科学史中的教训：第七章 几何的独裁：非欧几何的地下流传",
@@ -877,39 +877,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "ADVANCED MATERIALS 2025年发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525309",
-          "pubDate": "2026-03-11 09:58:07",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "[打听，科普，数学] 素数（7）：素数间隙 prime gap 之一",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525421",
           "pubDate": "2026-03-11 11:01:10",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "旧作回顾： 关于科学分类的理论思考  ——光明网有奖话题：“生命科学是否应该成为第三大学科？”浅议",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=496942&do=blog&id=1525427",
-          "pubDate": "2026-03-12 06:17:07",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "海棠花",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525428",
-          "pubDate": "2026-03-12 07:05:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -937,9 +907,49 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "旧作回顾： 关于科学分类的理论思考  ——光明网有奖话题：“生命科学是否应该成为第三大学科？”浅议",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=496942&do=blog&id=1525427",
+          "pubDate": "2026-03-12 06:17:07",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "海棠花",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525428",
+          "pubDate": "2026-03-12 07:05:48",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "2025年 全球 ESCI 发文 Top10 刊物",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525453",
+          "pubDate": "2026-03-12 09:38:19",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "40种常见蔷薇科植物花的识别！",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3319332&do=blog&id=1525455",
           "pubDate": "2026-03-12 09:49:57",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "寻觅杜鹃花之王（上）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525508",
+          "pubDate": "2026-03-12 02:54:02",
           "content": "",
           "author": "",
           "categories": [],
@@ -967,16 +977,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "2025年 全球 ESCI 发文 Top10 刊物",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525453",
-          "pubDate": "2026-03-12 09:38:19",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "毕业困难户:类型、根源与帮扶路径",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=58729&do=blog&id=1525454",
           "pubDate": "2026-03-12 09:43:10",
@@ -997,9 +997,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "寻觅杜鹃花之王（上）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525508",
-          "pubDate": "2026-03-12 02:54:02",
+          "title": "II型糖尿病：从“终身伴随”到“力争逆转”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525331",
+          "pubDate": "2026-03-11 12:22:48",
           "content": "",
           "author": "",
           "categories": [],
@@ -1007,9 +1007,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "II型糖尿病：从“终身伴随”到“力争逆转”",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3302154&do=blog&id=1525331",
-          "pubDate": "2026-03-11 12:22:48",
+          "title": "我会仰望星空",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525336",
+          "pubDate": "2026-03-11 01:33:21",
           "content": "",
           "author": "",
           "categories": [],
@@ -1021,7 +1021,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-12T13:57:26.968Z",
+      "lastUpdated": "2026-03-12T14:45:26.267Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1228,7 +1228,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-12T13:57:29.852Z",
+      "lastUpdated": "2026-03-12T14:45:28.278Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
@@ -1436,20 +1436,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-12T13:57:30.954Z",
+      "lastUpdated": "2026-03-12T14:45:29.316Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-12T13:57:31.170Z",
+      "lastUpdated": "2026-03-12T14:45:29.606Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-12T13:57:31.689Z",
+      "lastUpdated": "2026-03-12T14:45:30.291Z",
       "items": [
         {
           "title": "无题",
