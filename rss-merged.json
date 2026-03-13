@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T19:25:56.321Z",
+  "lastUpdated": "2026-03-13T20:24:36.308Z",
   "totalItems": 143,
   "items": [
     {
@@ -242,6 +242,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "农田实验生态和作物光合生理生态研究忆述（7）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1525591",
+      "pubDate": "2026-03-13 08:55:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
       "link": "https://www.v2ex.com/t/1198090#reply20",
       "pubDate": "2026-03-13T08:36:25.000Z",
@@ -290,6 +300,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "我是异类，你是怪物  简体版删减不完全统计 (评论: 我是异类，你是怪物)",
+      "link": "https://book.douban.com/review/17501630/",
+      "pubDate": "Fri, 13 Mar 2026 08:03:25 GMT",
+      "content": "\n问问花卷评论: 我是异类，你是怪物 (https://book.douban.com/subject/37669062/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7ufvq&#34;,&#34;text&#34;:&#34;《莫蒂利亚之手》《巨掌恶魔》《天使与怪物》出自短篇集《我是异类，你是怪物》（《ぼくは化け物きみは怪物》）&#34;...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "【千字解析】绝对是2026年最值得看的电影之一 (评论: 非穷尽列举)",
@@ -358,7 +378,7 @@
     },
     {
       "title": "为什么放弃了 RAG？ RAG 的六大难题",
-      "link": "https://www.v2ex.com/t/1198028#reply44",
+      "link": "https://www.v2ex.com/t/1198028#reply45",
       "pubDate": "2026-03-13T06:17:03.000Z",
       "content": "\n\t<p>RAG 本身并不算是个坏主意。我们认真实践过，也确实在某些场景下跑通了。</p>\n<p>去年，我们花了几个月搭过几套完整的 RAG 管线：三阶段处理（ Extract 、Chunk 、Embed ），三种搜索策略（ Vector 、BM25 、Hybrid + Reranking ）。从文本提取，粗排，到 Rerank 精排，每一个环节都认真做了一遍。工程量不小，技术上看着很漂亮。</p>\n<p>但最终不得不承认一个事实：<strong>效果不好</strong></p>\n<p>这篇文章不是要批判 RAG ，而是诚实地分享下我们具体遇到了哪些问题，以及我们后来怎么想的。以及，小广告。。。</p>\n<h2>问题一：Embedding 模型两难</h2>\n<p>做本地桌面应用，Embedding 模型的选择是一个没有好答案的问题。</p>\n<p>小模型（参数量 &lt; 500M ）在设备上跑得动，但语义理解质量不稳定——碰到专业文档、跨语言搜索、长文档时，召回率明显下降。大模型（ 1B+）质量好，但在普通用户的笔记本上内存和计算开销太大，后台常驻时对系统资源的占用让人无法接受。</p>\n<p>桌面应用没有服务器可以依赖，只能在\"跑得动\"和\"效果好\"之间妥协。选了一个，另一个就要让步。这个困境在服务端应用里不存在，在本地优先应用里却是无解的。</p>\n<h2>问题二：领域词汇不敏感</h2>\n<p>向量语义搜索有一个根本性的弱点：它对专业术语的理解很差。</p>\n<p>原因并不复杂。Embedding 模型是在通用语料上训练的，而代码函数名、医学缩写、法律条款、产品专名这些词在训练语料里出现频率低，在向量空间里的位置偏僻且不稳定。</p>\n<p>实际表现是什么样的？用户搜 \"RLHF\"，不一定能找到写着 \"Reinforcement Learning from Human Feedback\" 的文档。搜\"LTV\"，可能匹配不到写着\"用户生命周期价值\"的分析报告。搜某个产品的型号，向量搜索根本抓不住这个词的准确语义。</p>\n<p>这不是配置问题，不是参数调优能解决的，业内常见做法是做 embedding 模型的微调，但一般都是针对特定领域，只能在 ToB 场景中 work 。</p>\n<p>Embedding 优势是模糊语义匹配，它的劣势恰好就是精确词汇匹配。而用户的真实需求往往是两者都要。</p>\n<h2>问题三：Rerank 的代价</h2>\n<p>召回率低和准确性差，是 RAG 管线的两个经典问题。针对准确性问题，业界的标准解法是引入 Rerank 模型做最后一步的精排。</p>\n<p>我们也做了这一步，然后发现问题并没有被解决，只是被转移了。</p>\n<p>Rerank 模型比 Embedding 模型更重、更慢。引入它之后，整个检索链路的延迟大幅上升，对本地应用来说尤其明显。更关键的是，Rerank 模型同样是在通用语料上训练的，同样存在专业词汇不敏感的问题——它只是在你已经召回的候选里重新排序，而不能召回那些一开始就没被捞到的文档。</p>\n<p>最终结果：链路变慢了，架构变复杂了，根本问题还在。引入 Rerank 后，排序质量的提升非常有限，反而让 BM25 的作用几乎被掩盖了。</p>\n<h2>问题四：碎片化的上下文</h2>\n<p>分块（ Chunking ）是 RAG 最无法绕开的问题。</p>\n<p>文档被切成固定大小的片段之后，每个片段都与它的前后文脱节了。AI 拿到的是一段从报告中间截取的内容，不知道这段话在哪个章节，不知道前一段在讲什么，也不知道后续有没有结论。</p>\n<p>最糟糕的情况是：一个关键段落恰好横跨两个 Chunk 的边界，两个 Chunk 都能匹配到，但又各自不完整。AI 拿到的两份碎片都沾了边，却都缺少关键信息，最终给出一个似是而非的回答。</p>\n<p>这个问题业内有很多补丁办法，比如：加大 Chunk 重叠，加入父 Chunk 检索，引入 Small-to-Big 策略……每个补丁都能在某个维度上改善问题，但也都会带来新的代价——更多 Token 、更复杂的管线、更难调试的行为、更加无法通用。</p>\n<p>我们把这些补丁叠在一起，得到了一个复杂、易出错，但仍然不够好的系统。</p>\n<h2>问题五：不同文档类型需要特殊处理</h2>\n<p>通用分块策略对不同文档类型的效果差异极大，这是我们当初没有充分预判到的。</p>\n<p>论文有 Abstract + 正文 + References 的结构；书籍有章节层级和页眉页脚；合同有条款编号和交叉引用；代码文档有 API 列表和示例代码；表格类文档的\"内容\"是列名和数据类型，而不是单元格里的文字……</p>\n<p>固定窗口切块的策略不理解这些结构，分块点往往切在语义中间，把标题和它的正文分开，把条款编号和条款内容切断，把表头和数据分离。</p>\n<p>每种文档类型其实需要完全不同的处理逻辑。但针对每种类型都写特化的解析器和分块策略，工作量巨大，维护成本也高——而且即使都做完了，效果也只是\"比通用策略好一些\"，仍然是碎片化的。</p>\n<h2>问题六：Agent 使用体验极差</h2>\n<p>以上五个问题单独看，每个都还在可接受的范围内，但当 RAG 被实际接入 AI Agent 使用的时候，所有问题叠加在一起，效果非常糟糕。</p>\n<p>一个真实的场景：AI 在帮用户分析一份合同，调用 <code>search()</code> 检索相关条款，拿到了 10 个 Chunk 。有几个 Chunk 沾了边，但信息不完整。AI 无法判断该怎么继续，只好调整关键词重新搜索。再拿到 10 个 Chunk ，还是不够。再换关键词，再搜一次。</p>\n<p>每次搜索都是黑盒：AI 不知道换哪个关键词才能找到它需要的内容，不知道文档里到底有没有这个信息，不知道自己距离答案有多远。这种低效不是 Agent 能力不够，而是工具本身的设计不支持它做出合理的决策。</p>\n<p><strong>RAG 在设计上是为\"用户直接提问\"场景优化的，不是为\"Agent 自主探索\"场景设计的。</strong></p>\n<h2>行业也在转移</h2>\n<p>这些问题不是我们独有的，业内已经有明显的应对趋势：</p>\n<p><strong>微软的 GraphRAG</strong> 引入知识图谱来缓解上下文碎片化问题，把相关实体和关系显式地存储下来，而不是靠碎片拼凑。</p>\n<p><strong>PageIndex</strong> 不按固定大小切 Chunk ，而是以页面为单位建立索引，保留文档的自然边界。</p>\n<p><strong>Agentic RAG</strong> 尝试让 AI 自主决定检索策略，而不是走固定管线——方向是对的，但在 RAG 架构上叠加 Agent 逻辑，复杂度随之翻倍。</p>\n<p>最彻底的转向来自 Claude Code 和 Manus 。它们干脆放弃了 RAG ，回到最原始的方式：<strong>Glob + Grep + Read</strong>。找文件、搜关键词、读内容。没有向量数据库，没有 Embedding 模型，没有 Chunk 管线。效果反而更好。</p>\n<p>这让我们想明白了一件事：RAG 的设计假设是\"LLM 不够聪明，需要我们帮它把信息预处理好\"。这在 GPT-3.5 时代是合理的。但现在的 LLM 已经有能力自主使用工具完成多步检索任务——它们不需要预切碎片，它们需要的是<strong>线索</strong>：文件在哪，结构是什么，然后它自己能决定读什么、读多少。</p>\n<h2>我们的解法：Outline Index</h2>\n<p>Glob + Grep + Read 对代码库很有效，但对用户文档行不通。代码库里 <code>src/services/auth.ts</code> 这个路径本身就在告诉你这是认证服务；但 <code>2024 年度总结(修改版)(最终版).docx</code>，路径告诉你的信息约等于零。更别提 PDF 和 Word 是二进制格式，grep 根本读不了。</p>\n<p>所以我们的问题变成了：能不能给文档也建立一套等价的\"目录索引\"，让 AI 用 search → outline → read 的方式渐进式地翻阅你的文件？</p>\n<p>我们把这套方案叫做 <strong>Outline Index</strong>。</p>\n<p>核心思想一句话：<strong>不替 AI 预切信息，而是给它一张地图。</strong></p>\n<p>为每个文档建立一份结构化\"名片\"，包含文档的元数据（标题、作者、关键词、摘要）和结构大纲（章节标题、层级关系、行号范围）。AI 按三层路径访问文档：</p>\n<ul>\n<li><strong>search</strong>：搜索相关文档，返回文件列表和 Metadata ，约 50 tokens/文件</li>\n<li><strong>outline</strong>：查看文档的结构地图，约 200-500 tokens/文件</li>\n<li><strong>read</strong>：精准读取指定章节的原文，按需加载</li>\n</ul>\n<p>这与人类阅读的方式完全一致：先找书，看目录，翻到对应章节精读。AI 在这个过程中有完整的上下文，知道自己在文档的什么位置，可以决定\"再多看一点\"，也可以跨文档对比。</p>\n<p>对比传统 RAG：同样的场景下，Outline Index 方式的 Token 消耗约 800-3400 ，AI 拿到有完整上下文的精确信息。传统 RAG 返回 10 个预切碎片，消耗 4000-6000 tokens ，AI 对文档结构一无所知。</p>\n<p>另一个副产品：Embedding 的对象从原文 Chunk 变成了 Outline Index 本身。一个文档只需要一个向量。10000 个文档 ≈ 10000 个向量 ≈ 30MB 存储，检索速度也快得多。</p>\n<p>关于领域词汇不敏感的问题，BM25 全文检索补上了这块短板。双路检索（ BM25 精确匹配 + 向量语义理解），通过 RRF 融合，不再需要 Rerank 模型。</p>\n<p>最后，是广告时间：</p>\n<ul>\n<li>Outline Index 是 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a> 的核心技术。如果你对具体的实现细节感兴趣，可以阅读这篇技术文章：<a href=\"https://linkly.ai/blog/zh/outlines-index-progressive-disclosure-for-ai-agents\" rel=\"nofollow\">Outlines Index：一种渐进式披露大量文档给 AI Agent 的方法</a>。</li>\n<li>如果你想体验实际效果，请下载 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a>，以及 <a href=\"https://linkly.ai/docs/en/use-cli\" rel=\"nofollow\">linkly-ai-cli</a>，<a href=\"https://linkly.ai/docs/en/integration/use-in-claude\" rel=\"nofollow\">接入到某个 AI 客户端</a>中体验，实测效果远好于 RAG 。</li>\n</ul>\n\n\t",
       "author": "blueeon",
@@ -531,6 +551,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "咏三角梅",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525653",
+      "pubDate": "2026-03-13 02:19:40",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "安装 Claude Code 后无法配置第三方 API",
       "link": "https://www.v2ex.com/t/1197932#reply6",
       "pubDate": "2026-03-13T02:11:13.000Z",
@@ -619,6 +649,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "一场重读经典的伟大冒险 (评论: 生命的灿烂之书)",
+      "link": "https://book.douban.com/review/17501149/",
+      "pubDate": "Fri, 13 Mar 2026 00:28:45 GMT",
+      "content": "\n尤里卡评论: 生命的灿烂之书 (https://book.douban.com/subject/37650721/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bsio9&#34;,&#34;text&#34;:&#34;初识哈罗德·布鲁姆，是因为那本大名鼎鼎的《西方正典》。作为当今世界最具影响力和原创性的文学理论家之一，布鲁姆还著有《诗歌与压抑》《影响的焦虑》《如何读，为什么读》等多部经典之作，属于并非修辞意义上的著作等身。暮色将尽之时，布鲁姆依然笔耕不辍，写出...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -860,6 +900,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "十年后，我终于读懂了那棵“提心吊胆的稗子” (评论: 月光落在左手上)",
+      "link": "https://book.douban.com/review/17500134/",
+      "pubDate": "Thu, 12 Mar 2026 06:30:52 GMT",
+      "content": "\n新经典评论: 月光落在左手上 (https://book.douban.com/subject/37808411/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;5k6qp&#34;,&#34;text&#34;:&#34;陷入热恋的人，如何表达“我爱你”？&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyle...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
       "title": "国家互联网应急中心：OpenClaw 风险提示",
       "link": "https://www.appinn.com/openclaw-security-risk-alert-cnnic/",
       "pubDate": "Thu, 12 Mar 2026 06:13:51 +0000",
@@ -925,26 +975,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "全球征解：把杨振宁反复强调却没有能给出中文含义的一个英文单词taste翻译成中文",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3377&do=blog&id=1525518",
-      "pubDate": "2026-03-12 04:00:05",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "沪上春短，心向清欢",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2533479&do=blog&id=1525512",
-      "pubDate": "2026-03-12 03:23:38",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "让真诚的叙事回归长剧 (评论: 逐玉)",
@@ -1099,16 +1129,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "悲伤都将是暂时的......吗？ (评论: 成长的迷思)",
-      "link": "https://book.douban.com/review/17497231/",
-      "pubDate": "Tue, 10 Mar 2026 02:36:41 GMT",
-      "content": "\n新星出版社评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;p4df&#34;,&#34;text&#34;:&#34;这两年，“爱老己”成了热门词。打开各类社交媒体，满屏都是“把自己重新养一遍”、“对自己好一点”、“要学会爱自己”。&#34;,&#34;type...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
       "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
       "link": "https://tech.meituan.com/2026/03/09/longcat-openclaw.html",
       "pubDate": "Mon, 09 Mar 2026 00:00:00 +0000",
@@ -1133,16 +1153,6 @@
       "link": "https://book.douban.com/review/17494559/",
       "pubDate": "Sun, 08 Mar 2026 10:09:37 GMT",
       "content": "\n项平评论: Overfitting and Heuristics in Philosophy (https://book.douban.com/subject/36884467/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;4roe7&#34;,&#34;text&#34;:&#34;作者：ChatGPT、Gemini、Grok&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;i...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
-      "link": "https://book.douban.com/review/17490921/",
-      "pubDate": "Fri, 06 Mar 2026 03:14:35 GMT",
-      "content": "\n新经典评论: 马孔多在下雨 (https://book.douban.com/subject/36946790/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;fmjqs&#34;,&#34;text&#34;:&#34;在加西亚·马尔克斯书中，天气预报员算不算地狱难度的职业？这里——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlin...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣书评",
@@ -1233,16 +1243,6 @@
       "link": "https://book.douban.com/review/17487509/",
       "pubDate": "Tue, 03 Mar 2026 13:54:54 GMT",
       "content": "\n仙境兔子不忘记评论: 观鸟大年 (https://book.douban.com/subject/37524361/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;eu2kp&#34;,&#34;text&#34;:&#34;我是因为爱上观鸟，才翻译了《观鸟大年》；但这毫无疑问，是 一本“人”书。 &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "这是一本写了三年，历经十八个版本，写到我精神崩溃数次的书。祝它基本健康，希望大家能喜欢。 (评论: 明夜，谁将留存于这具身体)",
-      "link": "https://book.douban.com/review/17486687/",
-      "pubDate": "Tue, 03 Mar 2026 02:26:37 GMT",
-      "content": "\n乌拉拉评论: 明夜，谁将留存于这具身体 (https://book.douban.com/subject/37431538/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6ks6f&#34;,&#34;text&#34;:&#34;动笔写这本书的时候，还是2022年春天。那时候完全没有想到一本书会整整写了三年时间。\\n我从来就是一个狂妄的人，但即使以我之狂妄，动笔的时候我也不敢承认这本书的目标。\\n这本书的目标是创造一个世界。\\n自从“科幻”这种类型诞生以来，诞生过很多优秀的作品，...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣书评",
