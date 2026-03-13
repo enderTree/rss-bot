@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-13T11:24:45.042Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-13T12:37:20.667Z",
+  "totalItems": 133,
   "items": [
     {
+      "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
+      "link": "https://movie.douban.com/review/17501873/",
+      "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
+      "content": "\n陆冠均评论: 海贼王(真人版) 第二季 (https://movie.douban.com/subject/36559697/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;82skb&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;en...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
-      "link": "https://www.v2ex.com/t/1198130#reply3",
+      "link": "https://www.v2ex.com/t/1198130#reply9",
       "pubDate": "2026-03-13T11:09:31.000Z",
       "content": "\n\t<p>事情是这样的，我之前买了中转，想在 IDEA 上使用，填入中转 key 后，我有一段时间没用，再次上线时，发现被盗刷了 700 多的额度，现在该已经被举报下架了，我在他的 GitHub 留言了，大家以后注意这种情况，真的恶心。\n<a href=\"https://imgur.com/onsnZMZ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/aeBh6QS\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/n6xpyQQ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/hQdywG2\" rel=\"nofollow\">Imgur</a></p>\n\n\t",
       "author": "ZettarYuFan",
@@ -93,7 +103,7 @@
     },
     {
       "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-      "link": "https://www.v2ex.com/t/1198110#reply13",
+      "link": "https://www.v2ex.com/t/1198110#reply14",
       "pubDate": "2026-03-13T09:48:07.000Z",
       "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
       "author": "gefangshuai",
@@ -133,7 +143,7 @@
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply14",
+      "link": "https://www.v2ex.com/t/1198090#reply17",
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
@@ -223,7 +233,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply36",
+      "link": "https://www.v2ex.com/t/1198056#reply37",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -331,16 +341,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "总结一下我最近几个月 vibe coding 的开源项目",
-      "link": "https://www.v2ex.com/t/1197995#reply0",
-      "pubDate": "2026-03-13T04:57:36.000Z",
-      "content": "\n\t<p>AI 简历求职: <a href=\"https://github.com/twwch/JadeAI\" rel=\"nofollow\">https://github.com/twwch/JadeAI</a></p>\n<p>vibe coding 思路： <a href=\"https://github.com/twwch/vibe-coding\" rel=\"nofollow\">https://github.com/twwch/vibe-coding</a></p>\n<p>AI 漫剧平台： <a href=\"https://github.com/twwch/AIComicBuilder\" rel=\"nofollow\">https://github.com/twwch/AIComicBuilder</a></p>\n<p>AI 绘图聚合： <a href=\"https://github.com/twwch/DeepDiagram\" rel=\"nofollow\">https://github.com/twwch/DeepDiagram</a></p>\n<p>对话式创建调用修改 skill： <a href=\"https://github.com/twwch/next-chat-skills\" rel=\"nofollow\">https://github.com/twwch/next-chat-skills</a></p>\n<p>Python 调用 skills 的 SDK： <a href=\"https://github.com/twwch/OpenSkills\" rel=\"nofollow\">https://github.com/twwch/OpenSkills</a></p>\n\n\t",
-      "author": "jaycee110905",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "随着 AI 写代码的复杂度越来越高，项目越来越难以推动和理解，这个反 speckit 工具可以解决这个问题",
       "link": "https://www.v2ex.com/t/1197994#reply6",
       "pubDate": "2026-03-13T04:45:47.000Z",
@@ -442,7 +442,7 @@
     },
     {
       "title": "天塌了, 连豆包都不能匿名问问题了",
-      "link": "https://www.v2ex.com/t/1197922#reply5",
+      "link": "https://www.v2ex.com/t/1197922#reply6",
       "pubDate": "2026-03-13T01:54:01.000Z",
       "content": "\n\t以前国内 ai 我只用豆包, 只有一个原因, 就是因为不需要登录<br /><br />今天一试, 居然也要登录了<br /><br />算了以后还是用 gpt 或 gemini 把\n\t",
       "author": "iorilu",
@@ -452,7 +452,7 @@
     },
     {
       "title": "大家怎么看待国内各大厂商出来的各种云部署 OpenClaw 的活动？",
-      "link": "https://www.v2ex.com/t/1197921#reply41",
+      "link": "https://www.v2ex.com/t/1197921#reply42",
       "pubDate": "2026-03-13T01:53:33.000Z",
       "content": "\n\t如题，为什么这么推 OpenClaw 呢？是想收集个人信息吗？还是想卖云服务器呢？京东最新推出 云部署 OpenClaw 送真小龙虾虾\n\t",
       "author": "fuxintong",
@@ -581,46 +581,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
-      "link": "https://www.v2ex.com/t/1197841#reply14",
-      "pubDate": "2026-03-12T14:01:51.000Z",
-      "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-      "author": "finiking",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "哪有这样的电影名字翻译？简直离谱他妈给离谱开门 (评论: 呼叫谋杀)",
-      "link": "https://movie.douban.com/review/17500733/",
-      "pubDate": "Thu, 12 Mar 2026 13:54:38 GMT",
-      "content": "\n梁佩直评论: 呼叫谋杀 (https://movie.douban.com/subject/5061582/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3aiki&#34;,&#34;text&#34;:&#34;我记得B站抄我字幕的，也懂得及时更新电影名字。上一次是《广东护照》。&#34;,&#34;type&#34;:&#34;unstyl...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "如何破解 grok 现在只回复有蓝标人的艾特",
-      "link": "https://www.v2ex.com/t/1197836#reply3",
-      "pubDate": "2026-03-12T13:36:04.000Z",
-      "content": "\n\t“@grok 是真的吗？”<br />现在 grok 只回复有蓝标的号，所以我在想能不能找一个有蓝标的号，作为一个中间代理，大家艾特他，然后他来替我们艾特 grok ，来实现以前大家都可以艾特 grok 的效果。可能需要自动化程序来实现，不知道好不好做，有没有老哥来实现一下。\n\t",
-      "author": "punny",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
-      "link": "https://www.v2ex.com/t/1197827#reply9",
-      "pubDate": "2026-03-12T12:31:52.000Z",
-      "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
-      "author": "odokei",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "发一下这本企划破产的选集的目录 (评论: HALFSHADOW 星之追尋者)",
       "link": "https://book.douban.com/review/17500583/",
       "pubDate": "Thu, 12 Mar 2026 12:12:07 GMT",
@@ -629,6 +589,16 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
+      "title": "好的导师，不是帮你搞定难题，而是帮你“把挣扎正常化”",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3383728&do=blog&id=1525479",
+      "pubDate": "2026-03-12 11:15:32",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "忆往",
@@ -692,7 +662,7 @@
     },
     {
       "title": "前端去学习 golang 跨度成本大吗？",
-      "link": "https://www.v2ex.com/t/1197788#reply45",
+      "link": "https://www.v2ex.com/t/1197788#reply47",
       "pubDate": "2026-03-12T09:15:17.000Z",
       "content": "\n\t<p>多年 web 前端，熟练使用 Ai 工具等。现在因一些工作上的可选择因素想尝试学习 go ，之前没有什么服务端开发经验，会点 nodejs ，就是这样。\n如果要学 go ，在 ai 工具(codeX+antigravity)的协助下，学习成本大吗？大概多久能上手啊？有没有大佬有一个 go 学习的方向和思路传授一下。</p>\n\n\t",
       "author": "mumuwen",
@@ -741,16 +711,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "有推荐的光驱位热插拔硬盘笼吗",
-      "link": "https://www.v2ex.com/t/1197784#reply15",
-      "pubDate": "2026-03-12T08:44:10.000Z",
-      "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
-      "author": "y5g",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
       "link": "http://www.ruanyifeng.com/blog/2026/03/arkclaw.html",
       "pubDate": "2026-03-12T08:01:06.000Z",
@@ -773,36 +733,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "三湘之春",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=5889&do=blog&id=1525434",
-      "pubDate": "2026-03-12 07:43:01",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "南天竹：赤玉翠竹迎岁寒，本草良方藏叶间",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525431",
-      "pubDate": "2026-03-12 07:33:52",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "新发现还需要成功的命名",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525430",
-      "pubDate": "2026-03-12 07:33:32",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
@@ -828,16 +758,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
-      "link": "https://www.v2ex.com/t/1197732#reply24",
-      "pubDate": "2026-03-12T06:50:10.000Z",
-      "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
-      "author": "wsbqdyhm",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "国家互联网应急中心：OpenClaw 风险提示",
@@ -927,29 +847,19 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "以现在 AI 发展的水平来看，会不会现有的图灵方案都形同虚设?",
-      "link": "https://www.v2ex.com/t/1197642#reply22",
-      "pubDate": "2026-03-12T02:40:22.000Z",
-      "content": "\n\t<p>我们常用的图灵测试方案基础的图形验证码、复杂点的图形验证码+计算数学题，再进一步的就是各种混淆干扰线之类的。还有一种验证方式是识别图形、拼图之类的交互式验证码。</p>\n<p>在现在 AI 发展迅速的当下，这些验证手段会不会即将（或已经）失效，那我们有没有什么方法去更好的区分 “人类” 和 “AI” 呢？</p>\n<p>我能想到的就是手机验证码这种，尽可能增加获取验证码的成本</p>\n\n\t",
-      "author": "815979670",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "opencode 下， deepseek 有时候比较蠢",
-      "link": "https://www.v2ex.com/t/1197641#reply32",
-      "pubDate": "2026-03-12T02:39:40.000Z",
-      "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-      "author": "nativeBoy",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "科学史中的教训：第十章  混沌的蝴蝶：洛伦兹与确定性的死亡",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525505",
       "pubDate": "2026-03-12 02:27:43",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "2026生命科学技术大变革！AI+机器人四大趋势，重塑合规与研发新格局",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525501",
+      "pubDate": "2026-03-12 02:14:07",
       "content": "",
       "author": "",
       "categories": [],
@@ -967,14 +877,14 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-      "link": "https://www.v2ex.com/t/1197618#reply55",
-      "pubDate": "2026-03-12T01:48:58.000Z",
-      "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
-      "author": "Newbee24",
+      "title": "英文书法",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525496",
+      "pubDate": "2026-03-12 01:52:32",
+      "content": "",
+      "author": "",
       "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "坂本龙一和1980年代 (评论: 音乐机械论)",
@@ -988,7 +898,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply59",
+      "link": "https://www.v2ex.com/t/1197595#reply60",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",
@@ -1045,16 +955,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-      "link": "https://www.v2ex.com/t/1197429#reply81",
-      "pubDate": "2026-03-11T06:36:16.000Z",
-      "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-      "author": "TheBlind",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "国货之光闪耀，素材管理神器 Eagle 终身授权 7 折优惠，限时开启！",
