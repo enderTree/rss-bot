@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-13T22:20:44.874Z",
+  "lastUpdated": "2026-03-13T23:19:34.779Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-13T22:20:34.003Z",
+      "lastUpdated": "2026-03-13T23:19:23.033Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-13T22:20:34.895Z",
+      "lastUpdated": "2026-03-13T23:19:24.085Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-13T22:20:34.958Z",
+      "lastUpdated": "2026-03-13T23:19:24.241Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-13T22:20:36.688Z",
+      "lastUpdated": "2026-03-13T23:19:25.884Z",
       "items": [
         {
           "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
@@ -309,7 +309,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-13T22:20:36.918Z",
+      "lastUpdated": "2026-03-13T23:19:26.037Z",
       "items": [
         {
           "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
@@ -332,6 +332,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "某团队公开了一个支付宝的攻击面",
+          "link": "https://www.v2ex.com/t/1198173#reply7",
+          "pubDate": "2026-03-13T15:24:09.000Z",
+          "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
+          "author": "defaultVoid",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "有新闻抓取的 skills 吗？",
           "link": "https://www.v2ex.com/t/1198166#reply7",
           "pubDate": "2026-03-13T14:27:51.000Z",
@@ -347,16 +357,6 @@
           "pubDate": "2026-03-13T13:18:25.000Z",
           "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
           "author": "zonas",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "某团队公开了一个支付宝的攻击面",
-          "link": "https://www.v2ex.com/t/1198173#reply5",
-          "pubDate": "2026-03-13T15:24:09.000Z",
-          "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
-          "author": "defaultVoid",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -563,7 +563,7 @@
         },
         {
           "title": "随着 AI 写代码的复杂度越来越高，项目越来越难以推动和理解，这个反 speckit 工具可以解决这个问题",
-          "link": "https://www.v2ex.com/t/1197994#reply6",
+          "link": "https://www.v2ex.com/t/1197994#reply7",
           "pubDate": "2026-03-13T04:45:47.000Z",
           "content": "\n\t<p>最近用 claude code 或者别的 ai agent 写代码，写了几个月，发现了里面一些问题，</p>\n<p><a href=\"https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif\" rel=\"nofollow\">https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif</a></p>\n<h2>总是有种感觉就是和 ai 一起推进一个项目，和 ai 一起讨论，各种方案研究，一起推进，推着推着就退不动了，要么就是觉得 ai 莫名的越来越笨，</h2>\n<ol>\n<li>要么就是 ai 调用工具比如检索查看一些文件或者信息的时候似乎越来越不准，效率越来越低</li>\n<li>要么就是 ai 写一些测试的时候，测试的越来越不准，</li>\n<li>或者说要 ai 修 bug ，他说修好了，可是问题还在，这样的现象随着我们的项目越来越大以后就越来越明显</li>\n</ol>\n<p>所以导致大到一定程度，积累了很多的技术债，导致很难继续，或者改变。</p>\n<h2>在 AI 之前的时代，我们打开 IDE ，每一行代码、每一个文件、每一个引用、每一个函数都是我们自己写的。当出现 bug 的时候，我们非常清楚问题在哪，可以快速地去调试，很有掌控感。</h2>\n<p>但在 AI 时代，我们在终端或 AI Agent 上，只能看到它以机器的速度快速修改各种文件。我们只能看到具体改了哪些文件的名字，以及非常局部的改动内容，这使我们失去了对整个代码的大局观。</p>\n<p>很多人在整个用 AI Web Coding 的生命周期里，甚至从始至终都没有看过文件夹下面的内容：</p>\n<ol>\n<li>它到底创造了什么？</li>\n<li>它们之间的关系是什么？</li>\n<li>整体结构是什么？</li>\n</ol>\n<p>我们对此一无所知，只能盲目地相信 AI 做的事情。那么当出现 bug 的时候，我们更加无能为力，只能继续依赖 AI 去找 bug 、查 bug 、改 bug 。这也是目前的痛点之一。</p>\n<h2>在信息学的理论里面有熵增定律。由于我们目前的 AI 属于生成式 AI ，AI 写的代码是生成式代码，这就不可避免地会从原理上让我们——如果只依赖于 AI 的话——会让我们的代码结构变得更加冗余和复杂。</h2>\n<p>目前整个行业很有可能是在以一个错误的方式去解决这个问题。</p>\n<p>在一些很火的开源项目（比如 GitHub 出品的 SpecKit ）中，这类工具非常依赖于开发者在项目开始前，就彻彻底底想好整个代码结构、要实现的功能以及具体内容。</p>\n<p>但真正在 AI Coding 的时候，我们的做法其实恰恰相反。在自然的情况下，我们使用 AI 写代码更倾向于一种“交谈启发式”的流程：</p>\n<ol>\n<li>我们并不会提前规划好所有细节，而是从零开始，让 AI 快速生成原型。</li>\n<li>像甲方和乙方一样，在交互中不断修改方案。</li>\n<li>同时进行一些深刻的探讨，启发我们想到更好的产品方案或技术路线。</li>\n</ol>\n<p>在这样的循环推进方式下，AI 不可避免地会生成一些架构很乱的“脏代码”。最终在一轮又一轮的 Prompt 之后，它确实可能给出一个外在功能完美的运行结果，但内部架构可能是极其混乱的。</p>\n<p>正是因为架构的混乱，会导致开篇那样让人抓狂的东西，很多致命的情况：\n(a) 当 AI 调用工具指令搜索函数时，可能会找到好几个函数名相同但实现形式或算法不同的结果。\n(b) 当 AI 修复 Bug 时，它以为修好了一处，但由于架构混乱，它实际修掉的可能是别的地方。</p>\n<p>俗话说，好的体系让坏人也可以做好事，坏的体系可以让好人也变成坏人。这就意味着，在一个好的架构下，即便水平稍低一些的 AI 都可以写出高质量的代码。</p>\n<p>所以，架构是非常重要的。</p>\n<p>所以这个 repo 可以 同时帮助人做以上两个事情，可以理解为可视化文件系统，以及给 AI 一个传感器，就是架构传感器，帮助 ai 自我循环加速写好的代码。</p>\n<h1>这样可以理解为这个 project 是反向的 speckit ，</h1>\n<p>无论你用什么自然的方式开始 vibe coding ， 都可以在 sentrux 的帮助下，最后弄出来很好，很高水准的代码，</p>\n<h2>纯 rust 高性能</h2>\n<h2><a href=\"https://github.com/sentrux/sentrux\" rel=\"nofollow\">https://github.com/sentrux/sentrux</a></h2>\n\n\t",
           "author": "yisen123",
@@ -710,128 +710,18 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "文本加密工具“与熊论道”算法已被成功逆向破解",
-          "link": "https://www.v2ex.com/t/1197847#reply13",
-          "pubDate": "2026-03-12T14:27:32.000Z",
-          "content": "\n\t<p>文本加密工具“熊曰加密”(与熊论道)已被通过<strong>已知明文攻击（ KPA ）</strong>完全破解。</p>\n<p>与熊论道加密网站因故于 2025 年上旬下线，由于其加密算法不开源，导致大量既有密文无法解密。</p>\n<p>经过逆向分析，其并未采用任何高级加密算法，主要基于 Base91 编码算法，字符替换，外加压缩和混淆处理，具体请见 PoC 。</p>\n<p>此次逆向工作解除了该工具在加密时对中心化服务端的依赖，为早期使用该加密算法生成的历史数据提供了一种长期可用的解密与归档途径。</p>\n<p>萌研社 2020 年更新以来加密出的所有熊曰密文现已<strong>允许被解密</strong>。</p>\n<p>此为魔曰项目的原创逆向研究，原创发布。</p>\n<hr/>\n<h3>Poc 代码 / 详细解释 / 快速解密 参见</h3>\n<h3><a href=\"https://github.com/SheepChef/Abracadabra/issues/123\" rel=\"nofollow\">https://github.com/SheepChef/Abracadabra/issues/123</a></h3>\n\n\t",
-          "author": "SheepChef",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "微信 4.x 之后 macOS 上第一个实现 hook 收发消息的开源项目（据我所知）",
-          "link": "https://www.v2ex.com/t/1197958#reply3",
-          "pubDate": "2026-03-13T03:01:45.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://github.com/yincongcyincong/weixin-macos\" rel=\"nofollow noopener\">https://github.com/yincongcyincong/weixin-macos</a><br /><br />因为自己对微信 hook 一直有需求，需要拦截所有订阅的银行消费提醒实现自动记账，以及各类群消息汇总、Omnifocus 之类的任务管理，所以对微信 4.x 之后在 mac 上的 hook 比较关注，之前问过 mac 上面微信的 hook 情况 <a target=\"_blank\" href=\"https://www.v2ex.com/t/1180863\" rel=\"nofollow noopener\">https://www.v2ex.com/t/1180863</a><br /><br />帖子里有人提到这个项目，试了一下确实实现了 hook 收发，我在 4.1.7.31 上面测试成功。、<br /><br />征得作者的同意把项目在这里发一下，有需要的可以关注一波，也可以添加电报群 <a target=\"_blank\" href=\"https://t.me/+yBnP4fxkoCIzZjRl\" rel=\"nofollow noopener\">https://t.me/+yBnP4fxkoCIzZjRl</a> 不过作者也说了，会只专注微信基本的收发功能，主要用于接入 agent 使用，其它各类群控之类的功能一概不碰。\n\t",
-          "author": "f1ynnv2",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "天塌了, 连豆包都不能匿名问问题了",
-          "link": "https://www.v2ex.com/t/1197922#reply7",
-          "pubDate": "2026-03-13T01:54:01.000Z",
-          "content": "\n\t以前国内 ai 我只用豆包, 只有一个原因, 就是因为不需要登录<br /><br />今天一试, 居然也要登录了<br /><br />算了以后还是用 gpt 或 gemini 把\n\t",
-          "author": "iorilu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有没有复杂问题和抽象问题强推理能力的模型",
-          "link": "https://www.v2ex.com/t/1197901#reply6",
-          "pubDate": "2026-03-13T01:23:53.000Z",
-          "content": "\n\t<p>目前 coding 已经高强度使用 codex 了，但是发现做规划、方案、复杂问题尤其是抽象问题的推理上，gpt 太保守了，循规蹈矩的。\nclaude 目前看是推理能力比较强，但是额度太少了，4.6 动不动就干空了，20x 又开不起。\n这个场景下，有没有接近 claude 的平替？ glm5 浅浅试了下，没经过大量验证不好说。\nv 友们有比较适合这种场景的平替模型厂家么？\n出于隐私安全，不考虑中转。</p>\n\n\t",
-          "author": "zzNaLOGIC",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "小米这个域名是用来检测代理的吗 device-proxy.sec.xiaomi.com",
-          "link": "https://www.v2ex.com/t/1197863#reply5",
-          "pubDate": "2026-03-12T16:35:38.000Z",
-          "content": "\n\t<p>观察到有时候会解析到 127.0.0.1,有时候会解析到正常 IP ，这种有时候正常，有时候不正常的解析目的是什么</p>\n<p><img alt=\"device-proxy.sec.xiaomi.com_多地 Ping 值测试.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/vOSItbq.jpeg\"/></p>\n<p>最近几次的解析记录\n<img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/EIH2Zqv.png\"/>\n<img alt=\"image.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.violet.vin/v2/bwbgZKq.png\"/></p>\n<p>我不用小米手机，应该是 IOT 设备发出的</p>\n\n\t",
-          "author": "lnbiuc",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-          "link": "https://www.v2ex.com/t/1197618#reply56",
-          "pubDate": "2026-03-12T01:48:58.000Z",
-          "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
-          "author": "Newbee24",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "opencode 下， deepseek 有时候比较蠢",
-          "link": "https://www.v2ex.com/t/1197641#reply33",
-          "pubDate": "2026-03-12T02:39:40.000Z",
-          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-          "author": "nativeBoy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
-          "link": "https://www.v2ex.com/t/1197841#reply14",
-          "pubDate": "2026-03-12T14:01:51.000Z",
-          "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-          "author": "finiking",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
-          "link": "https://www.v2ex.com/t/1197827#reply9",
-          "pubDate": "2026-03-12T12:31:52.000Z",
-          "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
-          "author": "odokei",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
-          "link": "https://www.v2ex.com/t/1197429#reply81",
-          "pubDate": "2026-03-11T06:36:16.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
-          "author": "TheBlind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-13T22:20:39.196Z",
+      "lastUpdated": "2026-03-13T23:19:28.573Z",
       "items": [
         {
           "title": "心似双丝网，中有千千结",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525588",
           "pubDate": "2026-03-13 08:30:29",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "[打听，科普，数学] 素数（8）：素数间隙 prime gap 与 Cramer\\'s Conjecture",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525561",
-          "pubDate": "2026-03-12 10:07:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -852,6 +742,16 @@
           "title": "小猫知暖",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525584",
           "pubDate": "2026-03-13 08:23:18",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "[打听，科普，数学] 素数（8）：素数间隙 prime gap 与 Cramer\\'s Conjecture",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525561",
+          "pubDate": "2026-03-12 10:07:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -899,36 +799,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "全球高被引科学家评选规则的变化及对我国的启示",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525542",
-          "pubDate": "2026-03-12 07:10:05",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "楷体书法",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
-          "pubDate": "2026-03-13 08:57:04",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
-          "pubDate": "2026-03-13 10:14:27",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "科学史中的教训：第十一章 优先权的战争：牛顿-莱布尼茨微积分之争",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525607",
           "pubDate": "2026-03-13 10:24:50",
@@ -949,9 +819,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "《论语》第一段，“悦”和“乐”的区别",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=504669&do=blog&id=1525540",
-          "pubDate": "2026-03-12 06:40:03",
+          "title": "楷体书法",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
+          "pubDate": "2026-03-13 08:57:04",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
+          "pubDate": "2026-03-13 10:14:27",
           "content": "",
           "author": "",
           "categories": [],
@@ -1017,13 +897,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "面对“被 AI 取代”的焦虑",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525632",
+          "pubDate": "2026-03-13 11:20:12",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "[笔记，科普，数学] 素数（9）：判定素数的埃拉托色尼筛 Sieve of Eratosthenes",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525708",
+          "pubDate": "2026-03-13 10:49:51",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-13T22:20:41.309Z",
+      "lastUpdated": "2026-03-13T23:19:31.082Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1230,7 +1130,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-13T22:20:43.212Z",
+      "lastUpdated": "2026-03-13T23:19:33.117Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
@@ -1438,20 +1338,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-13T22:20:44.246Z",
+      "lastUpdated": "2026-03-13T23:19:34.239Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-13T22:20:44.454Z",
+      "lastUpdated": "2026-03-13T23:19:34.504Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-13T22:20:44.874Z",
+      "lastUpdated": "2026-03-13T23:19:34.779Z",
       "items": [
         {
           "title": "无题",
