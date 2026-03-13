@@ -1,7 +1,46 @@
 {
-  "lastUpdated": "2026-03-13T10:27:30.799Z",
+  "lastUpdated": "2026-03-13T11:24:45.042Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
+      "link": "https://www.v2ex.com/t/1198130#reply3",
+      "pubDate": "2026-03-13T11:09:31.000Z",
+      "content": "\n\t<p>事情是这样的，我之前买了中转，想在 IDEA 上使用，填入中转 key 后，我有一段时间没用，再次上线时，发现被盗刷了 700 多的额度，现在该已经被举报下架了，我在他的 GitHub 留言了，大家以后注意这种情况，真的恶心。\n<a href=\"https://imgur.com/onsnZMZ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/aeBh6QS\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/n6xpyQQ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/hQdywG2\" rel=\"nofollow\">Imgur</a></p>\n\n\t",
+      "author": "ZettarYuFan",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "导演赵婷在“中年危机”里完成自我修复 (评论: 哈姆奈特)",
+      "link": "https://movie.douban.com/review/17501804/",
+      "pubDate": "Fri, 13 Mar 2026 10:28:19 GMT",
+      "content": "\n十号风球女士评论: 哈姆奈特 (https://movie.douban.com/subject/35618471/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2itje&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
+      "link": "https://www.appinn.com/updf-263/",
+      "pubDate": "Fri, 13 Mar 2026 10:17:55 +0000",
+      "content": "最近在 AI 圈里被频繁讨论的一个项目是 OpenClaw。 它属于一类正在兴起的 AI Agent 工具：用户只需要给出指令，AI 就可以自动完成一系列操作，比如控制电脑、整理文件、执行任务流程等。和过去只能对话的 AI 不同，这类工具正在让 AI 从“回答问题”，变成 真正替用户做事。 不过在  ",
+      "author": "",
+      "categories": [
+        "Windows",
+        "Android",
+        "iOS",
+        "iPad",
+        "iPhone",
+        "macOS",
+        "PDF",
+        "UPDF"
+      ],
+      "source": "小众软件",
+      "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
     {
       "title": "Chroniq - 给 AI Agent 工作流设计的 CLI 日志工具，轻量开源",
       "link": "https://www.v2ex.com/t/1198119#reply0",
@@ -14,7 +53,7 @@
     },
     {
       "title": "为什么 iPhone 上看抖音， macbook dock 上会弹出来 chrome 图标，点开是抖音？",
-      "link": "https://www.v2ex.com/t/1198118#reply2",
+      "link": "https://www.v2ex.com/t/1198118#reply3",
       "pubDate": "2026-03-13T10:12:19.000Z",
       "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TULQznT.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/RTduICW.png\"/> </p>\n<p>这是什么黑科技啊？</p>\n\n\t",
       "author": "14night",
@@ -44,7 +83,7 @@
     },
     {
       "title": "antigravity 5h 刷新改回来了",
-      "link": "https://www.v2ex.com/t/1198112#reply10",
+      "link": "https://www.v2ex.com/t/1198112#reply14",
       "pubDate": "2026-03-13T09:52:42.000Z",
       "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
       "author": "LaughingCat",
@@ -54,13 +93,23 @@
     },
     {
       "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-      "link": "https://www.v2ex.com/t/1198110#reply1",
+      "link": "https://www.v2ex.com/t/1198110#reply13",
       "pubDate": "2026-03-13T09:48:07.000Z",
       "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
       "author": "gefangshuai",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "2025年 全球 A&amp;HCI 发文 Top10 刊物",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525598",
+      "pubDate": "2026-03-13 09:40:40",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "HarmonyOS.skills",
@@ -84,7 +133,7 @@
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply13",
+      "link": "https://www.v2ex.com/t/1198090#reply14",
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
@@ -96,6 +145,16 @@
       "title": "心似双丝网，中有千千结",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525588",
       "pubDate": "2026-03-13 08:30:29",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "小猫知暖",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525584",
+      "pubDate": "2026-03-13 08:23:18",
       "content": "",
       "author": "",
       "categories": [],
@@ -189,7 +248,7 @@
     },
     {
       "title": "为什么放弃了 RAG？ RAG 的六大难题",
-      "link": "https://www.v2ex.com/t/1198028#reply30",
+      "link": "https://www.v2ex.com/t/1198028#reply31",
       "pubDate": "2026-03-13T06:17:03.000Z",
       "content": "\n\t<p>RAG 本身并不算是个坏主意。我们认真实践过，也确实在某些场景下跑通了。</p>\n<p>去年，我们花了几个月搭过几套完整的 RAG 管线：三阶段处理（ Extract 、Chunk 、Embed ），三种搜索策略（ Vector 、BM25 、Hybrid + Reranking ）。从文本提取，粗排，到 Rerank 精排，每一个环节都认真做了一遍。工程量不小，技术上看着很漂亮。</p>\n<p>但最终不得不承认一个事实：<strong>效果不好</strong></p>\n<p>这篇文章不是要批判 RAG ，而是诚实地分享下我们具体遇到了哪些问题，以及我们后来怎么想的。以及，小广告。。。</p>\n<h2>问题一：Embedding 模型两难</h2>\n<p>做本地桌面应用，Embedding 模型的选择是一个没有好答案的问题。</p>\n<p>小模型（参数量 &lt; 500M ）在设备上跑得动，但语义理解质量不稳定——碰到专业文档、跨语言搜索、长文档时，召回率明显下降。大模型（ 1B+）质量好，但在普通用户的笔记本上内存和计算开销太大，后台常驻时对系统资源的占用让人无法接受。</p>\n<p>桌面应用没有服务器可以依赖，只能在\"跑得动\"和\"效果好\"之间妥协。选了一个，另一个就要让步。这个困境在服务端应用里不存在，在本地优先应用里却是无解的。</p>\n<h2>问题二：领域词汇不敏感</h2>\n<p>向量语义搜索有一个根本性的弱点：它对专业术语的理解很差。</p>\n<p>原因并不复杂。Embedding 模型是在通用语料上训练的，而代码函数名、医学缩写、法律条款、产品专名这些词在训练语料里出现频率低，在向量空间里的位置偏僻且不稳定。</p>\n<p>实际表现是什么样的？用户搜 \"RLHF\"，不一定能找到写着 \"Reinforcement Learning from Human Feedback\" 的文档。搜\"LTV\"，可能匹配不到写着\"用户生命周期价值\"的分析报告。搜某个产品的型号，向量搜索根本抓不住这个词的准确语义。</p>\n<p>这不是配置问题，不是参数调优能解决的，业内常见做法是做 embedding 模型的微调，但一般都是针对特定领域，只能在 ToB 场景中 work 。</p>\n<p>Embedding 优势是模糊语义匹配，它的劣势恰好就是精确词汇匹配。而用户的真实需求往往是两者都要。</p>\n<h2>问题三：Rerank 的代价</h2>\n<p>召回率低和准确性差，是 RAG 管线的两个经典问题。针对准确性问题，业界的标准解法是引入 Rerank 模型做最后一步的精排。</p>\n<p>我们也做了这一步，然后发现问题并没有被解决，只是被转移了。</p>\n<p>Rerank 模型比 Embedding 模型更重、更慢。引入它之后，整个检索链路的延迟大幅上升，对本地应用来说尤其明显。更关键的是，Rerank 模型同样是在通用语料上训练的，同样存在专业词汇不敏感的问题——它只是在你已经召回的候选里重新排序，而不能召回那些一开始就没被捞到的文档。</p>\n<p>最终结果：链路变慢了，架构变复杂了，根本问题还在。引入 Rerank 后，排序质量的提升非常有限，反而让 BM25 的作用几乎被掩盖了。</p>\n<h2>问题四：碎片化的上下文</h2>\n<p>分块（ Chunking ）是 RAG 最无法绕开的问题。</p>\n<p>文档被切成固定大小的片段之后，每个片段都与它的前后文脱节了。AI 拿到的是一段从报告中间截取的内容，不知道这段话在哪个章节，不知道前一段在讲什么，也不知道后续有没有结论。</p>\n<p>最糟糕的情况是：一个关键段落恰好横跨两个 Chunk 的边界，两个 Chunk 都能匹配到，但又各自不完整。AI 拿到的两份碎片都沾了边，却都缺少关键信息，最终给出一个似是而非的回答。</p>\n<p>这个问题业内有很多补丁办法，比如：加大 Chunk 重叠，加入父 Chunk 检索，引入 Small-to-Big 策略……每个补丁都能在某个维度上改善问题，但也都会带来新的代价——更多 Token 、更复杂的管线、更难调试的行为、更加无法通用。</p>\n<p>我们把这些补丁叠在一起，得到了一个复杂、易出错，但仍然不够好的系统。</p>\n<h2>问题五：不同文档类型需要特殊处理</h2>\n<p>通用分块策略对不同文档类型的效果差异极大，这是我们当初没有充分预判到的。</p>\n<p>论文有 Abstract + 正文 + References 的结构；书籍有章节层级和页眉页脚；合同有条款编号和交叉引用；代码文档有 API 列表和示例代码；表格类文档的\"内容\"是列名和数据类型，而不是单元格里的文字……</p>\n<p>固定窗口切块的策略不理解这些结构，分块点往往切在语义中间，把标题和它的正文分开，把条款编号和条款内容切断，把表头和数据分离。</p>\n<p>每种文档类型其实需要完全不同的处理逻辑。但针对每种类型都写特化的解析器和分块策略，工作量巨大，维护成本也高——而且即使都做完了，效果也只是\"比通用策略好一些\"，仍然是碎片化的。</p>\n<h2>问题六：Agent 使用体验极差</h2>\n<p>以上五个问题单独看，每个都还在可接受的范围内，但当 RAG 被实际接入 AI Agent 使用的时候，所有问题叠加在一起，效果非常糟糕。</p>\n<p>一个真实的场景：AI 在帮用户分析一份合同，调用 <code>search()</code> 检索相关条款，拿到了 10 个 Chunk 。有几个 Chunk 沾了边，但信息不完整。AI 无法判断该怎么继续，只好调整关键词重新搜索。再拿到 10 个 Chunk ，还是不够。再换关键词，再搜一次。</p>\n<p>每次搜索都是黑盒：AI 不知道换哪个关键词才能找到它需要的内容，不知道文档里到底有没有这个信息，不知道自己距离答案有多远。这种低效不是 Agent 能力不够，而是工具本身的设计不支持它做出合理的决策。</p>\n<p><strong>RAG 在设计上是为\"用户直接提问\"场景优化的，不是为\"Agent 自主探索\"场景设计的。</strong></p>\n<h2>行业也在转移</h2>\n<p>这些问题不是我们独有的，业内已经有明显的应对趋势：</p>\n<p><strong>微软的 GraphRAG</strong> 引入知识图谱来缓解上下文碎片化问题，把相关实体和关系显式地存储下来，而不是靠碎片拼凑。</p>\n<p><strong>PageIndex</strong> 不按固定大小切 Chunk ，而是以页面为单位建立索引，保留文档的自然边界。</p>\n<p><strong>Agentic RAG</strong> 尝试让 AI 自主决定检索策略，而不是走固定管线——方向是对的，但在 RAG 架构上叠加 Agent 逻辑，复杂度随之翻倍。</p>\n<p>最彻底的转向来自 Claude Code 和 Manus 。它们干脆放弃了 RAG ，回到最原始的方式：<strong>Glob + Grep + Read</strong>。找文件、搜关键词、读内容。没有向量数据库，没有 Embedding 模型，没有 Chunk 管线。效果反而更好。</p>\n<p>这让我们想明白了一件事：RAG 的设计假设是\"LLM 不够聪明，需要我们帮它把信息预处理好\"。这在 GPT-3.5 时代是合理的。但现在的 LLM 已经有能力自主使用工具完成多步检索任务——它们不需要预切碎片，它们需要的是<strong>线索</strong>：文件在哪，结构是什么，然后它自己能决定读什么、读多少。</p>\n<h2>我们的解法：Outline Index</h2>\n<p>Glob + Grep + Read 对代码库很有效，但对用户文档行不通。代码库里 <code>src/services/auth.ts</code> 这个路径本身就在告诉你这是认证服务；但 <code>2024 年度总结(修改版)(最终版).docx</code>，路径告诉你的信息约等于零。更别提 PDF 和 Word 是二进制格式，grep 根本读不了。</p>\n<p>所以我们的问题变成了：能不能给文档也建立一套等价的\"目录索引\"，让 AI 用 search → outline → read 的方式渐进式地翻阅你的文件？</p>\n<p>我们把这套方案叫做 <strong>Outline Index</strong>。</p>\n<p>核心思想一句话：<strong>不替 AI 预切信息，而是给它一张地图。</strong></p>\n<p>为每个文档建立一份结构化\"名片\"，包含文档的元数据（标题、作者、关键词、摘要）和结构大纲（章节标题、层级关系、行号范围）。AI 按三层路径访问文档：</p>\n<ul>\n<li><strong>search</strong>：搜索相关文档，返回文件列表和 Metadata ，约 50 tokens/文件</li>\n<li><strong>outline</strong>：查看文档的结构地图，约 200-500 tokens/文件</li>\n<li><strong>read</strong>：精准读取指定章节的原文，按需加载</li>\n</ul>\n<p>这与人类阅读的方式完全一致：先找书，看目录，翻到对应章节精读。AI 在这个过程中有完整的上下文，知道自己在文档的什么位置，可以决定\"再多看一点\"，也可以跨文档对比。</p>\n<p>对比传统 RAG：同样的场景下，Outline Index 方式的 Token 消耗约 800-3400 ，AI 拿到有完整上下文的精确信息。传统 RAG 返回 10 个预切碎片，消耗 4000-6000 tokens ，AI 对文档结构一无所知。</p>\n<p>另一个副产品：Embedding 的对象从原文 Chunk 变成了 Outline Index 本身。一个文档只需要一个向量。10000 个文档 ≈ 10000 个向量 ≈ 30MB 存储，检索速度也快得多。</p>\n<p>关于领域词汇不敏感的问题，BM25 全文检索补上了这块短板。双路检索（ BM25 精确匹配 + 向量语义理解），通过 RRF 融合，不再需要 Rerank 模型。</p>\n<p>最后，是广告时间：</p>\n<ul>\n<li>Outline Index 是 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a> 的核心技术。如果你对具体的实现细节感兴趣，可以阅读这篇技术文章：<a href=\"https://linkly.ai/blog/zh/outlines-index-progressive-disclosure-for-ai-agents\" rel=\"nofollow\">Outlines Index：一种渐进式披露大量文档给 AI Agent 的方法</a>。</li>\n<li>如果你想体验实际效果，请下载 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a>，以及 <a href=\"https://linkly.ai/docs/en/use-cli\" rel=\"nofollow\">linkly-ai-cli</a>，<a href=\"https://linkly.ai/docs/en/integration/use-in-claude\" rel=\"nofollow\">接入到某个 AI 客户端</a>中体验，实测效果远好于 RAG 。</li>\n</ul>\n\n\t",
       "author": "blueeon",
@@ -363,20 +422,10 @@
     },
     {
       "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
-      "link": "https://www.v2ex.com/t/1197941#reply8",
+      "link": "https://www.v2ex.com/t/1197941#reply9",
       "pubDate": "2026-03-13T02:30:51.000Z",
       "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
       "author": "pc10201",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Clash Verge 你们用的系统代理还是 TUN 模式？",
-      "link": "https://www.v2ex.com/t/1197934#reply69",
-      "pubDate": "2026-03-13T02:14:53.000Z",
-      "content": "\n\t<p>主要场景是在公司，涉及一些内网，所以一直用系统代理，不过最近配置 claude code 需要走代理，查询后建议走 tun 模式就不用再增加配置了，你们都是怎么配置的？</p>\n\n\t",
-      "author": "loulijun",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -403,7 +452,7 @@
     },
     {
       "title": "大家怎么看待国内各大厂商出来的各种云部署 OpenClaw 的活动？",
-      "link": "https://www.v2ex.com/t/1197921#reply40",
+      "link": "https://www.v2ex.com/t/1197921#reply41",
       "pubDate": "2026-03-13T01:53:33.000Z",
       "content": "\n\t如题，为什么这么推 OpenClaw 呢？是想收集个人信息吗？还是想卖云服务器呢？京东最新推出 云部署 OpenClaw 送真小龙虾虾\n\t",
       "author": "fuxintong",
@@ -443,7 +492,7 @@
     },
     {
       "title": "咨询 skill 使用中文英文区别大吗",
-      "link": "https://www.v2ex.com/t/1197899#reply10",
+      "link": "https://www.v2ex.com/t/1197899#reply11",
       "pubDate": "2026-03-13T01:21:44.000Z",
       "content": "\n\t受前两天 v 友启发，在常用开发流程中写一些自用 skill ，虽然英文能读懂，但是过几天忘了重新读，拿眼扫起来慢啊。\n\t",
       "author": "JYii",
@@ -453,7 +502,7 @@
     },
     {
       "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-      "link": "https://www.v2ex.com/t/1197879#reply59",
+      "link": "https://www.v2ex.com/t/1197879#reply61",
       "pubDate": "2026-03-13T00:29:28.000Z",
       "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
       "author": "mcfever",
@@ -522,6 +571,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "心魔难解 (评论: 首席女法医 第一季)",
+      "link": "https://movie.douban.com/review/17500753/",
+      "pubDate": "Thu, 12 Mar 2026 14:07:58 GMT",
+      "content": "\nberean评论: 首席女法医 第一季 (https://movie.douban.com/subject/3718398/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
       "link": "https://www.v2ex.com/t/1197841#reply14",
       "pubDate": "2026-03-12T14:01:51.000Z",
@@ -536,16 +595,6 @@
       "link": "https://movie.douban.com/review/17500733/",
       "pubDate": "Thu, 12 Mar 2026 13:54:38 GMT",
       "content": "\n梁佩直评论: 呼叫谋杀 (https://movie.douban.com/subject/5061582/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;3aiki&#34;,&#34;text&#34;:&#34;我记得B站抄我字幕的，也懂得及时更新电影名字。上一次是《广东护照》。&#34;,&#34;type&#34;:&#34;unstyl...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "大雄的绘画奇遇记-面目全非的创新不如叫可蕾雅奇遇记 (评论: 哆啦A梦：大雄的绘画奇遇记)",
-      "link": "https://movie.douban.com/review/17500719/",
-      "pubDate": "Thu, 12 Mar 2026 13:45:16 GMT",
-      "content": "\n清悠居士评论: 哆啦A梦：大雄的绘画奇遇记 (https://movie.douban.com/subject/36809928/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6snbu&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{}},{&#34;key&#34;:&#34;2b49g&#34;,&#34;text&#34;:&#34; &#34;,&#34;typ...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -580,16 +629,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "好的导师，不是帮你搞定难题，而是帮你“把挣扎正常化”",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3383728&do=blog&id=1525479",
-      "pubDate": "2026-03-12 11:15:32",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "忆往",
@@ -776,16 +815,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "海棠花",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525428",
-      "pubDate": "2026-03-12 07:05:48",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "ffmpeg-over-ip – 远程 FFmpeg，异地处理视频。但是有用吗？",
       "link": "https://www.appinn.com/ffmpeg-over-ip/",
       "pubDate": "Thu, 12 Mar 2026 07:04:35 +0000",
@@ -968,16 +997,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "铁链和疯狗|无剧透版影评 (评论: 呼啸山庄)",
-      "link": "https://movie.douban.com/review/17499732/",
-      "pubDate": "Wed, 11 Mar 2026 19:35:03 GMT",
-      "content": "\n沉静如海评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;69oq8&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRange...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
       "link": "https://www.appinn.com/unzip-fast-ios-free/",
       "pubDate": "Wed, 11 Mar 2026 16:35:44 +0000",
@@ -1058,20 +1077,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "cron-job：免费定时任务工具，可定时签到或调用 API",
-      "link": "https://www.appinn.com/cron-job/",
-      "pubDate": "Wed, 11 Mar 2026 01:24:40 +0000",
-      "content": "我只想：每天定时访问一个网址 很多时候，你只是想做一件很简单的事：每天固定时间访问一个网址。 比如： 除了费时费力费心的手动访问，还能使用服务器实现这个需求，比如 Windows 计划任务、Linux 的 crontab 定时功能。 但如果没有服务器呢？ 感谢 @王浚博 同学的推荐： cron-jo ",
-      "author": "",
-      "categories": [
-        "在线应用",
-        "定时",
-        "定时任务"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
       "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
