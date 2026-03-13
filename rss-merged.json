@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-13T21:25:20.195Z",
+  "lastUpdated": "2026-03-13T22:20:44.878Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "某团队公开了一个支付宝的攻击面",
+      "link": "https://www.v2ex.com/t/1198173#reply5",
+      "pubDate": "2026-03-13T15:24:09.000Z",
+      "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
+      "author": "defaultVoid",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "有新闻抓取的 skills 吗？",
       "link": "https://www.v2ex.com/t/1198166#reply7",
@@ -18,6 +28,16 @@
       "pubDate": "2026-03-13T14:22:26.000Z",
       "content": "\n\t<p>背景：某头部大厂(B)后端开发 5 年+，B 端业务，裸辞 gap 半年，年后陆续开始面试，互联网大中厂面了个遍（ 5 家），都是一面二面挂，甚至连续多次投递过不了简历关，非常焦虑。</p>\n<p>问题：</p>\n<ol>\n<li>想获得面试机会非常需要垂直业务经历匹配，很多岗位直接简历筛选不过。</li>\n<li>基本每场面试都会具体质疑我的裸辞原因，并对我给出的理由（休息了一段时间、部门业务前景不好想换业务获得成长、gap 过程中也在学习 AI 等）均不认可（例如：怎样才能叫获得成长？为什么一定要裸辞呢？ gap 这么久都干啥了？）。仿佛 gap 就该判刑。</li>\n<li>复盘了下面试挂的原因，项目经历确实没有太大的亮点。</li>\n</ol>\n<p>如果后续大厂的机会都没把握住，心理可能会很失衡，但是心里预期只能这样慢慢降低。\n现在也想找些上海深圳的外企（能给得起薪资(快到 P6 的顶)，平薪也行）投递，大家有推荐吗？谢谢。</p>\n\n\t",
       "author": "vamostu",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "请问 V 友们工作上一些项目中敏感信息存哪",
+      "link": "https://www.v2ex.com/t/1198153#reply3",
+      "pubDate": "2026-03-13T13:18:25.000Z",
+      "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
+      "author": "zonas",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -43,6 +63,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
+      "link": "https://www.v2ex.com/t/1198139#reply2",
+      "pubDate": "2026-03-13T11:49:06.000Z",
+      "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
+      "author": "z1s23",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
       "link": "https://movie.douban.com/review/17501873/",
       "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
@@ -51,16 +81,6 @@
       "categories": [],
       "source": "豆瓣影评",
       "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
-      "title": "有什么工具可以监控京东商品的价格、国补、以旧换新券等大额优惠？",
-      "link": "https://www.v2ex.com/t/1198137#reply0",
-      "pubDate": "2026-03-13T11:39:50.000Z",
-      "content": "\n\t<p>有没有现成工具？</p>\n\n\t",
-      "author": "qinrui",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "十年磨一剑：黄宏荃编译、陈昌文策划的《英汉对照版宋词选》",
@@ -466,16 +486,6 @@
       "pubDate": "2026-03-13T04:58:27.000Z",
       "content": "\n\t<p>目前走的自建代理，暂不考虑使用 Clash 等，目前使用的 Gost 与服务器连接。Windows 上安装 ProxyBridge 。\n规则：<code>Codex.exe; codex.exe; codex-x86_64-pc-windows-msvc.exe; codex-acp-x64-windows.exe; codex-command-runner.exe; codex-windows-sandbox-setup.exe</code>\nTCP+UDP ，任意目标/端口走代理。</p>\n<p>打开 JetBrains CLion ，使用 JetBrains AI 插件，连接 Codex ，无法登录（随后 Windows 网络设置里开启代理可以登录），发送消息一直重连。ProxyBridge 中可以看到<code>codex-x86_64-pc-windows-msvc.exe</code>有走代理连接。</p>\n\n\t",
       "author": "LeviMarvin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "总结一下我最近几个月 vibe coding 的开源项目",
-      "link": "https://www.v2ex.com/t/1197995#reply0",
-      "pubDate": "2026-03-13T04:57:36.000Z",
-      "content": "\n\t<p>AI 简历求职: <a href=\"https://github.com/twwch/JadeAI\" rel=\"nofollow\">https://github.com/twwch/JadeAI</a></p>\n<p>vibe coding 思路： <a href=\"https://github.com/twwch/vibe-coding\" rel=\"nofollow\">https://github.com/twwch/vibe-coding</a></p>\n<p>AI 漫剧平台： <a href=\"https://github.com/twwch/AIComicBuilder\" rel=\"nofollow\">https://github.com/twwch/AIComicBuilder</a></p>\n<p>AI 绘图聚合： <a href=\"https://github.com/twwch/DeepDiagram\" rel=\"nofollow\">https://github.com/twwch/DeepDiagram</a></p>\n<p>对话式创建调用修改 skill： <a href=\"https://github.com/twwch/next-chat-skills\" rel=\"nofollow\">https://github.com/twwch/next-chat-skills</a></p>\n<p>Python 调用 skills 的 SDK： <a href=\"https://github.com/twwch/OpenSkills\" rel=\"nofollow\">https://github.com/twwch/OpenSkills</a></p>\n\n\t",
-      "author": "jaycee110905",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -898,16 +908,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
-      "link": "https://www.v2ex.com/t/1197732#reply24",
-      "pubDate": "2026-03-12T06:50:10.000Z",
-      "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
-      "author": "wsbqdyhm",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "《论语》第一段，“悦”和“乐”的区别",
