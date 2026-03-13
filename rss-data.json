@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-13T07:38:49.675Z",
+  "lastUpdated": "2026-03-13T08:30:34.974Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-13T07:38:31.089Z",
+      "lastUpdated": "2026-03-13T08:30:20.934Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-13T07:38:32.203Z",
+      "lastUpdated": "2026-03-13T08:30:21.954Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-13T07:38:32.283Z",
+      "lastUpdated": "2026-03-13T08:30:22.109Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,8 +156,23 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-13T07:38:34.015Z",
+      "lastUpdated": "2026-03-13T08:30:23.992Z",
       "items": [
+        {
+          "title": "Microsoft Authenticator 将逐步锁定 root / 越狱设备：最终删除企业/学校账号数据",
+          "link": "https://www.appinn.com/microsoft-authenticator-block-root-jailbreak/",
+          "pubDate": "Fri, 13 Mar 2026 07:11:21 +0000",
+          "content": "更新：这项限制 只针对组织账号（企业 / 学校账号），而不是所有 Microsoft Authenticator 用户。 来自 windowslatest 的消息，Microsoft Authenticator 将在 2026 年逐步阻止 root 的 Android 和越狱的 iOS 设备使用，并 ",
+          "author": "",
+          "categories": [
+            "业界消息",
+            "Microsoft Authenticator",
+            "二次验证",
+            "微软"
+          ],
+          "source": "小众软件",
+          "sourceUrl": "https://feeds.appinn.com/appinns/"
+        },
         {
           "title": "本周赛博领鸡蛋[3.13~3.19]",
           "link": "https://www.appinn.com/eggs-313/",
@@ -283,53 +298,17 @@
           ],
           "source": "小众软件",
           "sourceUrl": "https://feeds.appinn.com/appinns/"
-        },
-        {
-          "title": "HandBrake 1.11.0 发布：老牌压片神器开始支持 ProRes 与 DNxHR",
-          "link": "https://www.appinn.com/handbrake-1-11-0/",
-          "pubDate": "Tue, 10 Mar 2026 07:44:35 +0000",
-          "content": "HandBrake 昨日发布 1.11.0 版本，这是2026年的第一次更新，也是一次里程碑式的更新：HandBrake 不再仅仅是那个“压缩视频”的开源工具了。从这个版本开始，它正式支持专业视频后期流程中的核心格式：ProRes、DNxHR 以及 MOV 容器。 @Appinn HandBrake ",
-          "author": "",
-          "categories": [
-            "业界消息",
-            "linux",
-            "macOS",
-            "Windows",
-            "HandBrake"
-          ],
-          "source": "小众软件",
-          "sourceUrl": "https://feeds.appinn.com/appinns/"
         }
       ]
     },
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-13T07:38:34.125Z",
+      "lastUpdated": "2026-03-13T08:30:24.222Z",
       "items": [
         {
-          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-          "link": "https://www.v2ex.com/t/1198056#reply15",
-          "pubDate": "2026-03-13T07:15:35.000Z",
-          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
-          "author": "Chicagoake",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "OpenCode 出了个 Go 套餐就是 10 刀 Coding Plan，值得买吗？",
-          "link": "https://www.v2ex.com/t/1198067#reply0",
-          "pubDate": "2026-03-13T07:36:44.000Z",
-          "content": "\n\t<p>OpenCode 出的 Go 套餐，首月 5 刀续费 10 刀，也是按照 5 小时、每周、每月的限额，不过它是按照不同模型的成本计算，5 小时 12 刀额度，不同模型 1M token 的输入输出和缓存价格都不同。</p>\n<p>不知道这个价格比起国内的 Coding Plan 有没有什么优势，因为我现在有字节的和智谱的 Coding Plan ，这一周都用得太难受了。字节的用 auto 模型勉强能用，指定模型非常的慢。智谱这周用 4.7 模型都直接弹限流了。</p>\n<p>想想要不要直接换一个海外的服务商，毕竟 10 刀现在约等于 70 一个月，也贵不了多少</p>\n\n\t",
-          "author": "samnya",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "为什么放弃了 RAG？ RAG 的六大难题",
-          "link": "https://www.v2ex.com/t/1198028#reply10",
+          "link": "https://www.v2ex.com/t/1198028#reply22",
           "pubDate": "2026-03-13T06:17:03.000Z",
           "content": "\n\t<p>RAG 本身并不算是个坏主意。我们认真实践过，也确实在某些场景下跑通了。</p>\n<p>去年，我们花了几个月搭过几套完整的 RAG 管线：三阶段处理（ Extract 、Chunk 、Embed ），三种搜索策略（ Vector 、BM25 、Hybrid + Reranking ）。从文本提取，粗排，到 Rerank 精排，每一个环节都认真做了一遍。工程量不小，技术上看着很漂亮。</p>\n<p>但最终不得不承认一个事实：<strong>效果不好</strong></p>\n<p>这篇文章不是要批判 RAG ，而是诚实地分享下我们具体遇到了哪些问题，以及我们后来怎么想的。以及，小广告。。。</p>\n<h2>问题一：Embedding 模型两难</h2>\n<p>做本地桌面应用，Embedding 模型的选择是一个没有好答案的问题。</p>\n<p>小模型（参数量 &lt; 500M ）在设备上跑得动，但语义理解质量不稳定——碰到专业文档、跨语言搜索、长文档时，召回率明显下降。大模型（ 1B+）质量好，但在普通用户的笔记本上内存和计算开销太大，后台常驻时对系统资源的占用让人无法接受。</p>\n<p>桌面应用没有服务器可以依赖，只能在\"跑得动\"和\"效果好\"之间妥协。选了一个，另一个就要让步。这个困境在服务端应用里不存在，在本地优先应用里却是无解的。</p>\n<h2>问题二：领域词汇不敏感</h2>\n<p>向量语义搜索有一个根本性的弱点：它对专业术语的理解很差。</p>\n<p>原因并不复杂。Embedding 模型是在通用语料上训练的，而代码函数名、医学缩写、法律条款、产品专名这些词在训练语料里出现频率低，在向量空间里的位置偏僻且不稳定。</p>\n<p>实际表现是什么样的？用户搜 \"RLHF\"，不一定能找到写着 \"Reinforcement Learning from Human Feedback\" 的文档。搜\"LTV\"，可能匹配不到写着\"用户生命周期价值\"的分析报告。搜某个产品的型号，向量搜索根本抓不住这个词的准确语义。</p>\n<p>这不是配置问题，不是参数调优能解决的，业内常见做法是做 embedding 模型的微调，但一般都是针对特定领域，只能在 ToB 场景中 work 。</p>\n<p>Embedding 优势是模糊语义匹配，它的劣势恰好就是精确词汇匹配。而用户的真实需求往往是两者都要。</p>\n<h2>问题三：Rerank 的代价</h2>\n<p>召回率低和准确性差，是 RAG 管线的两个经典问题。针对准确性问题，业界的标准解法是引入 Rerank 模型做最后一步的精排。</p>\n<p>我们也做了这一步，然后发现问题并没有被解决，只是被转移了。</p>\n<p>Rerank 模型比 Embedding 模型更重、更慢。引入它之后，整个检索链路的延迟大幅上升，对本地应用来说尤其明显。更关键的是，Rerank 模型同样是在通用语料上训练的，同样存在专业词汇不敏感的问题——它只是在你已经召回的候选里重新排序，而不能召回那些一开始就没被捞到的文档。</p>\n<p>最终结果：链路变慢了，架构变复杂了，根本问题还在。引入 Rerank 后，排序质量的提升非常有限，反而让 BM25 的作用几乎被掩盖了。</p>\n<h2>问题四：碎片化的上下文</h2>\n<p>分块（ Chunking ）是 RAG 最无法绕开的问题。</p>\n<p>文档被切成固定大小的片段之后，每个片段都与它的前后文脱节了。AI 拿到的是一段从报告中间截取的内容，不知道这段话在哪个章节，不知道前一段在讲什么，也不知道后续有没有结论。</p>\n<p>最糟糕的情况是：一个关键段落恰好横跨两个 Chunk 的边界，两个 Chunk 都能匹配到，但又各自不完整。AI 拿到的两份碎片都沾了边，却都缺少关键信息，最终给出一个似是而非的回答。</p>\n<p>这个问题业内有很多补丁办法，比如：加大 Chunk 重叠，加入父 Chunk 检索，引入 Small-to-Big 策略……每个补丁都能在某个维度上改善问题，但也都会带来新的代价——更多 Token 、更复杂的管线、更难调试的行为、更加无法通用。</p>\n<p>我们把这些补丁叠在一起，得到了一个复杂、易出错，但仍然不够好的系统。</p>\n<h2>问题五：不同文档类型需要特殊处理</h2>\n<p>通用分块策略对不同文档类型的效果差异极大，这是我们当初没有充分预判到的。</p>\n<p>论文有 Abstract + 正文 + References 的结构；书籍有章节层级和页眉页脚；合同有条款编号和交叉引用；代码文档有 API 列表和示例代码；表格类文档的\"内容\"是列名和数据类型，而不是单元格里的文字……</p>\n<p>固定窗口切块的策略不理解这些结构，分块点往往切在语义中间，把标题和它的正文分开，把条款编号和条款内容切断，把表头和数据分离。</p>\n<p>每种文档类型其实需要完全不同的处理逻辑。但针对每种类型都写特化的解析器和分块策略，工作量巨大，维护成本也高——而且即使都做完了，效果也只是\"比通用策略好一些\"，仍然是碎片化的。</p>\n<h2>问题六：Agent 使用体验极差</h2>\n<p>以上五个问题单独看，每个都还在可接受的范围内，但当 RAG 被实际接入 AI Agent 使用的时候，所有问题叠加在一起，效果非常糟糕。</p>\n<p>一个真实的场景：AI 在帮用户分析一份合同，调用 <code>search()</code> 检索相关条款，拿到了 10 个 Chunk 。有几个 Chunk 沾了边，但信息不完整。AI 无法判断该怎么继续，只好调整关键词重新搜索。再拿到 10 个 Chunk ，还是不够。再换关键词，再搜一次。</p>\n<p>每次搜索都是黑盒：AI 不知道换哪个关键词才能找到它需要的内容，不知道文档里到底有没有这个信息，不知道自己距离答案有多远。这种低效不是 Agent 能力不够，而是工具本身的设计不支持它做出合理的决策。</p>\n<p><strong>RAG 在设计上是为\"用户直接提问\"场景优化的，不是为\"Agent 自主探索\"场景设计的。</strong></p>\n<h2>行业也在转移</h2>\n<p>这些问题不是我们独有的，业内已经有明显的应对趋势：</p>\n<p><strong>微软的 GraphRAG</strong> 引入知识图谱来缓解上下文碎片化问题，把相关实体和关系显式地存储下来，而不是靠碎片拼凑。</p>\n<p><strong>PageIndex</strong> 不按固定大小切 Chunk ，而是以页面为单位建立索引，保留文档的自然边界。</p>\n<p><strong>Agentic RAG</strong> 尝试让 AI 自主决定检索策略，而不是走固定管线——方向是对的，但在 RAG 架构上叠加 Agent 逻辑，复杂度随之翻倍。</p>\n<p>最彻底的转向来自 Claude Code 和 Manus 。它们干脆放弃了 RAG ，回到最原始的方式：<strong>Glob + Grep + Read</strong>。找文件、搜关键词、读内容。没有向量数据库，没有 Embedding 模型，没有 Chunk 管线。效果反而更好。</p>\n<p>这让我们想明白了一件事：RAG 的设计假设是\"LLM 不够聪明，需要我们帮它把信息预处理好\"。这在 GPT-3.5 时代是合理的。但现在的 LLM 已经有能力自主使用工具完成多步检索任务——它们不需要预切碎片，它们需要的是<strong>线索</strong>：文件在哪，结构是什么，然后它自己能决定读什么、读多少。</p>\n<h2>我们的解法：Outline Index</h2>\n<p>Glob + Grep + Read 对代码库很有效，但对用户文档行不通。代码库里 <code>src/services/auth.ts</code> 这个路径本身就在告诉你这是认证服务；但 <code>2024 年度总结(修改版)(最终版).docx</code>，路径告诉你的信息约等于零。更别提 PDF 和 Word 是二进制格式，grep 根本读不了。</p>\n<p>所以我们的问题变成了：能不能给文档也建立一套等价的\"目录索引\"，让 AI 用 search → outline → read 的方式渐进式地翻阅你的文件？</p>\n<p>我们把这套方案叫做 <strong>Outline Index</strong>。</p>\n<p>核心思想一句话：<strong>不替 AI 预切信息，而是给它一张地图。</strong></p>\n<p>为每个文档建立一份结构化\"名片\"，包含文档的元数据（标题、作者、关键词、摘要）和结构大纲（章节标题、层级关系、行号范围）。AI 按三层路径访问文档：</p>\n<ul>\n<li><strong>search</strong>：搜索相关文档，返回文件列表和 Metadata ，约 50 tokens/文件</li>\n<li><strong>outline</strong>：查看文档的结构地图，约 200-500 tokens/文件</li>\n<li><strong>read</strong>：精准读取指定章节的原文，按需加载</li>\n</ul>\n<p>这与人类阅读的方式完全一致：先找书，看目录，翻到对应章节精读。AI 在这个过程中有完整的上下文，知道自己在文档的什么位置，可以决定\"再多看一点\"，也可以跨文档对比。</p>\n<p>对比传统 RAG：同样的场景下，Outline Index 方式的 Token 消耗约 800-3400 ，AI 拿到有完整上下文的精确信息。传统 RAG 返回 10 个预切碎片，消耗 4000-6000 tokens ，AI 对文档结构一无所知。</p>\n<p>另一个副产品：Embedding 的对象从原文 Chunk 变成了 Outline Index 本身。一个文档只需要一个向量。10000 个文档 ≈ 10000 个向量 ≈ 30MB 存储，检索速度也快得多。</p>\n<p>关于领域词汇不敏感的问题，BM25 全文检索补上了这块短板。双路检索（ BM25 精确匹配 + 向量语义理解），通过 RRF 融合，不再需要 Rerank 模型。</p>\n<p>最后，是广告时间：</p>\n<ul>\n<li>Outline Index 是 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a> 的核心技术。如果你对具体的实现细节感兴趣，可以阅读这篇技术文章：<a href=\"https://linkly.ai/blog/zh/outlines-index-progressive-disclosure-for-ai-agents\" rel=\"nofollow\">Outlines Index：一种渐进式披露大量文档给 AI Agent 的方法</a>。</li>\n<li>如果你想体验实际效果，请下载 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a>，以及 <a href=\"https://linkly.ai/docs/en/use-cli\" rel=\"nofollow\">linkly-ai-cli</a>，<a href=\"https://linkly.ai/docs/en/integration/use-in-claude\" rel=\"nofollow\">接入到某个 AI 客户端</a>中体验，实测效果远好于 RAG 。</li>\n</ul>\n\n\t",
           "author": "blueeon",
@@ -338,11 +317,151 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
+          "link": "https://www.v2ex.com/t/1198056#reply26",
+          "pubDate": "2026-03-13T07:15:35.000Z",
+          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
+          "author": "Chicagoake",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Clash Verge 你们用的系统代理还是 TUN 模式？",
-          "link": "https://www.v2ex.com/t/1197934#reply51",
+          "link": "https://www.v2ex.com/t/1197934#reply55",
           "pubDate": "2026-03-13T02:14:53.000Z",
           "content": "\n\t<p>主要场景是在公司，涉及一些内网，所以一直用系统代理，不过最近配置 claude code 需要走代理，查询后建议走 tun 模式就不用再增加配置了，你们都是怎么配置的？</p>\n\n\t",
           "author": "loulijun",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
+          "link": "https://www.v2ex.com/t/1197941#reply7",
+          "pubDate": "2026-03-13T02:30:51.000Z",
+          "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
+          "author": "pc10201",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude Code 抽风了，疯狂压缩，各位遇到过这种问题没有？",
+          "link": "https://www.v2ex.com/t/1198085#reply1",
+          "pubDate": "2026-03-13T08:17:30.000Z",
+          "content": "\n\t<p>大概是 12 号晚上 10 点以后开始出现问题。</p>\n<p>我是重度用户，两个 Max 200$ 的账号基本够用，大概从昨天晚上开始 CC 应该是升级了一次。</p>\n<p>我用的是 Cursor + Claude Code 插件，其实就跟 VSCode 差不多。</p>\n<p>以前触发 Compacting, 会生成一大段文本，然后继续，这次升级以后行为变了，会变成输出一行</p>\n<blockquote>\n<p>Compacted chat auto 168k tokens freed</p>\n</blockquote>\n<p>之类 的，给一个提示，然后继续。问题是很快，大概运行几个 Bash Grep ，Read lines 之类的工具之后就会再次触发</p>\n<blockquote>\n<p>Compacted chat auto 177k tokens freed</p>\n</blockquote>\n<p>就从这个历史来看，很难相信几个不到 20 行的读取就能占用 100 多 k 的 token ，接下来 CC 大概没几步就要 Compacted 一次。而同样粒度的任务，以前可以顺畅的跑完，不触发 compact ，或者仅仅触发一次。</p>\n<p>很明显就能看出来是有问题的，使用 /context 查看可以确定确实是 Messages 占用了 80%以上的 Token ，但是不知道里面是什么，开 debug 模式也得不到任何信息。</p>\n<p>尝试回滚 stable 版本，CC Cli, VSCode, 甚至 Web 版本都有同样的问题。也尝试了重新安装，卸载所有 SKILLS, MCP 之类的也没有帮助。</p>\n<p>昨天看 X 有人说 CC 把默认的 Effort 调成 Medium 了也是够鸡贼的，但是尝试 effort high 或者 effort max 也仍然不解决问题。</p>\n<p>不知道大家有没有遇到？现在非常不爽，只能又暂时用回 Cursor 了。</p>\n\n\t",
+          "author": "chengchengst",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "V2 记录我心态最跌宕的 7 年",
+          "link": "https://www.v2ex.com/t/1198078#reply4",
+          "pubDate": "2026-03-13T07:59:14.000Z",
+          "content": "\n\tV2EX 第 431631 号会员，加入于 2019-07-24 13:44:42 +08:00<br /><br />这是我 7 年里发的 7 个帖子，也是我毕业 10 年的心路历程：<br />2019 年 7 月 25 日 《 Java 、Vue 有需要私活的和我聊聊》<br />2023 年 12 月 13 日 《趁着个体户认证打折赶紧开发 10 个小程序》<br />2023 年 12 月 28 日 《我发现，即使历史再来一次，我也抓不住机会》<br />2025 年 9 月 26 日 《能否分享下你们周末假期都是如何度过的？》<br />2026 年 1 月 8 日 《记一次与人的相处》<br />2026 年 3 月 10 日 XXXX<br /><br />  我 2016 年毕业，2018 、2019 年那两年，满脑子只想着用体力换钱——接单价更高的私活，做更多的私活，这是我当时唯一的执念。那时候的收入也跟着水涨船高，我还记得，那时候和发小聊天，已经开始厌倦当下、怀念过去，嘴里聊的全是未来，总觉得处处都是机会，最常挂在嘴边的就是“钱不是省出来的，是赚出来的”。<br />  历经三年疫情，我曾在酒店隔离了半年，住的房间只有一扇内窗，空气都不流通。也正是那段时间，我的收入陷入了停滞，我开始尝试向其他方向探索，比如健康。最开始跑步，我只能跑一公里，配速还要 15 分钟；而现在，5 公里能跑到 6 分钟配速。也从那以后，我对“睡后收入”着了迷，混社群时看到很多人靠小程序变现，于是我也上线了一个小程序，注册了工作室，买了域名和服务器，那时候每天做梦都盼着小程序能流量爆火。<br />于是就有了《我发现，即使历史再来一次，我也抓不住机会》这篇帖子。也正是在这篇文章里，我被 V 友们“教育”了一番，直到现在，我也常会回去翻看那些批评我的留言。<br /><br />  再后来，我开始爱上了记录，经常在抖音、小红书上发表评论。既然没什么大能量，也没做成什么大事业，那评论能混到几百个点赞，我也觉得很开心——我享受这种积极参与社会的感觉，或许有一天，我的评论和文章，也能构建出一个“赛博版的我”。也是在这个阶段，我开始主动和不相识的人见面，有小红书上认识的球友，也有 V2 上的网友。刚开始见面时真的很紧张，但能在不同的人身上碰撞出不同的观点和想法，也真的很有意思。<br />《能否分享下你们周末假期都是如何度过的？》《记一次与人的相处》这两篇帖子，就是我这些想法的产物。<br />  <br />  最近两年，AI 发展得如火如荼，最开始我对此嗤之以鼻，觉得不过是一阵风。凑巧有一次，我又重新看了一遍《我发现，即使历史再来一次，我也抓不住机会》，于是我决定跟风尝试。哪怕最后失败了，也是一种不一样的体验。而之前小程序的域名和服务器，也派上了用场，让我的起步速度快了一些，这也让我突然觉得，之前做的那些尝试，也不完全是无用功。<br />现在，我和发小聊天，也开始频频怀念过去，对未来却闭口不谈，最多也就聊聊明天去哪喝茶、后天去哪小聚。不是不想未来，而是明白，未来从来不在嘴上，只在脚下。<br /><br />  七年时间，从满脑子只想赚快钱，到学会体验生活、接纳遗憾，每一步都走得不算顺畅，却也都算数。这篇文字，我特意选在周五下午四点——一周里最难熬的时刻发布，愿我们都能在疲惫里，找到属于自己的小期待，静静地等待下班，静静地想想周末该去玩什么做什么，慢慢迈向未来。<br /><br />  也想问问看见这篇文章的 V 友，这几年里，你心态变化最大的瞬间是什么？<br />有没有哪件事，让你突然改变了对生活、对未来的看法？<br />评论区聊聊，也让我听听你的故事～<br /><br />最后，致敬 V 友，也致敬每一个在生活里慢慢成长、认真前行的我们。\n\t",
+          "author": "calmbinweijin",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "寻找有谷歌商店在架的社交类 app 以及开发者账号，重酬！",
+          "link": "https://www.v2ex.com/t/1198086#reply0",
+          "pubDate": "2026-03-13T08:18:35.000Z",
+          "content": "\n\t如题，寻找有谷歌商店在架的社交类 app 以及开发者账号，重酬！，有需要出售的可以联系我！\n\t",
+          "author": "gdouhhq",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Cursor 现在这么贵？",
+          "link": "https://www.v2ex.com/t/1198081#reply2",
+          "pubDate": "2026-03-13T08:11:24.000Z",
+          "content": "\n\t<p>Agent auto 模式聊了 12 次，用掉了 35%？\nMar 12, 2026 - Apr 12, 2026</p>\n<p>Item\t\t\t\t\t\t\tTokens\t\t Cost\nAuto \t\t\t\t\t\t\t1348.7 万\t\ttokens US$5.09\nclaude-4.6-opus-high-thinking \t151 万 \t\ttokens US$2.16\ncomposer-1.5 \t\t\t\t\t10 万 \t\ttokens US$0.06\nTotal\t\t\t\t\t\t\t1509.7 万\t\t\t   US$7.32</p>\n\n\t",
+          "author": "wednesdayco",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "超级天才程序员回归！ Antigravity 的 claude 模型变成 5h 刷新了！",
+          "link": "https://www.v2ex.com/t/1198009#reply1",
+          "pubDate": "2026-03-13T05:53:15.000Z",
+          "content": "\n\t<p>gemini 3 pro 没恢复 但是没想到 claude4.6 给变成了 5h 刷新</p>\n<p>Google 到底怎么回事？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/3orkClt.png\"/></p>\n\n\t",
+          "author": "xiaowoli",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Anthropic 家的模型训练与其他家差别大吗？",
+          "link": "https://www.v2ex.com/t/1197976#reply17",
+          "pubDate": "2026-03-13T03:27:44.000Z",
+          "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
+          "author": "Kinnikuman",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "从智谱 agent 发现了个 skills 文件夹，不知道是不是内部的 skills，大家来看看",
+          "link": "https://www.v2ex.com/t/1197956#reply7",
+          "pubDate": "2026-03-13T02:59:33.000Z",
+          "content": "\n\t扒下来的整个流程很简单：智谱的 Agent 模式本身运行在云主机上，我们可以让它输出当前的文件结构。通过查看结构，你会发现一个名为 skills 的文件夹。只需让 Agent 将该文件夹打包，然后下载即可。贴一段 skills 描述<br />┌─────────────────────────────────────────────┐<br />│            硬件配置详情                       │<br />├─────────────────────────────────────────────┤<br />│  CPU:   Intel Xeon Processor (4 核)          │<br />│  内存:  8 GB                                │<br />│  磁盘:  ~10 GB                              │<br />│  系统:  Linux (Alibaba Cloud Linux)         │<br />│  运行时: Bun                                │<br />│  端口:  3000                                │<br />└─────────────────────────────────────────────┘<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/w3471Fz.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/w3471Fz.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/vTZTYzX.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/vTZTYzX.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+          "author": "qaq13037",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
+          "link": "https://www.v2ex.com/t/1197879#reply51",
+          "pubDate": "2026-03-13T00:29:28.000Z",
+          "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
+          "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
+          "link": "https://www.v2ex.com/t/1197595#reply58",
+          "pubDate": "2026-03-12T00:55:22.000Z",
+          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
+          "author": "mrsbryant",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
+          "link": "https://www.v2ex.com/t/1197650#reply47",
+          "pubDate": "2026-03-12T02:48:43.000Z",
+          "content": "\n\t\n\t",
+          "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "做了一个 discord-cli ：把 discord 变成可本地检索、可供 AI Agent 使用的数据层",
+          "link": "https://www.v2ex.com/t/1198070#reply0",
+          "pubDate": "2026-03-13T07:40:40.000Z",
+          "content": "\n\t<h1>[分享] discord-cli — 把 Discord 聊天记录同步到本地 SQLite ，终端搜索 + AI 总结</h1>\n<h2>项目背景</h2>\n<p>平时泡不少 Discord 社区（ crypto 、开源项目、AI 讨论组），消息量大、翻找困难。Discord 自带搜索不支持正则，也没法离线查看。于是写了 <strong>discord-cli</strong>——一个 local-first 的 Discord 命令行工具：</p>\n<ul>\n<li>把频道消息增量同步到本地 SQLite</li>\n<li>终端里全文检索、统计、导出</li>\n<li>可选接 Claude 做频道摘要 / 分析</li>\n</ul>\n<p>GitHub： <a href=\"https://github.com/jackwener/discord-cli\" rel=\"nofollow\">https://github.com/jackwener/discord-cli</a></p>\n<p>PyPI： <a href=\"https://pypi.org/project/kabi-discord-cli/\" rel=\"nofollow\">https://pypi.org/project/kabi-discord-cli/</a></p>\n<h2>核心功能</h2>\n<h3>1. 一键同步聊天记录</h3>\n<pre><code class=\"language-bash\"># 提取并保存本地 Discord token\ndiscord auth --save\n\n# 发现所有可见文字频道并同步\ndiscord dc sync-all -n 500\n\n# 增量同步（只拉新消息）\ndiscord dc sync-all\n</code></pre>\n<ul>\n<li>自动处理 Discord rate limit （读 <code>retry_after</code> / <code>X-RateLimit-Remaining</code> header ，不会触发封号）</li>\n<li>消息存入 <code>~/Library/Application Support/discord-cli/messages.db</code></li>\n</ul>\n<h3>2. 本地搜索 &amp; 统计</h3>\n<pre><code class=\"language-bash\"># 全文搜索\ndiscord search \"rust\" -c general\n\n# 今天的消息\ndiscord today\n\n# 按小时统计活跃度\ndiscord timeline --by hour\n\n# 谁发言最多\ndiscord top --hours 24\n\n# 各频道消息量\ndiscord stats\n</code></pre>\n<h3>3. 结构化输出，方便脚本 / AI Agent</h3>\n<pre><code class=\"language-bash\"># JSON / YAML 输出\ndiscord search \"release\" --json\ndiscord today -c general --yaml\n\n# 导出为文件\ndiscord export general -f json -o out.json\n</code></pre>\n<ul>\n<li>非 TTY 环境自动输出 YAML</li>\n<li>所有输出遵循统一的 envelope schema</li>\n</ul>\n<h3>4. AI 总结 &amp; 分析（可选）</h3>\n<pre><code class=\"language-bash\"># 安装 AI 依赖\nuv tool install 'kabi-discord-cli[ai]'\nexport ANTHROPIC_API_KEY=...\n\n# 频道 AI 分析\ndiscord analyze general --hours 24\n\n# 全局摘要\ndiscord summary --hours 12\n</code></pre>\n<h2>安装</h2>\n<pre><code class=\"language-bash\"># 推荐\nuv tool install kabi-discord-cli\n\n# 或 pipx\npipx install kabi-discord-cli\n</code></pre>\n<p>Python 3.10+ 即可，依赖很少（ httpx + click + rich + PyYAML ）。</p>\n<h2>典型使用场景</h2>\n<ol>\n<li><strong>信息归档</strong>：把重要 Discord 社区的讨论同步到本地，不怕频道被删或服务器跑路</li>\n<li><strong>快速检索</strong>：在终端快速搜索历史消息，比 Discord 自带搜索灵活</li>\n<li><strong>每日摘要</strong>：用 <code>discord summary</code> 生成 AI 摘要，快速了解今天社区讨论了什么</li>\n<li><strong>数据分析</strong>：<code>timeline</code> / <code>top</code> / <code>stats</code> 了解社区活跃度</li>\n<li><strong>AI Agent 集成</strong>：附带 <a href=\"http://SKILL.md\" rel=\"nofollow\">SKILL.md</a> ，可以被 Claude Code / Antigravity 等 AI agent 直接调用</li>\n</ol>\n<h2>同系列工具</h2>\n<p>这是我做的社交平台 CLI 系列的一部分，同样的 local-first 思路：</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>平台</th>\n<th>GitHub</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>twitter-cli</td>\n<td>Twitter/X</td>\n<td><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></td>\n</tr>\n<tr>\n<td>bilibili-cli</td>\n<td>哔哩哔哩</td>\n<td><a href=\"https://github.com/jackwener/bilibili-cli\" rel=\"nofollow\">https://github.com/jackwener/bilibili-cli</a></td>\n</tr>\n<tr>\n<td>xiaohongshu-cli</td>\n<td>小红书</td>\n<td><a href=\"https://github.com/jackwener/xiaohongshu-cli\" rel=\"nofollow\">https://github.com/jackwener/xiaohongshu-cli</a></td>\n</tr>\n<tr>\n<td>tg-cli</td>\n<td>Telegram</td>\n<td><a href=\"https://github.com/jackwener/tg-cli\" rel=\"nofollow\">https://github.com/jackwener/tg-cli</a></td>\n</tr>\n</tbody></table><hr/>\n<p>Apache-2.0 开源，欢迎 Star ⭐ 和反馈 🙏</p>\n<p>有什么想法或者需要支持的功能，欢迎在 <a href=\"https://github.com/jackwener/discord-cli/issues\" rel=\"nofollow\">Issues</a> 里提。</p>\n\n\t",
+          "author": "jakevin",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "OpenCode 出了个 Go 套餐就是 10 刀 Coding Plan，值得买吗？",
+          "link": "https://www.v2ex.com/t/1198067#reply1",
+          "pubDate": "2026-03-13T07:36:44.000Z",
+          "content": "\n\t<p>OpenCode 出的 Go 套餐，首月 5 刀续费 10 刀，也是按照 5 小时、每周、每月的限额，不过它是按照不同模型的成本计算，5 小时 12 刀额度，不同模型 1M token 的输入输出和缓存价格都不同。</p>\n<p>不知道这个价格比起国内的 Coding Plan 有没有什么优势，因为我现在有字节的和智谱的 Coding Plan ，这一周都用得太难受了。字节的用 auto 模型勉强能用，指定模型非常的慢。智谱这周用 4.7 模型都直接弹限流了。</p>\n<p>想想要不要直接换一个海外的服务商，毕竟 10 刀现在约等于 70 一个月，也贵不了多少</p>\n\n\t",
+          "author": "samnya",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -368,51 +487,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-          "link": "https://www.v2ex.com/t/1197595#reply57",
-          "pubDate": "2026-03-12T00:55:22.000Z",
-          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
-          "author": "mrsbryant",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply55",
+          "link": "https://www.v2ex.com/t/1197790#reply57",
           "pubDate": "2026-03-12T09:27:15.000Z",
           "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
           "author": "lp4298707",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "从智谱 agent 发现了个 skills 文件夹，不知道是不是内部的 skills，大家来看看",
-          "link": "https://www.v2ex.com/t/1197956#reply2",
-          "pubDate": "2026-03-13T02:59:33.000Z",
-          "content": "\n\t扒下来的整个流程很简单：智谱的 Agent 模式本身运行在云主机上，我们可以让它输出当前的文件结构。通过查看结构，你会发现一个名为 skills 的文件夹。只需让 Agent 将该文件夹打包，然后下载即可。贴一段 skills 描述<br />┌─────────────────────────────────────────────┐<br />│            硬件配置详情                       │<br />├─────────────────────────────────────────────┤<br />│  CPU:   Intel Xeon Processor (4 核)          │<br />│  内存:  8 GB                                │<br />│  磁盘:  ~10 GB                              │<br />│  系统:  Linux (Alibaba Cloud Linux)         │<br />│  运行时: Bun                                │<br />│  端口:  3000                                │<br />└─────────────────────────────────────────────┘<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/w3471Fz.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/w3471Fz.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/vTZTYzX.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/vTZTYzX.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-          "author": "qaq13037",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-          "link": "https://www.v2ex.com/t/1197879#reply47",
-          "pubDate": "2026-03-13T00:29:28.000Z",
-          "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
-          "author": "mcfever",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Anthropic 家的模型训练与其他家差别大吗？",
-          "link": "https://www.v2ex.com/t/1197976#reply14",
-          "pubDate": "2026-03-13T03:27:44.000Z",
-          "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
-          "author": "Kinnikuman",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -438,16 +517,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-          "link": "https://www.v2ex.com/t/1197650#reply46",
-          "pubDate": "2026-03-12T02:48:43.000Z",
-          "content": "\n\t\n\t",
-          "author": "mcfever",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "关于知识库搭建",
           "link": "https://www.v2ex.com/t/1197992#reply10",
           "pubDate": "2026-03-13T04:30:19.000Z",
@@ -463,16 +532,6 @@
           "pubDate": "2026-03-13T06:00:47.000Z",
           "content": "\n\t<p>今天才知道在微信打开婚礼纪、婚贝这种电子请柬会留下访客痕迹。发布者开会员就能看到你的昵称、头像及浏览记录。</p>\n<p>微信访问链接的时候是会给对方一个唯一标识吗？查了一下会携带一个微信账号+开发者平台组合的 OpenID 。印象中很早之前是没有（是否隐身）这个选项的，但是发布者却能看到记录，所以这个是默认获取的？只要授权一次，那么以后对方数据库里，微信昵称头像就和这个 OpenID 绑定了。并且个人在对应平台的 OpenID 无法重置！除非你更换微信账号。</p>\n<p>当前点进去的话，确实会有一个授权提示，如果选择隐身访问，对方就看不到，只会看到用户 xx （随机 id)访问了我的请柬。</p>\n<p>可是这个授权没有调用微信的授权，只在小程序/h5 侧就能做到，所以理论上对方不经过你的同意拿到你的头像 id 你也不知道；并且这个授权也在微信的授权历史里看不到，所以这个是不用经过微信允许的假授权。</p>\n<p>如果在婚礼纪、婚贝他们的网站上上注销呢？我尝试了发现，先注册再注销账户，再点进去链接，依然没有提示授权。说明，只要授权一次，这个 openid 和用户名头像的映射一直存在他们数据库了。</p>\n<p>那么微信这个流氓为啥会给一个网站送上 OpenID 呢？而且是终身不变的 ID ，跟可重置的广告 ID 还不一样。</p>\n<p>目前看没啥好办法，能做的就是，少用微信，屏蔽朋友圈，少打开这种链接。</p>\n\n\t",
           "author": "LaurelHarmon",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "超级天才程序员回归！ Antigravity 的 claude 模型变成 5h 刷新了！",
-          "link": "https://www.v2ex.com/t/1198009#reply0",
-          "pubDate": "2026-03-13T05:53:15.000Z",
-          "content": "\n\t<p>gemini 3 pro 没恢复 但是没想到 claude4.6 给变成了 5h 刷新</p>\n<p>Google 到底怎么回事？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/3orkClt.png\"/></p>\n\n\t",
-          "author": "xiaowoli",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -513,16 +572,6 @@
           "pubDate": "2026-03-13T04:58:27.000Z",
           "content": "\n\t<p>目前走的自建代理，暂不考虑使用 Clash 等，目前使用的 Gost 与服务器连接。Windows 上安装 ProxyBridge 。\n规则：<code>Codex.exe; codex.exe; codex-x86_64-pc-windows-msvc.exe; codex-acp-x64-windows.exe; codex-command-runner.exe; codex-windows-sandbox-setup.exe</code>\nTCP+UDP ，任意目标/端口走代理。</p>\n<p>打开 JetBrains CLion ，使用 JetBrains AI 插件，连接 Codex ，无法登录（随后 Windows 网络设置里开启代理可以登录），发送消息一直重连。ProxyBridge 中可以看到<code>codex-x86_64-pc-windows-msvc.exe</code>有走代理连接。</p>\n\n\t",
           "author": "LeviMarvin",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
-          "link": "https://www.v2ex.com/t/1197941#reply6",
-          "pubDate": "2026-03-13T02:30:51.000Z",
-          "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
-          "author": "pc10201",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -618,6 +667,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "opencode 下， deepseek 有时候比较蠢",
+          "link": "https://www.v2ex.com/t/1197641#reply32",
+          "pubDate": "2026-03-12T02:39:40.000Z",
+          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
+          "author": "nativeBoy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
           "link": "https://www.v2ex.com/t/1197841#reply13",
           "pubDate": "2026-03-12T14:01:51.000Z",
@@ -643,16 +702,6 @@
           "pubDate": "2026-03-13T04:57:36.000Z",
           "content": "\n\t<p>AI 简历求职: <a href=\"https://github.com/twwch/JadeAI\" rel=\"nofollow\">https://github.com/twwch/JadeAI</a></p>\n<p>vibe coding 思路： <a href=\"https://github.com/twwch/vibe-coding\" rel=\"nofollow\">https://github.com/twwch/vibe-coding</a></p>\n<p>AI 漫剧平台： <a href=\"https://github.com/twwch/AIComicBuilder\" rel=\"nofollow\">https://github.com/twwch/AIComicBuilder</a></p>\n<p>AI 绘图聚合： <a href=\"https://github.com/twwch/DeepDiagram\" rel=\"nofollow\">https://github.com/twwch/DeepDiagram</a></p>\n<p>对话式创建调用修改 skill： <a href=\"https://github.com/twwch/next-chat-skills\" rel=\"nofollow\">https://github.com/twwch/next-chat-skills</a></p>\n<p>Python 调用 skills 的 SDK： <a href=\"https://github.com/twwch/OpenSkills\" rel=\"nofollow\">https://github.com/twwch/OpenSkills</a></p>\n\n\t",
           "author": "jaycee110905",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "opencode 下， deepseek 有时候比较蠢",
-          "link": "https://www.v2ex.com/t/1197641#reply31",
-          "pubDate": "2026-03-12T02:39:40.000Z",
-          "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
-          "author": "nativeBoy",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -689,7 +738,7 @@
         },
         {
           "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
-          "link": "https://www.v2ex.com/t/1197827#reply4",
+          "link": "https://www.v2ex.com/t/1197827#reply5",
           "pubDate": "2026-03-12T12:31:52.000Z",
           "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
           "author": "odokei",
@@ -756,63 +805,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "国内， claude code 有什么性价比高稳定的使用途径吗？",
-          "link": "https://www.v2ex.com/t/1197754#reply4",
-          "pubDate": "2026-03-12T07:39:00.000Z",
-          "content": "\n\t<p>claude code 官网一直因手机号无法注册。\n大家都是什么途径买的？淘宝上能买吗</p>\n\n\t",
-          "author": "ponelyr",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Vibe Coding 了一个 qbittorrent 的安卓客户端,完全免费",
-          "link": "https://www.v2ex.com/t/1197805#reply8",
-          "pubDate": "2026-03-12T10:07:25.000Z",
-          "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/6StDwjS.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/6StDwjS.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/rmz37II.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/rmz37II.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/ylrDrea.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ylrDrea.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />  - 远程连接和管理 NAS / Seedbox 上的 qBittorrent 。<br />  - 首页仪表盘可快速查看上传、下载、种子状态等整体信息。<br />  - 提供统一种子列表，支持搜索和多种排序方式。<br />  - 种子详情页可查看 Tracker 、文件、Peer/统计信息，并支持常用操作。<br />  - 支持仪表盘卡片长按拖动排序，拖拽手感已优化。<br />  - 今日上传量分布（预估）”世界地图卡片。\n\t",
-          "author": "wjh6665",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "[开源学英语小软件] 微信中学英语 ，让英语学习融入日常聊天，把刷微信的时间，变成学英语的机会",
-          "link": "https://www.v2ex.com/t/1197733#reply0",
-          "pubDate": "2026-03-12T06:52:30.000Z",
-          "content": "\n\t<h2>智能监听 + 实时翻译 + 点词查询，打造 Mac 上最强的微信英语学习工具！</h2>\n<h2>功能特色</h2>\n<ul>\n<li>智能监听 ：精准捕捉微信消息，支持群聊/私聊/自己发送</li>\n<li>实时浮窗，实时翻译 ：跟随微信窗口或独立置顶，原文/译文/双语模式随心切换</li>\n<li>点词查词 ：浮窗英文即点即查，Cambridge/Free Dictionary 权威词典</li>\n<li>单词本系统 ：收藏生词、添加笔记、智能复习，把聊天变成学习宝库</li>\n<li>原生体验 ：Tauri 2 + Rust 构建，性能强劲，界面美观</li>\n</ul>\n<h2>把刷微信的时间，变成学英语的机会！</h2>\n<p><img alt=\"贴附右侧\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/iEjXGcu.jpeg\"/>\n<img alt=\"词典\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/2GRuC7pb.jpg\"/>\n<img alt=\"收藏\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MqykjwKb.jpg\"/>\n<img alt=\"词典 2\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/WIytf9Sb.jpg\"/>\n<img alt=\"词典 3\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/T6v18MCb.jpg\"/>\n<img alt=\"词典 4\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/bAa3bPgb.jpg\"/>\n<img alt=\"词典 5\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/wB5abaKb.jpg\"/>\n<img alt=\"设置 1\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/vgZEoMxb.jpg\"/>\n<img alt=\"设置 2\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/gBWfhMWb.jpg\"/>\n<img alt=\"设置 3\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/nz2JC0bb.jpg\"/></p>\n<h2>项目地址</h2>\n<table>\n<thead>\n<tr>\n<th>平台</th>\n<th>地址</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>GitHub</strong></td>\n<td><a href=\"https://github.com/congwa/wechat-translate\" rel=\"nofollow\">https://github.com/congwa/wechat-translate</a></td>\n</tr>\n<tr>\n<td><strong>Gitee</strong></td>\n<td><a href=\"https://gitee.com/cong_wa/wechat-translate\" rel=\"nofollow\">https://gitee.com/cong_wa/wechat-translate</a></td>\n</tr>\n</tbody></table><h2>致谢</h2>\n<h3>💝 特别感谢</h3>\n<p>本项目的 macOS 版本灵感来源于 <strong>Loveyless</strong> 的天才想法和卓越的动手能力。</p>\n<p><strong>Loveyless</strong> 创建的 <a href=\"https://github.com/Loveyless/wechat-pc-auto\" rel=\"nofollow\">wechat-pc-auto</a> 项目开创了先河，其创新的思路和扎实的技术实现为本项目奠定了坚实的基础。</p>\n<p>正是因为有了这样优秀的原版项目作为起点，才得以让 macOS 版本顺利诞生，为广大 Mac 用户带来同样便捷的英语学习体验。</p>\n<h3>🌟 致敬原作</h3>\n<ul>\n<li><strong>原版项目</strong>: <a href=\"https://github.com/Loveyless/wechat-pc-auto\" rel=\"nofollow\">wechat-pc-auto</a></li>\n<li><strong>原作者</strong>: <a href=\"https://github.com/Loveyless\" rel=\"nofollow\">Loveyless</a></li>\n<li><strong>贡献</strong>: 开创性的解决方案，为整个项目生态提供了宝贵的思路和技术积累</li>\n</ul>\n<p>感谢 <strong>Loveyless</strong> 的开源精神和技术分享，让更多人能够受益于英语学习的便利。愿这份技术的火种继续传递，照亮更多开发者的创新之路。</p>\n<hr/>\n<p><em>\"一个人的灵感，点燃了另一个人的梦想；一个人的分享，成就了更多人的可能。\"</em></p>\n<p><strong>—— 向所有开源先驱者致敬</strong></p>\n<p><strong>—— 向所有给 star 的开发者致敬🫡</strong></p>\n\n\t",
-          "author": "wangbawangba",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线",
-          "link": "https://www.v2ex.com/t/1197799#reply2",
-          "pubDate": "2026-03-12T09:40:35.000Z",
-          "content": "\n\t<p><strong>标题：</strong> 我们实验室开源了一本《大模型数据工程》指南，梳理了 LLM 从预训练到 RAG 的完整数据流水线</p>\n<p><strong>正文：</strong></p>\n<p>大家好。</p>\n<p>最近我和团队（ datascale-ai ）在集中精力维护一本关于大模型数据工程（ Data Engineering for LLMs ）的开源书。目前内容已经基本成型，这也是我们近期开源输出的一个核心项目，想和大家分享一下。</p>\n<p><strong>GitHub 地址：</strong> <a href=\"https://github.com/datascale-ai/data_engineering_book/\" rel=\"nofollow\">https://github.com/datascale-ai/data_engineering_book/</a></p>\n<p><strong>在线阅读：</strong> <a href=\"https://datascale-ai.github.io/\" rel=\"nofollow\">https://datascale-ai.github.io/</a></p>\n<h3>为什么要做这个项目？</h3>\n<p>现在行业里大家都认可 \"Data-centric AI\"，但现实是，网上的资料非常碎片化。多数教程都在教怎么调 API 、怎么写 Prompt ，但当开发者真正在一线干活时，怎么清洗几十 TB 的预训练数据？多模态数据怎么对齐？怎么搭一个稳定不翻车的 RAG 数据流水线？踩的坑极其多。</p>\n<p>我们发现系统性的实战资料极度稀缺，所以干脆把实际工作中的经验和主流方案沉淀下来，写了这本开源书。希望帮大家从“摸着石头过河”到建立完整的底层逻辑。</p>\n<h3>这本书里有什么？</h3>\n<p>项目整体遵循“基础设施 -&gt; 专项场景 -&gt; 端到端实战”的结构：</p>\n<ol>\n<li><strong>拒绝玩具框架，全企业级技术栈：</strong> 没有停留在纯理论，直接上目前主流的工具。分布式计算用 Ray Data / Spark ；存储讲 Parquet / WebDataset ；多模态对齐涉及 CLIP / ColPali 等。</li>\n<li><strong>四大核心场景全覆盖：</strong></li>\n</ol>\n<ul>\n<li>文本预训练数据工程（采集、清洗、去重）</li>\n<li>多模态数据工程（图文对、重描述、音视频）</li>\n<li>对齐与合成数据（指令微调 SFT 、偏好数据）</li>\n<li>应用级流水线（文本 RAG 与多模态 RAG ）</li>\n</ul>\n<ol>\n<li><strong>5 个直接可跑的实战项目：</strong>\n全书包含 5 个端到端的实战代码，比如“Mini-C4 预训练集构建”、“垂直领域法律专家 SFT 数据集”、“企业财报多模态 RAG”。代码都在仓库里，可以直接复用落地。</li>\n</ol>\n<h3>写在最后</h3>\n<p>项目采用 MIT 协议，支持中英双语，基于 MkDocs 构建。</p>\n<p>目前还有很多可以完善的地方，如果你对 LLM 数据流水线感兴趣，或者正在做大模型相关的业务，欢迎来看看。非常欢迎大家在 Repo 里提 Issue 交流，或者提交 PR 一起共建。</p>\n<p>如果觉得内容对你有帮助，求个 Star ⭐️ 支持一下，感谢！</p>\n\n\t",
-          "author": "xuxin123122",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply114",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-13T07:38:36.551Z",
+      "lastUpdated": "2026-03-13T08:30:26.625Z",
       "items": [
         {
           "title": "新发现还需要成功的命名",
@@ -825,9 +824,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "寻觅杜鹃花之王（上）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525508",
-          "pubDate": "2026-03-12 02:54:02",
+          "title": "南天竹：赤玉翠竹迎岁寒，本草良方藏叶间",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525431",
+          "pubDate": "2026-03-12 07:33:52",
           "content": "",
           "author": "",
           "categories": [],
@@ -835,9 +834,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "南天竹：赤玉翠竹迎岁寒，本草良方藏叶间",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525431",
-          "pubDate": "2026-03-12 07:33:52",
+          "title": "寻觅杜鹃花之王（上）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525508",
+          "pubDate": "2026-03-12 02:54:02",
           "content": "",
           "author": "",
           "categories": [],
@@ -1019,7 +1018,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-13T07:38:39.440Z",
+      "lastUpdated": "2026-03-13T08:30:31.123Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1226,7 +1225,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-13T07:38:41.561Z",
+      "lastUpdated": "2026-03-13T08:30:33.248Z",
       "items": [
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
@@ -1279,6 +1278,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "【千字解析】绝对是2026年最值得看的电影之一 (评论: 非穷尽列举)",
+          "link": "https://movie.douban.com/review/17501610/",
+          "pubDate": "Fri, 13 Mar 2026 07:40:44 GMT",
+          "content": "\n落木Lin评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
           "link": "https://movie.douban.com/review/17500172/",
           "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
@@ -1303,16 +1312,6 @@
           "link": "https://movie.douban.com/review/17501357/",
           "pubDate": "Fri, 13 Mar 2026 03:49:11 GMT",
           "content": "\n向月葵评论: 中国奇谭2 (https://movie.douban.com/subject/36299879/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u753b\\u98ce\\u6709\\u4e86\\u5f88\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "法条可以穷尽，困境却不能 (评论: 非穷尽列举)",
-          "link": "https://movie.douban.com/review/17500724/",
-          "pubDate": "Thu, 12 Mar 2026 13:46:33 GMT",
-          "content": "\n《看电影》评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2smuq&#34;,&#34;text&#34;:&#34;[非穷尽列举]讲述一位女法官突遭儿子被控强奸的道德困境。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRan...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1349,10 +1348,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "结婚了，然后呢 (评论: 爱的证明)",
-          "link": "https://movie.douban.com/review/17500101/",
-          "pubDate": "Thu, 12 Mar 2026 05:46:42 GMT",
-          "content": "\n落木Lin评论: 爱的证明 (https://movie.douban.com/subject/36919136/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+          "title": "研究《百年孤独》一周有感 (评论: 百年孤独 第一季)",
+          "link": "https://movie.douban.com/review/17501001/",
+          "pubDate": "Thu, 12 Mar 2026 16:47:45 GMT",
+          "content": "\nLonnie摸鱼ing评论: 百年孤独 第一季 (https://movie.douban.com/subject/30482958/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1434,20 +1433,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-13T07:38:42.600Z",
+      "lastUpdated": "2026-03-13T08:30:34.336Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-13T07:38:42.908Z",
+      "lastUpdated": "2026-03-13T08:30:34.629Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-13T07:38:49.675Z",
+      "lastUpdated": "2026-03-13T08:30:34.974Z",
       "items": [
         {
           "title": "无题",
