@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-03-13T12:37:20.667Z",
-  "totalItems": 133,
+  "lastUpdated": "2026-03-13T13:54:27.369Z",
+  "totalItems": 143,
   "items": [
+    {
+      "title": "【影评】猎户高维·星际影评｜《蓝海》：人间烟火，亦是星海回响 (评论: 蓝海)",
+      "link": "https://movie.douban.com/review/17501930/",
+      "pubDate": "Fri, 13 Mar 2026 12:22:09 GMT",
+      "content": "\n非我非非我评论: 蓝海 (https://movie.douban.com/subject/37027709/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\ud83c\\udf0c \\u730e\\u6237\\u9ad8\\u...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "好棒。我爱。我的精神老家翠湖。 (评论: 翠湖)",
+      "link": "https://movie.douban.com/review/17501924/",
+      "pubDate": "Fri, 13 Mar 2026 12:15:39 GMT",
+      "content": "\n🦊评论: 翠湖 (https://movie.douban.com/subject/36909312/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6606\\u660e\\u8bdd\\u660e\\u663e\\u6...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
     {
       "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
       "link": "https://movie.douban.com/review/17501873/",
@@ -13,8 +33,28 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "有什么工具可以监控京东商品的价格、国补、以旧换新券等大额优惠？",
+      "link": "https://www.v2ex.com/t/1198137#reply0",
+      "pubDate": "2026-03-13T11:39:50.000Z",
+      "content": "\n\t<p>有没有现成工具？</p>\n\n\t",
+      "author": "qinrui",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "十年磨一剑：黄宏荃编译、陈昌文策划的《英汉对照版宋词选》",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525638",
+      "pubDate": "2026-03-13 11:30:45",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
-      "link": "https://www.v2ex.com/t/1198130#reply9",
+      "link": "https://www.v2ex.com/t/1198130#reply12",
       "pubDate": "2026-03-13T11:09:31.000Z",
       "content": "\n\t<p>事情是这样的，我之前买了中转，想在 IDEA 上使用，填入中转 key 后，我有一段时间没用，再次上线时，发现被盗刷了 700 多的额度，现在该已经被举报下架了，我在他的 GitHub 留言了，大家以后注意这种情况，真的恶心。\n<a href=\"https://imgur.com/onsnZMZ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/aeBh6QS\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/n6xpyQQ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/hQdywG2\" rel=\"nofollow\">Imgur</a></p>\n\n\t",
       "author": "ZettarYuFan",
@@ -73,7 +113,7 @@
     },
     {
       "title": "这几天网速忒慢，搞的心里慌慌的",
-      "link": "https://www.v2ex.com/t/1198114#reply0",
+      "link": "https://www.v2ex.com/t/1198114#reply5",
       "pubDate": "2026-03-13T09:59:24.000Z",
       "content": "\n\t<p>国内，没试不知道，但是翻墙，那是真的心累</p>\n<p>大部分节点都爆红，只有那么几个节点选择</p>\n<p>现在有工作还好，如果没有工作了，到哪里上网翻墙</p>\n\n\t",
       "author": "Rust2015",
@@ -93,7 +133,7 @@
     },
     {
       "title": "antigravity 5h 刷新改回来了",
-      "link": "https://www.v2ex.com/t/1198112#reply14",
+      "link": "https://www.v2ex.com/t/1198112#reply15",
       "pubDate": "2026-03-13T09:52:42.000Z",
       "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
       "author": "LaughingCat",
@@ -103,7 +143,7 @@
     },
     {
       "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-      "link": "https://www.v2ex.com/t/1198110#reply14",
+      "link": "https://www.v2ex.com/t/1198110#reply20",
       "pubDate": "2026-03-13T09:48:07.000Z",
       "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
       "author": "gefangshuai",
@@ -132,6 +172,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "楷体书法",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
+      "pubDate": "2026-03-13 08:57:04",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "开源项目： clawOS 解决 openclaw 文件系统，一键安装",
       "link": "https://www.v2ex.com/t/1198097#reply0",
       "pubDate": "2026-03-13T08:55:57.000Z",
@@ -143,7 +193,7 @@
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply17",
+      "link": "https://www.v2ex.com/t/1198090#reply19",
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
@@ -183,7 +233,7 @@
     },
     {
       "title": "Claude Code 抽风了，疯狂压缩，各位遇到过这种问题没有？",
-      "link": "https://www.v2ex.com/t/1198085#reply8",
+      "link": "https://www.v2ex.com/t/1198085#reply9",
       "pubDate": "2026-03-13T08:17:30.000Z",
       "content": "\n\t<p>大概是 12 号晚上 10 点以后开始出现问题。</p>\n<p>我是重度用户，两个 Max 200$ 的账号基本够用，大概从昨天晚上开始 CC 应该是升级了一次。</p>\n<p>我用的是 Cursor + Claude Code 插件，其实就跟 VSCode 差不多。</p>\n<p>以前触发 Compacting, 会生成一大段文本，然后继续，这次升级以后行为变了，会变成输出一行</p>\n<blockquote>\n<p>Compacted chat auto 168k tokens freed</p>\n</blockquote>\n<p>之类 的，给一个提示，然后继续。问题是很快，大概运行几个 Bash Grep ，Read lines 之类的工具之后就会再次触发</p>\n<blockquote>\n<p>Compacted chat auto 177k tokens freed</p>\n</blockquote>\n<p>就从这个历史来看，很难相信几个不到 20 行的读取就能占用 100 多 k 的 token ，接下来 CC 大概没几步就要 Compacted 一次。而同样粒度的任务，以前可以顺畅的跑完，不触发 compact ，或者仅仅触发一次。</p>\n<p>很明显就能看出来是有问题的，使用 /context 查看可以确定确实是 Messages 占用了 80%以上的 Token ，但是不知道里面是什么，开 debug 模式也得不到任何信息。</p>\n<p>尝试回滚 stable 版本，CC Cli, VSCode, 甚至 Web 版本都有同样的问题。也尝试了重新安装，卸载所有 SKILLS, MCP 之类的也没有帮助。</p>\n<p>昨天看 X 有人说 CC 把默认的 Effort 调成 Medium 了也是够鸡贼的，但是尝试 effort high 或者 effort max 也仍然不解决问题。</p>\n<p>不知道大家有没有遇到？现在非常不爽，只能又暂时用回 Cursor 了。</p>\n\n\t",
       "author": "chengchengst",
@@ -233,7 +283,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply37",
+      "link": "https://www.v2ex.com/t/1198056#reply39",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -307,16 +357,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "【剧透】爱情+黑色荒诞+社会讽刺 (评论: 小小谋杀案)",
-      "link": "https://movie.douban.com/review/17501429/",
-      "pubDate": "Fri, 13 Mar 2026 05:17:53 GMT",
-      "content": "\n长滩麦克评论: 小小谋杀案 (https://movie.douban.com/subject/2253114/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;1&#34;,&#34;text&#34;:&#34;为Elliott Gould而看，发现自己真的很喜欢这部电影！影片前后两部分略割裂跳脱，前面是爱情剧情片，后半段开始黑色幽默，揭露城市暴力现象…据编剧所说，这部作品是受“...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "本周赛博领鸡蛋[3.13~3.19]",
       "link": "https://www.appinn.com/eggs-313/",
       "pubDate": "Fri, 13 Mar 2026 05:04:26 +0000",
@@ -336,6 +376,16 @@
       "pubDate": "2026-03-13T04:58:27.000Z",
       "content": "\n\t<p>目前走的自建代理，暂不考虑使用 Clash 等，目前使用的 Gost 与服务器连接。Windows 上安装 ProxyBridge 。\n规则：<code>Codex.exe; codex.exe; codex-x86_64-pc-windows-msvc.exe; codex-acp-x64-windows.exe; codex-command-runner.exe; codex-windows-sandbox-setup.exe</code>\nTCP+UDP ，任意目标/端口走代理。</p>\n<p>打开 JetBrains CLion ，使用 JetBrains AI 插件，连接 Codex ，无法登录（随后 Windows 网络设置里开启代理可以登录），发送消息一直重连。ProxyBridge 中可以看到<code>codex-x86_64-pc-windows-msvc.exe</code>有走代理连接。</p>\n\n\t",
       "author": "LeviMarvin",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "总结一下我最近几个月 vibe coding 的开源项目",
+      "link": "https://www.v2ex.com/t/1197995#reply0",
+      "pubDate": "2026-03-13T04:57:36.000Z",
+      "content": "\n\t<p>AI 简历求职: <a href=\"https://github.com/twwch/JadeAI\" rel=\"nofollow\">https://github.com/twwch/JadeAI</a></p>\n<p>vibe coding 思路： <a href=\"https://github.com/twwch/vibe-coding\" rel=\"nofollow\">https://github.com/twwch/vibe-coding</a></p>\n<p>AI 漫剧平台： <a href=\"https://github.com/twwch/AIComicBuilder\" rel=\"nofollow\">https://github.com/twwch/AIComicBuilder</a></p>\n<p>AI 绘图聚合： <a href=\"https://github.com/twwch/DeepDiagram\" rel=\"nofollow\">https://github.com/twwch/DeepDiagram</a></p>\n<p>对话式创建调用修改 skill： <a href=\"https://github.com/twwch/next-chat-skills\" rel=\"nofollow\">https://github.com/twwch/next-chat-skills</a></p>\n<p>Python 调用 skills 的 SDK： <a href=\"https://github.com/twwch/OpenSkills\" rel=\"nofollow\">https://github.com/twwch/OpenSkills</a></p>\n\n\t",
+      "author": "jaycee110905",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -382,7 +432,7 @@
     },
     {
       "title": "Anthropic 家的模型训练与其他家差别大吗？",
-      "link": "https://www.v2ex.com/t/1197976#reply17",
+      "link": "https://www.v2ex.com/t/1197976#reply19",
       "pubDate": "2026-03-13T03:27:44.000Z",
       "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
       "author": "Kinnikuman",
@@ -392,7 +442,7 @@
     },
     {
       "title": "微信 4.x 之后 macOS 上第一个实现 hook 收发消息的开源项目（据我所知）",
-      "link": "https://www.v2ex.com/t/1197958#reply2",
+      "link": "https://www.v2ex.com/t/1197958#reply3",
       "pubDate": "2026-03-13T03:01:45.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://github.com/yincongcyincong/weixin-macos\" rel=\"nofollow noopener\">https://github.com/yincongcyincong/weixin-macos</a><br /><br />因为自己对微信 hook 一直有需求，需要拦截所有订阅的银行消费提醒实现自动记账，以及各类群消息汇总、Omnifocus 之类的任务管理，所以对微信 4.x 之后在 mac 上的 hook 比较关注，之前问过 mac 上面微信的 hook 情况 <a target=\"_blank\" href=\"https://www.v2ex.com/t/1180863\" rel=\"nofollow noopener\">https://www.v2ex.com/t/1180863</a><br /><br />帖子里有人提到这个项目，试了一下确实实现了 hook 收发，我在 4.1.7.31 上面测试成功。、<br /><br />征得作者的同意把项目在这里发一下，有需要的可以关注一波，也可以添加电报群 <a target=\"_blank\" href=\"https://t.me/+yBnP4fxkoCIzZjRl\" rel=\"nofollow noopener\">https://t.me/+yBnP4fxkoCIzZjRl</a> 不过作者也说了，会只专注微信基本的收发功能，主要用于接入 agent 使用，其它各类群控之类的功能一概不碰。\n\t",
       "author": "f1ynnv2",
@@ -502,7 +552,7 @@
     },
     {
       "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-      "link": "https://www.v2ex.com/t/1197879#reply61",
+      "link": "https://www.v2ex.com/t/1197879#reply62",
       "pubDate": "2026-03-13T00:29:28.000Z",
       "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
       "author": "mcfever",
@@ -581,6 +631,46 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "看看这个 AI 设计稿导出代码（React/Vue/ Swift ...）的还原度咋样？",
+      "link": "https://www.v2ex.com/t/1197841#reply14",
+      "pubDate": "2026-03-12T14:01:51.000Z",
+      "content": "\n\t用 OpenPencil 随便一句话生成了一个美食 APP 首页，设计感不错的！提示词高手应该能发挥得更好。<br /><a target=\"_blank\" href=\"https://i.imgur.com/bebY5tk.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/bebY5tk.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最近上了 AI Enhance to Code 之后，可以说打通了最后一百米。直出 8 种前端/客户端代码，运行无报错，还原度可以说相当高了。（我怎么觉得有些比设计稿对的还要齐呢[doge]）。<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/kClXQbn.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/kClXQbn.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><br />最后要强调的是支持导出 Vue ，可以说太符合国情了，好的 Design to Code 工具支持 Vue 的几乎没有啊😭。<br /><br />总之对设计师、前端、后端、全栈的小伙伴来说，都是个神器！<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/N8nv9Lv.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/N8nv9Lv.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
+      "author": "finiking",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "如何破解 grok 现在只回复有蓝标人的艾特",
+      "link": "https://www.v2ex.com/t/1197836#reply3",
+      "pubDate": "2026-03-12T13:36:04.000Z",
+      "content": "\n\t“@grok 是真的吗？”<br />现在 grok 只回复有蓝标的号，所以我在想能不能找一个有蓝标的号，作为一个中间代理，大家艾特他，然后他来替我们艾特 grok ，来实现以前大家都可以艾特 grok 的效果。可能需要自动化程序来实现，不知道好不好做，有没有老哥来实现一下。\n\t",
+      "author": "punny",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "sweep 要关了，难受。有和它一样好用的补全插件吗？不想用基于 vscode 的 cursor",
+      "link": "https://www.v2ex.com/t/1197827#reply9",
+      "pubDate": "2026-03-12T12:31:52.000Z",
+      "content": "\n\t<p>To our Sweep community,</p>\n<p>After careful consideration, we have made the difficult decision to shut down Sweep. We are incredibly grateful to each of you for your support and for being part of this journey — it has truly meant a lot to us.</p>\n<p>Here's what you need to know:</p>\n<p>Servers go offline: April 9th</p>\n<p>New subscriptions: Disabled as of today</p>\n<p>We decided to shut down because autocomplete usage is declining industry-wide as agents have become significantly better. Competing in the agent space has also been an uphill battle against foundation model labs with far greater resources — such as heavily subsidized plans like Claude Code Max.</p>\n<p>That said, we're not walking away without leaving something behind for the community:</p>\n<p>We'll release a locally running version for both agent and autocomplete.</p>\n<p>We'll also open-source our latest production 7B autocomplete model and low-latency runtime.</p>\n<p>As for us, we'll be joining Datacurve AI, and we wanted to bring you along for what comes next.</p>\n<hr/>\n<p>An Opportunity for Talented Engineers</p>\n<p>Datacurve AI is YC backed and works with top foundation model labs to produce high-quality training datasets.</p>\n<p>They currently have many concurrent software engineering projects and are actively looking for talented engineers to start ASAP. Top contributors have earned $80–$200+ USD per hour.</p>\n<p>They're recruiting fast and applications close soon you can apply through the form below and they'll be in touch:</p>\n<p><a href=\"https://hello.datacurve.ai/project-application\" rel=\"nofollow\">https://hello.datacurve.ai/project-application</a></p>\n<hr/>\n<p>If you have any questions about any of the above, please don't hesitate to reach out via our support channels. Thank you for everything — it's been an honor building with this community.</p>\n<p>With gratitude,</p>\n<p>The Sweep Team</p>\n\n\t",
+      "author": "odokei",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "S4-Info-Yi 系统在非定域性研究中的理论与实验探索",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=105489&do=blog&id=1525486",
+      "pubDate": "2026-03-12 12:28:17",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "发一下这本企划破产的选集的目录 (评论: HALFSHADOW 星之追尋者)",
       "link": "https://book.douban.com/review/17500583/",
       "pubDate": "Thu, 12 Mar 2026 12:12:07 GMT",
@@ -631,28 +721,8 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "毕业困难户:类型、根源与帮扶路径",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=58729&do=blog&id=1525454",
-      "pubDate": "2026-03-12 09:43:10",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "2025年 全球 ESCI 发文 Top10 刊物",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525453",
-      "pubDate": "2026-03-12 09:38:19",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply59",
+      "link": "https://www.v2ex.com/t/1197790#reply60",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -681,34 +751,14 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "视尔如荍，贻我握椒",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525443",
-      "pubDate": "2026-03-12 08:52:07",
-      "content": "",
-      "author": "",
+      "title": "有推荐的光驱位热插拔硬盘笼吗",
+      "link": "https://www.v2ex.com/t/1197784#reply15",
+      "pubDate": "2026-03-12T08:44:10.000Z",
+      "content": "\n\t<p>海鲜市场上找了几个，SNT （第一个） 的挺多的，但是也看不到背板详情什么的，SNT 的这个为什么这么多啊\n最后那一款便宜是便宜，但是内膛儿是塑料的\n<img alt=\"1.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/pTycs9d.png\"/>\n<img alt=\"2.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/S1peDAm.png\"/>\n<img alt=\"3.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/kZcwVEY.png\"/></p>\n\n\t",
+      "author": "y5g",
       "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "山耕谭葛  葛的食用·葛块根的保鲜护色  保鲜防止营养流失  护色避免氧化褐变",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3638195&do=blog&id=1525441",
-      "pubDate": "2026-03-12 08:48:13",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "我与DS的诗歌翻译对比29——拜伦诗：塞纳克利的陷落",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525440",
-      "pubDate": "2026-03-12 08:46:39",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
@@ -745,6 +795,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "全球高被引科学家评选规则的变化及对我国的启示",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525542",
+      "pubDate": "2026-03-12 07:10:05",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "ffmpeg-over-ip – 远程 FFmpeg，异地处理视频。但是有用吗？",
       "link": "https://www.appinn.com/ffmpeg-over-ip/",
       "pubDate": "Thu, 12 Mar 2026 07:04:35 +0000",
@@ -758,6 +818,16 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "Gemini 3 Flash 用着挺香，但想找个更便宜的替代",
+      "link": "https://www.v2ex.com/t/1197732#reply24",
+      "pubDate": "2026-03-12T06:50:10.000Z",
+      "content": "\n\t最近在折腾 OpenClaw （小龙虾）+ n8n 工作流 做一些自动化任务，现在主要是薅 Google 的 $300 API credit 。<br /><br />主力模型用的是 Gemini 3 Flash ，整体体验挺好，速度快、工具调用也稳，基本能顶住日常 workflow 。不过 Gemini 3.1 Pro 有调用限额，所以很多任务还是得靠 Flash 。<br /><br />现在的问题是：<br />想找一个 性能大致对标 Gemini 3 Flash ，但更有性价比的模型 做备用 / 分流。<br /><br />另外我本地也有一张 4090 ，所以也在考虑顺便搞个 本地模型做 fallback ，简单任务或者离线的时候用。<br /><br />在各大主流 ai 问了一圈，投票如下：<br /><br />云端模型（对标 Gemini 3 Flash ）<br /><br />Kimi K2.5-K2 （ 4 票）<br /><br />DeepSeek R1 / V3.2 （ 1 票）<br /><br />本地部署（ 4090 ）<br /><br />DeepSeek-R1-Distill-Qwen-32B （ 4bit ）（ 3 票）<br /><br />GLM-4.7-Flash （ 30B A3B MoE ）（ 2 票）<br /><br />目前的思路大概是：<br /><br />主力：Gemini 3 Flash<br /><br />云端备用：Kimi / DeepSeek<br /><br />本地：跑一个 30B 左右模型兜底<br /><br />不过我自己还没实际长期跑过这些组合，所以想听听大家的真实使用经验：<br /><br />Kimi K2.5 和 DeepSeek V3 / R1 实际体验怎么样？<br /><br />有没有 性价比能接近 Gemini 3 Flash 的模型？<br /><br />4090 本地模型现在比较稳的是不是还是 32B 这一档？<br /><br />欢迎拍砖，主要想听听长期在用的经验。\n\t",
+      "author": "wsbqdyhm",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "国家互联网应急中心：OpenClaw 风险提示",
@@ -817,6 +887,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "沪上春短，心向清欢",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2533479&do=blog&id=1525512",
+      "pubDate": "2026-03-12 03:23:38",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "让真诚的叙事回归长剧 (评论: 逐玉)",
       "link": "https://movie.douban.com/review/17499944/",
       "pubDate": "Thu, 12 Mar 2026 03:03:35 GMT",
@@ -842,6 +922,16 @@
       "pubDate": "2026-03-12T02:48:43.000Z",
       "content": "\n\t\n\t",
       "author": "mcfever",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "opencode 下， deepseek 有时候比较蠢",
+      "link": "https://www.v2ex.com/t/1197641#reply33",
+      "pubDate": "2026-03-12T02:39:40.000Z",
+      "content": "\n\t使用工具是 opencode ，使用模型是官方的 deepseek-chat<br /><br />我的问题是，这个 windows 上 go 语言环境设置成了 linux arm64 。然后 opencode 写项目时编译报错，让 deepseek 顺手改掉，结果 deepseek 表现很拉跨，半天搞不定这个任务<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/j5iVmPB.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/j5iVmPB.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />换成 opencode 自带的 Big Pickle ，很快就解决了问题<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/NVuQNB1.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/NVuQNB1.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br />可能术业有专攻吧\n\t",
+      "author": "nativeBoy",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -887,6 +977,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
+      "link": "https://www.v2ex.com/t/1197618#reply56",
+      "pubDate": "2026-03-12T01:48:58.000Z",
+      "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
+      "author": "Newbee24",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "坂本龙一和1980年代 (评论: 音乐机械论)",
       "link": "https://book.douban.com/review/17499841/",
       "pubDate": "Thu, 12 Mar 2026 01:18:19 GMT",
@@ -898,7 +998,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply60",
+      "link": "https://www.v2ex.com/t/1197595#reply63",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",
@@ -955,6 +1055,16 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "逆天，刚冲的 Google Pro 账户，用了反重力两天就不能用了",
+      "link": "https://www.v2ex.com/t/1197429#reply81",
+      "pubDate": "2026-03-11T06:36:16.000Z",
+      "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/MyHNVfx.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/UCKotpO.png\"/> </p>\n<p>刚刚用两天，还没站起来蹬，就直接一周后重置，太无语了</p>\n\n\t",
+      "author": "TheBlind",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "国货之光闪耀，素材管理神器 Eagle 终身授权 7 折优惠，限时开启！",
@@ -1027,16 +1137,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "长剧完蛋了 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17492150/",
-      "pubDate": "Fri, 06 Mar 2026 17:43:09 GMT",
-      "content": "\nYamaha评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;   \\u5148\\u8bf4\\u53ea\\u770b\\u4e86...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "“奥雷里亚诺，马孔多在下雨。” (评论: 马孔多在下雨)",
