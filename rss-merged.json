@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T05:39:38.661Z",
+  "lastUpdated": "2026-03-14T06:36:04.313Z",
   "totalItems": 143,
   "items": [
     {
@@ -43,6 +43,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
+      "link": "https://www.v2ex.com/t/1198247#reply0",
+      "pubDate": "2026-03-14T06:10:10.000Z",
+      "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
+      "author": "loneranger1024",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "豚鱼吹浪江生风（古今诗词咏江豚续七百五十九）",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525715",
       "pubDate": "2026-03-14 06:07:54",
@@ -54,7 +64,7 @@
     },
     {
       "title": "求教哪里能买到廉价而保真的 claude api",
-      "link": "https://www.v2ex.com/t/1198239#reply1",
+      "link": "https://www.v2ex.com/t/1198239#reply13",
       "pubDate": "2026-03-14T05:19:43.000Z",
       "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
       "author": "werwer",
@@ -63,8 +73,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "即使不是神明，也要做自己世界的中心 (评论: 你好，爱美丽)",
+      "link": "https://movie.douban.com/review/17502779/",
+      "pubDate": "Sat, 14 Mar 2026 05:03:51 GMT",
+      "content": "\n大型恶魔酱评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
-      "link": "https://www.v2ex.com/t/1198233#reply0",
+      "link": "https://www.v2ex.com/t/1198233#reply1",
       "pubDate": "2026-03-14T04:36:21.000Z",
       "content": "\n\t<p>我们人是怎么查资料的，假如去图书馆\n1.找到对应的书架\n2.找到对应的书\n3.翻阅目录，定位到页码\n4.读取内容</p>\n<p>以上模式其实很简单，把最上一级的目录通过 System Prompt 传给 ai ，然后写几个 function call 就行了，ai 自己调方法去查。</p>\n<p>请问一下这种方式有什么缺点吗？</p>\n\n\t",
       "author": "huanggan",
@@ -94,7 +114,7 @@
     },
     {
       "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
-      "link": "https://www.v2ex.com/t/1198225#reply3",
+      "link": "https://www.v2ex.com/t/1198225#reply5",
       "pubDate": "2026-03-14T03:43:47.000Z",
       "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
       "author": "Hyvi",
@@ -104,7 +124,7 @@
     },
     {
       "title": "满勤码神",
-      "link": "https://www.v2ex.com/t/1198223#reply3",
+      "link": "https://www.v2ex.com/t/1198223#reply4",
       "pubDate": "2026-03-14T03:39:53.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"/i/50wwdNbd.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 50wwdNbd.png\"><img src=\"//i.v2ex.co/50wwdNbd.png\" class=\"embedded_image\"></a><br /><br />周六牛马监督 ai 干活的新成就达成\n\t",
       "author": "crocoBaby",
@@ -244,7 +264,7 @@
     },
     {
       "title": "某团队公开了一个支付宝的攻击面",
-      "link": "https://www.v2ex.com/t/1198173#reply16",
+      "link": "https://www.v2ex.com/t/1198173#reply17",
       "pubDate": "2026-03-13T15:24:09.000Z",
       "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
       "author": "defaultVoid",
@@ -264,7 +284,7 @@
     },
     {
       "title": "有新闻抓取的 skills 吗？",
-      "link": "https://www.v2ex.com/t/1198166#reply16",
+      "link": "https://www.v2ex.com/t/1198166#reply17",
       "pubDate": "2026-03-13T14:27:51.000Z",
       "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
       "author": "ethusdt",
@@ -294,23 +314,13 @@
     },
     {
       "title": "请问 V 友们工作上一些项目中敏感信息存哪",
-      "link": "https://www.v2ex.com/t/1198153#reply7",
+      "link": "https://www.v2ex.com/t/1198153#reply9",
       "pubDate": "2026-03-13T13:18:25.000Z",
       "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
       "author": "zonas",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "毁童年式的改编 (评论: 呼啸山庄)",
-      "link": "https://movie.douban.com/review/17501915/",
-      "pubDate": "Fri, 13 Mar 2026 12:09:58 GMT",
-      "content": "\nBlade Runner评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u827e\\u7c73\\u8389\\u00b7\\u52c3\\u6...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
@@ -613,7 +623,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply61",
+      "link": "https://www.v2ex.com/t/1198056#reply64",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -791,16 +801,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "天塌了, 连豆包都不能匿名问问题了",
-      "link": "https://www.v2ex.com/t/1197922#reply7",
-      "pubDate": "2026-03-13T01:54:01.000Z",
-      "content": "\n\t以前国内 ai 我只用豆包, 只有一个原因, 就是因为不需要登录<br /><br />今天一试, 居然也要登录了<br /><br />算了以后还是用 gpt 或 gemini 把\n\t",
-      "author": "iorilu",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Trellis v0.4.0-beta 测试 ing",
       "link": "https://www.v2ex.com/t/1197911#reply7",
       "pubDate": "2026-03-13T01:33:58.000Z",
@@ -892,7 +892,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply63",
+      "link": "https://www.v2ex.com/t/1197790#reply64",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -1038,7 +1038,7 @@
     },
     {
       "title": "规模 30 人左右的开发团队，计划采购 Coding Team 套餐，且限定仅采购国内的相关套餐。不知各位是否有相关经验？",
-      "link": "https://www.v2ex.com/t/1197618#reply58",
+      "link": "https://www.v2ex.com/t/1197618#reply59",
       "pubDate": "2026-03-12T01:48:58.000Z",
       "content": "\n\t<p>以前大家都是各自为战，自行承担 AI 费用。现在领导打算统一采购。有没有大佬有相关经验，推荐一下采购套餐，以及分享如何实施的经验呢？</p>\n\n\t",
       "author": "Newbee24",
@@ -1058,7 +1058,7 @@
     },
     {
       "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply65",
+      "link": "https://www.v2ex.com/t/1197595#reply66",
       "pubDate": "2026-03-12T00:55:22.000Z",
       "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
       "author": "mrsbryant",
