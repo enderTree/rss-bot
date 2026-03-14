@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-14T01:14:49.325Z",
+  "lastUpdated": "2026-03-14T04:03:20.138Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-14T01:13:38.694Z",
+      "lastUpdated": "2026-03-14T04:03:07.823Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-14T01:13:39.638Z",
+      "lastUpdated": "2026-03-14T04:03:08.769Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-14T01:13:39.771Z",
+      "lastUpdated": "2026-03-14T04:03:08.860Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-14T01:13:41.357Z",
+      "lastUpdated": "2026-03-14T04:03:10.446Z",
       "items": [
         {
           "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
@@ -309,14 +309,104 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-14T01:13:41.544Z",
+      "lastUpdated": "2026-03-14T04:03:10.567Z",
       "items": [
         {
+          "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
+          "link": "https://www.v2ex.com/t/1198225#reply1",
+          "pubDate": "2026-03-14T03:43:47.000Z",
+          "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
+          "author": "Hyvi",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "之前领取阿里云台历和帆布袋的记得检查账单",
+          "link": "https://www.v2ex.com/t/1198228#reply0",
+          "pubDate": "2026-03-14T03:54:08.000Z",
+          "content": "\n\t<p>[阿里云] 尊敬的用户：您的账号 x*k 已产生欠费。您的延停额度为 10.00 元，目前已使用 0.01 元。延停额度用尽后，按量付费产品出账后均会立即进入停服处理流程。请您尽快充值结清欠费账单，以免欠费停服给您带来不必要的损失。您可以通过电脑端登录用户中心，查看明细账单。\n记得去云安全中心检查有没有按量付费</p>\n\n\t",
+          "author": "xiongbenwu",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "满勤码神",
+          "link": "https://www.v2ex.com/t/1198223#reply2",
+          "pubDate": "2026-03-14T03:39:53.000Z",
+          "content": "\n\t<a target=\"_blank\" href=\"/i/50wwdNbd.png\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 50wwdNbd.png\"><img src=\"//i.v2ex.co/50wwdNbd.png\" class=\"embedded_image\"></a><br /><br />周六牛马监督 ai 干活的新成就达成\n\t",
+          "author": "crocoBaby",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
+          "link": "https://www.v2ex.com/t/1198056#reply61",
+          "pubDate": "2026-03-13T07:15:35.000Z",
+          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
+          "author": "Chicagoake",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "大家公司怎么使用 ai 的?",
+          "link": "https://www.v2ex.com/t/1198216#reply7",
+          "pubDate": "2026-03-14T02:28:04.000Z",
+          "content": "\n\t<ul>\n<li>在哪些场景，怎么使用的？</li>\n<li>不仅仅是编程，据了解编程领域是 ai 提效最高的。</li>\n</ul>\n\n\t",
+          "author": "siaronwang",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
+          "link": "https://www.v2ex.com/t/1198222#reply1",
+          "pubDate": "2026-03-14T03:38:52.000Z",
+          "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
+          "author": "sungnix",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "github 要成 ai hub 了，开源会走向哪，大家怎么看？",
+          "link": "https://www.v2ex.com/t/1198213#reply10",
+          "pubDate": "2026-03-14T01:56:05.000Z",
+          "content": "\n\t<p><a href=\"https://mp.weixin.qq.com/s/v1YEmhxEcgrt6F3RfHxyXg\" rel=\"nofollow\">https://mp.weixin.qq.com/s/v1YEmhxEcgrt6F3RfHxyXg</a></p>\n\n\t",
+          "author": "minxuan",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
+          "link": "https://www.v2ex.com/t/1198219#reply0",
+          "pubDate": "2026-03-14T03:22:45.000Z",
+          "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
+          "author": "maxwellz",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
-          "link": "https://www.v2ex.com/t/1198130#reply20",
+          "link": "https://www.v2ex.com/t/1198130#reply24",
           "pubDate": "2026-03-13T11:09:31.000Z",
           "content": "\n\t<p>事情是这样的，我之前买了中转，想在 IDEA 上使用，填入中转 key 后，我有一段时间没用，再次上线时，发现被盗刷了 700 多的额度，现在该已经被举报下架了，我在他的 GitHub 留言了，大家以后注意这种情况，真的恶心。\n<a href=\"https://imgur.com/onsnZMZ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/aeBh6QS\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/n6xpyQQ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/hQdywG2\" rel=\"nofollow\">Imgur</a></p>\n\n\t",
           "author": "ZettarYuFan",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "某团队公开了一个支付宝的攻击面",
+          "link": "https://www.v2ex.com/t/1198173#reply13",
+          "pubDate": "2026-03-13T15:24:09.000Z",
+          "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
+          "author": "defaultVoid",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -332,28 +422,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "某团队公开了一个支付宝的攻击面",
-          "link": "https://www.v2ex.com/t/1198173#reply9",
-          "pubDate": "2026-03-13T15:24:09.000Z",
-          "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
-          "author": "defaultVoid",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有新闻抓取的 skills 吗？",
-          "link": "https://www.v2ex.com/t/1198166#reply11",
-          "pubDate": "2026-03-13T14:27:51.000Z",
-          "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
-          "author": "ethusdt",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "为什么放弃了 RAG？ RAG 的六大难题",
-          "link": "https://www.v2ex.com/t/1198028#reply45",
+          "link": "https://www.v2ex.com/t/1198028#reply49",
           "pubDate": "2026-03-13T06:17:03.000Z",
           "content": "\n\t<p>RAG 本身并不算是个坏主意。我们认真实践过，也确实在某些场景下跑通了。</p>\n<p>去年，我们花了几个月搭过几套完整的 RAG 管线：三阶段处理（ Extract 、Chunk 、Embed ），三种搜索策略（ Vector 、BM25 、Hybrid + Reranking ）。从文本提取，粗排，到 Rerank 精排，每一个环节都认真做了一遍。工程量不小，技术上看着很漂亮。</p>\n<p>但最终不得不承认一个事实：<strong>效果不好</strong></p>\n<p>这篇文章不是要批判 RAG ，而是诚实地分享下我们具体遇到了哪些问题，以及我们后来怎么想的。以及，小广告。。。</p>\n<h2>问题一：Embedding 模型两难</h2>\n<p>做本地桌面应用，Embedding 模型的选择是一个没有好答案的问题。</p>\n<p>小模型（参数量 &lt; 500M ）在设备上跑得动，但语义理解质量不稳定——碰到专业文档、跨语言搜索、长文档时，召回率明显下降。大模型（ 1B+）质量好，但在普通用户的笔记本上内存和计算开销太大，后台常驻时对系统资源的占用让人无法接受。</p>\n<p>桌面应用没有服务器可以依赖，只能在\"跑得动\"和\"效果好\"之间妥协。选了一个，另一个就要让步。这个困境在服务端应用里不存在，在本地优先应用里却是无解的。</p>\n<h2>问题二：领域词汇不敏感</h2>\n<p>向量语义搜索有一个根本性的弱点：它对专业术语的理解很差。</p>\n<p>原因并不复杂。Embedding 模型是在通用语料上训练的，而代码函数名、医学缩写、法律条款、产品专名这些词在训练语料里出现频率低，在向量空间里的位置偏僻且不稳定。</p>\n<p>实际表现是什么样的？用户搜 \"RLHF\"，不一定能找到写着 \"Reinforcement Learning from Human Feedback\" 的文档。搜\"LTV\"，可能匹配不到写着\"用户生命周期价值\"的分析报告。搜某个产品的型号，向量搜索根本抓不住这个词的准确语义。</p>\n<p>这不是配置问题，不是参数调优能解决的，业内常见做法是做 embedding 模型的微调，但一般都是针对特定领域，只能在 ToB 场景中 work 。</p>\n<p>Embedding 优势是模糊语义匹配，它的劣势恰好就是精确词汇匹配。而用户的真实需求往往是两者都要。</p>\n<h2>问题三：Rerank 的代价</h2>\n<p>召回率低和准确性差，是 RAG 管线的两个经典问题。针对准确性问题，业界的标准解法是引入 Rerank 模型做最后一步的精排。</p>\n<p>我们也做了这一步，然后发现问题并没有被解决，只是被转移了。</p>\n<p>Rerank 模型比 Embedding 模型更重、更慢。引入它之后，整个检索链路的延迟大幅上升，对本地应用来说尤其明显。更关键的是，Rerank 模型同样是在通用语料上训练的，同样存在专业词汇不敏感的问题——它只是在你已经召回的候选里重新排序，而不能召回那些一开始就没被捞到的文档。</p>\n<p>最终结果：链路变慢了，架构变复杂了，根本问题还在。引入 Rerank 后，排序质量的提升非常有限，反而让 BM25 的作用几乎被掩盖了。</p>\n<h2>问题四：碎片化的上下文</h2>\n<p>分块（ Chunking ）是 RAG 最无法绕开的问题。</p>\n<p>文档被切成固定大小的片段之后，每个片段都与它的前后文脱节了。AI 拿到的是一段从报告中间截取的内容，不知道这段话在哪个章节，不知道前一段在讲什么，也不知道后续有没有结论。</p>\n<p>最糟糕的情况是：一个关键段落恰好横跨两个 Chunk 的边界，两个 Chunk 都能匹配到，但又各自不完整。AI 拿到的两份碎片都沾了边，却都缺少关键信息，最终给出一个似是而非的回答。</p>\n<p>这个问题业内有很多补丁办法，比如：加大 Chunk 重叠，加入父 Chunk 检索，引入 Small-to-Big 策略……每个补丁都能在某个维度上改善问题，但也都会带来新的代价——更多 Token 、更复杂的管线、更难调试的行为、更加无法通用。</p>\n<p>我们把这些补丁叠在一起，得到了一个复杂、易出错，但仍然不够好的系统。</p>\n<h2>问题五：不同文档类型需要特殊处理</h2>\n<p>通用分块策略对不同文档类型的效果差异极大，这是我们当初没有充分预判到的。</p>\n<p>论文有 Abstract + 正文 + References 的结构；书籍有章节层级和页眉页脚；合同有条款编号和交叉引用；代码文档有 API 列表和示例代码；表格类文档的\"内容\"是列名和数据类型，而不是单元格里的文字……</p>\n<p>固定窗口切块的策略不理解这些结构，分块点往往切在语义中间，把标题和它的正文分开，把条款编号和条款内容切断，把表头和数据分离。</p>\n<p>每种文档类型其实需要完全不同的处理逻辑。但针对每种类型都写特化的解析器和分块策略，工作量巨大，维护成本也高——而且即使都做完了，效果也只是\"比通用策略好一些\"，仍然是碎片化的。</p>\n<h2>问题六：Agent 使用体验极差</h2>\n<p>以上五个问题单独看，每个都还在可接受的范围内，但当 RAG 被实际接入 AI Agent 使用的时候，所有问题叠加在一起，效果非常糟糕。</p>\n<p>一个真实的场景：AI 在帮用户分析一份合同，调用 <code>search()</code> 检索相关条款，拿到了 10 个 Chunk 。有几个 Chunk 沾了边，但信息不完整。AI 无法判断该怎么继续，只好调整关键词重新搜索。再拿到 10 个 Chunk ，还是不够。再换关键词，再搜一次。</p>\n<p>每次搜索都是黑盒：AI 不知道换哪个关键词才能找到它需要的内容，不知道文档里到底有没有这个信息，不知道自己距离答案有多远。这种低效不是 Agent 能力不够，而是工具本身的设计不支持它做出合理的决策。</p>\n<p><strong>RAG 在设计上是为\"用户直接提问\"场景优化的，不是为\"Agent 自主探索\"场景设计的。</strong></p>\n<h2>行业也在转移</h2>\n<p>这些问题不是我们独有的，业内已经有明显的应对趋势：</p>\n<p><strong>微软的 GraphRAG</strong> 引入知识图谱来缓解上下文碎片化问题，把相关实体和关系显式地存储下来，而不是靠碎片拼凑。</p>\n<p><strong>PageIndex</strong> 不按固定大小切 Chunk ，而是以页面为单位建立索引，保留文档的自然边界。</p>\n<p><strong>Agentic RAG</strong> 尝试让 AI 自主决定检索策略，而不是走固定管线——方向是对的，但在 RAG 架构上叠加 Agent 逻辑，复杂度随之翻倍。</p>\n<p>最彻底的转向来自 Claude Code 和 Manus 。它们干脆放弃了 RAG ，回到最原始的方式：<strong>Glob + Grep + Read</strong>。找文件、搜关键词、读内容。没有向量数据库，没有 Embedding 模型，没有 Chunk 管线。效果反而更好。</p>\n<p>这让我们想明白了一件事：RAG 的设计假设是\"LLM 不够聪明，需要我们帮它把信息预处理好\"。这在 GPT-3.5 时代是合理的。但现在的 LLM 已经有能力自主使用工具完成多步检索任务——它们不需要预切碎片，它们需要的是<strong>线索</strong>：文件在哪，结构是什么，然后它自己能决定读什么、读多少。</p>\n<h2>我们的解法：Outline Index</h2>\n<p>Glob + Grep + Read 对代码库很有效，但对用户文档行不通。代码库里 <code>src/services/auth.ts</code> 这个路径本身就在告诉你这是认证服务；但 <code>2024 年度总结(修改版)(最终版).docx</code>，路径告诉你的信息约等于零。更别提 PDF 和 Word 是二进制格式，grep 根本读不了。</p>\n<p>所以我们的问题变成了：能不能给文档也建立一套等价的\"目录索引\"，让 AI 用 search → outline → read 的方式渐进式地翻阅你的文件？</p>\n<p>我们把这套方案叫做 <strong>Outline Index</strong>。</p>\n<p>核心思想一句话：<strong>不替 AI 预切信息，而是给它一张地图。</strong></p>\n<p>为每个文档建立一份结构化\"名片\"，包含文档的元数据（标题、作者、关键词、摘要）和结构大纲（章节标题、层级关系、行号范围）。AI 按三层路径访问文档：</p>\n<ul>\n<li><strong>search</strong>：搜索相关文档，返回文件列表和 Metadata ，约 50 tokens/文件</li>\n<li><strong>outline</strong>：查看文档的结构地图，约 200-500 tokens/文件</li>\n<li><strong>read</strong>：精准读取指定章节的原文，按需加载</li>\n</ul>\n<p>这与人类阅读的方式完全一致：先找书，看目录，翻到对应章节精读。AI 在这个过程中有完整的上下文，知道自己在文档的什么位置，可以决定\"再多看一点\"，也可以跨文档对比。</p>\n<p>对比传统 RAG：同样的场景下，Outline Index 方式的 Token 消耗约 800-3400 ，AI 拿到有完整上下文的精确信息。传统 RAG 返回 10 个预切碎片，消耗 4000-6000 tokens ，AI 对文档结构一无所知。</p>\n<p>另一个副产品：Embedding 的对象从原文 Chunk 变成了 Outline Index 本身。一个文档只需要一个向量。10000 个文档 ≈ 10000 个向量 ≈ 30MB 存储，检索速度也快得多。</p>\n<p>关于领域词汇不敏感的问题，BM25 全文检索补上了这块短板。双路检索（ BM25 精确匹配 + 向量语义理解），通过 RRF 融合，不再需要 Rerank 模型。</p>\n<p>最后，是广告时间：</p>\n<ul>\n<li>Outline Index 是 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a> 的核心技术。如果你对具体的实现细节感兴趣，可以阅读这篇技术文章：<a href=\"https://linkly.ai/blog/zh/outlines-index-progressive-disclosure-for-ai-agents\" rel=\"nofollow\">Outlines Index：一种渐进式披露大量文档给 AI Agent 的方法</a>。</li>\n<li>如果你想体验实际效果，请下载 <a href=\"https://linkly.ai\" rel=\"nofollow\">Linkly AI</a>，以及 <a href=\"https://linkly.ai/docs/en/use-cli\" rel=\"nofollow\">linkly-ai-cli</a>，<a href=\"https://linkly.ai/docs/en/integration/use-in-claude\" rel=\"nofollow\">接入到某个 AI 客户端</a>中体验，实测效果远好于 RAG 。</li>\n</ul>\n\n\t",
           "author": "blueeon",
@@ -362,18 +432,28 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-          "link": "https://www.v2ex.com/t/1198056#reply50",
-          "pubDate": "2026-03-13T07:15:35.000Z",
-          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
-          "author": "Chicagoake",
+          "title": "有新闻抓取的 skills 吗？",
+          "link": "https://www.v2ex.com/t/1198166#reply15",
+          "pubDate": "2026-03-13T14:27:51.000Z",
+          "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
+          "author": "ethusdt",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
+          "link": "https://www.v2ex.com/t/1198110#reply28",
+          "pubDate": "2026-03-13T09:48:07.000Z",
+          "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
+          "author": "gefangshuai",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "请问 V 友们工作上一些项目中敏感信息存哪",
-          "link": "https://www.v2ex.com/t/1198153#reply3",
+          "link": "https://www.v2ex.com/t/1198153#reply5",
           "pubDate": "2026-03-13T13:18:25.000Z",
           "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
           "author": "zonas",
@@ -383,7 +463,7 @@
         },
         {
           "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-          "link": "https://www.v2ex.com/t/1197879#reply66",
+          "link": "https://www.v2ex.com/t/1197879#reply67",
           "pubDate": "2026-03-13T00:29:28.000Z",
           "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
           "author": "mcfever",
@@ -393,7 +473,7 @@
         },
         {
           "title": "Anthropic 家的模型训练与其他家差别大吗？",
-          "link": "https://www.v2ex.com/t/1197976#reply23",
+          "link": "https://www.v2ex.com/t/1197976#reply24",
           "pubDate": "2026-03-13T03:27:44.000Z",
           "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
           "author": "Kinnikuman",
@@ -402,21 +482,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "大家怎么看待国内各大厂商出来的各种云部署 OpenClaw 的活动？",
-          "link": "https://www.v2ex.com/t/1197921#reply46",
-          "pubDate": "2026-03-13T01:53:33.000Z",
-          "content": "\n\t如题，为什么这么推 OpenClaw 呢？是想收集个人信息吗？还是想卖云服务器呢？京东最新推出 云部署 OpenClaw 送真小龙虾虾\n\t",
-          "author": "fuxintong",
+          "title": "antigravity 5h 刷新改回来了",
+          "link": "https://www.v2ex.com/t/1198112#reply17",
+          "pubDate": "2026-03-13T09:52:42.000Z",
+          "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
+          "author": "LaughingCat",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-          "link": "https://www.v2ex.com/t/1198110#reply23",
-          "pubDate": "2026-03-13T09:48:07.000Z",
-          "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
-          "author": "gefangshuai",
+          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
+          "link": "https://www.v2ex.com/t/1197595#reply65",
+          "pubDate": "2026-03-12T00:55:22.000Z",
+          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
+          "author": "mrsbryant",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -442,21 +522,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "antigravity 5h 刷新改回来了",
-          "link": "https://www.v2ex.com/t/1198112#reply16",
-          "pubDate": "2026-03-13T09:52:42.000Z",
-          "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
-          "author": "LaughingCat",
+          "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
+          "link": "https://www.v2ex.com/t/1198139#reply6",
+          "pubDate": "2026-03-13T11:49:06.000Z",
+          "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
+          "author": "z1s23",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "这几天网速忒慢，搞的心里慌慌的",
-          "link": "https://www.v2ex.com/t/1198114#reply7",
-          "pubDate": "2026-03-13T09:59:24.000Z",
-          "content": "\n\t<p>国内，没试不知道，但是翻墙，那是真的心累</p>\n<p>大部分节点都爆红，只有那么几个节点选择</p>\n<p>现在有工作还好，如果没有工作了，到哪里上网翻墙</p>\n\n\t",
-          "author": "Rust2015",
+          "title": "为什么 iPhone 上看抖音， macbook dock 上会弹出来 chrome 图标，点开是抖音？",
+          "link": "https://www.v2ex.com/t/1198118#reply6",
+          "pubDate": "2026-03-13T10:12:19.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TULQznT.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/RTduICW.png\"/> </p>\n<p>这是什么黑科技啊？</p>\n\n\t",
+          "author": "14night",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -472,41 +552,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-          "link": "https://www.v2ex.com/t/1197595#reply63",
-          "pubDate": "2026-03-12T00:55:22.000Z",
-          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
-          "author": "mrsbryant",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-          "link": "https://www.v2ex.com/t/1198139#reply2",
-          "pubDate": "2026-03-13T11:49:06.000Z",
-          "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
-          "author": "z1s23",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "为什么 iPhone 上看抖音， macbook dock 上会弹出来 chrome 图标，点开是抖音？",
-          "link": "https://www.v2ex.com/t/1198118#reply4",
-          "pubDate": "2026-03-13T10:12:19.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TULQznT.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/RTduICW.png\"/> </p>\n<p>这是什么黑科技啊？</p>\n\n\t",
-          "author": "14night",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "[流氓微信] 婚礼纪、婚贝这种电子请柬会留下记录，并且授权之后无法取消",
-          "link": "https://www.v2ex.com/t/1198016#reply8",
-          "pubDate": "2026-03-13T06:00:47.000Z",
-          "content": "\n\t<p>今天才知道在微信打开婚礼纪、婚贝这种电子请柬会留下访客痕迹。发布者开会员就能看到你的昵称、头像及浏览记录。</p>\n<p>微信访问链接的时候是会给对方一个唯一标识吗？查了一下会携带一个微信账号+开发者平台组合的 OpenID 。印象中很早之前是没有（是否隐身）这个选项的，但是发布者却能看到记录，所以这个是默认获取的？只要授权一次，那么以后对方数据库里，微信昵称头像就和这个 OpenID 绑定了。并且个人在对应平台的 OpenID 无法重置！除非你更换微信账号。</p>\n<p>当前点进去的话，确实会有一个授权提示，如果选择隐身访问，对方就看不到，只会看到用户 xx （随机 id)访问了我的请柬。</p>\n<p>可是这个授权没有调用微信的授权，只在小程序/h5 侧就能做到，所以理论上对方不经过你的同意拿到你的头像 id 你也不知道；并且这个授权也在微信的授权历史里看不到，所以这个是不用经过微信允许的假授权。</p>\n<p>如果在婚礼纪、婚贝他们的网站上上注销呢？我尝试了发现，先注册再注销账户，再点进去链接，依然没有提示授权。说明，只要授权一次，这个 openid 和用户名头像的映射一直存在他们数据库了。</p>\n<p>那么微信这个流氓为啥会给一个网站送上 OpenID 呢？而且是终身不变的 ID ，跟可重置的广告 ID 还不一样。</p>\n<p>目前看没啥好办法，能做的就是，少用微信，屏蔽朋友圈，少打开这种链接。</p>\n\n\t",
-          "author": "LaurelHarmon",
+          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
+          "link": "https://www.v2ex.com/t/1197790#reply62",
+          "pubDate": "2026-03-12T09:27:15.000Z",
+          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
+          "author": "lp4298707",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -517,16 +567,6 @@
           "pubDate": "2026-03-13T04:30:19.000Z",
           "content": "\n\t<p>大家好，想请教一下大家都是怎么搭建个人知识库的。我这边有不少本地文件（主要是论文）。虽然现在像 Perplexity 这样的 AI 工具有很强的搜索能力，但我还是希望能搭建一个既能自定义联网资源，又能利用本地数据的知识库。目前在用 Notion ，不过每次都要手动粘贴内容挺麻烦的。像 NotebookLM 这种工具对上传文件数量有限制，所以暂时不考虑。我刚买了一台 512G 的 mini ，更倾向于搭建本地知识库。</p>\n\n\t",
           "author": "elliszkn",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply61",
-          "pubDate": "2026-03-12T09:27:15.000Z",
-          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
-          "author": "lp4298707",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -552,6 +592,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "随着 AI 写代码的复杂度越来越高，项目越来越难以推动和理解，这个反 speckit 工具可以解决这个问题",
+          "link": "https://www.v2ex.com/t/1197994#reply8",
+          "pubDate": "2026-03-13T04:45:47.000Z",
+          "content": "\n\t<p>最近用 claude code 或者别的 ai agent 写代码，写了几个月，发现了里面一些问题，</p>\n<p><a href=\"https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif\" rel=\"nofollow\">https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif</a></p>\n<h2>总是有种感觉就是和 ai 一起推进一个项目，和 ai 一起讨论，各种方案研究，一起推进，推着推着就退不动了，要么就是觉得 ai 莫名的越来越笨，</h2>\n<ol>\n<li>要么就是 ai 调用工具比如检索查看一些文件或者信息的时候似乎越来越不准，效率越来越低</li>\n<li>要么就是 ai 写一些测试的时候，测试的越来越不准，</li>\n<li>或者说要 ai 修 bug ，他说修好了，可是问题还在，这样的现象随着我们的项目越来越大以后就越来越明显</li>\n</ol>\n<p>所以导致大到一定程度，积累了很多的技术债，导致很难继续，或者改变。</p>\n<h2>在 AI 之前的时代，我们打开 IDE ，每一行代码、每一个文件、每一个引用、每一个函数都是我们自己写的。当出现 bug 的时候，我们非常清楚问题在哪，可以快速地去调试，很有掌控感。</h2>\n<p>但在 AI 时代，我们在终端或 AI Agent 上，只能看到它以机器的速度快速修改各种文件。我们只能看到具体改了哪些文件的名字，以及非常局部的改动内容，这使我们失去了对整个代码的大局观。</p>\n<p>很多人在整个用 AI Web Coding 的生命周期里，甚至从始至终都没有看过文件夹下面的内容：</p>\n<ol>\n<li>它到底创造了什么？</li>\n<li>它们之间的关系是什么？</li>\n<li>整体结构是什么？</li>\n</ol>\n<p>我们对此一无所知，只能盲目地相信 AI 做的事情。那么当出现 bug 的时候，我们更加无能为力，只能继续依赖 AI 去找 bug 、查 bug 、改 bug 。这也是目前的痛点之一。</p>\n<h2>在信息学的理论里面有熵增定律。由于我们目前的 AI 属于生成式 AI ，AI 写的代码是生成式代码，这就不可避免地会从原理上让我们——如果只依赖于 AI 的话——会让我们的代码结构变得更加冗余和复杂。</h2>\n<p>目前整个行业很有可能是在以一个错误的方式去解决这个问题。</p>\n<p>在一些很火的开源项目（比如 GitHub 出品的 SpecKit ）中，这类工具非常依赖于开发者在项目开始前，就彻彻底底想好整个代码结构、要实现的功能以及具体内容。</p>\n<p>但真正在 AI Coding 的时候，我们的做法其实恰恰相反。在自然的情况下，我们使用 AI 写代码更倾向于一种“交谈启发式”的流程：</p>\n<ol>\n<li>我们并不会提前规划好所有细节，而是从零开始，让 AI 快速生成原型。</li>\n<li>像甲方和乙方一样，在交互中不断修改方案。</li>\n<li>同时进行一些深刻的探讨，启发我们想到更好的产品方案或技术路线。</li>\n</ol>\n<p>在这样的循环推进方式下，AI 不可避免地会生成一些架构很乱的“脏代码”。最终在一轮又一轮的 Prompt 之后，它确实可能给出一个外在功能完美的运行结果，但内部架构可能是极其混乱的。</p>\n<p>正是因为架构的混乱，会导致开篇那样让人抓狂的东西，很多致命的情况：\n(a) 当 AI 调用工具指令搜索函数时，可能会找到好几个函数名相同但实现形式或算法不同的结果。\n(b) 当 AI 修复 Bug 时，它以为修好了一处，但由于架构混乱，它实际修掉的可能是别的地方。</p>\n<p>俗话说，好的体系让坏人也可以做好事，坏的体系可以让好人也变成坏人。这就意味着，在一个好的架构下，即便水平稍低一些的 AI 都可以写出高质量的代码。</p>\n<p>所以，架构是非常重要的。</p>\n<p>所以这个 repo 可以 同时帮助人做以上两个事情，可以理解为可视化文件系统，以及给 AI 一个传感器，就是架构传感器，帮助 ai 自我循环加速写好的代码。</p>\n<h1>这样可以理解为这个 project 是反向的 speckit ，</h1>\n<p>无论你用什么自然的方式开始 vibe coding ， 都可以在 sentrux 的帮助下，最后弄出来很好，很高水准的代码，</p>\n<h2>纯 rust 高性能</h2>\n<h2><a href=\"https://github.com/sentrux/sentrux\" rel=\"nofollow\">https://github.com/sentrux/sentrux</a></h2>\n\n\t",
+          "author": "yisen123",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "从智谱 agent 发现了个 skills 文件夹，不知道是不是内部的 skills，大家来看看",
           "link": "https://www.v2ex.com/t/1197956#reply10",
           "pubDate": "2026-03-13T02:59:33.000Z",
@@ -567,16 +617,6 @@
           "pubDate": "2026-03-13T02:33:05.000Z",
           "content": "\n\t<p>之前在 V2EX 上看到有人说 chrome 的新功能，我就想着我的 chrome 挺久没更新了，结果一更新后我就无法访问外网的网站了，我以为是我的代理出现了问题（经常内外网切换）结果我打开本地的开发环境发现没办法访问本地的地址，我开始怀疑是否是项目有问题，重启项目后，排查相关链路发现是通的，打开 Firefox ，edge 后又一切正常了，外网页面也能访问，我突然意识到我的代理没有问题，是 chrome 出现了问题，我跟随网上教程及 ai 的指导也没有修复这个问题，只能暂时使用 Firefox 顶替了，有同样问题的大佬吗</p>\n\n\t",
           "author": "elishuhu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "随着 AI 写代码的复杂度越来越高，项目越来越难以推动和理解，这个反 speckit 工具可以解决这个问题",
-          "link": "https://www.v2ex.com/t/1197994#reply7",
-          "pubDate": "2026-03-13T04:45:47.000Z",
-          "content": "\n\t<p>最近用 claude code 或者别的 ai agent 写代码，写了几个月，发现了里面一些问题，</p>\n<p><a href=\"https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif\" rel=\"nofollow\">https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif</a></p>\n<h2>总是有种感觉就是和 ai 一起推进一个项目，和 ai 一起讨论，各种方案研究，一起推进，推着推着就退不动了，要么就是觉得 ai 莫名的越来越笨，</h2>\n<ol>\n<li>要么就是 ai 调用工具比如检索查看一些文件或者信息的时候似乎越来越不准，效率越来越低</li>\n<li>要么就是 ai 写一些测试的时候，测试的越来越不准，</li>\n<li>或者说要 ai 修 bug ，他说修好了，可是问题还在，这样的现象随着我们的项目越来越大以后就越来越明显</li>\n</ol>\n<p>所以导致大到一定程度，积累了很多的技术债，导致很难继续，或者改变。</p>\n<h2>在 AI 之前的时代，我们打开 IDE ，每一行代码、每一个文件、每一个引用、每一个函数都是我们自己写的。当出现 bug 的时候，我们非常清楚问题在哪，可以快速地去调试，很有掌控感。</h2>\n<p>但在 AI 时代，我们在终端或 AI Agent 上，只能看到它以机器的速度快速修改各种文件。我们只能看到具体改了哪些文件的名字，以及非常局部的改动内容，这使我们失去了对整个代码的大局观。</p>\n<p>很多人在整个用 AI Web Coding 的生命周期里，甚至从始至终都没有看过文件夹下面的内容：</p>\n<ol>\n<li>它到底创造了什么？</li>\n<li>它们之间的关系是什么？</li>\n<li>整体结构是什么？</li>\n</ol>\n<p>我们对此一无所知，只能盲目地相信 AI 做的事情。那么当出现 bug 的时候，我们更加无能为力，只能继续依赖 AI 去找 bug 、查 bug 、改 bug 。这也是目前的痛点之一。</p>\n<h2>在信息学的理论里面有熵增定律。由于我们目前的 AI 属于生成式 AI ，AI 写的代码是生成式代码，这就不可避免地会从原理上让我们——如果只依赖于 AI 的话——会让我们的代码结构变得更加冗余和复杂。</h2>\n<p>目前整个行业很有可能是在以一个错误的方式去解决这个问题。</p>\n<p>在一些很火的开源项目（比如 GitHub 出品的 SpecKit ）中，这类工具非常依赖于开发者在项目开始前，就彻彻底底想好整个代码结构、要实现的功能以及具体内容。</p>\n<p>但真正在 AI Coding 的时候，我们的做法其实恰恰相反。在自然的情况下，我们使用 AI 写代码更倾向于一种“交谈启发式”的流程：</p>\n<ol>\n<li>我们并不会提前规划好所有细节，而是从零开始，让 AI 快速生成原型。</li>\n<li>像甲方和乙方一样，在交互中不断修改方案。</li>\n<li>同时进行一些深刻的探讨，启发我们想到更好的产品方案或技术路线。</li>\n</ol>\n<p>在这样的循环推进方式下，AI 不可避免地会生成一些架构很乱的“脏代码”。最终在一轮又一轮的 Prompt 之后，它确实可能给出一个外在功能完美的运行结果，但内部架构可能是极其混乱的。</p>\n<p>正是因为架构的混乱，会导致开篇那样让人抓狂的东西，很多致命的情况：\n(a) 当 AI 调用工具指令搜索函数时，可能会找到好几个函数名相同但实现形式或算法不同的结果。\n(b) 当 AI 修复 Bug 时，它以为修好了一处，但由于架构混乱，它实际修掉的可能是别的地方。</p>\n<p>俗话说，好的体系让坏人也可以做好事，坏的体系可以让好人也变成坏人。这就意味着，在一个好的架构下，即便水平稍低一些的 AI 都可以写出高质量的代码。</p>\n<p>所以，架构是非常重要的。</p>\n<p>所以这个 repo 可以 同时帮助人做以上两个事情，可以理解为可视化文件系统，以及给 AI 一个传感器，就是架构传感器，帮助 ai 自我循环加速写好的代码。</p>\n<h1>这样可以理解为这个 project 是反向的 speckit ，</h1>\n<p>无论你用什么自然的方式开始 vibe coding ， 都可以在 sentrux 的帮助下，最后弄出来很好，很高水准的代码，</p>\n<h2>纯 rust 高性能</h2>\n<h2><a href=\"https://github.com/sentrux/sentrux\" rel=\"nofollow\">https://github.com/sentrux/sentrux</a></h2>\n\n\t",
-          "author": "yisen123",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -670,53 +710,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "安装 Claude Code 后无法配置第三方 API",
-          "link": "https://www.v2ex.com/t/1197932#reply6",
-          "pubDate": "2026-03-13T02:11:13.000Z",
-          "content": "\n\t<p>使用 <code>irm <a href=\"https://claude.ai/install.ps1\" rel=\"nofollow\">https://claude.ai/install.ps1</a> | iex</code> 安装后，在 <code>~/.bashrc</code> 配置 API</p>\n<pre><code>export ANTHROPIC_BASE_URL=\"https://api.poe.com\"\nexport ANTHROPIC_AUTH_TOKEN=\"$POE_API_KEY\"\nexport ANTHROPIC_API_KEY=\"\" # Important: Must be explicitly empty\n</code></pre>\n<p>但是启动 Claude Code 后只能 3 个选项</p>\n<pre><code> Claude Code can be used with your Claude subscription or billed based on API usage through your Console\n  account.\n\n Select login method:\n\n   1. Claude account with subscription · Pro, Max, Team, or Enterprise\n\n   2. Anthropic Console account · API usage billing\n\n &gt; 3. 3rd-party platform · Amazon Bedrock, Microsoft Foundry, or Vertex AI\n\n</code></pre>\n<p>选 1 ，2 需要登录 Anthropic </p>\n<p>选 3 后</p>\n<pre><code>Using 3rd-party platforms\n\n Claude Code supports Amazon Bedrock, Microsoft Foundry, and Vertex AI. Set the required environment\n variables, then restart Claude Code.\n\n If you are part of an enterprise organization, contact your administrator for setup instructions.\n\n\n Documentation:\n · Amazon Bedrock: https://code.claude.com/docs/en/amazon-bedrock\n · Microsoft Foundry: https://code.claude.com/docs/en/microsoft-foundry\n · Vertex AI: https://code.claude.com/docs/en/google-vertex-ai\n\n\n Press Enter to go back to login options.\n\n</code></pre>\n<p>Claude Code v2.1.74</p>\n\n\t",
-          "author": "commoccoom",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "各位友友有没有遇到 JetBrains Codex 不能代理的情况",
-          "link": "https://www.v2ex.com/t/1197997#reply1",
-          "pubDate": "2026-03-13T04:58:27.000Z",
-          "content": "\n\t<p>目前走的自建代理，暂不考虑使用 Clash 等，目前使用的 Gost 与服务器连接。Windows 上安装 ProxyBridge 。\n规则：<code>Codex.exe; codex.exe; codex-x86_64-pc-windows-msvc.exe; codex-acp-x64-windows.exe; codex-command-runner.exe; codex-windows-sandbox-setup.exe</code>\nTCP+UDP ，任意目标/端口走代理。</p>\n<p>打开 JetBrains CLion ，使用 JetBrains AI 插件，连接 Codex ，无法登录（随后 Windows 网络设置里开启代理可以登录），发送消息一直重连。ProxyBridge 中可以看到<code>codex-x86_64-pc-windows-msvc.exe</code>有走代理连接。</p>\n\n\t",
-          "author": "LeviMarvin",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "咨询 skill 使用中文英文区别大吗",
-          "link": "https://www.v2ex.com/t/1197899#reply12",
-          "pubDate": "2026-03-13T01:21:44.000Z",
-          "content": "\n\t受前两天 v 友启发，在常用开发流程中写一些自用 skill ，虽然英文能读懂，但是过几天忘了重新读，拿眼扫起来慢啊。\n\t",
-          "author": "JYii",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "新手机到手就把 AI 所有的功能都关了",
-          "link": "https://www.v2ex.com/t/1197854#reply25",
-          "pubDate": "2026-03-12T15:07:57.000Z",
-          "content": "\n\t倒不是说不好用，只是国内厂商什么德行懂得都懂，你用了 AI 功能就给出了所有的隐私，太膈应\n\t",
-          "author": "seers",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-14T01:13:43.905Z",
+      "lastUpdated": "2026-03-14T04:03:12.450Z",
       "items": [
         {
           "title": "心似双丝网，中有千千结",
@@ -752,16 +752,6 @@
           "title": "地质学爱好者的咏石散文诗",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525601",
           "pubDate": "2026-03-13 09:54:33",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "[打听，科普，数学] 素数（8）：素数间隙 prime gap 与 Cramer\\'s Conjecture",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525561",
-          "pubDate": "2026-03-12 10:07:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -839,6 +829,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "武汉大学赏早樱",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
+          "pubDate": "2026-03-13 09:00:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
           "pubDate": "2026-03-13 10:14:27",
@@ -849,9 +849,39 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "“电神列缺” 对应英语单词electricity",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=504669&do=blog&id=1525560",
-          "pubDate": "2026-03-12 09:51:03",
+          "title": "[笔记，科普，数学] 素数（9）：判定素数的埃拉托色尼筛 Sieve of Eratosthenes",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525708",
+          "pubDate": "2026-03-13 10:49:51",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "[笔记，科普，数学] 素数（10）：判定素数的欧拉筛 sieve of Euler",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525711",
+          "pubDate": "2026-03-14 01:55:28",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "无私的光",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
+          "pubDate": "2026-03-14 08:17:45",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "偷来梨蕊三分白，借得梅花一缕魂",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525733",
+          "pubDate": "2026-03-14 08:35:19",
           "content": "",
           "author": "",
           "categories": [],
@@ -862,16 +892,6 @@
           "title": "农田实验生态和作物光合生理生态研究忆述（7）",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39664&do=blog&id=1525591",
           "pubDate": "2026-03-13 08:55:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "武汉大学赏早樱",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
-          "pubDate": "2026-03-13 09:00:26",
           "content": "",
           "author": "",
           "categories": [],
@@ -897,33 +917,13 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "[笔记，科普，数学] 素数（9）：判定素数的埃拉托色尼筛 Sieve of Eratosthenes",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1525708",
-          "pubDate": "2026-03-13 10:49:51",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "面对“被 AI 取代”的焦虑",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525632",
-          "pubDate": "2026-03-13 11:20:12",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-14T01:13:46.436Z",
+      "lastUpdated": "2026-03-14T04:03:16.399Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1130,13 +1130,33 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-14T01:13:48.334Z",
+      "lastUpdated": "2026-03-14T04:03:18.320Z",
       "items": [
+        {
+          "title": "Delahaye评《摩登青年》 （机翻） (评论: 摩登青年)",
+          "link": "https://movie.douban.com/review/17502421/",
+          "pubDate": "Fri, 13 Mar 2026 19:14:12 GMT",
+          "content": "\n两只青蛙跳下锅评论: 摩登青年 (https://movie.douban.com/subject/4893374/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\nI\\n\\u300a\\u6469\\u5fb7\\u65cf\\u30...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
         {
           "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
           "link": "https://movie.douban.com/review/17498310/",
           "pubDate": "Tue, 10 Mar 2026 16:20:38 GMT",
           "content": "\n李秋天评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
+          "link": "https://movie.douban.com/review/17501873/",
+          "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
+          "content": "\n陆冠均评论: 海贼王(真人版) 第二季 (https://movie.douban.com/subject/36559697/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;82skb&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;en...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1153,10 +1173,20 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
-          "link": "https://movie.douban.com/review/17501873/",
-          "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
-          "content": "\n陆冠均评论: 海贼王(真人版) 第二季 (https://movie.douban.com/subject/36559697/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;82skb&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;en...\n",
+          "title": "前传的用途 (评论: 青年夏洛克)",
+          "link": "https://movie.douban.com/review/17502631/",
+          "pubDate": "Sat, 14 Mar 2026 03:21:25 GMT",
+          "content": "\n方聿南评论: 青年夏洛克 (https://movie.douban.com/subject/36881771/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;5eqtg&#34;,&#34;text&#34;:&#34;单论水平，比较一般。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "第一次见一流作品被改成下流作品 (评论: 呼啸山庄)",
+          "link": "https://movie.douban.com/review/17502076/",
+          "pubDate": "Fri, 13 Mar 2026 14:06:41 GMT",
+          "content": "\n扁豆眉女士评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 较差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;2026 \\u7248\\u300a\\u547c\\u5578\\u5c...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1193,6 +1223,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "以十字架的视角打开这部电影 (评论: 呼啸山庄)",
+          "link": "https://movie.douban.com/review/17502422/",
+          "pubDate": "Fri, 13 Mar 2026 19:15:35 GMT",
+          "content": "\n柏木浮舟评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "10分纪录片 (评论: 施图茨的疗愈之道)",
           "link": "https://movie.douban.com/review/17500354/",
           "pubDate": "Thu, 12 Mar 2026 09:12:37 GMT",
@@ -1207,6 +1247,26 @@
           "link": "https://movie.douban.com/review/17502345/",
           "pubDate": "Fri, 13 Mar 2026 17:12:35 GMT",
           "content": "\nPuff评论: 夜王 (https://movie.douban.com/subject/37375594/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "剧本太差 (评论: 团战之夜)",
+          "link": "https://movie.douban.com/review/17502388/",
+          "pubDate": "Fri, 13 Mar 2026 18:09:30 GMT",
+          "content": "\n肥肉嘉年华评论: 团战之夜 (https://movie.douban.com/subject/36777886/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u9996\\u5148\\u5267\\u672c\\u60f3\\u8...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "从凯撒利亚到巴黎 (评论: 塞扎里)",
+          "link": "https://movie.douban.com/review/17502101/",
+          "pubDate": "Fri, 13 Mar 2026 14:27:58 GMT",
+          "content": "\n2046小马评论: 塞扎里 (https://movie.douban.com/subject/3395651/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;dsprr&#34;,&#34;text&#34;:&#34;1978年夏日的清晨，巴黎杜伊勒里花园，肤色黝黑的女子散落在草坪上，晨曦染成一片蓝色；远处，白色的卢浮宫隐约可见，笼罩在晨雾之中。协和广场上矗立着方尖碑，高大的学院派雕像被脚手架遮掩。塞纳河蜿蜒流淌，环绕着世界的这一角。&#34;,&#34;type&#34;:&#34;un...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1233,6 +1293,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "这是一部批判资本主义的电影 (评论: 至尊马蒂)",
+          "link": "https://movie.douban.com/review/17502336/",
+          "pubDate": "Fri, 13 Mar 2026 17:06:29 GMT",
+          "content": "\n100℃评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u770b\\u5230\\u8bc4\\u8bba\\u533a\\u5...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "观感 (评论: 大明王朝1566)",
           "link": "https://movie.douban.com/review/17500032/",
           "pubDate": "Thu, 12 Mar 2026 04:37:21 GMT",
@@ -1253,80 +1323,10 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
-          "title": "齐泽克关于《呼啸山庄》的讨论（鼻炎怪人的影评） (评论: 呼啸山庄)",
-          "link": "https://movie.douban.com/review/17501499/",
-          "pubDate": "Fri, 13 Mar 2026 06:15:58 GMT",
-          "content": "\nNemo评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;34ak8&#34;,&#34;text&#34;:&#34;以下是齐泽克在2026年3月12日Substack专栏《 WUTHERING HEIGHTS: YES, LOVE IS TOX...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "导演赵婷在“中年危机”里完成自我修复 (评论: 哈姆奈特)",
-          "link": "https://movie.douban.com/review/17501804/",
-          "pubDate": "Fri, 13 Mar 2026 10:28:19 GMT",
-          "content": "\n十号风球女士评论: 哈姆奈特 (https://movie.douban.com/subject/35618471/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2itje&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "长剧的制作，短剧的呈现 (评论: 逐玉)",
-          "link": "https://movie.douban.com/review/17499286/",
-          "pubDate": "Wed, 11 Mar 2026 13:02:54 GMT",
-          "content": "\n已黑化的曲奇饼评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u8fd1\\u51e0\\u5e74\\u7684\\u53e4\\u8...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "短评《中国奇谭2》 (评论: 中国奇谭2)",
-          "link": "https://movie.douban.com/review/17501357/",
-          "pubDate": "Fri, 13 Mar 2026 03:49:11 GMT",
-          "content": "\n向月葵评论: 中国奇谭2 (https://movie.douban.com/subject/36299879/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u753b\\u98ce\\u6709\\u4e86\\u5f88\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《镖人》长影评：「武侠片的新标杆」 (评论: 镖人：风起大漠)",
-          "link": "https://movie.douban.com/review/17501872/",
-          "pubDate": "Fri, 13 Mar 2026 11:38:23 GMT",
-          "content": "\nEmotionalEarth评论: 镖人：风起大漠 (https://movie.douban.com/subject/36474027/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\n\\u5267\\u900f\\u9884\\u8b66~\\n\\u20...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "【影评】猎户高维·星际影评｜《蓝海》：人间烟火，亦是星海回响 (评论: 蓝海)",
-          "link": "https://movie.douban.com/review/17501930/",
-          "pubDate": "Fri, 13 Mar 2026 12:22:09 GMT",
-          "content": "\n非我非非我评论: 蓝海 (https://movie.douban.com/subject/37027709/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\ud83c\\udf0c \\u730e\\u6237\\u9ad8\\u...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "真正的海崖孤儿 (评论: 定风波)",
-          "link": "https://movie.douban.com/review/17502224/",
-          "pubDate": "Fri, 13 Mar 2026 15:41:39 GMT",
-          "content": "\nHear评论: 定风波 (https://movie.douban.com/subject/36575670/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u597d\\u6545\\u4e8b\\u6ca1\\u5347\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《我的山与海》：老爷们又在拿狗血熬制“苦难赞美诗”了 (评论: 我的山与海)",
-          "link": "https://movie.douban.com/review/17499894/",
-          "pubDate": "Thu, 12 Mar 2026 02:31:35 GMT",
-          "content": "\nmy毒舌影评评论: 我的山与海 (https://movie.douban.com/subject/35725771/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;9om7b&#34;,&#34;text&#34;:&#34;      本来抱着梁晓声农村版《人世间》的期待点进去，看到那些把《我的山与海》吹成农村版《人世间》的通稿，我怀疑主创们对“人间”这两个字有什么误解。梁晓声老师想补...\n",
+          "title": "当一位女导演拍出口碑最分裂的《弗兰肯斯坦》 (评论: 暗黑新娘！)",
+          "link": "https://movie.douban.com/review/17502608/",
+          "pubDate": "Sat, 14 Mar 2026 02:58:50 GMT",
+          "content": "\n界面文化评论: 暗黑新娘！ (https://movie.douban.com/subject/36503073/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;99kcd&#34;,&#34;text&#34;:&#34;界面新闻记者｜王鹏凯\\n界面新闻编辑｜李欣媛&#34;,&#34;type&#34;:&#34;blockquote&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRan...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1337,21 +1337,21 @@
     {
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
-      "error": "Request timed out after 60000ms",
-      "lastUpdated": "2026-03-14T01:14:48.346Z",
+      "error": "socket hang up",
+      "lastUpdated": "2026-03-14T04:03:19.609Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-14T01:14:48.603Z",
+      "lastUpdated": "2026-03-14T04:03:19.791Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-14T01:14:49.325Z",
+      "lastUpdated": "2026-03-14T04:03:20.138Z",
       "items": [
         {
           "title": "无题",
