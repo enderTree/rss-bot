@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-14T07:30:00.459Z",
+  "lastUpdated": "2026-03-14T08:25:12.776Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "劳动不分年龄，美好不分岁月——致敬最美资深劳动者",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525739",
+      "pubDate": "2026-03-14 10:20:42",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
     {
       "title": "偷来梨蕊三分白，借得梅花一缕魂",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525733",
@@ -16,6 +26,16 @@
       "title": "无私的光",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
       "pubDate": "2026-03-14 08:17:45",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "顶级科学家需要的两项技能",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525730",
+      "pubDate": "2026-03-14 07:59:26",
       "content": "",
       "author": "",
       "categories": [],
@@ -44,7 +64,7 @@
     },
     {
       "title": "Claude Code 有两种界面样式吗",
-      "link": "https://www.v2ex.com/t/1198250#reply4",
+      "link": "https://www.v2ex.com/t/1198250#reply9",
       "pubDate": "2026-03-14T06:36:48.000Z",
       "content": "\n\t一种更简单，另一种外面有个框多了 tips 和 activities<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/ItdLU3k.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/ItdLU3k.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/iNQrGh7.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/iNQrGh7.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
       "author": "Avn",
@@ -74,7 +94,7 @@
     },
     {
       "title": "求教哪里能买到廉价而保真的 claude api",
-      "link": "https://www.v2ex.com/t/1198239#reply17",
+      "link": "https://www.v2ex.com/t/1198239#reply22",
       "pubDate": "2026-03-14T05:19:43.000Z",
       "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
       "author": "werwer",
@@ -94,7 +114,7 @@
     },
     {
       "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
-      "link": "https://www.v2ex.com/t/1198233#reply2",
+      "link": "https://www.v2ex.com/t/1198233#reply3",
       "pubDate": "2026-03-14T04:36:21.000Z",
       "content": "\n\t<p>我们人是怎么查资料的，假如去图书馆\n1.找到对应的书架\n2.找到对应的书\n3.翻阅目录，定位到页码\n4.读取内容</p>\n<p>以上模式其实很简单，把最上一级的目录通过 System Prompt 传给 ai ，然后写几个 function call 就行了，ai 自己调方法去查。</p>\n<p>请问一下这种方式有什么缺点吗？</p>\n\n\t",
       "author": "huanggan",
@@ -124,7 +144,7 @@
     },
     {
       "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
-      "link": "https://www.v2ex.com/t/1198225#reply5",
+      "link": "https://www.v2ex.com/t/1198225#reply6",
       "pubDate": "2026-03-14T03:43:47.000Z",
       "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
       "author": "Hyvi",
@@ -174,7 +194,7 @@
     },
     {
       "title": "大家公司怎么使用 ai 的?",
-      "link": "https://www.v2ex.com/t/1198216#reply7",
+      "link": "https://www.v2ex.com/t/1198216#reply9",
       "pubDate": "2026-03-14T02:28:04.000Z",
       "content": "\n\t<ul>\n<li>在哪些场景，怎么使用的？</li>\n<li>不仅仅是编程，据了解编程领域是 ai 提效最高的。</li>\n</ul>\n\n\t",
       "author": "siaronwang",
@@ -184,7 +204,7 @@
     },
     {
       "title": "github 要成 ai hub 了，开源会走向哪，大家怎么看？",
-      "link": "https://www.v2ex.com/t/1198213#reply11",
+      "link": "https://www.v2ex.com/t/1198213#reply13",
       "pubDate": "2026-03-14T01:56:05.000Z",
       "content": "\n\t<p><a href=\"https://mp.weixin.qq.com/s/v1YEmhxEcgrt6F3RfHxyXg\" rel=\"nofollow\">https://mp.weixin.qq.com/s/v1YEmhxEcgrt6F3RfHxyXg</a></p>\n\n\t",
       "author": "minxuan",
@@ -274,7 +294,7 @@
     },
     {
       "title": "某团队公开了一个支付宝的攻击面",
-      "link": "https://www.v2ex.com/t/1198173#reply17",
+      "link": "https://www.v2ex.com/t/1198173#reply19",
       "pubDate": "2026-03-13T15:24:09.000Z",
       "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
       "author": "defaultVoid",
@@ -324,7 +344,7 @@
     },
     {
       "title": "请问 V 友们工作上一些项目中敏感信息存哪",
-      "link": "https://www.v2ex.com/t/1198153#reply9",
+      "link": "https://www.v2ex.com/t/1198153#reply10",
       "pubDate": "2026-03-13T13:18:25.000Z",
       "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
       "author": "zonas",
@@ -334,7 +354,7 @@
     },
     {
       "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-      "link": "https://www.v2ex.com/t/1198139#reply8",
+      "link": "https://www.v2ex.com/t/1198139#reply9",
       "pubDate": "2026-03-13T11:49:06.000Z",
       "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
       "author": "z1s23",
@@ -364,7 +384,7 @@
     },
     {
       "title": "广大 V 友注意， IDEA 插件 claude-code-gui 插件会盗刷 token，我已中招，已经举报下架",
-      "link": "https://www.v2ex.com/t/1198130#reply31",
+      "link": "https://www.v2ex.com/t/1198130#reply32",
       "pubDate": "2026-03-13T11:09:31.000Z",
       "content": "\n\t<p>事情是这样的，我之前买了中转，想在 IDEA 上使用，填入中转 key 后，我有一段时间没用，再次上线时，发现被盗刷了 700 多的额度，现在该已经被举报下架了，我在他的 GitHub 留言了，大家以后注意这种情况，真的恶心。\n<a href=\"https://imgur.com/onsnZMZ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/aeBh6QS\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/n6xpyQQ\" rel=\"nofollow\">Imgur</a>\n<a href=\"https://imgur.com/hQdywG2\" rel=\"nofollow\">Imgur</a></p>\n\n\t",
       "author": "ZettarYuFan",
@@ -422,16 +442,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
-      "pubDate": "2026-03-13 10:14:27",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "Chroniq - 给 AI Agent 工作流设计的 CLI 日志工具，轻量开源",
       "link": "https://www.v2ex.com/t/1198119#reply0",
       "pubDate": "2026-03-13T10:14:06.000Z",
@@ -463,7 +473,7 @@
     },
     {
       "title": "antigravity 5h 刷新改回来了",
-      "link": "https://www.v2ex.com/t/1198112#reply18",
+      "link": "https://www.v2ex.com/t/1198112#reply19",
       "pubDate": "2026-03-13T09:52:42.000Z",
       "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
       "author": "LaughingCat",
@@ -502,16 +512,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "武汉大学赏早樱",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
-      "pubDate": "2026-03-13 09:00:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "楷体书法",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
       "pubDate": "2026-03-13 08:57:04",
@@ -533,7 +533,7 @@
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply22",
+      "link": "https://www.v2ex.com/t/1198090#reply23",
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
@@ -633,7 +633,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply65",
+      "link": "https://www.v2ex.com/t/1198056#reply66",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -832,7 +832,7 @@
     },
     {
       "title": "咨询 skill 使用中文英文区别大吗",
-      "link": "https://www.v2ex.com/t/1197899#reply13",
+      "link": "https://www.v2ex.com/t/1197899#reply14",
       "pubDate": "2026-03-13T01:21:44.000Z",
       "content": "\n\t受前两天 v 友启发，在常用开发流程中写一些自用 skill ，虽然英文能读懂，但是过几天忘了重新读，拿眼扫起来慢啊。\n\t",
       "author": "JYii",
@@ -892,7 +892,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply64",
+      "link": "https://www.v2ex.com/t/1197790#reply65",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -1028,7 +1028,7 @@
     },
     {
       "title": "独立开发者们，很想问个问题，你们是专注做一款产品，还是批量生产？",
-      "link": "https://www.v2ex.com/t/1197650#reply49",
+      "link": "https://www.v2ex.com/t/1197650#reply50",
       "pubDate": "2026-03-12T02:48:43.000Z",
       "content": "\n\t\n\t",
       "author": "mcfever",
