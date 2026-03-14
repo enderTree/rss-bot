@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-14T21:20:14.540Z",
+  "lastUpdated": "2026-03-14T22:17:20.899Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-14T21:19:05.804Z",
+      "lastUpdated": "2026-03-14T22:17:09.637Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-14T21:19:06.493Z",
+      "lastUpdated": "2026-03-14T22:17:10.614Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-14T21:19:06.557Z",
+      "lastUpdated": "2026-03-14T22:17:10.702Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-14T21:19:08.244Z",
+      "lastUpdated": "2026-03-14T22:17:12.456Z",
       "items": [
         {
           "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
@@ -309,7 +309,7 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-14T21:19:08.290Z",
+      "lastUpdated": "2026-03-14T22:17:12.597Z",
       "items": [
         {
           "title": "独立开发收款方案",
@@ -362,21 +362,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
-          "link": "https://www.v2ex.com/t/1198309#reply9",
-          "pubDate": "2026-03-14T13:36:10.000Z",
-          "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
-          "author": "willxiang",
+          "title": "求教哪里能买到廉价而保真的 claude api",
+          "link": "https://www.v2ex.com/t/1198239#reply34",
+          "pubDate": "2026-03-14T05:19:43.000Z",
+          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
+          "author": "werwer",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "求教哪里能买到廉价而保真的 claude api",
-          "link": "https://www.v2ex.com/t/1198239#reply33",
-          "pubDate": "2026-03-14T05:19:43.000Z",
-          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
-          "author": "werwer",
+          "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
+          "link": "https://www.v2ex.com/t/1198309#reply9",
+          "pubDate": "2026-03-14T13:36:10.000Z",
+          "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
+          "author": "willxiang",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -716,7 +716,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-14T21:19:10.187Z",
+      "lastUpdated": "2026-03-14T22:17:14.897Z",
       "items": [
         {
           "title": "偷来梨蕊三分白，借得梅花一缕魂",
@@ -769,6 +769,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "数理历史之三定律",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
+          "pubDate": "2026-03-14 09:51:00",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "豚鱼吹浪江生风（古今诗词咏江豚续七百五十九）",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525715",
           "pubDate": "2026-03-14 06:07:54",
@@ -789,9 +799,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "数理历史之三定律",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
-          "pubDate": "2026-03-14 09:51:00",
+          "title": "玉兰盛开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525756",
+          "pubDate": "2026-03-14 02:13:53",
           "content": "",
           "author": "",
           "categories": [],
@@ -799,9 +809,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "玉兰盛开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525756",
-          "pubDate": "2026-03-14 02:13:53",
+          "title": "苦苣菜：本草济世三千年，苦菜留香二月天",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525753",
+          "pubDate": "2026-03-14 12:45:25",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
+          "pubDate": "2026-03-14 12:14:59",
           "content": "",
           "author": "",
           "categories": [],
@@ -829,36 +849,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
-          "pubDate": "2026-03-14 12:14:59",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "苦苣菜：本草济世三千年，苦菜留香二月天",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525753",
-          "pubDate": "2026-03-14 12:45:25",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "杂说蔬菜（3）青菜",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
-          "pubDate": "2026-03-14 07:40:31",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "咏鹤寄怀",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525728",
           "pubDate": "2026-03-14 07:48:38",
@@ -869,19 +859,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "最好的早餐",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525729",
-          "pubDate": "2026-03-14 07:57:01",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
-          "pubDate": "2026-03-14 11:23:12",
+          "title": "刚才，我可能见证了一个伟大的时刻",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525763",
+          "pubDate": "2026-03-14 04:53:24",
           "content": "",
           "author": "",
           "categories": [],
@@ -899,6 +879,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "杂说蔬菜（3）青菜",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
+          "pubDate": "2026-03-14 07:40:31",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "科学史中的教训：第十五章 洗手的先知：塞麦尔维斯与医学的傲慢",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525750",
           "pubDate": "2026-03-14 12:04:04",
@@ -909,9 +899,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "刚才，我可能见证了一个伟大的时刻",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525763",
-          "pubDate": "2026-03-14 04:53:24",
+          "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
+          "pubDate": "2026-03-14 11:23:12",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "最好的早餐",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525729",
+          "pubDate": "2026-03-14 07:57:01",
           "content": "",
           "author": "",
           "categories": [],
@@ -923,7 +923,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-14T21:19:12.346Z",
+      "lastUpdated": "2026-03-14T22:17:16.981Z",
       "items": [
         {
           "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
@@ -1130,7 +1130,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-14T21:19:13.918Z",
+      "lastUpdated": "2026-03-14T22:17:18.920Z",
       "items": [
         {
           "title": "很好看演技太好了 (评论: 十年一品温如言)",
@@ -1337,21 +1337,21 @@
     {
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
-      "error": "Request timed out after 60000ms",
-      "lastUpdated": "2026-03-14T21:20:13.928Z",
+      "error": "socket hang up",
+      "lastUpdated": "2026-03-14T22:17:20.051Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-14T21:20:13.985Z",
+      "lastUpdated": "2026-03-14T22:17:20.237Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-14T21:20:14.539Z",
+      "lastUpdated": "2026-03-14T22:17:20.899Z",
       "items": [
         {
           "title": "无题",
