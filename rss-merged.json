@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-14T11:17:49.657Z",
+  "lastUpdated": "2026-03-14T12:31:06.345Z",
   "totalItems": 143,
   "items": [
     {
       "title": "Claude 上线了 1m context，为什么我这用不了啊？",
-      "link": "https://www.v2ex.com/t/1198291#reply0",
+      "link": "https://www.v2ex.com/t/1198291#reply2",
       "pubDate": "2026-03-14T10:52:48.000Z",
       "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
       "author": "gefangshuai",
@@ -34,7 +34,7 @@
     },
     {
       "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
-      "link": "https://www.v2ex.com/t/1198282#reply5",
+      "link": "https://www.v2ex.com/t/1198282#reply12",
       "pubDate": "2026-03-14T09:59:41.000Z",
       "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
       "author": "zhanshen1614",
@@ -74,7 +74,7 @@
     },
     {
       "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-      "link": "https://www.v2ex.com/t/1198268#reply3",
+      "link": "https://www.v2ex.com/t/1198268#reply4",
       "pubDate": "2026-03-14T08:28:04.000Z",
       "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
       "author": "apibox",
@@ -144,7 +144,7 @@
     },
     {
       "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
-      "link": "https://www.v2ex.com/t/1198247#reply6",
+      "link": "https://www.v2ex.com/t/1198247#reply8",
       "pubDate": "2026-03-14T06:10:10.000Z",
       "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
       "author": "loneranger1024",
@@ -164,7 +164,7 @@
     },
     {
       "title": "求教哪里能买到廉价而保真的 claude api",
-      "link": "https://www.v2ex.com/t/1198239#reply28",
+      "link": "https://www.v2ex.com/t/1198239#reply30",
       "pubDate": "2026-03-14T05:19:43.000Z",
       "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
       "author": "werwer",
@@ -214,7 +214,7 @@
     },
     {
       "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
-      "link": "https://www.v2ex.com/t/1198225#reply9",
+      "link": "https://www.v2ex.com/t/1198225#reply11",
       "pubDate": "2026-03-14T03:43:47.000Z",
       "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
       "author": "Hyvi",
@@ -244,7 +244,7 @@
     },
     {
       "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
-      "link": "https://www.v2ex.com/t/1198219#reply6",
+      "link": "https://www.v2ex.com/t/1198219#reply8",
       "pubDate": "2026-03-14T03:22:45.000Z",
       "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
       "author": "maxwellz",
@@ -512,6 +512,16 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
+      "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
+      "pubDate": "2026-03-13 10:14:27",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "Chroniq - 给 AI Agent 工作流设计的 CLI 日志工具，轻量开源",
       "link": "https://www.v2ex.com/t/1198119#reply0",
       "pubDate": "2026-03-13T10:14:06.000Z",
@@ -582,6 +592,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "武汉大学赏早樱",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
+      "pubDate": "2026-03-13 09:00:26",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "楷体书法",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
       "pubDate": "2026-03-13 08:57:04",
@@ -615,16 +635,6 @@
       "title": "心似双丝网，中有千千结",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525588",
       "pubDate": "2026-03-13 08:30:29",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "小猫知暖",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525584",
-      "pubDate": "2026-03-13 08:23:18",
       "content": "",
       "author": "",
       "categories": [],
@@ -672,16 +682,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "做了一个 discord-cli ：把 discord 变成可本地检索、可供 AI Agent 使用的数据层",
-      "link": "https://www.v2ex.com/t/1198070#reply0",
-      "pubDate": "2026-03-13T07:40:40.000Z",
-      "content": "\n\t<h1>[分享] discord-cli — 把 Discord 聊天记录同步到本地 SQLite ，终端搜索 + AI 总结</h1>\n<h2>项目背景</h2>\n<p>平时泡不少 Discord 社区（ crypto 、开源项目、AI 讨论组），消息量大、翻找困难。Discord 自带搜索不支持正则，也没法离线查看。于是写了 <strong>discord-cli</strong>——一个 local-first 的 Discord 命令行工具：</p>\n<ul>\n<li>把频道消息增量同步到本地 SQLite</li>\n<li>终端里全文检索、统计、导出</li>\n<li>可选接 Claude 做频道摘要 / 分析</li>\n</ul>\n<p>GitHub： <a href=\"https://github.com/jackwener/discord-cli\" rel=\"nofollow\">https://github.com/jackwener/discord-cli</a></p>\n<p>PyPI： <a href=\"https://pypi.org/project/kabi-discord-cli/\" rel=\"nofollow\">https://pypi.org/project/kabi-discord-cli/</a></p>\n<h2>核心功能</h2>\n<h3>1. 一键同步聊天记录</h3>\n<pre><code class=\"language-bash\"># 提取并保存本地 Discord token\ndiscord auth --save\n\n# 发现所有可见文字频道并同步\ndiscord dc sync-all -n 500\n\n# 增量同步（只拉新消息）\ndiscord dc sync-all\n</code></pre>\n<ul>\n<li>自动处理 Discord rate limit （读 <code>retry_after</code> / <code>X-RateLimit-Remaining</code> header ，不会触发封号）</li>\n<li>消息存入 <code>~/Library/Application Support/discord-cli/messages.db</code></li>\n</ul>\n<h3>2. 本地搜索 &amp; 统计</h3>\n<pre><code class=\"language-bash\"># 全文搜索\ndiscord search \"rust\" -c general\n\n# 今天的消息\ndiscord today\n\n# 按小时统计活跃度\ndiscord timeline --by hour\n\n# 谁发言最多\ndiscord top --hours 24\n\n# 各频道消息量\ndiscord stats\n</code></pre>\n<h3>3. 结构化输出，方便脚本 / AI Agent</h3>\n<pre><code class=\"language-bash\"># JSON / YAML 输出\ndiscord search \"release\" --json\ndiscord today -c general --yaml\n\n# 导出为文件\ndiscord export general -f json -o out.json\n</code></pre>\n<ul>\n<li>非 TTY 环境自动输出 YAML</li>\n<li>所有输出遵循统一的 envelope schema</li>\n</ul>\n<h3>4. AI 总结 &amp; 分析（可选）</h3>\n<pre><code class=\"language-bash\"># 安装 AI 依赖\nuv tool install 'kabi-discord-cli[ai]'\nexport ANTHROPIC_API_KEY=...\n\n# 频道 AI 分析\ndiscord analyze general --hours 24\n\n# 全局摘要\ndiscord summary --hours 12\n</code></pre>\n<h2>安装</h2>\n<pre><code class=\"language-bash\"># 推荐\nuv tool install kabi-discord-cli\n\n# 或 pipx\npipx install kabi-discord-cli\n</code></pre>\n<p>Python 3.10+ 即可，依赖很少（ httpx + click + rich + PyYAML ）。</p>\n<h2>典型使用场景</h2>\n<ol>\n<li><strong>信息归档</strong>：把重要 Discord 社区的讨论同步到本地，不怕频道被删或服务器跑路</li>\n<li><strong>快速检索</strong>：在终端快速搜索历史消息，比 Discord 自带搜索灵活</li>\n<li><strong>每日摘要</strong>：用 <code>discord summary</code> 生成 AI 摘要，快速了解今天社区讨论了什么</li>\n<li><strong>数据分析</strong>：<code>timeline</code> / <code>top</code> / <code>stats</code> 了解社区活跃度</li>\n<li><strong>AI Agent 集成</strong>：附带 <a href=\"http://SKILL.md\" rel=\"nofollow\">SKILL.md</a> ，可以被 Claude Code / Antigravity 等 AI agent 直接调用</li>\n</ol>\n<h2>同系列工具</h2>\n<p>这是我做的社交平台 CLI 系列的一部分，同样的 local-first 思路：</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>平台</th>\n<th>GitHub</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>twitter-cli</td>\n<td>Twitter/X</td>\n<td><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></td>\n</tr>\n<tr>\n<td>bilibili-cli</td>\n<td>哔哩哔哩</td>\n<td><a href=\"https://github.com/jackwener/bilibili-cli\" rel=\"nofollow\">https://github.com/jackwener/bilibili-cli</a></td>\n</tr>\n<tr>\n<td>xiaohongshu-cli</td>\n<td>小红书</td>\n<td><a href=\"https://github.com/jackwener/xiaohongshu-cli\" rel=\"nofollow\">https://github.com/jackwener/xiaohongshu-cli</a></td>\n</tr>\n<tr>\n<td>tg-cli</td>\n<td>Telegram</td>\n<td><a href=\"https://github.com/jackwener/tg-cli\" rel=\"nofollow\">https://github.com/jackwener/tg-cli</a></td>\n</tr>\n</tbody></table><hr/>\n<p>Apache-2.0 开源，欢迎 Star ⭐ 和反馈 🙏</p>\n<p>有什么想法或者需要支持的功能，欢迎在 <a href=\"https://github.com/jackwener/discord-cli/issues\" rel=\"nofollow\">Issues</a> 里提。</p>\n\n\t",
-      "author": "jakevin",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "OpenCode 出了个 Go 套餐就是 10 刀 Coding Plan，值得买吗？",
       "link": "https://www.v2ex.com/t/1198067#reply5",
       "pubDate": "2026-03-13T07:36:44.000Z",
@@ -690,16 +690,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "经常变换研究领域也有优势？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525579",
-      "pubDate": "2026-03-13 07:36:20",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
@@ -922,7 +912,7 @@
     },
     {
       "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-      "link": "https://www.v2ex.com/t/1197790#reply66",
+      "link": "https://www.v2ex.com/t/1197790#reply67",
       "pubDate": "2026-03-12T09:27:15.000Z",
       "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
       "author": "lp4298707",
@@ -1207,6 +1197,16 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
+      "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+      "link": "https://www.v2ex.com/t/1196011#reply165",
+      "pubDate": "2026-03-05T04:33:26.000Z",
+      "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+      "author": "v2exgo",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "恐惧是一种幻觉 (评论: 她和她的决心)",

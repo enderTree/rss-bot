@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-14T11:17:49.654Z",
+  "lastUpdated": "2026-03-14T12:31:06.340Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-14T11:17:38.805Z",
+      "lastUpdated": "2026-03-14T12:30:52.414Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-14T11:17:39.694Z",
+      "lastUpdated": "2026-03-14T12:30:53.247Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-14T11:17:39.800Z",
+      "lastUpdated": "2026-03-14T12:30:53.386Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-14T11:17:41.556Z",
+      "lastUpdated": "2026-03-14T12:30:55.131Z",
       "items": [
         {
           "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
@@ -309,11 +309,41 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-14T11:17:41.699Z",
+      "lastUpdated": "2026-03-14T12:30:55.283Z",
       "items": [
         {
+          "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
+          "link": "https://www.v2ex.com/t/1198282#reply12",
+          "pubDate": "2026-03-14T09:59:41.000Z",
+          "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
+          "author": "zhanshen1614",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "求教哪里能买到廉价而保真的 claude api",
+          "link": "https://www.v2ex.com/t/1198239#reply30",
+          "pubDate": "2026-03-14T05:19:43.000Z",
+          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
+          "author": "werwer",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
+          "link": "https://www.v2ex.com/t/1198225#reply11",
+          "pubDate": "2026-03-14T03:43:47.000Z",
+          "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
+          "author": "Hyvi",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
-          "link": "https://www.v2ex.com/t/1198247#reply6",
+          "link": "https://www.v2ex.com/t/1198247#reply8",
           "pubDate": "2026-03-14T06:10:10.000Z",
           "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
           "author": "loneranger1024",
@@ -322,11 +352,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
-          "link": "https://www.v2ex.com/t/1198282#reply5",
-          "pubDate": "2026-03-14T09:59:41.000Z",
-          "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
-          "author": "zhanshen1614",
+          "title": "Claude 上线了 1m context，为什么我这用不了啊？",
+          "link": "https://www.v2ex.com/t/1198291#reply2",
+          "pubDate": "2026-03-14T10:52:48.000Z",
+          "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
+          "author": "gefangshuai",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
+          "link": "https://www.v2ex.com/t/1198219#reply8",
+          "pubDate": "2026-03-14T03:22:45.000Z",
+          "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
+          "author": "maxwellz",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -337,26 +377,6 @@
           "pubDate": "2026-03-14T10:09:12.000Z",
           "content": "\n\t<p><a href=\"https://nvidiana.com/\" rel=\"nofollow\">https://nvidiana.com/</a></p>\n\n\t",
           "author": "albatron",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude 上线了 1m context，为什么我这用不了啊？",
-          "link": "https://www.v2ex.com/t/1198291#reply0",
-          "pubDate": "2026-03-14T10:52:48.000Z",
-          "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
-          "author": "gefangshuai",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
-          "link": "https://www.v2ex.com/t/1198219#reply6",
-          "pubDate": "2026-03-14T03:22:45.000Z",
-          "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
-          "author": "maxwellz",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -387,26 +407,6 @@
           "pubDate": "2026-03-14T09:07:16.000Z",
           "content": "\n\t因为前一阵子被自己参与的 DAG （有向无环图）系统排错折磨得苦不堪言，才有了这个项目。<br /><br />当时系统涉及几十个节点，排错时需要从 Langfuse 里几十 KB 甚至非常重的 Trace 树中用肉眼找关键节点，经常看花了眼。但在痛苦的过程中，我也意识到：**这种排错其实极度有“套路”。**<br /><br />尤其是前阵子各种 Agent Skill 爆火，当时我就想，为什么不直接给 AI 接上 DB 、Redis 和 Langfuse 的只读接口，然后写一个特定的 Skill （也就是 Runbook 手册）告诉它：<br />*“遇到这样的问题你按这个顺序查，第一步查 Redis ，第二步对比 DB ，第三步去对应的几十 KB 的 Trace 里精准捞出特定的那些关键数据进行分析。”*<br /><br />实际跑通测试下来，效果出奇地好：AI 不再瞎猜，给出的结论极其稳定可信。所以，干脆就把这套方法论抽象了出来，做成了这个独立的框架：`agent-debugger` / `debug-runbook`。<br /><br />GitHub 项目地址：  <br />[<a target=\"_blank\" href=\"https://github.com/UnCooe/debug-runbook\" rel=\"nofollow noopener\">https://github.com/UnCooe/debug-runbook</a>]( <a target=\"_blank\" href=\"https://github.com/UnCooe/debug-runbook\" rel=\"nofollow noopener\">https://github.com/UnCooe/debug-runbook</a>)<br /><br />### 为什么做这个东西？<br /><br />它想解决的问题其实挺具体的。<br /><br />现在很多 AI Agent 的“线上排障”方案，本质上还是把数据库只读账号、日志系统、Tracing 、Redis 这些工具接口一股脑暴露给模型，然后期待它自己查明白。<br /><br />看起来很智能，但实际越做越觉得，这里面有个经常被忽略的关键变量：<br /><br />&gt; **排障能力里最值钱的部分，绝不是工具访问权限，而是调查顺序与证据链条。**<br /><br />一个有经验的后端同学排查问题，脑子里通常不是“有什么工具”，而是：<br />1. 先确认请求到底有没有真的进入主流程<br />2. 再看关键副作用（ Side Effect ）有没有发生<br />3. 再对齐持久化状态 (DB)<br />4. 最后才看 缓存 / 幂等键 / 异步链路 有没有把流程短路<br /><br />这个顺序本身，就是千锤百炼的**排错经验**。<br /><br />而很多 Agent 方案，偏偏把这部分丢了，只剩下“模型自由发挥”。结果就会出现几个典型的高血压名场面：<br />- 工具很多，但调查路径不稳定，每次问法不同，排查步骤也不同；<br />- 模型极容易被大段的 Trace / SQL 结果 / 日志噪音带偏（ Token 直接爆炸💥）；<br />- 它能给出一个“像样的解释”，但证据链根本经不起推敲；<br />- 真到线上大推业务场景时，你完全不敢 audit 它到底凭什么得出的这个结论。<br /><br />### 这个项目做了什么？<br /><br />所以做这个项目时，换了个解法。思路不是“看怎么再封装几个强大的 MCP 调试工具”，而是反向操作：<br /><br />&gt; **把资深工程师的排障套路写成可执行的 YAML Runbook ，强制约束 Agent 先按顺序收集证据，再下结论。**<br /><br />项目的架构骨架大概是这样运作的：<br />- 输入一个事故上下文（比如 `trace_id`、`order_id`、`request_id`）<br />- **选剧本**：引擎先根据症状（ Symptom ）匹配最对口的 Runbook 。<br />- **强制按序执行**：再严格按 Runbook 规定的步骤，顺序调用 Trace / DB / Redis 这些 Adapter 。<br />- **洗数据**：所有 Adapter 返回的原始结果，全部过滤洗干净，归一化成了结构化的 `Evidence`（证据）。<br />- **推断结论**：再把这些证据扔进决策引擎（ Decision Rules ），产出最终包含根因的结构化 Incident Report 。<br /><br />不是让模型像无头苍蝇一样直接面对一地鸡毛的真实状态图，而是先把**“可调查路径”**和**“证据形状”**全都死死限定住。<br /><br />### 核心特性 MVP 验证<br /><br />现在做出来的早期开源版（ MVP ）跑通了几个硬核节点：<br /><br />1. **Runbook Selection**：根据 symptom 和 context 选排查剧本，不是所有问题都一把梭地查全套系统。<br />2. **Ordered Execution**：排查步骤强制有序，不允许 Agent 自己胡乱跳转发散。<br />3. **Evidence Normalization**：不直接把原始 Payload 喂给大模型，而是转成几十个字的统一 Evidence ，保护上下文长度。<br />4. **Decision Rules**：最终出什么结论不靠 LLM 的玄学推理，而是基于收集到的“证据组合”来触发（比如 `A 证据 + B 证据 = C 结论` 成立）。<br />5. **绝对的只读红线**：所有 Adapter 都限制在了只读层。DB 有表名白名单拦截，Redis 限制了 Key 前缀匹配规则，从根本上杜绝大模型在库里“乱挥大刀”。<br /><br />### 真实的 Demo 案例<br /><br />在库里塞了一个最常见的业务 Case Demo：**“订单创建成功了，但下游任务没生成”**（`npm run demo:order-task-missing`）。<br /><br />*   **原生 Agent 的瞎排查**：把几百行的 Trace 读一遍发现没报错，又去扫全表 SQL 搜日志，毫无头绪。<br />*   **在这个 Runbook 框架里**：它老老实实地走了一条固定路径。先扫 Trace ，再看丢失的那一环丢在哪里了，转头查 DB 的订单和任务表比对，最后精准定位到 Redis 里的 Idempotency Key 。通过收集齐这几样证据，得出了极其稳定的结论：<br />    **“请求大概率被 cache / idempotency 状态提前拦截短路了，所以订单尽管落库了，但后续副作用未触发”**。<br /><br />这套逻辑基准的 Benchmark 是全绿通过的。<br /><br />### 欢迎来交流与碰撞<br /><br />这套东西刻意没有往“全自动自发修复线上 Bug”那种吸睛（但现阶段不现实）的方向去靠，因为觉得在复杂的业务黑洞里，**可审计性**与**证据链是否收闭**，远比所谓的“AI 显得很聪明”能落地得多。现在项目已经备齐了 MCP 入口，搭好了引擎的基础结构。<br /><br />V 站的各位老哥/老姐们如果有在这条 AIOps 泥石流里摸爬滚打过的，很想借机探讨几个灵魂拷问：<br /><br />1. 你们团队线上最频繁、最适合被总结成“八股文排错 Runbook”的事故场景是哪一类？<br />2. 在平时的排障中（ Trace / DB / MQ / 日志分析等），你们觉得大模型在哪一层最容易犯浑、被噪声带跑偏？<br />3. 对于生产环境，你是更愿意相信一个“工具自由调用的万能 Agent”，还是“被规范排障手册强约束的 Agent”？<br />4. 如果要把你们老专家脑子里的“祖传排故套路”沉淀成 YAML 代码交接给 AI ，最大的阻力通常是什么？<br /><br />如果觉得这里的实现思想有那么点意思，极其欢迎路过指点，或者试着提 PR 用你们最得意的“排障剧本”砸向。相比多添个连接器，这项目现在最缺的反而是真实战场的经验**剧本**，因为从这个架构看，Adapter 只是干活的苦力，**高度浓缩的 Runbook 才是真正的资产层。**\n\t",
           "author": "bimeixishuai",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
-          "link": "https://www.v2ex.com/t/1198225#reply9",
-          "pubDate": "2026-03-14T03:43:47.000Z",
-          "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
-          "author": "Hyvi",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "求教哪里能买到廉价而保真的 claude api",
-          "link": "https://www.v2ex.com/t/1198239#reply28",
-          "pubDate": "2026-03-14T05:19:43.000Z",
-          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
-          "author": "werwer",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -602,6 +602,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
+          "link": "https://www.v2ex.com/t/1197790#reply67",
+          "pubDate": "2026-03-12T09:27:15.000Z",
+          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
+          "author": "lp4298707",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
           "link": "https://www.v2ex.com/t/1197595#reply66",
           "pubDate": "2026-03-12T00:55:22.000Z",
@@ -612,18 +622,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply66",
-          "pubDate": "2026-03-12T09:27:15.000Z",
-          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
-          "author": "lp4298707",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-          "link": "https://www.v2ex.com/t/1198268#reply3",
+          "link": "https://www.v2ex.com/t/1198268#reply4",
           "pubDate": "2026-03-14T08:28:04.000Z",
           "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
           "author": "apibox",
@@ -707,6 +707,16 @@
           "pubDate": "2026-03-13T04:45:47.000Z",
           "content": "\n\t<p>最近用 claude code 或者别的 ai agent 写代码，写了几个月，发现了里面一些问题，</p>\n<p><a href=\"https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif\" rel=\"nofollow\">https://raw.githubusercontent.com/sentrux/sentrux/main/assets/demo.gif</a></p>\n<h2>总是有种感觉就是和 ai 一起推进一个项目，和 ai 一起讨论，各种方案研究，一起推进，推着推着就退不动了，要么就是觉得 ai 莫名的越来越笨，</h2>\n<ol>\n<li>要么就是 ai 调用工具比如检索查看一些文件或者信息的时候似乎越来越不准，效率越来越低</li>\n<li>要么就是 ai 写一些测试的时候，测试的越来越不准，</li>\n<li>或者说要 ai 修 bug ，他说修好了，可是问题还在，这样的现象随着我们的项目越来越大以后就越来越明显</li>\n</ol>\n<p>所以导致大到一定程度，积累了很多的技术债，导致很难继续，或者改变。</p>\n<h2>在 AI 之前的时代，我们打开 IDE ，每一行代码、每一个文件、每一个引用、每一个函数都是我们自己写的。当出现 bug 的时候，我们非常清楚问题在哪，可以快速地去调试，很有掌控感。</h2>\n<p>但在 AI 时代，我们在终端或 AI Agent 上，只能看到它以机器的速度快速修改各种文件。我们只能看到具体改了哪些文件的名字，以及非常局部的改动内容，这使我们失去了对整个代码的大局观。</p>\n<p>很多人在整个用 AI Web Coding 的生命周期里，甚至从始至终都没有看过文件夹下面的内容：</p>\n<ol>\n<li>它到底创造了什么？</li>\n<li>它们之间的关系是什么？</li>\n<li>整体结构是什么？</li>\n</ol>\n<p>我们对此一无所知，只能盲目地相信 AI 做的事情。那么当出现 bug 的时候，我们更加无能为力，只能继续依赖 AI 去找 bug 、查 bug 、改 bug 。这也是目前的痛点之一。</p>\n<h2>在信息学的理论里面有熵增定律。由于我们目前的 AI 属于生成式 AI ，AI 写的代码是生成式代码，这就不可避免地会从原理上让我们——如果只依赖于 AI 的话——会让我们的代码结构变得更加冗余和复杂。</h2>\n<p>目前整个行业很有可能是在以一个错误的方式去解决这个问题。</p>\n<p>在一些很火的开源项目（比如 GitHub 出品的 SpecKit ）中，这类工具非常依赖于开发者在项目开始前，就彻彻底底想好整个代码结构、要实现的功能以及具体内容。</p>\n<p>但真正在 AI Coding 的时候，我们的做法其实恰恰相反。在自然的情况下，我们使用 AI 写代码更倾向于一种“交谈启发式”的流程：</p>\n<ol>\n<li>我们并不会提前规划好所有细节，而是从零开始，让 AI 快速生成原型。</li>\n<li>像甲方和乙方一样，在交互中不断修改方案。</li>\n<li>同时进行一些深刻的探讨，启发我们想到更好的产品方案或技术路线。</li>\n</ol>\n<p>在这样的循环推进方式下，AI 不可避免地会生成一些架构很乱的“脏代码”。最终在一轮又一轮的 Prompt 之后，它确实可能给出一个外在功能完美的运行结果，但内部架构可能是极其混乱的。</p>\n<p>正是因为架构的混乱，会导致开篇那样让人抓狂的东西，很多致命的情况：\n(a) 当 AI 调用工具指令搜索函数时，可能会找到好几个函数名相同但实现形式或算法不同的结果。\n(b) 当 AI 修复 Bug 时，它以为修好了一处，但由于架构混乱，它实际修掉的可能是别的地方。</p>\n<p>俗话说，好的体系让坏人也可以做好事，坏的体系可以让好人也变成坏人。这就意味着，在一个好的架构下，即便水平稍低一些的 AI 都可以写出高质量的代码。</p>\n<p>所以，架构是非常重要的。</p>\n<p>所以这个 repo 可以 同时帮助人做以上两个事情，可以理解为可视化文件系统，以及给 AI 一个传感器，就是架构传感器，帮助 ai 自我循环加速写好的代码。</p>\n<h1>这样可以理解为这个 project 是反向的 speckit ，</h1>\n<p>无论你用什么自然的方式开始 vibe coding ， 都可以在 sentrux 的帮助下，最后弄出来很好，很高水准的代码，</p>\n<h2>纯 rust 高性能</h2>\n<h2><a href=\"https://github.com/sentrux/sentrux\" rel=\"nofollow\">https://github.com/sentrux/sentrux</a></h2>\n\n\t",
           "author": "yisen123",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
+          "link": "https://www.v2ex.com/t/1196011#reply165",
+          "pubDate": "2026-03-05T04:33:26.000Z",
+          "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
+          "author": "v2exgo",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -800,48 +810,18 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "做了一个 discord-cli ：把 discord 变成可本地检索、可供 AI Agent 使用的数据层",
-          "link": "https://www.v2ex.com/t/1198070#reply0",
-          "pubDate": "2026-03-13T07:40:40.000Z",
-          "content": "\n\t<h1>[分享] discord-cli — 把 Discord 聊天记录同步到本地 SQLite ，终端搜索 + AI 总结</h1>\n<h2>项目背景</h2>\n<p>平时泡不少 Discord 社区（ crypto 、开源项目、AI 讨论组），消息量大、翻找困难。Discord 自带搜索不支持正则，也没法离线查看。于是写了 <strong>discord-cli</strong>——一个 local-first 的 Discord 命令行工具：</p>\n<ul>\n<li>把频道消息增量同步到本地 SQLite</li>\n<li>终端里全文检索、统计、导出</li>\n<li>可选接 Claude 做频道摘要 / 分析</li>\n</ul>\n<p>GitHub： <a href=\"https://github.com/jackwener/discord-cli\" rel=\"nofollow\">https://github.com/jackwener/discord-cli</a></p>\n<p>PyPI： <a href=\"https://pypi.org/project/kabi-discord-cli/\" rel=\"nofollow\">https://pypi.org/project/kabi-discord-cli/</a></p>\n<h2>核心功能</h2>\n<h3>1. 一键同步聊天记录</h3>\n<pre><code class=\"language-bash\"># 提取并保存本地 Discord token\ndiscord auth --save\n\n# 发现所有可见文字频道并同步\ndiscord dc sync-all -n 500\n\n# 增量同步（只拉新消息）\ndiscord dc sync-all\n</code></pre>\n<ul>\n<li>自动处理 Discord rate limit （读 <code>retry_after</code> / <code>X-RateLimit-Remaining</code> header ，不会触发封号）</li>\n<li>消息存入 <code>~/Library/Application Support/discord-cli/messages.db</code></li>\n</ul>\n<h3>2. 本地搜索 &amp; 统计</h3>\n<pre><code class=\"language-bash\"># 全文搜索\ndiscord search \"rust\" -c general\n\n# 今天的消息\ndiscord today\n\n# 按小时统计活跃度\ndiscord timeline --by hour\n\n# 谁发言最多\ndiscord top --hours 24\n\n# 各频道消息量\ndiscord stats\n</code></pre>\n<h3>3. 结构化输出，方便脚本 / AI Agent</h3>\n<pre><code class=\"language-bash\"># JSON / YAML 输出\ndiscord search \"release\" --json\ndiscord today -c general --yaml\n\n# 导出为文件\ndiscord export general -f json -o out.json\n</code></pre>\n<ul>\n<li>非 TTY 环境自动输出 YAML</li>\n<li>所有输出遵循统一的 envelope schema</li>\n</ul>\n<h3>4. AI 总结 &amp; 分析（可选）</h3>\n<pre><code class=\"language-bash\"># 安装 AI 依赖\nuv tool install 'kabi-discord-cli[ai]'\nexport ANTHROPIC_API_KEY=...\n\n# 频道 AI 分析\ndiscord analyze general --hours 24\n\n# 全局摘要\ndiscord summary --hours 12\n</code></pre>\n<h2>安装</h2>\n<pre><code class=\"language-bash\"># 推荐\nuv tool install kabi-discord-cli\n\n# 或 pipx\npipx install kabi-discord-cli\n</code></pre>\n<p>Python 3.10+ 即可，依赖很少（ httpx + click + rich + PyYAML ）。</p>\n<h2>典型使用场景</h2>\n<ol>\n<li><strong>信息归档</strong>：把重要 Discord 社区的讨论同步到本地，不怕频道被删或服务器跑路</li>\n<li><strong>快速检索</strong>：在终端快速搜索历史消息，比 Discord 自带搜索灵活</li>\n<li><strong>每日摘要</strong>：用 <code>discord summary</code> 生成 AI 摘要，快速了解今天社区讨论了什么</li>\n<li><strong>数据分析</strong>：<code>timeline</code> / <code>top</code> / <code>stats</code> 了解社区活跃度</li>\n<li><strong>AI Agent 集成</strong>：附带 <a href=\"http://SKILL.md\" rel=\"nofollow\">SKILL.md</a> ，可以被 Claude Code / Antigravity 等 AI agent 直接调用</li>\n</ol>\n<h2>同系列工具</h2>\n<p>这是我做的社交平台 CLI 系列的一部分，同样的 local-first 思路：</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>平台</th>\n<th>GitHub</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>twitter-cli</td>\n<td>Twitter/X</td>\n<td><a href=\"https://github.com/jackwener/twitter-cli\" rel=\"nofollow\">https://github.com/jackwener/twitter-cli</a></td>\n</tr>\n<tr>\n<td>bilibili-cli</td>\n<td>哔哩哔哩</td>\n<td><a href=\"https://github.com/jackwener/bilibili-cli\" rel=\"nofollow\">https://github.com/jackwener/bilibili-cli</a></td>\n</tr>\n<tr>\n<td>xiaohongshu-cli</td>\n<td>小红书</td>\n<td><a href=\"https://github.com/jackwener/xiaohongshu-cli\" rel=\"nofollow\">https://github.com/jackwener/xiaohongshu-cli</a></td>\n</tr>\n<tr>\n<td>tg-cli</td>\n<td>Telegram</td>\n<td><a href=\"https://github.com/jackwener/tg-cli\" rel=\"nofollow\">https://github.com/jackwener/tg-cli</a></td>\n</tr>\n</tbody></table><hr/>\n<p>Apache-2.0 开源，欢迎 Star ⭐ 和反馈 🙏</p>\n<p>有什么想法或者需要支持的功能，欢迎在 <a href=\"https://github.com/jackwener/discord-cli/issues\" rel=\"nofollow\">Issues</a> 里提。</p>\n\n\t",
-          "author": "jakevin",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-14T11:17:43.661Z",
+      "lastUpdated": "2026-03-14T12:30:57.726Z",
       "items": [
         {
           "title": "心似双丝网，中有千千结",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525588",
           "pubDate": "2026-03-13 08:30:29",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "经常变换研究领域也有优势？",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525579",
-          "pubDate": "2026-03-13 07:36:20",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "小猫知暖",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525584",
-          "pubDate": "2026-03-13 08:23:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -869,9 +849,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "无私的光",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
-          "pubDate": "2026-03-14 08:17:45",
+          "title": "偷来梨蕊三分白，借得梅花一缕魂",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525733",
+          "pubDate": "2026-03-14 08:35:19",
           "content": "",
           "author": "",
           "categories": [],
@@ -879,9 +859,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "偷来梨蕊三分白，借得梅花一缕魂",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525733",
-          "pubDate": "2026-03-14 08:35:19",
+          "title": "无私的光",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
+          "pubDate": "2026-03-14 08:17:45",
           "content": "",
           "author": "",
           "categories": [],
@@ -909,6 +889,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "顶级科学家需要的两项技能",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525730",
+          "pubDate": "2026-03-14 07:59:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "2025年 全球 A&amp;HCI 发文 Top10 刊物",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525598",
           "pubDate": "2026-03-13 09:40:40",
@@ -929,9 +919,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "顶级科学家需要的两项技能",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525730",
-          "pubDate": "2026-03-14 07:59:26",
+          "title": "SCIE 中国 论文 2025年 发文概况",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525736",
+          "pubDate": "2026-03-14 09:00:56",
           "content": "",
           "author": "",
           "categories": [],
@@ -989,16 +979,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SCIE 中国 论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525736",
-          "pubDate": "2026-03-14 09:00:56",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "劳动不分年龄，美好不分岁月——致敬最美资深劳动者",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525739",
           "pubDate": "2026-03-14 10:20:42",
@@ -1017,13 +997,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "武汉大学赏早樱",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
+          "pubDate": "2026-03-13 09:00:26",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "临界现象二百年：第九章 液氦的超流：宏观量子现象的临界",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525604",
+          "pubDate": "2026-03-13 10:14:27",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-14T11:17:46.131Z",
+      "lastUpdated": "2026-03-14T12:31:00.387Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1230,7 +1230,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-14T11:17:48.148Z",
+      "lastUpdated": "2026-03-14T12:31:04.343Z",
       "items": [
         {
           "title": "前传的用途 (评论: 青年夏洛克)",
@@ -1438,20 +1438,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-14T11:17:49.295Z",
+      "lastUpdated": "2026-03-14T12:31:05.751Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-14T11:17:49.376Z",
+      "lastUpdated": "2026-03-14T12:31:06.006Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-14T11:17:49.654Z",
+      "lastUpdated": "2026-03-14T12:31:06.340Z",
       "items": [
         {
           "title": "无题",
