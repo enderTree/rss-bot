@@ -1,10 +1,50 @@
 {
-  "lastUpdated": "2026-03-14T12:31:06.345Z",
+  "lastUpdated": "2026-03-14T13:39:37.174Z",
   "totalItems": 143,
   "items": [
     {
+      "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
+      "link": "https://www.v2ex.com/t/1198309#reply1",
+      "pubDate": "2026-03-14T13:36:10.000Z",
+      "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
+      "author": "willxiang",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "丁禹兮的眼里都是故事 (评论: 十年一品温如言)",
+      "link": "https://movie.douban.com/review/17503456/",
+      "pubDate": "Sat, 14 Mar 2026 12:30:49 GMT",
+      "content": "\nmomo评论: 十年一品温如言 (https://movie.douban.com/subject/26710112/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u770b\\u5b8c\\u300a\\u5341\\u5e74\\u4...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "很好看演技太好了 (评论: 十年一品温如言)",
+      "link": "https://movie.douban.com/review/17503445/",
+      "pubDate": "Sat, 14 Mar 2026 12:22:40 GMT",
+      "content": "\n菠萝派评论: 十年一品温如言 (https://movie.douban.com/subject/26710112/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u771f\\u7684\\u559c\\u6b22\\u9...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
+      "pubDate": "2026-03-14 12:14:59",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "Claude 上线了 1m context，为什么我这用不了啊？",
-      "link": "https://www.v2ex.com/t/1198291#reply2",
+      "link": "https://www.v2ex.com/t/1198291#reply5",
       "pubDate": "2026-03-14T10:52:48.000Z",
       "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
       "author": "gefangshuai",
@@ -23,24 +63,24 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "NVIDA 也开始搞数字货币了吗？",
-      "link": "https://www.v2ex.com/t/1198285#reply5",
-      "pubDate": "2026-03-14T10:09:12.000Z",
-      "content": "\n\t<p><a href=\"https://nvidiana.com/\" rel=\"nofollow\">https://nvidiana.com/</a></p>\n\n\t",
-      "author": "albatron",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
-      "link": "https://www.v2ex.com/t/1198282#reply12",
+      "link": "https://www.v2ex.com/t/1198282#reply14",
       "pubDate": "2026-03-14T09:59:41.000Z",
       "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
       "author": "zhanshen1614",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "数理历史之三定律",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
+      "pubDate": "2026-03-14 09:51:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "做了个给 AI Agent 用的排障框架：重点不是接更多工具，而是把排障流程收敛",
@@ -133,8 +173,18 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "杂说蔬菜（3）青菜",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
+      "pubDate": "2026-03-14 07:40:31",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "买 google AI pro 是花钱受气。",
-      "link": "https://www.v2ex.com/t/1198248#reply1",
+      "link": "https://www.v2ex.com/t/1198248#reply2",
       "pubDate": "2026-03-14T06:12:02.000Z",
       "content": "\n\t<p>白嫖的时候，google AI studio 对话 100 万 token,天天用着挺爽。Antigravity 刚出来，用了一下，很惊艳。 后来感觉一般，看它有了 opus 很强，就先充三个月的 AI pro 试试，偶尔用用。2 月份一个 token 都没用。3 月，一次对话就限制一周。也懒得用了，他妈妈的。还是用我的 copilot pro 了。现在 gemini 3 pro 对话像个二逼青年。100 万的额度用了 5 万就限额，傻逼玩意。\n<img alt=\"屏幕截图 2026-03-14 134144.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/14/69b4f9ca6e2d2.webp\"/>\n<img alt=\"屏幕截图 2026-03-14 134200.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/14/69b4f9cace9db.webp\"/>\n<img alt=\"屏幕截图 2026-03-14 134228.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/14/69b4f9cb2a3ad.webp\"/>\n<img alt=\"屏幕截图 2026-03-14 140054.png\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://picui.ogmua.cn/s1/2026/03/14/69b4f9cb75686.webp\"/></p>\n\n\t",
       "author": "handsome198311",
@@ -144,7 +194,7 @@
     },
     {
       "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
-      "link": "https://www.v2ex.com/t/1198247#reply8",
+      "link": "https://www.v2ex.com/t/1198247#reply12",
       "pubDate": "2026-03-14T06:10:10.000Z",
       "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
       "author": "loneranger1024",
@@ -353,18 +403,8 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "这是一部批判资本主义的电影 (评论: 至尊马蒂)",
-      "link": "https://movie.douban.com/review/17502336/",
-      "pubDate": "Fri, 13 Mar 2026 17:06:29 GMT",
-      "content": "\n100℃评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u770b\\u5230\\u8bc4\\u8bba\\u533a\\u5...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "某团队公开了一个支付宝的攻击面",
-      "link": "https://www.v2ex.com/t/1198173#reply19",
+      "link": "https://www.v2ex.com/t/1198173#reply20",
       "pubDate": "2026-03-13T15:24:09.000Z",
       "content": "\n\t<p>刷抖音的时候看到了一个网站：\n<a href=\"https://innora.ai/zfb/\" rel=\"nofollow\">https://innora.ai/zfb/</a> ， 标题是“支付宝 DeepLink 攻击面分析”</p>\n\n\t",
       "author": "defaultVoid",
@@ -394,7 +434,7 @@
     },
     {
       "title": "大厂离职 gap 半年面试备受打击求外企推荐",
-      "link": "https://www.v2ex.com/t/1198163#reply3",
+      "link": "https://www.v2ex.com/t/1198163#reply6",
       "pubDate": "2026-03-13T14:22:26.000Z",
       "content": "\n\t<p>背景：某头部大厂(B)后端开发 5 年+，B 端业务，裸辞 gap 半年，年后陆续开始面试，互联网大中厂面了个遍（ 5 家），都是一面二面挂，甚至连续多次投递过不了简历关，非常焦虑。</p>\n<p>问题：</p>\n<ol>\n<li>想获得面试机会非常需要垂直业务经历匹配，很多岗位直接简历筛选不过。</li>\n<li>基本每场面试都会具体质疑我的裸辞原因，并对我给出的理由（休息了一段时间、部门业务前景不好想换业务获得成长、gap 过程中也在学习 AI 等）均不认可（例如：怎样才能叫获得成长？为什么一定要裸辞呢？ gap 这么久都干啥了？）。仿佛 gap 就该判刑。</li>\n<li>复盘了下面试挂的原因，项目经历确实没有太大的亮点。</li>\n</ol>\n<p>如果后续大厂的机会都没把握住，心理可能会很失衡，但是心里预期只能这样慢慢降低。\n现在也想找些上海深圳的外企（能给得起薪资(快到 P6 的顶)，平薪也行）投递，大家有推荐吗？谢谢。</p>\n\n\t",
       "author": "vamostu",
@@ -424,7 +464,7 @@
     },
     {
       "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-      "link": "https://www.v2ex.com/t/1198139#reply10",
+      "link": "https://www.v2ex.com/t/1198139#reply11",
       "pubDate": "2026-03-13T11:49:06.000Z",
       "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
       "author": "z1s23",
@@ -592,26 +632,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "武汉大学赏早樱",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1432081&do=blog&id=1525594",
-      "pubDate": "2026-03-13 09:00:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "楷体书法",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525592",
-      "pubDate": "2026-03-13 08:57:04",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "开源项目： clawOS 解决 openclaw 文件系统，一键安装",
       "link": "https://www.v2ex.com/t/1198097#reply0",
       "pubDate": "2026-03-13T08:55:57.000Z",
@@ -623,23 +643,13 @@
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply26",
+      "link": "https://www.v2ex.com/t/1198090#reply27",
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "心似双丝网，中有千千结",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525588",
-      "pubDate": "2026-03-13 08:30:29",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "寻找有谷歌商店在架的社交类 app 以及开发者账号，重酬！",
@@ -872,7 +882,7 @@
     },
     {
       "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-      "link": "https://www.v2ex.com/t/1197879#reply67",
+      "link": "https://www.v2ex.com/t/1197879#reply68",
       "pubDate": "2026-03-13T00:29:28.000Z",
       "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
       "author": "mcfever",
@@ -953,16 +963,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "刚追完《生命树》，后劲太大！胡歌演的多杰，含金量还在上升！ (评论: 生命树)",
-      "link": "https://movie.douban.com/review/17500172/",
-      "pubDate": "Thu, 12 Mar 2026 07:16:28 GMT",
-      "content": "\nGrace.Zhang评论: 生命树 (https://movie.douban.com/subject/35424715/)\n评价: \n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img2.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "ffmpeg-over-ip – 远程 FFmpeg，异地处理视频。但是有用吗？",
@@ -1200,7 +1200,7 @@
     },
     {
       "title": "AI 中转站黑话大全整理，带你一次性了解中转站逻辑，别用中转站，用的不明不白",
-      "link": "https://www.v2ex.com/t/1196011#reply165",
+      "link": "https://www.v2ex.com/t/1196011#reply166",
       "pubDate": "2026-03-05T04:33:26.000Z",
       "content": "\n\t<ul>\n<li>我做的站主要在 v 友之间推广，目前日充值流水达 2000 以上了，感谢 v 友的支持，我们一起做大做强，向上游大号池压价，为各位 v 友提供质优价廉的 token</li>\n</ul>\n<blockquote>\n<p><strong>安全警示：</strong> 在使用任何中转服务前，请务必在客户端保护好私钥、密码等关键信息。建议采取 <code>ignore</code> 配置文件等手段，避免敏感数据被 AI 读取并提交到中转服务器。</p>\n</blockquote>\n<hr/>\n<h2>一、 什么是 AI 中转？</h2>\n<p>中转站是通过技术手段打破海外地理与支付封锁（如信用卡限制、IP 封禁）的中间服务商。其核心目的是让国内用户能够便捷地调用 <strong>Codex / Claude / Gemini</strong> 等世界一流模型的 API 。</p>\n<h3>🔗 供应链条 (CCMAX)</h3>\n<ol>\n<li><strong>上游：</strong> 卡商 / 号商（提供虚拟信用卡、批量注册账号）。</li>\n<li><strong>中游：</strong> 号池（大号池/小号池） → 中转站（大中转/小中转）。</li>\n<li><strong>下游：</strong> C 端最终用户。\n<em>注：逆向渠道链条相似，通常为：号贩子 → 中转 → 客户。</em></li>\n</ol>\n<hr/>\n<h2>二、 产业链盈利逻辑</h2>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>盈利方式</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>卡商 / 号商</strong></td>\n<td>赚取虚拟卡（ U 卡）手续费，或通过批量注册账号获利。</td>\n<td>行业的基础设施。</td>\n</tr>\n<tr>\n<td><strong>号池</strong></td>\n<td>利用 API 平台的退款政策（如 Anthropic 退款）获取低价额度。</td>\n<td>退款政策收紧会导致中转价格波动。</td>\n</tr>\n<tr>\n<td><strong>中转站</strong></td>\n<td>整合客户需求向上游压价，赚取中间差额。</td>\n<td>核心竞争力在于积累客户规模。</td>\n</tr>\n</tbody></table><hr/>\n<h2>三、 中转价格与“黑话”解析</h2>\n<h3>1. 充值汇率与“刀”</h3>\n<ul>\n<li><strong>行业黑话：</strong> “跑了多少刀”中的“刀”，通常指<strong>人民币充值转换后的虚拟美刀</strong>，并非按中国人民银行实时汇率兑换的真实美刀。</li>\n<li><strong>计价逻辑：</strong> 通常遵循 <strong>1 元人民币 = 1 美刀</strong> 的比例，并伴有优惠（例如 0.8 元 = 1 美刀）。</li>\n</ul>\n<h3>2. Token 计费公式</h3>\n<p>最终的扣费通常受以下逻辑驱动：</p>\n<ol>\n<li><strong>官方定价：</strong> 参照 OpenAI / Anthropic 官方公布的单位 Token 价格。</li>\n<li><strong>渠道倍率：</strong> 中转站根据成本设定不同的倍率。</li>\n</ol>\n<blockquote>\n<p><strong>案例分析：</strong>\n如果你使用 <strong>1 元人民币</strong> 充值了 <strong>1 美刀</strong> 额度，而该中转站的逆向渠道倍率为 <strong>0.3 倍</strong>：\n实际上你只需花费 <strong>0.3 元人民币</strong>，即可购买到官方价值 <strong>1 美金</strong> 的 Token 用量。</p>\n</blockquote>\n<hr/>\n<h2>四、 防护建议</h2>\n<p>为了防止重要私钥和密码被 AI 读取并提交，建议：</p>\n<ul>\n<li><strong>配置忽略文件：</strong> 在 <code>gemini cli</code>、<code>codex cli</code> 或 <code>claude code</code> 等终端工具中设置过滤规则。</li>\n<li><strong>利用 AI 配置：</strong> 可以直接要求 AI 助手帮你写好针对特定客户端的敏感路径屏蔽配置。</li>\n</ul>\n\n\t",
       "author": "v2exgo",
