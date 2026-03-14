@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-14T18:26:01.415Z",
+  "lastUpdated": "2026-03-14T19:20:50.358Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-14T18:25:49.126Z",
+      "lastUpdated": "2026-03-14T19:20:38.693Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-14T18:25:50.083Z",
+      "lastUpdated": "2026-03-14T19:20:39.627Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-14T18:25:50.183Z",
+      "lastUpdated": "2026-03-14T19:20:39.772Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-14T18:25:51.819Z",
+      "lastUpdated": "2026-03-14T19:20:41.485Z",
       "items": [
         {
           "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
@@ -309,11 +309,21 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-14T18:25:52.029Z",
+      "lastUpdated": "2026-03-14T19:20:41.770Z",
       "items": [
         {
+          "title": "独立开发收款方案",
+          "link": "https://www.v2ex.com/t/1198323#reply12",
+          "pubDate": "2026-03-14T14:46:35.000Z",
+          "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
+          "author": "trumpmaga",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-          "link": "https://www.v2ex.com/t/1198345#reply0",
+          "link": "https://www.v2ex.com/t/1198345#reply2",
           "pubDate": "2026-03-14T18:24:10.000Z",
           "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
           "author": "seeksky",
@@ -347,16 +357,6 @@
           "pubDate": "2026-03-13T07:15:35.000Z",
           "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
           "author": "Chicagoake",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "独立开发收款方案",
-          "link": "https://www.v2ex.com/t/1198323#reply10",
-          "pubDate": "2026-03-14T14:46:35.000Z",
-          "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
-          "author": "trumpmaga",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -816,7 +816,7 @@
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-14T18:25:54.422Z",
+      "lastUpdated": "2026-03-14T19:20:44.030Z",
       "items": [
         {
           "title": "偷来梨蕊三分白，借得梅花一缕魂",
@@ -1023,7 +1023,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-14T18:25:57.448Z",
+      "lastUpdated": "2026-03-14T19:20:46.351Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1230,7 +1230,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-14T18:25:59.357Z",
+      "lastUpdated": "2026-03-14T19:20:48.342Z",
       "items": [
         {
           "title": "很好看演技太好了 (评论: 十年一品温如言)",
@@ -1438,20 +1438,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-14T18:26:00.706Z",
+      "lastUpdated": "2026-03-14T19:20:49.408Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-14T18:26:00.874Z",
+      "lastUpdated": "2026-03-14T19:20:49.633Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-14T18:26:01.415Z",
+      "lastUpdated": "2026-03-14T19:20:50.358Z",
       "items": [
         {
           "title": "无题",

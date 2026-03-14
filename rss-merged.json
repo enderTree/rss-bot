@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-14T18:26:01.419Z",
+  "lastUpdated": "2026-03-14T19:20:50.361Z",
   "totalItems": 143,
   "items": [
     {
       "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-      "link": "https://www.v2ex.com/t/1198345#reply0",
+      "link": "https://www.v2ex.com/t/1198345#reply2",
       "pubDate": "2026-03-14T18:24:10.000Z",
       "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
       "author": "seeksky",
@@ -24,7 +24,7 @@
     },
     {
       "title": "独立开发收款方案",
-      "link": "https://www.v2ex.com/t/1198323#reply10",
+      "link": "https://www.v2ex.com/t/1198323#reply12",
       "pubDate": "2026-03-14T14:46:35.000Z",
       "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
       "author": "trumpmaga",
