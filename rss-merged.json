@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-03-14T13:39:37.174Z",
+  "lastUpdated": "2026-03-14T14:20:48.513Z",
   "totalItems": 143,
   "items": [
     {
+      "title": "手搓了最喜欢的 Android 软件， GestureExplode",
+      "link": "https://www.v2ex.com/t/1198317#reply0",
+      "pubDate": "2026-03-14T14:13:50.000Z",
+      "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
+      "author": "colorbeta",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "目前购买 Claude 官方 key 有哪个渠道可靠又省事？",
+      "link": "https://www.v2ex.com/t/1198311#reply0",
+      "pubDate": "2026-03-14T13:39:42.000Z",
+      "content": "\n\t工作中需要不能转接，求求了\n\t",
+      "author": "shyrock",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
-      "link": "https://www.v2ex.com/t/1198309#reply1",
+      "link": "https://www.v2ex.com/t/1198309#reply6",
       "pubDate": "2026-03-14T13:36:10.000Z",
       "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
       "author": "willxiang",
@@ -33,9 +53,19 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
-      "pubDate": "2026-03-14 12:14:59",
+      "title": "科学史中的教训：第十四章 溃疡的细菌：马歇尔的自我感染与医学的傲慢",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525748",
+      "pubDate": "2026-03-14 11:41:42",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
+      "pubDate": "2026-03-14 11:23:12",
       "content": "",
       "author": "",
       "categories": [],
@@ -44,7 +74,7 @@
     },
     {
       "title": "Claude 上线了 1m context，为什么我这用不了啊？",
-      "link": "https://www.v2ex.com/t/1198291#reply5",
+      "link": "https://www.v2ex.com/t/1198291#reply7",
       "pubDate": "2026-03-14T10:52:48.000Z",
       "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
       "author": "gefangshuai",
@@ -64,7 +94,7 @@
     },
     {
       "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
-      "link": "https://www.v2ex.com/t/1198282#reply14",
+      "link": "https://www.v2ex.com/t/1198282#reply15",
       "pubDate": "2026-03-14T09:59:41.000Z",
       "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
       "author": "zhanshen1614",
@@ -183,6 +213,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "爱因斯坦的主要科学成就和意义及深入认识",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1525726",
+      "pubDate": "2026-03-14 07:33:55",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "买 google AI pro 是花钱受气。",
       "link": "https://www.v2ex.com/t/1198248#reply2",
       "pubDate": "2026-03-14T06:12:02.000Z",
@@ -194,7 +234,7 @@
     },
     {
       "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
-      "link": "https://www.v2ex.com/t/1198247#reply12",
+      "link": "https://www.v2ex.com/t/1198247#reply19",
       "pubDate": "2026-03-14T06:10:10.000Z",
       "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
       "author": "loneranger1024",
@@ -214,7 +254,7 @@
     },
     {
       "title": "求教哪里能买到廉价而保真的 claude api",
-      "link": "https://www.v2ex.com/t/1198239#reply30",
+      "link": "https://www.v2ex.com/t/1198239#reply31",
       "pubDate": "2026-03-14T05:19:43.000Z",
       "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
       "author": "werwer",
@@ -582,16 +622,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "地质学爱好者的咏石散文诗",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525601",
-      "pubDate": "2026-03-13 09:54:33",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "antigravity 5h 刷新改回来了",
       "link": "https://www.v2ex.com/t/1198112#reply19",
       "pubDate": "2026-03-13T09:52:42.000Z",
@@ -610,16 +640,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "2025年 全球 A&amp;HCI 发文 Top10 刊物",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525598",
-      "pubDate": "2026-03-13 09:40:40",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "HarmonyOS.skills",
@@ -647,16 +667,6 @@
       "pubDate": "2026-03-13T08:36:25.000Z",
       "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
       "author": "LaTero",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "寻找有谷歌商店在架的社交类 app 以及开发者账号，重酬！",
-      "link": "https://www.v2ex.com/t/1198086#reply0",
-      "pubDate": "2026-03-13T08:18:35.000Z",
-      "content": "\n\t如题，寻找有谷歌商店在架的社交类 app 以及开发者账号，重酬！，有需要出售的可以联系我！\n\t",
-      "author": "gdouhhq",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -796,16 +806,6 @@
       "pubDate": "2026-03-13T04:30:19.000Z",
       "content": "\n\t<p>大家好，想请教一下大家都是怎么搭建个人知识库的。我这边有不少本地文件（主要是论文）。虽然现在像 Perplexity 这样的 AI 工具有很强的搜索能力，但我还是希望能搭建一个既能自定义联网资源，又能利用本地数据的知识库。目前在用 Notion ，不过每次都要手动粘贴内容挺麻烦的。像 NotebookLM 这种工具对上传文件数量有限制，所以暂时不考虑。我刚买了一台 512G 的 mini ，更倾向于搭建本地知识库。</p>\n\n\t",
       "author": "elliszkn",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "[开源] OpenLegs：给那些觉得小龙虾“两只钳子”不够用的朋友们准备了 88 条腿",
-      "link": "https://www.v2ex.com/t/1197981#reply5",
-      "pubDate": "2026-03-13T03:49:59.000Z",
-      "content": "\n\t<p>最近看全网都在给各种 AI Agent 疯狂打 Call ，尤其是那只小龙虾（ OpenClaw ）。</p>\n<p>于是，我写了个 <strong>OpenLegs</strong> (小蜈蚣)，没什么生产力，主打一个好玩。</p>\n<p><strong>这个小东西是怎么运作的：</strong></p>\n<ul>\n<li><strong>真·随机大脑</strong>：它没有集成什么大模型，里面跑的就是纯随机数。既然很多人分不清 AI 幻觉和真实逻辑，那我觉得随机数反而更诚实——它至少不骗你它懂。</li>\n<li><strong>只跑路，不接管</strong>：小龙虾想要你的控制权，小蜈蚣只想带你跑路。它没有任何系统权限需求，因为我的 88 条腿觉得把钥匙交给一个刚出生的脚本，真的不稳。</li>\n<li><strong>专门治愈“Agent 焦虑”</strong>：很多人觉得 Agent 动起来世界就美好了，但说实话，自动化地产生废话，只会让信息垃圾堆得更快。</li>\n</ul>\n<p>这项目没什么大志向，就是想给这股 AI 狂热火上浇油。与其说它是个工具，不如说它是个<strong>智商提醒插件</strong>。</p>\n\n\t",
-      "author": "kaliawngV2",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
