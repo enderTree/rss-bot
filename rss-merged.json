@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-15T15:20:47.966Z",
+  "lastUpdated": "2026-03-15T16:22:29.191Z",
   "totalItems": 133,
   "items": [
     {
       "title": "很奇怪和诡异的一个传统 UDP 53 的 DNS 调度解析 和 HTTPDNS 的调度解析域名的问题？",
-      "link": "https://www.v2ex.com/t/1198463#reply0",
+      "link": "https://www.v2ex.com/t/1198463#reply2",
       "pubDate": "2026-03-15T14:42:50.000Z",
       "content": "\n\t比如某一个域名 或 某一个 HTTPDNS 或 HTTPSDNS 域名解析或者说映射了多个 IP 地址，这些多个 IP 地址可能是不同省份同一个运营商 或 不同省份的不同运营商 或 同一个省份的不同运营商，那么假设用户 A 在 A 省使用 传统 UDP 53 的的 A 省运营商 DNS 或 第三方公共 DNS 去调度解析某一个域名，有时候明明有 A 省的 IP ，但实际调度解析后返回的解决确实 B 省同一个运营商，更有甚者或者极端情况下 A 生用户可能会获取返回的是 B 省的 B 运营商的 IP 。<br /><br />HTTPDNS 的调度也有上述类似的问题，请问这是为什么？难道仍是归咎于调度细粒度不精准 或 不完整支持 ECS 造成的嘛？\n\t",
       "author": "bclerdx",
@@ -124,7 +124,7 @@
     },
     {
       "title": "我咋感觉 1m 上下文的 opus 4.6 比 200k 上下文的 opus 4.6 要笨一点",
-      "link": "https://www.v2ex.com/t/1198422#reply6",
+      "link": "https://www.v2ex.com/t/1198422#reply7",
       "pubDate": "2026-03-15T09:19:42.000Z",
       "content": "\n\t<p>试用了一下 1m 上下文的 opus 4.6 ，写个计划改了两三次，但之前用 200k 的 opus 4.6 基本是一次过。</p>\n<p>是我的错觉吗？</p>\n\n\t",
       "author": "milkleeeeee",
@@ -134,7 +134,7 @@
     },
     {
       "title": "你认为的最强编程 AI 工具？",
-      "link": "https://www.v2ex.com/t/1198412#reply31",
+      "link": "https://www.v2ex.com/t/1198412#reply34",
       "pubDate": "2026-03-15T08:37:18.000Z",
       "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
       "author": "junwind",
@@ -214,7 +214,7 @@
     },
     {
       "title": "现在购买 ssl 证书最具性价比的方案是什么？",
-      "link": "https://www.v2ex.com/t/1198387#reply18",
+      "link": "https://www.v2ex.com/t/1198387#reply20",
       "pubDate": "2026-03-15T06:18:12.000Z",
       "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
       "author": "uni",
@@ -273,22 +273,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
-      "link": "https://www.appinn.com/win11debloat/",
-      "pubDate": "Sun, 15 Mar 2026 03:29:05 +0000",
-      "content": "Win11Debloat&#160;是一款可以一键卸载 90+ 款 Windows 预装软件的小工具，除了节省空间，还能带来巨大的性能提升。 怎么说呢，虽然不确定微软欠我的性能还得了不，但一下子删掉90款没啥用的软件，还是非常舒服的。 这次大版本更新，终于有了用户界面，看起来像一个正经软件啦。 这是 ",
-      "author": "",
-      "categories": [
-        "Windows",
-        "卸载",
-        "微软",
-        "性能",
-        "预装"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
       "title": "校园春色",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=829&do=blog&id=1525843",
       "pubDate": "2026-03-15 03:06:32",
@@ -340,7 +324,7 @@
     },
     {
       "title": "随机播放到艾薇儿和后街男孩的歌曲，突然发现上一次听还是 10 多年前读初高中的时候了",
-      "link": "https://www.v2ex.com/t/1198355#reply10",
+      "link": "https://www.v2ex.com/t/1198355#reply12",
       "pubDate": "2026-03-15T00:45:26.000Z",
       "content": "\n\t<p>突然有点唏嘘，当时听他们的音乐还是用的好记星学习机，由于家离学校比较远，所以平时是住读，周五回家和周末归校的时候，就喜欢用学习机听他们的音乐，岁月不饶人啊。</p>\n\n\t",
       "author": "zzz22333",
@@ -459,29 +443,9 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
-      "pubDate": "2026-03-14 12:14:59",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "科学史中的教训：第十四章 溃疡的细菌：马歇尔的自我感染与医学的傲慢",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525748",
-      "pubDate": "2026-03-14 11:41:42",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
-      "pubDate": "2026-03-14 11:23:12",
+      "title": "喧嚣与静默：在克拉克图书馆重新审视学术检索的未来",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3316383&do=blog&id=1525789",
+      "pubDate": "2026-03-14 11:13:31",
       "content": "",
       "author": "",
       "categories": [],
@@ -559,6 +523,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "Kimi综述：临界之舞：当科学遇见生命的持续态",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525781",
+      "pubDate": "2026-03-14 08:47:49",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
       "link": "https://www.v2ex.com/t/1198268#reply14",
       "pubDate": "2026-03-14T08:28:04.000Z",
@@ -597,6 +571,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Kimi观点：活性算法带给这个世界的变化，将比过去所有的科学还要多",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525771",
+      "pubDate": "2026-03-14 05:49:24",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "刚才，我可能见证了一个伟大的时刻",
@@ -670,7 +654,7 @@
     },
     {
       "title": "大家公司怎么使用 ai 的?",
-      "link": "https://www.v2ex.com/t/1198216#reply9",
+      "link": "https://www.v2ex.com/t/1198216#reply10",
       "pubDate": "2026-03-14T02:28:04.000Z",
       "content": "\n\t<ul>\n<li>在哪些场景，怎么使用的？</li>\n<li>不仅仅是编程，据了解编程领域是 ai 提效最高的。</li>\n</ul>\n\n\t",
       "author": "siaronwang",
@@ -687,6 +671,16 @@
       "categories": [],
       "source": "科学网博客",
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "增强的语音识别下载失败求助",
+      "link": "https://www.v2ex.com/t/1198200#reply1",
+      "pubDate": "2026-03-14T00:06:35.000Z",
+      "content": "\n\t增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！\n\t",
+      "author": "dangotown",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "Delahaye评《摩登青年》 （机翻） (评论: 摩登青年)",
@@ -729,6 +723,26 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "请问 V 友们工作上一些项目中敏感信息存哪",
+      "link": "https://www.v2ex.com/t/1198153#reply12",
+      "pubDate": "2026-03-13T13:18:25.000Z",
+      "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
+      "author": "zonas",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
+      "link": "https://www.v2ex.com/t/1198139#reply11",
+      "pubDate": "2026-03-13T11:49:06.000Z",
+      "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
+      "author": "z1s23",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
       "link": "https://movie.douban.com/review/17501873/",
       "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
@@ -749,23 +763,14 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理",
-      "link": "https://www.appinn.com/updf-263/",
-      "pubDate": "Fri, 13 Mar 2026 10:17:55 +0000",
-      "content": "最近在 AI 圈里被频繁讨论的一个项目是 OpenClaw。 它属于一类正在兴起的 AI Agent 工具：用户只需要给出指令，AI 就可以自动完成一系列操作，比如控制电脑、整理文件、执行任务流程等。和过去只能对话的 AI 不同，这类工具正在让 AI 从“回答问题”，变成 真正替用户做事。 不过在  ",
-      "author": "",
-      "categories": [
-        "Windows",
-        "Android",
-        "iOS",
-        "iPad",
-        "iPhone",
-        "macOS",
-        "PDF",
-        "UPDF"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
+      "title": "为什么 iPhone 上看抖音， macbook dock 上会弹出来 chrome 图标，点开是抖音？",
+      "link": "https://www.v2ex.com/t/1198118#reply6",
+      "pubDate": "2026-03-13T10:12:19.000Z",
+      "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TULQznT.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/RTduICW.png\"/> </p>\n<p>这是什么黑科技啊？</p>\n\n\t",
+      "author": "14night",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "antigravity 5h 刷新改回来了",
@@ -783,6 +788,16 @@
       "pubDate": "2026-03-13T09:48:07.000Z",
       "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
       "author": "gefangshuai",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "安卓假如放弃 root 的话，建议买哪家？",
+      "link": "https://www.v2ex.com/t/1198090#reply28",
+      "pubDate": "2026-03-13T08:36:25.000Z",
+      "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
+      "author": "LaTero",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -808,21 +823,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "Microsoft Authenticator 将逐步锁定 root / 越狱设备：最终删除企业/学校账号数据",
-      "link": "https://www.appinn.com/microsoft-authenticator-block-root-jailbreak/",
-      "pubDate": "Fri, 13 Mar 2026 07:11:21 +0000",
-      "content": "更新：这项限制 只针对组织账号（企业 / 学校账号），而不是所有 Microsoft Authenticator 用户。 来自 windowslatest 的消息，Microsoft Authenticator 将在 2026 年逐步阻止 root 的 Android 和越狱的 iOS 设备使用，并 ",
-      "author": "",
-      "categories": [
-        "业界消息",
-        "Microsoft Authenticator",
-        "二次验证",
-        "微软"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
       "title": "为什么放弃了 RAG？ RAG 的六大难题",
       "link": "https://www.v2ex.com/t/1198028#reply57",
       "pubDate": "2026-03-13T06:17:03.000Z",
@@ -833,18 +833,24 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "本周赛博领鸡蛋[3.13~3.19]",
-      "link": "https://www.appinn.com/eggs-313/",
-      "pubDate": "Fri, 13 Mar 2026 05:04:26 +0000",
-      "content": "本周赛博领鸡蛋，Epic 带来两款桌面游戏《Cozy Grove》、《Isonzo》，与一款手机游戏：《Wonder Boy: The Dragon’s Trap》。 本周 Epic 限免已经上线，可以直接通过网页领取，无需安装客户端。 《Cozy Grove》 一款治愈系生活模拟冒险游戏，玩家将扮 ",
-      "author": "",
-      "categories": [
-        "游戏",
-        "Epic",
-        "赛博领鸡蛋"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
+      "title": "关于知识库搭建",
+      "link": "https://www.v2ex.com/t/1197992#reply16",
+      "pubDate": "2026-03-13T04:30:19.000Z",
+      "content": "\n\t<p>大家好，想请教一下大家都是怎么搭建个人知识库的。我这边有不少本地文件（主要是论文）。虽然现在像 Perplexity 这样的 AI 工具有很强的搜索能力，但我还是希望能搭建一个既能自定义联网资源，又能利用本地数据的知识库。目前在用 Notion ，不过每次都要手动粘贴内容挺麻烦的。像 NotebookLM 这种工具对上传文件数量有限制，所以暂时不考虑。我刚买了一台 512G 的 mini ，更倾向于搭建本地知识库。</p>\n\n\t",
+      "author": "elliszkn",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "[开源] OpenLegs：给那些觉得小龙虾“两只钳子”不够用的朋友们准备了 88 条腿",
+      "link": "https://www.v2ex.com/t/1197981#reply6",
+      "pubDate": "2026-03-13T03:49:59.000Z",
+      "content": "\n\t<p>最近看全网都在给各种 AI Agent 疯狂打 Call ，尤其是那只小龙虾（ OpenClaw ）。</p>\n<p>于是，我写了个 <strong>OpenLegs</strong> (小蜈蚣)，没什么生产力，主打一个好玩。</p>\n<p><strong>这个小东西是怎么运作的：</strong></p>\n<ul>\n<li><strong>真·随机大脑</strong>：它没有集成什么大模型，里面跑的就是纯随机数。既然很多人分不清 AI 幻觉和真实逻辑，那我觉得随机数反而更诚实——它至少不骗你它懂。</li>\n<li><strong>只跑路，不接管</strong>：小龙虾想要你的控制权，小蜈蚣只想带你跑路。它没有任何系统权限需求，因为我的 88 条腿觉得把钥匙交给一个刚出生的脚本，真的不稳。</li>\n<li><strong>专门治愈“Agent 焦虑”</strong>：很多人觉得 Agent 动起来世界就美好了，但说实话，自动化地产生废话，只会让信息垃圾堆得更快。</li>\n</ul>\n<p>这项目没什么大志向，就是想给这股 AI 狂热火上浇油。与其说它是个工具，不如说它是个<strong>智商提醒插件</strong>。</p>\n\n\t",
+      "author": "kaliawngV2",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "Anthropic 家的模型训练与其他家差别大吗？",
@@ -852,6 +858,26 @@
       "pubDate": "2026-03-13T03:27:44.000Z",
       "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
       "author": "Kinnikuman",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
+      "link": "https://www.v2ex.com/t/1197941#reply14",
+      "pubDate": "2026-03-13T02:30:51.000Z",
+      "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
+      "author": "pc10201",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
+      "link": "https://www.v2ex.com/t/1197879#reply69",
+      "pubDate": "2026-03-13T00:29:28.000Z",
+      "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
+      "author": "mcfever",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -907,35 +933,6 @@
       "sourceUrl": "http://www.ruanyifeng.com/blog/atom.xml"
     },
     {
-      "title": "1TB 免费 S3 存储空间：来自 Hi168",
-      "link": "https://www.appinn.com/1tb-free-s3-hi168/",
-      "pubDate": "Thu, 12 Mar 2026 07:45:36 +0000",
-      "content": "最近在寻找存储空间，3天前找到了 100GB 的免费 WebDAV 空间，今天又看到了 1TB 的免费 S3 存储空间，试用了一下，还行。@Appinn Simple Storage Service S3 是由亚马逊提供的对象存储服务，全称 Amazon S3 (Simple Storage Ser ",
-      "author": "",
-      "categories": [
-        "业界消息",
-        "s3",
-        "免费资源"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "ffmpeg-over-ip – 远程 FFmpeg，异地处理视频。但是有用吗？",
-      "link": "https://www.appinn.com/ffmpeg-over-ip/",
-      "pubDate": "Thu, 12 Mar 2026 07:04:35 +0000",
-      "content": "ffmpeg-over-ip 是一款支持 Win/mac/Linux 的开源项目，它的作用是：把 ffmpeg 变成远程工具。即：你在任何地方使用 ffmpeg 处理视频，实际上工作的是远程高性能电脑上的 ffmpeg。 这个工具的用途&#8230;不太明朗。 青小蛙能想到的，就是局域网中有一台高性 ",
-      "author": "",
-      "categories": [
-        "Windows",
-        "linux",
-        "macOS",
-        "FFmpeg"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
       "title": "十年后，我终于读懂了那棵“提心吊胆的稗子” (评论: 月光落在左手上)",
       "link": "https://book.douban.com/review/17500134/",
       "pubDate": "Thu, 12 Mar 2026 06:30:52 GMT",
@@ -944,20 +941,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "国家互联网应急中心：OpenClaw 风险提示",
-      "link": "https://www.appinn.com/openclaw-security-risk-alert-cnnic/",
-      "pubDate": "Thu, 12 Mar 2026 06:13:51 +0000",
-      "content": "国家互联网应急中心在两日前（2026年3月10日）发布《关于OpenClaw安全应用的风险提示》，主要有以下几个问题： 另外，根据彭博社的消息： 据知情人士透露，政府机构和国有企业，包括最大的银行，最近几天收到通知，警告他们出于安全原因不要在办公设备上安装 OpenClaw 软件。一些要求匿名讨论私 ",
-      "author": "",
-      "categories": [
-        "业界消息",
-        "OpenClaw",
-        "风险"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
       "title": "漫画，我们要出就出最搞笑的 (评论: DOGSRED冰上疯犬 2)",
@@ -970,19 +953,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "不用新买 Mac mini，在 MacBook Pro 中用 PD 虚拟机部署 OpenClaw",
-      "link": "https://www.appinn.com/deploy-openclaw-parallels-macbook/",
-      "pubDate": "Thu, 12 Mar 2026 04:24:27 +0000",
-      "content": "针对 Mac 用户，最好的 OpenClaw 安装方式，还是 Mac mini。但如果没有 Mac mini，也不用着急购买，可以直接在 Mac 中虚拟一个新的 macOS 系统，就能安装了。 推荐的 OpenClaw 安装方式 单独的硬件 现有的硬件 小主机推荐贴：https://meta.app ",
-      "author": "",
-      "categories": [
-        "macOS",
-        "OpenClaw"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
       "title": "坂本龙一和1980年代 (评论: 音乐机械论)",
       "link": "https://book.douban.com/review/17499841/",
       "pubDate": "Thu, 12 Mar 2026 01:18:19 GMT",
@@ -993,34 +963,14 @@
       "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
-      "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
-      "link": "https://www.appinn.com/unzip-fast-ios-free/",
-      "pubDate": "Wed, 11 Mar 2026 16:35:44 +0000",
-      "content": "限免的 iOS 解压缩工具 Unzip Fast，支持 RAR/7z。",
-      "author": "",
-      "categories": [
-        "iPhone",
-        "iOS",
-        "iPad",
-        "7z",
-        "RAR",
-        "解压缩"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "飞书上线云 OpenClaw，一步创建完成。限免到月底，每日10万个",
-      "link": "https://www.appinn.com/feishu-openclaw/",
-      "pubDate": "Wed, 11 Mar 2026 08:29:55 +0000",
-      "content": "飞书上线了云 OpenClaw 服务器，限免到月底，并且有每日免费 100 万 Tokens 额度，可自行更换大模型。 如果你在担心不会搭建 OpenClaw 这件事，或者担忧 OpenClaw 权限太高泄漏隐私的问题，那么可以试试 云 OpenClaw。 是的，搭建在云上的 OpenClaw。 活 ",
-      "author": "",
-      "categories": [
-        "AI",
-        "OpenClaw"
-      ],
-      "source": "小众软件",
-      "sourceUrl": "https://feeds.appinn.com/appinns/"
+      "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
+      "link": "https://www.v2ex.com/t/1197595#reply66",
+      "pubDate": "2026-03-12T00:55:22.000Z",
+      "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
+      "author": "mrsbryant",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "“在混沌岁月，贝壳常常引领我们发现真理” (评论: 影响人类文明的13种贝壳)",
