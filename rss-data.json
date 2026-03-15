@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-15T10:21:16.778Z",
+  "lastUpdated": "2026-03-15T11:19:06.021Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-15T10:21:06.307Z",
+      "lastUpdated": "2026-03-15T11:18:52.222Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-15T10:21:07.083Z",
+      "lastUpdated": "2026-03-15T11:18:53.221Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-15T10:21:07.160Z",
+      "lastUpdated": "2026-03-15T11:18:53.362Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-15T10:21:08.898Z",
+      "lastUpdated": "2026-03-15T11:18:55.269Z",
       "items": [
         {
           "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
@@ -313,31 +313,11 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-15T10:21:08.961Z",
+      "lastUpdated": "2026-03-15T11:18:55.428Z",
       "items": [
         {
-          "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
-          "link": "https://www.v2ex.com/t/1198393#reply11",
-          "pubDate": "2026-03-15T06:42:20.000Z",
-          "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
-          "author": "Chippy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有什么网站提供人工智能学习且能够有老师答疑的",
-          "link": "https://www.v2ex.com/t/1198381#reply14",
-          "pubDate": "2026-03-15T05:36:30.000Z",
-          "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
-          "author": "hiboshi",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "你认为的最强编程 AI 工具？",
-          "link": "https://www.v2ex.com/t/1198412#reply6",
+          "link": "https://www.v2ex.com/t/1198412#reply9",
           "pubDate": "2026-03-15T08:37:18.000Z",
           "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
           "author": "junwind",
@@ -346,8 +326,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
+          "link": "https://www.v2ex.com/t/1198393#reply14",
+          "pubDate": "2026-03-15T06:42:20.000Z",
+          "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
+          "author": "Chippy",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "nas 备份了照片，手机上直接删除吗",
-          "link": "https://www.v2ex.com/t/1198378#reply19",
+          "link": "https://www.v2ex.com/t/1198378#reply21",
           "pubDate": "2026-03-15T04:34:37.000Z",
           "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
           "author": "miusmile",
@@ -356,21 +346,41 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "廉价家宽 IP 推荐",
-          "link": "https://www.v2ex.com/t/1198391#reply5",
-          "pubDate": "2026-03-15T06:33:02.000Z",
-          "content": "\n\t直播用, 亚洲国家\n\t",
-          "author": "Hermitist",
+          "title": "使用 OpenClaw+Skill 自动发布微信公众号文章",
+          "link": "https://www.v2ex.com/t/1198431#reply0",
+          "pubDate": "2026-03-15T10:51:54.000Z",
+          "content": "\n\t<h2>一、OpenClaw 介绍</h2>\n<p><strong>OpenClaw</strong> 是一款‌<strong>本地优先、可自托管</strong>的 AI 自动化代理工具‌，可以运行在你自己的电脑上，通过各种聊天工具（飞书、QQ 、Telegram 等）与你对话，帮你完成各种任务。</p>\n<h3>1.1 什么是 OpenClaw ？</h3>\n<p>你可以把它理解为：一个<strong>本地运行的 AI 助手</strong>，它能够：</p>\n<ul>\n<li>帮你回复消息</li>\n<li>搜索信息</li>\n<li>写文章、发公众号</li>\n<li>操作浏览器</li>\n<li>管理文件</li>\n<li>定时执行任务</li>\n</ul>\n<h3>1.2 核心特点</h3>\n<table>\n<thead>\n<tr>\n<th>特点</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>🏠 本地运行</td>\n<td>数据存在自己电脑，安全可控</td>\n</tr>\n<tr>\n<td>📱 多渠道</td>\n<td>支持微信、Telegram 、Discord 等 20+ 平台</td>\n</tr>\n<tr>\n<td>🤖 AI 驱动</td>\n<td>调用大模型帮你思考和执行</td>\n</tr>\n<tr>\n<td>🛠️ 可扩展</td>\n<td>通过 Skill 无限扩展能力</td>\n</tr>\n<tr>\n<td>🔔 主动提醒</td>\n<td>支持定时任务、心跳检查</td>\n</tr>\n</tbody></table><h3>1.3 谁在用 OpenClaw ？</h3>\n<ul>\n<li>个人用户：作为私人 AI 助手</li>\n<li>开发者：作为编程辅助工具</li>\n<li>企业：作为客服、自动化流程</li>\n</ul>\n<blockquote>\n<p>官网： <a href=\"https://openclaw.ai\" rel=\"nofollow\">https://openclaw.ai</a><br/>\nGitHub： <a href=\"https://github.com/openclaw/openclaw\" rel=\"nofollow\">https://github.com/openclaw/openclaw</a>  (300K+ ⭐)</p>\n</blockquote>\n<hr/>\n<h2>二、Agent Skill 介绍</h2>\n<p><strong>Agent Skill</strong> 是一种可复用、模块化的执行单元，用于定义 AI Agent 如何完成特定任务。它封装了具体的<strong>操作流程、工具调用逻辑和执行规范</strong>，让 AI 能够“知道怎么做”而不是仅仅“知道做什么”。</p>\n<h3>2.1 什么是 Skill ？</h3>\n<p><strong>Skill</strong> 是 Agent 的扩展模块，就像手机上的 App 。每个 Skill 让 AI 完成特定任务，比如：</p>\n<ul>\n<li>发送邮件</li>\n<li>搜索网页</li>\n<li>发布公众号</li>\n<li>控制浏览器</li>\n</ul>\n<h3>2.2 Skill 核心特征</h3>\n<table>\n<thead>\n<tr>\n<th>特点</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>‌原子性</td>\n<td>一个 Skill 只负责完成一项具体任务，例如“发送邮件”或“生成 PPT”。</td>\n</tr>\n<tr>\n<td>‌可复用性</td>\n<td>Skill 可以被多个 Agent 调用，适用于不同场景。</td>\n</tr>\n<tr>\n<td>‌自主性</td>\n<td>Skill 不需要用户显式指令即可执行，具备一定的独立性。</td>\n</tr>\n<tr>\n<td>‌标准化接口</td>\n<td>遵循统一规范，便于系统集成和调用。</td>\n</tr>\n</tbody></table><h3>2.3 MCP 与 Skill 的区别</h3>\n<p>MCP 和 Skill 都是提升 AI 执行能力的工具，但它们在功能和定位上存在本质差异。</p>\n<table>\n<thead>\n<tr>\n<th>特性</th>\n<th>MCP （ Model Context Protocol ）</th>\n<th>Skill</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>定义</td>\n<td>MCP 是一种标准化接口协议，解决的是 AI 如何连接外部工具和数据源的问题。它像是 USB 接口，为 AI 提供统一的工具接入方式。</td>\n<td>Skill 是对具体任务的封装，告诉 AI 如何使用已连接的工具完成任务。它更关注“怎么做”的问题。</td>\n</tr>\n<tr>\n<td>本质</td>\n<td>工具连接协议</td>\n<td>任务执行模块</td>\n</tr>\n<tr>\n<td>功能</td>\n<td>解决“能不能连”的问题：连接外部系统（如数据库、API 、文件系统等）。</td>\n<td>解决“怎么做”的问题：定义任务流程、调用工具、处理数据、输出结果。</td>\n</tr>\n<tr>\n<td>‌比喻‌</td>\n<td>插头，让 AI 能够“插上”外部设备。</td>\n<td>使用说明书，告诉 AI 如何使用工具完成特定任务。</td>\n</tr>\n<tr>\n<td>应用场景</td>\n<td>通过 MCP ，AI 可以调用 GitHub API 、发送邮件、访问数据库等。</td>\n<td>一个“自动撰写公众号文章”的 Skill ，会包含文章结构、内容生成、格式排版等步骤。</td>\n</tr>\n</tbody></table><h3>2.4 OpenClaw 与 Skill 的关系</h3>\n<p>OpenClaw 是一个 AI Agent 运行时框架，它通过 Skill 实现对现实世界的操作能力。\n在 OpenClaw 中，Skill 是其核心能力单元，是实现 AI 自动化任务的关键。Skill 被视为 AI 的“能力包”，是实现从“能听懂”到“能做事”的关键一步。</p>\n<p><strong>OpenClaw 中 Skill 的作用</strong>：</p>\n<ul>\n<li>‌能力扩展‌：通过加载不同的 Skill ，OpenClaw 可以实现如“发布公众号文章”、“自动整理数据”、“生成报告”等复杂任务。</li>\n<li>‌模块化设计‌：Skill 以模块化形式存在，便于复用和组合。</li>\n<li>‌执行闭环‌：Skill 将 AI 的意图转化为具体操作，形成“思考 → 执行 → 结果”的闭环。</li>\n</ul>\n<h3>2.5 Skill 标准格式</h3>\n<p>一个完整的 Skill 通常包含以下文件：</p>\n<pre><code>my-skill/\n├── SKILL.md          # 技能说明文档（必需）\n├── scripts/          # 执行脚本目录\n│   └── publish.sh   # 发布脚本\n├── assets/           # 静态资源\n├── package.json      # 依赖配置\n└── README.md        # 使用说明\n</code></pre>\n<h3>2.6 <a href=\"http://SKILL.md\" rel=\"nofollow\">SKILL.md</a> 格式示例</h3>\n<pre><code class=\"language-markdown\"># 技能名称\n\n## 功能描述\n这个技能可以做什么\n\n## 前置要求\n- 要求 1\n- 要求 2\n\n## 使用方法\n1. 第一步\n2. 第二步\n\n## 示例\n输入: \"帮我 xxx\"\n输出: 结果 xxx\n</code></pre>\n<h3>2.7 如何使用 Skill</h3>\n<p>当你想让 AI 完成某个任务时，只需要告诉它：</p>\n<ul>\n<li>\"帮我发布公众号文章\"</li>\n<li>\"帮我搜索 xxx 信息\"</li>\n<li>\"帮我控制浏览器 xxx\"</li>\n</ul>\n<p>AI 会自动调用对应的 Skill 来完成。</p>\n<hr/>\n<h2>三、ClawHub 技能市场</h2>\n<p><strong>ClawHub</strong> ( <a href=\"https://clawhub.ai\" rel=\"nofollow\">https://clawhub.ai</a>) 是 OpenClaw 官方的技能市场，汇聚了社区开发的海量 Skills ！</p>\n<p>ClawHub 相当于 AI 智能体的“应用商店”或“npm 包管理器”，它让开发者和用户可以快速发现、安装、管理并扩展 AI 助手的能力 。通过集成 ClawHub ，OpenClaw 能从一个只会聊天的模型，进化为能执行任务、自动化办公与开发的实用工具。</p>\n<h3>3.1 如何下载 Skill</h3>\n<p>要将 ClawHub 技能市场集成到 OpenClaw 中，主要有两种方式：</p>\n<ul>\n<li>图形化操作（ OpenClaw WebUI ）：更适合新手，访问 OpenClaw 控制台后可点击左侧“技能市场”，可以浏览、搜索以及一键安装技能。</li>\n<li>命令行工具（ ClawHub CLI ）：推荐使用 CLI 方式，可获得更高的灵活性和效率：</li>\n</ul>\n<pre><code class=\"language-bash\"># 1. 全局安装 ClawHub CLI\nnpm install -g clawhub@latest\n\n# 2. 搜索技能（例如办公类）\nclawhub search --keyword \"办公自动化\"\n\n# 3. 安装单个技能（以文件处理为例）\nclawhub install file-processor\n\n# 4. 批量安装多个常用技能\nclawhub install email-manager data-analyzer meeting-minutes\n\n# 5. 查看已安装技能\nclawhub list --installed\n\n# 6. 更新所有技能至最新版本\nclawhub update --all\n\n</code></pre>\n<h3>3.2 如何发布一个 Skill</h3>\n<p>新建 Skill 是实现个性化功能扩展的关键。每个 Skill 实际上是一个包含元数据和执行逻辑的文件夹，遵循标准化结构。</p>\n<p><strong>第一步：创建 Skill 目录</strong></p>\n<pre><code>mkdir my-skill\ncd my-skill\n\n</code></pre>\n<p><strong>第二步：编写 <a href=\"http://SKILL.md\" rel=\"nofollow\">SKILL.md</a> （必选）‌</strong>\n这是 Skill 的说明书，定义名称、描述和元信息：</p>\n<pre><code>---\nname: my-first-skill\ndescription: 这是一个示例技能，用于演示如何创建 Skill\nmetadata:\n  openclaw:\n    emoji: 🚀\n    requires:\n      bins:\n        - curl\n---\n\n# 我的第一个技能\n\n## 使用方法\n告诉 AI：“请使用 my-first-skill 完成任务”，它将执行预设操作。\n\n</code></pre>\n<p><strong>‌第三步：添加可执行脚本（如 scripts/<a href=\"http://run.sh\" rel=\"nofollow\">run.sh</a> ）</strong></p>\n<pre><code>#!/bin/bash\necho \"Hello from my custom skill!\"\n</code></pre>\n<p><strong>第四步：配置 config.json （可选）‌</strong>\n用于定义输入参数、环境变量等。</p>\n<p><strong>第五步：发布到 ClawHub （可选）</strong></p>\n<pre><code>clawhub publish ./my-skill\n</code></pre>\n<p>发布后，你的 Skill 将进入社区仓库，供他人搜索和安装 。</p>\n<hr/>\n<h2>四、OpenClaw 发布公众号配置</h2>\n<h3>4.1 wechat-publisher 技能介绍</h3>\n<p><strong>wechat-publisher</strong> 是一个可以将 Markdown 文章一键发布到微信公众号草稿箱的 Skill 。</p>\n<p><strong>核心功能：</strong></p>\n<ul>\n<li>一键发布 Markdown 到公众号草稿箱</li>\n<li>多主题支持（ lapis 、phycat 、default 等）</li>\n<li>代码高亮显示</li>\n<li>图片自动上传到微信图床</li>\n</ul>\n<p><strong>来源</strong>：</p>\n<ul>\n<li><a href=\"https://github.com/0731coderlee-sudo/wechat-publisher\" rel=\"nofollow\">https://github.com/0731coderlee-sudo/wechat-publisher</a></li>\n<li><a href=\"https://clawhub.ai/0731coderlee-sudo/wechat-publisher\" rel=\"nofollow\">https://clawhub.ai/0731coderlee-sudo/wechat-publisher</a></li>\n</ul>\n<h3>4.2 安装 wechat-publisher</h3>\n<p>可通过 npx skills 安装：</p>\n<pre><code>npx skills add 0731coderlee-sudo/wechat-publisher -g -y\n</code></pre>\n<p>另外，也可以通过 OpenClaw 对话安装：</p>\n<blockquote>\n<p>输入 \"安装 <a href=\"https://clawhub.ai/0731coderlee-sudo/wechat-publisher\" rel=\"nofollow\">https://clawhub.ai/0731coderlee-sudo/wechat-publisher</a> 技能\"</p>\n</blockquote>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_04.png\"/></p>\n<h3>4.3 配置 AppID 和 AppSecret</h3>\n<p><strong>第一步：获取凭证</strong></p>\n<ol>\n<li>登录 <a href=\"https://developers.weixin.qq.com/platform\" rel=\"nofollow\">https://developers.weixin.qq.com/platform</a> </li>\n<li>进入「控制台 - 选择公众号」→「基础信息」</li>\n<li>获取「开发者 ID(AppID)」和「开发密钥(AppSecret)」</li>\n</ol>\n<p><strong>第二步：配置到 OpenClaw</strong></p>\n<p>在 <code>~/.openclaw/workspace/<a href=\"http://TOOLS.md\" rel=\"nofollow\">TOOLS.md</a></code> 中添加：</p>\n<pre><code class=\"language-bash\">## 微信公众号凭证\nexport WECHAT_APP_ID=你的 AppID\nexport WECHAT_APP_SECRET=你的 AppSecret\n</code></pre>\n<p>另外，也支持通过 OpenClaw 对话输入如下信息进行设置：</p>\n<pre><code>设置 公众号凭证，信息如下：\nexport WECHAT_APP_ID=你的 AppID\nexport WECHAT_APP_SECRET=你的 AppSecret\n</code></pre>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_05.png\"/></p>\n<h3>4.4 配置 IP 白名单</h3>\n<p>⚠️ <strong>这是关键步骤！</strong></p>\n<p><strong>第一步：查询服务器公网 IP</strong></p>\n<pre><code class=\"language-bash\">curl ifconfig.me\n</code></pre>\n<p><strong>第二步：添加到公众号后台</strong></p>\n<ol>\n<li>登录 <a href=\"https://developers.weixin.qq\" rel=\"nofollow\">https://developers.weixin.qq</a>. com/platform</li>\n<li>进入「控制台 - 选择公众号」→「基础信息」</li>\n<li>找到「 IP 白名单」</li>\n<li>添加刚才查询到的 IP 地址</li>\n</ol>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_06.png\"/></p>\n<hr/>\n<h2>五、实战：使用 OpenClaw 自动发布公众号文章</h2>\n<p>下面演示 使用 OpenClaw+Skill 自动发布微信公众号文章 的完整操作流程。</p>\n<h3>步骤 1：让 AI 帮你写文章</h3>\n<p>告诉 OpenClaw 你的需求（ PS：这个需求大纲本身也是 OpenClaw 生成的）：</p>\n<pre><code>“ \n  写一篇公众号文章，标题 《使用 OpenClaw+Skill 自动生成与发布微信公众号文章》\"\n  文章大纲包括：\n  1 、OpenClaw 介绍：给一些使用案例\n  2 、Agent Skill：体系化分析介绍\n  3 、ClawHub：介绍如何下线使用、如何发布技能\n  4 、OpenClaw 发布公众号配置： 包括必需技能安装、密钥等开发者信息配置等；\n  5 、实战案例：给出发布公众号文章的操作全流程\n  \n  文章 Theme 选择：默认\n  文章封面图：从 https://picsum.photos/470/200 中随机获取一张图片当作封面图；\n  \n  文章生成好之后，自动发布到微信公众号平台。\n”\n</code></pre>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_07.png\"/></p>\n<p>AI 会自动：</p>\n<ul>\n<li>查询网络获取 OpenClaw 、ClawHub 等相关知识；</li>\n<li>结合文章主体与要求，分析提炼关键信息；</li>\n<li>生成 Markdown 格式文章</li>\n</ul>\n<h3>步骤 2：OpenClaw 成功输出</h3>\n<pre><code>🚀 开始发布文章...\n✅ 封面图上传成功\n✅ 文章内容转换成功\n✅ 发布成功，Media ID: UqLqFEOAfH9W00FdAVE-xxx\n</code></pre>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_08.png\"/></p>\n<h3>步骤 3：手动发布</h3>\n<p>文章已推送到公众号平台<strong>草稿箱</strong>，你需要：</p>\n<ol>\n<li>登录公众号后台 <a href=\"https://mp.weixin.qq.com/\" rel=\"nofollow\">https://mp.weixin.qq.com/</a></li>\n<li>进入「内容管理」→「草稿箱」</li>\n<li>预览并操作发布</li>\n</ol>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_09.png\"/></p>\n<h3>完整操作流程总结</h3>\n<p>至此已经实现自动生成公众号文章并发布到公众号，完整流程如下。\n后续若有类似文章发布需要，只需要将需求告诉 OpenClaw ，即可完成文章自动生成与发布（即第 6 、7 步）。</p>\n<pre><code>┌────────────────────────────────────────────────────────┐\n│           OpenClaw 发布公众号完整流程                  │\n└────────────────────────────────────────────────────────┘\n\n第 1 步：安装 OpenClaw\n        └─ npm install -g openclaw@latest\n\n第 2 步：安装 wechat-publisher 技能\n        └─ npx skills add 0731coderlee-sudo/wechat-publisher\n\n第 3 步：配置公众号凭证\n        └─ 在 TOOLS.md 添加 WECHAT_APP_ID 和 WECHAT_APP_SECRET\n\n第 4 步：配置 IP 白名单\n        └─ 公众号后台添加服务器 IP\n\n第 5 步：让 AI 写文章\n        └─ 告诉 AI 你的需求，如\"帮我写一篇关于 xxx 的文章\"\n\n第 6 步：发布到公众号\n        └─ ./scripts/publish.sh article.md\n\n第 7 步：手动发布\n        └─ 登录公众号后台 → 草稿箱 → 发布\n</code></pre>\n<hr/>\n<h2>六、常见问题</h2>\n<p><strong>Q1: 发布失败显示 IP 不在白名单？</strong></p>\n<blockquote>\n<p>确保将服务器公网 IP 添加到公众号后台白名单</p>\n</blockquote>\n<p><strong>Q2: 微信公众号是什么类型账号？</strong></p>\n<blockquote>\n<p>目前支持订阅号和服务号</p>\n</blockquote>\n<p><strong>Q3: 图片显示不出来？</strong></p>\n<blockquote>\n<p>确保使用公网可访问的图片 URL</p>\n</blockquote>\n<p><strong>Q4: 如何查看已安装的 Skills ？</strong></p>\n<pre><code class=\"language-bash\">npx skills list\n</code></pre>\n<hr/>\n<h2>七、总结</h2>\n<p>通过 OpenClaw + Skill(wechat-publisher) ，你可以：</p>\n<ul>\n<li>✅ 让 AI 自动写文章</li>\n<li>✅ 一键发布到公众号草稿箱</li>\n<li>✅ 支持 Markdown 格式</li>\n<li>✅ 代码高亮显示</li>\n<li>✅ 大幅节省排版时间</li>\n</ul>\n<p>这就是 AI 时代的效率提升之道！</p>\n<hr/>\n<p><strong>参考链接：</strong></p>\n<ul>\n<li>OpenClaw 官网： <a href=\"https://openclaw.ai\" rel=\"nofollow\">https://openclaw.ai</a></li>\n<li>ClawHub 技能市场： <a href=\"https://clawhub.ai\" rel=\"nofollow\">https://clawhub.ai</a></li>\n<li>wechat-publisher： <a href=\"https://github.com/0731coderlee-sudo/wechat-publisher\" rel=\"nofollow\">https://github.com/0731coderlee-sudo/wechat-publisher</a></li>\n<li>微信公众号后台： <a href=\"https://mp.weixin.qq.com/\" rel=\"nofollow\">https://mp.weixin.qq.com/</a></li>\n</ul>\n<hr/>\n<p><em>本文由 🦞大人 自动生成</em></p>\n<hr/>\n<p>原文地址： <a href=\"https://www.xuxueli.com/blog/?blog=ai/openclaw-skill-wechat\" rel=\"nofollow\">https://www.xuxueli.com/blog/?blog=ai/openclaw-skill-wechat</a></p>\n\n\t",
+          "author": "xuxueli",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
-          "link": "https://www.v2ex.com/t/1198405#reply14",
+          "link": "https://www.v2ex.com/t/1198405#reply15",
           "pubDate": "2026-03-15T08:02:11.000Z",
           "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
           "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有什么网站提供人工智能学习且能够有老师答疑的",
+          "link": "https://www.v2ex.com/t/1198381#reply15",
+          "pubDate": "2026-03-15T05:36:30.000Z",
+          "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
+          "author": "hiboshi",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "廉价家宽 IP 推荐",
+          "link": "https://www.v2ex.com/t/1198391#reply6",
+          "pubDate": "2026-03-15T06:33:02.000Z",
+          "content": "\n\t直播用, 亚洲国家\n\t",
+          "author": "Hermitist",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -467,7 +477,7 @@
         },
         {
           "title": "AI 带来了知识平权这一说法有点扯淡",
-          "link": "https://www.v2ex.com/t/1198399#reply3",
+          "link": "https://www.v2ex.com/t/1198399#reply6",
           "pubDate": "2026-03-15T07:49:33.000Z",
           "content": "\n\t<p>AI 带来了信息获取能力的平权，可以实现“知其然”的平权，但无法实现“知其所以然”的平权</p>\n\n\t",
           "author": "red13",
@@ -506,21 +516,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "手搓了最喜欢的 Android 软件， GestureExplode",
-          "link": "https://www.v2ex.com/t/1198317#reply4",
-          "pubDate": "2026-03-14T14:13:50.000Z",
-          "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
-          "author": "colorbeta",
+          "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
+          "link": "https://www.v2ex.com/t/1198247#reply26",
+          "pubDate": "2026-03-14T06:10:10.000Z",
+          "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
+          "author": "loneranger1024",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
-          "link": "https://www.v2ex.com/t/1198247#reply25",
-          "pubDate": "2026-03-14T06:10:10.000Z",
-          "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
-          "author": "loneranger1024",
+          "title": "手搓了最喜欢的 Android 软件， GestureExplode",
+          "link": "https://www.v2ex.com/t/1198317#reply4",
+          "pubDate": "2026-03-14T14:13:50.000Z",
+          "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
+          "author": "colorbeta",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -546,6 +556,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
+          "link": "https://www.v2ex.com/t/1198219#reply10",
+          "pubDate": "2026-03-14T03:22:45.000Z",
+          "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
+          "author": "maxwellz",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
           "link": "https://www.v2ex.com/t/1198225#reply14",
           "pubDate": "2026-03-14T03:43:47.000Z",
@@ -561,16 +581,6 @@
           "pubDate": "2026-03-14T03:38:52.000Z",
           "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
           "author": "sungnix",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
-          "link": "https://www.v2ex.com/t/1198219#reply9",
-          "pubDate": "2026-03-14T03:22:45.000Z",
-          "content": "\n\t<p>感觉能力又会上升一大截了，能 cover 住更大项目了\n<a href=\"https://claude.com/blog/1m-context-ga\" rel=\"nofollow\">https://claude.com/blog/1m-context-ga</a></p>\n\n\t",
-          "author": "maxwellz",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -714,13 +724,103 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
+          "link": "https://www.v2ex.com/t/1197941#reply14",
+          "pubDate": "2026-03-13T02:30:51.000Z",
+          "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
+          "author": "pc10201",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "增强的语音识别下载失败求助",
+          "link": "https://www.v2ex.com/t/1198200#reply1",
+          "pubDate": "2026-03-14T00:06:35.000Z",
+          "content": "\n\t增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！\n\t",
+          "author": "dangotown",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "请问 V 友们工作上一些项目中敏感信息存哪",
+          "link": "https://www.v2ex.com/t/1198153#reply12",
+          "pubDate": "2026-03-13T13:18:25.000Z",
+          "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
+          "author": "zonas",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "目前购买 Claude 官方 key 有哪个渠道可靠又省事？",
+          "link": "https://www.v2ex.com/t/1198311#reply2",
+          "pubDate": "2026-03-14T13:39:42.000Z",
+          "content": "\n\t工作中需要不能转接，求求了\n\t",
+          "author": "shyrock",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "安卓假如放弃 root 的话，建议买哪家？",
+          "link": "https://www.v2ex.com/t/1198090#reply28",
+          "pubDate": "2026-03-13T08:36:25.000Z",
+          "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
+          "author": "LaTero",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
+          "link": "https://www.v2ex.com/t/1197879#reply69",
+          "pubDate": "2026-03-13T00:29:28.000Z",
+          "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
+          "author": "mcfever",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
+          "link": "https://www.v2ex.com/t/1198139#reply11",
+          "pubDate": "2026-03-13T11:49:06.000Z",
+          "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
+          "author": "z1s23",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "antigravity 5h 刷新改回来了",
+          "link": "https://www.v2ex.com/t/1198112#reply19",
+          "pubDate": "2026-03-13T09:52:42.000Z",
+          "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
+          "author": "LaughingCat",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
+          "link": "https://www.v2ex.com/t/1197595#reply66",
+          "pubDate": "2026-03-12T00:55:22.000Z",
+          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
+          "author": "mrsbryant",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-15T10:21:10.890Z",
+      "lastUpdated": "2026-03-15T11:18:57.957Z",
       "items": [
         {
           "title": "顶级科学家需要的两项技能",
@@ -753,9 +853,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "杂说蔬菜（3）青菜",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
-          "pubDate": "2026-03-14 07:40:31",
+          "title": "数理历史之三定律",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
+          "pubDate": "2026-03-14 09:51:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -763,9 +863,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "数理历史之三定律",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
-          "pubDate": "2026-03-14 09:51:00",
+          "title": "杂说蔬菜（3）青菜",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
+          "pubDate": "2026-03-14 07:40:31",
           "content": "",
           "author": "",
           "categories": [],
@@ -883,6 +983,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "鹧鸪天  三月雪",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
+          "pubDate": "2026-03-15 07:47:09",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "如何区分梅花、樱花、桃花、李花、梨花、杏花、海棠花和美人梅！",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3319332&do=blog&id=1525741",
           "pubDate": "2026-03-14 10:40:29",
@@ -896,16 +1006,6 @@
           "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
           "pubDate": "2026-03-14 11:23:12",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "鹧鸪天  三月雪",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
-          "pubDate": "2026-03-15 07:47:09",
           "content": "",
           "author": "",
           "categories": [],
@@ -927,7 +1027,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-15T10:21:13.228Z",
+      "lastUpdated": "2026-03-15T11:19:01.040Z",
       "items": [
         {
           "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
@@ -1134,7 +1234,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-15T10:21:15.288Z",
+      "lastUpdated": "2026-03-15T11:19:04.040Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1181,6 +1281,16 @@
           "link": "https://movie.douban.com/review/17503456/",
           "pubDate": "Sat, 14 Mar 2026 12:30:49 GMT",
           "content": "\nmomo评论: 十年一品温如言 (https://movie.douban.com/subject/26710112/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u770b\\u5b8c\\u300a\\u5341\\u5e74\\u4...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《呼啸山庄》：惊喜与惊吓掺半 (评论: 呼啸山庄)",
+          "link": "https://movie.douban.com/review/17504924/",
+          "pubDate": "Sun, 15 Mar 2026 10:30:36 GMT",
+          "content": "\n豆友C9-BeK96lg评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6574\\u4e2a\\u5e7b\\u5f71\\u8fc7\\u7...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1297,6 +1407,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "虽还不够好，已是《逆夏》后最好的沿袭者……且不在于结尾 (评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女)",
+          "link": "https://movie.douban.com/review/17504898/",
+          "pubDate": "Sun, 15 Mar 2026 09:59:56 GMT",
+          "content": "\n冰-koori评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女 (https://movie.douban.com/subject/36117593/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u300a\\u95ea\\u5149\\u7684\\u54c8\\u8...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "一只山羊改写篮球界规则？小个子也能当GOAT！ (评论: 奇迹梦之队)",
           "link": "https://movie.douban.com/review/17501491/",
           "pubDate": "Fri, 13 Mar 2026 06:09:50 GMT",
@@ -1315,26 +1435,6 @@
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "是陈词滥调，但娱乐一下尚可 (评论: 奇迹梦之队)",
-          "link": "https://movie.douban.com/review/17503935/",
-          "pubDate": "Sat, 14 Mar 2026 16:11:23 GMT",
-          "content": "\n落木Lin评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "即使不是神明，也要做自己世界的中心 (评论: 你好，爱美丽)",
-          "link": "https://movie.douban.com/review/17502779/",
-          "pubDate": "Sat, 14 Mar 2026 05:03:51 GMT",
-          "content": "\n大型恶魔酱评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
         }
       ]
     },
@@ -1342,20 +1442,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-15T10:21:16.164Z",
+      "lastUpdated": "2026-03-15T11:19:05.134Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-15T10:21:16.228Z",
+      "lastUpdated": "2026-03-15T11:19:05.318Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-15T10:21:16.778Z",
+      "lastUpdated": "2026-03-15T11:19:06.021Z",
       "items": [
         {
           "title": "无题",
