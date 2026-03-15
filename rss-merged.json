@@ -1,10 +1,20 @@
 {
-  "lastUpdated": "2026-03-15T22:18:53.820Z",
+  "lastUpdated": "2026-03-15T23:20:55.085Z",
   "totalItems": 143,
   "items": [
     {
+      "title": "基于 qwen-image-2.0 的 AI 图像生成网站，留邮箱送积分",
+      "link": "https://www.v2ex.com/t/1198495#reply0",
+      "pubDate": "2026-03-15T23:10:20.000Z",
+      "content": "\n\t<p>我是一名独立开发者，最近基于新出的 qwen-image-2.0 做了一个 AI 图像生成工具 —— <a href=\"https://qwenimage2.run\" rel=\"nofollow\">Qwen 图片生成器</a>，目前该模型可以说是目前中文支持最好的生图模型，想分享给大家试试。</p>\n<h3>能做什么</h3>\n<ul>\n<li><strong>文生图</strong>：输入中文或英文提示词，直接生成图片</li>\n<li><strong>图片编辑</strong>：上传图片 + 描述你想要的修改，AI 帮你完成</li>\n<li><strong>灵感画廊</strong>：内置一个公开的作品画廊，抓取的 x 网站上的热门提示词以及图片，可以直接借鉴上面别人生成的效果图和提示词，找灵感会更快</li>\n</ul>\n<h3>留邮箱送积分</h3>\n<p>为了感谢大家的体验和反馈，<strong>在本帖留言你的注册邮箱，我会手动给大家充值积分</strong>。</p>\n<p>积分可以用来生成更多图片，没有使用期限。</p>\n<h3>希望得到的反馈</h3>\n<ul>\n<li>生成效果怎么样？提示词的理解准不准确？</li>\n<li>有没有遇到 bug 或者体验不好的地方？</li>\n<li>还希望增加什么功能？</li>\n<li>页面加载速度、交互体验如何？</li>\n</ul>\n<p>这个是个人开发的相对比较 demo 的网站，还在早期阶段，很多地方需要改进，也希望大家提供意见和建议，感谢各位 V 友的时间。</p>\n<hr/>\n<p>网站地址：<a href=\"https://qwenimage2.run\" rel=\"nofollow\">https://qwenimage2.run</a>\n作品画廊：<a href=\"https://qwenimage2.run/gallery\" rel=\"nofollow\">https://qwenimage2.run/gallery</a>\n邮箱支持：<a href=\"mailto:support@qwenimage2.run\">support@qwenimage2.run</a></p>\n\n\t",
+      "author": "1092106874",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "程序员在加拿大读书，有什么远程副业可以做？",
-      "link": "https://www.v2ex.com/t/1198493#reply2",
+      "link": "https://www.v2ex.com/t/1198493#reply4",
       "pubDate": "2026-03-15T21:30:50.000Z",
       "content": "\n\t<p>我现在在加拿大读一年制硕士项目。每周只有周二、周四晚上有课，其他时间基本都可以工作。</p>\n<p>想问问大家：</p>\n<ul>\n<li>\n<p>在国外读书期间，有没有比较现实的副业渠道？</p>\n</li>\n<li>\n<p>程序员远程接单一般在哪些平台？</p>\n</li>\n<li>\n<p>有没有适合在海外做的互联网副业？</p>\n</li>\n</ul>\n<p>如果有类似经历，也欢迎分享一下经验。</p>\n<p>谢谢大家 🙏</p>\n\n\t",
       "author": "tuuuz",
@@ -164,7 +174,7 @@
     },
     {
       "title": "你认为的最强编程 AI 工具？",
-      "link": "https://www.v2ex.com/t/1198412#reply37",
+      "link": "https://www.v2ex.com/t/1198412#reply38",
       "pubDate": "2026-03-15T08:37:18.000Z",
       "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
       "author": "junwind",
@@ -241,6 +251,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "一位美国图书馆员写的“我们需要在国际妇女节致敬的八位强悍图书馆员”",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525791",
+      "pubDate": "2026-03-15 06:41:13",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "现在购买 ssl 证书最具性价比的方案是什么？",
@@ -440,7 +460,7 @@
     },
     {
       "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-      "link": "https://www.v2ex.com/t/1198345#reply25",
+      "link": "https://www.v2ex.com/t/1198345#reply26",
       "pubDate": "2026-03-14T18:24:10.000Z",
       "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
       "author": "seeksky",
@@ -619,16 +639,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "西双版纳（Bird- Watching in Yunnan）",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2048045&do=blog&id=1525774",
-      "pubDate": "2026-03-14 06:29:24",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "买 google AI pro 是花钱受气。",
       "link": "https://www.v2ex.com/t/1198248#reply5",
       "pubDate": "2026-03-14T06:12:02.000Z",
@@ -784,16 +794,6 @@
       "pubDate": "2026-03-13T13:18:25.000Z",
       "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
       "author": "zonas",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-      "link": "https://www.v2ex.com/t/1198139#reply11",
-      "pubDate": "2026-03-13T11:49:06.000Z",
-      "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
-      "author": "z1s23",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"

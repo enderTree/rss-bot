@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-15T22:18:53.817Z",
+  "lastUpdated": "2026-03-15T23:20:55.081Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-15T22:18:43.853Z",
+      "lastUpdated": "2026-03-15T23:20:44.048Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-15T22:18:44.670Z",
+      "lastUpdated": "2026-03-15T23:20:44.953Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-15T22:18:44.728Z",
+      "lastUpdated": "2026-03-15T23:20:45.009Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-15T22:18:46.454Z",
+      "lastUpdated": "2026-03-15T23:20:46.974Z",
       "items": [
         {
           "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
@@ -313,14 +313,24 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-15T22:18:46.518Z",
+      "lastUpdated": "2026-03-15T23:20:47.118Z",
       "items": [
         {
           "title": "程序员在加拿大读书，有什么远程副业可以做？",
-          "link": "https://www.v2ex.com/t/1198493#reply2",
+          "link": "https://www.v2ex.com/t/1198493#reply4",
           "pubDate": "2026-03-15T21:30:50.000Z",
           "content": "\n\t<p>我现在在加拿大读一年制硕士项目。每周只有周二、周四晚上有课，其他时间基本都可以工作。</p>\n<p>想问问大家：</p>\n<ul>\n<li>\n<p>在国外读书期间，有没有比较现实的副业渠道？</p>\n</li>\n<li>\n<p>程序员远程接单一般在哪些平台？</p>\n</li>\n<li>\n<p>有没有适合在海外做的互联网副业？</p>\n</li>\n</ul>\n<p>如果有类似经历，也欢迎分享一下经验。</p>\n<p>谢谢大家 🙏</p>\n\n\t",
           "author": "tuuuz",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "基于 qwen-image-2.0 的 AI 图像生成网站，留邮箱送积分",
+          "link": "https://www.v2ex.com/t/1198495#reply0",
+          "pubDate": "2026-03-15T23:10:20.000Z",
+          "content": "\n\t<p>我是一名独立开发者，最近基于新出的 qwen-image-2.0 做了一个 AI 图像生成工具 —— <a href=\"https://qwenimage2.run\" rel=\"nofollow\">Qwen 图片生成器</a>，目前该模型可以说是目前中文支持最好的生图模型，想分享给大家试试。</p>\n<h3>能做什么</h3>\n<ul>\n<li><strong>文生图</strong>：输入中文或英文提示词，直接生成图片</li>\n<li><strong>图片编辑</strong>：上传图片 + 描述你想要的修改，AI 帮你完成</li>\n<li><strong>灵感画廊</strong>：内置一个公开的作品画廊，抓取的 x 网站上的热门提示词以及图片，可以直接借鉴上面别人生成的效果图和提示词，找灵感会更快</li>\n</ul>\n<h3>留邮箱送积分</h3>\n<p>为了感谢大家的体验和反馈，<strong>在本帖留言你的注册邮箱，我会手动给大家充值积分</strong>。</p>\n<p>积分可以用来生成更多图片，没有使用期限。</p>\n<h3>希望得到的反馈</h3>\n<ul>\n<li>生成效果怎么样？提示词的理解准不准确？</li>\n<li>有没有遇到 bug 或者体验不好的地方？</li>\n<li>还希望增加什么功能？</li>\n<li>页面加载速度、交互体验如何？</li>\n</ul>\n<p>这个是个人开发的相对比较 demo 的网站，还在早期阶段，很多地方需要改进，也希望大家提供意见和建议，感谢各位 V 友的时间。</p>\n<hr/>\n<p>网站地址：<a href=\"https://qwenimage2.run\" rel=\"nofollow\">https://qwenimage2.run</a>\n作品画廊：<a href=\"https://qwenimage2.run/gallery\" rel=\"nofollow\">https://qwenimage2.run/gallery</a>\n邮箱支持：<a href=\"mailto:support@qwenimage2.run\">support@qwenimage2.run</a></p>\n\n\t",
+          "author": "1092106874",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -347,7 +357,7 @@
         },
         {
           "title": "你认为的最强编程 AI 工具？",
-          "link": "https://www.v2ex.com/t/1198412#reply37",
+          "link": "https://www.v2ex.com/t/1198412#reply38",
           "pubDate": "2026-03-15T08:37:18.000Z",
           "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
           "author": "junwind",
@@ -447,7 +457,7 @@
         },
         {
           "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-          "link": "https://www.v2ex.com/t/1198345#reply25",
+          "link": "https://www.v2ex.com/t/1198345#reply26",
           "pubDate": "2026-03-14T18:24:10.000Z",
           "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
           "author": "seeksky",
@@ -804,28 +814,18 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-          "link": "https://www.v2ex.com/t/1198139#reply11",
-          "pubDate": "2026-03-13T11:49:06.000Z",
-          "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
-          "author": "z1s23",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-15T22:18:48.477Z",
+      "lastUpdated": "2026-03-15T23:20:49.293Z",
       "items": [
         {
-          "title": "西双版纳（Bird- Watching in Yunnan）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2048045&do=blog&id=1525774",
-          "pubDate": "2026-03-14 06:29:24",
+          "title": "鹧鸪天  三月雪",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
+          "pubDate": "2026-03-15 07:47:09",
           "content": "",
           "author": "",
           "categories": [],
@@ -833,9 +833,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "鹧鸪天  三月雪",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
-          "pubDate": "2026-03-15 07:47:09",
+          "title": "桃花尽日随流水",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525805",
+          "pubDate": "2026-03-15 09:35:43",
           "content": "",
           "author": "",
           "categories": [],
@@ -853,9 +853,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "桃花尽日随流水",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525805",
-          "pubDate": "2026-03-15 09:35:43",
+          "title": "想得诺奖还得要推销自己的成果",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525795",
+          "pubDate": "2026-03-15 08:07:03",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "公园的早樱",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525814",
+          "pubDate": "2026-03-15 11:00:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -883,29 +893,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "想得诺奖还得要推销自己的成果",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525795",
-          "pubDate": "2026-03-15 08:07:03",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "找到乐趣 接受挑战",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1525813",
           "pubDate": "2026-03-15 10:59:13",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "公园的早樱",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525814",
-          "pubDate": "2026-03-15 11:00:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -1003,6 +993,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "一位美国图书馆员写的“我们需要在国际妇女节致敬的八位强悍图书馆员”",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1557&do=blog&id=1525791",
+          "pubDate": "2026-03-15 06:41:13",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "致逐梦者",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525822",
           "pubDate": "2026-03-15 12:09:58",
@@ -1027,7 +1027,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-15T22:18:50.432Z",
+      "lastUpdated": "2026-03-15T23:20:51.331Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1234,7 +1234,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-15T22:18:52.162Z",
+      "lastUpdated": "2026-03-15T23:20:53.216Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1442,20 +1442,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-15T22:18:53.135Z",
+      "lastUpdated": "2026-03-15T23:20:54.362Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-15T22:18:53.192Z",
+      "lastUpdated": "2026-03-15T23:20:54.620Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-15T22:18:53.817Z",
+      "lastUpdated": "2026-03-15T23:20:55.081Z",
       "items": [
         {
           "title": "无题",
