@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-15T04:25:42.636Z",
+  "lastUpdated": "2026-03-15T06:01:19.128Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-15T04:25:31.116Z",
+      "lastUpdated": "2026-03-15T06:01:07.293Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-15T04:25:32.046Z",
+      "lastUpdated": "2026-03-15T06:01:08.175Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-15T04:25:32.244Z",
+      "lastUpdated": "2026-03-15T06:01:08.255Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-15T04:25:33.911Z",
+      "lastUpdated": "2026-03-15T06:01:10.130Z",
       "items": [
         {
           "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
@@ -313,41 +313,21 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-15T04:25:34.076Z",
+      "lastUpdated": "2026-03-15T06:01:10.289Z",
       "items": [
         {
-          "title": "电脑硬件价格离谱，今天看到 hn 上一个网友的回复心有戚戚",
-          "link": "https://www.v2ex.com/t/1198356#reply12",
-          "pubDate": "2026-03-15T01:08:35.000Z",
-          "content": "\n\t<pre><code>I've developed a new fear of my 2025 desktop PC being damaged by a power surge or something, because it would cost at least $2K more to replace than I paid for it, assuming I can even find parts now. Compared to the rest of my adult life when I used to secretly pray for something to fail so I would have a reason to upgrade.\n\nhttps://news.ycombinator.com/item?id=47368494\n\n我现在对 2025 款台式机被电源浪涌之类的弄坏产生了新的恐惧，因为想要更换的话，成本至少比我买的时候多花 2000 美元，而且就算现在能找到配件也未必行。这和我成年后其他时候太不一样了，以前我总是暗自祈祷出点毛病，好给自己一个升级的理由。\n</code></pre>\n<hr/>\n<p>我现在也是同样的想法，内存太贵了啊！</p>\n\n\t",
-          "author": "rmrf",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-          "link": "https://www.v2ex.com/t/1198056#reply82",
-          "pubDate": "2026-03-13T07:15:35.000Z",
-          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
-          "author": "Chicagoake",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-          "link": "https://www.v2ex.com/t/1198345#reply13",
-          "pubDate": "2026-03-14T18:24:10.000Z",
-          "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
-          "author": "seeksky",
+          "title": "有什么网站提供人工智能学习且能够有老师答疑的",
+          "link": "https://www.v2ex.com/t/1198381#reply4",
+          "pubDate": "2026-03-15T05:36:30.000Z",
+          "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
+          "author": "hiboshi",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "随机播放到艾薇儿和后街男孩的歌曲，突然发现上一次听还是 10 多年前读初高中的时候了",
-          "link": "https://www.v2ex.com/t/1198355#reply6",
+          "link": "https://www.v2ex.com/t/1198355#reply9",
           "pubDate": "2026-03-15T00:45:26.000Z",
           "content": "\n\t<p>突然有点唏嘘，当时听他们的音乐还是用的好记星学习机，由于家离学校比较远，所以平时是住读，周五回家和周末归校的时候，就喜欢用学习机听他们的音乐，岁月不饶人啊。</p>\n\n\t",
           "author": "zzz22333",
@@ -356,8 +336,48 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "nas 备份了照片，手机上直接删除吗",
+          "link": "https://www.v2ex.com/t/1198378#reply12",
+          "pubDate": "2026-03-15T04:34:37.000Z",
+          "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
+          "author": "miusmile",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
+          "link": "https://www.v2ex.com/t/1198345#reply18",
+          "pubDate": "2026-03-14T18:24:10.000Z",
+          "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
+          "author": "seeksky",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
+          "link": "https://www.v2ex.com/t/1198056#reply84",
+          "pubDate": "2026-03-13T07:15:35.000Z",
+          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
+          "author": "Chicagoake",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "电脑硬件价格离谱，今天看到 hn 上一个网友的回复心有戚戚",
+          "link": "https://www.v2ex.com/t/1198356#reply13",
+          "pubDate": "2026-03-15T01:08:35.000Z",
+          "content": "\n\t<pre><code>I've developed a new fear of my 2025 desktop PC being damaged by a power surge or something, because it would cost at least $2K more to replace than I paid for it, assuming I can even find parts now. Compared to the rest of my adult life when I used to secretly pray for something to fail so I would have a reason to upgrade.\n\nhttps://news.ycombinator.com/item?id=47368494\n\n我现在对 2025 款台式机被电源浪涌之类的弄坏产生了新的恐惧，因为想要更换的话，成本至少比我买的时候多花 2000 美元，而且就算现在能找到配件也未必行。这和我成年后其他时候太不一样了，以前我总是暗自祈祷出点毛病，好给自己一个升级的理由。\n</code></pre>\n<hr/>\n<p>我现在也是同样的想法，内存太贵了啊！</p>\n\n\t",
+          "author": "rmrf",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
-          "link": "https://www.v2ex.com/t/1198309#reply18",
+          "link": "https://www.v2ex.com/t/1198309#reply19",
           "pubDate": "2026-03-14T13:36:10.000Z",
           "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
           "author": "willxiang",
@@ -366,8 +386,18 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "独立开发收款方案",
+          "link": "https://www.v2ex.com/t/1198323#reply21",
+          "pubDate": "2026-03-14T14:46:35.000Z",
+          "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
+          "author": "trumpmaga",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
-          "link": "https://www.v2ex.com/t/1198282#reply24",
+          "link": "https://www.v2ex.com/t/1198282#reply25",
           "pubDate": "2026-03-14T09:59:41.000Z",
           "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
           "author": "zhanshen1614",
@@ -376,11 +406,11 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "独立开发收款方案",
-          "link": "https://www.v2ex.com/t/1198323#reply19",
-          "pubDate": "2026-03-14T14:46:35.000Z",
-          "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
-          "author": "trumpmaga",
+          "title": "求教哪里能买到廉价而保真的 claude api",
+          "link": "https://www.v2ex.com/t/1198239#reply38",
+          "pubDate": "2026-03-14T05:19:43.000Z",
+          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
+          "author": "werwer",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -391,16 +421,6 @@
           "pubDate": "2026-03-14T17:42:55.000Z",
           "content": "\n\t<h3>1 、OpenClaw 介绍</h3>\n<p>OpenClaw （曾用名 Clawdbot 、Moltbot ）是一款‌本地优先、可自托管的 AI 自动化代理工具‌，由开发者 Peter Steinberger 于 2025 年底创建。核心理念是：“The AI that actually does things”——真正能做事的 AI 。</p>\n<p>与传统聊天机器人不同，OpenClaw 不仅能理解自然语言，还能主动规划任务、调用工具、执行操作并反馈结果，形成“‌<strong>需求解析 → 任务规划 → 工具调用 → 结果反馈</strong>‌”的完整闭环。</p>\n<h3>2 、AI 代理工具对比</h3>\n<p>OpenCode 与 Claude Code 聚焦开发者，OpenWork 与 Claude Cowork 服务办公人群，而 OpenClaw 则是<strong>面向个人的全场景自动化中枢</strong>。</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>归属类别</th>\n<th>开源/闭源</th>\n<th>核心载体</th>\n<th>目标用户</th>\n<th>核心优势</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>OpenCode</td>\n<td>编程专用 AI 代理</td>\n<td>开源（ MIT ）</td>\n<td>终端优先，支持 IDE / 桌面</td>\n<td>终端开发者、极客、小团队</td>\n<td>多模型兼容、本地优先、高度可定制</td>\n</tr>\n<tr>\n<td>Claude Code</td>\n<td>编程专用 AI 代理</td>\n<td>闭源</td>\n<td>终端 / IDE / 桌面</td>\n<td>专业开发者、企业团队</td>\n<td>模型强、稳定性高、企业级安全</td>\n</tr>\n<tr>\n<td>OpenWork</td>\n<td>通用办公 AI 代理</td>\n<td>开源（ MIT ）</td>\n<td>桌面 GUI （基于 OpenCode ）</td>\n<td>非技术员工、混合团队</td>\n<td>可视化工作流、低门槛、本地可控</td>\n</tr>\n<tr>\n<td>Claude Cowork</td>\n<td>通用办公 AI 代理</td>\n<td>闭源</td>\n<td>桌面应用</td>\n<td>全岗位办公人群、企业</td>\n<td>开箱即用、跨工具联动、沙盒安全</td>\n</tr>\n<tr>\n<td>OpenClaw</td>\n<td>全场景本地自动化 AI 代理</td>\n<td>开源（ MIT ）</td>\n<td>本地网关（ CLI ）</td>\n<td>个人 / 轻量团队、自动化需求者</td>\n<td>跨渠道控制、持久记忆、完全自托管</td>\n</tr>\n</tbody></table><h3>3 、OpenClaw 部署</h3>\n<h4>3.1 、安装系统要求</h4>\n<p>确认机器环境，需要符合如下要求。</p>\n<pre><code>1 、Node &gt;=22\n2 、macOS 、Linux 或通过 WSL2 的 Windows\n3 、pnpm 仅在从源代码构建时需要\n</code></pre>\n<h4>3.2 、OpenClaw 安装</h4>\n<h5>方式 1 、本机安装</h5>\n<p>通过 npm 全局安装 openclaw 并运行新手引导。</p>\n<pre><code>curl -fsSL https://openclaw.ai/install.sh | bash\n</code></pre>\n<p>初始化配置与验证：安装完成后，自动启动配置向导（或手动执行命令）；向导将引导完成以下配置：</p>\n<ul>\n<li>认证配置：生成 Gateway 访问令牌，确保本地和远程客户端需认证连接。</li>\n<li>网关设置：配置端口（默认 18789 ）、绑定地址。</li>\n<li>通道连接：可选配置 WhatsApp 、Telegram 、Discord 等消息平台集成。</li>\n<li>后台服务安装：将 Gateway 安装为系统服务，开机自启。</li>\n</ul>\n<pre><code>openclaw onboard\n</code></pre>\n<p>更多参考：<a href=\"https://docs.openclaw.ai/zh-CN/start/wizard\" rel=\"nofollow\">Link</a></p>\n<h5>方式 2 、云服务快速安装</h5>\n<p>云服务快速安装：针对<strong>希望快速上线、免本地环境折腾</strong>的受众，建议进行云端安装。可提供更稳定的公网访问能力，服务可持续运行、随时随地都能连接使用。如 阿里云、腾讯云 等。</p>\n<p>更多可参考各云厂商文档，比如：<a href=\"https://help.aliyun.com/zh/simple-application-server/use-cases/openclaw-qq-integration\" rel=\"nofollow\">Link</a></p>\n<h4>4 、OpenClaw 体验</h4>\n<p>在上述配置完成后，需重启 OpenClaw 服务使配置生效，OpenClaw 将加载新配置的百炼模型，然后可进行后续的验证操作。</p>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_01.png\"/></p>\n<h3>5 、QQ Channel 集成</h3>\n<h4>5.1 、QQ 机器人创建</h4>\n<p>前往<a href=\"https://q.qq.com/\" rel=\"nofollow\">腾讯 QQ 开放平台</a>官网，在龙虾专用入口单击创建机器人，生成新的 QQ 机器人，并获取机器人的 AppID 和 AppSecret 。</p>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_02.png\"/></p>\n<h4>5.2 、OpenClaw 配置集成：</h4>\n<p>安装 QQ Channel ，然后登录 OpenClaw 控制台进行 QQ 渠道配置；填入上文获取的 App ID 和 App Secret ，并单击应用生效。</p>\n<pre><code>// 安装 QQ Bot 插件（云服务版默认集成 QQ 插件、且提供工作台设置 AppID 等信息，可跳过该配置）\nopenclaw plugins install @sliverp/qqbot\n\n// 执行命令添加账号凭证（将 你的 AppID 和 你的 AppSecret 替换为真实值）：\nopenclaw channels add --channel qqbot --token \"你的 AppID:你的 AppSecret\"\n</code></pre>\n<h3>6 、OpenClaw 体验</h3>\n<p>依次完成 OpenClaw 安装、模型配置、QQ Channel 配置后，可对话体验 OpenClaw：<strong>养虾成功，更多 Skills 及价值研究挖掘中</strong>～</p>\n<p><img alt=\"img\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://www.xuxueli.com/blog/static/images/2026/img_20260315_03.png\"/></p>\n<p>原文地址：<a href=\"https://www.xuxueli.com/blog/?blog=./notebook/0-AI/OpenClaw%E9%83%A8%E7%BD%B2%E5%B9%B6%E9%9B%86%E6%88%90QQ%E6%90%AD%E5%BB%BA%E8%87%AA%E5%8A%A8%E5%8C%96AI%E5%8A%A9%E7%90%86.md\" rel=\"nofollow\">OpenClaw 部署并集成 QQ 搭建自动化 AI 助理</a></p>\n\n\t",
           "author": "xuxueli",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "求教哪里能买到廉价而保真的 claude api",
-          "link": "https://www.v2ex.com/t/1198239#reply35",
-          "pubDate": "2026-03-14T05:19:43.000Z",
-          "content": "\n\tteam 拼车 codex 用了一阵子了，想试试 claude4.6 看看谁才是王\n\t",
-          "author": "werwer",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -456,6 +476,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
+          "link": "https://www.v2ex.com/t/1198222#reply5",
+          "pubDate": "2026-03-14T03:38:52.000Z",
+          "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
+          "author": "sungnix",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Claude Opus 和 Sonnet 现在 1M context 价格和之前 200K 一样了",
           "link": "https://www.v2ex.com/t/1198219#reply9",
           "pubDate": "2026-03-14T03:22:45.000Z",
@@ -481,6 +511,16 @@
           "pubDate": "2026-03-14T09:07:16.000Z",
           "content": "\n\t因为前一阵子被自己参与的 DAG （有向无环图）系统排错折磨得苦不堪言，才有了这个项目。<br /><br />当时系统涉及几十个节点，排错时需要从 Langfuse 里几十 KB 甚至非常重的 Trace 树中用肉眼找关键节点，经常看花了眼。但在痛苦的过程中，我也意识到：**这种排错其实极度有“套路”。**<br /><br />尤其是前阵子各种 Agent Skill 爆火，当时我就想，为什么不直接给 AI 接上 DB 、Redis 和 Langfuse 的只读接口，然后写一个特定的 Skill （也就是 Runbook 手册）告诉它：<br />*“遇到这样的问题你按这个顺序查，第一步查 Redis ，第二步对比 DB ，第三步去对应的几十 KB 的 Trace 里精准捞出特定的那些关键数据进行分析。”*<br /><br />实际跑通测试下来，效果出奇地好：AI 不再瞎猜，给出的结论极其稳定可信。所以，干脆就把这套方法论抽象了出来，做成了这个独立的框架：`agent-debugger` / `debug-runbook`。<br /><br />GitHub 项目地址：  <br />[<a target=\"_blank\" href=\"https://github.com/UnCooe/debug-runbook\" rel=\"nofollow noopener\">https://github.com/UnCooe/debug-runbook</a>]( <a target=\"_blank\" href=\"https://github.com/UnCooe/debug-runbook\" rel=\"nofollow noopener\">https://github.com/UnCooe/debug-runbook</a>)<br /><br />### 为什么做这个东西？<br /><br />它想解决的问题其实挺具体的。<br /><br />现在很多 AI Agent 的“线上排障”方案，本质上还是把数据库只读账号、日志系统、Tracing 、Redis 这些工具接口一股脑暴露给模型，然后期待它自己查明白。<br /><br />看起来很智能，但实际越做越觉得，这里面有个经常被忽略的关键变量：<br /><br />&gt; **排障能力里最值钱的部分，绝不是工具访问权限，而是调查顺序与证据链条。**<br /><br />一个有经验的后端同学排查问题，脑子里通常不是“有什么工具”，而是：<br />1. 先确认请求到底有没有真的进入主流程<br />2. 再看关键副作用（ Side Effect ）有没有发生<br />3. 再对齐持久化状态 (DB)<br />4. 最后才看 缓存 / 幂等键 / 异步链路 有没有把流程短路<br /><br />这个顺序本身，就是千锤百炼的**排错经验**。<br /><br />而很多 Agent 方案，偏偏把这部分丢了，只剩下“模型自由发挥”。结果就会出现几个典型的高血压名场面：<br />- 工具很多，但调查路径不稳定，每次问法不同，排查步骤也不同；<br />- 模型极容易被大段的 Trace / SQL 结果 / 日志噪音带偏（ Token 直接爆炸💥）；<br />- 它能给出一个“像样的解释”，但证据链根本经不起推敲；<br />- 真到线上大推业务场景时，你完全不敢 audit 它到底凭什么得出的这个结论。<br /><br />### 这个项目做了什么？<br /><br />所以做这个项目时，换了个解法。思路不是“看怎么再封装几个强大的 MCP 调试工具”，而是反向操作：<br /><br />&gt; **把资深工程师的排障套路写成可执行的 YAML Runbook ，强制约束 Agent 先按顺序收集证据，再下结论。**<br /><br />项目的架构骨架大概是这样运作的：<br />- 输入一个事故上下文（比如 `trace_id`、`order_id`、`request_id`）<br />- **选剧本**：引擎先根据症状（ Symptom ）匹配最对口的 Runbook 。<br />- **强制按序执行**：再严格按 Runbook 规定的步骤，顺序调用 Trace / DB / Redis 这些 Adapter 。<br />- **洗数据**：所有 Adapter 返回的原始结果，全部过滤洗干净，归一化成了结构化的 `Evidence`（证据）。<br />- **推断结论**：再把这些证据扔进决策引擎（ Decision Rules ），产出最终包含根因的结构化 Incident Report 。<br /><br />不是让模型像无头苍蝇一样直接面对一地鸡毛的真实状态图，而是先把**“可调查路径”**和**“证据形状”**全都死死限定住。<br /><br />### 核心特性 MVP 验证<br /><br />现在做出来的早期开源版（ MVP ）跑通了几个硬核节点：<br /><br />1. **Runbook Selection**：根据 symptom 和 context 选排查剧本，不是所有问题都一把梭地查全套系统。<br />2. **Ordered Execution**：排查步骤强制有序，不允许 Agent 自己胡乱跳转发散。<br />3. **Evidence Normalization**：不直接把原始 Payload 喂给大模型，而是转成几十个字的统一 Evidence ，保护上下文长度。<br />4. **Decision Rules**：最终出什么结论不靠 LLM 的玄学推理，而是基于收集到的“证据组合”来触发（比如 `A 证据 + B 证据 = C 结论` 成立）。<br />5. **绝对的只读红线**：所有 Adapter 都限制在了只读层。DB 有表名白名单拦截，Redis 限制了 Key 前缀匹配规则，从根本上杜绝大模型在库里“乱挥大刀”。<br /><br />### 真实的 Demo 案例<br /><br />在库里塞了一个最常见的业务 Case Demo：**“订单创建成功了，但下游任务没生成”**（`npm run demo:order-task-missing`）。<br /><br />*   **原生 Agent 的瞎排查**：把几百行的 Trace 读一遍发现没报错，又去扫全表 SQL 搜日志，毫无头绪。<br />*   **在这个 Runbook 框架里**：它老老实实地走了一条固定路径。先扫 Trace ，再看丢失的那一环丢在哪里了，转头查 DB 的订单和任务表比对，最后精准定位到 Redis 里的 Idempotency Key 。通过收集齐这几样证据，得出了极其稳定的结论：<br />    **“请求大概率被 cache / idempotency 状态提前拦截短路了，所以订单尽管落库了，但后续副作用未触发”**。<br /><br />这套逻辑基准的 Benchmark 是全绿通过的。<br /><br />### 欢迎来交流与碰撞<br /><br />这套东西刻意没有往“全自动自发修复线上 Bug”那种吸睛（但现阶段不现实）的方向去靠，因为觉得在复杂的业务黑洞里，**可审计性**与**证据链是否收闭**，远比所谓的“AI 显得很聪明”能落地得多。现在项目已经备齐了 MCP 入口，搭好了引擎的基础结构。<br /><br />V 站的各位老哥/老姐们如果有在这条 AIOps 泥石流里摸爬滚打过的，很想借机探讨几个灵魂拷问：<br /><br />1. 你们团队线上最频繁、最适合被总结成“八股文排错 Runbook”的事故场景是哪一类？<br />2. 在平时的排障中（ Trace / DB / MQ / 日志分析等），你们觉得大模型在哪一层最容易犯浑、被噪声带跑偏？<br />3. 对于生产环境，你是更愿意相信一个“工具自由调用的万能 Agent”，还是“被规范排障手册强约束的 Agent”？<br />4. 如果要把你们老专家脑子里的“祖传排故套路”沉淀成 YAML 代码交接给 AI ，最大的阻力通常是什么？<br /><br />如果觉得这里的实现思想有那么点意思，极其欢迎路过指点，或者试着提 PR 用你们最得意的“排障剧本”砸向。相比多添个连接器，这项目现在最缺的反而是真实战场的经验**剧本**，因为从这个架构看，Adapter 只是干活的苦力，**高度浓缩的 Runbook 才是真正的资产层。**\n\t",
           "author": "bimeixishuai",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Anthropic 家的模型训练与其他家差别大吗？",
+          "link": "https://www.v2ex.com/t/1197976#reply26",
+          "pubDate": "2026-03-13T03:27:44.000Z",
+          "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
+          "author": "Kinnikuman",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -526,16 +566,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
-          "link": "https://www.v2ex.com/t/1198222#reply4",
-          "pubDate": "2026-03-14T03:38:52.000Z",
-          "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
-          "author": "sungnix",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "满勤码神",
           "link": "https://www.v2ex.com/t/1198223#reply4",
           "pubDate": "2026-03-14T03:39:53.000Z",
@@ -551,16 +581,6 @@
           "pubDate": "2026-03-14T03:54:08.000Z",
           "content": "\n\t<p>[阿里云] 尊敬的用户：您的账号 x*k 已产生欠费。您的延停额度为 10.00 元，目前已使用 0.01 元。延停额度用尽后，按量付费产品出账后均会立即进入停服处理流程。请您尽快充值结清欠费账单，以免欠费停服给您带来不必要的损失。您可以通过电脑端登录用户中心，查看明细账单。\n记得去云安全中心检查有没有按量付费</p>\n\n\t",
           "author": "xiongbenwu",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Anthropic 家的模型训练与其他家差别大吗？",
-          "link": "https://www.v2ex.com/t/1197976#reply25",
-          "pubDate": "2026-03-13T03:27:44.000Z",
-          "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
-          "author": "Kinnikuman",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -707,7 +727,7 @@
         },
         {
           "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-          "link": "https://www.v2ex.com/t/1198268#reply4",
+          "link": "https://www.v2ex.com/t/1198268#reply5",
           "pubDate": "2026-03-14T08:28:04.000Z",
           "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
           "author": "apibox",
@@ -794,33 +814,13 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Chroniq - 给 AI Agent 工作流设计的 CLI 日志工具，轻量开源",
-          "link": "https://www.v2ex.com/t/1198119#reply0",
-          "pubDate": "2026-03-13T10:14:06.000Z",
-          "content": "\n\t<p>最近把自己平时记录碎片上下文的小工具整理成了一个开源 CLI ，叫 Chroniq ，现在已经发到 npm 了。</p>\n<p>它不做知识库、不做同步、不做 GUI ，只做一件事：</p>\n<p>把零散上下文快速收进一个稳定、可导出、对 Agent 友好的输入层。</p>\n<p>几个特点：</p>\n<ul>\n<li>本地优先</li>\n<li>CLI 优先</li>\n<li>追加式 JSONL 存储</li>\n<li>输出既适合人读，也适合脚本和 AI 消费</li>\n</ul>\n<p>适合这类场景：</p>\n<ul>\n<li>在终端里随手记一条想法</li>\n<li>记录项目决策、命令输出、临时观察</li>\n<li>把当天上下文直接导给 AI 工作流</li>\n</ul>\n<h2>痛点</h2>\n<p>我的日常工作流重度依赖 AI Agent （ Claude Code 、Codex\n等）。每天需要快速记录碎片想法，然后导出给 AI 做分析和总结。</p>\n<p>现有笔记工具的问题：</p>\n<ol>\n<li>输入太重 — 需要打开 GUI 、选分类、填字段</li>\n<li>导出太封闭 — 数据锁在 app 里，喂给 AI 很麻烦</li>\n<li>不 CLI-first — 和终端工作流格格不入</li>\n</ol>\n<h2>解法</h2>\n<p>Chroniq 只做两件事：快速记录 + JSON 导出。</p>\n<pre><code class=\"language-bash\"># 3 秒记完\ncq add \"讨论了 CLI 输入设计 #idea\"\n\n# 直接喂给 AI\ncq today --json | your-ai-tool\n\n# 批量输入（打开编辑器）\ncq add\n\n# 导出所有\ncq export --format json\n\n数据格式是本地 JSONL ，每天一个文件，追加写入，不修改不删除。\n\n</code></pre>\n<p>欢迎贡献</p>\n<p>已经自用一段时间，核心流程稳定。开源出来想和大家一起验证：Agent\n时代的个人工具最小必要形态是什么？</p>\n<p>特别欢迎：</p>\n<ul>\n<li>使用场景和痛点反馈（ Issue ）</li>\n<li>核心流程优化（ PR ）</li>\n<li>和你自己的 Agent 工作流对接的经验</li>\n</ul>\n<p>GitHub: <a href=\"https://github.com/Hazel-Lin/chroniq\" rel=\"nofollow\">https://github.com/Hazel-Lin/chroniq</a></p>\n<p>想听听大家对“agent-native context capture”这个方向的反馈。</p>\n\n\t",
-          "author": "hazellin549",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "从智谱 agent 发现了个 skills 文件夹，不知道是不是内部的 skills，大家来看看",
-          "link": "https://www.v2ex.com/t/1197956#reply10",
-          "pubDate": "2026-03-13T02:59:33.000Z",
-          "content": "\n\t扒下来的整个流程很简单：智谱的 Agent 模式本身运行在云主机上，我们可以让它输出当前的文件结构。通过查看结构，你会发现一个名为 skills 的文件夹。只需让 Agent 将该文件夹打包，然后下载即可。贴一段 skills 描述<br />┌─────────────────────────────────────────────┐<br />│            硬件配置详情                       │<br />├─────────────────────────────────────────────┤<br />│  CPU:   Intel Xeon Processor (4 核)          │<br />│  内存:  8 GB                                │<br />│  磁盘:  ~10 GB                              │<br />│  系统:  Linux (Alibaba Cloud Linux)         │<br />│  运行时: Bun                                │<br />│  端口:  3000                                │<br />└─────────────────────────────────────────────┘<br /><br /><a target=\"_blank\" href=\"https://i.imgur.com/w3471Fz.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/w3471Fz.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /><a target=\"_blank\" href=\"https://i.imgur.com/vTZTYzX.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/vTZTYzX.png\" class=\"embedded_image\" rel=\"noreferrer\"></a>\n\t",
-          "author": "qaq13037",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-15T04:25:36.302Z",
+      "lastUpdated": "2026-03-15T06:01:12.534Z",
       "items": [
         {
           "title": "偷来梨蕊三分白，借得梅花一缕魂",
@@ -846,6 +846,16 @@
           "title": "无私的光",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
           "pubDate": "2026-03-14 08:17:45",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "数理历史之三定律",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
+          "pubDate": "2026-03-14 09:51:00",
           "content": "",
           "author": "",
           "categories": [],
@@ -883,16 +893,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "数理历史之三定律",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=275648&do=blog&id=1525737",
-          "pubDate": "2026-03-14 09:51:00",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "苦苣菜：本草济世三千年，苦菜留香二月天",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525753",
           "pubDate": "2026-03-14 12:45:25",
@@ -916,6 +916,26 @@
           "title": "杂说蔬菜（3）青菜",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
           "pubDate": "2026-03-14 07:40:31",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
+          "pubDate": "2026-03-14 12:14:59",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "西双版纳（Bird- Watching in Yunnan）",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2048045&do=blog&id=1525774",
+          "pubDate": "2026-03-14 06:29:24",
           "content": "",
           "author": "",
           "categories": [],
@@ -953,9 +973,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第十六章 玉米田里的先知：麦克林托克与基因的革命",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525751",
-          "pubDate": "2026-03-14 12:14:59",
+          "title": "刚才，我可能见证了一个伟大的时刻",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525763",
+          "pubDate": "2026-03-14 04:53:24",
           "content": "",
           "author": "",
           "categories": [],
@@ -963,9 +983,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "西双版纳（Bird- Watching in Yunnan）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2048045&do=blog&id=1525774",
-          "pubDate": "2026-03-14 06:29:24",
+          "title": "科学网图谋博客的社会影响",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525785",
+          "pubDate": "2026-03-14 09:39:53",
           "content": "",
           "author": "",
           "categories": [],
@@ -983,39 +1003,19 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
-          "pubDate": "2026-03-14 11:23:12",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "刚才，我可能见证了一个伟大的时刻",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525763",
-          "pubDate": "2026-03-14 04:53:24",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "最好的早餐",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525729",
-          "pubDate": "2026-03-14 07:57:01",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "如何区分梅花、樱花、桃花、李花、梨花、杏花、海棠花和美人梅！",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3319332&do=blog&id=1525741",
           "pubDate": "2026-03-14 10:40:29",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第十三章 大陆漂移的流放：魏格纳的越界与地质学的封闭",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525746",
+          "pubDate": "2026-03-14 11:23:12",
           "content": "",
           "author": "",
           "categories": [],
@@ -1027,7 +1027,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-15T04:25:38.624Z",
+      "lastUpdated": "2026-03-15T06:01:14.971Z",
       "items": [
         {
           "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
@@ -1234,7 +1234,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-15T04:25:40.551Z",
+      "lastUpdated": "2026-03-15T06:01:17.186Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1277,6 +1277,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "真“颅内高潮” (评论: 至尊马蒂)",
+          "link": "https://movie.douban.com/review/17504199/",
+          "pubDate": "Sun, 15 Mar 2026 01:21:35 GMT",
+          "content": "\nJH评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.dou...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "Delahaye评《摩登青年》 （机翻） (评论: 摩登青年)",
           "link": "https://movie.douban.com/review/17502421/",
           "pubDate": "Fri, 13 Mar 2026 19:14:12 GMT",
@@ -1301,16 +1311,6 @@
           "link": "https://movie.douban.com/review/17504089/",
           "pubDate": "Sat, 14 Mar 2026 20:05:05 GMT",
           "content": "\n两只青蛙跳下锅评论: 公民凯恩 (https://movie.douban.com/subject/1292288/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5982\\u679c\\u8fd9\\u90e8\\u821e\\u5...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "真“颅内高潮” (评论: 至尊马蒂)",
-          "link": "https://movie.douban.com/review/17504199/",
-          "pubDate": "Sun, 15 Mar 2026 01:21:35 GMT",
-          "content": "\nJH评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;10&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.dou...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1442,20 +1442,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-15T04:25:41.645Z",
+      "lastUpdated": "2026-03-15T06:01:18.420Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-15T04:25:41.967Z",
+      "lastUpdated": "2026-03-15T06:01:18.633Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-15T04:25:42.636Z",
+      "lastUpdated": "2026-03-15T06:01:19.127Z",
       "items": [
         {
           "title": "无题",
