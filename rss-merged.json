@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-15T21:20:18.670Z",
+  "lastUpdated": "2026-03-15T22:18:53.820Z",
   "totalItems": 143,
   "items": [
+    {
+      "title": "程序员在加拿大读书，有什么远程副业可以做？",
+      "link": "https://www.v2ex.com/t/1198493#reply2",
+      "pubDate": "2026-03-15T21:30:50.000Z",
+      "content": "\n\t<p>我现在在加拿大读一年制硕士项目。每周只有周二、周四晚上有课，其他时间基本都可以工作。</p>\n<p>想问问大家：</p>\n<ul>\n<li>\n<p>在国外读书期间，有没有比较现实的副业渠道？</p>\n</li>\n<li>\n<p>程序员远程接单一般在哪些平台？</p>\n</li>\n<li>\n<p>有没有适合在海外做的互联网副业？</p>\n</li>\n</ul>\n<p>如果有类似经历，也欢迎分享一下经验。</p>\n<p>谢谢大家 🙏</p>\n\n\t",
+      "author": "tuuuz",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "从一个小功能的实现来看免费 Gemini 和 ChatGPT 的表现",
       "link": "https://www.v2ex.com/t/1198490#reply2",
@@ -154,7 +164,7 @@
     },
     {
       "title": "你认为的最强编程 AI 工具？",
-      "link": "https://www.v2ex.com/t/1198412#reply36",
+      "link": "https://www.v2ex.com/t/1198412#reply37",
       "pubDate": "2026-03-15T08:37:18.000Z",
       "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
       "author": "junwind",
@@ -224,7 +234,7 @@
     },
     {
       "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
-      "link": "https://www.v2ex.com/t/1198393#reply16",
+      "link": "https://www.v2ex.com/t/1198393#reply17",
       "pubDate": "2026-03-15T06:42:20.000Z",
       "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
       "author": "Chippy",
@@ -332,6 +342,16 @@
       "title": "科学史中的教训：第十七章 实验的伦理：从纽伦堡到斯坦福监狱",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525839",
       "pubDate": "2026-03-15 02:48:10",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "Kimi回答：卡达诺夫做出了伟大的发现，但是为什么没有获得诺贝尔物理学奖？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525838",
+      "pubDate": "2026-03-15 02:41:11",
       "content": "",
       "author": "",
       "categories": [],
@@ -629,16 +649,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "Kimi观点：活性算法带给这个世界的变化，将比过去所有的科学还要多",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525771",
-      "pubDate": "2026-03-14 05:49:24",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
       "link": "https://www.v2ex.com/t/1198233#reply6",
       "pubDate": "2026-03-14T04:36:21.000Z",
@@ -922,16 +932,6 @@
       "pubDate": "2026-03-13T04:30:19.000Z",
       "content": "\n\t<p>大家好，想请教一下大家都是怎么搭建个人知识库的。我这边有不少本地文件（主要是论文）。虽然现在像 Perplexity 这样的 AI 工具有很强的搜索能力，但我还是希望能搭建一个既能自定义联网资源，又能利用本地数据的知识库。目前在用 Notion ，不过每次都要手动粘贴内容挺麻烦的。像 NotebookLM 这种工具对上传文件数量有限制，所以暂时不考虑。我刚买了一台 512G 的 mini ，更倾向于搭建本地知识库。</p>\n\n\t",
       "author": "elliszkn",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "[开源] OpenLegs：给那些觉得小龙虾“两只钳子”不够用的朋友们准备了 88 条腿",
-      "link": "https://www.v2ex.com/t/1197981#reply6",
-      "pubDate": "2026-03-13T03:49:59.000Z",
-      "content": "\n\t<p>最近看全网都在给各种 AI Agent 疯狂打 Call ，尤其是那只小龙虾（ OpenClaw ）。</p>\n<p>于是，我写了个 <strong>OpenLegs</strong> (小蜈蚣)，没什么生产力，主打一个好玩。</p>\n<p><strong>这个小东西是怎么运作的：</strong></p>\n<ul>\n<li><strong>真·随机大脑</strong>：它没有集成什么大模型，里面跑的就是纯随机数。既然很多人分不清 AI 幻觉和真实逻辑，那我觉得随机数反而更诚实——它至少不骗你它懂。</li>\n<li><strong>只跑路，不接管</strong>：小龙虾想要你的控制权，小蜈蚣只想带你跑路。它没有任何系统权限需求，因为我的 88 条腿觉得把钥匙交给一个刚出生的脚本，真的不稳。</li>\n<li><strong>专门治愈“Agent 焦虑”</strong>：很多人觉得 Agent 动起来世界就美好了，但说实话，自动化地产生废话，只会让信息垃圾堆得更快。</li>\n</ul>\n<p>这项目没什么大志向，就是想给这股 AI 狂热火上浇油。与其说它是个工具，不如说它是个<strong>智商提醒插件</strong>。</p>\n\n\t",
-      "author": "kaliawngV2",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
