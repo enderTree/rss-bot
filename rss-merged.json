@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-03-15T08:27:07.928Z",
-  "totalItems": 143,
+  "lastUpdated": "2026-03-15T09:25:59.390Z",
+  "totalItems": 133,
   "items": [
     {
+      "title": "我咋感觉 1m 上下文的 opus 4.6 比 200k 上下文的 opus 4.6 要笨一点",
+      "link": "https://www.v2ex.com/t/1198422#reply1",
+      "pubDate": "2026-03-15T09:19:42.000Z",
+      "content": "\n\t<p>试用了一下 1m 上下文的 opus 4.6 ，写个计划改了两三次，但之前用 200k 的 opus 4.6 基本是一次过。</p>\n<p>是我的错觉吗？</p>\n\n\t",
+      "author": "milkleeeeee",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "你认为的最强编程 AI 工具？",
+      "link": "https://www.v2ex.com/t/1198412#reply1",
+      "pubDate": "2026-03-15T08:37:18.000Z",
+      "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
+      "author": "junwind",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
-      "link": "https://www.v2ex.com/t/1198405#reply2",
+      "link": "https://www.v2ex.com/t/1198405#reply14",
       "pubDate": "2026-03-15T08:02:11.000Z",
       "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
       "author": "YanSeven",
@@ -14,13 +34,23 @@
     },
     {
       "title": "AI 带来了知识平权这一说法有点扯淡",
-      "link": "https://www.v2ex.com/t/1198399#reply1",
+      "link": "https://www.v2ex.com/t/1198399#reply2",
       "pubDate": "2026-03-15T07:49:33.000Z",
       "content": "\n\t<p>AI 带来了信息获取能力的平权，可以实现“知其然”的平权，但无法实现“知其所以然”的平权</p>\n\n\t",
       "author": "red13",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "鹧鸪天  三月雪",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
+      "pubDate": "2026-03-15 07:47:09",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "Windows 开发真的太难了！所以自己用 Rust 搓了个 win 版 tmux，开源免费",
@@ -44,7 +74,7 @@
     },
     {
       "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
-      "link": "https://www.v2ex.com/t/1198393#reply4",
+      "link": "https://www.v2ex.com/t/1198393#reply7",
       "pubDate": "2026-03-15T06:42:20.000Z",
       "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
       "author": "Chippy",
@@ -54,7 +84,7 @@
     },
     {
       "title": "廉价家宽 IP 推荐",
-      "link": "https://www.v2ex.com/t/1198391#reply2",
+      "link": "https://www.v2ex.com/t/1198391#reply3",
       "pubDate": "2026-03-15T06:33:02.000Z",
       "content": "\n\t直播用, 亚洲国家\n\t",
       "author": "Hermitist",
@@ -74,13 +104,23 @@
     },
     {
       "title": "有什么网站提供人工智能学习且能够有老师答疑的",
-      "link": "https://www.v2ex.com/t/1198381#reply12",
+      "link": "https://www.v2ex.com/t/1198381#reply13",
       "pubDate": "2026-03-15T05:36:30.000Z",
       "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
       "author": "hiboshi",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "《小雨愛蜜莉》：童趣的視角，歷史的回聲 (评论: 你好，爱美丽)",
+      "link": "https://movie.douban.com/review/17504506/",
+      "pubDate": "Sun, 15 Mar 2026 05:32:31 GMT",
+      "content": "\nPuff评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "以无声为刃，照见人性深渊 (评论: 无声言证)",
@@ -94,7 +134,7 @@
     },
     {
       "title": "nas 备份了照片，手机上直接删除吗",
-      "link": "https://www.v2ex.com/t/1198378#reply17",
+      "link": "https://www.v2ex.com/t/1198378#reply18",
       "pubDate": "2026-03-15T04:34:37.000Z",
       "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
       "author": "miusmile",
@@ -127,16 +167,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "消化不良 (评论: 塞琳和朱莉出航记)",
-      "link": "https://movie.douban.com/review/17504260/",
-      "pubDate": "Sun, 15 Mar 2026 02:28:41 GMT",
-      "content": "\nchin评论: 塞琳和朱莉出航记 (https://movie.douban.com/subject/1418141/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5f53\\u4e00\\u4e2a\\u5bfc\\u6f14\\u8...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -190,7 +220,7 @@
     },
     {
       "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
-      "link": "https://www.v2ex.com/t/1198345#reply19",
+      "link": "https://www.v2ex.com/t/1198345#reply20",
       "pubDate": "2026-03-14T18:24:10.000Z",
       "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
       "author": "seeksky",
@@ -220,7 +250,7 @@
     },
     {
       "title": "独立开发收款方案",
-      "link": "https://www.v2ex.com/t/1198323#reply23",
+      "link": "https://www.v2ex.com/t/1198323#reply24",
       "pubDate": "2026-03-14T14:46:35.000Z",
       "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
       "author": "trumpmaga",
@@ -230,20 +260,10 @@
     },
     {
       "title": "手搓了最喜欢的 Android 软件， GestureExplode",
-      "link": "https://www.v2ex.com/t/1198317#reply3",
+      "link": "https://www.v2ex.com/t/1198317#reply4",
       "pubDate": "2026-03-14T14:13:50.000Z",
       "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
       "author": "colorbeta",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "目前购买 Claude 官方 key 有哪个渠道可靠又省事？",
-      "link": "https://www.v2ex.com/t/1198311#reply2",
-      "pubDate": "2026-03-14T13:39:42.000Z",
-      "content": "\n\t工作中需要不能转接，求求了\n\t",
-      "author": "shyrock",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -440,7 +460,7 @@
     },
     {
       "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-      "link": "https://www.v2ex.com/t/1198268#reply7",
+      "link": "https://www.v2ex.com/t/1198268#reply8",
       "pubDate": "2026-03-14T08:28:04.000Z",
       "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
       "author": "apibox",
@@ -462,16 +482,6 @@
       "title": "顶级科学家需要的两项技能",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525730",
       "pubDate": "2026-03-14 07:59:26",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "咏鹤寄怀",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525728",
-      "pubDate": "2026-03-14 07:48:38",
       "content": "",
       "author": "",
       "categories": [],
@@ -669,16 +679,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "增强的语音识别下载失败求助",
-      "link": "https://www.v2ex.com/t/1198200#reply1",
-      "pubDate": "2026-03-14T00:06:35.000Z",
-      "content": "\n\t增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！\n\t",
-      "author": "dangotown",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Nathan Rogers-Hancock 评《Etoile Violette》 （机翻） (评论: Etoile Violette)",
       "link": "https://movie.douban.com/review/17502423/",
       "pubDate": "Fri, 13 Mar 2026 19:21:38 GMT",
@@ -729,26 +729,6 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "请问 V 友们工作上一些项目中敏感信息存哪",
-      "link": "https://www.v2ex.com/t/1198153#reply12",
-      "pubDate": "2026-03-13T13:18:25.000Z",
-      "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
-      "author": "zonas",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-      "link": "https://www.v2ex.com/t/1198139#reply11",
-      "pubDate": "2026-03-13T11:49:06.000Z",
-      "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
-      "author": "z1s23",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "《ONE PIECE》真人版第二季进步太大了！ (评论: 海贼王(真人版) 第二季)",
       "link": "https://movie.douban.com/review/17501873/",
       "pubDate": "Fri, 13 Mar 2026 11:42:44 GMT",
@@ -788,41 +768,11 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "为什么 iPhone 上看抖音， macbook dock 上会弹出来 chrome 图标，点开是抖音？",
-      "link": "https://www.v2ex.com/t/1198118#reply6",
-      "pubDate": "2026-03-13T10:12:19.000Z",
-      "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/TULQznT.png\"/> </p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/RTduICW.png\"/> </p>\n<p>这是什么黑科技啊？</p>\n\n\t",
-      "author": "14night",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "antigravity 5h 刷新改回来了",
-      "link": "https://www.v2ex.com/t/1198112#reply19",
-      "pubDate": "2026-03-13T09:52:42.000Z",
-      "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
-      "author": "LaughingCat",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
       "link": "https://www.v2ex.com/t/1198110#reply36",
       "pubDate": "2026-03-13T09:48:07.000Z",
       "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
       "author": "gefangshuai",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "安卓假如放弃 root 的话，建议买哪家？",
-      "link": "https://www.v2ex.com/t/1198090#reply28",
-      "pubDate": "2026-03-13T08:36:25.000Z",
-      "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
-      "author": "LaTero",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -839,7 +789,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply87",
+      "link": "https://www.v2ex.com/t/1198056#reply88",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -897,51 +847,11 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "[开源] OpenLegs：给那些觉得小龙虾“两只钳子”不够用的朋友们准备了 88 条腿",
-      "link": "https://www.v2ex.com/t/1197981#reply6",
-      "pubDate": "2026-03-13T03:49:59.000Z",
-      "content": "\n\t<p>最近看全网都在给各种 AI Agent 疯狂打 Call ，尤其是那只小龙虾（ OpenClaw ）。</p>\n<p>于是，我写了个 <strong>OpenLegs</strong> (小蜈蚣)，没什么生产力，主打一个好玩。</p>\n<p><strong>这个小东西是怎么运作的：</strong></p>\n<ul>\n<li><strong>真·随机大脑</strong>：它没有集成什么大模型，里面跑的就是纯随机数。既然很多人分不清 AI 幻觉和真实逻辑，那我觉得随机数反而更诚实——它至少不骗你它懂。</li>\n<li><strong>只跑路，不接管</strong>：小龙虾想要你的控制权，小蜈蚣只想带你跑路。它没有任何系统权限需求，因为我的 88 条腿觉得把钥匙交给一个刚出生的脚本，真的不稳。</li>\n<li><strong>专门治愈“Agent 焦虑”</strong>：很多人觉得 Agent 动起来世界就美好了，但说实话，自动化地产生废话，只会让信息垃圾堆得更快。</li>\n</ul>\n<p>这项目没什么大志向，就是想给这股 AI 狂热火上浇油。与其说它是个工具，不如说它是个<strong>智商提醒插件</strong>。</p>\n\n\t",
-      "author": "kaliawngV2",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "Anthropic 家的模型训练与其他家差别大吗？",
       "link": "https://www.v2ex.com/t/1197976#reply26",
       "pubDate": "2026-03-13T03:27:44.000Z",
       "content": "\n\t<p>大家都知道 Anthropic 家的模型，尤其是 Opus 的实力，在编码的实际体验中是最强的，没有之一。即使拿 gemini3.1pro 和 gpt5.3codex 比，这俩也是比不上它一点。</p>\n<p>除了编码，大家跑龙虾也能感觉出来差别很大，尤其是多步骤工具链的复杂任务只有 opus 能完美胜任，opus 画的 svg 动效流程图也是比新的 gemini 强很多。</p>\n<p>我的问题是，公开互联网训练数据大家都是一样的，各家的 RL 也差不离（这点应该没什么技术壁垒），经济实力上 OpenAI/Google 应该更有优势，那为什么训练出来的大模型只有 opus 家最强？</p>\n<p>是 Anthropic 家训练更强调代码能力，侧重点不同导致的吗？</p>\n\n\t",
       "author": "Kinnikuman",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
-      "link": "https://www.v2ex.com/t/1197941#reply14",
-      "pubDate": "2026-03-13T02:30:51.000Z",
-      "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
-      "author": "pc10201",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "安装 Claude Code 后无法配置第三方 API",
-      "link": "https://www.v2ex.com/t/1197932#reply7",
-      "pubDate": "2026-03-13T02:11:13.000Z",
-      "content": "\n\t<p>使用 <code>irm <a href=\"https://claude.ai/install.ps1\" rel=\"nofollow\">https://claude.ai/install.ps1</a> | iex</code> 安装后，在 <code>~/.bashrc</code> 配置 API</p>\n<pre><code>export ANTHROPIC_BASE_URL=\"https://api.poe.com\"\nexport ANTHROPIC_AUTH_TOKEN=\"$POE_API_KEY\"\nexport ANTHROPIC_API_KEY=\"\" # Important: Must be explicitly empty\n</code></pre>\n<p>但是启动 Claude Code 后只能 3 个选项</p>\n<pre><code> Claude Code can be used with your Claude subscription or billed based on API usage through your Console\n  account.\n\n Select login method:\n\n   1. Claude account with subscription · Pro, Max, Team, or Enterprise\n\n   2. Anthropic Console account · API usage billing\n\n &gt; 3. 3rd-party platform · Amazon Bedrock, Microsoft Foundry, or Vertex AI\n\n</code></pre>\n<p>选 1 ，2 需要登录 Anthropic </p>\n<p>选 3 后</p>\n<pre><code>Using 3rd-party platforms\n\n Claude Code supports Amazon Bedrock, Microsoft Foundry, and Vertex AI. Set the required environment\n variables, then restart Claude Code.\n\n If you are part of an enterprise organization, contact your administrator for setup instructions.\n\n\n Documentation:\n · Amazon Bedrock: https://code.claude.com/docs/en/amazon-bedrock\n · Microsoft Foundry: https://code.claude.com/docs/en/microsoft-foundry\n · Vertex AI: https://code.claude.com/docs/en/google-vertex-ai\n\n\n Press Enter to go back to login options.\n\n</code></pre>\n<p>Claude Code v2.1.74</p>\n\n\t",
-      "author": "commoccoom",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-      "link": "https://www.v2ex.com/t/1197879#reply69",
-      "pubDate": "2026-03-13T00:29:28.000Z",
-      "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
-      "author": "mcfever",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -1081,16 +991,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-      "link": "https://www.v2ex.com/t/1197595#reply66",
-      "pubDate": "2026-03-12T00:55:22.000Z",
-      "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
-      "author": "mrsbryant",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "限免：iOS 解压缩工具 Unzip Fast，支持 RAR/7z，界面简洁",
