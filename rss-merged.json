@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-03-15T19:21:50.309Z",
+  "lastUpdated": "2026-03-15T20:19:15.954Z",
   "totalItems": 133,
   "items": [
+    {
+      "title": "从一个小功能的实现来看免费 Gemini 和 ChatGPT 的表现",
+      "link": "https://www.v2ex.com/t/1198490#reply2",
+      "pubDate": "2026-03-15T20:04:05.000Z",
+      "content": "\n\t前几天有个 a4 pdf 的 iOS 限免，正巧作为小学生的小朋友有把长截图转成 pdf 然后打印的这个需求，下载后发现那个 app 就是接近于垃圾，不光把长截图放在一页 pdf 上，并不能切割成多页，而且因为人为缩小，清晰的图片成了毛玻璃。<br />今天周末小朋友来我这里玩，我于是建议小朋友自己通过 ai 来实现这个功能。<br />小朋友自己的 iPhone 上有梯子且熟练使用，寒假也注册并登录了 Gemini 、ChatGPT 等，听我建议不错，于是没有我任何指导，完全不懂编程的小朋友自个儿开干。<br />首先打开的 Gemini ，用 fast 模式，小朋友记录下 iPhone 相册里其中一张长截图的宽✖️长的数值，和 ai 说自己 iPhone 上有这么个宽长的图片，希望能根据自己输入的宽长，分割成几张图片，并且把图片转成 pdf 好打印。<br />Gemini 建议 html5j+js 方案，并且吧啦吧啦生成了源码，还贴心地告诉小朋友怎么拷贝源码保存在 iPhone“文件“app 中，最后浏览器打开并通过共享变成 iPhone 主屏的一个应用。<br />gemini 一气呵成的果然能一次运行并达到了小朋友的需求，接下来小朋友添加了一些需求和修改意见，也基本正常实现。<br />然后，小朋友把 Gemini 生成的源码打开 ChatGPT 并输入让 ai 检查代码是不是完全正确，如果正确请在代码后添加解说（）注释。<br />ChatGPT 表示程序很不错，但是它能提高好几倍的效率，还有其它优化，牛吹得小朋友期望很高，然后四五个回合，正确的代码不能正确运行，而且已有的功能和界面也被 ChatGPT 缺失或者错位，不得已小朋友请我帮忙，才总算在免费额度用完之前 ChatGPT 出来了一个正常运行的版本。<br />仅就这个经历的个人感觉，同样免费版的 Gemini 看起来要比 ChatGPT 强大且准确度高。另外也感叹，完全没有编程基础的个位数小孩，也能凭自己的聊天，得到完美符合自己需求的小工具了，大把普通的 iOS （安卓） app 估计越来越没多少生存空间了。<br />btw ，总结下小朋友自己迭代聊天后满足的需求：<br />1️⃣从 iPhone 的“文件”、相册、拍照三种方式导入图片<br />2️⃣导入后，界面显示照片的如分辨率、拍摄时间等某些拍摄信息（小朋友不知道 exif 这个词）<br />3️⃣界面给出宽、长数值的手工输入，同时旁边有长宽比锁定下拉框（不锁定、2:3 、3:2……A4 幅面），根据长宽比选项，输入一个数值，另一个联动<br />4️⃣界面给出自定义图片名称，旁边有下拉框供选择分割后的几种图片格式，分割后图片名为自定义图片名称➕序号<br />5️⃣点“处理”按钮后，出现一个按钮为“图片压缩成一个文件”（ Gemini 建议做的），另一个按钮是“转成 PDF”，旁边下拉框可以选择每页一张，每页两张，每页 2✖️2 四张，每页六张。<br />这两种方式都可以把 zip 和 pdf 保存到“文件”app 里。<br />6️⃣界面在点了“处理”按钮后，还同时会显示所有分割后形成的图片文件，图片下面显示带序号的文件名，Gemini 教小朋友长按具体图片来保存单张图片到“相册”\n\t",
+      "author": "gigishy",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
     {
       "title": "很奇怪和诡异的一个传统 UDP 53 的 DNS 调度解析 和 HTTPDNS 的调度解析域名的问题？",
       "link": "https://www.v2ex.com/t/1198463#reply2",
@@ -214,7 +224,7 @@
     },
     {
       "title": "现在购买 ssl 证书最具性价比的方案是什么？",
-      "link": "https://www.v2ex.com/t/1198387#reply23",
+      "link": "https://www.v2ex.com/t/1198387#reply24",
       "pubDate": "2026-03-15T06:18:12.000Z",
       "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
       "author": "uni",
@@ -367,6 +377,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "《伊芙琳》中一处翻译的错误 (评论: 都柏林人)",
+      "link": "https://book.douban.com/review/17504179/",
+      "pubDate": "Sun, 15 Mar 2026 00:45:01 GMT",
+      "content": "\n支离疏（梁起）评论: 都柏林人 (https://book.douban.com/subject/4908872/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;l0fp&#34;,&#34;text&#34;:&#34;小说中有介绍伊芙琳和父亲关系的一段文字，王逢振的译文是：&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRa...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
     },
     {
       "title": "《魂断今宵》评论：雅克·里维特论场面调度、千浦僚论表演、克里斯·藤原论主题 (评论: 魂断今宵)",
@@ -669,6 +689,16 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "中世（纪） (评论: 中世日本的神、佛与王权)",
+      "link": "https://book.douban.com/review/17502637/",
+      "pubDate": "Sat, 14 Mar 2026 03:24:53 GMT",
+      "content": "\n天鹅骑士奥尔加评论: 中世日本的神、佛与王权 (https://book.douban.com/subject/36404996/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aljek&#34;,&#34;text&#34;:&#34;非常精耕细作的政治思想史研究，导致虽然篇幅不长但是看了很久。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRan...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣书评",
+      "sourceUrl": "https://www.douban.com/feed/review/book"
+    },
+    {
       "title": "前传的用途 (评论: 青年夏洛克)",
       "link": "https://movie.douban.com/review/17502631/",
       "pubDate": "Sat, 14 Mar 2026 03:21:25 GMT",
@@ -756,16 +786,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "antigravity 5h 刷新改回来了",
-      "link": "https://www.v2ex.com/t/1198112#reply20",
-      "pubDate": "2026-03-13T09:52:42.000Z",
-      "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
-      "author": "LaughingCat",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
@@ -1023,16 +1043,6 @@
       "sourceUrl": "https://feeds.appinn.com/appinns/"
     },
     {
-      "title": "“在混沌岁月，贝壳常常引领我们发现真理” (评论: 影响人类文明的13种贝壳)",
-      "link": "https://book.douban.com/review/17498602/",
-      "pubDate": "Wed, 11 Mar 2026 02:47:57 GMT",
-      "content": "\n商务印书馆评论: 影响人类文明的13种贝壳 (https://book.douban.com/subject/38179569/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;a5o5c&#34;,&#34;text&#34;:&#34;  &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
       "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
       "link": "https://movie.douban.com/review/17498310/",
       "pubDate": "Tue, 10 Mar 2026 16:20:38 GMT",
@@ -1127,16 +1137,6 @@
       "link": "https://book.douban.com/review/17489486/",
       "pubDate": "Thu, 05 Mar 2026 03:16:28 GMT",
       "content": "\n东来评论: 她和她的决心 (https://book.douban.com/subject/38178826/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;2pje1&#34;,&#34;text&#34;:&#34;  此篇为这本小说集的后记&#34;,&#34;type&#34;:&#34;blockquote&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;1enh...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣书评",
-      "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "以赛亚·伯林与托尔斯泰：二十世纪知识人命运的两种抉择 (评论: 刺猬与狐狸)",
-      "link": "https://book.douban.com/review/17488217/",
-      "pubDate": "Wed, 04 Mar 2026 04:17:38 GMT",
-      "content": "\n新京报书评周刊评论: 刺猬与狐狸 (https://book.douban.com/subject/37229994/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e79i5&#34;,&#34;text&#34;:&#34;“狐狸多知，而刺猬有一大知。”&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;align&#34;:&#34;&#34;,&#34;pa...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣书评",
