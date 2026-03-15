@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-15T11:19:06.021Z",
+  "lastUpdated": "2026-03-15T12:33:06.386Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-15T11:18:52.222Z",
+      "lastUpdated": "2026-03-15T12:32:54.365Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-15T11:18:53.221Z",
+      "lastUpdated": "2026-03-15T12:32:55.243Z",
       "items": [
         {
           "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-15T11:18:53.362Z",
+      "lastUpdated": "2026-03-15T12:32:55.301Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-15T11:18:55.269Z",
+      "lastUpdated": "2026-03-15T12:32:57.104Z",
       "items": [
         {
           "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
@@ -313,14 +313,104 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-15T11:18:55.428Z",
+      "lastUpdated": "2026-03-15T12:32:57.226Z",
       "items": [
         {
           "title": "你认为的最强编程 AI 工具？",
-          "link": "https://www.v2ex.com/t/1198412#reply9",
+          "link": "https://www.v2ex.com/t/1198412#reply13",
           "pubDate": "2026-03-15T08:37:18.000Z",
           "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
           "author": "junwind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "现在购买 ssl 证书最具性价比的方案是什么？",
+          "link": "https://www.v2ex.com/t/1198387#reply14",
+          "pubDate": "2026-03-15T06:18:12.000Z",
+          "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
+          "author": "uni",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "nas 备份了照片，手机上直接删除吗",
+          "link": "https://www.v2ex.com/t/1198378#reply22",
+          "pubDate": "2026-03-15T04:34:37.000Z",
+          "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
+          "author": "miusmile",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "通过 vibe coding 能对 ruoyi ai 二次开发吗，做点自己的应用， Java 能力只限于本科学的那点",
+          "link": "https://www.v2ex.com/t/1198440#reply1",
+          "pubDate": "2026-03-15T12:12:03.000Z",
+          "content": "\n\t<p>现在是有想法，直接纯对话 ai 从零开始完成，并且可以得到想要的结果，但是没用过专业的框架，想试试</p>\n\n\t",
+          "author": "2757809858",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "前段时间被封的搬瓦工居然被解封了",
+          "link": "https://www.v2ex.com/t/1198434#reply5",
+          "pubDate": "2026-03-15T11:32:37.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/KKZWd4J.png\"/> </p>\n<p>之前一直以为封了就只能付费换 IP 了，会议期间最开始是没有被封的，我估计是我朋友他们看视频流量过大导致被封的。</p>\n<p>上周天封，今天看已经可以直连 ping 通了。不过另外一台搬瓦工的 ping 不通，还有一台亚马逊的也能 ping 通了。</p>\n\n\t",
+          "author": "SilenceLL",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "廉价家宽 IP 推荐",
+          "link": "https://www.v2ex.com/t/1198391#reply7",
+          "pubDate": "2026-03-15T06:33:02.000Z",
+          "content": "\n\t直播用, 亚洲国家\n\t",
+          "author": "Hermitist",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
+          "link": "https://www.v2ex.com/t/1198056#reply90",
+          "pubDate": "2026-03-13T07:15:35.000Z",
+          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
+          "author": "Chicagoake",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "我咋感觉 1m 上下文的 opus 4.6 比 200k 上下文的 opus 4.6 要笨一点",
+          "link": "https://www.v2ex.com/t/1198422#reply4",
+          "pubDate": "2026-03-15T09:19:42.000Z",
+          "content": "\n\t<p>试用了一下 1m 上下文的 opus 4.6 ，写个计划改了两三次，但之前用 200k 的 opus 4.6 基本是一次过。</p>\n<p>是我的错觉吗？</p>\n\n\t",
+          "author": "milkleeeeee",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
+          "link": "https://www.v2ex.com/t/1198405#reply20",
+          "pubDate": "2026-03-15T08:02:11.000Z",
+          "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
+          "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "有什么网站提供人工智能学习且能够有老师答疑的",
+          "link": "https://www.v2ex.com/t/1198381#reply16",
+          "pubDate": "2026-03-15T05:36:30.000Z",
+          "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
+          "author": "hiboshi",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -336,16 +426,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "nas 备份了照片，手机上直接删除吗",
-          "link": "https://www.v2ex.com/t/1198378#reply21",
-          "pubDate": "2026-03-15T04:34:37.000Z",
-          "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
-          "author": "miusmile",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "使用 OpenClaw+Skill 自动发布微信公众号文章",
           "link": "https://www.v2ex.com/t/1198431#reply0",
           "pubDate": "2026-03-15T10:51:54.000Z",
@@ -356,58 +436,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
-          "link": "https://www.v2ex.com/t/1198405#reply15",
-          "pubDate": "2026-03-15T08:02:11.000Z",
-          "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
-          "author": "YanSeven",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有什么网站提供人工智能学习且能够有老师答疑的",
-          "link": "https://www.v2ex.com/t/1198381#reply15",
-          "pubDate": "2026-03-15T05:36:30.000Z",
-          "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
-          "author": "hiboshi",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "廉价家宽 IP 推荐",
-          "link": "https://www.v2ex.com/t/1198391#reply6",
-          "pubDate": "2026-03-15T06:33:02.000Z",
-          "content": "\n\t直播用, 亚洲国家\n\t",
-          "author": "Hermitist",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "我咋感觉 1m 上下文的 opus 4.6 比 200k 上下文的 opus 4.6 要笨一点",
-          "link": "https://www.v2ex.com/t/1198422#reply1",
-          "pubDate": "2026-03-15T09:19:42.000Z",
-          "content": "\n\t<p>试用了一下 1m 上下文的 opus 4.6 ，写个计划改了两三次，但之前用 200k 的 opus 4.6 基本是一次过。</p>\n<p>是我的错觉吗？</p>\n\n\t",
-          "author": "milkleeeeee",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-          "link": "https://www.v2ex.com/t/1198056#reply88",
-          "pubDate": "2026-03-13T07:15:35.000Z",
-          "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
-          "author": "Chicagoake",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "初学 k8s，如何解决网络下载慢的问题？",
-          "link": "https://www.v2ex.com/t/1198395#reply8",
+          "link": "https://www.v2ex.com/t/1198395#reply9",
           "pubDate": "2026-03-15T07:03:47.000Z",
           "content": "\n\t<p>目前小弟主要是通过 ssh 到 ubuntu 物理机上，有翻墙设备，在 ubuntu 上下载了 flcalsh,但是下载 k8s 的链接就很慢，没走代理。\n如：curl -LO \"<a href=\"https://dl.k8s.io/release/$(curl\" rel=\"nofollow\">https://dl.k8s.io/release/$(curl</a> -L -s <a href=\"https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl-convert%22\" rel=\"nofollow\">https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl-convert\"</a>\n下载就很慢。</p>\n\n\t",
           "author": "Debug1998",
@@ -421,16 +451,6 @@
           "pubDate": "2026-03-15T00:45:26.000Z",
           "content": "\n\t<p>突然有点唏嘘，当时听他们的音乐还是用的好记星学习机，由于家离学校比较远，所以平时是住读，周五回家和周末归校的时候，就喜欢用学习机听他们的音乐，岁月不饶人啊。</p>\n\n\t",
           "author": "zzz22333",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "现在购买 ssl 证书最具性价比的方案是什么？",
-          "link": "https://www.v2ex.com/t/1198387#reply6",
-          "pubDate": "2026-03-15T06:18:12.000Z",
-          "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
-          "author": "uni",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -466,6 +486,16 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
+          "link": "https://www.v2ex.com/t/1198309#reply21",
+          "pubDate": "2026-03-14T13:36:10.000Z",
+          "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
+          "author": "willxiang",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "独立开发收款方案",
           "link": "https://www.v2ex.com/t/1198323#reply24",
           "pubDate": "2026-03-14T14:46:35.000Z",
@@ -481,16 +511,6 @@
           "pubDate": "2026-03-15T07:49:33.000Z",
           "content": "\n\t<p>AI 带来了信息获取能力的平权，可以实现“知其然”的平权，但无法实现“知其所以然”的平权</p>\n\n\t",
           "author": "red13",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 这还能用吗？额度哐哐扣，事情一件没做成",
-          "link": "https://www.v2ex.com/t/1198309#reply20",
-          "pubDate": "2026-03-14T13:36:10.000Z",
-          "content": "\n\t<p>我用 Opus 4.6 （先了解代码情况，再按需求）写一个文档，每次都到最后关头，就报错。。。</p>\n<p>连续试了三次，现在 Claude 模型的额度还剩 2 格，额度是扣了，但事情是一件没给我干啊，才上年费 Pro 的车，感觉像吃了苍蝇</p>\n\n\t",
-          "author": "willxiang",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -627,7 +647,7 @@
         },
         {
           "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-          "link": "https://www.v2ex.com/t/1198110#reply36",
+          "link": "https://www.v2ex.com/t/1198110#reply37",
           "pubDate": "2026-03-13T09:48:07.000Z",
           "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
           "author": "gefangshuai",
@@ -694,158 +714,18 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有新闻抓取的 skills 吗？",
-          "link": "https://www.v2ex.com/t/1198166#reply18",
-          "pubDate": "2026-03-13T14:27:51.000Z",
-          "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
-          "author": "ethusdt",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-          "link": "https://www.v2ex.com/t/1198268#reply8",
-          "pubDate": "2026-03-14T08:28:04.000Z",
-          "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
-          "author": "apibox",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 有 GeminiPro 的账号也变成 5 天冷却了?",
-          "link": "https://www.v2ex.com/t/1197790#reply68",
-          "pubDate": "2026-03-12T09:27:15.000Z",
-          "content": "\n\t<p>之前 opus4.6 一直都是 5 小时的冷却时间啊,今天打开看突然变成 5D+了\n<img alt=\"图片注释\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgant.com/v2/cOWCUiL.png\"/></p>\n\n\t",
-          "author": "lp4298707",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
-          "link": "https://www.v2ex.com/t/1197941#reply14",
-          "pubDate": "2026-03-13T02:30:51.000Z",
-          "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
-          "author": "pc10201",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "增强的语音识别下载失败求助",
-          "link": "https://www.v2ex.com/t/1198200#reply1",
-          "pubDate": "2026-03-14T00:06:35.000Z",
-          "content": "\n\t增强的语音识别简中一直下载失败，日语就很快下载了，试了 gemini 给的各种办法也不行。求助！\n\t",
-          "author": "dangotown",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "请问 V 友们工作上一些项目中敏感信息存哪",
-          "link": "https://www.v2ex.com/t/1198153#reply12",
-          "pubDate": "2026-03-13T13:18:25.000Z",
-          "content": "\n\t<p>比如项目的服务器连接信息，vpn 连接信息</p>\n<p>我可能按项目建 md 这种没加密文档，我也看到同事很多放 txt 中</p>\n<p>感觉不太安全，一般放密码管理器中吗</p>\n\n\t",
-          "author": "zonas",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "目前购买 Claude 官方 key 有哪个渠道可靠又省事？",
-          "link": "https://www.v2ex.com/t/1198311#reply2",
-          "pubDate": "2026-03-14T13:39:42.000Z",
-          "content": "\n\t工作中需要不能转接，求求了\n\t",
-          "author": "shyrock",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "安卓假如放弃 root 的话，建议买哪家？",
-          "link": "https://www.v2ex.com/t/1198090#reply28",
-          "pubDate": "2026-03-13T08:36:25.000Z",
-          "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
-          "author": "LaTero",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-          "link": "https://www.v2ex.com/t/1197879#reply69",
-          "pubDate": "2026-03-13T00:29:28.000Z",
-          "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
-          "author": "mcfever",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "订阅 GPT Plus 后能在 Claude Code 中使用 Codex 吗？",
-          "link": "https://www.v2ex.com/t/1198139#reply11",
-          "pubDate": "2026-03-13T11:49:06.000Z",
-          "content": "\n\t<p>如题，另外请问下，使用国内招行的信用卡在网页端支付的话，会不会被 ban 呀？谢谢大家！</p>\n\n\t",
-          "author": "z1s23",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "antigravity 5h 刷新改回来了",
-          "link": "https://www.v2ex.com/t/1198112#reply19",
-          "pubDate": "2026-03-13T09:52:42.000Z",
-          "content": "\n\t<p>刚刚刷新了一下 antigravity 发现改成 5 小时刷新了，看来谷歌被骂还是听劝的</p>\n\n\t",
-          "author": "LaughingCat",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "想直接购买 CC 的 api key，不想通过中转，没有大美丽信用卡做不到？",
-          "link": "https://www.v2ex.com/t/1197595#reply66",
-          "pubDate": "2026-03-12T00:55:22.000Z",
-          "content": "\n\t<p>如何合法途径通过国内支付，有经验的进来聊聊啊</p>\n\n\t",
-          "author": "mrsbryant",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-15T11:18:57.957Z",
+      "lastUpdated": "2026-03-15T12:32:59.454Z",
       "items": [
-        {
-          "title": "顶级科学家需要的两项技能",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525730",
-          "pubDate": "2026-03-14 07:59:26",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "偷来梨蕊三分白，借得梅花一缕魂",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525733",
           "pubDate": "2026-03-14 08:35:19",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "无私的光",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1525731",
-          "pubDate": "2026-03-14 08:17:45",
           "content": "",
           "author": "",
           "categories": [],
@@ -863,9 +743,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "杂说蔬菜（3）青菜",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=612874&do=blog&id=1525727",
-          "pubDate": "2026-03-14 07:40:31",
+          "title": "玉兰盛开",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525756",
+          "pubDate": "2026-03-14 02:13:53",
           "content": "",
           "author": "",
           "categories": [],
@@ -876,16 +756,6 @@
           "title": "苦苣菜：本草济世三千年，苦菜留香二月天",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525753",
           "pubDate": "2026-03-14 12:45:25",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "玉兰盛开",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525756",
-          "pubDate": "2026-03-14 02:13:53",
           "content": "",
           "author": "",
           "categories": [],
@@ -923,9 +793,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学网图谋博客的社会影响",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525785",
-          "pubDate": "2026-03-14 09:39:53",
+          "title": "“双肩挑”教学副系主任之“付出-收获”模型",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525782",
+          "pubDate": "2026-03-14 08:52:43",
           "content": "",
           "author": "",
           "categories": [],
@@ -933,9 +803,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "爱因斯坦的主要科学成就和意义及深入认识",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1525726",
-          "pubDate": "2026-03-14 07:33:55",
+          "title": "科学网图谋博客的社会影响",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525785",
+          "pubDate": "2026-03-14 09:39:53",
           "content": "",
           "author": "",
           "categories": [],
@@ -973,16 +843,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "“双肩挑”教学副系主任之“付出-收获”模型",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525782",
-          "pubDate": "2026-03-14 08:52:43",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "鹧鸪天  三月雪",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=54025&do=blog&id=1525794",
           "pubDate": "2026-03-15 07:47:09",
@@ -1013,9 +873,49 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "咏鹤寄怀",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525728",
-          "pubDate": "2026-03-14 07:48:38",
+          "title": "科学史中的教训：第十四章 溃疡的细菌：马歇尔的自我感染与医学的傲慢",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525748",
+          "pubDate": "2026-03-14 11:41:42",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "Kimi回答：永远的边缘：为什么以前的科学一直无法解释生命的持续临界态",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525783",
+          "pubDate": "2026-03-14 09:03:44",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "桃花尽日随流水",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525805",
+          "pubDate": "2026-03-15 09:35:43",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "找到乐趣 接受挑战",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1525813",
+          "pubDate": "2026-03-15 10:59:13",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "寻觅大树杜鹃王（下）——我的寻觅之旅",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52727&do=blog&id=1525747",
+          "pubDate": "2026-03-14 11:34:39",
           "content": "",
           "author": "",
           "categories": [],
@@ -1027,7 +927,7 @@
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-15T11:19:01.040Z",
+      "lastUpdated": "2026-03-15T12:33:02.634Z",
       "items": [
         {
           "title": "恐惧是一种幻觉 (评论: 她和她的决心)",
@@ -1234,7 +1134,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-15T11:19:04.040Z",
+      "lastUpdated": "2026-03-15T12:33:04.564Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1261,6 +1161,16 @@
           "link": "https://movie.douban.com/review/17503445/",
           "pubDate": "Sat, 14 Mar 2026 12:22:40 GMT",
           "content": "\n菠萝派评论: 十年一品温如言 (https://movie.douban.com/subject/26710112/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6211\\u771f\\u7684\\u559c\\u6b22\\u9...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "当一块巧克力撬开世界，当一个小女孩从“神”变为人 (评论: 你好，爱美丽)",
+          "link": "https://movie.douban.com/review/17504981/",
+          "pubDate": "Sun, 15 Mar 2026 11:09:45 GMT",
+          "content": "\n月浣评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1337,6 +1247,26 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "虽还不够好，已是《逆夏》后最好的沿袭者……且不在于结尾 (评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女)",
+          "link": "https://movie.douban.com/review/17504898/",
+          "pubDate": "Sun, 15 Mar 2026 09:59:56 GMT",
+          "content": "\n冰-koori评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女 (https://movie.douban.com/subject/36117593/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u300a\\u95ea\\u5149\\u7684\\u54c8\\u8...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
+          "title": "《狸想世界》：理想主義的激進實踐，環境保育的共存寓言 (评论: 河狸变身计划)",
+          "link": "https://movie.douban.com/review/17504866/",
+          "pubDate": "Sun, 15 Mar 2026 09:38:35 GMT",
+          "content": "\nPuff评论: 河狸变身计划 (https://movie.douban.com/subject/36999793/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "英雄还是帮凶？ (评论: 天才枪手)",
           "link": "https://movie.douban.com/review/17504718/",
           "pubDate": "Sun, 15 Mar 2026 08:02:23 GMT",
@@ -1405,36 +1335,6 @@
           "categories": [],
           "source": "豆瓣影评",
           "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "虽还不够好，已是《逆夏》后最好的沿袭者……且不在于结尾 (评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女)",
-          "link": "https://movie.douban.com/review/17504898/",
-          "pubDate": "Sun, 15 Mar 2026 09:59:56 GMT",
-          "content": "\n冰-koori评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女 (https://movie.douban.com/subject/36117593/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u300a\\u95ea\\u5149\\u7684\\u54c8\\u8...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "一只山羊改写篮球界规则？小个子也能当GOAT！ (评论: 奇迹梦之队)",
-          "link": "https://movie.douban.com/review/17501491/",
-          "pubDate": "Fri, 13 Mar 2026 06:09:50 GMT",
-          "content": "\n豆瓣天后董小姐评论: 奇迹梦之队 (https://movie.douban.com/subject/36910970/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;42s4v&#34;,&#34;text&#34;:&#34;一只山羊也能打篮球职业联赛？混进各种比它高一大截的狮子、老虎、黑豹、犀牛堆里？这设定听上去有点离谱，却是电影《奇迹梦之队》热血的主线。我提前看了这部库里制片...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "《狸想世界》：理想主義的激進實踐，環境保育的共存寓言 (评论: 河狸变身计划)",
-          "link": "https://movie.douban.com/review/17504866/",
-          "pubDate": "Sun, 15 Mar 2026 09:38:35 GMT",
-          "content": "\nPuff评论: 河狸变身计划 (https://movie.douban.com/subject/36999793/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
         }
       ]
     },
@@ -1442,20 +1342,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-15T11:19:05.134Z",
+      "lastUpdated": "2026-03-15T12:33:05.580Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-15T11:19:05.318Z",
+      "lastUpdated": "2026-03-15T12:33:05.841Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-15T11:19:06.021Z",
+      "lastUpdated": "2026-03-15T12:33:06.386Z",
       "items": [
         {
           "title": "无题",
