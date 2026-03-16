@@ -1,30 +1,10 @@
 {
-  "lastUpdated": "2026-03-15T23:20:55.085Z",
+  "lastUpdated": "2026-03-16T01:25:39.987Z",
   "totalItems": 143,
   "items": [
     {
-      "title": "基于 qwen-image-2.0 的 AI 图像生成网站，留邮箱送积分",
-      "link": "https://www.v2ex.com/t/1198495#reply0",
-      "pubDate": "2026-03-15T23:10:20.000Z",
-      "content": "\n\t<p>我是一名独立开发者，最近基于新出的 qwen-image-2.0 做了一个 AI 图像生成工具 —— <a href=\"https://qwenimage2.run\" rel=\"nofollow\">Qwen 图片生成器</a>，目前该模型可以说是目前中文支持最好的生图模型，想分享给大家试试。</p>\n<h3>能做什么</h3>\n<ul>\n<li><strong>文生图</strong>：输入中文或英文提示词，直接生成图片</li>\n<li><strong>图片编辑</strong>：上传图片 + 描述你想要的修改，AI 帮你完成</li>\n<li><strong>灵感画廊</strong>：内置一个公开的作品画廊，抓取的 x 网站上的热门提示词以及图片，可以直接借鉴上面别人生成的效果图和提示词，找灵感会更快</li>\n</ul>\n<h3>留邮箱送积分</h3>\n<p>为了感谢大家的体验和反馈，<strong>在本帖留言你的注册邮箱，我会手动给大家充值积分</strong>。</p>\n<p>积分可以用来生成更多图片，没有使用期限。</p>\n<h3>希望得到的反馈</h3>\n<ul>\n<li>生成效果怎么样？提示词的理解准不准确？</li>\n<li>有没有遇到 bug 或者体验不好的地方？</li>\n<li>还希望增加什么功能？</li>\n<li>页面加载速度、交互体验如何？</li>\n</ul>\n<p>这个是个人开发的相对比较 demo 的网站，还在早期阶段，很多地方需要改进，也希望大家提供意见和建议，感谢各位 V 友的时间。</p>\n<hr/>\n<p>网站地址：<a href=\"https://qwenimage2.run\" rel=\"nofollow\">https://qwenimage2.run</a>\n作品画廊：<a href=\"https://qwenimage2.run/gallery\" rel=\"nofollow\">https://qwenimage2.run/gallery</a>\n邮箱支持：<a href=\"mailto:support@qwenimage2.run\">support@qwenimage2.run</a></p>\n\n\t",
-      "author": "1092106874",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "程序员在加拿大读书，有什么远程副业可以做？",
-      "link": "https://www.v2ex.com/t/1198493#reply4",
-      "pubDate": "2026-03-15T21:30:50.000Z",
-      "content": "\n\t<p>我现在在加拿大读一年制硕士项目。每周只有周二、周四晚上有课，其他时间基本都可以工作。</p>\n<p>想问问大家：</p>\n<ul>\n<li>\n<p>在国外读书期间，有没有比较现实的副业渠道？</p>\n</li>\n<li>\n<p>程序员远程接单一般在哪些平台？</p>\n</li>\n<li>\n<p>有没有适合在海外做的互联网副业？</p>\n</li>\n</ul>\n<p>如果有类似经历，也欢迎分享一下经验。</p>\n<p>谢谢大家 🙏</p>\n\n\t",
-      "author": "tuuuz",
-      "categories": [],
-      "source": "V2EX - 技术",
-      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
       "title": "从一个小功能的实现来看免费 Gemini 和 ChatGPT 的表现",
-      "link": "https://www.v2ex.com/t/1198490#reply2",
+      "link": "https://www.v2ex.com/t/1198490#reply3",
       "pubDate": "2026-03-15T20:04:05.000Z",
       "content": "\n\t前几天有个 a4 pdf 的 iOS 限免，正巧作为小学生的小朋友有把长截图转成 pdf 然后打印的这个需求，下载后发现那个 app 就是接近于垃圾，不光把长截图放在一页 pdf 上，并不能切割成多页，而且因为人为缩小，清晰的图片成了毛玻璃。<br />今天周末小朋友来我这里玩，我于是建议小朋友自己通过 ai 来实现这个功能。<br />小朋友自己的 iPhone 上有梯子且熟练使用，寒假也注册并登录了 Gemini 、ChatGPT 等，听我建议不错，于是没有我任何指导，完全不懂编程的小朋友自个儿开干。<br />首先打开的 Gemini ，用 fast 模式，小朋友记录下 iPhone 相册里其中一张长截图的宽✖️长的数值，和 ai 说自己 iPhone 上有这么个宽长的图片，希望能根据自己输入的宽长，分割成几张图片，并且把图片转成 pdf 好打印。<br />Gemini 建议 html5j+js 方案，并且吧啦吧啦生成了源码，还贴心地告诉小朋友怎么拷贝源码保存在 iPhone“文件“app 中，最后浏览器打开并通过共享变成 iPhone 主屏的一个应用。<br />gemini 一气呵成的果然能一次运行并达到了小朋友的需求，接下来小朋友添加了一些需求和修改意见，也基本正常实现。<br />然后，小朋友把 Gemini 生成的源码打开 ChatGPT 并输入让 ai 检查代码是不是完全正确，如果正确请在代码后添加解说（）注释。<br />ChatGPT 表示程序很不错，但是它能提高好几倍的效率，还有其它优化，牛吹得小朋友期望很高，然后四五个回合，正确的代码不能正确运行，而且已有的功能和界面也被 ChatGPT 缺失或者错位，不得已小朋友请我帮忙，才总算在免费额度用完之前 ChatGPT 出来了一个正常运行的版本。<br />仅就这个经历的个人感觉，同样免费版的 Gemini 看起来要比 ChatGPT 强大且准确度高。另外也感叹，完全没有编程基础的个位数小孩，也能凭自己的聊天，得到完美符合自己需求的小工具了，大把普通的 iOS （安卓） app 估计越来越没多少生存空间了。<br />btw ，总结下小朋友自己迭代聊天后满足的需求：<br />1️⃣从 iPhone 的“文件”、相册、拍照三种方式导入图片<br />2️⃣导入后，界面显示照片的如分辨率、拍摄时间等某些拍摄信息（小朋友不知道 exif 这个词）<br />3️⃣界面给出宽、长数值的手工输入，同时旁边有长宽比锁定下拉框（不锁定、2:3 、3:2……A4 幅面），根据长宽比选项，输入一个数值，另一个联动<br />4️⃣界面给出自定义图片名称，旁边有下拉框供选择分割后的几种图片格式，分割后图片名为自定义图片名称➕序号<br />5️⃣点“处理”按钮后，出现一个按钮为“图片压缩成一个文件”（ Gemini 建议做的），另一个按钮是“转成 PDF”，旁边下拉框可以选择每页一张，每页两张，每页 2✖️2 四张，每页六张。<br />这两种方式都可以把 zip 和 pdf 保存到“文件”app 里。<br />6️⃣界面在点了“处理”按钮后，还同时会显示所有分割后形成的图片文件，图片下面显示带序号的文件名，Gemini 教小朋友长按具体图片来保存单张图片到“相册”\n\t",
       "author": "gigishy",
@@ -33,8 +13,38 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "大结局烂尾！七大血案诉尽封建女性的悲催 (评论: 唐宫奇案之青雾风鸣)",
+      "link": "https://movie.douban.com/review/17505530/",
+      "pubDate": "Sun, 15 Mar 2026 15:55:11 GMT",
+      "content": "\n释凡评论: 唐宫奇案之青雾风鸣 (https://movie.douban.com/subject/36415590/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;av718&#34;,&#34;text&#34;:&#34;&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "如何成为 Claude Code 高阶玩家",
+      "link": "https://www.v2ex.com/t/1198473#reply4",
+      "pubDate": "2026-03-15T15:34:01.000Z",
+      "content": "\n\t<p>有关使用 claudecode,目前互联网大概有两种主要内容:</p>\n<ol>\n<li>完全面向没有基础的小白教学内容:</li>\n</ol>\n<p>教你如何初步在本地跑通 claudeclode,做一个纯玩具版本的的小网页/自动化小工具\n教你如何给自己的玩具加装脚手架(skill/subagent 的各种概念以及最基础的运用),让他变成更华丽的玩具</p>\n<ol>\n<li>高阶大佬炼化十年功法,创造出 xxx 供大家使用的项目</li>\n</ol>\n<p>这类内容可以类比为开源了某种特异功能,但问题也接踵而至,我真的需要如此高大尚但是不贴合我实际工作需求的功法吗?xxx 的归属大概率是躺在文件夹吃灰</p>\n<hr/>\n<p>我们应该如何从初学者过渡到 Claude Code 高阶玩家?</p>\n<p>了解 claudecode 各种机理,能自己动手修改.claude,能自己添加.删减 <a href=\"http://claude.md\" rel=\"nofollow\">claude.md</a> 等各类文件\n根据自己的需求,动手封装合适的 subagent,hook\n知道何时应该 compact,何时应该调用以及自己规划调用多个子 agent\n如何根据自己的工作流,真正提高自己的生产力</p>\n<p>这些内容并非没有,而是十分孤立,并不成体系,所以请问大家有没有这方面成体系的相关资料,最好是自己的工作流实操,分享一些捣腾的完整分享</p>\n<p>感谢大家</p>\n\n\t",
+      "author": "cryptogems",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "一场通缩的美国梦 (评论: 至尊马蒂)",
+      "link": "https://movie.douban.com/review/17505483/",
+      "pubDate": "Sun, 15 Mar 2026 15:32:06 GMT",
+      "content": "\n🌊315🌊评论: 至尊马蒂 (https://movie.douban.com/subject/36691620/)\n评价: \n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u7f8e\\u56fd\\u68a6\\u9677\\u5165\\u5...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "很奇怪和诡异的一个传统 UDP 53 的 DNS 调度解析 和 HTTPDNS 的调度解析域名的问题？",
-      "link": "https://www.v2ex.com/t/1198463#reply2",
+      "link": "https://www.v2ex.com/t/1198463#reply4",
       "pubDate": "2026-03-15T14:42:50.000Z",
       "content": "\n\t比如某一个域名 或 某一个 HTTPDNS 或 HTTPSDNS 域名解析或者说映射了多个 IP 地址，这些多个 IP 地址可能是不同省份同一个运营商 或 不同省份的不同运营商 或 同一个省份的不同运营商，那么假设用户 A 在 A 省使用 传统 UDP 53 的的 A 省运营商 DNS 或 第三方公共 DNS 去调度解析某一个域名，有时候明明有 A 省的 IP ，但实际调度解析后返回的解决确实 B 省同一个运营商，更有甚者或者极端情况下 A 生用户可能会获取返回的是 B 省的 B 运营商的 IP 。<br /><br />HTTPDNS 的调度也有上述类似的问题，请问这是为什么？难道仍是归咎于调度细粒度不精准 或 不完整支持 ECS 造成的嘛？\n\t",
       "author": "bclerdx",
@@ -51,6 +61,16 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "因为爱就在那里，我无法视而不见。 (评论: 羞耻(克罗地亚版) 第三季)",
+      "link": "https://movie.douban.com/review/17505328/",
+      "pubDate": "Sun, 15 Mar 2026 14:20:00 GMT",
+      "content": "\nbyebyebabyblue评论: 羞耻(克罗地亚版) 第三季 (https://movie.douban.com/subject/38182139/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "&#160; 招手峰",
@@ -73,20 +93,20 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "致逐梦者",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525822",
-      "pubDate": "2026-03-15 12:09:58",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "当一块巧克力撬开世界，当一个小女孩从“神”变为人 (评论: 你好，爱美丽)",
       "link": "https://movie.douban.com/review/17504981/",
       "pubDate": "Sun, 15 Mar 2026 11:09:45 GMT",
       "content": "\n月浣评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img1.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "为什么说《你好，爱美丽》集采了法国动画的长处 (评论: 你好，爱美丽)",
+      "link": "https://movie.douban.com/review/17504977/",
+      "pubDate": "Sun, 15 Mar 2026 11:06:10 GMT",
+      "content": "\n全楼最帅邓佳鑫评论: 你好，爱美丽 (https://movie.douban.com/subject/36394612/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -143,16 +163,6 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "《狸想世界》：理想主義的激進實踐，環境保育的共存寓言 (评论: 河狸变身计划)",
-      "link": "https://movie.douban.com/review/17504866/",
-      "pubDate": "Sun, 15 Mar 2026 09:38:35 GMT",
-      "content": "\nPuff评论: 河狸变身计划 (https://movie.douban.com/subject/36999793/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "桃花尽日随流水",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525805",
       "pubDate": "2026-03-15 09:35:43",
@@ -173,8 +183,18 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "高校图书馆专业馆员职业能力思考系列博文综述",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1525800",
+      "pubDate": "2026-03-15 08:44:15",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "你认为的最强编程 AI 工具？",
-      "link": "https://www.v2ex.com/t/1198412#reply38",
+      "link": "https://www.v2ex.com/t/1198412#reply44",
       "pubDate": "2026-03-15T08:37:18.000Z",
       "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
       "author": "junwind",
@@ -223,6 +243,26 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "“重科研、轻教学”之辨",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525878",
+      "pubDate": "2026-03-15 07:44:56",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "豚怒触江云（古今诗词咏江豚续七百六十）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525793",
+      "pubDate": "2026-03-15 07:38:35",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "Windows 开发真的太难了！所以自己用 Rust 搓了个 win 版 tmux，开源免费",
       "link": "https://www.v2ex.com/t/1198398#reply0",
       "pubDate": "2026-03-15T07:32:08.000Z",
@@ -244,7 +284,7 @@
     },
     {
       "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
-      "link": "https://www.v2ex.com/t/1198393#reply17",
+      "link": "https://www.v2ex.com/t/1198393#reply18",
       "pubDate": "2026-03-15T06:42:20.000Z",
       "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
       "author": "Chippy",
@@ -264,7 +304,7 @@
     },
     {
       "title": "现在购买 ssl 证书最具性价比的方案是什么？",
-      "link": "https://www.v2ex.com/t/1198387#reply24",
+      "link": "https://www.v2ex.com/t/1198387#reply25",
       "pubDate": "2026-03-15T06:18:12.000Z",
       "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
       "author": "uni",
@@ -284,7 +324,7 @@
     },
     {
       "title": "有什么网站提供人工智能学习且能够有老师答疑的",
-      "link": "https://www.v2ex.com/t/1198381#reply17",
+      "link": "https://www.v2ex.com/t/1198381#reply18",
       "pubDate": "2026-03-15T05:36:30.000Z",
       "content": "\n\t<p>愿意知识付费 但是也别太贵了</p>\n\n\t",
       "author": "hiboshi",
@@ -303,8 +343,18 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "Kimi回答：为什么不管是深度学习，还是强化学习，都与人脑中的学习是完全不一样的？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525864",
+      "pubDate": "2026-03-15 05:08:06",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "nas 备份了照片，手机上直接删除吗",
-      "link": "https://www.v2ex.com/t/1198378#reply26",
+      "link": "https://www.v2ex.com/t/1198378#reply30",
       "pubDate": "2026-03-15T04:34:37.000Z",
       "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
       "author": "miusmile",
@@ -313,14 +363,14 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "视与听5 (评论: 夜与日)",
-      "link": "https://movie.douban.com/review/17504378/",
-      "pubDate": "Sun, 15 Mar 2026 03:48:53 GMT",
-      "content": "\n2046小马评论: 夜与日 (https://movie.douban.com/subject/2969891/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;c6kvh&#34;,&#34;text&#34;:&#34;古斯塔夫·库尔贝于1866年创作的小型油画&lt;世界的起源&gt;（高46厘米，宽55厘米）尽管不再仅供私人收藏家欣赏，如今已在奥赛博物馆20号展厅与其他画作一同公开展出。画中对女性生殖器的描绘没有任何历史或神话背景，至今仍引发截然不同的反应和解读。这幅...\n",
+      "title": "孔门就业指导课",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525859",
+      "pubDate": "2026-03-15 04:13:05",
+      "content": "",
       "author": "",
       "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "Win11Debloat – 微软欠我的性能该还了：一键卸载 90+ 款 Windows 11 预装软件[2026.3.15 中文更新]",
@@ -362,16 +412,6 @@
       "title": "科学史中的教训：第十七章 实验的伦理：从纽伦堡到斯坦福监狱",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525839",
       "pubDate": "2026-03-15 02:48:10",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "Kimi回答：卡达诺夫做出了伟大的发现，但是为什么没有获得诺贝尔物理学奖？",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525838",
-      "pubDate": "2026-03-15 02:41:11",
       "content": "",
       "author": "",
       "categories": [],
@@ -432,7 +472,7 @@
       "title": "《伊芙琳》中一处翻译的错误 (评论: 都柏林人)",
       "link": "https://book.douban.com/review/17504179/",
       "pubDate": "Sun, 15 Mar 2026 00:45:01 GMT",
-      "content": "\n支离疏（梁起）评论: 都柏林人 (https://book.douban.com/subject/4908872/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;l0fp&#34;,&#34;text&#34;:&#34;小说中有介绍伊芙琳和父亲关系的一段文字，王逢振的译文是：&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRa...\n",
+      "content": "\n支离疏（梁起）评论: 都柏林人 (https://book.douban.com/subject/4908872/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;l0fp&#34;,&#34;text&#34;:&#34;小说中有介绍伊芙琳和父亲关系的一段文字，王逢振的译文是：&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entit...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣书评",
@@ -443,6 +483,16 @@
       "link": "https://movie.douban.com/review/17504117/",
       "pubDate": "Sat, 14 Mar 2026 22:35:19 GMT",
       "content": "\n三条分部评论: 魂断今宵 (https://movie.douban.com/subject/1945629/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;47mh4&#34;,&#34;text&#34;:&#34;  &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{&#34;page&#34;:0}},{&#34;key&#34;:&#34;4ej9l&#34;,&#34;text&#34;:&#34;千浦僚：《...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "选个豆芽当将军，伪大女主剧情 (评论: 逐玉)",
+      "link": "https://movie.douban.com/review/17504092/",
+      "pubDate": "Sat, 14 Mar 2026 20:17:42 GMT",
+      "content": "\nNana评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;8sffh&#34;,&#34;text&#34;:&#34;这编剧，人家过年门上贴着大写一个福字，你的门上贴着大写一个男字吧，给我看晕菜了&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,...\n",
       "author": "",
       "categories": [],
       "source": "豆瓣影评",
@@ -469,18 +519,8 @@
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
-      "title": "航天工程师与女明星 (评论: 你是我的荣耀)",
-      "link": "https://movie.douban.com/review/17504055/",
-      "pubDate": "Sat, 14 Mar 2026 18:20:45 GMT",
-      "content": "\n柯南牌抱枕评论: 你是我的荣耀 (https://movie.douban.com/subject/33454980/)\n评价: 还行\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img3.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "独立开发收款方案",
-      "link": "https://www.v2ex.com/t/1198323#reply24",
+      "link": "https://www.v2ex.com/t/1198323#reply25",
       "pubDate": "2026-03-14T14:46:35.000Z",
       "content": "\n\t<p>请教佬们独立开发如何解决收款问题</p>\n\n\t",
       "author": "trumpmaga",
@@ -549,6 +589,16 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "vscode 无法安装插件",
+      "link": "https://www.v2ex.com/t/1198294#reply1",
+      "pubDate": "2026-03-14T11:04:57.000Z",
+      "content": "\n\t<p>[error] [窗口] End of central directory record signature not found. Either not a zip file, or file is truncated.: Error: End of central directory record signature not found. Either not a zip file, or file is truncated.</p>\n<p>不仅插件没法安装，也没法更新</p>\n<p>使用 vsix 手动安装的方法也是报错 Extract: End of central directory record signature not found. Either not a zip file, or fileis truncated.</p>\n<p>怎么回事？</p>\n\n\t",
+      "author": "lanshiL3C",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "Claude 上线了 1m context，为什么我这用不了啊？",
       "link": "https://www.v2ex.com/t/1198291#reply9",
       "pubDate": "2026-03-14T10:52:48.000Z",
@@ -597,36 +647,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "Kimi回答：永远的边缘：为什么以前的科学一直无法解释生命的持续临界态",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525783",
-      "pubDate": "2026-03-14 09:03:44",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "“双肩挑”教学副系主任之“付出-收获”模型",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525782",
-      "pubDate": "2026-03-14 08:52:43",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "Kimi综述：临界之舞：当科学遇见生命的持续态",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525781",
-      "pubDate": "2026-03-14 08:47:49",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
@@ -717,16 +737,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "前传的用途 (评论: 青年夏洛克)",
-      "link": "https://movie.douban.com/review/17502631/",
-      "pubDate": "Sat, 14 Mar 2026 03:21:25 GMT",
-      "content": "\n方聿南评论: 青年夏洛克 (https://movie.douban.com/subject/36881771/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;5eqtg&#34;,&#34;text&#34;:&#34;单论水平，比较一般。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[],&#34;data&#34;:{...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "大家公司怎么使用 ai 的?",
@@ -879,7 +889,7 @@
     },
     {
       "title": "极客湾恢复更新：小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！",
-      "link": "https://www.v2ex.com/t/1198056#reply92",
+      "link": "https://www.v2ex.com/t/1198056#reply94",
       "pubDate": "2026-03-13T07:15:35.000Z",
       "content": "\n\t视频链接：<br /> [小米笔记本 Pro 上手体验：性能表现优秀的超轻薄本！]  <a target=\"_blank\" href=\"https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586\" rel=\"nofollow noopener\">https://www.bilibili.com/video/BV1hrcUzkELd/?share_source=copy_web&amp;vd_source=835fa75e6a281bbf9bb9df438719f586</a>\n\t",
       "author": "Chicagoake",
@@ -948,7 +958,7 @@
     },
     {
       "title": "Linux 服务器上有多个 ip，程序本身不能指定接口，有第三方程序可以强制让程序使用指定接口吗？",
-      "link": "https://www.v2ex.com/t/1197941#reply14",
+      "link": "https://www.v2ex.com/t/1197941#reply15",
       "pubDate": "2026-03-13T02:30:51.000Z",
       "content": "\n\t<p>像 libbind 、proxychains 、部分 tsocks 这类基于 LD_PRELOAD 劫持 libc 的办法，不适合 golang 编写的程序</p>\n<p>有比较便捷的解决方案吗？</p>\n\n\t",
       "author": "pc10201",
@@ -958,7 +968,7 @@
     },
     {
       "title": "有没有觉得，其实国内的程序员们最近几年，付费习惯培养起来了",
-      "link": "https://www.v2ex.com/t/1197879#reply69",
+      "link": "https://www.v2ex.com/t/1197879#reply70",
       "pubDate": "2026-03-13T00:29:28.000Z",
       "content": "\n\t刚入行的时候，我就从来没有遇到过身边的程序员 会付费购买效率工具的，所以我一直认为不要面向程序员做付费软件，但是这个观点，最近几年我彻底改变了。发现越来越多的国内程序员，愿意为有价值的，能提高效率的工具买单，所以，专注把产品做好就行。\n\t",
       "author": "mcfever",
@@ -1141,16 +1151,6 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
-    },
-    {
-      "title": "她的法庭能判儿子无罪，但能判自己无罪吗？ (评论: 非穷尽列举)",
-      "link": "https://movie.douban.com/review/17498310/",
-      "pubDate": "Tue, 10 Mar 2026 16:20:38 GMT",
-      "content": "\n李秋天评论: 非穷尽列举 (https://movie.douban.com/subject/37293378/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
