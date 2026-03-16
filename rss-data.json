@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-16T10:48:43.346Z",
+  "lastUpdated": "2026-03-16T11:40:28.918Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-16T10:48:32.599Z",
+      "lastUpdated": "2026-03-16T11:40:15.567Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-16T10:48:33.487Z",
+      "lastUpdated": "2026-03-16T11:40:16.415Z",
       "items": [
         {
           "title": "重塑站外体验：大众点评 M 站基于 Qwik.js 的重构实践",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-16T10:48:33.655Z",
+      "lastUpdated": "2026-03-16T11:40:16.537Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-16T10:48:35.247Z",
+      "lastUpdated": "2026-03-16T11:40:18.098Z",
       "items": [
         {
           "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
@@ -311,14 +311,54 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-16T10:48:35.439Z",
+      "lastUpdated": "2026-03-16T11:40:18.219Z",
       "items": [
         {
+          "title": "为什么 Cursor 使用 Chrome MCP devtools 可以直接控制正在使用的浏览器， 相同配置下， CC 不行？",
+          "link": "https://www.v2ex.com/t/1198595#reply6",
+          "pubDate": "2026-03-16T03:48:48.000Z",
+          "content": "\n\t<p>问题如上图，我这两天在尝试 cc 通过 MCP 操作「我正在使用的浏览器」， 发现不行，永远打开的都是无痕浏览器，但是 cursor 是可以的，想问下如何解决？</p>\n\n\t",
+          "author": "feeeff",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "你认为的最强编程 AI 工具？",
+          "link": "https://www.v2ex.com/t/1198412#reply81",
+          "pubDate": "2026-03-15T08:37:18.000Z",
+          "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
+          "author": "junwind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "想试试 openclaw 多 agent 协作，用哪家国产模型比较好",
+          "link": "https://www.v2ex.com/t/1198752#reply0",
+          "pubDate": "2026-03-16T11:18:09.000Z",
+          "content": "\n\t<p>希望性价比高，能真正完成生产级别的任务。\n能支撑多 agent 高频率的操作，不限制或者说限制少\n代码能力的模型足够强，推理模型也足够完成项目开发的前期设计统筹</p>\n\n\t",
+          "author": "chunhai",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "请问大家同步工程目录事后 网盘怎么处理.venv .git 之类文件",
-          "link": "https://www.v2ex.com/t/1198650#reply14",
+          "link": "https://www.v2ex.com/t/1198650#reply17",
           "pubDate": "2026-03-16T06:47:43.000Z",
           "content": "\n\t光 .venv 就有好几个 G ，包含海量小文件 经常同步噎住<br />现在只能做就是手动排除<br />但 macOS 没有 dropbox exclude 命令，只能用 xattr 而且经常忘<br />大家是怎么办的？\n\t",
           "author": "pathetique",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "做了一个 apikey 本地管理页面，可一键测试是否可用",
+          "link": "https://www.v2ex.com/t/1198747#reply0",
+          "pubDate": "2026-03-16T10:48:15.000Z",
+          "content": "\n\t因为有好多白嫖的 api key,太多了，然后时不时有些就不能用了，顺手让 ai 做了个工具，有需要的可以直接打开网页就能使用啦，都是本地存储，放心食用<br /><br />网址： <a target=\"_blank\" href=\"https://key.ncurator.com\" rel=\"nofollow noopener\">https://key.ncurator.com</a><br />github 仓库： <a target=\"_blank\" href=\"https://github.com/Yoan98/ai-key-manage\" rel=\"nofollow noopener\">https://github.com/Yoan98/ai-key-manage</a>\n\t",
+          "author": "doujiangjiyaozha",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -334,18 +374,8 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "你认为的最强编程 AI 工具？",
-          "link": "https://www.v2ex.com/t/1198412#reply79",
-          "pubDate": "2026-03-15T08:37:18.000Z",
-          "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
-          "author": "junwind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "Linux 格式化 fat32/exfat 分区避坑",
-          "link": "https://www.v2ex.com/t/1198633#reply14",
+          "link": "https://www.v2ex.com/t/1198633#reply15",
           "pubDate": "2026-03-16T05:58:49.000Z",
           "content": "\n\t在 linux 下把 U 盘/tf 卡格式化为 fat32 或 exfat 格式，插入手机或 windows 不能识别。<br />因为这是 Linux 下的 fat 格式，要转换为 windows 的。<br /><br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br /><br /><br />查看原来的<br />fdisk /dev/sdc<br />按 p, 看到 Type 显示为 Linux<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G 83 Linux<br /><br /><br />更改为\"通用\"格式<br />按 t ，按 c 改为 W95 FAT32 (LBA)， 或者按 7 改为 HPFS/NTFS/exFAT<br />按 p ，确认 Type 显示为更改后的。<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G  c W95 FAT32 (LBA)\n\t",
           "author": "basncy",
@@ -359,16 +389,6 @@
           "pubDate": "2026-03-16T03:20:16.000Z",
           "content": "\n\t<p>起因是最近两天出了个 bug ，一个拓扑排序出了问题，可能因为业务相关较深，整段丢给 AI 让 review 没看出来，最终还是人排出问题后再丢给 AI 修的。</p>\n<p>然后就突然发现有了 AI 之后，我已经好久没去加强自身的算法能力了，好在这次的内容还在知识框架内，能解决。</p>\n<p>但有点担心，后面万一碰到更高级的问题了，自身能力停留在原地的话，可能都认知不到问题在哪。</p>\n\n\t",
           "author": "magicfield",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "为什么 Cursor 使用 Chrome MCP devtools 可以直接控制正在使用的浏览器， 相同配置下， CC 不行？",
-          "link": "https://www.v2ex.com/t/1198595#reply5",
-          "pubDate": "2026-03-16T03:48:48.000Z",
-          "content": "\n\t<p>问题如上图，我这两天在尝试 cc 通过 MCP 操作「我正在使用的浏览器」， 发现不行，永远打开的都是无痕浏览器，但是 cursor 是可以的，想问下如何解决？</p>\n\n\t",
-          "author": "feeeff",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -712,18 +732,98 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
+          "link": "https://www.v2ex.com/t/1198225#reply15",
+          "pubDate": "2026-03-14T03:43:47.000Z",
+          "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
+          "author": "Hyvi",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
+          "link": "https://www.v2ex.com/t/1198222#reply6",
+          "pubDate": "2026-03-14T03:38:52.000Z",
+          "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
+          "author": "sungnix",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
+          "link": "https://www.v2ex.com/t/1198233#reply7",
+          "pubDate": "2026-03-14T04:36:21.000Z",
+          "content": "\n\t<p>我们人是怎么查资料的，假如去图书馆\n1.找到对应的书架\n2.找到对应的书\n3.翻阅目录，定位到页码\n4.读取内容</p>\n<p>以上模式其实很简单，把最上一级的目录通过 System Prompt 传给 ai ，然后写几个 function call 就行了，ai 自己调方法去查。</p>\n<p>请问一下这种方式有什么缺点吗？</p>\n\n\t",
+          "author": "huanggan",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+          "link": "https://www.v2ex.com/t/1196673#reply118",
+          "pubDate": "2026-03-08T14:02:37.000Z",
+          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+          "author": "doctorzry",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Claude 上线了 1m context，为什么我这用不了啊？",
+          "link": "https://www.v2ex.com/t/1198291#reply9",
+          "pubDate": "2026-03-14T10:52:48.000Z",
+          "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
+          "author": "gefangshuai",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "手搓了最喜欢的 Android 软件， GestureExplode",
+          "link": "https://www.v2ex.com/t/1198317#reply5",
+          "pubDate": "2026-03-14T14:13:50.000Z",
+          "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
+          "author": "colorbeta",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "告别人肉复制粘贴：我的 Claude + Codex 自动化协作工作流",
+          "link": "https://www.v2ex.com/t/1198247#reply26",
+          "pubDate": "2026-03-14T06:10:10.000Z",
+          "content": "\n\t<h2>背景介绍</h2>\n<p>我日常喜欢用 Claude 来做项目的架构师，而 codex 做代码执行者，不管是 claude 还是 codex ，我对他们的生成的结果都保持怀疑态度的，但我又不可能去看一行行代码看，所以我日常使用的一个最常用方式，就是让他们互相进行 review 。</p>\n<p>在这个过程中，我往往充当一个“无情”的复制粘贴者。比如 Claude 做完架构或方案设计后，我就让 Codex 去 review ，再把 Codex 的 review 结果复制粘贴回 Claude 的终端；或者 Codex 写完代码，我就让 Claude 去 review ，再把 review 意见贴回给 Codex 。我成了他们之间沟通的桥梁，这种方式非常低效。</p>\n<h2>方案介绍</h2>\n<p>为了解决这个问题，我开发了两个开源的 Skill ，让它们可以自动沟通和 review：</p>\n<ol>\n<li><strong>1. Codex Skill （底层基础）</strong>\n首先需要一个把 Codex 封装成\"即插即用\"接口的基础 Skill 。我参考的是<a href=\"https://github.com/oil-oil/codex\" rel=\"nofollow\">oil-oil/codex</a>，把 Codex 做成一个随时可调用的 Sub-Agent 。不管是 Plan Review 还是 Plan Execute ，Claude 想让它干活就直接调这个接口。整个协作体系都是搭在这个基础之上的。</li>\n<li>\n<strong>Plan Review Skill （方案评审层）</strong>\n这个项目整体由 Claude 驱动，因为我觉得 Claude 在工具调用（ Tool Use ）上的表现更好。<ul>\n<li><strong>流程：</strong> 我先跟 Claude 沟通出一版方案，我觉得差不多了，但不确定是否有遗漏或优化空间，此时我会调用 <code>Plan Review</code>。</li>\n<li><strong>机制：</strong> Claude 会调用封装好的 Codex Skill ，让 Codex 进行 review 。</li>\n<li><strong>迭代：</strong> review 完后，Claude 会自动读取 Codex 反馈的结果并进行修改。这个过程会反复迭代，直到两者达成一致。这完全省去了我日常手动复制粘贴的麻烦。</li>\n</ul>\n</li>\n<li>\n<strong>Plan Execute Skill （方案执行层）</strong>\n方案 review 完后进入执行阶段，我会使用这个负责“计划执行”的 Skill 。<ul>\n<li><strong>角色分工：</strong> Claude 依然作为“架构师”或“代码审计员”，它不会亲自动手写代码，而是将任务交给 Codex 。</li>\n<li><strong>执行：</strong> 它通过调用 Codex Skill ，让 Codex 去完成具体的代码编写。</li>\n<li><strong>闭环：</strong> Codex 完成后，Claude 会去 review 它的代码。如果发现问题，就让 Codex 继续改，直到两者达成统一。</li>\n</ul>\n</li>\n</ol>\n<p>通过这种“左右互博”的博弈机制，最终产出的结果基本上不会有大问题。这样可以更高效地解放双手，不需要时刻盯着，就能达到满意的结果。</p>\n<table>\n<thead>\n<tr>\n<th>阶段</th>\n<th>Skill</th>\n<th>Claude 角色</th>\n<th>Codex 角色</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>方案打磨</td>\n<td><code>/plan-review</code></td>\n<td>编排 + 改方案</td>\n<td>批判性审稿人</td>\n</tr>\n<tr>\n<td>代码实施</td>\n<td><code>/plan-execute</code></td>\n<td>编排 + review 代码</td>\n<td>写代码 + 修复</td>\n</tr>\n</tbody></table><blockquote>\n<p><strong>补充说明</strong></p>\n</blockquote>\n<p>claude 进入 <code>plan</code> 模式之后默认存储的位置是在 <code>~/.claude</code>下的，可以在 <code>~/.claude/settings.json</code> 进行配置 <code>plan</code> 存放的目录，如下所示，便会存放到当前项目中了</p>\n<pre><code class=\"language-json\">{\n  \"env\": {\n  },\n...\n  \"plansDirectory\": \"./plans\",\n}\n\n\n</code></pre>\n<h2>工作流</h2>\n<p><img alt=\"claude_gpt_workflow\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://pub-e61e59c2220d4dfba3768981b76f6c40.r2.dev/img/claude_gpt_workflow.png\"/></p>\n<h2>安装</h2>\n<h3>方式一：npx add-skill （推荐）</h3>\n<p><strong>前置条件：</strong> 先安装 add-skill CLI：</p>\n<pre><code class=\"language-bash\">npm install -g add-skill\n</code></pre>\n<p>然后安装 skills：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow\n</code></pre>\n<h3>方式二：单独安装</h3>\n<p>单独安装各个 skill：</p>\n<pre><code class=\"language-bash\">npx add-skill longranger2/claude-gpt-workflow/plan-review\nnpx add-skill longranger2/claude-gpt-workflow/plan-execute\nnpx add-skill longranger2/claude-gpt-workflow/codex\n</code></pre>\n<h3>方式三：手动安装</h3>\n<p>复制 skills 到你的 Claude Code skills 目录：</p>\n<pre><code class=\"language-bash\">cp -r plan-review/ ~/.claude/skills/\ncp -r plan-execute/ ~/.claude/skills/\ncp -r codex/ ~/.claude/skills/\n</code></pre>\n<h2>参考链接</h2>\n<p><a href=\"https://github.com/longranger2/claude-gpt-workflow\" rel=\"nofollow\">https://github.com/longranger2/claude-gpt-workflow</a></p>\n\n\t",
+          "author": "loneranger1024",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "话说阿里云备案一定要买服务器？",
+          "link": "https://www.v2ex.com/t/1198287#reply5",
+          "pubDate": "2026-03-14T10:40:58.000Z",
+          "content": "\n\t之前的阿里云的域名，有阿里云服务器，网站跑了两年左右，服务器到期后，就把网站迁移到阿里云 oss 了，而且这个网站一直都是正常运行，包括后面做了备案的信息更新。<br /><br />今天重新买了一个域名，点进去发现必须购买服务器才能备案，有什么办法可以绕过呢？<br /><br />有一台火山云的服务器，若去火山云备案，岂不是得把域名转过去？<br />后面这个域名要在阿里云的 oss 使用，不是又得转回来？<br /><br />真是折磨人，😑。\n\t",
+          "author": "cccn",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-16T10:48:37.431Z",
+      "lastUpdated": "2026-03-16T11:40:20.022Z",
       "items": [
         {
-          "title": "找到乐趣 接受挑战",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1525813",
-          "pubDate": "2026-03-15 10:59:13",
+          "title": "公园的早樱",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525814",
+          "pubDate": "2026-03-15 11:00:18",
           "content": "",
           "author": "",
           "categories": [],
@@ -731,9 +831,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "公园的早樱",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525814",
-          "pubDate": "2026-03-15 11:00:18",
+          "title": "找到乐趣 接受挑战",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1525813",
+          "pubDate": "2026-03-15 10:59:13",
           "content": "",
           "author": "",
           "categories": [],
@@ -781,6 +881,16 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
+          "title": "孔门就业指导课",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525859",
+          "pubDate": "2026-03-15 04:13:05",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
           "title": "“重科研、轻教学”之辨",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525878",
           "pubDate": "2026-03-15 07:44:56",
@@ -801,26 +911,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "孔门就业指导课",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525859",
-          "pubDate": "2026-03-15 04:13:05",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "豚怒触江云（古今诗词咏江豚续七百六十）",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525793",
-          "pubDate": "2026-03-15 07:38:35",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "校园春色",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=829&do=blog&id=1525843",
           "pubDate": "2026-03-15 03:06:32",
@@ -834,6 +924,16 @@
           "title": "SSCI 中国论文 2025年 发文概况",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525806",
           "pubDate": "2026-03-15 10:18:23",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "马年春节回味",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525881",
+          "pubDate": "2026-03-15 09:00:44",
           "content": "",
           "author": "",
           "categories": [],
@@ -864,16 +964,6 @@
           "title": "科学史中的教训：第十八章 发表的暴政：p值操纵与可重复性危机",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525840",
           "pubDate": "2026-03-15 02:53:59",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "马年春节回味",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525881",
-          "pubDate": "2026-03-15 09:00:44",
           "content": "",
           "author": "",
           "categories": [],
@@ -919,13 +1009,23 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "瑞香花，叶如织",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525899",
+          "pubDate": "2026-03-16 08:28:37",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-16T10:48:39.660Z",
+      "lastUpdated": "2026-03-16T11:40:23.381Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1132,7 +1232,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-16T10:48:41.397Z",
+      "lastUpdated": "2026-03-16T11:40:26.636Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1155,6 +1255,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/movie"
         },
         {
+          "title": "都市游戏的终极选择 (评论: 欲望号快车)",
+          "link": "https://movie.douban.com/review/17506358/",
+          "pubDate": "Mon, 16 Mar 2026 08:59:49 GMT",
+          "content": "\n酱之评论: 欲望号快车 (https://movie.douban.com/subject/1292682/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6f3dd&#34;,&#34;text&#34;:&#34;如果你玩过一段时间的跳一跳，应该能够意识到这项游戏活动和开车之间暗含着一种相似性——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRa...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣影评",
+          "sourceUrl": "https://www.douban.com/feed/review/movie"
+        },
+        {
           "title": "《魂断今宵》评论：雅克·里维特论场面调度、千浦僚论表演、克里斯·藤原论主题 (评论: 魂断今宵)",
           "link": "https://movie.douban.com/review/17504117/",
           "pubDate": "Sat, 14 Mar 2026 22:35:19 GMT",
@@ -1169,16 +1279,6 @@
           "link": "https://movie.douban.com/review/17504898/",
           "pubDate": "Sun, 15 Mar 2026 09:59:56 GMT",
           "content": "\n冰-koori评论: 机动战士高达 闪光的哈萨维 喀耳刻的魔女 (https://movie.douban.com/subject/36117593/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u300a\\u95ea\\u5149\\u7684\\u54c8\\u8...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣影评",
-          "sourceUrl": "https://www.douban.com/feed/review/movie"
-        },
-        {
-          "title": "都市游戏的终极选择 (评论: 欲望号快车)",
-          "link": "https://movie.douban.com/review/17506358/",
-          "pubDate": "Mon, 16 Mar 2026 08:59:49 GMT",
-          "content": "\n酱之评论: 欲望号快车 (https://movie.douban.com/subject/1292682/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;6f3dd&#34;,&#34;text&#34;:&#34;如果你玩过一段时间的跳一跳，应该能够意识到这项游戏活动和开车之间暗含着一种相似性——&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRa...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣影评",
@@ -1340,20 +1440,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-16T10:48:42.464Z",
+      "lastUpdated": "2026-03-16T11:40:27.857Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-16T10:48:42.722Z",
+      "lastUpdated": "2026-03-16T11:40:27.951Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-16T10:48:43.346Z",
+      "lastUpdated": "2026-03-16T11:40:28.918Z",
       "items": [
         {
           "title": "无题",
