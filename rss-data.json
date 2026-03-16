@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-16T14:16:14.985Z",
+  "lastUpdated": "2026-03-16T15:57:18.709Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-16T14:16:01.090Z",
+      "lastUpdated": "2026-03-16T15:57:04.572Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-16T14:16:02.010Z",
+      "lastUpdated": "2026-03-16T15:57:05.392Z",
       "items": [
         {
           "title": "重塑站外体验：大众点评 M 站基于 Qwik.js 的重构实践",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-16T14:16:02.135Z",
+      "lastUpdated": "2026-03-16T15:57:05.558Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-16T14:16:04.079Z",
+      "lastUpdated": "2026-03-16T15:57:07.149Z",
       "items": [
         {
           "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
@@ -311,21 +311,11 @@
     {
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
-      "lastUpdated": "2026-03-16T14:16:04.317Z",
+      "lastUpdated": "2026-03-16T15:57:07.440Z",
       "items": [
         {
-          "title": "各位认为 AI 时代还需要深入学习算法么",
-          "link": "https://www.v2ex.com/t/1198580#reply27",
-          "pubDate": "2026-03-16T03:20:16.000Z",
-          "content": "\n\t<p>起因是最近两天出了个 bug ，一个拓扑排序出了问题，可能因为业务相关较深，整段丢给 AI 让 review 没看出来，最终还是人排出问题后再丢给 AI 修的。</p>\n<p>然后就突然发现有了 AI 之后，我已经好久没去加强自身的算法能力了，好在这次的内容还在知识框架内，能解决。</p>\n<p>但有点担心，后面万一碰到更高级的问题了，自身能力停留在原地的话，可能都认知不到问题在哪。</p>\n\n\t",
-          "author": "magicfield",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "claude code 供应-",
-          "link": "https://www.v2ex.com/t/1198774#reply4",
+          "link": "https://www.v2ex.com/t/1198774#reply10",
           "pubDate": "2026-03-16T13:42:17.000Z",
           "content": "\n\t<p>供应 claude code 自家号池，包稳 24 小时技术在线维护，欢迎对接测试，免费提供测试额度，不稳体验不好可直接退款。留言+v：Zhongzhuanzhan188</p>\n\n\t",
           "author": "abc0001",
@@ -334,21 +324,71 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "还是到了这一步，开发 APP 最难的是 Apple Developer Program ID",
-          "link": "https://www.v2ex.com/t/1198759#reply2",
-          "pubDate": "2026-03-16T11:54:34.000Z",
-          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/vbwr07f.png\"/> </p>\n<p>两个最常用设备、最常用 ID 注册都被拦了😂</p>\n<p>完全不清楚原因，邮件过去了，看看明天客服怎么说😂</p>\n\n\t",
-          "author": "lc4t",
+          "title": "各位认为 AI 时代还需要深入学习算法么",
+          "link": "https://www.v2ex.com/t/1198580#reply29",
+          "pubDate": "2026-03-16T03:20:16.000Z",
+          "content": "\n\t<p>起因是最近两天出了个 bug ，一个拓扑排序出了问题，可能因为业务相关较深，整段丢给 AI 让 review 没看出来，最终还是人排出问题后再丢给 AI 修的。</p>\n<p>然后就突然发现有了 AI 之后，我已经好久没去加强自身的算法能力了，好在这次的内容还在知识框架内，能解决。</p>\n<p>但有点担心，后面万一碰到更高级的问题了，自身能力停留在原地的话，可能都认知不到问题在哪。</p>\n\n\t",
+          "author": "magicfield",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
           "title": "免费程序员副业探索交流群 欢迎加入 目前已接近 500 人，无韭菜无套路，每日分享副业案例",
-          "link": "https://www.v2ex.com/t/1198773#reply1",
+          "link": "https://www.v2ex.com/t/1198773#reply6",
           "pubDate": "2026-03-16T13:41:58.000Z",
           "content": "\n\t<p>感兴趣的加微 yanfantu ，记得备注 v2</p>\n<p>[适合人群]</p>\n<p>1 、想做副业但还没探索出合适方向的</p>\n<p>2 、在做副业但迷茫，没怎么赚到钱的</p>\n<p>3 、有副业，愿意和大家合作，一起赚钱的</p>\n<p>[不适合人群]</p>\n<p>1 、有自己明确的副业，且无合作机会，也不愿意帮助他人的</p>\n<p>2 、希望进群后立马就能赚钱的-免费的群，没谁愿意会手把手带你赚钱</p>\n\n\t",
           "author": "feimengv",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "你认为的最强编程 AI 工具？",
+          "link": "https://www.v2ex.com/t/1198412#reply86",
+          "pubDate": "2026-03-15T08:37:18.000Z",
+          "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
+          "author": "junwind",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "Antigravity 清空了我的 .zshrc",
+          "link": "https://www.v2ex.com/t/1198698#reply10",
+          "pubDate": "2026-03-16T08:13:32.000Z",
+          "content": "\n\t<p>我没让它改... 查资料发现可能是谷歌程序员写错了 把 &gt;&gt; 写成 &gt;</p>\n\n\t",
+          "author": "383394544",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "请教一个 unraid 的 docker 网络问题",
+          "link": "https://www.v2ex.com/t/1198708#reply6",
+          "pubDate": "2026-03-16T08:40:55.000Z",
+          "content": "\n\t<p>unraid 系统网关指向旁路由，但是 docker 里的 qb 和 tr 用什么方法可以不走旁路由吗？ docker 的网关可以指向主路由吗？只有一个网口并没有 vlan 交换机</p>\n\n\t",
+          "author": "52pojie",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "请问大家同步工程目录事后 网盘怎么处理.venv .git 之类文件",
+          "link": "https://www.v2ex.com/t/1198650#reply20",
+          "pubDate": "2026-03-16T06:47:43.000Z",
+          "content": "\n\t光 .venv 就有好几个 G ，包含海量小文件 经常同步噎住<br />现在只能做就是手动排除<br />但 macOS 没有 dropbox exclude 命令，只能用 xattr 而且经常忘<br />大家是怎么办的？\n\t",
+          "author": "pathetique",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
+          "title": "还是到了这一步，开发 APP 最难的是 Apple Developer Program ID",
+          "link": "https://www.v2ex.com/t/1198759#reply3",
+          "pubDate": "2026-03-16T11:54:34.000Z",
+          "content": "\n\t<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/vbwr07f.png\"/> </p>\n<p>两个最常用设备、最常用 ID 注册都被拦了😂</p>\n<p>完全不清楚原因，邮件过去了，看看明天客服怎么说😂</p>\n\n\t",
+          "author": "lc4t",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -374,36 +414,6 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "你认为的最强编程 AI 工具？",
-          "link": "https://www.v2ex.com/t/1198412#reply85",
-          "pubDate": "2026-03-15T08:37:18.000Z",
-          "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
-          "author": "junwind",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Antigravity 清空了我的 .zshrc",
-          "link": "https://www.v2ex.com/t/1198698#reply7",
-          "pubDate": "2026-03-16T08:13:32.000Z",
-          "content": "\n\t<p>我没让它改... 查资料发现可能是谷歌程序员写错了 把 &gt;&gt; 写成 &gt;</p>\n\n\t",
-          "author": "383394544",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "请问大家同步工程目录事后 网盘怎么处理.venv .git 之类文件",
-          "link": "https://www.v2ex.com/t/1198650#reply19",
-          "pubDate": "2026-03-16T06:47:43.000Z",
-          "content": "\n\t光 .venv 就有好几个 G ，包含海量小文件 经常同步噎住<br />现在只能做就是手动排除<br />但 macOS 没有 dropbox exclude 命令，只能用 xattr 而且经常忘<br />大家是怎么办的？\n\t",
-          "author": "pathetique",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
           "title": "为什么 Cursor 使用 Chrome MCP devtools 可以直接控制正在使用的浏览器， 相同配置下， CC 不行？",
           "link": "https://www.v2ex.com/t/1198595#reply8",
           "pubDate": "2026-03-16T03:48:48.000Z",
@@ -424,31 +434,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
+          "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
+          "link": "https://www.v2ex.com/t/1198405#reply54",
+          "pubDate": "2026-03-15T08:02:11.000Z",
+          "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
+          "author": "YanSeven",
+          "categories": [],
+          "source": "V2EX - 技术",
+          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+        },
+        {
           "title": "Linux 格式化 fat32/exfat 分区避坑",
           "link": "https://www.v2ex.com/t/1198633#reply15",
           "pubDate": "2026-03-16T05:58:49.000Z",
           "content": "\n\t在 linux 下把 U 盘/tf 卡格式化为 fat32 或 exfat 格式，插入手机或 windows 不能识别。<br />因为这是 Linux 下的 fat 格式，要转换为 windows 的。<br /><br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br /><br /><br />查看原来的<br />fdisk /dev/sdc<br />按 p, 看到 Type 显示为 Linux<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G 83 Linux<br /><br /><br />更改为\"通用\"格式<br />按 t ，按 c 改为 W95 FAT32 (LBA)， 或者按 7 改为 HPFS/NTFS/exFAT<br />按 p ，确认 Type 显示为更改后的。<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G  c W95 FAT32 (LBA)\n\t",
           "author": "basncy",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "请教一个 unraid 的 docker 网络问题",
-          "link": "https://www.v2ex.com/t/1198708#reply4",
-          "pubDate": "2026-03-16T08:40:55.000Z",
-          "content": "\n\t<p>unraid 系统网关指向旁路由，但是 docker 里的 qb 和 tr 用什么方法可以不走旁路由吗？ docker 的网关可以指向主路由吗？只有一个网口并没有 vlan 交换机</p>\n\n\t",
-          "author": "52pojie",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "我用 cc 和 codex 用到现在，写前端感觉都是一坨啊",
-          "link": "https://www.v2ex.com/t/1198405#reply52",
-          "pubDate": "2026-03-15T08:02:11.000Z",
-          "content": "\n\t复杂一点的，在美感设计上，交互上。全是一坨。点也能点，看也能看，但是就是毫无美感的各种元素大大小小的不合时宜的堆在一起。<br /><br />这个得物怎么敢解散前端团队的。<br /><br />还是说我使用上有问题。\n\t",
-          "author": "YanSeven",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -475,7 +475,7 @@
         },
         {
           "title": "qoder 补全不是无限量了",
-          "link": "https://www.v2ex.com/t/1198534#reply9",
+          "link": "https://www.v2ex.com/t/1198534#reply10",
           "pubDate": "2026-03-16T01:44:35.000Z",
           "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/u0ktddR.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/u0ktddR.png\" class=\"embedded_image\" rel=\"noreferrer\"></a> 文档还没有改,首页 pricing 页面改了 <a target=\"_blank\" href=\"https://i.imgur.com/Ok2mgOC.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/Ok2mgOC.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 虽然现在大部分都是用 cli 写代码了,偶尔手写没有补全还真不习惯了.<br /> 现在还有无限补全+AI 生成 Git message 的 ide 吗\n\t",
           "author": "Aprdec",
@@ -514,21 +514,21 @@
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "[边缘计算开源] 基于 go 写了个独立运行的工业数据采集网关 后续阶段应该如何调整",
-          "link": "https://www.v2ex.com/t/1198553#reply3",
-          "pubDate": "2026-03-16T02:36:49.000Z",
-          "content": "\n\t<h1>做了套边缘计算数据采集方案，想和你聊聊后续方向, 请指教一下</h1>\n<p><a href=\"https://github.com/anviod/edgex\" rel=\"nofollow\">https://github.com/anviod/edgex</a></p>\n<p>在工厂和工业现场待久了，总能遇到一些让人头疼的事：车间里设备种类多，协议又杂，数据采集常常不稳定，要么延迟高，要么经常断。我做边缘计算的，每天跟着现场工程师跑，看他们调设备、查故障，慢慢就想：能不能做套更靠谱的采集方案？</p>\n<p>于是我们花了一些时间，搞出了这套南向采集优化方案。它没什么花里胡哨的概念，就是想解决实际问题：</p>\n<ul>\n<li>不管是 Modbus 、BACnet 还是 OPC UA 、S7 ，一套系统就能管起来，不用再为不同设备单独配方案。</li>\n<li>设备状态好的时候多采点数据，网络不稳定时就少发点请求，让系统自己适应现场情况。</li>\n<li>哪个点位老出问题，系统会自动放缓采集频率，等它恢复了再正常采，省得一直发无效请求占资源。</li>\n<li>同一总线上的设备一起不间断轮询采集，减少来回通信的等待次数，效率更高。</li>\n<li>数据在边缘侧先处理一下，不用全往云端发，响应更快，流量也省。</li>\n</ul>\n<p>没搞什么复杂的技术名词，就是把现场遇到的问题一个个解决：网络抖动了，就根据响应时间自动调超时；传大数据慢了，就自动找最合适的传输单元；设备坏了要换，新设备接上配置相同的 IP 就能自动同步配置，不用人手动搞。</p>\n<p>现在这套方案已经在几个工厂试过了，工程师反馈说延迟降了，稳定性高了，维护起来也省心。做这个的初衷，就是想让搞工业物联网的朋友们少点麻烦，多点踏实。</p>\n<p>如果你也在为设备数据采集发愁，欢迎聊聊，说不定能帮上忙。也想听听你的场景，一起把这套方案做得更实用。</p>\n\n\t",
-          "author": "anviod",
+          "title": "nas 备份了照片，手机上直接删除吗",
+          "link": "https://www.v2ex.com/t/1198378#reply38",
+          "pubDate": "2026-03-15T04:34:37.000Z",
+          "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
+          "author": "miusmile",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         },
         {
-          "title": "nas 备份了照片，手机上直接删除吗",
-          "link": "https://www.v2ex.com/t/1198378#reply37",
-          "pubDate": "2026-03-15T04:34:37.000Z",
-          "content": "\n\t<p>你们是怎么处理的，如果删除了，我又要使用怎么办，比如我微信又要发\n大佬们是怎么搞的</p>\n\n\t",
-          "author": "miusmile",
+          "title": "[边缘计算开源] 基于 go 写了个独立运行的工业数据采集网关 后续阶段应该如何调整",
+          "link": "https://www.v2ex.com/t/1198553#reply3",
+          "pubDate": "2026-03-16T02:36:49.000Z",
+          "content": "\n\t<h1>做了套边缘计算数据采集方案，想和你聊聊后续方向, 请指教一下</h1>\n<p><a href=\"https://github.com/anviod/edgex\" rel=\"nofollow\">https://github.com/anviod/edgex</a></p>\n<p>在工厂和工业现场待久了，总能遇到一些让人头疼的事：车间里设备种类多，协议又杂，数据采集常常不稳定，要么延迟高，要么经常断。我做边缘计算的，每天跟着现场工程师跑，看他们调设备、查故障，慢慢就想：能不能做套更靠谱的采集方案？</p>\n<p>于是我们花了一些时间，搞出了这套南向采集优化方案。它没什么花里胡哨的概念，就是想解决实际问题：</p>\n<ul>\n<li>不管是 Modbus 、BACnet 还是 OPC UA 、S7 ，一套系统就能管起来，不用再为不同设备单独配方案。</li>\n<li>设备状态好的时候多采点数据，网络不稳定时就少发点请求，让系统自己适应现场情况。</li>\n<li>哪个点位老出问题，系统会自动放缓采集频率，等它恢复了再正常采，省得一直发无效请求占资源。</li>\n<li>同一总线上的设备一起不间断轮询采集，减少来回通信的等待次数，效率更高。</li>\n<li>数据在边缘侧先处理一下，不用全往云端发，响应更快，流量也省。</li>\n</ul>\n<p>没搞什么复杂的技术名词，就是把现场遇到的问题一个个解决：网络抖动了，就根据响应时间自动调超时；传大数据慢了，就自动找最合适的传输单元；设备坏了要换，新设备接上配置相同的 IP 就能自动同步配置，不用人手动搞。</p>\n<p>现在这套方案已经在几个工厂试过了，工程师反馈说延迟降了，稳定性高了，维护起来也省心。做这个的初衷，就是想让搞工业物联网的朋友们少点麻烦，多点踏实。</p>\n<p>如果你也在为设备数据采集发愁，欢迎聊聊，说不定能帮上忙。也想听听你的场景，一起把这套方案做得更实用。</p>\n\n\t",
+          "author": "anviod",
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -635,7 +635,7 @@
         },
         {
           "title": "安卓假如放弃 root 的话，建议买哪家？",
-          "link": "https://www.v2ex.com/t/1198090#reply36",
+          "link": "https://www.v2ex.com/t/1198090#reply37",
           "pubDate": "2026-03-13T08:36:25.000Z",
           "content": "\n\t<p>首先说一下，不买苹果。苹果没法用 mihon 、iceraven 、ublock origin 等软件，而且就算有上架的 app 相比安卓版本也会屏蔽 r18 ，比如 TG 。此外我没有 mac 也会导致很多麻烦。</p>\n<p>安卓现在 root 是真的太难太难了，一解锁就导致特别特别多问题。我目前解锁 root 的需求其实主要就两个：</p>\n<ol>\n<li>国产特色系统的大量广告、各种云控、安全中心、“贴心”的拦截 apk 安装、杀后台（ VPN 容易挂）。这个解决办法其实除了 root ，还可以选择本身就更纯净的系统。</li>\n<li>备份 app 数据（/data/data ）。这个是最难以完全替代的需求，安卓这边好像国产是没有对标苹果的 e2ee 备份的吧，我对那些云很不放心。那另一个选择就是放弃手机数据，尽可能不往手机上放重要数据，都往 NAS 之类的地方塞。</li>\n</ol>\n<p><em>注</em>：没有关国产流氓的需求，国产直接物理隔离。</p>\n<p>我网上搜了下资料，好像满足 1 的国行手机，就只能在三星（可以不解锁刷港版）、摩托罗拉、努比亚/红魔里选了？有没有用过的朋友说下体验呢？三星和摩托罗拉国内的评测非常少，而且大部分面向大众的评测，基本都没有提到云控、安全中心、杀后台、GMS 完整性之类的东西，国内可能很多普通用户根本不在意广告快应用啥的。比如这个帖子 <a href=\"https://v2ex.com/t/1196721\" rel=\"nofollow\">https://v2ex.com/t/1196721</a> ，V 友 tyzrj766 的回复：</p>\n<blockquote>\n<p>你朋友没用酷安，酷安信息流里的广告，在 ColorOS 上调用快应用，能实现不碰不晃，刷到就一键打开，如果是小游戏直接读取你的 OPPO 账号给你实名过验证，瞬间完成。我用 X9 那会都惊了，以前用小米和 vivo ，系统里的快应用广告都没这么丧心病狂。</p>\n</blockquote>\n<blockquote>\n<p>加上这个 B 系统，字体不统一，界面不统一，屏幕也差，月月更新只会水 AI ，目前是被我拉黑了，一加和 OPPO 手机再好，系统再德芙，这些问题不改我是不会用了。前后买了三四个黑厂手机，没一个能坚持用的下去。</p>\n</blockquote>\n<p>这个对我是绝对无法接受的，但是 B 站大众向评测里都觉得 ColorOS 很好用，所以只能来 V2EX 这种更偏极客的论坛来请教一下了，国行安卓里哪个系统对于极客来说体验更好？三星刷港版、摩托罗拉、努比亚/红魔的体验怎么样？</p>\n\n\t",
           "author": "LaTero",
@@ -712,134 +712,14 @@
           "categories": [],
           "source": "V2EX - 技术",
           "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
-          "link": "https://www.v2ex.com/t/1198268#reply17",
-          "pubDate": "2026-03-14T08:28:04.000Z",
-          "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
-          "author": "apibox",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "大家公司怎么使用 ai 的?",
-          "link": "https://www.v2ex.com/t/1198216#reply11",
-          "pubDate": "2026-03-14T02:28:04.000Z",
-          "content": "\n\t<ul>\n<li>在哪些场景，怎么使用的？</li>\n<li>不仅仅是编程，据了解编程领域是 ai 提效最高的。</li>\n</ul>\n\n\t",
-          "author": "siaronwang",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
-          "link": "https://www.v2ex.com/t/1198110#reply41",
-          "pubDate": "2026-03-13T09:48:07.000Z",
-          "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
-          "author": "gefangshuai",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "有新闻抓取的 skills 吗？",
-          "link": "https://www.v2ex.com/t/1198166#reply20",
-          "pubDate": "2026-03-13T14:27:51.000Z",
-          "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
-          "author": "ethusdt",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
-          "link": "https://www.v2ex.com/t/1198225#reply15",
-          "pubDate": "2026-03-14T03:43:47.000Z",
-          "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
-          "author": "Hyvi",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
-          "link": "https://www.v2ex.com/t/1198222#reply6",
-          "pubDate": "2026-03-14T03:38:52.000Z",
-          "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
-          "author": "sungnix",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
-          "link": "https://www.v2ex.com/t/1198233#reply7",
-          "pubDate": "2026-03-14T04:36:21.000Z",
-          "content": "\n\t<p>我们人是怎么查资料的，假如去图书馆\n1.找到对应的书架\n2.找到对应的书\n3.翻阅目录，定位到页码\n4.读取内容</p>\n<p>以上模式其实很简单，把最上一级的目录通过 System Prompt 传给 ai ，然后写几个 function call 就行了，ai 自己调方法去查。</p>\n<p>请问一下这种方式有什么缺点吗？</p>\n\n\t",
-          "author": "huanggan",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
-          "link": "https://www.v2ex.com/t/1196673#reply118",
-          "pubDate": "2026-03-08T14:02:37.000Z",
-          "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
-          "author": "doctorzry",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "Claude 上线了 1m context，为什么我这用不了啊？",
-          "link": "https://www.v2ex.com/t/1198291#reply9",
-          "pubDate": "2026-03-14T10:52:48.000Z",
-          "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
-          "author": "gefangshuai",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-        },
-        {
-          "title": "手搓了最喜欢的 Android 软件， GestureExplode",
-          "link": "https://www.v2ex.com/t/1198317#reply5",
-          "pubDate": "2026-03-14T14:13:50.000Z",
-          "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
-          "author": "colorbeta",
-          "categories": [],
-          "source": "V2EX - 技术",
-          "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
         }
       ]
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-16T14:16:06.677Z",
+      "lastUpdated": "2026-03-16T15:57:09.267Z",
       "items": [
-        {
-          "title": "公园的早樱",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=750818&do=blog&id=1525814",
-          "pubDate": "2026-03-15 11:00:18",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "找到乐趣 接受挑战",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1185605&do=blog&id=1525813",
-          "pubDate": "2026-03-15 10:59:13",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "孔门就业指导课",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525859",
@@ -901,16 +781,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "SSCI 中国论文 2025年 发文概况",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525806",
-          "pubDate": "2026-03-15 10:18:23",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "科学史中的教训：第十七章 实验的伦理：从纽伦堡到斯坦福监狱",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525839",
           "pubDate": "2026-03-15 02:48:10",
@@ -924,6 +794,16 @@
           "title": "那些诺奖得主是怎么做导师或研究生的？",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39731&do=blog&id=1525892",
           "pubDate": "2026-03-16 07:48:25",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "瑞香花，叶如织",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525899",
+          "pubDate": "2026-03-16 08:28:37",
           "content": "",
           "author": "",
           "categories": [],
@@ -971,9 +851,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "瑞香花，叶如织",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2724438&do=blog&id=1525899",
-          "pubDate": "2026-03-16 08:28:37",
+          "title": "致逐梦者",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525822",
+          "pubDate": "2026-03-15 12:09:58",
           "content": "",
           "author": "",
           "categories": [],
@@ -1019,13 +899,33 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "一年有几季？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2024&do=blog&id=1525956",
+          "pubDate": "2026-03-16 11:29:32",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "Kimi回答：卡达诺夫做出了伟大的发现，但是为什么没有获得诺贝尔物理学奖？",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525838",
+          "pubDate": "2026-03-15 02:41:11",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-16T14:16:10.048Z",
+      "lastUpdated": "2026-03-16T15:57:13.127Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -1232,7 +1132,7 @@
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-16T14:16:12.995Z",
+      "lastUpdated": "2026-03-16T15:57:17.118Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -1440,20 +1340,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-16T14:16:14.170Z",
+      "lastUpdated": "2026-03-16T15:57:18.048Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-16T14:16:14.397Z",
+      "lastUpdated": "2026-03-16T15:57:18.223Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-16T14:16:14.985Z",
+      "lastUpdated": "2026-03-16T15:57:18.709Z",
       "items": [
         {
           "title": "无题",
