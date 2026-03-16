@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-16T19:09:11.034Z",
+  "lastUpdated": "2026-03-16T20:29:27.321Z",
   "totalSources": 11,
   "sources": [
     {
       "source": "知乎热榜",
       "url": "https://www.zhihu.com/rss",
       "error": "Unable to parse XML.",
-      "lastUpdated": "2026-03-16T19:08:58.991Z",
+      "lastUpdated": "2026-03-16T20:29:17.550Z",
       "items": []
     },
     {
       "source": "美团技术团队",
       "url": "https://tech.meituan.com/feed/",
-      "lastUpdated": "2026-03-16T19:09:00.135Z",
+      "lastUpdated": "2026-03-16T20:29:18.350Z",
       "items": [
         {
           "title": "重塑站外体验：大众点评 M 站基于 Qwik.js 的重构实践",
@@ -119,7 +119,7 @@
     {
       "source": "阮一峰的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "lastUpdated": "2026-03-16T19:09:00.297Z",
+      "lastUpdated": "2026-03-16T20:29:18.411Z",
       "items": [
         {
           "title": "科技爱好者周刊（第 388 期）：测试是新的护城河",
@@ -156,7 +156,7 @@
     {
       "source": "小众软件",
       "url": "https://feeds.appinn.com/appinns/",
-      "lastUpdated": "2026-03-16T19:09:02.370Z",
+      "lastUpdated": "2026-03-16T20:29:19.918Z",
       "items": [
         {
           "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
@@ -312,24 +312,14 @@
       "source": "V2EX - 技术",
       "url": "https://v2ex.com/feed/tab/tech.xml",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-16T19:09:02.460Z",
+      "lastUpdated": "2026-03-16T20:29:19.962Z",
       "items": []
     },
     {
       "source": "科学网博客",
       "url": "http://www.sciencenet.cn/xml/blog.aspx?di=30",
-      "lastUpdated": "2026-03-16T19:09:04.723Z",
+      "lastUpdated": "2026-03-16T20:29:21.678Z",
       "items": [
-        {
-          "title": "孔门就业指导课",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=437607&do=blog&id=1525859",
-          "pubDate": "2026-03-15 04:13:05",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
         {
           "title": "“重科研、轻教学”之辨",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525878",
@@ -344,16 +334,6 @@
           "title": "马年开春之影",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525881",
           "pubDate": "2026-03-15 09:00:44",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "校园春色",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=829&do=blog&id=1525843",
-          "pubDate": "2026-03-15 03:06:32",
           "content": "",
           "author": "",
           "categories": [],
@@ -391,29 +371,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "谈谈物理学",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=38228&do=blog&id=1525848",
-          "pubDate": "2026-03-15 03:27:16",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "晨昏钟鼓",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1525885",
           "pubDate": "2026-03-15 10:30:01",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
-          "title": "尺度之王：卡达诺夫传 第一章 风城之子",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525845",
-          "pubDate": "2026-03-15 03:22:13",
           "content": "",
           "author": "",
           "categories": [],
@@ -461,16 +421,6 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "尺度之王：卡达诺夫传 第二章 哈佛岁月",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525850",
-          "pubDate": "2026-03-15 03:34:23",
-          "content": "",
-          "author": "",
-          "categories": [],
-          "source": "科学网博客",
-          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-        },
-        {
           "title": "名家博士论文134：流体力学专家章梓雄博士论文1971年加州理工学院",
           "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=408109&do=blog&id=1525907",
           "pubDate": "2026-03-16 08:52:28",
@@ -501,9 +451,9 @@
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         },
         {
-          "title": "科学史中的教训：第二十章 女性的隐形：从罗西·富兰克林到吴健雄",
-          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525842",
-          "pubDate": "2026-03-15 03:04:15",
+          "title": "文化意象：从唐代诗人张若虚《春江花月夜》到刘永红《月夜春江情》",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1525889",
+          "pubDate": "2026-03-15 11:31:22",
           "content": "",
           "author": "",
           "categories": [],
@@ -519,13 +469,63 @@
           "categories": [],
           "source": "科学网博客",
           "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "乔布斯 名言",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525908",
+          "pubDate": "2026-03-16 08:53:08",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "临界现象二百年：第十二章 液氦-4的λ点：史上最精确的临界实验",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525909",
+          "pubDate": "2026-03-16 09:01:08",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第二十一章 造假的瘟疫：从皮尔当人到小保方晴子",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525910",
+          "pubDate": "2026-03-16 09:07:05",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第二十二章 核火的觉醒：奥本海默的悲剧与科学家责任的诞生",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525911",
+          "pubDate": "2026-03-16 09:11:01",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+        },
+        {
+          "title": "科学史中的教训：第二十五章  认知的考古学：我们如何制造自己的无知",
+          "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525918",
+          "pubDate": "2026-03-16 09:30:36",
+          "content": "",
+          "author": "",
+          "categories": [],
+          "source": "科学网博客",
+          "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
         }
       ]
     },
     {
       "source": "豆瓣书评",
       "url": "https://www.douban.com/feed/review/book",
-      "lastUpdated": "2026-03-16T19:09:07.184Z",
+      "lastUpdated": "2026-03-16T20:29:24.087Z",
       "items": [
         {
           "title": "有幸采访了王朔！结果被毒哑 (评论: 好猫八不)",
@@ -578,6 +578,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "推理迷翘首以待，这套书终于引进！ (评论: 密室推理游戏)",
+          "link": "https://book.douban.com/review/17506139/",
+          "pubDate": "Mon, 16 Mar 2026 06:44:19 GMT",
+          "content": "\n新星出版社评论: 密室推理游戏 (https://book.douban.com/subject/37444747/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;750qb&#34;,&#34;text&#34;:&#34;说到“推理游戏”，你的大脑一瞬间跳出来的，是《逆转裁判》里成步堂龙一在法庭之上激昂的“異議あり！”，是被困《12分钟》里无限循环、找寻真相，还是《人狼村之谜》里的狼人杀智斗...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "感慨一下读博的timing (评论: 我看见的世界)",
           "link": "https://book.douban.com/review/17484888/",
           "pubDate": "Sun, 01 Mar 2026 17:03:54 GMT",
@@ -608,6 +618,16 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "卡夫卡：他不仅想探究事物的深处，他自己就在深处 (评论: 卡夫卡传)",
+          "link": "https://book.douban.com/review/17505920/",
+          "pubDate": "Mon, 16 Mar 2026 03:05:59 GMT",
+          "content": "\n新京报书评周刊评论: 卡夫卡传 (https://book.douban.com/subject/37648005/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;e93cl&#34;,&#34;text&#34;:&#34;说到二十世纪文学，最有阅读障碍的是卡夫卡的作品。按说，好作品都是有障碍的，但卡夫卡设置的障碍是高山上的无氧地带。对于读者，他笔下的每一个情景，每一个细节，甚至每一个句子都出人意料，击...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "《伊芙琳》中一处翻译的错误 (评论: 都柏林人)",
           "link": "https://book.douban.com/review/17504179/",
           "pubDate": "Sun, 15 Mar 2026 00:45:01 GMT",
@@ -622,6 +642,16 @@
           "link": "https://book.douban.com/review/17500583/",
           "pubDate": "Thu, 12 Mar 2026 12:12:07 GMT",
           "content": "\n木海评论: HALFSHADOW 星之追尋者 (https://book.douban.com/subject/37322278/)\n评价: \n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;de44v&#34;,&#34;text&#34;:&#34;今天东京创元社公布了第17届创元SF短篇奖最终候补作品的名单，其中该选集的标题作「スターシーカー（星之追...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
+          "title": "考上了名校，却输给了偏见？ (评论: 她们赢了，然后呢)",
+          "link": "https://book.douban.com/review/17506375/",
+          "pubDate": "Mon, 16 Mar 2026 09:12:34 GMT",
+          "content": "\n译林上海小分队评论: 她们赢了，然后呢 (https://book.douban.com/subject/37523821/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;d3q2r&#34;,&#34;text&#34;:&#34;21世纪已过去四分之一，我们也许很难想象，一个现代发达国家的顶尖大学里，女生比例在几十年里从未超过20%。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;de...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣书评",
@@ -658,60 +688,20 @@
           "sourceUrl": "https://www.douban.com/feed/review/book"
         },
         {
+          "title": "不是心灵鸡汤，是切实可行的干货心理工具书 (评论: 成长的迷思)",
+          "link": "https://book.douban.com/review/17506119/",
+          "pubDate": "Mon, 16 Mar 2026 06:29:48 GMT",
+          "content": "\n麒麟评论: 成长的迷思 (https://book.douban.com/subject/37558532/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;qgdr&#34;,&#34;text&#34;:&#34;无所谓积极的情绪和消极的情绪&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyl...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
           "title": "翻译｜关于对上帝之爱的无序思考｜薇依 (评论: Pensées sans ordre concernant l'amour de dieu)",
           "link": "https://book.douban.com/review/17490683/",
           "pubDate": "Thu, 05 Mar 2026 19:37:09 GMT",
           "content": "\n静谧形态琳琅评论: Pensées sans ordre concernant l&#39;amour de dieu (https://book.douban.com/subject/30333886/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u76ee\\u5f55&#34;, &#34;entityRanges&#34;: []...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "我是异类，你是怪物  简体版删减不完全统计 (评论: 我是异类，你是怪物)",
-          "link": "https://book.douban.com/review/17501630/",
-          "pubDate": "Fri, 13 Mar 2026 08:03:25 GMT",
-          "content": "\n问问花卷评论: 我是异类，你是怪物 (https://book.douban.com/subject/37669062/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7ufvq&#34;,&#34;text&#34;:&#34;《莫蒂利亚之手》《巨掌恶魔》《天使与怪物》出自短篇集《我是异类，你是怪物》（《ぼくは化け物きみは怪物》）&#34;...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "一场重读经典的伟大冒险 (评论: 生命的灿烂之书)",
-          "link": "https://book.douban.com/review/17501149/",
-          "pubDate": "Fri, 13 Mar 2026 00:28:45 GMT",
-          "content": "\n尤里卡评论: 生命的灿烂之书 (https://book.douban.com/subject/37650721/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bsio9&#34;,&#34;text&#34;:&#34;初识哈罗德·布鲁姆，是因为那本大名鼎鼎的《西方正典》。作为当今世界最具影响力和原创性的文学理论家之一，布鲁姆还著有《诗歌与压抑》《影响的焦虑》《如何读，为什么读》等多部经典之作，属于并非修辞意义上的著作等身。暮色将尽之时，布鲁姆依然笔耕不辍，写出...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "中世（纪） (评论: 中世日本的神、佛与王权)",
-          "link": "https://book.douban.com/review/17502637/",
-          "pubDate": "Sat, 14 Mar 2026 03:24:53 GMT",
-          "content": "\n天鹅骑士奥尔加评论: 中世日本的神、佛与王权 (https://book.douban.com/subject/36404996/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;aljek&#34;,&#34;text&#34;:&#34;非常精耕细作的政治思想史研究，导致虽然篇幅不长但是看了很久。&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRan...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "被裁剪的故事 (评论: 木兰无名，缇萦无踪)",
-          "link": "https://book.douban.com/review/17495587/",
-          "pubDate": "Sun, 08 Mar 2026 21:19:42 GMT",
-          "content": "\n锦翼评论: 木兰无名，缇萦无踪 (https://book.douban.com/subject/37119331/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;977ia&#34;,&#34;text&#34;:&#34;如果木兰不是传说，而是一个真实活过的女孩子，她会是什么下场？《清稗类钞》里就记载了这样一位女性——姑且称她“陈木兰”。她幼年失怙，女扮男装混入军营，从伙夫做起，因作战勇猛，一路升至统领五营的记名提督。然而，当她与下属相...\n",
-          "author": "",
-          "categories": [],
-          "source": "豆瓣书评",
-          "sourceUrl": "https://www.douban.com/feed/review/book"
-        },
-        {
-          "title": "漫画，我们要出就出最搞笑的 (评论: DOGSRED冰上疯犬 2)",
-          "link": "https://book.douban.com/review/17500060/",
-          "pubDate": "Thu, 12 Mar 2026 05:11:58 GMT",
-          "content": "\n新星出版社评论: DOGSRED冰上疯犬 2 (https://book.douban.com/subject/38218991/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;q9r&#34;,&#34;text&#34;:&#34;回首新星社过往出版的漫画，虽然所处编室不同，负责编辑不同，风格也大相径庭，但我们选择的作品都极其有特色。2020年首次引进的伊藤润二老师作...\n",
           "author": "",
           "categories": [],
           "source": "豆瓣书评",
@@ -726,13 +716,23 @@
           "categories": [],
           "source": "豆瓣书评",
           "sourceUrl": "https://www.douban.com/feed/review/book"
+        },
+        {
+          "title": "我是异类，你是怪物  简体版删减不完全统计 (评论: 我是异类，你是怪物)",
+          "link": "https://book.douban.com/review/17501630/",
+          "pubDate": "Fri, 13 Mar 2026 08:03:25 GMT",
+          "content": "\n问问花卷评论: 我是异类，你是怪物 (https://book.douban.com/subject/37669062/)\n评价: 力荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;7ufvq&#34;,&#34;text&#34;:&#34;《莫蒂利亚之手》《巨掌恶魔》《天使与怪物》出自短篇集《我是异类，你是怪物》（《ぼくは化け物きみは怪物》）&#34;...\n",
+          "author": "",
+          "categories": [],
+          "source": "豆瓣书评",
+          "sourceUrl": "https://www.douban.com/feed/review/book"
         }
       ]
     },
     {
       "source": "豆瓣影评",
       "url": "https://www.douban.com/feed/review/movie",
-      "lastUpdated": "2026-03-16T19:09:08.979Z",
+      "lastUpdated": "2026-03-16T20:29:25.610Z",
       "items": [
         {
           "title": "8.7分\n《羁旅情愫》\n——你来以后，寂寞来了 (评论: 羁旅情愫)",
@@ -940,20 +940,20 @@
       "source": "极客公园",
       "url": "https://www.geekpark.net/rss",
       "error": "socket hang up",
-      "lastUpdated": "2026-03-16T19:09:10.118Z",
+      "lastUpdated": "2026-03-16T20:29:26.496Z",
       "items": []
     },
     {
       "source": "全球主机交流",
       "url": "https://hostloc.com/forum.php?mod=rss&fid=45&auth=389ec3vtQanmEuRoghE%2FpZPWnYCPmvwWgSa7RsfjbQ%2BJpA%2F6y6eHAx%2FKqtmPOg",
       "error": "Status code 403",
-      "lastUpdated": "2026-03-16T19:09:10.386Z",
+      "lastUpdated": "2026-03-16T20:29:26.555Z",
       "items": []
     },
     {
       "source": "王叨叨",
       "url": "https://wangdaodao.com/feed/atom/",
-      "lastUpdated": "2026-03-16T19:09:11.034Z",
+      "lastUpdated": "2026-03-16T20:29:27.321Z",
       "items": [
         {
           "title": "无题",
