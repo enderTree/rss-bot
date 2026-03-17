@@ -1,20 +1,60 @@
 {
-  "lastUpdated": "2026-03-16T23:23:06.576Z",
-  "totalItems": 133,
+  "lastUpdated": "2026-03-17T01:17:03.599Z",
+  "totalItems": 143,
   "items": [
     {
-      "title": "[分享] Tapestry - 用 Agent 管理你的网络知识库，告别书签地狱",
-      "link": "https://www.v2ex.com/t/1198796#reply0",
-      "pubDate": "2026-03-16T15:59:33.000Z",
-      "content": "\n\t<p>大家好！我是一个 agent 相关的研究者，也是一个萌新 quant ORZ ，想来推广下自己做的小工具</p>\n<h2>项目简介</h2>\n<p>不知道大家有没有这种困扰：</p>\n<ul>\n<li>在知乎、HN 、Reddit 、X 上看到好内容就收藏，结果书签越来越多，根本找不回来</li>\n<li>想系统地整理某个技术话题的资料，但手动复制粘贴太累了</li>\n<li>保存的链接过段时间就 404 了，或者被作者删了</li>\n<li>想把多个平台的讨论串起来看，但每个平台的格式都不一样</li>\n</ul>\n<p>为此真正将这些零散的页面转为知识和生产力，又不想在本地部署功能过于成熟的 AI 知识库（感觉光配置就要折腾好久...），于是我做了这样一个相对简单的工具 <a href=\"https://github.com/NatsuFox/Tapestry\" rel=\"nofollow\"><strong>Tapestry</strong> 🧵</a>，中文名可以叫织锦（感觉挺贴切的）。简单说，它是一个 <strong>AI 原生的技能包</strong>，让你通过和 Claude Code （或其他 Agent 框架, OpenClaw, Codex 等应该都支持）对话，就能：</p>\n<ol>\n<li><strong>一键爬取</strong>：丢个链接，自动抓取完整内容（包括评论、元数据）</li>\n<li><strong>智能整理</strong>：AI 自动分析内容，归类到你的知识库对应主题下</li>\n<li><strong>持久保存</strong>：本地存储，永久可访问，不怕内容消失</li>\n<li><strong>可视化浏览</strong>：生成静态网站，像看书一样浏览你的知识库</li>\n</ol>\n<p>repo 链接：<a href=\"https://github.com/NatsuFox/Tapestry\" rel=\"nofollow\">https://github.com/NatsuFox/Tapestry</a></p>\n<p><em>看起来知识库 UI 和终端演示都无法预览，请前往 repo 了解详情</em></p>\n<h2>使用示例</h2>\n<p>下面有些例子，都是可以直接跑通的（我用的是 opus-4.6 with max effort ，跑通 workflow 完全没压力）。当然我之后也会不断添加 crawler 实现，争取支持更广泛的数据源，向 yt-dlp 这样的大作看齐。</p>\n<p>出于个人偏好吧，比较喜欢可扩展，但同时结构又非常清晰简洁的设计（可能也是因为太早期，功能太少...）。这样开源以后，自己做定制化什么的也都会很方便。</p>\n<p>下面是一些使用场景示例：</p>\n<p><strong>场景 1：追踪技术讨论</strong></p>\n<pre><code>\"摄取这几个 HN 讨论：\nhttps://news.ycombinator.com/item?id=123\nhttps://news.ycombinator.com/item?id=456\"\n\n\"综合这些讨论，找出共同观点\"\n</code></pre>\n<p><strong>场景 2：归档研究资料</strong></p>\n<pre><code>\"摄取这个知乎问题下的所有高赞回答\"\n\"在知识库中创建新主题：机器学习基础\"\n\"把这些回答组织到新主题下\"\n</code></pre>\n<p><strong>场景 3：内容策展</strong></p>\n<pre><code>\"摄取这个博主的所有文章\"\n\"生成这个博主的内容摘要\"\n</code></pre>\n<p>其实场景是很多的，怎么用都行。现在 Agent 已经足够智能，我所做的也是将更复杂的/重复性的任务做好定义而已。过程中，AI 会自动爬取、分析、整理成一篇结构化的笔记。如果笔记积累到一定程度，就可以自动构建一本书出来。为了便于查看这样的知识库，我也写了一个前端页面，实时从本地数据中构建。</p>\n<h2>功能特性</h2>\n<p>更具体来说，目前这个项目支持：</p>\n<ul>\n<li><strong>多平台支持</strong>：知乎、X/Twitter 、小红书、微博、HN 、Reddit 、通用 HTML</li>\n<li><strong>三层架构</strong>：摄取（原始数据）→ 订阅源（规范化）→ 综合（ AI 分析）</li>\n<li><strong>书籍式知识库</strong>：自动生成主题、章节、索引，像看书一样浏览</li>\n<li><strong>可视化前端</strong>：一键生成静态网站，本地浏览你的知识库</li>\n<li><strong>AI 原生</strong>：为 Claude Code 、OpenClaw 、Codex 等框架设计</li>\n<li><strong>智能合并</strong>：Auto 模式会根据内容积累情况自动决定何时更新知识库，避免频繁合并的性能开销</li>\n</ul>\n<p>安装上，当作一般的 skill 就行了，各种 agent 框架，只要兼容 <a href=\"https://agentskills.io/\" rel=\"nofollow\">agent skills 规范</a>，就都是一样的。</p>\n<p>不过我这个和一般的独立 skill 其实也有区别，主要就在于是一个 skill bundle ，抽取了共享的代码实现、profile 、配置等等，这就引出了一些目前的设计范式问题和一些个人思考。我看近期一些比较火且类似范式的项目，都还没有很标准化的设计。结尾我会详细探讨。</p>\n<p>具体的安装命令如下：</p>\n<pre><code class=\"language-bash\"># 克隆仓库\ngit clone https://github.com/NatsuFox/Tapestry.git\ncd Tapestry\n\n# 链接到 Claude Code （或其他框架，比如 .codex/skills/, .clawd/skills/）\nln -s \"$(pwd)/skills/tapestry\" ~/.claude/skills/tapestry\n\n# 让 AI 帮你安装依赖\n# 在 Claude Code 中输入：\n\"安装 Tapestry 的依赖\"\n</code></pre>\n<p>agent 会自动检测你的环境，生成安装计划，征求你同意后自动安装必要的依赖（比如 playwright ）。这也是单独设计的一个 skill ，期望能用 agent 的本体智慧提高跨平台兼容性。</p>\n<p>这个项目刚起步，之前一直以来的习惯是，喜欢自己开发点工具，放到本地来用，也不开源（研究相关的代码除外）。但前段时间也是见证了社区的汹涌力量。既然也是我日常要用的，为什么不聚起来有同样需求且有能力和兴趣的网友一起来推进呢？现在这样的时代，涉及到 AI Vibe 的工作流，最大的瓶颈就在人本身。目前我也还没有过这样看到项目迅速成长的经历，所以想要试试看。</p>\n<p>为此，非常欢迎朋友们：</p>\n<ul>\n<li>⭐ Star 支持一下</li>\n<li>🐛 提 Issue 反馈问题</li>\n<li>💡 分享使用场景和建议</li>\n<li>🔧 贡献代码（特别是新平台爬虫）</li>\n<li>📖 完善文档</li>\n</ul>\n<h2>最后</h2>\n<p><del>充斥着过剩自我意识的不一定正确的思考，赶时间的朋友可以直接跳过</del></p>\n<p>这个项目的初衷很简单：我想要一个能帮我管理网络知识的工具，而不是让我被书签淹没。尤其是那些零散的知识、页面、链接，日复一日，也积累了很多了，然而从未仔细学习过 XD ，我觉得知识库是缓解人在 AI Vibe 链路中瓶颈作用的重要工具，尤其是定制化的知识库，因为可以加快知识的吸收摄取。使用 AI 工具的效果，目前看很大程度上还是取决于使用者自己的认知水平和知识积累的。</p>\n<p>关于这种 skill bundle 的设计，主要受到 <a href=\"https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep\" rel=\"nofollow\">ARIS</a> 这个项目的启发。目前规范的 agent skills 接口定义，还不支持（就是没有规范说明）如何处理多个 skill 之间共享代码、配置、profile 等的问题。Claude Code 虽然支持以 plugin 的形式引入，但毕竟只有它一家支持，而且也不是很美观。所以我现在的设计是把 sub-skill 包在 skill bundle 里，这个 bundle 本身也定义为一个 skill ，但是是用来驱动整个流程的。这导致用户无法直接调用 sub-skill （嵌套的 skill 不会被识别），但实测完全可以通过 bundle skill 路由到 sub-skill ，现在大模型已经足够聪明，来做这些随机应变。如果不这样设计，就要直接把包内的零散 skill 都拷贝到 .claude/skills/ 下，再配合大量软链接指向共享实现。这实在太丑了。</p>\n<p>因为 skill 等的存在，尤其是现在如此火热的生态，我觉得 OpenClaw 这些其实还是很有用的，并不完全是炒作。就像操作系统内核一样，提供了接口，给了 skills, memory 和 personality 这些新范式充分的自定义的灵活性。很多感兴趣的人也可以通过这样一个早期的玩具，提前窥探、适应甚至改进 AI 大流行之后的人机交互模式。考虑到 agent skills 的接口规范足够简单，所以可预见的将来，skill 应该会像天然跨平台的 app 一样，成为 agent 生态中的重要一环。而这个 agent 具体是 claude code, codex, openclaw, nanoclaw 还是什么别的，其实都不太重要。</p>\n<p>过段时间也会发布用于 A 股市场各种操作的 skill bundle （目前这个 repo 也已经 init 起来并 public 了）。至于为什么做这个，首先是我觉得炒股还是挺有意思的😂，其次是发现很多已有的 stock agent 框架，似乎都喜欢在内部自己再实现一个 agent ，导致用你家的，也要重配一遍，用他家的，也要重配一遍，确实是麻烦。如果能实现为 skill bundle ，就也如上所言，可以拿着这套 skill 走天下了，管它什么 agent 。而且我很喜欢那种可积累的、可自我成长甚至能自我迭代的 skill ，而非钉死的工作流。所以我后面计划做的 skill bundle 都会是这样的风格，争取制造一种越用越爽的体验。Tapestry 就是第一个（本地积累笔记、知识库）。</p>\n<p>有些啰嗦，其实还是来推广自己的项目的，欢迎感兴趣的朋友们使用，点点 star 或是一起讨论 :)</p>\n<hr/>\n<p><strong>P.S.</strong> 项目目前处于早期访问阶段，可能会有一些 Bug 和不完善的地方，欢迎随时反馈 🙏 近期我也在全力推进，毕竟自己也着急用哈哈</p>\n<p><strong>P.P.S.</strong> 第一次在 V2EX 上发帖，如有不当之处欢迎大家指正 🙏</p>\n\n\t",
-      "author": "InkXPath",
+      "title": "平时周六日有时间，想参加一下广州深圳的技术沙龙，应该从哪些渠道获取活动信息",
+      "link": "https://www.v2ex.com/t/1198818#reply2",
+      "pubDate": "2026-03-17T00:45:52.000Z",
+      "content": "\n\t<p>如题   </p>\n<p>一般各位大佬们会在哪获得活动信息，感觉自己还是要多参加一下，带小朋友去见见世面也好</p>\n\n\t",
+      "author": "wKong753900",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
+      "title": "死亡的预感，与阻力 (评论: 游览意大利)",
+      "link": "https://movie.douban.com/review/17507030/",
+      "pubDate": "Mon, 16 Mar 2026 18:44:25 GMT",
+      "content": "\n离岸水杉失眠评论: 游览意大利 (https://movie.douban.com/subject/1303576/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;url&#34;: &#34;https://movie.douban.com/subject/1...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "一决胜负 (评论: 少年派的奇幻漂流)",
+      "link": "https://movie.douban.com/review/17506898/",
+      "pubDate": "Mon, 16 Mar 2026 15:47:04 GMT",
+      "content": "\n羽蒙评论: 少年派的奇幻漂流 (https://movie.douban.com/subject/1929463/)\n评价: 还行\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;bml3d&#34;,&#34;text&#34;:&#34;  &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges&#34;:[],&#34;entityRanges&#34;:[...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "一場濃烈而孤獨的愛情 (评论: 呼啸山庄)",
+      "link": "https://movie.douban.com/review/17506844/",
+      "pubDate": "Mon, 16 Mar 2026 15:06:51 GMT",
+      "content": "\n華欸🍂评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 力荐\n\n{&#34;entityMap&#34;: {&#34;1&#34;: {&#34;data&#34;: {&#34;origin&#34;: false, &#34;src&#34;: &#34;https://img9.doub...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
+      "title": "《动物城2》奥斯卡爆冷未获奖！缘何输给这部韩国动画？ (评论: K-POP：猎魔女团)",
+      "link": "https://movie.douban.com/review/17506723/",
+      "pubDate": "Mon, 16 Mar 2026 14:01:13 GMT",
+      "content": "\n释凡评论: K-POP：猎魔女团 (https://movie.douban.com/subject/35391124/)\n评价: 推荐\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;db1id&#34;,&#34;text&#34;:&#34; &#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,&#34;inlineStyleRanges...\n",
+      "author": "",
+      "categories": [],
+      "source": "豆瓣影评",
+      "sourceUrl": "https://www.douban.com/feed/review/movie"
+    },
+    {
       "title": "claude code 供应-",
-      "link": "https://www.v2ex.com/t/1198774#reply11",
+      "link": "https://www.v2ex.com/t/1198774#reply12",
       "pubDate": "2026-03-16T13:42:17.000Z",
       "content": "\n\t<p>供应 claude code 自家号池，包稳 24 小时技术在线维护，欢迎对接测试，免费提供测试额度，不稳体验不好可直接退款。留言+v：Zhongzhuanzhan188</p>\n\n\t",
       "author": "abc0001",
@@ -103,6 +143,26 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
+      "title": "科学史中的教训：第二十五章  认知的考古学：我们如何制造自己的无知",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=41701&do=blog&id=1525918",
+      "pubDate": "2026-03-16 09:30:36",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
+      "title": "蟹膏鲟鼻悉登筵（明代来集之咏白鲟）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=708326&do=blog&id=1525916",
+      "pubDate": "2026-03-16 09:27:00",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "考上了名校，却输给了偏见？ (评论: 她们赢了，然后呢)",
       "link": "https://book.douban.com/review/17506375/",
       "pubDate": "Mon, 16 Mar 2026 09:12:34 GMT",
@@ -153,6 +213,16 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "农家婚礼",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3438005&do=blog&id=1526038",
+      "pubDate": "2026-03-16 08:55:54",
+      "content": "",
+      "author": "",
+      "categories": [],
+      "source": "科学网博客",
+      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
+    },
+    {
       "title": "乔布斯 名言",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=280034&do=blog&id=1525908",
       "pubDate": "2026-03-16 08:53:08",
@@ -174,7 +244,7 @@
     },
     {
       "title": "请教一个 unraid 的 docker 网络问题",
-      "link": "https://www.v2ex.com/t/1198708#reply6",
+      "link": "https://www.v2ex.com/t/1198708#reply7",
       "pubDate": "2026-03-16T08:40:55.000Z",
       "content": "\n\t<p>unraid 系统网关指向旁路由，但是 docker 里的 qb 和 tr 用什么方法可以不走旁路由吗？ docker 的网关可以指向主路由吗？只有一个网口并没有 vlan 交换机</p>\n\n\t",
       "author": "52pojie",
@@ -194,7 +264,7 @@
     },
     {
       "title": "Antigravity 清空了我的 .zshrc",
-      "link": "https://www.v2ex.com/t/1198698#reply11",
+      "link": "https://www.v2ex.com/t/1198698#reply12",
       "pubDate": "2026-03-16T08:13:32.000Z",
       "content": "\n\t<p>我没让它改... 查资料发现可能是谷歌程序员写错了 把 &gt;&gt; 写成 &gt;</p>\n\n\t",
       "author": "383394544",
@@ -239,7 +309,7 @@
     },
     {
       "title": "请问大家同步工程目录事后 网盘怎么处理.venv .git 之类文件",
-      "link": "https://www.v2ex.com/t/1198650#reply20",
+      "link": "https://www.v2ex.com/t/1198650#reply21",
       "pubDate": "2026-03-16T06:47:43.000Z",
       "content": "\n\t光 .venv 就有好几个 G ，包含海量小文件 经常同步噎住<br />现在只能做就是手动排除<br />但 macOS 没有 dropbox exclude 命令，只能用 xattr 而且经常忘<br />大家是怎么办的？\n\t",
       "author": "pathetique",
@@ -256,16 +326,6 @@
       "categories": [],
       "source": "豆瓣书评",
       "sourceUrl": "https://www.douban.com/feed/review/book"
-    },
-    {
-      "title": "笑看疫情 (评论: 粘在一起的隔离)",
-      "link": "https://movie.douban.com/review/17506122/",
-      "pubDate": "Mon, 16 Mar 2026 06:32:07 GMT",
-      "content": "\n不懂翁评论: 粘在一起的隔离 (https://movie.douban.com/subject/35390972/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;        \\u5173\\u4e8e\\u65b0\\u51a0\\...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "不是心灵鸡汤，是切实可行的干货心理工具书 (评论: 成长的迷思)",
@@ -302,7 +362,7 @@
     },
     {
       "title": "Linux 格式化 fat32/exfat 分区避坑",
-      "link": "https://www.v2ex.com/t/1198633#reply16",
+      "link": "https://www.v2ex.com/t/1198633#reply17",
       "pubDate": "2026-03-16T05:58:49.000Z",
       "content": "\n\t在 linux 下把 U 盘/tf 卡格式化为 fat32 或 exfat 格式，插入手机或 windows 不能识别。<br />因为这是 Linux 下的 fat 格式，要转换为 windows 的。<br /><br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br />！！！更改前先保存数据！！！<br /><br /><br />查看原来的<br />fdisk /dev/sdc<br />按 p, 看到 Type 显示为 Linux<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G 83 Linux<br /><br /><br />更改为\"通用\"格式<br />按 t ，按 c 改为 W95 FAT32 (LBA)， 或者按 7 改为 HPFS/NTFS/exFAT<br />按 p ，确认 Type 显示为更改后的。<br />Device     Boot Start      End  Sectors  Size Id Type<br />/dev/sdc1        2048 31293439 31291392 14.9G  c W95 FAT32 (LBA)\n\t",
       "author": "basncy",
@@ -402,7 +462,7 @@
     },
     {
       "title": "qoder 补全不是无限量了",
-      "link": "https://www.v2ex.com/t/1198534#reply10",
+      "link": "https://www.v2ex.com/t/1198534#reply11",
       "pubDate": "2026-03-16T01:44:35.000Z",
       "content": "\n\t<a target=\"_blank\" href=\"https://i.imgur.com/u0ktddR.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/u0ktddR.png\" class=\"embedded_image\" rel=\"noreferrer\"></a> 文档还没有改,首页 pricing 页面改了 <a target=\"_blank\" href=\"https://i.imgur.com/Ok2mgOC.png\" rel=\"nofollow noopener\" target=\"_blank\"><img src=\"https://i.imgur.com/Ok2mgOC.png\" class=\"embedded_image\" rel=\"noreferrer\"></a><br /> 虽然现在大部分都是用 cli 写代码了,偶尔手写没有补全还真不习惯了.<br /> 现在还有无限补全+AI 生成 Git message 的 ide 吗\n\t",
       "author": "Aprdec",
@@ -412,7 +472,7 @@
     },
     {
       "title": "终端里有文本滚动顺滑的方法么？",
-      "link": "https://www.v2ex.com/t/1198533#reply3",
+      "link": "https://www.v2ex.com/t/1198533#reply4",
       "pubDate": "2026-03-16T01:44:34.000Z",
       "content": "\n\tmacOS 下经常使用 lazygit/yazi 这种终端工具，预览一个 diff/文件时候，不像浏览器内那样鼠标滚动顺滑。使用 iterm2/ghostty 都一样。\n\t",
       "author": "ethusdt",
@@ -439,16 +499,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "不能说拍的很烂。但我必须一口气把所有槽点都说了 (评论: 侵略机器)",
-      "link": "https://movie.douban.com/review/17505677/",
-      "pubDate": "Sun, 15 Mar 2026 18:41:46 GMT",
-      "content": "\nliquid评论: 侵略机器 (https://movie.douban.com/subject/35900174/)\n评价: 还行\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u5916\\u5f62\\u4eba\\u5927\\u6218\\u7...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
       "title": "大结局烂尾！七大血案诉尽封建女性的悲催 (评论: 唐宫奇案之青雾风鸣)",
@@ -551,16 +601,6 @@
       "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
-      "title": "《呼啸山庄》：惊喜与惊吓掺半 (评论: 呼啸山庄)",
-      "link": "https://movie.douban.com/review/17504924/",
-      "pubDate": "Sun, 15 Mar 2026 10:30:36 GMT",
-      "content": "\n豆友C9-BeK96lg评论: 呼啸山庄 (https://movie.douban.com/subject/36963690/)\n评价: 推荐\n\n{&#34;entityMap&#34;: {}, &#34;blocks&#34;: [{&#34;text&#34;: &#34;\\u6574\\u4e2a\\u5e7b\\u5f71\\u8fc7\\u7...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "晨昏钟鼓",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2687371&do=blog&id=1525885",
       "pubDate": "2026-03-15 10:30:01",
@@ -581,18 +621,8 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "马年开春之影",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3389947&do=blog&id=1525881",
-      "pubDate": "2026-03-15 09:00:44",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
       "title": "你认为的最强编程 AI 工具？",
-      "link": "https://www.v2ex.com/t/1198412#reply88",
+      "link": "https://www.v2ex.com/t/1198412#reply91",
       "pubDate": "2026-03-15T08:37:18.000Z",
       "content": "\n\t<p>反重力，cc ，cursor ，trae ，codex ，Gemini cli ？</p>\n\n\t",
       "author": "junwind",
@@ -609,26 +639,6 @@
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
-    },
-    {
-      "title": "春游西安青龙寺.诗一首",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1836712&do=blog&id=1525879",
-      "pubDate": "2026-03-15 07:55:39",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
-    },
-    {
-      "title": "“重科研、轻教学”之辨",
-      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=71964&do=blog&id=1525878",
-      "pubDate": "2026-03-15 07:44:56",
-      "content": "",
-      "author": "",
-      "categories": [],
-      "source": "科学网博客",
-      "sourceUrl": "http://www.sciencenet.cn/xml/blog.aspx?di=30"
     },
     {
       "title": "Windows 开发真的太难了！所以自己用 Rust 搓了个 win 版 tmux，开源免费",
@@ -652,7 +662,7 @@
     },
     {
       "title": "[分享] 零成本撸了一套 A 股量化流水线：基于微软 Qlib + GitHub Actions + Pages",
-      "link": "https://www.v2ex.com/t/1198393#reply29",
+      "link": "https://www.v2ex.com/t/1198393#reply30",
       "pubDate": "2026-03-15T06:42:20.000Z",
       "content": "\n\t<p>前两天发在 <strong>股票</strong> 板块, 但是板块比较冷清 没什么人关注, </p>\n<p>这两天把复盘统计功能做出来了, 于是来热门的<strong>程序员</strong>板块再发一次, 我第一次搞开源项目, 欢迎大家来交流</p>\n<h1>核心思路：</h1>\n<p>既然 Qlib 已经把框架做好了，我辈打工人最该解决的就是工程化问题——如何让它在不花钱、不费神的情况下，每天自动给我出信号。</p>\n<h1>特点:</h1>\n<p>白嫖极致化： 全程白嫖 GitHub Actions 算力和流量进行模型训练（ Alpha158 因子预处理 + 模型推理）。</p>\n<p>全自动 CI/CD： 每日收盘后自动拉取数据，更新信号，无需人工干预。</p>\n<p>前端可视化： 自动更新 GitHub Pages 静态页面，移动端随手复盘。</p>\n<p>复盘统计： 刚肝出来的“马后炮”复盘功能，定期 直接对历史预测进行止盈胜率矩阵分析</p>\n<h1>链接</h1>\n<p>仓库: <a href=\"https://github.com/touhoufan2024/qlibAssistant.git\" rel=\"nofollow\">https://github.com/touhoufan2024/qlibAssistant.git</a></p>\n<p>在线预览: <a href=\"https://touhoufan2024.github.io/qlibAssistant/\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/</a></p>\n<p>复盘: <a href=\"https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html\" rel=\"nofollow\">https://touhoufan2024.github.io/qlibAssistant/pages/mahoupao/review_result.html</a></p>\n<p>最近的几次复盘结果看起来还可以,</p>\n\n\t",
       "author": "Chippy",
@@ -662,7 +672,7 @@
     },
     {
       "title": "现在购买 ssl 证书最具性价比的方案是什么？",
-      "link": "https://www.v2ex.com/t/1198387#reply33",
+      "link": "https://www.v2ex.com/t/1198387#reply34",
       "pubDate": "2026-03-15T06:18:12.000Z",
       "content": "\n\t<p>给微信小程序后端域名用的</p>\n<p>网上搜了一下，阿里云提供的都要一千多一年了，在别的地方能搜到便宜一点的都要大几百，到处都是推广和广告，我感觉这个价格有水分，咸鱼上面很多几十块一年的，不知道是否靠谱？感觉这玩意好不透明，水太深了，希望有经验的兄弟能解惑</p>\n\n\t",
       "author": "uni",
@@ -767,21 +777,21 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
-      "title": "选个豆芽当将军，伪大女主剧情 (评论: 逐玉)",
-      "link": "https://movie.douban.com/review/17504092/",
-      "pubDate": "Sat, 14 Mar 2026 20:17:42 GMT",
-      "content": "\nNana评论: 逐玉 (https://movie.douban.com/subject/36554061/)\n评价: 很差\n\n{&#34;blocks&#34;:[{&#34;key&#34;:&#34;8sffh&#34;,&#34;text&#34;:&#34;这编剧，人家过年门上贴着大写一个福字，你的门上贴着大写一个男字吧，给我看晕菜了&#34;,&#34;type&#34;:&#34;unstyled&#34;,&#34;depth&#34;:0,...\n",
-      "author": "",
-      "categories": [],
-      "source": "豆瓣影评",
-      "sourceUrl": "https://www.douban.com/feed/review/movie"
-    },
-    {
       "title": "做了一个自认为很有潜力的 AI 项目，大家看看有没有前途",
       "link": "https://www.v2ex.com/t/1198345#reply29",
       "pubDate": "2026-03-14T18:24:10.000Z",
       "content": "\n\t<p>最近做了个开源项目：\n<a href=\"https://github.com/golutra/golutra\" rel=\"nofollow\">https://github.com/golutra/golutra</a></p>\n<p>简单说就是一个 多 Agent 的 AI 工作空间，可以组建一个 蜂群 Agent Team ，让不同 AI 协作工作，有点像搭一个 一人公司的 AI 团队，可以长期运行。自定义工作流（不同行业场景都能搭），工作流模板一键导入导出，适合长期运行的 AI 自动化系统。</p>\n<p>后面准备做的：</p>\n<p>实现真正的「 CEO Agent 」，一个月不用人监管，支持手机端远程操控，自动构建 Agent ，接入永久记忆层</p>\n<p>还在早期阶段，想听听大家的评价：\n这个方向有没有前途？有没有什么建议？</p>\n<p>欢迎评论 🙏</p>\n\n\t",
       "author": "seeksky",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "手搓了最喜欢的 Android 软件， GestureExplode",
+      "link": "https://www.v2ex.com/t/1198317#reply5",
+      "pubDate": "2026-03-14T14:13:50.000Z",
+      "content": "\n\tAndroid 最喜欢的软件，Google 的 gesturesearch ，效率 No.1 ，2015 年停更后一直没有合适的替代。<br />而且基于 32 位，后续 64 位 cpu 无法兼容。<br />基于 AI 自己手搓了一个，可以通过手势输入字母来搜索手机联系人，应用，设置，无需联网权限。<br />欢迎大家食用：<a target=\"_blank\" href=\"http://github.com/colorbeta/GestureExplode\" rel=\"nofollow noopener\">github.com/colorbeta/GestureExplode</a>\n\t",
+      "author": "colorbeta",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -817,11 +827,81 @@
       "sourceUrl": "https://www.douban.com/feed/review/movie"
     },
     {
+      "title": "Claude 上线了 1m context，为什么我这用不了啊？",
+      "link": "https://www.v2ex.com/t/1198291#reply9",
+      "pubDate": "2026-03-14T10:52:48.000Z",
+      "content": "\n\t<p><a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/CS2026-03-14-18.51.18@2x.png\"/></p>\n<p>已经升级最新版 v2.1.76 ，用的时候还提示：\n<strong>Opus 4.6 with 1M context is not available for your account. Learn more: <a href=\"https://code.claude.com/docs/en/model-config#extended-context-with-1m\" rel=\"nofollow\">https://code.claude.com/docs/en/model-config#extended-context-with-1m</a></strong></p>\n\n\t",
+      "author": "gefangshuai",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
       "title": "AI 时代下 AI 工具熟练度能代替技术深度吗？",
       "link": "https://www.v2ex.com/t/1198282#reply31",
       "pubDate": "2026-03-14T09:59:41.000Z",
       "content": "\n\t<p>近几次面试发现一个问题用人单位似乎更看重 AI 工具的熟练度，你说突破了某个技术难点会被认为“AI 就能做到何必自己去探索”，各种问题都能扯到 AI 上，这样很容易忽视技术深度和背后自主探索和创造所付出的努力。</p>\n<p>我用 AI 确实能大幅提高效率，写 API 接口几分钟就搞定了，CRUD 任务描述一下需求即可快速实现，丢一份文档即可生成 MVP ，但之前做了个探索性的微服务项目的确遇到深水区，尤其是基础设施层。大致存在以下几种问题：</p>\n<ul>\n<li>组件和框架集成存在隐形契约，官方文档没有，GitHub 无人提及，网上无人讨论。</li>\n<li>框架功能设计缺陷和框架的 BUG 导致无法满足需求必须改源码还不能破坏原有的函数。</li>\n<li>官方文档缺失部分内容，无参考答案，无已知解决方案。</li>\n<li>官方文档仅有简单示例但没有完整落地的案例，同时需要修改底层源码。</li>\n<li>框架已存在的特性，无注释，没有提及该特性的相关文档和资料。</li>\n</ul>\n<p>面试官认为提示词写好加上几个 Skills 就行，实际上烧了一堆 token 还是没用，除了最后一个 AI 勉强有解其他的几乎不行，最后还是自主探索用更优雅的方式解决掉。</p>\n<p>所以这就存在争议，技术的学习成本降低以后 AI 工具熟练度能代替技术深度吗？如果自主探索攻破难题被认为“人做得到的 AI 同样可以”，那所有的技术研究，开源项目不就没有意义？</p>\n\n\t",
       "author": "zhanshen1614",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "[分享] Codex + GPT 5.4 火力全开配置调优",
+      "link": "https://www.v2ex.com/t/1198268#reply17",
+      "pubDate": "2026-03-14T08:28:04.000Z",
+      "content": "\n\t<p>自从 OpenAI 出来 gpt-5.4 模型后 Codex 的使用确实有了极大的提升，我个人调整配置后开发同一个需求对比使用 Claude Code + Claude Opus 4.6 还更快一点完成。</p>\n<p>本来从 gpt-5.3-codex 的默认配置直接使用，但发现上下文一下就不够了，对于大一点的工程来说\n特别难受。</p>\n<p>后来查了下网上的资料，说 gpt-5.4 的 1M 上下文的能力要自己主动配置开启，晕。</p>\n<p>下面放出我自己使用 Codex 的一些配置，算是抛砖引玉，不一定是最佳实践，有不同的欢迎指正。</p>\n<blockquote>\n<p>打开 ~/.codex/config.toml 文件</p>\n</blockquote>\n<pre><code class=\"language-toml\">project_doc_fallback_filenames = [\"CLAUDE.md\"] # agents.md 找不到，则找 claude.md ，和 Claude Code 使用同一份约束\n\nmodel = \"gpt-5.4\"\nreview_model = \"gpt-5.4\" # 默认 \"gpt-5.2-codex\"\n\nmodel_provider = \"apibox\" # 改成你自己的中转站名\nmodel_reasoning_effort = \"xhigh\" # 思考强度超高\n\nmodel_context_window = 1000000 # 模型上下文窗口大小，默认 1000000 （ 1M ） for gpt-5.4\nmodel_auto_compact_token_limit = 500000 # for gpt-5.4 虽然是 1M ，但是有效注意力不够，不建议开的太高\n\n\n[model_providers.apibox]\nname = \"OpenAI\" # 如果用的是中转站，建议把名字改成 OpenAI （注意大小写）命中缓存，省 token\nbase_url = \"apibox.cc/v1\" # 改成你自己的中转站 API 地址哦\nwire_api = \"responses\" \nrequires_openai_auth = true\n\n[features]\nshell_tool = true # 启用 shell 工具。默认: true\napply_patch_freeform = true # 通过自由格式编辑路径包含 apply_patch （影响默认工具集）。默认: false\nshell_snapshot = true # 启用 shell 快照功能。默认: false\nundo = true # 启用 undo 功能。默认: true\nunified_exec = true # 使用统一 PTY 执行工具\nmulti_agent = true\nsteer = true\nprevent_idle_sleep = true\nchild_agents_md = true\n\nmemories = true # 开启记忆\nsqlite = true # 可配可不配，随意\nfast_mode = true # 必开，完全不同的体验，当然也会让 gpt-5.4 用量变 2 倍\n\n[memories] # 强烈建议用新模型来总结 memories\nconsolidation_model = \"gpt-5.4\"\nextract_model = \"gpt-5.4\"\n# generate_memories = true # 默认 true\n# use_memories = true # 默认 true ，表示把 memory_summary.md 注入 developer instructions\nmax_raw_memories_for_consolidation = 512\nmax_unused_days = 30 # 默认 30\nmax_rollout_age_days = 45 # 默认 30\n# max_rollouts_per_startup = 16 # 默认 16\n# min_rollout_idle_hours = 6 # 默认 6\n</code></pre>\n<p>小技巧：</p>\n<blockquote>\n<p>model_auto_compact_token_limit 这个配置可以动态调整\n当你的工程的会话上下文特别大的时候，你有不想开新的会话时。你可以先把这个配置改大，然后重新开启 VS Code 或者 cli ，这样就不会触发压缩了，可以继续聊下去。</p>\n</blockquote>\n\n\t",
+      "author": "apibox",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "用人翻阅资料的行为模式来设计知识库怎么样？",
+      "link": "https://www.v2ex.com/t/1198233#reply7",
+      "pubDate": "2026-03-14T04:36:21.000Z",
+      "content": "\n\t<p>我们人是怎么查资料的，假如去图书馆\n1.找到对应的书架\n2.找到对应的书\n3.翻阅目录，定位到页码\n4.读取内容</p>\n<p>以上模式其实很简单，把最上一级的目录通过 System Prompt 传给 ai ，然后写几个 function call 就行了，ai 自己调方法去查。</p>\n<p>请问一下这种方式有什么缺点吗？</p>\n\n\t",
+      "author": "huanggan",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "Google one AI Pro 使用额度限制，这个量感觉不够",
+      "link": "https://www.v2ex.com/t/1198225#reply15",
+      "pubDate": "2026-03-14T03:43:47.000Z",
+      "content": "\n\t<p>代理模式和 Gemini CLI 的配额</p>\n<p>Gemini Code Assist 代理模式和 Gemini CLI 的请求配额会合并计算</p>\n<p>每个用户每分钟的请求数 120\n每个用户每天的请求数\t1500\n<a href=\"https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn\" rel=\"nofollow\">https://developers.google.com/gemini-code-assist/resources/quotas?hl=zh-cn</a></p>\n\n\t",
+      "author": "Hyvi",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "请问在阿里云中怎样管理少量的密码、API KEY 之类的凭据？",
+      "link": "https://www.v2ex.com/t/1198222#reply6",
+      "pubDate": "2026-03-14T03:38:52.000Z",
+      "content": "\n\t以前使用 AWS 的时候用 Secrets Manager 管理、使用少量凭据，<br />现在需要使用阿里云做国内项目（后续建议公司评估 AWS 中国服务）。<br />阿里云客服告知凭据的最低购买量是 1000 个，<br />实际项目中一个环境也不超过 10 个凭据，<br />请问阿里云有什么性价比更高的凭据管理方式吗？\n\t",
+      "author": "sungnix",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "大家公司怎么使用 ai 的?",
+      "link": "https://www.v2ex.com/t/1198216#reply11",
+      "pubDate": "2026-03-14T02:28:04.000Z",
+      "content": "\n\t<ul>\n<li>在哪些场景，怎么使用的？</li>\n<li>不仅仅是编程，据了解编程领域是 ai 提效最高的。</li>\n</ul>\n\n\t",
+      "author": "siaronwang",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "title": "有新闻抓取的 skills 吗？",
+      "link": "https://www.v2ex.com/t/1198166#reply20",
+      "pubDate": "2026-03-13T14:27:51.000Z",
+      "content": "\n\t在 clawhub 上找了几个(find-skills 以及手动找)，都不太符合需求，我的需求是：<br /><br />1. 抓国内新闻热点<br />2. 抓到的内容可以缓存，下次抓到重复内容不处理<br />3. 内容是：标题/链接/总结/日期等<br /><br />不需要支持很多平台，因为热点新闻会在大部分平台出现。<br /><br />自己部署 rsshub + 让🦞自己实现比较麻烦，因为总要调试，会浪费很多 tokens 。<br /><br />所以做一回伸手党，有没有已经实现好的新闻 skills ？\n\t",
+      "author": "ethusdt",
       "categories": [],
       "source": "V2EX - 技术",
       "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
@@ -854,6 +934,16 @@
       ],
       "source": "小众软件",
       "sourceUrl": "https://feeds.appinn.com/appinns/"
+    },
+    {
+      "title": "自从用了 Claude Code， Intellij 家族的 ide 很少打开了",
+      "link": "https://www.v2ex.com/t/1198110#reply41",
+      "pubDate": "2026-03-13T09:48:07.000Z",
+      "content": "\n\t<p><strong>自从用了 Claude Code ，Intellij 家族的 ide 很少打开了</strong></p>\n<p>你们用什么工具配合 ai 工具呀？</p>\n<p><img alt=\"\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://cdn.jsdelivr.net/gh/lifedever/images@master/uPic/2026/03/qkb5bT.jpg\"/></p>\n\n\t",
+      "author": "gefangshuai",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "安卓假如放弃 root 的话，建议买哪家？",
@@ -1079,6 +1169,16 @@
       "categories": [],
       "source": "美团技术团队",
       "sourceUrl": "https://tech.meituan.com/feed/"
+    },
+    {
+      "title": "喜欢 ROOT 的用户有福了，小米开了三八解锁节，点击就给解锁（）",
+      "link": "https://www.v2ex.com/t/1196673#reply118",
+      "pubDate": "2026-03-08T14:02:37.000Z",
+      "content": "\n\t<p>搬运：此次解锁基本原理是骁龙 8E GEN5 的底层漏洞，导致米系的全系 8E GEN5 手机，包含小米 17 全系、K90PM ，只要系统安全补丁在 2 月以前，均可解 BL ，无需答题，无需拆机，无需进阶操作，理论上会 ADB 就能解。\n小米解锁相比一加的优势：更稀有能装 X ，且不会炸 TEE 模块。\n参考链接： <a href=\"https://www.bilibili.com/video/BV1jVNMz5E5d\" rel=\"nofollow\">https://www.bilibili.com/video/BV1jVNMz5E5d</a>\n<a href=\"https://www.bilibili.com/video/BV1YxPBz9E3B\" rel=\"nofollow\">https://www.bilibili.com/video/BV1YxPBz9E3B</a></p>\n<p>叠甲：楼主自己未购买小米系手机，仅吃瓜心态搬运，消息真实度需自行判断。（不过看完还是有点想现场下单一台了，虽然不知道 ROOT 能实现什么人无我有的独特功能）</p>\n\n\t",
+      "author": "doctorzry",
+      "categories": [],
+      "source": "V2EX - 技术",
+      "sourceUrl": "https://v2ex.com/feed/tab/tech.xml"
     },
     {
       "title": "决战模型之巅 (评论: Overfitting and Heuristics in Philosophy)",
